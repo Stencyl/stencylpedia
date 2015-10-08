@@ -1,18 +1,18 @@
 ## Actor-Terms
 
-##### Actor (Instance)
+#### Actor (Instance)
 
 An individual object in a Scene that has a parent Actor Type. Note that each Actor shares the Behaviors, and related Attributes and Attribute values, that a user attaches to its parent Actor Type.
 
-##### Actor Type
+#### Actor Type
 
 A template or “blueprint” that an Actor is based on. An Actor Type is the “parent” of an Actor. Each Actor Type can have its own set of Behaviors that define what its “child” Actors can do and any other related game logic characteristics.
 
-##### Actor Group
+#### Actor Group
 
 The specific Collision Group associated with an Actor Type, and any related child Actors. An Actor Type can have more than one Collision Group associated with it.
 
-##### Animation
+#### Animation
 
 A group of images that display in order over a set period of time. An Actor Type can have multiple Animations but a Tile can only have a single Animation. An individual image in an Animation is called an Animation Frame. Each Animation associated with an Actor Type can have its own Collision Group(s). An Animation can be set to play once or to repeat (looping). A Tile cannot have more than one Collision Group associated with its Animation. In addition, each Animation will have its own Collision Shape.
 
@@ -126,7 +126,7 @@ An independent “voice” that you can assign a Sound Attribute to. You can use
 
 
 
-Development / Debugging
+## Development / Debugging
 
 Print
 
@@ -222,7 +222,7 @@ Screen Space
 
 When drawing text or custom shapes, this refers to a the screen as the point of origin for whatever is being drawn. Whatever is drawn will have its origin as the upper left corner (0, 0) of the screen window.
 
-Products
+## Products
 
 Stencyl (previously known as StencylWorks)
 
@@ -236,7 +236,7 @@ StencylForge
 
 A Web-based software program, accessible from inside Stencyl, that allows you to share game assets with others and download game assets that others have uploaded.
 
-Areas of the Toolset
+## Areas of the Toolset
 
 Welcome Center
 
@@ -274,7 +274,7 @@ Code Mode
 
 A development environment, built into Stencyl, that allows you to use different common programming languages to create Behaviors.
 
-Technologies
+## Technologies
 
 Box2D
 
