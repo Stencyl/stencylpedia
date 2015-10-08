@@ -4,7 +4,7 @@ Stencyl is proudly built on top of both open source and proprietary 3rd party li
 
 The building blocks concept in Stencyl's Design Mode is based on Scratch software from the Lifelong Kindergarten Group at the MIT Media Lab (http://scratch.mit.edu).
 
-We did not derive our implementation from Scratch. We adopted the idea alone and expanded upon it. We obtained permission to adopt the Scratch approach from Professor Mitchel Resnick back in 2008.
+> We did not derive our implementation from Scratch. We adopted the idea alone and expanded upon it. We obtained permission to adopt the Scratch approach from Professor Mitchel Resnick back in 2008.
 
 ## Toolset Dependencies
 
