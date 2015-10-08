@@ -1,4 +1,4 @@
-Stencyl has a number of hotkey options that can make working with the app quicker and easier. The hotkey commands below are organized by the section/editor they are used in.  Most of these actions are available via buttons or menus as well.
+Stencyl supports a variety shortcuts to speed up your workflow. The shortcuts below are organized by the section/editor they are used in.  Most of these actions are available via buttons or menus as well.
 
 > **Note:** Mac users - Use Command instead of Ctrl, and Option instead of Alt.
 
