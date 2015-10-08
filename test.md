@@ -1,4 +1,4 @@
-## Dialog Extension Command Reference (Test)
+## Dialog Extension Command Reference (TestTest)
 
 For general info and help regarding Dialog Extension tags, see the Appendix sections:
 
