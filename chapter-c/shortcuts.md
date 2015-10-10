@@ -35,11 +35,13 @@ Shortcut | Purpose
 
 ## Actor / Background / Tileset Editors
 
-* **ARROWS** - Select a Single Frame
-* **CTRL+A or CTRL+/** - Select All Frames
-* **CTRL+\** - Select No Frames
-* **SHIFT+ARROWS** - Select All Frames From First Selected to Last Selected
-* **DELETE** - Delete Selected Frame(s)
+Shortcut | Purpose
+--- | ---
+**ARROWS** | Select a Single Frame
+**CTRL+A or CTRL+/** | Select All Frames
+**CTRL+\** | Select No Frames
+**SHIFT+ARROWS** | Select All Frames From First Selected to Last Selected
+**DELETE** | Delete Selected Frame(s)
 
 ## Scene Designer
 
