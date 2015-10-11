@@ -1,4 +1,4 @@
-> At this time, we are not accepting translations and have temporarily taken down our online tool due to technical issues. All work has been preserved, and we plan to reintroduce the tool in the future.
+> **Current Status**: At this time, we are not accepting translations and have temporarily taken down our online translation tool due to technical issues. All work has been preserved, and down the road, we'd like to reintroduce it.
 
 ## Check our Translation Tool (Currently Offline)
 
