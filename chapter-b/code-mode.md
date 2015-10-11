@@ -65,21 +65,22 @@ If you want to mix the two, you need to make a design mode behavior and stick in
 
 In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. The easiest way to learn the syntax is by example.
 
-`//Expose your attributes to Stencyl like this
+```
+//Expose your attributes to Stencyl like this
 [Attribute(id="1", name="Display Name", desc="An Attribute")]
-public var attributeName:String = "default";`
- 
+public var attributeName:String = "default";
+``` 
 
 ### Accepted Properties
  
 
-Name | Description	Required?
---- | ---
-id | Must be a unique integer	Yes
-order |	What order it appears in the Behavior page	No
-desc | Display name on the Behavior page	Yes
-dropdown | dropdown data	No
-type | Use this if you are defining a Control, Animation, Effect or Game Attribute attribute and set to "control" "animation" "effect" or "game-attribute"	Yes, for certain types
+Name | Description	| Required?
+--- | --- | ---
+id | Must be a unique integer |	Yes
+order |	What order it appears in the Behavior page |	No
+desc | Display name on the Behavior page |	Yes
+dropdown | dropdown data |	No
+type | Use this if you are defining a Control, Animation, Effect or Game Attribute attribute and set to "control" "animation" "effect" or "game-attribute" |	Yes, for certain types
 
 ### The Types
  
@@ -106,7 +107,7 @@ type | Use this if you are defining a Control, Animation, Effect or Game Attribu
 > **TODO:** This list was drafted for 2.0 / ActionScript and may not be correct in 3.0 / Haxe.
  
 
-## ** The Future **
+## The Future
 
 Down the road, we'd like to significantly enhance the coding experience. The best way is to improve integration of code with external editors rather than trying to build better (but still inferior) support into Stencyl itself.
 
