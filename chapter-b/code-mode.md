@@ -1,4 +1,4 @@
-> **Call for Help:** This article is out of date. Want to help us rewrite it? Head over to Github and submit edits to this article.
+> **Call for Help:** This article is out of date. Want to help us rewrite it? [Head over to Github](https://github.com/Stencyl/stencylpedia/blob/master/chapter-b/code-mode.md) and submit edits to this article.
 
 Stencyl supports Code Mode, a way to write behaviors entirely using code (currently, Haxe).
 
