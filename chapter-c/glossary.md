@@ -1,4 +1,4 @@
-## Actor-Terms
+## Actor Terminology
 
 #### Actor (Instance)
 
@@ -36,7 +36,7 @@ Only used when you need to reference “origin” coordinates related to an Acto
 
 An option related to the collision bounds and group(s) associated with an Actor Type. An Actor that has collision bounds set as Sensors will detect when something else collides with it but won’t produce a standard collision response (i.e. bouncing off each other). If an Actor collides with another Actor that has its collision bounds set to the Sensor option, the two Actors will appear to pass through one another. A user can still perform logic on Actors (via Behaviors) that are Sensors, though. For example, although one Actor that is a Sensor can pass through another, that Actor could still take damage from colliding with another Actor.
 
-## Behavior-Terms
+## Behavior Terminology
 
 #### Behavior
 
@@ -148,7 +148,7 @@ A list of all the logic that has occurred when running Stencyl, in chronological
 
 Logs are files that show text of the Stack Trace for Stencyl. When Stencyl or a game reports an error, the Logs can often help determine what the problem is. You can generate Logs for Stencyl by clicking on the Debug option and selecting Generate Logs. The Logs will be output to a location of your choice on your computer (for example, your computer’s desktop).
 
-## Scene-Terms
+## Scene Terminology
 
 #### Scene
 
@@ -194,7 +194,7 @@ An image drawn in front of the highest Layer of Tiles.
 
 The ability to change the non-hidden Attribute values associated with an individual Actor’s Behavior(s). You can change an Actor’s Behavior(s)’ Attribute values by right-clicking on an Actor in the Scene Editor and clicking “Customize Behavior.”
 
-## Game-Terms
+## Game Terminology
 
 #### Game
 
@@ -268,18 +268,18 @@ A development environment, built into Stencyl, that allows you to use different 
 
 ## Technologies
 
-#### Box2D
-
-A free, open-source physics engine, created by Erin Catto, that Stencyl uses to provide physics for games.
-
 #### Haxe
 
-A multi-platform language similar to JavaScript and ActionScript that cross-compiles to Flash bytecode, JavaScript and C++. This enables exporting to every commercially important platform (Flash, HTML5, Desktop, iOS, Android, Blackberry, Windows Phone) from a single codebase.
+A multi-platform language similar to JavaScript and ActionScript that cross-compiles to Flash bytecode, JavaScript and C++. This enables exporting to most commercially important platforms (Flash, HTML5, Windows/Mac/Linux, iOS, Android) from a single codebase.
 
 #### OpenFL (and Lime)
 
 A reimplementation of the Flash API within Haxe. Effectively, allows a game or an engine to be written in a Flash-like manner and exported to all platforms. OpenFL stands for Open Flash Library.
 
+#### Box2D
+
+A free, open-source physics engine, created by Erin Catto, that Stencyl uses to provide physics for games.
+
 #### Objective-C
 
-A programming language, developed by Apple, used to write software programs that can run on iOS devices, such as the iPhone and iPad. In Stencyl 3.0 and beyond, Objective-C can be used in extensions to accomplish further augment games with native functionality.
+A programming language, developed by Apple, used to write software programs that can run on iOS devices (iPhone, iPad, Apple TV). In Stencyl 3.0 and beyond, Objective-C can be used in extensions to enhance games with native functionality.
