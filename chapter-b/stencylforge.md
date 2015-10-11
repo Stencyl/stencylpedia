@@ -34,4 +34,4 @@ Our original vision behind StencylForge was to make it a shared space for artist
 
 StencylForge has turned out differently from that vision and while interesting things have been created, many are using it as a backup solution for storing their games online. This isn't what we had in mind, and it isn't something we'd like to continue in the long term.
 
-To that end, we plan to sunset StencylForge in 2016, so we can focus all of our energy on the core toolset. Data will remain up on StencylForge, but **we will start blocking new submissions in Stencyl 3.4** and in all versions sometime in 2016.
+To that end, we plan to sunset StencylForge in 2016, so we can focus all of our energy on the core toolset. StencylForge will remain read-only for some time (so all data will be retained and accessible), but **we will start blocking new submissions in Stencyl 3.4** and in all versions sometime in 2016.
