@@ -1,4 +1,4 @@
-> **Call for Help:** This article is incomplete. Want to help us improve it? Click the **Edit Article** buttona at the bottom to submit edits to this article.
+> **Call for Help:** This article is incomplete. Want to help us improve it? [Propose edits](https://www.github.com/Stencyl/stencylpedia/edit/master/chapter-b/ios-debugging.md) to this article.
 
 ## Contents
 
