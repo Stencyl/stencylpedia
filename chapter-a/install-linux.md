@@ -6,11 +6,12 @@
 ## Installation instructions for Ubuntu and Debian
 
 > *Note:* Installation on other Linux distributions will be similar, but the package names may be different. If you have trouble installing Stencyl on another Linux distribution, [ask on the forums](http://community.stencyl.com/index.php/topic,30927.0.html).
- 
-#### Minimum Requirements
+
+### Minimum Requirements
 * Ubuntu 12.04 LTS or later OR Debian Jessie or later.
 * libc6 2.15 or later. *(Haxe 3.0+ does not work with older versions of libc6)*
- 
+
+<br/>
 
 #### Step 1 - Install the Compiler and its Dependencies
 Run the following command:
