@@ -58,7 +58,7 @@ Although we try to scan and identify common errors, some inevitably slip through
 
 5. If you locate an error, try to **understand what it means** and search on Google. This is most useful for certificate errors where the solutions to such issues are well documented on Q&A sites such as StackOverflow. 
 
-6. If you can't figure out what's going on, export your logs and ask a question on the forums.
+6. If you can't figure out what's going on, [export your logs](http://www.stencyl.com/help/view/generating-logs/) and ask a question on the forums.
 
  
 
