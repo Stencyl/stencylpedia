@@ -40,12 +40,16 @@ Before your game runs, it has to compile. Compiling means translating all the bl
 
 Errors in your behaviors are generally caught by Stencyl, with the offending behaviors automatically opened up. Most of the time, you're able to figure out what's wrong. That's not what we're focusing on here.
 
+#### Why it happens
+
 What we're focusing on are the cases where your game gets stuck in the "Compiling..." state or abruptly tells you that the game could not be built. The first thing to realize is that your game isn't stuck. It hit an error that we couldn't detect for reasons like these.
 
 * Errors with iOS certificates.
 * Errors with signing an app.
 * Haxe errors.
 * Couldn't establish connection with device.
+
+#### Best Practices
 
 Although we try to scan and identify common errors, some inevitably slip through the cracks. Here's what you can do to stay informed during the process, so you aren't left waiting forever.
 
@@ -57,12 +61,11 @@ Although we try to scan and identify common errors, some inevitably slip through
 6. If you can't figure out what's going on, [export your logs](http://www.stencyl.com/help/view/generating-logs/) and ask a question on the forums.
 
 
-
 ## Viewing Device Logs
 
 If you're testing your game on your iOS device, viewing the console logs for your device when it's running your app is useful to know. There are various ways to do this.
 
-### Method 1: Xcode
+#### Method 1: Xcode
 
 Xcode's Organizer (Window > Organizer) lets you browse your device's past logs.
 
@@ -70,7 +73,7 @@ Xcode's Organizer (Window > Organizer) lets you browse your device's past logs.
 **Cons:** Device must be connected to your computer.
 
 
-### Method 2: Use the Console App
+#### Method 2: Use the Console App
 
 This app displays your device's console logs. Useful if your game crashes, and you don't know why.
 
@@ -80,7 +83,7 @@ This app displays your device's console logs. Useful if your game crashes, and y
 **Cons:** Hard to get the info off the device. E-mailing it to yourself is your best bet.
 
 
-### Method 3: Use iTunes
+#### Method 3: Use iTunes
 
 [Instructions](http://aplus.rs/apple/how-to-find-crash-logs-for-iphone-applications-on-mac-vista-and-xp/)
 
@@ -105,13 +108,13 @@ Sometimes crashes are due to reasons beyond your control (and ours), but if you 
 
 Putting the elements discussed previously together, you can now debug your game when it crashes. Here’s a summary of what to do:
 
-### Step 1: Make the crash happen again (“repro,” short for “reproduce,” the problem)
+#### Step 1: Make the crash happen again (“repro,” short for “reproduce,” the problem)
 This will cue you in on what actually caused the problem.
 
-### Step 2: Examine the game logs and stack trace in the Stencyl's Log Viewer (or Mac's Console)
+#### Step 2: Examine the game logs and stack trace in the Stencyl's Log Viewer (or Mac's Console)
 See if you can recognize your behaviors. Is it something you can trace back to your game and fix?
 
-### Step 3: Tinker with your game to isolate the issue
+#### Step 3: Tinker with your game to isolate the issue
 If you can’t recognize the faulty behavior, disable suspicious behaviors, based on what you know causes the crash, until the game no longer crashes.
 
 Once you’ve figure out the offending behavior(s), try to narrow it down to particular blocks, if possible. If you are unable to fix the issue, or if you think it’s a problem on our end, report it on the forums and include the following info.
