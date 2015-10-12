@@ -17,10 +17,10 @@ It's rare for a game to run perfectly the first time you make it. Bugs and crash
 
 Your game's logs record much of what goes on while your game is running as well as any additional information you decide to add in. 
 
-### Viewing the Logs
+#### Viewing the Logs
 Turn on the Log Viewer by selecting **View > Log Viewer** from the main menu.
 
-### Adding Info to the Logs
+#### Adding Info to the Logs
 To add information to the logs, use the **print block**, located under **Flow > Debug** in the palette.
 
 ![Print Block](http://static.stencyl.com/pedia2/blocks/flow/flow_debug/Print.png)
