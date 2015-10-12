@@ -19,7 +19,7 @@ Run the following command:
 sudo apt-get install g++ libgc-dev libxext-dev
 ```
  
-*Perform steps 2 and 3 only if you are on a 64-bit Linux system.*
+*Perform steps 2 and 3 only if you are on a 64-bit Linux system. If you are on a 32-bit system, you may now run Stencyl.*
 
  
 #### Step 2 - Install Packages required by the JRE and Android SDK
