@@ -7,7 +7,9 @@
 
 > *Note:* Installation on other Linux distributions will be similar, but the package names may be different. If you have trouble installing Stencyl on another Linux distribution, [ask on the forums](http://community.stencyl.com/index.php/topic,30927.0.html).
 
-### Minimum Requirements
+<br/>
+
+#### Minimum Requirements
 * Ubuntu 12.04 LTS or later OR Debian Jessie or later.
 * libc6 2.15 or later. *(Haxe 3.0+ does not work with older versions of libc6)*
 
@@ -20,7 +22,7 @@ Run the following command:
 sudo apt-get install g++ libgc-dev libxext-dev
 ```
  
-*Perform steps 2 and 3 only if you are on a 64-bit Linux system. If you are on a 32-bit system, you may now run Stencyl.*
+> *Perform steps 2 and 3 only if you are on a 64-bit Linux system. If you are on a 32-bit system, you may now run Stencyl.*
 
  
 #### Step 2 - Install Packages required by the JRE and Android SDK
