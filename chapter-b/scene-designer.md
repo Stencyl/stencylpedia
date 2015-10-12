@@ -54,7 +54,7 @@ Layers determine whether an object is drawn at in front of, or behind other obje
  
 ## Reference
 
-### Task Bar (Part 1 of 9)
+### Task Bar (Part 1 of 6)
 
 Located at the top, the Task Bar lets you switch between different areas of the Scene Designer.
 
@@ -68,16 +68,16 @@ Located at the top, the Task Bar lets you switch between different areas of the 
 * **Properties** let yous set your scene's size, the background color and name.
  
 
-### Toolbar (Part 2 of 9)
+### Toolbar (Part 2 of 6)
 
 The toolbar gives you control over what you can interact with in your scene. It also lets you change the current scene's display options.
 
 ![Toolbar](http://static.stencyl.com/pedia2/ch4/basics/sd-toolbar.png)
  
-#### Layer Mode (Part 3 of 9)
+#### Layer Mode
 The Layer Mode determines whether your selections only grab from the **current layer** or from **all layers** (default).
 
-#### Working Mode (Part 4 of 9)
+#### Working Mode
 The Working Modes let you work with specific kinds of objects within a scene.
 
 * Actors and Tiles (default)
@@ -88,7 +88,7 @@ The Working Modes let you work with specific kinds of objects within a scene.
 * Custom Terrain
  
 
-### The Rest (Part 5 of 9)
+#### The Rest
 ![Other toolbar items](http://static.stencyl.com/pedia2/ch4/basics/sd-toolbar2.png)
 
 * Take a Snapshot
@@ -100,7 +100,7 @@ The Working Modes let you work with specific kinds of objects within a scene.
 * Toggle Opacity and Blend Modes Preview (for Layers and Backgrounds)
  
 
-### Toolbox (Part 6 of 9)
+### Toolbox (Part 3 of 6)
 
 The toolbox controls which tools are currently active.
 
@@ -124,7 +124,7 @@ The toolbox controls which tools are currently active.
 ![Toolbox](http://static.stencyl.com/help/images/SceneToolsPic.png)
  
 
-### Palette (Part 7 of 9)
+### Palette (Part 4 of 6)
 
 The Palette lets you select Tiles and Actors from your game. You can then, using the Pencil Tool, place them onto the scene.
 
@@ -133,7 +133,7 @@ The Palette lets you select Tiles and Actors from your game. You can then, using
 > **Tip:** You can select multiple tiles at once in the Palette by clicking and dragging the selection box.
  
 
-### Layers (Part 8 of 9)
+### Layers (Part 5 of 6)
 
 The Layers Pane controls everything related to a Scene's layers (and backgrounds). You can reorder layers, rename them and change their properties (blend mode, opacity, scroll speed) among other things. 
 
@@ -150,7 +150,7 @@ The **cog**, when clicked, brings up a popup with properties to edit, including 
 > **Tip:** You can also double-click a layer to rename it.
  
 
-### Status Bar (Part 9 of 9)
+### Status Bar (Part 6 of 6)
 
 ![Status Bar](http://static.stencyl.com/help/images/SceneDesignerInfoBar1.png)
 
