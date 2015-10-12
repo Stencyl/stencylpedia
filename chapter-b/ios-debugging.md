@@ -22,10 +22,10 @@ Your game's logs record much of what goes on while your game is running as well 
 Logs come in two forms - the ones that Stencyl / Haxe emits and the ones that the iOS device emits. In most cases, even in the event of a crash, the Stencyl / Haxe ones provide all the info you need.
 
 
-### Viewing the Logs
+#### Viewing the Logs
 Turn on the Log Viewer by selecting **View > Log Viewer** from the main menu.
 
-### Adding Info to the Logs
+#### Adding Info to the Logs
 To add information to the logs, use the **print block**, located under **Flow > Debug** in the palette.
 
 ![Print Block](http://static.stencyl.com/pedia2/blocks/flow/flow_debug/Print.png)
@@ -54,10 +54,15 @@ What we're focusing on are the cases where your game gets stuck in the "Compilin
 Although we try to scan and identify common errors, some inevitably slip through the cracks. Here's what you can do to stay informed during the process, so you aren't left waiting forever.
 
 1. **Turn on the Log Viewer** before you run a game. (View > Log Viewer)
+
 2. Run your game.
+
 3. The Log Viewer **should continually spew out new lines**. It may slow down at times, but progress should be steady.
+
 4. If it stops, scan the last page or so worth of lines for errors. 
+
 5. If you locate an error, try to **understand what it means** and search on Google. This is most useful for iOS certificate errors where the solutions to such issues are well documented on Q&A sites such as StackOverflow. 
+
 6. If you can't figure out what's going on, [export your logs](http://www.stencyl.com/help/view/generating-logs/) and ask a question on the forums.
 
 
