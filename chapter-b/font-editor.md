@@ -15,10 +15,7 @@ Our Font Editor lets you import or create fonts for use in your games when drawi
  
 ## Font Types (Regular vs. Bitmap)
 
-There are two kinds of Fonts you can create and use in Stencyl:
-
-* Regular Fonts
-* Bitmap Fonts
+There are two kinds of Fonts you can create and use in Stencyl: Regular Fonts and Bitmap Fonts.
 
 **Regular Fonts** work like the ones you use when word processing. They are based on TrueType (TTF) fonts. They're easy to set up, but they aren't very customizable, and they can take up a lot of space. We offer Regular Fonts for convenience.
 
