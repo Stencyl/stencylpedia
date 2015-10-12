@@ -1,4 +1,4 @@
-> Note: This is a reference manual for those already familiar with Stencyl. If you are a newcomer, we recommend [running through Chapter 4](http://www.stencyl.com/help/viewArticle/120/) in full instead. Chapter 4 covers the fundamental concepts behind scenes.
+> **Note:** This is a reference manual for those already familiar with Stencyl. If you are a newcomer, we recommend [running through Chapter 4](http://www.stencyl.com/help/viewArticle/120/) in full instead. Chapter 4 covers the fundamental concepts behind scenes.
  
 
 ## Contents
@@ -157,9 +157,8 @@ The **cog**, when clicked, brings up a popup with properties to edit, including 
 The bottom part of the Scene Designer will show you the x and y coordinates of the mouse as well as the zoom factor.
 
  
-
 ## Tips & Tricks
 
 * Hold shift to snap your selection to the grid.
 * Mouse over the corner of an actor, click and drag the rotate icon to rotate the actor.
-Y* ou can select multiple tiles at once in the Palette by clicking and dragging the selection box.
+* You can select multiple tiles at once in the Palette by clicking and dragging the selection box.
