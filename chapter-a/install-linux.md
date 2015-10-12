@@ -9,7 +9,7 @@
  
 #### Minimum Requirements
 * Ubuntu 12.04 LTS or later OR Debian Jessie or later.
-*libc6 2.15 or later. *(Haxe 3.0+ does not work with older versions of libc6)*
+* libc6 2.15 or later. *(Haxe 3.0+ does not work with older versions of libc6)*
  
 
 #### Step 1 - Install the Compiler and its Dependencies
