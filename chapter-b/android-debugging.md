@@ -74,10 +74,10 @@ The **Android Device Monitor** gives you visibility into the raw Android system 
 
 > **Note:** This section tells you how to use the Android Device Monitor. The Debugging Tips section helps you reach the root cause of the crash.
  
-### How to Launch the Android Device Monitor
+#### How to Launch the Android Device Monitor
 Select **Debug > Android > Launch Device Monitor** from the main menu.
 
-### How to Use It
+#### How to Use It
 The Android Device Monitor consists of 3 sections. The left section lets you pick what device to inspect. The center section provide advanced information geared towards programmers. The bottom section provides the raw logs. We'll mostly focus on the bottom section.
 
 Android logs can appear complex and overwhelming at first. Here are a couple things to look out for.
