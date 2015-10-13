@@ -6,7 +6,7 @@ This article covers solutions to **showstopping issues** such as:
 * My game no longer opens.
 * My games all disappeared (they haven't)
 * Stencyl keeps telling me that it "can't connect"
-* 
+
 
 ## I can't launch Stencyl.
 
