@@ -13,13 +13,13 @@ Although we are working to reduce memory usage and plug leaks, there are large g
 
 1. [Install](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) the 64-bit version (x64) of Java 8 to your computer.
 
-2. Download one of the following scripts and place it into your Stencyl installation directory.
+2. Download one of the following scripts and place it into your Stencyl installation directory. (For best results, pick 1-2 tiers below what you have -- e.g. If you have 4 GB, choose the 2 or 3 GB option.)
 
-* [2 GB]()
-* [3 GB]()
-* [4 GB]()
-* [6 GB]()
-* [8 GB]()
+* [2 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-2gb.bat)
+* [3 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-3gb.bat)
+* [4 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-4gb.bat)
+* [6 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-6gb.bat)
+* [8 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-8gb.bat)
 
 3. Double-click the script to launch Stencyl from now on.  
 
