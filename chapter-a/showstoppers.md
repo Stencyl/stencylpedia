@@ -6,7 +6,7 @@ This article covers solutions to **showstopping issues** such as:
 * My game no longer opens.
 * My games all disappeared (they haven't)
 * Stencyl keeps telling me that it "can't connect"
- 
+* 
 
 ## I can't launch Stencyl.
 
@@ -16,6 +16,8 @@ Stencyl may not launch for the following reasons:
 * On Windows, you did not run Stencyl as an administrator.
 * You installed Stencyl to an unwritable location.
  
+> [Let us know on the forums](http://community.stencyl.com/) if you still can't launch the app after trying the solutions above.
+
 
 ## I can't sign in to the site or forums.
 
@@ -47,7 +49,7 @@ Stencyl stores games in what we dub as the **workspace** - this is a folder, usu
 
 If your games disappeared, chances are that the workspace changed or got reset to the default. To be clear, no data has been lost, and it's a matter of resetting your workspace back to where it previously was.
 
-It's best to [ask for help](http://community.stencyl.com/index.php/board,3.0.html) on the forums when this happens if you aren't sure about what to do.
+> It's best to [ask for help](http://community.stencyl.com/index.php/board,3.0.html) on the forums when this happens if you aren't sure about what to do.
 
 
 ## Stencyl keeps telling me that it "can't connect"
@@ -59,7 +61,7 @@ Use the exact same login details as you'd use to sign in to Stencyl.com.
 * Is Caps Lock on? (it happens...)
 * Are you entering in your e-mail address? Use your username instead.
 
-[Let us know on the forums](http://community.stencyl.com/) if you still can't sign in.
+> [Let us know on the forums](http://community.stencyl.com/) if you still can't sign in.
 
  
 ## Don't see your issue here?
