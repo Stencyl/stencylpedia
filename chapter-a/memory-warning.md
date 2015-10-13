@@ -15,11 +15,11 @@ Although we are working to reduce memory usage and plug leaks, there are large g
 
 2. Download one of the following scripts and place it into your Stencyl installation directory. (For best results, go lower than what you have -- e.g. If you have 4 GB, choose the 2 or 3 GB option.)
 
-* [2 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-2gb.bat)
-* [3 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-3gb.bat)
-* [4 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-4gb.bat)
-* [6 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-6gb.bat)
-* [8 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-8gb.bat)
+  * [2 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-2gb.bat)
+  * [3 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-3gb.bat)
+  * [4 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-4gb.bat)
+  * [6 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-6gb.bat)
+  * [8 GB](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-a/stencyl-8gb.bat)
 
 3. Double-click the script to launch Stencyl from now on.  
 
