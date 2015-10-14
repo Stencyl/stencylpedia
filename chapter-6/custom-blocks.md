@@ -88,7 +88,7 @@ Now that we've created a custom block, let's use it. Where can you find it?
 
 #### Custom Blocks reside inside the "Custom" category of the Palette
 
-> Custom blocks are organized by behavior. Those created inside an Actor/Scene versus a standalone behavior will be under a header that looks like ActorEvents_1 or SceneEvents_1.
+Custom blocks are organized by behavior. Those created inside an Actor/Scene versus a standalone behavior will be under a header that looks like ActorEvents_1 or SceneEvents_1.
 
 ![Custom Blocks Palette](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-10.png)
 
