@@ -47,7 +47,7 @@ This event is triggered **any time a touch begins, is dragged around or ends**. 
 
 Additionally, you'll find that the ID of touch block also lets you get the X/Y positions of that particular touch by selecting those options from its dropdown.
 
-![position-of-touch]()
+![position-of-touch](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/touch-1.png)
 
  
 #### Warning: Do Not Mix Single and Multi-Touch
