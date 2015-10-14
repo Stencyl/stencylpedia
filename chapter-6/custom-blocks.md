@@ -119,12 +119,16 @@ Otherwise, custom blocks that return a value will act like blocks of that type. 
 
 > **Programmers:** Global Custom Blocks are equivalent to static functions
 
-Global Custom Blocks are custom blocks that can be "called" from any behavior. You may have noticed this as an option when first creating the custom block.
+Global Custom Blocks are custom blocks that can be used in any behavior. You may have noticed this as an option when first creating the custom block.
 
 ![Global Custom Blocks](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-11.png)
 
-The catch? **You can't refer to any of a behavior's attributes from within the custom block's implementation.**
+What is the catch? **You can't refer to any of a behavior's attributes from within the custom block's implementation.**
 
 Why do you think this is the case?
 
-A global custom block isn't tied to any behavior at all. It lacks a "home," so it's unable to refer to a behavior's attributes. On the flip side, the advantage to a global custom block is that it can be used from anywhere. This can be convenient for game-wide functionality such modifying the a game's "score."
+A global custom block isn't tied to any behavior at all. Because it lacks a "home," it's unable to refer to a behavior's attributes. On the flip side, the advantage to a global custom block is that it can be used from anywhere in the game. This can be convenient for game-wide functionality such modifying a game's score, which is frequently stored inside of a game attribute.
+
+![Global Custom Blocks](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-17.png)
+
+![Global Custom Blocks](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-16.png)
