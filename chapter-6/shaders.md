@@ -93,9 +93,8 @@ Property Name | Accepted Values
 --- | ---
 hue | Between 0 - 360 degrees, inclusive.
 saturation | 1.0 means regular saturation. 2.0 means double. 0.5 means half.
-contrast | 1.0 means regular contrast. 2.0 means double. 0.5 means half.
 brightness | 1.0 means regular brightness. 2.0 means double. 0.5 means half.
-
+contrast | 1.0 means regular contrast. 2.0 means double. 0.5 means half.
 
 #### Tint
 
