@@ -99,7 +99,7 @@ Now that we've defined the wrapper for a custom block, it's time to implement it
 
 The short summary is this:
 
-1. **Drag in the parameter blocks** to use them in your custom block's implementation. In this case, these work just like regular actor blocks.
+1. **Drag in the parameter blocks** to use them in your custom block's implementation.
   ![Dragging in parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-13.png)
 
 2. **If your custom block returns a value, use the return block to do so.**
