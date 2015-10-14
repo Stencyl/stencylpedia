@@ -61,11 +61,11 @@ Then, pick what type of parameter you want (in this case, both will be Actors) a
 
 The spec field describes how the block will appear to the user.
 
-![What the block looks like](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-8.png)
+![Defining the spec](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-6.png)
 
 The % fields correspond to the parameters you defined in Step 3, and to tell what you type in, refer back to the **Reference for Block Spec Field** column above. In this case, %1 corresponds to Actor1 and %2 corresponds to Actor2.
 
-![Defining the spec](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-6.png)
+![What the block looks like](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-8.png)
 
 #### Final Step: Choose a "Return Type"
 
@@ -83,44 +83,36 @@ In this example, we want the block to calculate the distance between actors and 
 
 ## Using Custom Blocks
 
-Now that we've created a custom block, you can find the new block in your behavior at the very bottom below the other wrappers, and the custom block that you use to invoke it is in the palette as shown below.
+Now that we've created a custom block, let's use it. Where can you find it?
+
 
 #### Custom Blocks reside inside the "Custom" category of the Palette
 
-Notice that there are other custom blocks that I made before, they're listed by the name of the behavior they're created inside of.
+> Custom blocks are organized by behavior. Those created inside an Actor/Scene versus a standalone behavior will be under a header that looks like ActorEvents_1 or SceneEvents_1.
 
-You may even notice that one is shaped like the True/False blocks, which is because it returns a Boolean value (which is either true or false, of course).
+![Custom Blocks Palette](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-10.png)
 
-![Custom Blocks Palette](http://static.stencyl.com/help/images/CustomBlocks3_Palette.png)
+ 
+#### Implementing a Custom Block
+
+Now that we've defined the wrapper for a custom block, it's time to implement it. 
+
+The short summary is this:
+
+1. **Drag in the parameter blocks** to use them in your custom block's implementation.
+  <br/>![Dragging in parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-13.png)
+
+2. **If your custom block returns a value, use the return block to do so.**
+  <br/>![Returning a value](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-12.png)
+
 
 #### Using a Custom Block
-Like any ordinary block, drag a Custom Block in to use it.
- 
-> **Note:** The rest of this section completes the "distance between actors example that the original author started. Feel free to follow along or skip down to **Global Custom Blocks** to continue with the rest.
 
-Now, we still haven't actually done anything yet to tell the custom block to actually DO anything. Below, you can see an image where I've grabbed all the necessary blocks for our needs. Notice there are two arrows that show you how to use the parameters.
+Custom blocks with "None" as a return value will work like action blocks.
 
-You can grab the "Actor1" and "Actor2" blocks from the Custom Block's wrapper and use them inside of it as necessary anywhere an Actor attribute would be used. If you had used different parameter types (such as Number, etc) then you could use those in their appropriate fields instead.
+Otherwise, custom blocks that return a value will act like blocks of that type. For example, our distance block acts like a number block **because we set the return type to number**.
 
-![Custom Blocks Detail](http://static.stencyl.com/help/images/CustomBlocks4.png)
-
-Below you can see it in it's final assembled state. Notice that the calculations have been put into a Return block (found under Messaging > Custom Blocks > Return Values) that will return the result of those calculations.
-
-![Custom Blocks Assembled](http://static.stencyl.com/help/images/CustomBlocks5.png)
-
-Now you can drag your custom block from the palette anywhere you want to use it! Using this block, I can now measure the X distance between any two actors.
-
-![Custom Blocks Final](http://static.stencyl.com/help/images/CustomBlockFinalPic.png)
-
-In this case I set a Number Attribute called "Distance" to the result of the custom block (the returned value), but you could just as easily use it elsewhere where numbers are needed.
- 
-###Examples would be things like the following:
-
-* Inside an IF conditional check that compares the distance between two actors to another number value, such as AI trigger (have the enemy start chasing the player when he gets too close!).
-* To add the distance values to a list for all enemies in the scene (using the "For each actor of type" wrapper and the "The Actor" block as the second parameter).
-* As the width of a line or box being drawn between two actors.
-* Converted to text and displayed on the screen as a measurement.
-* And many many more!
+![Usage of custom block](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-15.png)
  
 
 ## Global Custom Blocks
@@ -129,7 +121,7 @@ In this case I set a Number Attribute called "Distance" to the result of the cus
 
 Global Custom Blocks are custom blocks that can be "called" from any behavior. You may have noticed this as an option when first creating the custom block.
 
-![Where to create global custom blocks](http://static.stencyl.com/pedia2/ch5/custom/image0.png)
+![Global Custom Blocks](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-11.png)
 
 The catch? **You can't refer to any of a behavior's attributes from within the custom block's implementation.**
 
