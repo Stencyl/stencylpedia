@@ -105,7 +105,12 @@ The short summary is this:
 2. **If your custom block returns a value, use the return block to do so.**
   ![Returning a value](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-12.png)
 
-Like mentioned earlier, our distance block acts like a number block **because we set the return type to number**.
+
+#### Using a Custom Block
+
+Custom blocks with "None" as a return value will work like action blocks.
+
+Otherwise, custom blocks that return a value will act like blocks of that type. For example, our distance block acts like a number block **because we set the return type to number**.
 
 ![Usage of custom block](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-15.png)
  
