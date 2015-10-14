@@ -1,4 +1,4 @@
-# Contents
+## Contents
 
 * Introduction
 * Single Touch
