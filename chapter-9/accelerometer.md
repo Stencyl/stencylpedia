@@ -15,7 +15,7 @@ Some developers use a device's accelerometer to create games a user can control 
 
 ## Accelerometer Values
 
-You can access accelerometer data through a trio of blocks under the User Input > Mobile category in the Design Mode Palette.
+You can access accelerometer data through a trio of blocks under the **User Input > Mobile** category in the Design Mode Palette.
 
 ![Accel Blocks](http://static.stencyl.com/help/images/accel/image04.png)
 
@@ -33,6 +33,8 @@ The values of each of these range **between -1.0 and 1.0 inclusive**. Those valu
 The values are **flipped for a landscape oriented game**. In other words, the values are always relative to portrait orientation and won't automatically adapt for a landscape game. See the example below for details.
 
 #### Summary
+
+<br/>
 
 **Portrait Orientation**
 
@@ -67,7 +69,7 @@ As stated in the previous section, the x and y values are flipped for landscape-
 ####Why is it -70 rather than 70?
 If you input 70, the game will act the opposite of what you'd expect. 
 
-> Full Explanation: As mentioned above, a positive y-accelerometer value indicates a left tilt. However, since this is opposite of how Stencyl works (right is positive, left is negative), that's why the negative sign has to be there.
+> **Full Explanation:** As mentioned above, a positive y-accelerometer value indicates a left tilt. However, since this is opposite of how Stencyl works (right is positive, left is negative), that's why the negative sign has to be there.
 
 
 ## Challenge: Low Pass Filter
