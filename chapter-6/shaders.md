@@ -17,7 +17,6 @@ Shaders are filters that apply visual effects to the entire screen. They aren't 
 
 
 #### What can you do with shaders? 
-You can...
 
 * Turn shaders on and off at will.
 * Alter a shader's properties at runtime.
@@ -63,7 +62,7 @@ Sometimes, you want to modify a shader's properties in real-time (or before appl
 #### Tween Property
 ![](http://static.stencyl.com/pedia2/ch6/shader/shader-tween.png)
 
-> **Note:* All property names are case sensitive.
+> **Note:** All property names are case sensitive.
  
 
 ## Advanced: Custom Shaders
