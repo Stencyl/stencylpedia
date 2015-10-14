@@ -12,10 +12,10 @@ As its name implies, a custom block is a block you implement yourself. It is a w
 
 What's the benefit of a custom block?
 
-####Code Reuse
+#### Code Reuse
 You can reuse the code across a behavior. Bugs frequently happen when you copy a portion of code and reuse it in other places. If you make a change to one copy and forget to edit all copies, that's a bug waiting to happen.
 
-####Data In/Out
+#### Data In/Out
 You can pass data (parameters) to a Custom Block and take back a return value.
 
 > Programmers: Custom Blocks are equivalent to **functions / methods.**
@@ -46,17 +46,24 @@ Self explanatory.
 
 #### Step 3: Give it Fields (Parameters)
 
-Just click the + button in the block fields and you can select what parameters will be added to the list expected by the Custom Block.
+Parameters are the values that a block takes in. In this example, the values are the two actors we're trying to calculate the distance between.
 
-![Adding parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-4.png)
+First, click the + button...
 
 ![Adding parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-5.png)
 
-#### Step 4: Define the Block's Appearnce (some call this a "signature")
+Then, pick what type of parameter you want (in this case, both will be Actors) and what the name is. This is the name that will appear in the block itself, so make it descriptive.
 
-This one's tricky to put into words. Basically, this is how the block will appear to the user. The % fields are the blanks in the field. You can see in the Fields table what the % fields are.
+![Adding parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-4.png)
+
+
+#### Step 4: Define the Block's Appearance
+
+The spec field describes how the block will appear to the user.
 
 ![What the block looks like](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-8.png)
+
+The % fields correspond to the parameters you defined in Step 3, and to tell what you type in, refer back to the **Reference for Block Spec Field** column above. In this case, %1 corresponds to Actor1 and %2 corresponds to Actor2.
 
 ![Defining the spec](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-6.png)
 
@@ -66,11 +73,11 @@ At the bottom, you can also select a Return Type, which is what will be reported
 
 ![Return Type](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-7.png)
 
-Note that you can select None, in which case the block will just perform its actions but not report anything back.
+In this example, we want the block to calculate the distance between actors and give us back a positive number, so I've selected **Number** as the rturn type. As a result, the custom block can now be used anywhere a Number attribute would go in the behavior!
 
-> **Programmers:** Selecting none is equivalent to "void" as a return type.
+![Return Type](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-9.png)
 
-In this example, we want the block to calculate the distance between actors and give us back a positive number, so I've selected the Return Type of Number. As a result, the custom block can now be used anywhere a Number attribute would go in the behavior!
+> Note that you can select None, in which case the block will just perform its actions but not report anything back. In programming languages, "none" is equivalent to "void" as a return type.
 
  
 
