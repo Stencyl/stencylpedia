@@ -10,10 +10,10 @@
 
 As its name implies, a custom block is a block you implement yourself. It is a wrapper block (like the "Always" or "When Created" wrappers) that can hold virtually any blocks that you need it to. You can then use this block anywhere else in the behavior.
 
-What's the benefit of that?
+What's the benefit of a custom block?
 
 ####Code Reuse
-You can reuse the same bunch of code across the behavior. Bugs frequently happen when you copy the same code everywhere, make a change and forget to edit it all the places.
+You can reuse the code across a behavior. Bugs frequently happen when you copy a portion of code and reuse it in other places. If you make a change to one copy and forget to edit all copies, that's a bug waiting to happen.
 
 ####Data In/Out
 You can pass data (parameters) to a Custom Block and take back a return value.
@@ -30,11 +30,15 @@ Let's make a custom block that returns the distance between 2 actors.
 
 Pick out the "Event" for Custom Blocks.
 
-![Events Menu](http://static.stencyl.com/pedia2/ch5/custom/image0.png)
+![Events Menu](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-1.png)
+
+The custom block will appear in the working area. Click on the Create Custom Block button...
+
+![Created Template](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-2.png)
 
 You'll now see a dialog like this.
 
-![Custom Blocks Opener](http://static.stencyl.com/help/images/CustomBlocks1.png)
+![Custom Blocks Opener](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-3.png)
 
 #### Step 2: Give the block a Name
 
@@ -44,15 +48,23 @@ Self explanatory.
 
 Just click the + button in the block fields and you can select what parameters will be added to the list expected by the Custom Block.
 
+![Adding parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-4.png)
+
+![Adding parameters](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-5.png)
+
 #### Step 4: Define the Block's Appearnce (some call this a "signature")
 
 This one's tricky to put into words. Basically, this is how the block will appear to the user. The % fields are the blanks in the field. You can see in the Fields table what the % fields are.
 
-![Block Example](http://static.stencyl.com/help/images/CustomBlocks2.png)
+![What the block looks like](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-8.png)
+
+![Defining the spec](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-6.png)
 
 #### Final Step: Choose a "Return Type"
 
 At the bottom, you can also select a Return Type, which is what will be reported back to the behavior whenever this block is used.
+
+![Return Type](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-7.png)
 
 Note that you can select None, in which case the block will just perform its actions but not report anything back.
 
