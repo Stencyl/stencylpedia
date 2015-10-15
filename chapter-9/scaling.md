@@ -26,7 +26,7 @@ To make a game fit each device's screen, we need to do two things:
 ## Two Key Principles
 
 #### Design the game at 1x (Standard) resolution.
-Regardless of what the game is targeted towards, you'll be designing your game at a standard (1x) resolution, most commonly at 480 x 320 (corresponds to the original iPhone). Even if the game runs on say, an iPad Air, the logic behind the game remains the same. It's just blown up 4 times as large.
+Regardless of what the game is targeted towards, you'll be designing your game at a standard (1x) resolution. **This means that, if your game was designed to be a 480 x 320 game (to fit the original iPhone), the game size is 480 x 320. The scaling happens automatically at runtime depending on the device used to play the game.**
 
 ![](http://static.stencyl.com/help/images/app-scaling-2.png)
 
