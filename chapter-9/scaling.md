@@ -1,10 +1,9 @@
 ## Contents
 
 * Introduction
-* The Solution
-* How it Works
+* The Approach
 * Two Key Principles
-* Scale Modes - What to do with the extra space?
+* Scale Modes
 * Scaling on iOS
 * Scaling on Android
 * FAQ
@@ -34,7 +33,7 @@ Regardless of what the game is targeted towards, you'll be designing your game a
 #### Draw and import your graphics at 4x resolution.
 In contrast, you'll want to draw your graphics as large as you can. If your base resolution is 480 x 320, then quadruple that is 1920 x 1280, which will accomodate recent iPads and Android flagships.
 
-> **Note**: When you import your graphics (at 4x - the default), Stencyl will automatically generate a set of 1x, 1.5 and 2x graphics to use on lower-resolution devices.
+> **Note**: When you import your graphics (at 4x - the default), Stencyl will automatically generate a set of 1x, 1.5, 2x, 3x graphics to use on lower-resolution devices.
 
  
 
@@ -116,10 +115,10 @@ Nexus 6 | 2560 x 1440 | 4x
 ## FAQ
 
 #### Do I absolutely have to design my graphics at 4x?
-You can import at 1x or 2x, and Stencyl will generate the hi-res variants. This is useful for retro games.
+You can import at a lower scale such as 1x or 2x (you can tell Stencyl what scale you are importing at, at the time that you import), and Stencyl will generate the hi-res variants. This is useful for retro games.
 
 #### What does the Phone-Only mode do?
-It forces the game to cap out at 2x resolution, even on tablets where a higher resolution could be used. We don't think it's that useful, but a few users asked for it.
+It forces the game to max out at 2x resolution, even on tablets and smartphones where a higher resolution could be used. With most device resolutions trending well past the 2x point now, we think this isn't all that useful and may remove it in the future.
 
 #### What does Tablet-Only mode do?
-Tablet-only mode restricts your app to tablets. However, you still must import your graphics at 4x. We’ll omit the inapplicable (1x) sets from the app at export-time.
+Tablet-only mode is useful for tablet-only games. You still must import your graphics at 4x, but we’ll omit the inapplicable (1x) sets from the app at publication time to save you a little bit of space.
