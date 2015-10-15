@@ -12,7 +12,7 @@ This short, hands-on tutorial will walk you through the steps needed to create a
 
 
 ### Downloadable Materials
-The Crash Course requires the **Crash Course Kit**, which can be [downloaded here](#).
+The Crash Course requires the **Crash Course Kit**, which can be [downloaded here](Crash%20Course%20Kit.stencyl).
 
 To **install the kit**, either drag the file into the Stencyl window from the Welcome Center or import it from the File menu (File > Import Game…)
 
