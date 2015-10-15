@@ -73,7 +73,7 @@ At the bottom, you can also select a Return Type, which is what will be reported
 
 ![Return Type](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-7.png)
 
-In this example, we want the block to calculate the distance between actors and give us back a positive number, so I've selected **Number** as the rturn type. As a result, the custom block can now be used anywhere a Number attribute would go in the behavior!
+In this example, we want the block to calculate the distance between actors and give us back a positive number, so I've selected **Number** as the return type. As a result, the custom block can now be used anywhere a Number attribute would go in the behavior!
 
 ![Return Type](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/custom-blocks-9.png)
 
