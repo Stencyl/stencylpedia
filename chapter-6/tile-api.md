@@ -7,8 +7,8 @@ The Tile API is a collection of functions that let you modify a scene's terrain 
 
 * Change tile at a location
 * Remove tile at a location
-* Does a tile exist at a given location?
-* What tile exists at a given location? What collision group does it belong to? What tileset does it belong to?
+* Determine whether a tile exists at a given location.
+* Determine what tile exists at a given location. Determine which collision group it belongs to. Determine which tileset it belongs to?
  
 
 ## How do you install the Tile API?
