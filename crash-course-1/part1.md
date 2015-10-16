@@ -3,7 +3,8 @@ This short, hands-on tutorial will walk you through the steps needed to create a
 
 > Make sure you [download](http://www.stencyl.com/download/) and install Stencyl before starting the crash course.
 
-#### Sections
+
+## Sections
 1. [Create a New Game](http://www.stencyl.com/help/viewArticle/143/)
 2. [Locate Game Resources](http://www.stencyl.com/help/viewArticle/144/)
 3. [Customize Actors](http://www.stencyl.com/help/viewArticle/145/)
@@ -11,7 +12,7 @@ This short, hands-on tutorial will walk you through the steps needed to create a
 5. [Test your Game](http://www.stencyl.com/help/viewArticle/147/)
 
 
-#### Downloadable Materials
+## Downloadable Materials
 The Crash Course requires the **Crash Course Kit**, which can be [downloaded here](Crash%20Course%20Kit.stencyl).
 
 To **install the kit**, either drag the file into the Stencyl window from the Welcome Center or import it from the File menu (File > Import Game…)
