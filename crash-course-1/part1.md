@@ -1,19 +1,10 @@
-> **Sections**<br/>[Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
+> [Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
 
 
 ## Introduction
 This short, hands-on tutorial will walk you through the steps needed to create a simple platformer using pre-made content, so that you can become familiar with the main parts of Stencyl’s interface.
 
 > Make sure you [download](http://www.stencyl.com/download/) and install Stencyl before starting the crash course.
-
-
-## Sections
-1. [Create a New Game](http://www.stencyl.com/help/viewArticle/143/)
-2. [Locate Game Resources](http://www.stencyl.com/help/viewArticle/144/)
-3. [Customize Actors](http://www.stencyl.com/help/viewArticle/145/)
-4. [Create a Scene](http://www.stencyl.com/help/viewArticle/146/)
-5. [Test your Game](http://www.stencyl.com/help/viewArticle/147/)
-
 
 ## Downloadable Materials
 The Crash Course requires the **Crash Course Kit**, which can be [downloaded here](Crash%20Course%20Kit.stencyl).
