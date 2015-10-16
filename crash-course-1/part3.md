@@ -99,9 +99,9 @@ That’s it for the first Behavior!
 * **Stomp on Enemies:** Set **Stompable Group** to _**Enemies**_ (the group we created at the beginning of this section) and **Jump Key** to _**action1**_.
     
  > **Note:** You might have to reload the document in order for the Enemies group to show up as an option. Do this by using the keyboard shortcut Ctrl-R (Command-R on Mac), or by navigating to File > Reload Document.
-
- ![Stomp on Enemies](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-34.png)
 <a name="part5reference"></a>
+ ![Stomp on Enemies](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-34.png)
+
 * **Die in Pit and Reload:** Nothing to configure here. Just make sure you add it.
 
 ### Customizing Clown
