@@ -82,4 +82,8 @@ When you’re working on your game, it’s a very good idea to **save frequently
 
 ![Save Game](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-16.png)
 
-### [Continue to Part 3](http://www.stencyl.com/help/viewArticle/145/)
+***
+
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/145/">Continue to Part 3 &rarr;</a>
+
+***
