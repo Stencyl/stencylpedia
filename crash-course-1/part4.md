@@ -91,4 +91,8 @@ Now we just need to make sure our actors fall to the ground when they're in the 
 
 As you'd expect, higher values will result in stronger gravity, and lower values will result in lower gravity.
 
-### [Continue to Part 5](http://www.stencyl.com/help/viewArticle/147/)
+***
+
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/147/">Continue to Part 5 &rarr;</a>
+
+***
