@@ -120,4 +120,8 @@ That’s it for the first Behavior!
 
 > **Note:** As you may be able to tell, this Behavior makes Clown "stompable" like a Goomba in Super Mario Bros. Clown will "die" when hit from above and play a sound when this happens. If you click the Edit Behavior button, you can peek at the "code" behind this Behavior.
 
-### [Continue to Part 4](http://www.stencyl.com/help/viewArticle/146/)
+***
+
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/146/">Continue to Part 4 &rarr;</a>
+
+***
