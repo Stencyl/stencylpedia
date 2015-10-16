@@ -47,6 +47,6 @@ This is the **Welcome Center**. From here, you can either create a new game or o
 
 4. You’ll now be taken to the **Dashboard**, a central area where you can see and open your game’s resources (actors, graphics, sounds, game logic, etc).
 
-  (TODO: STICK IN IMAGE OF DASHBOARD)
+![Dashboard](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-5.png)
 
 ### [Continue to Part 2](http://www.stencyl.com/help/viewArticle/144/)
