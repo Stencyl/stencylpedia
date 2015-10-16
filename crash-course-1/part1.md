@@ -51,4 +51,6 @@ This is the **Welcome Center**. From here, you can either create a new game or o
 
 ***
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/144/">Continue to Part 2</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/144/">Continue to Part 2 →</a>
+
+***
