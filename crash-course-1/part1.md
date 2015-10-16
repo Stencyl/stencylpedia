@@ -1,7 +1,7 @@
 ## Introduction
 This short, hands-on tutorial will walk you through the steps needed to create a simple platformer using pre-made content, so that you can become familiar with the main parts of Stencyl’s interface.
 
-> Make sure you [download](http://www.stencyl.com/stencyl/get/) and install Stencyl before starting the crash course.
+> Make sure you [download](http://www.stencyl.com/download/) and install Stencyl before starting the crash course.
 
 ### Sections
 1. [Create a New Game](http://www.stencyl.com/help/viewArticle/143/)
