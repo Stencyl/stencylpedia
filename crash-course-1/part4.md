@@ -89,6 +89,6 @@ Now we just need to make sure our actors fall to the ground when they're in the 
 
 ![Gravity (Vertical): 85](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-56.png)
 
-Of course, higher values will result in stronger gravity, and lower values will result in lower gravity.
+As you'd expect, higher values will result in stronger gravity, and lower values will result in lower gravity.
 
 ### [Continue to Part 5](http://www.stencyl.com/help/viewArticle/147/)
