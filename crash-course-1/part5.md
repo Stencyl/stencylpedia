@@ -20,3 +20,14 @@ There's a whole lot more to Stencyl, and we encourage you to experiment on your 
 If you'd like a more in-depth guided tour, we recommend jumping straight into Crash Course 2, where you can create your own Space Invaders-like game.
 
 ### [Continue to Crash Course 2](http://www.stencyl.com/help/view/crash-course-invaders-1/)
+
+## Troubleshooting
+
+#### When I fall into the pit, the scene doesn't reload.
+As directed in Part 3 at the end of the Customizing Mambo section, attach the Die in Pit and Reload behavior to Mambo.
+
+#### Mambo and Pronger don't collide.
+Don't forget to set Pronger's Actor Group to Enemies.
+ 
+#### I receive a Flash error when running the game. The screen is just white.
+[Please post a topic on the forums](http://community.stencyl.com/index.php/board,3.0.html) and attach the game to your post. (Use File > Export Game... to do this)
