@@ -1,7 +1,7 @@
 ## Game Resources (Part 2 of 5)
 
 From the **Dashboard**, we can create new resources, import external ones or open existing ones. In the Crash Course, we’ve included all the resources you’ll need to get started. Let’s go over them.
-![RESOURCES](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-5.png)
+![Dashboard](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-5.png)
 
 ### The Player Actor
 We’ll start by locating the **Actor Type** that will serve as our playable character.
