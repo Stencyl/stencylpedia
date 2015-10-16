@@ -20,18 +20,18 @@ To **install the kit**, either drag the file into the Stencyl window from the We
 ### Welcome Center
 When you open Stencyl, you’ll see a screen that looks something like this.
 
-![Welcome Center](images/crash-course-1.png)
+![Welcome Center](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-1.png)
 
 This is the **Welcome Center**. From here, you can either create a new game or open an existing game.
 
 ### Creating a New Game
 1) Click the dotted rectangle labeled **"Click here to create a Game"**.
 
-![Click here to create a Game](images/crash-course-2.png)
+![Click here to create a Game](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-2.png)
 
 2) Click on the **Crash Course Kit**, then click the **Next button** at the bottom of the dialog.
 
-![Create a new game...](images/crash-course-3.png)
+![Create a new game...](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-3.png)
 
 > **What are Kits?** Often times when you create a game in Stencyl, you’ll want to start with a Kit. A kit is a game template that comes with pre-made resources, settings and game logic. The kit you’re starting with here has all the resources you’ll need for the Crash Course.
 
@@ -43,7 +43,7 @@ By setting the **Width** and **Height** dimensions in the **Screen Size** sectio
 
 Click the **Create** button.
 
-![Create a new game... 2](images/crash-course-4.png)
+![Create a new game... 2](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-4.png)
 
 4) You’ll now be taken to the **Dashboard**, a central area where you can see and open your game’s resources (actors, graphics, sounds, game logic, etc).
 
