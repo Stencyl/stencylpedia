@@ -19,7 +19,8 @@ There's a whole lot more to Stencyl, and we encourage you to experiment on your 
 
 If you'd like a more in-depth guided tour, we recommend jumping straight into Crash Course 2, where you can create your own Space Invaders-like game.
 
-### [Continue to Crash Course 2](http://www.stencyl.com/help/view/crash-course-invaders-1/)
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/view/crash-course-invaders-1/">Continue to Part 2 &rarr;</a>
+
 
 ## Troubleshooting
 
