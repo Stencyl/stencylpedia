@@ -24,10 +24,10 @@ If you'd like a more in-depth guided tour, we recommend jumping straight into Cr
 ## Troubleshooting
 
 #### When I fall into the pit, the scene doesn't reload.
-As directed in Part 3 at the end of the Customizing Noni section, attach the Die in Pit and Reload behavior to Noni.
+As directed in Part 3 at the end of the Customizing Noni section, attach the **Die in Pit** and Reload** Behavior to Noni.
 
 #### Noni and Clown don't collide.
-Don't forget to set Clown's Actor Group to Enemies.
+Don't forget to set Clown's Group to **Enemies**.
  
 #### I receive a Flash error when running the game. The screen is just white.
 [Please post a topic on the forums](http://community.stencyl.com/index.php/board,3.0.html) and attach the game to your post. (Use File > Export Game... to do this)
