@@ -95,7 +95,7 @@ We provide two blocks to assist with the saving/loading of configurations...
 #### Sample Game
 This sample project demonstrates how accomplish what we described above -- namely, getting the user configure each game's control by pressing a button on their controller. We leave it to you to customize the look to fit your game's needs.
 
-(TODO: UPLOAD IT)
+[Download Project](https://github.com/Stencyl/stencylpedia/blob/master/chapter-7/Sample%20Game%20for%20Gamepad%20Configuration.stencyl?raw=true)
 
  
 ## Analog Controls
