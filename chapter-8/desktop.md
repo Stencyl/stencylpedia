@@ -53,7 +53,7 @@ To publish your game, select **Publish > Desktop > Windows** from the main menu.
 
 2. Launch Xcode, go to its Preferences, flip to the Downloads Tab and **install Command Line Tools**.
 
-![xcode-command-line-tools](http://static.stencyl.com/pedia2/ch11/xcode-downloads.png)
+  ![xcode-command-line-tools](http://static.stencyl.com/pedia2/ch11/xcode-downloads.png)
 
 3. If you are publishing to the Mac App Store, you must [set up your App](http://www.stencyl.com/help/view/mac-app-store/) on iTunes Connect.
 
