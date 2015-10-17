@@ -104,6 +104,10 @@ That’s it for the first Behavior!
 
 * **Die in Pit and Reload:** Nothing to configure here. Just make sure you add it.
 
+Here are all the Behaviors you should have added to Noni:
+
+![All Behaviors for Noni](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-59.png)
+
 ### Customizing Clown
 
 **Clown** will be simpler to set up than Noni. Switch over to its tab (or open it from the Dashboard, if need be).
