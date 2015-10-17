@@ -4,7 +4,7 @@
 ## Introduction
 This short, hands-on tutorial will walk you through the steps needed to create a simple platformer using pre-made content, so that you can become familiar with the main parts of Stencyl’s interface.
 
-> Make sure you [download](http://www.stencyl.com/download/) and install Stencyl before starting the crash course.
+> Make sure you [download](http://www.stencyl.com/download/) and install **Stencyl 3.4.0** (or later) before starting the crash course. This new crash course will not work in 3.3.0 or earlier.
 
 ## Downloadable Materials
 The Crash Course requires the **Crash Course Kit**, which can be [downloaded here](https://github.com/Stencyl/stencylpedia/blob/master/crash-course-1/Crash%20Course%20Kit.stencyl?raw=true).
