@@ -33,32 +33,32 @@ This isn't the same as being casual or dumbed down. You can still make a sophist
  
 ## Before You Launch Your Game...
 
-#### Run the game by friends and family.
+#### Run the game by friends and family
 They'll catch issues that slip by your eyes. As you build more games, you’ll build up a list of trusted beta testers to give you feedback.
 
-#### Build a website around your game or brand.
+#### Build a website around your game or brand
 If you’ve got several games, build a website to represent your brand (or studio). **Cross-promote your games through all channels** - your site, social media and prior games. Don't fall into the trap of rebuilding your audience from scratch each time.
 
-#### Use social media.
+#### Use social media
 Start up a Facebook page and Twitter feed for your “brand.” Most blogs offer an easy way to link to your Twitter account and Facebook pages, so make sure you add those to your blog or website.
 
-#### Start talking about your game on your website or blog while it’s in development.
+#### Start talking about your game on your website or blog while it’s in development
 You want to build up interest in your game before you launch it, not after.
 
-#### Join game development communities .
+#### Join game development communities
 Join communities such as TouchArcade and post your game idea in an appropriate forum topic area when you’re ready to do so. Regulars will provide critiques of your game and help you improve your marketing techniques.
 
-#### Contact game review sites. 
+#### Contact game review sites
 A review by a major outlet like AppAdvice or 148Apps can give you that little boost you need to hit the charts.
 
  
 
 ## Write a Convincing App Store entry
 
-#### Write a good App Store description.
+#### Write a good App Store description
 Make the description concrete and to the point. Don't use vague terms such as "unique gameplay." Instead, say what's unique about it. If YOU were browsing that entry, would you download or buy your game? Put yourself in the user's shoes.
 
-#### Provide good screenshots.
+#### Provide good screenshots
 Don't just take random screenshots. Show off the best that your game has to offer. Add captions to the screenshot to explain what's going on.
 
 
@@ -76,7 +76,7 @@ If you’ve published games that have an active userbase, update those games as 
  
 ## After Launch
 
-#### Update your game in meaningful ways.
+#### Update your game in meaningful ways
 Address user concerns and give them a reason to keep playing. It helps to have a concept that has replay value to begin with (or else you'll have to encourage replays through additional content).
 
 #### Update Social Media
