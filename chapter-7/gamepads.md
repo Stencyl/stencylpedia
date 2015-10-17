@@ -68,7 +68,7 @@ To build a mapping, use the **map button** block to establish that. (All Gamepad
 
 
 #### Frequently Asked Questions
-
+<br/>
 **What if a player wants to custom configure their controller?**<br/>
 See the next section.
 
@@ -107,7 +107,7 @@ On most modern controllers, two kinds of buttons fall into this category.
 * Control Sticks
 * Shoulder (Trigger) Buttons
 
-<img alt="" src="http://static.stencyl.com/pedia2/ch6/gamepad/gamepad-analog.png" style="width: 250px; height: 298px;">
+<img alt="" src="http://static.stencyl.com/pedia2/ch6/gamepad/gamepad-analog.png" style="width: 250px; height: 298px; padding:20px;">
 
 In the case of a control stick, the stick detects how far it's tilted, so that a character walks quicker when it's tilted fully, versus halfway. As for the shoulder button, pressing the button down harder will be registered differently from pressing it down softer.
 
