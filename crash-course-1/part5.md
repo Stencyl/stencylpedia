@@ -29,7 +29,7 @@ If you'd like a more in-depth guided tour, we recommend jumping straight into Cr
 #### When I fall into the pit, the scene doesn't reload.
 As directed in [Part 3 at the end of the Customizing Noni section](http://www.stencyl.com/help/viewArticle/145#part5reference), attach the **Die in Pit and Reload** Behavior to Noni.
 
-#### Clown falls through the floor
+#### Noni goes through the Clowns
 Don't forget to set Clown's Group to **Enemies**.
  
 #### I receive a Flash error when running the game. The screen is just white.
