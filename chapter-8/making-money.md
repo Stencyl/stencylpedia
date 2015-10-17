@@ -109,6 +109,21 @@ Damijin's primary sponsor was Kongregate, and they paid him for his game, so why
 
 > Non-exclusive licenses have been my second largest form on income behind sponsorships. Most tend to be around the $500 range for me, but I've done them for as low as $150, and as high as $1100. They tend to make up around 25% of the revenue for most of my games."
  
+ 
+## Stencyl Games that won Major Sponsorships
+
+All of what's been said about making money would be for naught if we didn’t have games of our own to back up our words. [Many more Stencyl games](http://www.stencyl.com/game/showcase/) have received sponsorships (or found overall success) than listed here. These are the highlights among them - the best have brought in over $10,000 USD.
+
+Game / Author | Sponsor | Screenshot
+--- | --- | ---
+[Skullface (Greg Sergeant)](http://greg-anims.com/?page_id=811) | Armor Games | ![](http://static.stencyl.com/site/showcase-skullface.png)
+[Kreayshawn Goes to Japan (Beth Maher)](http://arcade.kreayshawn.com/) | Columbia Records (Sony) | ![](http://static.stencyl.com/site/showcase-kreayshawn.png)
+[Traitor (Jonas Kyratzes)](http://www.newgrounds.com/portal/view/592295) | Newgrounds | ![](http://static.stencyl.com/site/showcase-traitor.png)
+[Making Monkeys (Greg Sergeant)](http://armorgames.com/play/12748/making-monkeys) | Armor Games | ![](http://static.stencyl.com/site/showcase-monkeys.png)
+[Gyossait (amon26)](http://www.newgrounds.com/portal/view/582867) | Newgrounds | ![](http://static.stencyl.com/site/showcase-gyossait.png)
+[Balls in Space (Michael Gribbin)](http://www.kongregate.com/games/damijin/balls-in-space) | mofunzone | ![](http://static.stencyl.com/site/showcase-balls.png)
+
+
 
 ## Summary
 
