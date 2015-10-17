@@ -14,12 +14,16 @@ Images are quasi-actors that do not make use of the physics engine - this improv
 
 ## Remove Actors when they're no longer needed
 
-There are many times when you should remove an actor from your game because they are temporary in nature. Examples include bullets, temporary power ups, enemies, and more.
+There are many times when you should remove an actor from your game because they are temporary in nature. Examples include bullets, temporary power ups, certain enemies, and more.
 
-Any actor the player's actor doesn't need to run into more than once is an actor you should remove. An actor you want to remove (when certain conditions in your game are met) will need a Behavior that provides the logic for removal. Here are a few examples...
+Generally speaking, if an actor is only encountered once by the player, it should be removed as soon as possible. The conditions for removal will differ from game to game. 
+
+The following examples demonstrate a few common scenarios and pitfalls to watch out for.
 
 
 #### Actor collides with another actor
+
+<br/>
 
 ![Remove an actor](http://static.stencyl.com/help/images/KillOnCollision.png)
 
@@ -27,6 +31,8 @@ Any actor the player's actor doesn't need to run into more than once is an actor
 
 
 #### Actor leaves the screen
+
+<br/>
 
 ![Leaving Screen](http://static.stencyl.com/help/images/RemoveAfterLeavingScreen.png)
 
