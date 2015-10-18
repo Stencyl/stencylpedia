@@ -72,28 +72,26 @@ Here’s how we could parse this. We tokenize ech line one by one, knowing that 
 
 If you're building your own web services to communicate with Stencyl, keep your data formats simple, and you can achieve pretty cool things with web requests.
 
-## Accessing Flash Variables
-
-Not only does Stencyl let you access data from remote sites, but using Flash variables, you can also access data from a Flash game's containing webpage. The following code snippet can be used in a Code block or a Code Mode Behavior to achieve this:
-
-```
-var keyStr:String;
-var valueStr:String;
-var paramObj:Object = LoaderInfo(FlxG.stage.root.loaderInfo).parameters;
-for (keyStr in paramObj) {
-valueStr = String(paramObj[keyStr]);
-   print(keyStr);
-   print(valueStr);
-}
-```
-
-> CALL FOR HELP: This is an AS3 example that needs to be ported over to Haxe.
-
- 
 
 ## Launching Apps on Mobile using URLs
 
-See this [forum topic](http://community.stencyl.com/index.php/topic,30964.0.html) for examples.
+#### Facebook
+
+Opens the Facebook app to the page you define. Useful for directing users to your Facebook page, so they can "Like" it without having to use the official API.
+
+```
+fb://profile/[your ID]
+```
+
+#### Twitter
+
+Opens Twitter app to the page you define. For example, you could open it up to the page for your game/studio to encourage a "Follow" without having to use the official API.
+
+```
+twitter://user?id=YOUR_ID
+```
+
+> See this [forum topic](http://community.stencyl.com/index.php/topic,30964.0.html) for more examples.
 
 
 ## Frequently Asked Questions
