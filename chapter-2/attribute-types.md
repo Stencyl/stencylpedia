@@ -5,31 +5,31 @@ Earlier in this chapter, [you learned about Attributes](http://www.stencyl.com/h
 
 Stencyl includes the following resource types.
  
-* Actor
-* Actor Group
-* Actor Type
-* Animation
-* Anything
-* Boolean
-* Color
-* Control
-* Font
-* Image
-* Image Instance
-* List
-* Joint
-* Map
-* Number
-* Region
-* Scene
-* Shader
-* Sound
-* Text
+Type | Stencylpedia Article?
+--- | --- | ---
+Actor | [Yes](http://www.stencyl.com/help/view/what-are-actors/)
+Actor Group | [Yes](http://www.stencyl.com/help/view/collisions-and-groups/)
+Actor Type | [Yes](http://www.stencyl.com/help/view/what-are-actors/)
+Animation | [Yes](http://www.stencyl.com/help/view/animations/)
+Anything | --- 
+Boolean | ---
+Color | ---
+Control | [Yes](http://www.stencyl.com/help/view/controls/)
+Font | [Yes](http://www.stencyl.com/help/view/font-editor/)
+Image | [Yes](http://www.stencyl.com/help/view/image-api)
+Image Instance | [Yes](http://www.stencyl.com/help/view/image-api)
+List | [Yes](http://www.stencyl.com/help/view/lists/)
+Joint | ---
+Map | [Yes](http://www.stencyl.com/help/view/maps/)
+Number | ---
+Region | [Yes](http://www.stencyl.com/help/view/regions/)
+Scene | [Yes](http://www.stencyl.com/help/view/scene-basics/)
+Shader | [Yes](http://www.stencyl.com/help/view/shaders/)
+Sound | [Yes](http://www.stencyl.com/help/view/playing-sounds-and-music/)
+Text | ---
 
-> TODO (10/18) - Add links to all the articles that corespond to these types, if applicable.
- 
 
-## Guide
+## What do the attribute configurators look like?
 
 Here are some examples of common Attribute types and how they may appear on an Actor Type’s Behaviors page.
 
@@ -56,7 +56,7 @@ Something you might bump into fairly early on is this.
 
 Why are some Attributes unconfigurable?
 
-* There's nothing to configure. (Effects)
+* There's nothing to configure, or the configurator would be of limited value. (e.g. Image Instance, Shader)
 * It's an Actor behavior, so until the actor's actually inside a scene, there's no context for being able to pick out a specific (Actor or Region)
 
 For the latter case, this can be addressed by [customizing the Actor](http://www.stencyl.com/help/viewArticle/117/) once it's inside a scene.
