@@ -2,7 +2,6 @@
 
 * Overview
 * How To: Saving and Loading
-* Detecting Failure
 * Where is Data Saved?
 * Challenge: Checkpoints
 
