@@ -34,17 +34,17 @@ As you can imagine, checking that entire area is significantly more **processor 
 As of Stencyl 3.3, CCD is **ON** by default. 
  
 
-## How do I turn it off?
+## How do I turn it on/off?
 
 Two methods let you turn CCD on/off.
 
-#### Method 1: Use the Actor Physics Setting
+#### Method 1: Use the Actor Physics Setting (Preferred)
 
 Located under the Physics > Advanced page for an Actor.
 
 ![stencyl-enable-continuous-collision-detection-button](http://static.stencyl.com/pedia2/ch5/ccd.png)
 
-#### Method 2: Use the Block
+#### Method 2: Use the Block (only lets you turn it on)
 
 The block's located under Actor > Properties > Misc.
 
