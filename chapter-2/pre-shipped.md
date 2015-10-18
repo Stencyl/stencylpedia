@@ -53,6 +53,3 @@ Then, pick something from the **FROM YOUR LIBRARY** section.
 ## Can I suggest some behaviors?
 
 Sure! Tell us in this [forum topic](http://community.stencyl.com/index.php/topic,6386.0.html). 
-
-> Please don't suggest any behaviors here - we'll miss it.
-
