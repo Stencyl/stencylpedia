@@ -9,7 +9,7 @@
 * Mouse Cursor
 * Mobile Controls
 * Example: 4 Way Motion
-* Text Input
+* Example: Text Input
 
 
 ## Detecting the Keyboard
