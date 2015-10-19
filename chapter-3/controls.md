@@ -4,8 +4,9 @@
 
 * Detecting the Keyboard
 * Mouse
+* Mouse Position
 * Mouse over Actor
-* The Cursor
+* Mouse Cursor
 * Mobile Controls
 * Example: 4 Way Motion
 * Text Input
@@ -60,11 +61,18 @@ Now, when you check whether a key is pressed, released or down, instead of check
 * Released
 * Down
 
+![stencyl-design-mode-get-mouse-state](http://static.stencyl.com/pedia2/ch3/controls/mouse-basic.png)
+
 **Pressed** and **Released** are one-off “events” - they **fire once per that action**, whereas “down” is a constant state that can be checked.
+
+> Mouse presses and releases can also be detected using the **Click** event (under Add Event > Input)
+
+
+## Mouse Position
 
 You can also grab the (x,y) location of the mouse on screen or any recent presses/releases.
 
-![stencyl-design-mode-get-mouse-location](http://static.stencyl.com/pedia2/ch3/controls/image04.png)
+![stencyl-design-mode-get-mouse-location](http://static.stencyl.com/pedia2/ch3/controls/mouse-position.png)
 
  
 ## Mouse over Actor
@@ -78,27 +86,30 @@ Similarly, mouse input over an actor involves 4 different states.
 
 Over Actor is our term for **hovering** the mouse over the actor.
 
+![stencyl-design-mode-get-mouse-location](http://static.stencyl.com/pedia2/ch3/controls/mouse-actor.png)
+
+> Mouse presses and releases involving an actor can also be detected using the **On Actor** event (under Add Event > Input)
+
  
-## The Mouse Cursor
+## Mouse Cursor
 
 Sometimes, you want to hide the cursor or display a custom cursor. How do you do this?
 
 To show or hide the cursor, use this block.
 
-![stencyl-design-mode-hide-mouse-cursor](http://static.stencyl.com/pedia2/ch3/controls/image01.png)
+![stencyl-design-mode-hide-mouse-cursor](http://static.stencyl.com/pedia2/ch3/controls/hide-cursor.png)
 
 > **Exercise:** How would you create a custom cursor? One method is to hide the cursor and create a dummy actor that continually follows the mouse but does not collide with anything.
  
 
 ## Mobile Controls
 
-To keep things simple for you, mouse input is equivalent to single-touch input. Read our [Touch article](http://www.stencyl.com/help/view/mobile-input/) for further details and examples.
+To keep things simple for you, mouse input is equivalent to single-touch input. Read our [Touch article](http://www.stencyl.com/help/view/mobile-input/) for further details and examples on both single touch, multi touch and gestures.
 
 Other mobile input topics are covered separately.
 
 * [Accelerometer](http://www.stencyl.com/help/view/mobile-accelerometer/)
 * [Virtual Joystick](http://www.stencyl.com/help/view/mobile-joystick/)
-* [Multi-Touch](http://www.stencyl.com/help/view/mobile-input/) 
  
 
 ## Example: 4 Way Motion
