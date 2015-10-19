@@ -30,8 +30,8 @@ A bouncing ball you can launch from your paddle. | ![ball](http://static.stencyl
 A short delay between ball launches. | ---
 Blocks that change color and make a sound, when they collide with the ball. | ![breakout-screenshot-bouncing-ball](http://static.stencyl.com/pedia2/ch3/challenge/image11.png)
 
-#### Here's a Head Start
-We’ve created a basic Kit with graphics, sounds, and a Scene to get you started and so you don't need to import any game resources. Just write the logic.
+## Start with this Project
+To help you get started, we’ve created a basic Kit with graphics, sounds, and a Scene to get you started and so you don't need to import any game resources. Just write the logic.
 
 [Download the Project](http://static.stencyl.com/pedia2/ch3/challenge/Chapter%203%20Challenge.zip) - CURRENTLY UNIMPORTABLE INTO 3.3+. WE WILL REBUILD IT.
 
