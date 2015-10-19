@@ -77,7 +77,7 @@ You can drag and drop an image into Stencyl while the Actor Editor is open. Doin
 
 Now that you've imported an image, you'll see its details, We'll step through what each part means.
 
-![stencyl-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/image21.png)
+![stencyl-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/anim-page.png)
 
 #### Name
 Each animation state is given a name, which you use when you want to switch animations.
@@ -102,7 +102,13 @@ Every frame can be given a different duration (in milliseconds). Just double-cli
 
 #### Editing in an External Editor
 
-TODO
+Individual animation frames can be edited in an external editor. This is useful for making small tweaks, without having to re-import the whole animation.
+
+Double-click a frame's box to bring up its edit dialog. Then, click the **Edit Image** button to open it up an external editor.
+
+![](http://static.stencyl.com/pedia2/ch3/animation/edit-frame.png)
+
+> **Note:** You set the External Editor from Stencyl's Preferences dialog. By default, we use one that we bundle in, but you can set it to any app you like, such as Photoshop, GIMP or Paint.NET.
 
 
 ## Collision Bounds
