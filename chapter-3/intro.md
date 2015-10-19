@@ -11,7 +11,7 @@ This article introduces you to the key concepts behind actors. Because Actor con
 
 ## What are Actors?
 
-Actors represent the living, interactive part of a game. Actors are the players, enemies, projectiles, vehicles, inteface elements and anything in a game that "lives."
+Actors are the living, interactive parts of a game. Actors are the players, enemies, projectiles, vehicles, inteface elements and anything in a game that "lives."
 
 Every actor can be broken up into a few common elements.
 
