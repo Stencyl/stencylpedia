@@ -65,7 +65,7 @@ This is useful for adding logic that's specific to the actor and is also great f
  
 #### Collisions (Physics)
 
-In many games, Actors collide with other Actors, In our engine, our Actors **obey the laws of physics and act much like real-world objects**.
+In many games, Actors collide with other Actors. In our engine, our Actors **obey the laws of physics and act much like real-world objects**.
 
 In order to make this all happen, the Actors need to assume a physical form, whether it's a box, a circle, a polygon or some combination of those.
 
