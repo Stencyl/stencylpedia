@@ -57,7 +57,7 @@ Now, draw the text. Pass in the text and the (x,y) coordinates where you want it
 
 If you need to position the text more precisely or make calculations based on the text's size, we provide a few blocks to help you out under Drawing > Styles.
 
-![](http://static.stencyl.com/pedia2/ch4/text/test-size.png)
+![](http://static.stencyl.com/pedia2/ch4/text/text-size.png)
 
  
 ##HUDs (Heads Up Displays)
@@ -89,53 +89,47 @@ The ability to anchor an actor to the screen was made specifically for creating 
 
 In this example, we’ll talk about how to do something common: drawing a timer.
 
+<a href="http://static.stencyl.com/pedia2/ch4/text/Demo.swf">![](http://static.stencyl.com/pedia2/ch4/text/image11.png)</a>
 
-(Controls: Left/Right/Up to jump)
+> **Controls:** Left/Right to move, Up to jump
+
+#### Objectives
+
+We want to draw the Timer shown in the demo.
+
+* The timer counts up once per second.
+* No matter where you are in the level, the timer stays at the same spot on screen.
+
+#### Walkthrough - Adding a Timer
  
-
-Download the Project
-
-- Unzip and stick the project into your Games directory as "Text Demo"
-
-- Don't know where your Games directory is? Click the "View Games Directory" button at the bottom of the Welcome Center (the first screen you see after opening Stencyl)
-
-
+1. Download [this project](). (use File > Import... to import it)
  
+2. Open the demo project. This project is mostly built up (run it!). All you need to do is create the Timer feature.
 
-Goal: We want to draw the Timer shown in the demo.
+3. Open up the Timer actor and flip to its **Events** tab.
 
-- The timer counts up once per second.
-- As you walk towards the right, the timer stays at the same spot on screen.
+4. Add a Number attribute called **Time** - and make it hidden.
 
-Walkthrough - Adding a Timer
+5. Add an **Every N Seconds** event. Make it increment the Time attribute by 1.
+
+![](http://static.stencyl.com/pedia2/ch4/text/image08.png)
+
+6. Add a **When Drawing** event. Make it draw the time, like this.
+
+![](http://static.stencyl.com/pedia2/ch4/text/image02.png)
+
+7. That’s it (or is it?). Run the game, and you should now notice it drawing the timer, just like in the demo above.
+
+8. Wait, something's wrong. If you walk to the right, as the screen scrolls, the timer gets left behind. That's not right. Given what you've learned about making a HUD (heads up display), what do you need to do?
  
-1) Open the demo project. This project is mostly built up (run it!). All you need to do is create the Timer feature.
-
-2) Open up the (only) Scene and flip to the Events tab.
-
-3) Add a Number attribute called “Time” - and make it hidden.
+Fix up the actor's behavior, so it "sticks" to the screen. (Stuck? Here's the [answer])
 
 
+#### Mini-Challenges
 
-4) Add a “Every N Seconds” event. Make it do the following.
-
-
-
-What does this do? This increments the timer once per second. It also anchors the actor to the screen, as explained in the previous section.
-5) Add a “When Drawing” event. Make it do the following.
-
-
-
-What does this do? This draws the current time, based on the “time” attribute we created earlier.
-6) That’s it! Run the game, and you should now notice it drawing the timer, just like in the demo above.
-
- 
-
-Mini-Challenges
-
-1) Tweak the timer to increment twice a second.
-2) Show the timer on the right side of the screen.
-3) Show the timer in the center. Properly account for cases where the text may be shorter or longer.
+1. Tweak the timer to increment twice a second.
+2. Show the timer on the right side of the screen. Don't hardcode the value - use blocks to calculate this, so it works no matter what the screen size is.
+3. Show the timer in the center. Properly account for cases where the text may be shorter or longer.
  
 
 ## Dialog System
