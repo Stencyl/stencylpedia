@@ -2,7 +2,6 @@
 
 * Introduction
 * How To: Importing a Tileset
-* Overview of the Tileset Editor
 * Collision Shapes
 * Animated Tiles
 * Working with the Tileset
@@ -51,11 +50,17 @@ Now, you'll see the main page for your newly imported Tileset.
 
 #### Overview of the Tileset Editor
 
-(TODO: Do a run through of the interface. Link to sections that cover each in more detail.)
+The Tileset Editor is split into two parts.
+
+* On the left is the tileset itself and controls for rearranging it. 
+
+* Clicking on a tile will display information about the tile on the right. You can choose the tile's collision shape and animate it, if you wish.
+
+![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-overview.png)
 
  
 
-#### Collision Shapes
+## Collision Shapes
 
 Now that you've uploaded your tileset, you will want to set the collision shapes for your tiles. You can either...
 
@@ -79,11 +84,11 @@ Some games use Animated Tiles to bring a scene to life. Here's how you convert a
 
 1. Open up a Tileset.
 
-2. Click on the Tile you'd like to animate in the left pane.<br/><br/>![](http://static.stencyl.com/help/images/TileFrameToEdit.png)<br/>
+2. Click on the Tile you'd like to animate in the left pane.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/tiles/animated-tile-2.png)<br/>
 
 3. You'll now see information in the right-hand pane. The bottom part of this pane should look familiar. **It's the same as the one you use for managing an Actor's animations.**
 
-![](http://static.stencyl.com/help/images/TileAnimationEditors.png)
+![](http://static.stencyl.com/pedia2/ch4/tiles/animated-tile.png)
 
 From this point, it's the same process and user interface as working with [Actor Animations](http://www.stencyl.com/help/view/animations/). As a refresher, you...
 
