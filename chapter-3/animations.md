@@ -147,12 +147,6 @@ IMG
 
 ## Switching Animations
 
-#### Notes
-
-For all of these blocks, the "animation" blank accepts an Animation attribute or value. You can convert plain text into an Animation value using the "as animation" block like this:
-
-![stencyl-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
-
 All of these blocks are found under **Actor > Drawing**.
 
 #### Switch Animation
