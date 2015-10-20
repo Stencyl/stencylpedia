@@ -100,7 +100,7 @@ We want to draw the Timer shown in the demo.
 * The timer counts up once per second.
 * No matter where you are in the level, the timer stays at the same spot on screen.
 
-#### Walkthrough - Adding a Timer
+#### Walkthrough (Part 1) - Adding a Timer
  
 1. Download [this project](). (use File > Import... to import it)
  
@@ -110,19 +110,17 @@ We want to draw the Timer shown in the demo.
 
 4. Add a Number attribute called **Time** - and make it hidden.
 
-5. Add an **Every N Seconds** event. Make it increment the Time attribute by 1.
+5. Add an **Every N Seconds** event. Make it increment the Time attribute by 1.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/text/image08.png)<br/>
 
-![](http://static.stencyl.com/pedia2/ch4/text/image08.png)
-
-6. Add a **When Drawing** event. Make it draw the time, like this.
-
-![](http://static.stencyl.com/pedia2/ch4/text/image02.png)
+6. Add a **When Drawing** event. Make it draw the time, like this.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/text/image02.png)<br/>
 
 7. That’s it (or is it?). Run the game, and you should now notice it drawing the timer, just like in the demo above.
 
-8. Wait, something's wrong. If you walk to the right, as the screen scrolls, the timer gets left behind. That's not right. Given what you've learned about making a HUD (heads up display), what do you need to do?
+#### Walkthrough (Part 2) - Fix the Bug
+
+Wait, something's wrong. If you walk to the right, as the screen scrolls, the timer gets left behind. That's not right. Given what you've learned about making a HUD (heads up display), what do you need to do?
  
-Fix up the actor's behavior, so it "sticks" to the screen. (Stuck? Here's the [answer])
+**Fix up the actor's behavior**, so it "sticks" to the screen. (Stuck? Here's the [answer])
 
 
 #### Mini-Challenges
