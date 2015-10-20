@@ -1,1 +1,6 @@
-java -Xms128m -Xmx6144m -jar sw.jar
+java^
+ -Xms64m^
+ -Xmx6144m^
+ -XX:CompileCommand=exclude,javax/swing/text/GlyphView,getBreakSpot^
+ -XX:-OmitStackTraceInFastThrow^
+ -jar sw.jar
