@@ -156,20 +156,21 @@ For all of these blocks, the "animation" blank accepts an Animation attribute or
 All of these blocks are found under **Actor > Drawing**.
 
 #### Switch Animation
+This block switches the actor's animation to the one you specify.
 
 ![stencyl-design-mode-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image13.png)
 
-If you want to type in the name of the Animation directly, use the "as animation" block.
+> **Note:** Do not type in the animation name directly. Instead, use the "as animation" block and type the name into that.
 
 ![stencyl-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
  
 #### What's the current Animation?
+This block returns the animation that is currently playing. Note that this returns the animation, not the textual name of the animation.
 
 ![stencyl-design-mode-get-current-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image14.png)
 
 #### Is the current Animation still playing?
-
-Sometimes, it's useful to check if the current animation is still playing, particularly if the animation does not loop, and you want to detect if it has finished playing through.
+Returns ```true``` if the current animation is still playing, otherwise it returns ```false```. This is only useful for animations that aren't set to loop.
 
 ![stencyl-design-mode-animation-playing-block](http://static.stencyl.com/pedia2/ch3/animation/image12.png)
 
@@ -177,21 +178,23 @@ Sometimes, it's useful to check if the current animation is still playing, parti
 ## Controlling Playback
 
 #### Switch to Frame
-This block lets you skip around an animation or reset an animation to its starting frame.
+This block lets you skip around an animation or reset an animation to its starting frame. Specify the frame index you wish to jump to.
 
 ![stencyl-design-mode-switch-frame-block](http://static.stencyl.com/pedia2/ch3/animation/image15.png)
 
-Frame indices are displayed in the gray boxes and start from 0. Switching to an invalid frame leads to nothing happening.
+> **Note:** Frame indices are displayed in the gray boxes and start from 0. Switching to an invalid frame leads to nothing happening.
  
-
 #### Current Frame Index
+This block reports the index that the animation is currently playing. 
 
 ![stencyl-design-mode-get-current-frame-block](http://static.stencyl.com/pedia2/ch3/animation/image16.png)
 
+> **Tip:** This is useful when you want to tie some logic that's triggered when a certain index is reached. In animation terms, this is called a keyframe.
+
 #### Total Frame Count
+This block reports the total number of frames in the current animation.
 
 ![stencyl-design-mode-get-frame-count-block](http://static.stencyl.com/pedia2/ch3/animation/image17.png)
-
  
 
 ## Design Problem: More Animations or More Actors?
@@ -234,8 +237,8 @@ But wait, there's more! Link changes swords throughought the game. He can hold t
 
 And what about the Bow and Arrow, holding a shield and... you get the picture.
 
-## The Bottom Line
-In cases like these, **it's better to create a new actor rather than add more animations**. This is particularly applicable when an actor equips items that slightly alter the appearance and could be accurately and convincingly drawn separately.
+#### The Bottom Line
+In cases like these, **it's better to create a new actor rather than add more animations**. This is particularly applicable when an actor equips items that don't alter his animation and could be convincingly drawn separately.
 
 ![zelda-link-sword-animation](http://static.stencyl.com/pedia2/ch3/animation/image01.png)
 
@@ -243,13 +246,6 @@ There are other benefits to having "attachments" as different actors.
 
 * Easier to define collision bounds, particularly for weapons.
 * Confines extra behaviors to the separate actor, rather than creating 1 monolithic actor with everything.
-
-
-## Takeaway
-
-Now that you've gone through this problem, what's the bigger takeaway? In your game development journey, you'll encounter more problems, some which have no obvious solution. Often, there are multiple plausible solutions a problem that you must compare to each other to decide what's best for your particular game. 
-
-Even if you found this discussion to be obvious, we hope you appreciate that game development is challenging and complex, and even with tools like ours, you'll inevitably need to solve problems and call upon your prior experience and intuition to tackle them.
 
  
 ## Gotchas
