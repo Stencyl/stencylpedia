@@ -119,30 +119,7 @@ To define Collision Bounds, flip to the "Collisions" page of the Actor Editor. T
 
 ![collision-bounds](http://static.stencyl.com/pedia2/ch3/animation/image06.png)
 
-#### Collision Shapes
-
-Stencyl supports 3 kinds of collision shapes: Boxes, Circles and Polygons. (For Polygons, only convex shapes are allowed!)
-
-![stencyl-collision-shapes-buttons](http://static.stencyl.com/pedia2/ch3/collisions/image01.png)
-
-You can place an arbitrary number of these shapes, in order to form more complex ones.
-
-![stencyl-place-collision-bounds](http://static.stencyl.com/pedia2/ch3/collisions/image04.png)
-
-#### How To: Adding Collision Shapes
-
-To place a collision shape, click the Add Box / Add Circle / Add Polygon button. A dialog will pop up asking you for the shape's dimensions and position. 
-
-IMG
-
-After confirming that, the shape will be added to the canvas.
-
-IMG
-
-> **Tip:** You cannot set collision bounds per-frame, yet. This can be worked around by defining a new animation per-frame and switching animations.
- 
-
-
+We cover how to define Collision Bounds in our [Collisions](http://www.stencyl.com/help/view/collisions-and-groups/) article.
  
 
 ## Switching Animations
@@ -154,9 +131,7 @@ This block switches the actor's animation to the one you specify.
 
 ![stencyl-design-mode-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image13.png)
 
-> **Note:** Do not type in the animation name directly. Instead, use the "as animation" block and type the name into that.
-
-![stencyl-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
+> **Note:** Do not type in the animation name directly. Instead, use the "as animation" block and type the name into that.<br/>![stencyl-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
  
 #### What's the current Animation?
 This block returns the animation that is currently playing. Note that this returns the animation, not the textual name of the animation.
