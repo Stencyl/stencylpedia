@@ -42,9 +42,9 @@ You may wonder what the final dropdown in each tweening block is all about. We c
 
 ![Easing](http://static.stencyl.com/pedia2/ch3/tweening/image03.png)
 
-Easing adds **elasticity** to the tweening effect in different ways that are best experienced in a live demo. Without Easing, the tweening effects would feel flat and boring.
+Suppose that we want to slide an actor from point A to point B. Without easing, the actor would move directly from A to B at a constant speed. In many cases, this would look flat and boring.
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch3/TweenMiniTutorialBASIC.swf">View the Demo</a>
+Easing changes this by varying the rate at which that change happens in accordance with some mathematical functions. It's best to try this out for yourself and see what works best for your game.
 
 
 ## Uses for Tweening
