@@ -50,11 +50,11 @@ The camera can be moved in 2 different ways, both which involve these blocks (un
 
 ![Camera Blocks](http://static.stencyl.com/pedia2/ch4/camera/image02.png)
 
-## Method 1: Set the Position
+#### Method 1: Set the Position
 
 Move the camera to a specific (x,y) position inside the scene.
 
-## Method 2: Move to Actor
+#### Method 2: Move to Actor
 
 This will set the camera’s position to the center point of the Actor.
 
