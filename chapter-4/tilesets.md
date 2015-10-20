@@ -29,14 +29,14 @@ Go to this menu item: **File > Create New > Tileset**
  
 #### Step 2 - Name It
 
-![](http://static.stencyl.com/help/images/NameTiles1.png)
+![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-import-1.png)
 
  
 #### Step 3 - Import the Tile Sheet
 
 You'll now see this window.
 
-![](http://static.stencyl.com/help/images/ImportTileset.png)
+![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-import-2.png)
 
 1. Click **Choose Image** to pick out the tile sheet you want to import. *(You can also copy it to the clipboard and paste it in.)*
 
@@ -160,7 +160,7 @@ Tilesets follow this same rule.
 
 2. However, when you actually import, you still specify the Tile Width, Tile Height and other parameters in 1x. It's just the **IMAGE ITSELF** that you import at 4x.
 
-> **Example:** For example, if your game's regular tile size is 32 x 32, you should import a tile sheet where the tiles are 128 x 128 and specify that you are importing at 4x. The Tile Size is still stated to be 32 x 32.
+> **Example:** For example, if your game's regular tile size is 32 x 32, you should import a tile sheet where the tiles are 128 x 128 and specify that you are importing at 4x. The Tile Size is kept at 32 x 32.
  
 
 ## Troubleshooting
