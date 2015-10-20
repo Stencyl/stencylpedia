@@ -33,9 +33,11 @@ Blocks that change color and make a sound, when they collide with the ball. | ![
 ## Start with this Project
 To help you get started, we’ve created a basic Kit with graphics, sounds, and a Scene to get you started and so you don't need to import any game resources. Just write the logic.
 
-[Download the Project](http://static.stencyl.com/pedia2/ch3/challenge/Chapter%203%20Challenge.zip) - CURRENTLY UNIMPORTABLE INTO 3.3+. WE WILL REBUILD IT.
+[Download the Project](http://static.stencyl.com/pedia2/ch3/challenge/Chapter%203%20Challenge.zip)
 
 > **Instructions:** Import this using File > Import.
+
+> **NOTICE (October 2015):** The project does not open up in any recent version of Stencyl. We plan to fix this up, but this will take time and is low on our priority list. For the moment, we'd like to focus on updating the rest of Stencylpedia first.
 
 
 ## Stuck? Want some hints?
@@ -47,4 +49,4 @@ To help you get started, we’ve created a basic Kit with graphics, sounds, and 
 
 ## The Solution
 
-[View it](http://www.stencyl.com/help/viewArticle/157/).
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/157/">View the Solution + Explanation</a>
