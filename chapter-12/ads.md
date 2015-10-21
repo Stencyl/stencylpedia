@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Games on the App Store can make money by displaying ads. For the iOS platform, your best bet for making money is to display iAds, Apple’s own ad network. It may not pay the absolute most out of all networks, but it is easy to integrate and support. In practice, ads perform best for games which are frequently downloaded and have replay value.
+Games on the App Store can make money by displaying ads. For the iOS platform, your best bet for making money is to display iAds, Apple’s own ad network. It may not pay the absolute most out of all networks, but it is easy to integrate and support. 
  
 
 ## Showing / Hiding Ads
