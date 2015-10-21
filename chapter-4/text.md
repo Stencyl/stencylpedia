@@ -125,7 +125,7 @@ Wait, something's wrong. If you walk to the right, as the screen scrolls, the ti
 Stuck? Here's a [hint](http://static.stencyl.com/pedia2/ch4/text/image07.png).
 
 
-#### Mini-Challenges
+#### Additional Exercises
 
 1. Tweak the timer to increment twice a second.
 2. Show the timer on the right side of the screen. Don't hardcode the value - use blocks to calculate this, so it works no matter what the screen size is.
@@ -149,12 +149,10 @@ One of Stencyl's developers has independently created a fully-fledged dialog sys
 
 ## Challenge: Dialog Box
 
-While Stencyl is home to a [powerful dialog system](http://dialogextension.com/), for learning purposes, it's not a bad idea to implement one system on your own to check your mastery of text drawing.
+While Stencyl is home to a [powerful dialog system](http://dialogextension.com/), for learning purposes, you may want to implement simple dialog system on your own to check your mastery of text drawing.
 
-![](http://static.stencyl.com/pedia2/ch4/text/dialog2.png)
+Create a simple system for displaying dialog, in which you pass in a [list](http://www.stencyl.com/help/view/lists/) of text (1 sentence per entry) to display.
 
-Create a simple system for displaying dialog, in which you specify a List of text (1 sentence per entry) to display.
-
-The dialog should display 1 sentence at a time, and the player has to hit a key to proceed.
+The dialog system should display 1 sentence at a time. The player has to hit a key to proceed.
 
 > **Bonus:** Bonus points for auto-wrapping text and displaying a little blinking arrow to indicate to the player that the sentence is “finished” and the system is waiting for the player’s go to continue.
