@@ -64,7 +64,7 @@ If you need to position the text more precisely or make calculations based on th
 
 A HUD (heads up display) is a transparent, graphical dashboard that displays on top of everything else.
 
-![](http://static.stencyl.com/pedia2/ch4/text/hud-example.jpg)
+![](http://static.stencyl.com/pedia2/ch4/text/hud-example.png)
 
 **HUDs usually display statistics**. Think of the dashboard on your car, the one that displays how fast your car is going, how much gas you have left, your engine's temperature, etc.
 
