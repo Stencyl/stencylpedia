@@ -28,8 +28,6 @@ Appearance dictates how an Actor looks. In the 2D games we build, we call these 
 
 [Animations](http://www.stencyl.com/help/view/animations/) are a collection of frames that are played out in sequence and usually loop, to form a fluid, living visual representation of the actor.
 
-![Lizard Animation](http://static.stencyl.com/pedia2/ch3/animation/Lizard.gif)
-
 Actors need not be bound to a single animation. They can switch between different states, each which are associated with their own Animation and collision bounds.
 
 Consider the hero or "player" character in a platformer such as Mario. This character will have states for standing, walking, running and jumping.
