@@ -4,8 +4,7 @@
 * What is Actor Customization?
 * You can refer to specific Actors/Regions inside a Scene
 * Example: Pressing Switches
-* Gotcha: Don't use hidden attributes if you intend to customize an actor.
- 
+
 
 ## Introduction
 
@@ -119,11 +118,6 @@ The key piece is the Actor attribute called **Door Actor**. When you customized 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image12.png)
 
 If you understand that connection, you now fully understand how Actor Customization works.
- 
-
-## Gotcha: Don't use hidden attributes if you intend to customize an actor.
-
-Readers have reported that hidden attributes are problematic when you attempt to customize an actor. In short, if you want to customize an actor, avoid using them.
 
 
 ## Summary
