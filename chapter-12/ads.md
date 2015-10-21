@@ -28,10 +28,12 @@ To display an ad, **you must tell the ad to show**. We don't automatically show 
 
 Sometimes, it's useful to know when an ad has been clicked on or dismissed, so that you can provide a smooth transition between viewing the ad and resuming the game. Stencyl provides the following events for ads.
 
-* An ad is viewed (clicked on)
-* An ad is closed
-* The ad area loads
-* The ad area fails to load
+Event | Description
+--- | ---
+An ad is viewed | User clicks on the banner ad
+An ad is closed | User closes the banner ad
+The ad area loads | Called each time a banner ad loads
+The ad area fails to load | Called when no banner ads can be loaded
 
 These events can be found under the **Mobile > Ads** item under the **Add Event** dropdown.
 
