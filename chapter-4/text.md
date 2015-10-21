@@ -120,7 +120,9 @@ We want to draw the Timer shown in the demo.
 
 Wait, something's wrong. If you walk to the right, as the screen scrolls, the timer gets left behind. That's not right. Given what you've learned about making a HUD (heads up display), what do you need to do?
  
-**Fix up the actor's behavior**, so it "sticks" to the screen. (Stuck? Here's the [answer])
+**Fix up the actor's behavior**, so it "sticks" to the screen. 
+
+Stuck? Here's a [hint](http://static.stencyl.com/pedia2/ch4/text/image07.png).
 
 
 #### Mini-Challenges
@@ -132,7 +134,7 @@ Wait, something's wrong. If you walk to the right, as the screen scrolls, the ti
 
 ## Dialog System
 
-A much-requested ability to implement a full-fledged dialog system is currently being handled one of the key developers of Stencyl. While it's technically a separate effort, it's officially endorsed by us.
+One of Stencyl's developers has independently created a fully-fledged dialog system. While it's technically a separate effort, it's officially endorsed by us.
 
 [Visit their site](http://dialogextension.com/) to learn more.
 
@@ -147,7 +149,7 @@ A much-requested ability to implement a full-fledged dialog system is currently 
 
 ## Challenge: Dialog Box
 
-While Stencyl is home to a powerful dialog system, for learning purposes, it's not a bad idea to implement one system on your own to check your mastery of text drawing.
+While Stencyl is home to a [powerful dialog system](http://dialogextension.com/), for learning purposes, it's not a bad idea to implement one system on your own to check your mastery of text drawing.
 
 ![](http://static.stencyl.com/pedia2/ch4/text/dialog2.png)
 
