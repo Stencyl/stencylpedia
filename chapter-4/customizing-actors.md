@@ -90,7 +90,7 @@ Through Actor Customization, we can customize **each instance of a switch**, so 
 
 > **Note:** As always, these explanations are for learning purposes. You’ll need to tweak the approach to fit your game's needs.
 
-1. Download the [Customizing Actors](http://static.stencyl.com/pedia2/ch4/customize/Switches.zip) project. Import it using File > Import Game and open it up.
+1. Download the [Customizing Actors](http://static.stencyl.com/pedia2/ch4/customize/Switches.stencyl) project. Import it using **File > Import Game...** and open it up.
 
 2. Open the main scene.
 
