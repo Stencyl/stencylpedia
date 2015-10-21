@@ -102,7 +102,7 @@ We want to draw the Timer shown in the demo.
 
 #### Walkthrough (Part 1) - Adding a Timer
  
-1. Download [this project](). (use File > Import... to import it)
+1. Download [this project](http://static.stencyl.com/pedia2/ch4/text/Test Demo.stencyl). (Use File > Import... to import it)
  
 2. Open the demo project. This project is mostly built up (run it!). All you need to do is create the Timer feature.
 
