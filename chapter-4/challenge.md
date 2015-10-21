@@ -19,7 +19,7 @@ With all that under your belt, it’s time to take on the Challenge for Chapter 
 
 Dungeons are the heart of an adventure game such as Zelda. Dungeons blend both action and puzzle solving.
 
-<object height="315" width="420"><param name="movie" value="http://www.youtube.com/v/G68MOaZdGoo?version=3&amp;hl=en_US"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed allowfullscreen="true" allowscriptaccess="always" height="315" src="http://www.youtube.com/v/G68MOaZdGoo?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="420"></object>
+![Dungeon](http://static.stencyl.com/pedia2/ch4/challenge/image04.png)
 
 
 #### Your Task
