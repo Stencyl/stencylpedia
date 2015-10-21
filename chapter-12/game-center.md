@@ -30,18 +30,15 @@ This process is well-documented, but it constantly changes. For that reason, we'
 
 #### Signing In
 
-For example, create a behavior that uses the following block (under Game > Mobile) and add it to your first/starting scene. 
+Create a behavior that uses the following block (under Game > Mobile) and add it to your first/starting scene. When the Game Center bar appears, the player is considered to be signed in to Game Center.
 
-![start-game-center](http://static.stencyl.com/help/images/gamecenter/image05.png)
-
-When the Game Center bar appears, the player is considered to be signed in to Game Center.
-
+![start-game-center](http://static.stencyl.com/pedia2/ch11/start-gamecenter.png)
 
 #### Checking that the player is signed-in
 
-Before you use any Game Center functionality, you should check that the player is signed-in. You can do this either with a block or an event.
+Before you use any Game Center functionality, you should check that the player is signed-in. You can do this using the following event, which is found under **Add Event > Mobile > Game Center > Game Center is started**. 
 
-You can check for this status using the following block, or you can use an Event (Add Event > Mobile > Game Center > Game Center is started) if you wish to be notified when this happens.
+![start-game-center-event](http://static.stencyl.com/pedia2/ch11/gamecenter-started.png)
 
 
 ## Reporting High Scores and Achievements
