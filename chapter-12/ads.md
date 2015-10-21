@@ -65,7 +65,7 @@ The **height of mobile ad** block (under Game > Mobile) provides the height, so 
 
 ## Limitations
 
-Stencyl does not support full-screen (interstitial) ads for the iAd network at this time. If you need this functionality, consider using AdMob or an alternative network.
+Stencyl does not support [full-screen (interstitial)](http://community.stencyl.com/index.php?issue=101.0) ads for the iAd network. If you need this functionality, consider using AdMob or an alternative network.
 
 
 ## AdMob
