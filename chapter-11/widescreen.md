@@ -55,7 +55,7 @@ if you're using **Scale to Fit (Full Screen)** as we recommend above and you wan
 In this example, we're re-positioning this element to be 10 pixels from the screen's right edge.
 
 
-#### Method 2: Handle iPhone 5/6/6+ as a special case
+#### Method 2: Handle iPhone 5/6/6+ (and beyond) as a special case
 
 Using a special block (under **Flow > Advanced**), you can detect what model your game is running on, so you can do something different on these devices to use that extra space. This isn't as versatile as Method 1 but is useful if you want to tweak things specifically for these iPhone models.
 
