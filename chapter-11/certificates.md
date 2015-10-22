@@ -21,7 +21,7 @@ Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certific
   * Final Step: Test It
 * Troubleshooting
 
-> **Disclaimer:** Apple continually changes its website, so some aspects of this guide will fall out of date. We'll do our best to periodically update the article. Let us know what needs updating in the comments.
+> **Disclaimer:** Apple continually changes its website, so some aspects of this guide will not match 100% to what you see, but the overall process has remained steady. Let us know what needs updating in the comments.
  
 
 ## Introduction
@@ -47,9 +47,9 @@ To launch it, **click the magnifying glass at the top-right of the screen** (it'
 
 ## Step 1 (of 8): Install Apple’s WWDR Intermediate Certificate
 
-1) Visit the **iOS Provisioning Portal** on http://developer.apple.com. It's currently called **Certificates, Identifiers & Profiles** in the top-right corner.
+1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
-2) Click **Certificates**. Then click on the "plus" button at the top-right.
+2) Click **Certificates**. Then, click on the "plus" button at the top-right.
 
 3) Download the **WWDR Intermediate Certificate** (it's under the Intermediate Certificates section). Double-click it to install.
 
@@ -88,9 +88,9 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 > **Note:**If you are using Google Chrome and find the iOS Provisioning Portal not to work, use Safari or Firefox instead.
 
-1) Visit the **iOS Provisioning Portal** on http://developer.apple.com. It's currently called **Certificates, Identifiers & Profiles** in the top-right corner.
+1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
-2) Click on **Certificates**. Then, click on the "plus" button.
+2) Click on **Certificates**. Then, click on the "plus" button at the top-right.
 
 3) Pick the **App Store and Ad Hoc** item. Click Continue until you are prompted for the CSR file.
 
@@ -128,17 +128,15 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 ![](http://static.stencyl.com/help/images/ios-primer2-4.png)
 
 
- 
-
 ## Step 5 (of 8): Add Devices (Optional)
 
 > As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), when distributing a game to beta testers, or when testing for your own purpose, you need to add devices to the iOS Provisioning Portal to allow these devices to run your games. If you don't need to do this, skip this section.
 
-1) Visit the **iOS Provisioning Portal** on http://developer.apple.com. It's currently called **Certificates, Identifiers & Profiles** in the top-right corner.
+1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
 2) Click on **Devices**.
 
-3) Click **Add Devices**. (Now, it's a plus button at the top-right)
+3) Click **Add Devices**. (It's the "plus" button at the top-right.)
 
 4) Enter a name that you’ll be able to recognize in the future.
 
@@ -155,11 +153,11 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 > You must create an App ID for **EACH** app you make.
 
-1) Visit the **iOS Provisioning Portal** on http://developer.apple.com. It's currently called **Certificates, Identifiers & Profiles** in the top-right corner.
+1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
 2) Click on **Identifiers**.
 
-3) Click **New App ID**. (Now, it's a plus button at the top-right)
+3) Click **New App ID**. (It's the "plus" button at the top-right.)
 
 4) Enter in a name that you’ll remember. **(This is NOT the App ID yet!)**
 
@@ -177,13 +175,13 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 > You must create a Provisioning Profile for **EACH** app you make.
 
-1) Visit the **iOS Provisioning Portal** on http://developer.apple.com. It's currently called **Certificates, Identifiers & Profiles** in the top-right corner.
+1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
 2) Click on **Provisioning Profiles**.
 
 3) Click on the **Distribution** item in the left sidebar. (Do NOT deal with the Development tab. This is a common error.)
 
-4) Click **New Profile**. (now, it's a plus button at the top-right)
+4) Click **New Profile**. (It's the "plus" button at the top-right.)
 
 5) Fill in the details as appropriate and submit. Do this twice, once for the **App Store** and one for **Ad Hoc**. This will result in **TWO** different provisioning proiles.
 
