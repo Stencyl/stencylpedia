@@ -33,7 +33,7 @@ This will fill out the game's screen, but instead of chopping off the screen at 
 This will fill out the game's screen, but the game's image will be distorted on elongated screens.
 
 #### Using Scale to Fit (Fill)
-This will fill the game's screen but crop out the left/right edges (Landscape) or top/right edges (Portrait).
+This will fill the game's screen but crop out the left/right edges (Landscape) or top/right edges (Portrait). The wider the screen is, the more that will be cropped out.
 
 > **Reminder:** You can find the Scale Mode dropdown inside Settings > Mobile > General.<br/><br/>![](http://static.stencyl.com/help/images/iphone5-3.png)
 
