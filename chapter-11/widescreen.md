@@ -21,7 +21,7 @@ Given this restriction, you have a few options for filling out the screen using 
 
 > **Reminder:** You can find the Scale Mode dropdown inside Settings > Mobile > General.<br/><br/>![](http://static.stencyl.com/help/images/iphone5-3.png)
 
-#### Using Scale to Fit (Full Screen) - [Recommended]
+#### Using Scale to Fit (Full Screen) <-- [Recommended]
 This will fill out the game's screen, but more of the game will show than on standard aspect ratio (3:2) screens. You'll need to re-position your interface elements to adjust between different screen sizes.
 
 #### Using Stretch to Fit
@@ -44,11 +44,22 @@ You can specify the splash screen right on the same screen as the other splash s
 
 If you want your app to look great all displays, you’ll need to adapt your game to each screen's format, so that the game's interface elements appear in the same place regardless of what device you’re on.
 
-We provide a block (under **Flow > Advanced**) to let you detect this, so you can do something different on these devices to use that extra space.
+You can tackle this problem in at least two ways.
+
+#### Method 1: Use the Screen Width block
+
+if you're using **Scale to Fit (Full Screen)** as we recommend above and you want your [HUD](http://www.stencyl.com/help/view/drawing-text-and-huds/) elements to fit each screen (Android, iPhone or otherwise), position the HUD elements to adapt to the screen's width.
+
+![](http://static.stencyl.com/pedia2/ch11/adapt-example.png)
+
+In this example, we're re-positioning this element to be 10 pixels from the screen's right edge.
+
+
+#### Method 2: Handle iPhone 5/6/6+ as a special case
+
+Using a special block (under **Flow > Advanced**), you can detect what model your game is running on, so you can do something different on these devices to use that extra space. This isn't as versatile as Method 1 but is useful if you want to tweak things specifically for these iPhone models.
 
 ![](http://static.stencyl.com/help/images/iphone5-5.png)
-
-For example, if you're using **Scale to Fit (Full Screen)** as we recommend above and you want your [HUD](http://www.stencyl.com/help/view/drawing-text-and-huds/) to fit each screen, you could position the HUD elements, so they always adapt to each screen's width.
 
 
 ## Additional Resources
