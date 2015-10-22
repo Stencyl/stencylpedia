@@ -100,7 +100,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 6) Download the **Distribution** certificate. Double-click to install.
 
-7) Verify that the certificate is installed inside of Keychain Access. It will appear as **Phone Distribution: Your Name (XXXXXXXX)** under the "login" keychain.
+7) Verify that the certificate is installed inside of Keychain Access. It will appear as **iPhone Distribution: Your Name (XXXXXXXX)** under the "login" keychain.
 
 > **Note:** Make absolutely sure it is the **distribution** certificate. If you are working with a team/company account, then the correct certificate may bear the company's name rather than your own.
 
