@@ -51,7 +51,7 @@ You will be asked the following question on iTunes Connect: **Does this app use 
 
 * Answer **NO** if your game has no ads, besides iAds.
 
-* Answer **YES** if your game has any ads besides iAds. If your game gets rejected, send a link to a YouTube video demonstrating that the ads do work.
+* Answer **YES** if your game has any ads besides iAds. If your game gets rejected, send a link to a YouTube video demonstrating that the ads work.
 
 #### Launch Application Loader from Xcode
 
@@ -73,7 +73,7 @@ Application Loader is the app you'll use to send your IPA over to Apple.
 
 3) Now, follow the rest of the process to upload your app.
 
-If you get stuck, we recommend checking out [Apple's page on Application Loader](http://developer.apple.com/library/ios/#documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/9_UsingApplicationLoader/UsingApplicationLoader.html).
+If you get stuck, we recommend checking out [Apple's page on Application Loader](https://itunesconnect.apple.com/docs/UsingApplicationLoader.pdf).
 
 
 ## Step 4 (Optional): Share with Testers
