@@ -1,4 +1,4 @@
-> This is Part 1 in a three-part series.<br/><br/>
+> This is Part 2 in a three-part series.<br/><br/>
 Part 1 - [Getting Started](http://www.stencyl.com/help/view/ios-getting-started)<br/>
 Part 2 - [Understanding Certificates](http://www.stencyl.com/help/view/ios-certificates-guide)<br/>
 Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certificates-guide-2)
