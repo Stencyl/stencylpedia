@@ -64,4 +64,4 @@ Using a special block (under **Flow > Advanced**), you can detect what model you
 
 ## Additional Resources
 
-Prefer a video? This [video series](http://www.youtube.com/watch?v=4I_HqB9-bis&list=PLkcZhcNsGmYq8xa9-4XP-gegXP6Om3Ilp) explains this concept really well.
+Prefer a video? This [video series](http://www.youtube.com/watch?v=4I_HqB9-bis&list=PLkcZhcNsGmYq8xa9-4XP-gegXP6Om3Ilp) was done for Stencyl 3.0, but it explains this concept really well.
