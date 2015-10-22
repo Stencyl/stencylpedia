@@ -24,7 +24,7 @@ Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certific
 * Xcode 7 or later
 * An iOS device with iOS 9 or later
 
-**Tip:** You can push your app to older devices by exporting an IPA and [installing the app through iTunes](http://stackoverflow.com/questions/14127576/install-ipa-with-itunes-11) on those other devices. Some have succeeded in testing on iOS devices with older versions directly from their computer.
+> **Tip:** You can push your app to older devices by exporting an IPA and [installing the app through iTunes](http://stackoverflow.com/questions/14127576/install-ipa-with-itunes-11) on those other devices. Some have succeeded in testing on iOS devices with older versions directly from their computer.
  
 
 ## Step 1: Install Xcode
