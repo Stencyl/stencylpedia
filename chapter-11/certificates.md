@@ -4,7 +4,7 @@ Part 2 - [Understanding Certificates](http://www.stencyl.com/help/view/ios-certi
 Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certificates-guide-2)
 
 
-#### Contents
+## Contents
 
 * Introduction
 * Requirements
