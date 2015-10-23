@@ -13,12 +13,22 @@
 
 aaa
 
-we support achievements, leaderboards, quests, events and rewards. we do not support multiplayer, save games or analytics.
+#### Supported Features
 
-> **Note:** The [official documentation](https://developers.google.com/games/services/console/enabling) for Google Play Games is a good reference point if you're unsure about how the service works and what it offers.
+Feature | Supported?
+--- | ---
+Achievements | Yes
+Leaderboards | Yes
+Quests | Yes
+Events | Yes 
+Rewards | Yes
+Saved Games | No
+Multiplayer | No
 
 
 ## Setup
+
+> **Note:** The [official documentation](https://developers.google.com/games/services/console/enabling) for Google Play Games is a good reference point if you're unsure about how the service works and what it offers.
 
 #### Google Play Dashboard
 
@@ -36,7 +46,12 @@ aaa
 - no events at the moment - check if connection is initialized via boolean block
 
 
-## Achievements / Leaerboards
+## Achievements / Leaderboards
+
+#### How To: Setting up Achievements / Leaderboards
+
+https://developers.google.com/games/services/common/concepts/achievements
+https://developers.google.com/games/services/common/concepts/leaderboards
 
 #### Submitting Scores
 
@@ -56,6 +71,10 @@ aaa
 
 
 ## Quests / Events
+
+#### How To: Setting Up Quests
+
+https://developers.google.com/games/services/common/concepts/quests
 
 #### Events
 
