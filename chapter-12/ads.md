@@ -52,7 +52,7 @@ Ad Position is set in **Settings > Mobile > Monetization** using the Ad Position
  
 ## Enhanced AdMob Support
 
-Through a second-party effort, Stencyl is home to a well-maintained AdMob extension that supports a much richer feature set, most notably, the ability to use full-screen interstitial ads.
+Stencyl is home to a well-maintained AdMob extension that supports a much richer feature set, most notably, the ability to use full-screen interstitial ads.
 
 [Check out the extension](http://community.stencyl.com/index.php/topic,41376.0.html).
 
