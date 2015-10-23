@@ -57,7 +57,7 @@ After using this block, you'll want to know when the Google Play service has suc
 
 ![stencyl-google-play-events](http://static.stencyl.com/pedia2/ch12/google-play-events.png)
 
-Unfortunately, no events exist at this time. What we recommend doing is checking for success or failure every few seconds, as shown in the following example.
+Unfortunately, no events exist at this time, so you must manually check for success/failure using this block. What we recommend doing is checking for success or failure every few seconds, as shown in the following example.
 
 ![stencyl-google-play-example](http://static.stencyl.com/pedia2/ch12/google-play-example.png)
 
@@ -106,17 +106,30 @@ Events are like **analytics**. They let you collect data from your players durin
 
 Events, Quests and Rewards must be set up on the [Google Play Developer Console](https://play.google.com/apps/publish/). Read Google's guide on [Events and Quests](https://developers.google.com/games/services/common/concepts/quests) to learn h ow set these up.
 
-#### Events
+#### Reporting Events (Analytics)
 
-aaa
+Once you have defined Events on the Google Play Developer Console, you can begin capturing and reporting these events in your game. Note that events are reported to Google's servers in batches, so there may be a delay in delivering them.
 
-#### Rewards
-
-aaa
+Block | Description | Where to Find
+--- | --- | ---
+![stencyl-report-event](http://static.stencyl.com/pedia2/ch12/update-event.png)  | ID = Event ID | Game > Mobile
 
 #### Quests
 
-aaa
+Quests lets you create in-game challenges for players to attempt to complete within a predefined time period.
+
+Block | Description | Where to Find
+--- | --- | ---
+![stencyl-quest-completed](http://static.stencyl.com/pedia2/ch12/quest-completed.png)  | Checks if a new quest has been completed. | Game > Mobile
+![stencyl-quest-list](http://static.stencyl.com/pedia2/ch12/quest-list.png)  | Reports back a **list** of completed quests. | Game > Mobile
+
+#### Rewards
+
+Each quest that you define contains a reward value that you can use to offer items or other benefits to players in-game. The reward amount can come back as a number or text - it's just a piece of data that you specified in the Developer Console, so you can do whatever you see fit with it.
+
+Block | Description | Where to Find
+--- | --- | ---
+![stencyl-get-reward](http://static.stencyl.com/pedia2/ch12/get-reward.png)  | ID = Quest ID<br/>Reports back the reward amount. | Game > Mobile
 
 
 ## Troubleshooting
@@ -124,7 +137,10 @@ aaa
 #### Consult the [Official Guide](https://developers.google.com/games/services/console/enabling)
 Specifically, skip down to **Avoiding common setup problems**, which list out the most common reasons why Google Play Games will fail to work for your app.
 
-#### Fingerprints
+#### Talk about Fingerprints
 TODO
+
+#### Does support Events (as in Stencyl Events) for Google Play Games?
+Not at this time. We'd like to in the future.
 
 If you continue to experience issues after consulting the resources above, please ask for help on the forums ([customer area](http://community.stencyl.com/index.php/board,46.0.html) - [public area](http://community.stencyl.com/index.php/board,3.0.html)). This feature is still on the new side, so we haven't gotten enough feedback yet to build out our troubleshooting section.
