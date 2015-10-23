@@ -7,6 +7,7 @@
   * Step 3: Install the Rest
   * Step 4: Test on Device
 * Troubleshooting
+* FAQ
  
 
 ## System Requirements
@@ -113,3 +114,18 @@ Enable 3x scale for your game since the flagship Galaxy line requires this scale
 
 * Settings > Settings > Advanced > Project Scales
 * Settings > Mobile > Display > Scales
+
+
+## FAQ
+
+#### Can I use an existing / external install of the Android SDK?
+
+Not at this time. We'd like to support this in the future.
+
+#### How do I view the official device logs outside of Stencyl?
+
+Use Device Monitor, which can be launched from Stencyl (under Debug > Android > Launch Device Monitor).
+
+#### What version of the Android SDK does Stencyl use?
+
+As of this writing, we're up to API Level 22 (Lollipop).
