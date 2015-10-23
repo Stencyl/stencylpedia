@@ -37,15 +37,15 @@ For some devices, especially those made by Samsung, a USB driver (called an OEM 
 
 Google maintains a [page](http://developer.android.com/tools/extras/oem-usb.html) that lists all of these devices out.
 
-#### Turn on “USB Debugging”
+#### Turn on USB Debugging
 
-USB Debugging must be enabled, otherwise your device will be unable to communicate with your computer. The location of this option varies depending on what version of Android and what device you have.
+**USB Debugging** must be enabled, otherwise your device will be unable to communicate with your computer. The location of this option varies depending on what version of Android and what device you have.
 
 **Do a Google search for `USB debugging [YOUR_DEVICE_HERE]`**
 
 #### Turn on USB Mass Storage
 
-If you don't turn off USB Mass Storage, your device will be treated like a USB flash drive, rather than a proper Android device. Again, the location of this option varies depending on what version of Android and what device you have.
+If you don't turn off **USB Mass Storage**, your device will be treated like a USB flash drive, rather than a proper Android device. Again, the location of this option varies depending on what version of Android and what device you have.
 
 One trick that sometimes works is to plug your device in - if you're lucky, your device will ask you whether you want to Turn off USB Mass Storage.
 
