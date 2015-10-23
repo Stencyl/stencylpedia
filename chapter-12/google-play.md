@@ -40,6 +40,8 @@ aaa
 - google app ID
 - fingerprints (?)
 
+![stencyl-google-play-games-id](http://static.stencyl.com/pedia2/ch12/google-play-id.png)
+
 #### Initialize the Service
 
 - use the block
@@ -65,12 +67,12 @@ Block | Description | Where to Find
 
 #### Reporting Achievements
 
-Achievements can be designated as standard or incremental. An **incremental achievement** involves a player making gradual progress towards earning the achievement over a longer period of time. You can report the player's progress towards an incremental achievement using the **increase** achievement block.
+Achievements can be designated as standard or incremental. An **incremental achievement** involves a player making gradual progress towards earning the achievement over a longer period of time. When creating an incremental achievement, you must define the total number of steps required to unlock it (this must be a number between 2 and 10,000). You can report the player's progress towards an incremental achievement using the **increase** achievement block.
 
 Block | Description | Where to Find
 --- | --- | ---
 ![stencyl-unlock-achievement](http://static.stencyl.com/pedia2/ch12/unlock-achievement.png)  | ID = Achievement ID | Game > Mobile
-![stencyl-increase-achievement](http://static.stencyl.com/pedia2/ch12/increase-achievement.png)  | ID = Achievement ID<br/>Number must be between 0 - 100 inclusive | Game > Mobile
+![stencyl-increase-achievement](http://static.stencyl.com/pedia2/ch12/increase-achievement.png)  | ID = Achievement ID<br/>Number must be less than the remaining number of steps required | Game > Mobile
 
 #### Showing Leaderboards / Achievements
 
@@ -106,3 +108,5 @@ aaa
 ## Troubleshooting
 
 - fingerprints seem to be a hard area
+
+- for issues with the features not working or showing up, please ask for help on the forums. we haven't gotten enough feedback on this feature yet to post anything here.
