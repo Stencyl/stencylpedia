@@ -2,7 +2,7 @@
 
 * Introduction
 * Set Up an AdMob Account
-* How To: Displaying Ads
+* Displaying Banner Ads
 * Enhanced AdMob Support
 * Other Ad Networks
 * FAQ
