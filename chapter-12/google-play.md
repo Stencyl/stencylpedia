@@ -13,6 +13,10 @@
 
 aaa
 
+we support achievements, leaderboards, quests, events and rewards. we do not support multiplayer, save games or analytics.
+
+> **Note:** The [official documentation](https://developers.google.com/games/services/console/enabling) for Google Play Games is a good reference point if you're unsure about how the service works and what it offers.
+
 
 ## Setup
 
