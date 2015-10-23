@@ -140,9 +140,6 @@ Block | Description | Where to Find
 #### Consult the [Official Guide](https://developers.google.com/games/services/console/enabling)
 Specifically, skip down to **Avoiding common setup problems**, which list out the most common reasons why Google Play Games will fail to work for your app.
 
-#### Talk about Fingerprints
-TODO
-
 #### Does support Events (as in Stencyl Events) for Google Play Games?
 Not at this time. We'd like to in the future.
 
