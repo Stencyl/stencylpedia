@@ -131,4 +131,4 @@ Use Device Monitor, which can be launched from Stencyl (under Debug > Android > 
 
 #### What version of the Android SDK does Stencyl use?
 
-As of this writing, we're up to API Level 22 (Lollipop).
+As of late 2015, we're up to API Level 22 (Lollipop).
