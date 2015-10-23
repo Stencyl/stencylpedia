@@ -36,16 +36,28 @@ aaa
 
 #### Within Stencyl
 
-- enable google play games
-- google app ID
-- fingerprints (?)
+Once you've set up your game on the Google Play Developer Console, you're ready to set things up in Stencyl. All you have to do is navigate to **Settings > Mobile > Certificates (Android)** and do the following 2 things.
+
+* Click on the **Enable Google Play Games** checkbox.
+* Enter in your **Google Play App ID**.
 
 ![stencyl-google-play-games-id](http://static.stencyl.com/pedia2/ch12/google-play-id.png)
 
+> **TODO**: Talk about fingerprints / sha1.
+
 #### Initialize the Service
 
-- use the block
-- no events at the moment - check if connection is initialized via boolean block
+Once you've entered in your Google Play App ID into Stencyl, you must initialize the service using the following block (under Game > Mobile). Use this block as early as possible - preferably in your game's first scene or loading sequence.
+
+![stencyl-google-play-init](http://static.stencyl.com/pedia2/ch12/init-google-play.png)
+
+After using this block, you'll want to know when the Google Play service has succeeded in connecting with your game or whether it has failed. The following block (under Game > Mobile) lets you check on this status.
+
+![stencyl-google-play-events](http://static.stencyl.com/pedia2/ch12/google-play-events.png)
+
+Unfortunately, no events exist at this time. What we recommend doing is checking for success or failure every few seconds, as shown in the following example.
+
+![stencyl-google-play-example](http://static.stencyl.com/pedia2/ch12/google-play-example.png)
 
 
 ## Leaderboards and Achievements
