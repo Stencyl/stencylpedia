@@ -22,7 +22,7 @@ Before you can test ads, in your game, you must set up an account with AdMob.
 3. **Set up a project** for your game.
 4. Take note of the **Publisher ID** (sometimes called Publisher Key). You'll enter this into Stencyl.
 
-Note: If you need help or are looking for documentation of this process, check out [this guide](https://github.com/byrobingames/admob/wiki).
+> **Note:** Need documentation for this process? Check out [this guide](https://github.com/byrobingames/admob/wiki/2.-Configuring-your-Admob-Account).
  
 
 ## Displaying Banner Ads
