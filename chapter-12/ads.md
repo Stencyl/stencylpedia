@@ -1,86 +1,81 @@
 ## Contents
 
 * Introduction
-* Showing / Hiding Ads
-* Ad Events
-* Controlling the Position
-* Tips
-* Limitations
-* AdMob
-* Alternative Networks
+* Set Up an AdMob Account
+* How To: Displaying Ads
+* Enhanced AdMob Support
+* Other Ad Networks
+* FAQ
  
 
 ## Introduction
 
-Games on the App Store can make money by displaying ads. For the iOS platform, your best bet for making money is to display iAds, Apple’s own ad network. It may not pay the absolute most out of all networks, but it is easy to integrate and support. 
+Although Android supports many ad networks, we've chosen to support AdMob, which is owned and operated by Google itself. Through 3rd-party extensions, Stencyl supports a number of other ad networks.
+
+ 
+## Set Up an AdMob Account
+
+Before you can test ads, in your game, you must set up an account with AdMob.
+
+1. [Sign up](https://www.google.com/admob/) for an account on AdMob's site.
+2. **Provide the details** they ask for (Tax Information, Personal Details, etc.)
+3. **Set up a project** for your game.
+4. Take note of the **Publisher ID** (sometimes called Publisher Key). You'll enter this into Stencyl.
+
+Note: If you need help or are looking for documentation of this process, check out [this guide](https://github.com/byrobingames/admob/wiki).
  
 
-## Showing / Hiding Ads
+## Displaying Banner Ads
 
-To display an ad, **you must tell the ad to show**. We don't automatically show ads under any circumstance. This is done using the **show/hide mobile ad block** under **Game > Mobile**.
+Now that you've set up an account with AdMob, you can test out ads in your game.
+
+#### Enter in the Publisher ID
+
+1. Take note of your AdMob **Publisher ID** as mentioned above.
+
+2. Open your game in Stencyl. Under **Settings > Mobile > Monetization**, enter in the Publisher ID.
+
+#### Displaying the Ad
+
+To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [iOS Ads](http://www.stencyl.com/help/view/iads/) guide, you'll notice that this is the same block.
 
 ![ad-show-hide](http://static.stencyl.com/pedia2/ch11/ad-show-hide.png)
 
-> **Note:** An ad may not immediately show for a variety of reasons. See the Tips section below to learn why.
- 
+> **Note:** All the blocks that apply to iOS Ads also apply to Android Ads. Unlike iOS though, Ad Events do not work at this time.
 
-## Ad Events
+#### Controlling Ad Position
 
-Sometimes, it's useful to know when an ad has been clicked on or dismissed, so that you can provide a smooth transition between viewing the ad and resuming the game. Stencyl provides the following events for ads.
+Ad Position is set in **Settings > Mobile > Monetization** using the Ad Position dropdown. You can choose between Top or Bottom positioning.
 
-Event | Description
---- | ---
-An ad is viewed | User clicks on the banner ad
-An ad is closed | User closes the banner ad
-The ad area loads | Called each time a banner ad loads
-The ad area fails to load | Called when no banner ads can be loaded
-
-These events can be found under the **Mobile > Ads** item under the **Add Event** dropdown.
-
-![ad-events](http://static.stencyl.com/pedia2/ch11/ad-events.png)
-
-> **Tip:** We recommend [pausing](http://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
- 
-
-## Controlling Ad Position
-
-Ad Position is set in **Game Settings > Mobile > Monetization** using the **Ad Position dropdown**. You can choose to place the ad at the Top or the Bottom of the screen.
-
-![stencyl-iad-position](http://static.stencyl.com/pedia2/ch11/ad-position.png)
+![ad-position](http://static.stencyl.com/pedia2/ch11/ad-position.png)
 
  
-## Tips
+## Enhanced AdMob Support
 
-#### Why doesn't the ad show?
-During testing, ads can randomly fail to show. This is because **Apple randomly causes them to fail**, so that you can test how your app performs in these scenarios.
+Through a second-party effort, Stencyl is home to a well-maintained AdMob extension that supports a much richer feature set, most notably, the ability to use full-screen interstitial ads.
 
-Even in cases where an ad displays in production, it may take 30 seconds, a minute or even longer for the ad to display **if the ad inventory is empty at the time**.
-
- 
-#### Avoid covering up the screen
-When ads are displayed, they will cover up a small part of the screen. You should avoid displaying crucial game elements under an ad, such as HUD elements. 
-
-The **height of mobile ad** block (under Game > Mobile) provides the height, so you can lay your game out accordingly.
-
-![stencyl-iad-dont-cover-up](http://static.stencyl.com/help/images/iads/image03.png)
+[Check out the extension](http://community.stencyl.com/index.php/topic,41376.0.html).
 
 
-## Limitations
+## Other Ad Networks
 
-Stencyl does not support [full-screen (interstitial)](http://community.stencyl.com/index.php?issue=101.0) ads for the iAd network. If you need this functionality, consider using AdMob or an alternative network.
+Officially, Stencyl only supports AdMob on Android. Through free, user-created extensions, other ad networks besides AdMob are supported. These include...
 
-
-## AdMob
-
-AdMob support for iOS is supported through a well-maintained 2nd party extension. [Learn more](http://community.stencyl.com/index.php/topic,41376.0.html).
-
-
-## Alternate Networks
-
-Through free, user-created extensions, other ad networks besides AdMob are supported. These include...
-
-* [Ad Colony](http://community.stencyl.com/index.php/topic,40370.0.html)
 * [Facebook Ads](http://community.stencyl.com/index.php/topic,41144.0.html)
+* [Ad Colony](http://community.stencyl.com/index.php/topic,40370.0.html)
+* [RevMob](http://community.stencyl.com/index.php/topic,24331.0.html)
 * [Chartboost](http://community.stencyl.com/index.php/topic,25006.0.html)
 
 Check out our [Extensions Market](http://www.stencyl.com/developers/market/) and [Extensions Forum](http://community.stencyl.com/index.php/board,70.0.html) for more details.
+
+
+## FAQ
+
+#### Why don’t the ad events fire for Android, but they do for iOS?
+This is currently a limitation and is the expected behavior at this time.
+
+#### AdMob on iOS?
+The aforementioned [extension](http://community.stencyl.com/index.php/topic,41376.0.html) that provides full AdMob support for Android also supports AdMob on iOS.
+
+#### What version of the AdMob SDK is used?
+As of late 2015, we're using v7.x of the SDK.
