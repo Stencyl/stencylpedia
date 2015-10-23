@@ -48,28 +48,36 @@ aaa
 
 ## Leaderboards and Achievements
 
-Both Leaderboards and Achievements encourage light-hearted competition between players. Leaderboards are a place for all players to post their high scores while achievements increase your players' engagement by encouraging them to explore parts of the game or take on certain styles of play they may not have otherwise used.
+Both Leaderboards and Achievements encourage light-hearted competition between players. **Leaderboards** are a place for all players to post their high scores while **achievements** increase your players' engagement by encouraging them to explore parts of the game or take on certain styles of play they may not have otherwise used.
 
 #### Setup
 
-* Setting up [https://developers.google.com/games/services/common/concepts/achievements](Achievements)
-* Setting up [https://developers.google.com/games/services/common/concepts/leaderboards](Leaderboards)
+Both Leaderboards and Achievements must be set up on the [Google Play Developer Console](https://play.google.com/apps/publish/). Read the following pages to learn about the setup process for these features.
 
-#### Submitting Scores
+* Setting up [Achievements](https://developers.google.com/games/services/common/concepts/achievements)
+* Setting up [Leaderboards](https://developers.google.com/games/services/common/concepts/leaderboards)
 
-aaa
+#### Reporting Scores
 
-#### Increasing / Unlocking Achievements
+Block | Description | Where to Find
+--- | --- | ---
+![stencyl-report-score](http://static.stencyl.com/pedia2/ch12/submit-score.png) | ID = Leaderboard ID<br/>Score must be a number | Game > Mobile
 
-aaa
+#### Reporting Achievements
 
-#### Showing a Specific Leaderboard
+Achievements can be designated as standard or incremental. An **incremental achievement** involves a player making gradual progress towards earning the achievement over a longer period of time. You can report the player's progress towards an incremental achievement using the **increase** achievement block.
 
-aaa
+Block | Description | Where to Find
+--- | --- | ---
+![stencyl-unlock-achievement](http://static.stencyl.com/pedia2/ch12/unlock-achievement.png)  | ID = Achievement ID | Game > Mobile
+![stencyl-increase-achievement](http://static.stencyl.com/pedia2/ch12/increase-achievement.png)  | ID = Achievement ID<br/>Number must be between 0 - 100 inclusive | Game > Mobile
 
-#### Showing all Leaderboards / Achievements
+#### Showing Leaderboards / Achievements
 
-aaa
+Block | Description | Where to Find
+--- | --- | ---
+![stencyl-show-leaderboard](http://static.stencyl.com/pedia2/ch12/show-leaderboard.png) | ID = Leaderboard ID | Game > Mobile
+![stencyl-show-all](http://static.stencyl.com/pedia2/ch12/show-all.png) | Shows all achievements or leaderboards or quests | Game > Mobile
 
 
 ## Events, Quests and Rewards
@@ -80,7 +88,7 @@ Events are like **analytics**. They let you collect data from your players durin
 
 #### Setup
 
-Events, Quests and Rewards must be set up on the [Google Play Developer Console](https://play.google.com/apps/publish/). Consult Google's guide on [https://developers.google.com/games/services/common/concepts/quests](Events and Quests) to set these up.
+Events, Quests and Rewards must be set up on the [Google Play Developer Console](https://play.google.com/apps/publish/). Read Google's guide on [Events and Quests](https://developers.google.com/games/services/common/concepts/quests) to learn h ow set these up.
 
 #### Events
 
