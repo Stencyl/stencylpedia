@@ -39,11 +39,11 @@ aaa
 Once you've set up your game on the Google Play Developer Console, you're ready to set things up in Stencyl. All you have to do is navigate to **Settings > Mobile > Certificates (Android)** and do the following 2 things.
 
 * Click on the **Enable Google Play Games** checkbox.
-* Enter in your **Google Play App ID**.
+* Enter in your **Google Play Application ID**.
 
 ![stencyl-google-play-games-id](http://static.stencyl.com/pedia2/ch12/google-play-id.png)
 
-> **TODO**: Talk about fingerprints / sha1.
+> **Note:** The **Application ID is a 12-or-13-digit number** ([View Example](http://static.stencyl.com/pedia2/ch12/app-id.png)). It is NOT the Client ID.
 
 #### Initialize the Service
 
@@ -118,6 +118,9 @@ aaa
 
 
 ## Troubleshooting
+
+#### Consult the [Official Guide](https://developers.google.com/games/services/console/enabling)
+Specifically, skip down to **Avoiding common setup problems**, which list out the most common reasons why Google Play Games will fail to work for your app.
 
 - fingerprints seem to be a hard area
 
