@@ -2,8 +2,9 @@
 
 * Introduction
 * Setup
-  * Google Play Dashboard
-  * Stencyl
+  * Step 1: Google Play Developer Console
+  * Step 2: Setup within Stencyl
+  * Step 3: Initialize Google Play Games using blocks
 * Leaderboards and Achievements
 * Events, Quests and Rewards
 * Troubleshooting
@@ -11,7 +12,8 @@
 
 ## Introduction
 
-aaa
+[Google Play Games Services](https://developers.google.com/games/services/) is Google's equivalent to Apple's Game Center. It is a service that provides leaderboards, achievements, analytics and other features that help you find and retain players for your games.
+
 
 #### Supported Features
 
@@ -28,13 +30,13 @@ Multiplayer | No
 
 ## Setup
 
-> **Note:** The [official documentation](https://developers.google.com/games/services/console/enabling) for Google Play Games is a good reference point if you're unsure about how the service works and what it offers.
+#### Step 1: Set the game up on Google Play
 
-#### Google Play Dashboard
+First, you must set up your game on the [Google Play Developer Console](https://play.google.com/apps/publish/), the Google equivalent to iTunes Connect. If you haven't registered for the Google Play Developer Console before, you will be prompted to do so.
 
-aaa
+Once you're in, we strongly recommend following the [official documentation](https://developers.google.com/games/services/console/enabling) to learn how to set up your game. You must complete all steps mentioned in Google's guide before continuing.
 
-#### Within Stencyl
+#### Step 2: Setup Within Stencyl
 
 Once you've set up your game on the Google Play Developer Console, you're ready to set things up in Stencyl. All you have to do is navigate to **Settings > Mobile > Certificates (Android)** and do the following 2 things.
 
@@ -45,7 +47,7 @@ Once you've set up your game on the Google Play Developer Console, you're ready 
 
 > **Note:** The **Application ID is a 12-or-13-digit number** ([View Example](http://static.stencyl.com/pedia2/ch12/app-id.png)). It is NOT the Client ID.
 
-#### Initialize the Service
+#### Step 3: Initialize Google Play with blocks
 
 Once you've entered in your Google Play App ID into Stencyl, you must initialize the service using the following block (under Game > Mobile). Use this block as early as possible - preferably in your game's first scene or loading sequence.
 
