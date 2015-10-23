@@ -1,6 +1,7 @@
 ## Contents
 
 * Requirements
+* Is there an Android "simulator"?
 * Walkthrough
   * Step 1: Set up your Device
   * Step 2: Install the Java JDK
@@ -23,7 +24,9 @@ The rest of the software requirements are fetched by Stencyl directly from Googl
 
 ## Is there an Android "simulator"?
 
-No emulator or simulator is available for testing Android games on your computer. If you don’t have an Android device, we recommend picking up a cheap one, such as a Moto E or Moto G. We do not recommend off-brand devices since they tend to be difficult to test games on.
+No emulator or simulator is available for testing Android games on your computer. 
+
+If you don’t have an Android device, we recommend picking up a cheap one, such as a [Moto E](https://www.motorola.com/us/smartphones/moto-e-2nd-gen/moto-e-2nd-gen.html) or [Moto G](http://www.motorola.com/us/products/moto-g). We do not recommend purchasing off-brand devices since you may be unable to test your games on them
  
 
 ## Step 1: Set up your Device
