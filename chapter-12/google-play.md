@@ -36,6 +36,9 @@ First, you must set up your game on the [Google Play Developer Console](https://
 
 Once you're in, we strongly recommend following the [official documentation](https://developers.google.com/games/services/console/enabling) to learn how to set up your game. You must complete all steps mentioned in Google's guide before continuing.
 
+> **Note:** Don't forget to [add test accounts](https://developers.google.com/games/services/console/testpub) to the Testing section of the Google Play Developer Console, otherwise you will not be able to sign in to your game.
+
+
 #### Step 2: Setup Within Stencyl
 
 Once you've set up your game on the Google Play Developer Console, you're ready to set things up in Stencyl. All you have to do is navigate to **Settings > Mobile > Certificates (Android)** and do the following 2 things.
