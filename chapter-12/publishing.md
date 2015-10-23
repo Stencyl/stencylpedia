@@ -44,7 +44,7 @@ With this in mind, let's get started with the publishing process.
 
 1) In Stencyl, go to **Settings > Mobile > Certificates (Android)**
 
-![](http://static.stencyl.com/help/images/google-play-2.png)
+![view-keystore](http://static.stencyl.com/pedia2/ch12/keystore.png)
 
 2) Click on **Make an Android Certificate**
 
