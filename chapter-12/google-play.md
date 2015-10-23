@@ -124,6 +124,7 @@ aaa
 #### Consult the [Official Guide](https://developers.google.com/games/services/console/enabling)
 Specifically, skip down to **Avoiding common setup problems**, which list out the most common reasons why Google Play Games will fail to work for your app.
 
-- fingerprints seem to be a hard area
+#### Fingerprints
+TODO
 
-- for issues with the features not working or showing up, please ask for help on the forums. we haven't gotten enough feedback on this feature yet to post anything here.
+If you continue to experience issues after consulting the resources above, please ask for help on the forums ([customer area](http://community.stencyl.com/index.php/board,46.0.html) - [public area](http://community.stencyl.com/index.php/board,3.0.html)). This feature is still on the new side, so we haven't gotten enough feedback yet to build out our troubleshooting section.
