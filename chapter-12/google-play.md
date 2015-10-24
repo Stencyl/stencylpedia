@@ -2,9 +2,10 @@
 
 * Introduction
 * Setup
-  * Step 1: Google Play Developer Console
-  * Step 2: Setup within Stencyl
-  * Step 3: Initialize Google Play Games using blocks
+  * Step 1: Set Up your Keystore 
+  * Step 2: Google Play Developer Console
+  * Step 3: Setup within Stencyl
+  * Step 4: Initialize Google Play Games using blocks
 * Leaderboards and Achievements
 * Events, Quests and Rewards
 * Troubleshooting
@@ -30,16 +31,24 @@ Multiplayer | No
 
 ## Setup
 
-#### Step 1: Set the game up on Google Play
+#### Step 1: Set up your Keystore (if necessary)
+
+Before doing anything, you must **set up your keystore** within Stencyl. Consult our [Publishing to Google Play](http://www.stencyl.com/help/view/google-play/) guide for details on this process.
+
+> **Note:** If you already have a Keystore (made outside of Stencyl), you must still tell Stencyl about it. Read the [guide](http://www.stencyl.com/help/view/google-play/) for details.
+
+#### Step 2: Set the game up on Google Play
 
 First, you must set up your game on the [Google Play Developer Console](https://play.google.com/apps/publish/), the Google equivalent to iTunes Connect. If you haven't registered for the Google Play Developer Console before, you will be prompted to do so.
 
 Once you're in, we strongly recommend following the [official documentation](https://developers.google.com/games/services/console/enabling) to learn how to set up your game. You must complete all steps mentioned in Google's guide before continuing.
 
-> **Note:** Don't forget to [add test accounts](https://developers.google.com/games/services/console/testpub) to the Testing section of the Google Play Developer Console, otherwise you will not be able to sign in to your game.
+> **Note 1:** When Google requests **SHA1 fingerprints** for your game (during the Client ID creation process), go to **Settings > Mobile > Certificates (Android)** and click View Fingerprints. Use the Release fingerprint for the Release Client ID and the Debug fingerprint for the Debug Client ID.
+
+> **Note 2:** Don't forget to [add test accounts](https://developers.google.com/games/services/console/testpub) to the Testing section of the Google Play Developer Console, otherwise you will not be able to sign in to your game.
 
 
-#### Step 2: Setup Within Stencyl
+#### Step 3: Setup Within Stencyl
 
 Once you've set up your game on the Google Play Developer Console, you're ready to set things up in Stencyl. All you have to do is navigate to **Settings > Mobile > Certificates (Android)** and do the following 2 things.
 
@@ -50,7 +59,7 @@ Once you've set up your game on the Google Play Developer Console, you're ready 
 
 > **Note:** The **Application ID is a 12-or-13-digit number** ([View Example](http://static.stencyl.com/pedia2/ch12/app-id.png)). It is NOT the Client ID.
 
-#### Step 3: Initialize Google Play with blocks
+#### Step 4: Initialize Google Play with blocks
 
 Once you've entered in your Google Play App ID into Stencyl, you must initialize the service using the following block (under Game > Mobile). Use this block as early as possible - preferably in your game's first scene or loading sequence.
 
