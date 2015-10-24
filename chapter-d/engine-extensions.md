@@ -119,7 +119,7 @@ You do not need to close and reopen Stencyl or the game to get those edits recog
 If you encounter compile errors, use the Log Viewer to see what went wrong.
 
 
-## How To: Creating a Flash Extension (TODO)
+## How To: Creating a Flash Extension
 
 Creating a Flash extension is necessary if you wish to **import a custom SWF or SWC**. For example, a common use case is to import a sponsor’s API.
 
