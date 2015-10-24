@@ -131,20 +131,50 @@ Callbacks are functions that you implement inside your extension. These callback
 
 ***
 
-Callback | Description
---- | ---
-onStartup() | Called when Stencyl launches. Try not to do anything intense, or it will slow down the launch.
-onActivate() | Called when the extension is told to display or "do work"
-onDestroy() | Called when Stencyl is being quit out of. Usually, you'd use this to save stuff out.
-onGameSave(Game game) | Happens whenever a game is saved.
-onGameOpened(Game game) | Happens whenever a game is opened.
-onGameClosed(Game game) | Happens whenever a game is closed.
-OptionsPanel onOptions() | Returns a configuration panel for this extension that's shown when the Options button is clicked in the extensions manager. View the [API](http://api.stencyl.com/extensions/stencyl/sw/ext/OptionsPanel.html) for the Options Panel as well as the source to the Sample Extension for usage samples.
-onInstall() | Happens when the extension is first installed.
-onUninstall() | Happens when the extension is uninstalled. Do cleanup.
+**onStartup()**<br/>
+Called when Stencyl is launching. Try not to do anything intense, or it will slow down launch.
 
 ***
 
+**onActivate()**<br/>
+Called when the extension is told to display or "do work"
+
+***
+
+**onDestroy()**<br/>
+Called when Stencyl is being quit out of. Usually, you'd use this to save stuff out.
+
+***
+
+**onGameSave(Game game)**<br/>
+Happens whenever a game is saved.
+
+***
+
+**onGameOpened(Game game)**<br/>
+Happens whenever a game is opened.
+
+***
+
+**onGameClosed(Game game)**<br/>
+Happens whenever a game is closed.
+
+***
+
+**OptionsPanel onOptions()**<br/>
+Returns a configuration panel for this extension that's shown when the Options button is clicked in the extensions manager. View the [API for the Options Panel](http://api.stencyl.com/extensions/stencyl/sw/ext/OptionsPanel.html) as well as the source to the Sample Extension for usage samples.
+
+***
+
+**onInstall()**<br/>
+Happens when the extension is first installed.
+
+***
+
+**onUninstall()**<br/>
+Happens when the extension is uninstalled. Do cleanup.
+
+***
 
 
 ## GUI API Reference
