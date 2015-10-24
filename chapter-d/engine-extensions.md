@@ -121,7 +121,7 @@ To create a new extension, it's easiest to copy an existing one. We've created t
 
 4. Modify **Test.hx** and implement whatever it is you want to implement. You can create additional source files and reference them. Note that in many cases, your public API calls will need to be **static**.
 
-5. Edit **blocks.xml** if you wish to add custom blocks for your extension. The **spec** for this file's format can be found [here](https://github.com/Stencyl/stencylpedia/blob/master/chapter-d/block-spec.md).
+5. Edit **blocks.xml** if you wish to add custom blocks for your extension. The **spec** for this file's format can be found [here](http://www.stencyl.com/help/view/adding-blocks/).
 
 
 That’s it. Once your extension is ready, open a game, enable the extension, save -> close -> reopen and finally test the game. If you’ve done everything correctly, the extension will work.
