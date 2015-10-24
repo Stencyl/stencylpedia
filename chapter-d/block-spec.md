@@ -1,4 +1,4 @@
-## Reference: Spec for blocks.xml
+## Introduction
 
 This is the spec for blocks.xml, the file used to add custom blocks to an extension. 
 
@@ -9,7 +9,7 @@ Suppose that we wanted to remake the `print` block. This is what the definition 
 
 ![](http://static.stencyl.com/pedia2/blocks/flow/flow_debug/Print.png)
 
-This will be useful to refer back to as you read through this article.
+Don't worry about the details for now. This will be useful to refer back to as you read through this article.
 
 ```
 <palette>
