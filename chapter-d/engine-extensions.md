@@ -36,7 +36,7 @@ Even if you don't intend to write any code, extensions can define custom blocks 
 * For iOS extensions, you need to know Objective-C and some C++.
 * For Android extensions, you need to know Java and some C++.
 
-No additional software is required to build pure Haxe or Flash extensions. Native extensions require Haxe 3.1 to be installed.
+No additional software is required to build pure Haxe or Flash extensions. Native extensions require [Haxe 3.1](http://www.haxe.org) to be installed.
  
 
 ## How To: Installing Extensions
