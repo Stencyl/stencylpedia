@@ -1,6 +1,6 @@
 > #### Extending Stencyl
 
-> Engine ([Basics](http://www.stencyl.com/help/view/how-to-create-engine-extension/) - [iOS & Android](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) - [Flash](http://www.stencyl.com/help/view/flash-extensions/) - [API](http://static.stencyl.com/api/33/))
+> Engine ([Basics](http://www.stencyl.com/help/view/how-to-create-engine-extension/) - [iOS & Android](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) - [Flash](http://www.stencyl.com/help/view/flash-extensions/) - [Blocks](http://www.stencyl.com/help/view/adding-blocks/) - [API](http://static.stencyl.com/api/33/))
 
 > Toolset ([Extensions](http://www.stencyl.com/help/view/creating-extensions/) - [API](http://api.stencyl.com/extensions/))
 
@@ -14,7 +14,6 @@
 * How to Create an Extension (Flash)
 * Native Extensions (iOS, Android)
 * Publishing Extensions
-* Reference: Spec for blocks.xml
 * FAQ
  
 
@@ -122,23 +121,7 @@ To create a new extension, it's easiest to copy an existing one. We've created t
 
 4. Modify **Test.hx** and implement whatever it is you want to implement. You can create additional source files and reference them. Note that in many cases, your public API calls will need to be **static**.
 
-5. Edit **blocks.xml** if you wish to add custom blocks for your extension. The **spec** for this file's format can be found later in this article under **Reference: Spec for blocks.xml**. Here's what blocks.xml looks like for the test extension.
-
-  ```
-  <palette>
-	   <block tag="test-print" spec="print %0 to console %1" code="Test.print(~); /* Testing: ~ */" type="action" color="gray" returns="void">
-		    <fields>
-			     <text order="0"></text>
-			     <dropdown order="1">
-				      <choices>
-					       <c text="Pressed" code="1"></c>
-					       <c text="Released" code="2"></c>
-				      </choices>
-		 	    </dropdown>
-		    </fields>
-	   </block>
-  </palette>
-  ```
+5. Edit **blocks.xml** if you wish to add custom blocks for your extension. The **spec** for this file's format can be found [here](https://github.com/Stencyl/stencylpedia/blob/master/chapter-d/block-spec.md).
 
 
 That’s it. Once your extension is ready, open a game, enable the extension, save -> close -> reopen and finally test the game. If you’ve done everything correctly, the extension will work.
@@ -187,91 +170,6 @@ Now, ZIP up the folder containing your extension.
 #### Step 4: Tell us about it
 
 *Once your extension receives sufficient feedback*, [contact us](http://www.stencyl.com/about/contact/) about getting it added to our official repository.
-
-
-## Reference: Spec for blocks.xml
-
-This is the spec for blocks.xml, the file used to add custom blocks to an extension. We provide the following example of blocks.xml with the test extension.
-
-```
-  <palette>
-	   <block tag="test-print" spec="print %0 to console %1" code="Test.print(~); /* Testing: ~ */" type="action" color="gray" returns="void">
-		    <fields>
-			     <text order="0"></text>
-			     <dropdown order="1">
-				      <choices>
-					       <c text="Pressed" code="1"></c>
-					       <c text="Released" code="2"></c>
-				      </choices>
-		 	    </dropdown>
-		    </fields>
-	   </block>
-  </palette>
-```
-
-#### Adding a Block
-
-`<palette>` is the root tag for the document -- it contains a list of `<block>` entries. To add a block, add a `<block>` tag with the following properties.
-
-Property | Description
---- | ---
-tag | Unique name for block, only ABC and - (dash) allowed (no spaces!)
-spec | Like what you see in our language files, use %0, %1, etc. to specify where the spaces go
-code | Output code, use ~ to specify the blanks. Must match the order in which fields are specified.
-type | Any of these [normal, action, wrapper, event]
-color | Any of these [blue, cyan, green, lime, purple, red, gray, charcoal]
-returns | A **type** (see available types below)
-
-#### Types
-
-These are the available types you can use for the **returns** property of `<block>` and the list of `<fields>`.
-
-* void (does not apply to `fields`)
-* actor
-* actortype
-* boolean
-* camera
-* color
-* control
-* font
-* group
-* number
-* list
-* anything
-* region
-* scene
-* sound
-* text
-* dropdown (does not apply to `returns`)
-
-#### Fields
-
-Each `<block>` contains `<fields>` as a child. `<fields>` is a list of block fields (the blank spaces in a block).
-
-Each child of `<fields>` is a tag, whose name corresponds to a type (the ones mentioned above). For example, if you want to make a number field, the tag would be `<number>`.
-
-Fields are ordered using `order` attribute, starting at zero and incremented by 1. Don't skip numbers.
-
-#### Dropdown Fields
-
-If you wish to use a dropdown, look at the example below for syntax.
-
-The `text` attribute specifies what's visible to the end user.
-The `code` attribute specifies the literal value that will be output into code.
-
-```
-<dropdown order="1">
-  <choices>
-		  <c text="Pressed" code="1"></c>
-		  <c text="Released" code="2"></c>
-  </choices>
-</dropdown>
-```
-
-#### Limitations
-
-* No support for embedded blocks (such as those you see attached to events).
-* No support for events.
 
 
 ## FAQ
