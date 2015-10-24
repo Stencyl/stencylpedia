@@ -3,13 +3,17 @@
 This is the spec for blocks.xml, the file used to add custom blocks to an extension. 
 
 
-## Full Example
+## Example (for reference)
 
-We provide the following example of blocks.xml with the test extension. This will be useful to refer back to as you read through this article.
+Suppose that we wanted to remake the `print` block. This is what the definition would look like.
+
+![](http://static.stencyl.com/pedia2/blocks/flow/flow_debug/Print.png)
+
+This will be useful to refer back to as you read through this article.
 
 ```
 <palette>
-  <block tag="print" spec="print %0" code="Test.print(~);" type="action" color="gray" returns="void">
+  <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void">
     <fields>
       <text order="0"></text>
     </fields>
@@ -44,7 +48,7 @@ returns | A **type** (see available types below)
 For example...
 
 ```
-<block tag="print" spec="print %0" code="Test.print(~);" type="action" color="gray" returns="void"></block>
+<block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void"></block>
 ```
 
 
@@ -76,10 +80,10 @@ These are the available types you can use for the **returns** property of `<bloc
 Each `<block>` contains `<fields>` as a child. `<fields>` is a list of block fields (the blank spaces in a block).
 
 ```
-<block tag="print" spec="print %0" code="Test.print(~);" type="action" color="gray" returns="void">
+<block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void">
   <fields>
-	  <text order="0"></text>
-	</fields>
+    <text order="0"></text>
+  </fields>
 </block>
 ```
 
@@ -109,8 +113,8 @@ The `code` attribute specifies the literal value that will be output into code.
 ```
 <dropdown order="1">
   <choices>
-		  <c text="Pressed" code="1"></c>
-		  <c text="Released" code="2"></c>
+    <c text="Pressed" code="1"></c>
+    <c text="Released" code="2"></c>
   </choices>
 </dropdown>
 ```
