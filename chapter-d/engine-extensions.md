@@ -182,10 +182,9 @@ No. All extensions can be edited and tested without closing and reopening your g
 
 If you hit a compile-time error, check out the Log Viewer to see what it says. Chances are good that you either goofed in the Haxe portion of the extension or possibly the custom block portion.
 
- 
 #### My blocks look wrong or my game doesn't load.
 
-If your custom blocks don't load, don't come out right or prevent your game from loading at all, again, open up the Log Viewer before you load up your game to see if any errors. You probably goofed up in the custom block portion (blocks.xml).
+If your custom blocks don't load, don't come out right or prevent your game from loading at all, again, open up the Log Viewer before you load up your game to see if any errors. You probably goofed up in the [custom block portion](http://www.stencyl.com/help/view/adding-blocks/).
  
 #### Asking for Help
 
