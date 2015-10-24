@@ -118,12 +118,14 @@ The `text` attribute specifies what's visible to the end user.
 The `code` attribute specifies the literal value that will be output into code.
 
 ```
-<dropdown order="1">
-  <choices>
-    <c text="Pressed" code="1"></c>
-    <c text="Released" code="2"></c>
-  </choices>
-</dropdown>
+<fields>
+  <dropdown order="1">
+    <choices>
+      <c text="Pressed" code="1"></c>
+      <c text="Released" code="2"></c>
+    </choices>
+  </dropdown>
+</fields>
 ```
 
 
