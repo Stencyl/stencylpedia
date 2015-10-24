@@ -1,21 +1,20 @@
 ## Reference: Spec for blocks.xml
 
-This is the spec for blocks.xml, the file used to add custom blocks to an extension. We provide the following example of blocks.xml with the test extension.
+This is the spec for blocks.xml, the file used to add custom blocks to an extension. 
+
+
+## Full Example
+
+We provide the following example of blocks.xml with the test extension. This will be useful to refer back to as you read through this article.
 
 ```
-  <palette>
-	   <block tag="test-print" spec="print %0 to console %1" code="Test.print(~); /* Testing: ~ */" type="action" color="gray" returns="void">
-		    <fields>
-			     <text order="0"></text>
-			     <dropdown order="1">
-				      <choices>
-					       <c text="Pressed" code="1"></c>
-					       <c text="Released" code="2"></c>
-				      </choices>
-		 	    </dropdown>
-		    </fields>
-	   </block>
-  </palette>
+<palette>
+  <block tag="print" spec="print %0" code="Test.print(~);" type="action" color="gray" returns="void">
+    <fields>
+      <text order="0"></text>
+    </fields>
+  </block>
+</palette>
 ```
 
 
