@@ -84,19 +84,29 @@ You will need the following before you begin.
 
 The SDK consists of a sample project and our API docs for extensions.
 
-#### First Steps
+> TODO JUSTIN: Switch over to Github for this. Decouple the API docs.
+
+#### Start a New Project
 
 1. Go to [WORKSPACE]/extensions/ - This folder contains all of your toolset extensions.
+
 2. Open up the Sample Project in your IDE by creating a new, existing project. 
   * Peek at the README, which contains specific instructions for the nitty gritty project setup. 
   * Add sw.jar to the project's classpath and edit build.xml as directed.
-3. After that is done, run the "dist" ANT task. This builds a JAR file that Stencyl recognizes as an extension.
+
+3. After that is done, run the **dist** ANT task from the IDE. This builds a Java **JAR file** that Stencyl recognizes as an extension.
+
 4. Launch your copy of Stencyl, and you will see the Sample Extension appear in the Extensions menu and also inside the Extensions Manager. Play around with it.
  
-#### Developing
+#### Test a Change
 
 1. Now that the sample extension runs, flip to SampleExtension.java, the source that defines the extension itself.
-2. Do you see how it impplements a bunch of callback functions that all start with "on"?
+
+```
+TODO JUSTIN: INSERT FILE HERE. IT MUST BE A LOT MORE EXTENSIVE THAN THE EXISTING ONE.
+```
+
+2. Do you see how it implements a bunch of callback functions that all start with "on"?
 3. Make a simple edit to it.
 4. Rebuild and rerun in Stencyl. Does your change show up?
 
