@@ -141,7 +141,7 @@ If you encounter compile errors, use the Log Viewer to see what went wrong.
 
 Creating a Flash extension is necessary if you wish to **import a custom SWF or SWC**. For example, a common use case is to import a sponsor’s API.
 
-Read our article on [Flash Extensions](https://github.com/Stencyl/stencylpedia/blob/master/chapter-d/flash-extensions.md) to learn how to create them.
+Read our article on [Flash Extensions](http://www.stencyl.com/help/view/flash-extensions/) to learn how to create them.
 
 
 ## How To: Creating Native Extensions (iOS / Android)
