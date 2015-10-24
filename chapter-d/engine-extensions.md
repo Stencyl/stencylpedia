@@ -9,8 +9,8 @@ Extending Stencyl's Engine - [Basics] - [iOS & Android Extensions]
 * How to Create an Extension (Haxe)
 * How to Create an Extension (Flash)
 * Native Extensions (iOS, Android)
+* Publishing Extensions
 * FAQ
-* Sharing Extensions
 * How to Ask for Help
  
 
@@ -123,18 +123,7 @@ If you encounter compile errors, use the Log Viewer to see what went wrong.
 
 Creating a Flash extension is necessary if you wish to **import a custom SWF or SWC**. For example, a common use case is to import a sponsor’s API.
 
-#### Creating a Flash Extension
-
-1. Under [WORKSPACE]/engine-extensions/, copy the “test-flash” extension to a new folder. Give that folder a new name.
-2. Edit **info.txt** and provide a new icon.
-3. Replace **library.swf** with the SWF you wish to import. If it’s a SWC, read the note below.
-4. Rename and edit **TestFlash.hx** to meet your needs. If you don’t want or need a source file, you can safely delete it and call the SWF’s functions directly from the game.
-
-That’s it. Once your extension is ready, open a game, enable the extension, save -> close -> reopen and finally test the game. If you’ve done everything correctly, the extension will work.
-
-For further details, view the test-flash extension, which imports a base64 encoding/decoding library. The gist of how this works is that Haxe can directly make calls to AS3 libraries.
-
-> **Note:** If you have a SWC library, you need to extract the SWF that resides inside of it. To do this, rename the SWC to a ZIP and extract its contents. The SWF will be inside. Use that.
+Read our article on [Flash Extensions](https://github.com/Stencyl/stencylpedia/blob/master/chapter-d/flash-extensions.md) to learn how to create them.
 
 
 ## How To: Creating Native Extensions (iOS / Android)
@@ -142,6 +131,27 @@ For further details, view the test-flash extension, which imports a base64 encod
 Native Extensions allow Haxe code to call Objective-C, C++ or Java code, thereby allowing hooks to native functionality and APIs.
 
 Read our article on [Native Extensions](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) to learn how to create them.
+
+
+## Publishing an Extension
+
+You've now finished up an extension and want to share it with the community. Here's what you need to do.
+
+#### Step 1: Remove the Source (optional)
+
+If you aren't going to open-source your extension, you should omit the **project/** subfolder from your redistributed extension.
+
+#### Step 2: ZIP it up
+
+Now, ZIP up the folder containing your extension.
+
+#### Step 3: Post it to our forums
+
+[Start a forum topic](http://community.stencyl.com/index.php/board,70.0.html) in our Extensions forum to get feedback.
+
+#### Step 4: Tell us about it
+
+*Once your extension receives sufficient feedback*, [contact us](http://www.stencyl.com/about/contact/) about getting it added to our official repository.
 
 
 ## FAQ
@@ -158,23 +168,9 @@ If you hit a compile-time error, check out the Log Viewer to see what it says. C
 #### My blocks look wrong or my game doesn't load.
 
 If your custom blocks don't load, don't come out right or prevent your game from loading at all, again, open up the Log Viewer before you load up your game to see if any errors. You probably goofed up in the custom block portion (blocks.xml).
-
-
-## Sharing an Extension
-
-You've now finished up an extension and want to share it with the community. Here's what you need to do.
-
-1. ZIP up the folder for the extension.
-
-2. If you’ve made a native (iOS / Android) extension, you can omit the project subfolder from the redistributed extension. This contains the source code to your extension, which you may or may not want to redistribute. In other words, copy your extension to a new folder and delete the project subfolder if you don't want to share the source.
-
-3. [Start a forum topic](http://community.stencyl.com/index.php/board,70.0.html) in our Extensions forum to get feedback.
-
-Once your extension receives enough feedback, [contact us](http://www.stencyl.com/about/contact/) about getting it added to our official repository.
-
  
 
 ## How to Ask for Help
 
-If you get stuck creating an extension, [ask a question on the Extensions forum](http://community.stencyl.com/index.php/board,70.0.html). Please refrain from asking here - article comments are intended for pointing out errors in the article and suggesting improvements.
+If you get stuck creating an extension, [ask a question on the Extensions forum](http://community.stencyl.com/index.php/board,70.0.html). Please refrain from asking here -- article comments are intended for pointing out errors in the article and suggesting improvements.
 
