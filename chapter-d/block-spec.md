@@ -9,6 +9,8 @@
 
 This is the spec for blocks.xml, the file used to add custom blocks to an extension. 
 
+> **Note:** Making changes to **blocks.xml** requires you to close and reopen the game for your changes to be reflected in the block palette.
+
 
 ## Example (for reference)
 
