@@ -152,4 +152,5 @@ Specifically, skip down to **Avoiding common setup problems**, which list out th
 #### Does support Events (as in Stencyl Events) for Google Play Games?
 Not at this time. We'd like to in the future.
 
+#### Hitting other issues? Ask for help.
 If you continue to experience issues after consulting the resources above, please ask for help on the forums ([customer area](http://community.stencyl.com/index.php/board,46.0.html) - [public area](http://community.stencyl.com/index.php/board,3.0.html)). This feature is still on the new side, so we haven't gotten enough feedback yet to build out our troubleshooting section.
