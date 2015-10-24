@@ -119,7 +119,7 @@ The `code` attribute specifies the literal value that will be output into code.
 
 ```
 <fields>
-  <dropdown order="1">
+  <dropdown order="0">
     <choices>
       <c text="Pressed" code="1"></c>
       <c text="Released" code="2"></c>
