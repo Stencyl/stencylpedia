@@ -107,7 +107,7 @@ class Purchases {
     fn([this]);
   }
 
-  public function onSuccessfulPurchase(productID:String) {
+  public function onPurchase(productID:String) {
     trace(productID);
   }
 }
