@@ -1,4 +1,4 @@
-<table><tr>
+<table style="border:1px solid #cccccc;"><tr>
 <td width="180" valign="top">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
