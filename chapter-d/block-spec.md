@@ -5,6 +5,12 @@
 <li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
 <li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
 <li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+</ul>
+</td>
+<td width="30" style="border:0px;"></td>
+<td width="180" valign="top" style="border:0px;">
+<h5>Advanced Topics</h5>
+<ul class="pedia-links">
 <li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
 <li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
 <li><a href="http://static.stencyl.com/api/33/">API</a></li>
