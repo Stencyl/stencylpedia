@@ -103,39 +103,37 @@ You will need the following before you begin.
 
 > ANT is a task running system for Java. We'll go through it when we reach the point where it's needed.
  
-#### Download the Toolset SDK
+#### Download the Sample Extension
 
-[Download](http://static.stencyl.com/extensions/Stencyl-SDK-1.0.0.zip)
+[Download](https://github.com/Stencyl/toolset-extension-sample/archive/master.zip)
 
-The SDK consists of a sample project and our API docs for extensions.
+Use this as a template to base your own extension off of.
 
-> TODO JUSTIN: Switch over to Github for this. Decouple the API docs.
+#### Part 1: Getting Started
 
-#### Start a New Project
+1. [Download](https://github.com/Stencyl/toolset-extension-sample/archive/master.zip) the Sample Extension.
 
-1. Go to [WORKSPACE]/extensions/ - This folder contains all of your toolset extensions.
+2. Place it under [WORKSPACE]/extensions/ - This folder contains all of your toolset extensions.
 
-2. Open up the Sample Project in your IDE by creating a new, existing project. 
-  * Peek at the README, which contains specific instructions for the nitty gritty project setup. 
-  * Add sw.jar to the project's classpath and edit build.xml as directed.
+3. Create a project for the extension using your IDE of choice.
+  * Add sw.jar to the project's classpath.
+  * Add an ANT task for the **dist** task inside **build.xml**.
 
-3. After that is done, run the **dist** ANT task from the IDE. This builds a Java **JAR file** that Stencyl recognizes as an extension.
+4. After that is done, run the **dist** ANT task from the IDE. This builds a Java **JAR file** that Stencyl recognizes as an extension.
 
-4. Launch your copy of Stencyl, and you will see the Sample Extension appear in the Extensions menu and also inside the Extensions Manager. Play around with it.
+5. Launch your copy of Stencyl, and you will see the Sample Extension appear in the Extensions menu and also inside the Extensions Manager (Extensions > Extension Manager). Play around with it.
  
-#### Test a Change
+#### Part 2: Test a Change
 
-1. Now that the sample extension runs, flip to SampleExtension.java, the source that defines the extension itself.
-
-```
-TODO JUSTIN: INSERT FILE HERE. IT MUST BE A LOT MORE EXTENSIVE THAN THE EXISTING ONE.
-```
+1. Now that the sample extension runs, open up [SampleExtension.java](https://github.com/Stencyl/toolset-extension-sample/blob/master/src/com/mysite/example/SampleExtension.java), the source that defines the extension itself.
 
 2. Do you see how it implements a bunch of callback functions that all start with "on"?
-3. Make a simple edit to it.
-4. Rebuild and rerun in Stencyl. Does your change show up?
 
-#### Modifying Extension Details
+3. Make a simple edit to it. For example, change `menuName = "Extension Name";` to a different value.
+
+4. Rebuild (run the `dist` ANT task) and relaunch Stencyl. Does your change show up?
+
+#### Part 3: Modify the Extension's Details
 
 The name, description, icon location, and other basic details of the extension are saved in `{extension}.jar/META-INF/MANIFEST.MF`. These details can be edited in the ant task used to build your extension by using the nested `<manifest>` element. [Example](https://github.com/justin-espedal/polydes/blob/master/Common/build-helper.xml#L115-L131).
 
@@ -173,7 +171,7 @@ It's preferable that you either build documentation into the forum topic or prov
 
 ## API Documentation
 
-View the [Java-based API](http://api.stencyl.com/extensions/).
+View the [Javadocs for our API](http://api.stencyl.com/extensions/).
 
 We cover the main parts of this API in the following sections.
 
