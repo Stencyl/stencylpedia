@@ -11,6 +11,8 @@ This is the spec for blocks.xml, the file used to add custom blocks to an extens
 
 > **Note:** Making changes to **blocks.xml** requires you to close and reopen the game for your changes to be reflected in the block palette.
 
+> **Credit:** Thanks to ETHproductions for documenting this feature. We've based portions of this guide on his [forum guide](http://community.stencyl.com/index.php/topic,39934.0.html).
+
 
 ## Example (for reference)
 
@@ -98,8 +100,7 @@ These are the available types you can use for the **returns** property of `<bloc
 * code-block (only applies to `fields` - see explanation under **Code Blocks**)
 * attached-block (only applies to `fields` - see explanation under **Attached Blocks**)
 
-![](https://dl.dropboxusercontent.com/content_link/tmZauNJtmyfn9SYhov2WFmXqHWRkRDQzF8Ovf9SUfjy6fvWpH64xAB5mOg1ZcG10/file)
-(Credit: ETHproductions)
+![](http://static.stencyl.com/pedia2/chapter-d/all-types.png)
 
 
 ## Input Fields
