@@ -1,6 +1,6 @@
 > **Extending Stencyl**
 
-> Engine ([Basics](http://www.stencyl.com/help/view/how-to-create-engine-extension/) - [iOS & Android](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) - [Flash](http://www.stencyl.com/help/view/flash-extensions/) - [Blocks](http://www.stencyl.com/help/view/adding-blocks/) - [API](http://static.stencyl.com/api/33/))
+> Engine ([Basics](http://www.stencyl.com/help/view/how-to-create-engine-extension/) - [iOS & Android](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) - [Native Events](http://www.stencyl.com/help/view/native-events/) - [Flash](http://www.stencyl.com/help/view/flash-extensions/) - [Blocks](http://www.stencyl.com/help/view/adding-blocks/) - [API](http://static.stencyl.com/api/33/))
 
 > Toolset ([Extensions](http://www.stencyl.com/help/view/creating-extensions/) - [API](http://api.stencyl.com/extensions/))
 
@@ -24,7 +24,7 @@ Don't worry about the details for now. This will be useful to refer back to as y
 <palette>
   <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void">
     <fields>
-      <text order="0"></text>
+      <text order="0"/>
     </fields>
   </block>
 </palette>
@@ -45,16 +45,23 @@ Don't worry about the details for now. This will be useful to refer back to as y
 
 To **add** a block, add a `<block>` tag with the following properties.
 
+**REQUIRED**
 Property | Description
 --- | ---
 tag | Unique name for block, only ABC and - (dash) allowed (no spaces!)
 spec | Like what you see in our language files, use %0, %1, etc. to specify where the spaces go
 code | Output code, use ~ to specify the blanks. Must match the order in which fields are specified.
 type | Any of these [normal, action, wrapper, event]
-color | Any of these [blue, cyan, green, lime, purple, red, gray, charcoal]
 returns | A **type** (see available types below)
 
-For example...
+**OPTIONAL**
+Property | Description
+--- | ---
+help | Displayed in the bottom bar when the mouse hovers over this block.
+color | Any of these [blue, cyan, green, lime, purple, red, gray, charcoal, yellow]
+hidden | If `true`, the block will not display in the palette. Used in conjunction with **attached-block**
+
+**EXAMPLE**
 
 ```
 <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void"></block>
@@ -65,33 +72,44 @@ For example...
 
 These are the available types you can use for the **returns** property of `<block>` and the list of `<fields>`.
 
-* void (does not apply to `fields`)
 * actor
 * actortype
+* animation
+* anything
 * boolean
-* camera
 * color
 * control
+* filter
 * font
 * group
-* number
+* image
+* image-instance
+* joint
 * list
-* anything
+* map
+* number
 * region
 * scene
+* shader
 * sound
 * text
-* dropdown (does not apply to `returns`)
+* void (only applies to `returns`)
+* dropdown (only applies to `fields`)
+* code-block (only applies to `fields` - see explanation under **Code Blocks**)
+* attached-block (only applies to `fields` - see explanation under **Attached Blocks**)
+
+![](https://dl.dropboxusercontent.com/content_link/tmZauNJtmyfn9SYhov2WFmXqHWRkRDQzF8Ovf9SUfjy6fvWpH64xAB5mOg1ZcG10/file)
+(Credit: ETHproductions)
 
 
-## Fields
+## Input Fields
 
-Each `<block>` contains `<fields>` as a child. `<fields>` is a list of block fields (the blank spaces in a block).
+Each `<block>` contains `<fields>` as a child. `<fields>` is a list of **block input fields** (the blank spaces in a block).
 
 ```
 <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void">
   <fields>
-    <text order="0"></text>
+    <text order="0"/>
   </fields>
 </block>
 ```
@@ -105,9 +123,9 @@ Fields are ordered using `order` attribute, starting at zero and incremented by 
 
 ```
 <fields>
-  <text order="0"></text>
-  <text order="1"></text>
-  <text order="2"></text>
+  <text order="0"/>
+  <text order="1"/>
+  <text order="2"/>
 </fields>
 ```
 
@@ -120,18 +138,65 @@ The `text` attribute specifies what's visible to the end user.
 The `code` attribute specifies the literal value that will be output into code.
 
 ```
-<fields>
-  <dropdown order="0">
-    <choices>
-      <c text="Pressed" code="1"></c>
-      <c text="Released" code="2"></c>
-    </choices>
-  </dropdown>
-</fields>
+<block tag="number-dropdown" spec="%0" code="~" type="normal" returns="number">
+  <fields>
+    <dropdown order="0">
+      <choices>
+        <c text="Pressed" code="1"/>
+        <c text="Released" code="2"/>
+      </choices>
+    </dropdown>
+  </fields>
+</block>
 ```
 
 
-## Limitations
+## Attached Blocks
 
-* No support for embedded blocks (such as those you see attached to events).
-* No support for events.
+Attached Blocks are the embedded blocks in wrapper blocks that are meant to be used only within the context of the wrapper block.
+
+![](http://static.stencyl.com/pedia2/chapter-d/save-example.png)
+
+Here's how you define one.
+
+* First, define the inner (embedded) block. It must be **above** the definition for the wrapper.
+
+* Set the inner block's `hidden` attribute to `true`, so it won't show up in the palette.
+
+* Add an `<attached-block>` field to the wrapper block definition.
+
+* Inside the tag for `<attached-block>`, add a `tag` attribute whose value is the tag for the inner block.
+
+Here's an example of this in action.
+
+```
+<block tag="save-successful" spec="save successful" code="success" type="normal" returns="boolean" hidden="true">
+	<fields/>
+</block>
+
+<block tag="save-game" spec="save game and then... %1" code="saveGame('mySave', function(success:Bool){~});" type="wrapper" returns="void">
+	<fields>
+		<code-block order="0"/>
+		<attached-block order="1" tag="save-successful"/>
+	</fields>
+</block>
+```
+
+
+## Code Blocks
+
+This is a special type of `field` that can only show up inside a wrapper block (such as if). It has nothing to do with literal code and is used to allow a wrapper block to contain a bunch of fields before the wrapped stack of blocks is accepted (in other words, this field always comes last).
+
+```
+<block tag="if" spec="if %0" code="if (~) {~}" type="wrapper" returns="void">
+	<fields>
+		<boolean order="0"/>
+		<code-block order="1"/>
+	</fields>
+</block>
+```
+
+
+## Additional Reading
+
+A more thorough reference is available [here](http://community.stencyl.com/index.php/topic,39934.0.html).
