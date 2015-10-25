@@ -39,9 +39,10 @@ Although we provide an API that makes it simple to build a GUI with no Swing kno
 
 As long as the extension has something to do with Stencyl, it's generally doable. If you're looking to extend the engine, [look here](http://www.stencyl.com/help/view/how-to-create-engine-extension) instead.
 
-Today, since Extensions can only be accessed from the Extensions menu, this constraint means that extensions that deal with productivity or general use will work the best. Keep that in mind when developing your extension.
+For source code examples of existing extensions, you can see the [polydes](https://github.com/justin-espedal/polydes) collection of extensions.
 
- 
+If you have an idea for an extension but you need some new hooks, callbacks, or capabilities on Stencyl's side, [let us know](http://community.stencyl.com/index.php/topic,3491.0.html) and we'd be happy to work together to bring your extension to life!
+
 ## Concepts - Hooks and Callbacks
 
 Developing an extension is simple once you master two key concepts: hooks and callbacks.
@@ -50,8 +51,8 @@ Developing an extension is simple once you master two key concepts: hooks and ca
 
 Hooks determine **where your extension is displayed** in Stencyl's GUI. At this time, the available places where an extension an hook into include:
 
-* Extensions menu
-* ???
+* Extensions menu in the menu bar
+* Extensions menu in the dashboard sidebar
 
 #### Callbacks
 
@@ -110,6 +111,24 @@ TODO JUSTIN: INSERT FILE HERE. IT MUST BE A LOT MORE EXTENSIVE THAN THE EXISTING
 3. Make a simple edit to it.
 4. Rebuild and rerun in Stencyl. Does your change show up?
 
+#### Modifying Extension Details
+
+The name, description, icon location, and other basic details of the extension are saved in `{extension}.jar/META-INF/MANIFEST.MF`. These details can be edited in the ant task used to build your extension by using the nested `<manifest>` element. [Example](https://github.com/justin-espedal/polydes/blob/master/Common/build-helper.xml#L115-L131).
+
+Attribute | Value
+--- | ---
+Extension-ID | Unique ID for the extension, such as com.example.extension
+Extension-Main-Class | Main class extends BaseExtension or GameExtension. ex: com.example.extension.MyExtension
+Extension-Version | 1.0.0 (use a valid semantic version)
+Extension-Icon | Path to icon image from base folder. ex: resources/icon.png
+Extension-Dependencies | Comma-seperated list of dependencies
+Extension-Type | normal, game, or java_library
+Extension-Name | The common name for your extension. ex: "My Extension"
+Extension-Description | A short description
+Extension-Author | Name of the autor
+Extension-Website | http://extension.example.com/
+Extension-Repository | Optional, connect to this repository for extension updates
+Extension-Internal-Version | 1 (increasing this causes `updateFromVersion` to be called for GameExtensions)
 
 ## Publishing an Extension
 
@@ -168,6 +187,21 @@ Happens whenever a game is opened.
 
 **onGameClosed(Game game)**<br/>
 Happens whenever a game is closed.
+
+***
+
+**onGameBuild(Game game)**<br/>
+Happens whenever a game is compiled. Use this to modify the resulting project.
+
+***
+
+**DefinitionMap getDesignModeBlocks()**<br/>
+Provide a set of blocks to be added to the palette.
+
+***
+
+**boolean hasOptions()**<br/>
+Return true if this extension has options that can be configured with the `onOptions` panel.
 
 ***
 
@@ -233,32 +267,100 @@ Hides the progress spinner.
 
 ## Data API Reference
 
+Extensions store data in the following locations:
+
+Name | Location | Purpose
+--- | --- | ---
+Prefs | {workspace}/prefs/{id}.eprefs | Dictionary of key-value pairs
+Data | {workspace}/prefs/{id}.edata | Any data (as a single file)
+Game Prefs | {workspace}/games/{game}/extension-data/{name}/.prefs | Game-specific preferences
+Game Data | {workspace}/games/{game}/extension-data/{name} | Folder containing game-specific data
+Game Extras | {workspace}/games/{game}/extras/{name} | Game-specific data needed by the engine at runtime
+
 If you need to store data, use our data API to save out this data to disk. Do not attempt to write out to other locations using the plain Java API's. We may reject your extension if you do so.
 
-> TODO JUSTIN: There's a better place to store data - directly in a game's extras subfolder. This is now the preferred place to store data and is being used by all our top extensions.
- 
+***
+
+**int readIntProp(String key, int defaultValue)**
+<br/>
+**double readDoubleProp(String key, double defaultValue)**
+<br/>
+**float readFloatProp(String key, float defaultValue)**
+<br/>
+**String readStringProp(String key, String defaultValue)**
+<br/>
+Read properties as different data types from `Prefs`.
+
+***
+
+**properties.put(String key, Object value)**
+<br/>
+Add a property to `Prefs`.
+
 ***
 
 **String readData()**
 <br/>
-Reads the extension's data into a String. No file path is provided because it all comes from a pre-determined location on disk.
+Reads `Data` into a String.
 
 ***
 
 **byte[] readDataAsBytes()**
 <br/>
-Reads the exension's data into a byte array.
+Reads `Data` into a byte array.
 
 ***
 
 **boolean saveData(String data)**
 <br/>
-Saves data, provided as text, to the data store.
+Saves data, provided as text, to `Data`.
 
 ***
 
 **boolean saveDataAsBytes(byte[] b)**
 <br/>
-Saves data, provided as a byte array, to the data store.
+Saves data, provided as a byte array, to `Data`.
 
 *** 
+
+## Data API Reference (Game Extensions)
+
+In addition to the above data stores, you can store data that is game-specific if you're creating a `GameExtension`.
+
+Name | Location | Purpose
+--- | --- | ---
+Game Prefs | {workspace}/games/{game}/extension-data/{name}/.prefs | Game-specific preferences
+Game Data | {workspace}/games/{game}/extension-data/{name} | Folder containing game-specific data
+Game Extras | {workspace}/games/{game}/extras/{name} | Game-specific data needed by the engine at runtime
+
+***
+
+**int readIntGameProp(String key, int defaultValue)**
+<br/>
+**double readDoubleGameProp(String key, double defaultValue)**
+<br/>
+**float readFloatGameProp(String key, float defaultValue)**
+<br/>
+**String readStringGameProp(String key, String defaultValue)**
+<br/>
+Read properties as different data types from `Game Prefs`.
+
+***
+
+**extensionGameProperties.put(String key, Object value)**
+<br/>
+Add a property to `Game Prefs`.
+
+***
+
+**File getDataFolder()**
+<br/>
+Returns the file `Game Data`.
+
+***
+
+**File getExtrasFolder()**
+<br/>
+Returns the file `Game Extras`.
+
+***
