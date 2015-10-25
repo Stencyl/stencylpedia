@@ -382,7 +382,47 @@ To reiterate, this is an advanced use case where it’s best to view existing ex
 
 #### Android (Java -> Haxe)
 
-aaa
+Calling back Haxe from Java code follows a similar line of thinking, except that instead of passing in a function pointer that gets called back, you pass in the entire Haxe class instead and call any function you want form Java.
+
+* Pass in the entire Haxe class to Java by calling a Java function (via JNI).
+* In Java, said function accepts a parameter of org.haxe.nme.HaxeObject.
+* Calling back Haxe from Java involves doing HaxeObject.call(functionName, args).
+
+Let's peek at Purchases.hx once more.
+
+```
+class Purchases {	
+  public function new() {
+    var fn = nme.JNI.createStaticMethod("Billing", "initialize", "(Lorg/haxe/nme/HaxeObject;)V", true);
+    fn([this]);
+  }
+
+  public function onSuccessfulPurchase(productID:String) {
+    trace(productID);
+  }
+}
+```
+
+As you can see, the JNI call takes in a pointer to the entire class. `onSuccessfulPurchase()` will be called from Java, as we'll see next.
+
+```
+import org.haxe.nme.HaxeObject;
+
+public class Billing {
+  public static void initialize(final HaxeObject callback) {
+    //Make a test purchase
+    GameActivity.getInstance().runOnUiThread(new Runnable() { 
+      public void run() {
+        callback.call("onPurchase", new Object[] {"FHDKJHSDF1231231"});
+      }
+    });
+  }
+}
+```
+
+As you can see, `initialize()` takes in the Haxe class as a Java HaxeObject. It calls a function `onPurchase` through reflection and passes back the purchaseID of this mock purchase.
+
+`runOnUiThread()` is required here because these operations have to be run in sync with the UI, even though they don't have anything to do with the UI. Failure to do this may result in a crash.
  
 
 ## Tips
