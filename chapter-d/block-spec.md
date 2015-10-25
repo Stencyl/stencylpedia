@@ -1,8 +1,25 @@
-> **Extending Stencyl**
-
-> Engine ([Basics](http://www.stencyl.com/help/view/how-to-create-engine-extension/) - [iOS & Android](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) - [Native Events](http://www.stencyl.com/help/view/native-events/) - [Flash](http://www.stencyl.com/help/view/flash-extensions/) - [Blocks](http://www.stencyl.com/help/view/adding-blocks/) - [API](http://static.stencyl.com/api/33/))
-
-> Toolset ([Extensions](http://www.stencyl.com/help/view/creating-extensions/) - [API](http://api.stencyl.com/extensions/))
+<table><tr>
+<td width="180" valign="top">
+<h5>Engine Extensions</h5>
+<ul class="pedia-links">
+<li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
+<li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
+<li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+<li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
+<li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
+<li><a href="http://static.stencyl.com/api/33/">API</a></li>
+</ul>
+</td>
+<td width="30"></td>
+<td width="180" valign="top">
+<h5>Toolset Extensions</h5>
+<ul class="pedia-links">
+<li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
+<li><a href="http://api.stencyl.com/extensions/">API</a></li>
+</ul>
+</td>
+</tr>
+</table>
 
 
 ## Introduction
