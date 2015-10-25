@@ -113,8 +113,8 @@ lime is located under [STENCYL_INSTALL]/plaf/haxe/lime (or lime.bat)
 
 2. Run the following command. **Do not omit the period**.
 
-```
-lime generate -java-externs [FILENAME_OF_CLASS] .
-```
+  ```
+  lime generate -java-externs [FILENAME_OF_CLASS] .
+  ```
 
 3. This will spit out a .hx file which will contain the JNI calls you desire.
