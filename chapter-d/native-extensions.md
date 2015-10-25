@@ -9,13 +9,13 @@
 
 * Introduction
 * Setup
-* Building from Command Line
-* Including External Libraries
 * Walkthrough
   * How to Create an Extension (iOS)
   * How to Create an Extension (Android)
   * Editing Build.xml
   * Sending Data back from Native to Haxe
+* Including External Libraries
+* Building from Command Line
 * Tips
  
 
@@ -66,43 +66,6 @@ Run the following in the command line.
 export LD_LIBRARY_PATH=/path-to-stencyl/plaf/neko-linux
 export PATH=$PATH:/path-to-stencyl/plaf/neko-linux
 ```
-
-
-## Building from the Command Line (iOS Only)
-
-If you make a change on the iOS side of things (Android does not require this), you must compile the extension, which will output libraries to the “ndll” directory.
-
-To do compile the extension, run the “build” script (located under the **project/** subdirectory of an extension). This compiles the iOS source and generates the .a libraries.
-
-For example, if you are on a Mac and want to build the test-native extension, you would **cd** to [WORKSPACE]/engine-extensions/test-native/project and then run **./build**.
-
-```
-cd [WORKSPACE]/engine-extensions/test-native/project
-./build
-```
-
-> **Tip:** If you get errors about Neko or Haxe not being recognized, re-read the Setup section of this doc.
-
-
-## How To: Including External Libraries
-
-If you need to include an External Library, you can specify this inside include.nmml.
-
-#### For iOS Extensions
-
-```
-<dependency if="ios" name="GameKit.framework"/>
-```
-
-In this example, we import the GameKit framework that's part of iOS.
-
-#### For Android Extensions
-
-```
-<template if="android" path="template/android/libs" rename="libs"/>
-```
-
-In this example. we're telling the system to treat all files under template/android/libs as libraries. Just place all your .jar files under that path. See the Ads extension for an example.
 
 
 ## How to Create an Extension (iOS)
@@ -290,48 +253,163 @@ This is summarized in the following graphic.
 Now, we'll look at a few more topics.
 
 
+## Including External Libraries
+
+If you need to include an External Library, you can specify this inside include.nmml.
+
+#### For iOS Extensions
+
+```
+<dependency if="ios" name="GameKit.framework"/>
+```
+
+In this example, we import the GameKit framework that's part of iOS.
+
+#### For Android Extensions
+
+```
+<template if="android" path="template/android/libs" rename="libs"/>
+```
+
+In this example. we're telling the system to treat all files under template/android/libs as libraries. Just place all your .jar files under that path. See the Ads extension for an example.
+
+## Building from the Command Line (iOS Only)
+
+If you make a change on the iOS side of things (Android does not require this), you must compile the extension, which will output libraries to the “ndll” directory.
+
+To do compile the extension, run the “build” script (located under the **project/** subdirectory of an extension). This compiles the iOS source and generates the .a libraries.
+
+For example, if you are on a Mac and want to build the test-native extension, you would **cd** to [WORKSPACE]/engine-extensions/test-native/project and then run **./build**.
+
+```
+cd [WORKSPACE]/engine-extensions/test-native/project
+./build
+```
+
+> **Tip:** If you get errors about Neko or Haxe not being recognized, re-read the Setup section of this doc.
+
+
 ## Editing project/Build.xml (iOS Only)
 
-You must edit project/Build.xml before creating an iOS extension. project/Build.xml controls the name of the outputted library files and also serves to specify what .mm (iOS implementation) files to include.
+You must edit **project/Build.xml** before creating an iOS extension. **project/Build.xml** controls the name of the outputted library files and also serves to specify what .mm (Objective-C) files to include.
 
-View existing examples for the exact fields to edit. You want to edit lines 21 and 52 in the “test-native” extension if you’re going off of that.
+View existing examples for the exact fields to edit. You want to edit lines 21 and 52 in the “test-native” extension if you’re going off of that. The portions you need to edit are **bolded**.
 
-Line 21 contains [file name="iphone/NativeTest.mm"/]
+Line 21 contains [file name="iphone/**NativeTest**.mm"/]
 
-Line 52 contains [target id="NDLL" output="${name_prefix}nativetest${name_extra}" tool="linker" toolid="${ndll-tool}"]
+Line 52 contains [target id="NDLL" output="${name_prefix}**nativetest**${name_extra}" tool="linker" toolid="${ndll-tool}"]
 
-The portions you need to edit are emphasized like this.
 
-Sending Data back from Native Code to Haxe
+## Sending Data back from Native Code to Haxe
 
-Note: This is tricky and assumes complete understanding of the prior topics. It's highly recommended to refer to the Purchases extension for an example.
-What if you do something on the Objective-C or Java side of things and want that code to send data or notifications back to Haxe? For example, if you complete a purchase, you want to inform the player about it. How is that achieved?
+> **Note:** Refer to the purchases extension for a real example of how to send data back from Objective-C to Haxe.
 
-In a gist, it involves the following concepts on iOS.
+A big part of Stencyl's ease of use comes in the form of [Events](Events). Users find it convenient to be **automatically notified** that something has happened, versus having to constantly check if that something has happened.
 
-Setting a function pointer from Haxe to ExternalInterface.cpp to set up a function that will get called back, with the desired data passed in as a parameter. In other words, it's a just setting up a callback. Look for set_event_handle()
-Packaging up the data to send inside ExternalInterface.cpp, using a key-value store and then sending it. Look for send_purchase_event()
-To reiterate, this is an advanced use case where it’s best to view the existing source for our Purchases extension. It sounds a lot more confusing than it really is, and there’s no better explanation than viewing the source for yourself.
+To implement Events for your extensions, you would need to know how to get the Objective-C (or Java) code to send notifications back to Haxe. For example, if the player completed an in-app purchase, you'd want to inform the player if the purchase succeeded and do something in-game in response to that.
 
-Note: Currently, only iOS extensions send data back. No extensions have been written so far that involve Java/Android sending data back to Haxe, but I've roughly described the process in this forum post.
+How do we accomplish this?
+
+#### iOS (Objective-C --> Haxe)
+
+Recall that in Haxe, we set up function pointers to the C++ layer and can specify how many parameters are passed in. What we can do is **pass in a pointer to a callback function**. In other words, we can pass in a Haxe function that will get called back when the time is right.
+
+Here is the Haxe code that does this.
+
+```
+private function init()
+{
+  set_event_handle(notifyListeners);
+}
+
+private static function notifyListeners(inEvent:Dynamic)
+{
+  [...]
+}
+
+[...]
+
+private static var set_event_handle = Lib.load("purchases", "purchases_set_event_handle", 1);
+```
+
+In this code, `set_event_handle()` is a C++ function that we use to pass a pointer to `notifyListeners()` to the C++ layer, so that the C++ code can call `notifyListeners()` at the right time in the future. `notifyListeners()` takes one parameter - a data field that contains all the callback data we need to determine what kind of event is coming back and any additional data that comes with that event.
+
+Now, let's look at what the C++ (ExternalInterface.cpp) looks like for this example. *(Again, this is simplified a bit to make the important bits clear. See the Purchases extension for the full source.)*
+
+```
+AutoGCRoot* purchaseEventHandle = 0;
+
+static void purchases_set_event_handle(value onEvent)
+{
+  purchaseEventHandle = new AutoGCRoot(onEvent);
+}
+DEFINE_PRIM(purchases_set_event_handle, 1);
+
+extern "C" void sendPurchaseEvent(const char* type, const char* data)
+{
+    value o = alloc_empty_object();
+    alloc_field(o,val_id("type"),alloc_string(type));
+    alloc_field(o,val_id("data"),alloc_string(data));
+    val_call1(purchaseEventHandle->get(), o);
+}
+```
+
+A bit more is going on here.
+
+* `purchaseEventHandle` is a variable that holds the pointer to the Haxe function that we want to callback. In other words, it's holding a pointer to `notifyListeners()`
+
+* `purchases_set_event_handle()` is the function that sets the pointer. We called this function in Haxe (see above) and passed in `notifyListeners()`.
+
+* `sendPurchaseEvent()` is a function that's called from Objective-C. It takes two String (char*) parameters. The first one tells us what kind of event we're calling. The second passes in any additional data that's relevant to the event.
+
+Finally, a simplified example of Objective-C code from Purchases.mm that demonstrates how the code would call `sendPurchaseEvent()`
+
+```
+-(void)finishTransaction:(SKTransaction*)t succeeded:(BOOL)succeeded {
+  if(succeeded) {
+		  sendPurchaseEvent("success", t.ID);
+	 }
+
+	 else {
+		  sendPurchaseEvent("failed", t.ID);
+	 }
+
+	 [[SKPaymentQueue defaultQueue] finishTransaction:t];
+}
+```
+
+To reiterate, this is an advanced use case where it’s best to view existing examples to understand. It sounds a lot more confusing than it really is, and there’s no better explanation than viewing the source for yourself.
+
+#### Android (Java -> Haxe)
+
+aaa
  
 
-Tips
+## Tips
 
-Java - Getting the Main Class
-If you need to refer to the “main class” or “Activity” in Android speak, call:
+#### Android (Java) - Getting the Main Class
 
+If you need to refer to the “main class” or “Activity” in Android speak, call `GameActivity.getInstance()`.
+
+```
 import org.haxe.nme.GameActivity;
 [...]
 GameActivity.getInstance()
+```
 
-Java - Running code on UI Thread
-Note that code runs on the main, not UI thread. If you need to do UI things, like adding stuff to the screen, you do something much like SwingUtilities.invokeLater, except that it’s called:
+#### Android (Java) - Running code on UI Thread
 
+By default, code runs on the main thread rather than the UI thread. This can pose problems if you need to change the UI (e.g. and can lead to crashes or unexpected behavior.
+
+If you need to do alter the UI, like adding stuff to the screen, you do something much like `SwingUtilities.invokeLater()`:
+
+```
 GameActivity.getInstance().runOnUiThread(new Runnable()
 {
     public void run()
     {
     }
 });
-Tip: There’s another method calls runOnHaxeThread that does the opposite - guarantees running on the HaXe/main thread.
+```
+
+> **Tip:** There’s another method calls **runOnHaxeThread** that does the opposite - guarantees running on the HaXe/main thread.
