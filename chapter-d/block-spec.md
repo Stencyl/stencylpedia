@@ -48,6 +48,7 @@ Don't worry about the details for now. This will be useful to refer back to as y
 To **add** a block, add a `<block>` tag with the following properties.
 
 **REQUIRED**
+
 Property | Description
 --- | ---
 tag | Unique name for block, only ABC and - (dash) allowed (no spaces!)
@@ -57,6 +58,7 @@ type | Any of these [normal, action, wrapper, event]
 returns | A **type** (see available types below)
 
 **OPTIONAL**
+
 Property | Description
 --- | ---
 help | Displayed in the bottom bar when the mouse hovers over this block.
