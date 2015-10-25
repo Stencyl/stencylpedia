@@ -154,7 +154,7 @@ using namespace nativetest;
 #ifdef IPHONE
 void ios_alert(value title, value message)
 {
-	showSystemAlert(val_string(title), val_string(message));
+    showSystemAlert(val_string(title), val_string(message));
 }
 DEFINE_PRIM(ios_alert, 2);
 #endif
@@ -164,7 +164,7 @@ As you can see `ios_alert` shows up again. This time, it's a function. That’s 
 
 The `DEFINE_PRIM` part specifies how many parameters the function has.
 
-`showSystemAlert()` is a direct call to a function in Objective-C. `val_string()` is a way of casting an arbitrary value to a String.
+`showSystemAlert()` is a direct call to a function in Objective-C. `val_string()` casts an arbitrary value to a String.
 
 Now, let's look at the Objective-C part of the extension.
 
@@ -183,9 +183,9 @@ namespace nativetest
         UIAlertView* alert= [[UIAlertView alloc] initWithTitle: [[NSString alloc]
                    initWithUTF8String:title]
                    message: [[NSString alloc] initWithUTF8String:message]
-                                                 delegate: NULL
-                                                 cancelButtonTitle: @"OK"
-                                                 otherButtonTitles: NULL];
+                                              delegate: NULL
+                                              cancelButtonTitle: @"OK"
+                                              otherButtonTitles: NULL];
         [alert show];
     }
 }
@@ -194,7 +194,7 @@ namespace nativetest
 
 #### Recap
 
-That wasn’t too bad, was it? To recap, an iOS extension effectively consists of 3 parts.
+To recap, an iOS extension effectively consists of 3 parts.
 
 * Haxe source that fetches **function pointers** to native code and calls them.
 * **ExternalInterface.cpp** provides those native calls and acts as the “glue” between Haxe and Objective-C.
@@ -202,66 +202,95 @@ That wasn’t too bad, was it? To recap, an iOS extension effectively consists o
 
 This is summarized in the following diagram.
 
-[TODO]
+![stencyl-levels-of-abstraction](http://static.stencyl.com/pedia2/chapter-d/LevelsOfAbstraction.png)
 
 Now, we’ll look at Android. Thankfully, the story is quite similar.
 
 
 ## How to Create an Extension (Android)
 
-Note: This section walks through the test-native extension and explains how the system works. The test-native extension adds Alerts to iOS and Android games.
+> **Note:** This section walks through the test-native extension and explains how the system works. The test-native extension adds Alerts to iOS and Android games.
  
-The 2 Parts
+#### The 2 Parts
 Every Android extension consists of 2 parts.
 
-Haxe code that your game calls. This Haxe code fetches function pointers via JNI in order to let your Haxe code call Java code.
-The Java code that does stuff in Android.
+* Haxe code that your game calls. This Haxe code fetches function pointers via JNI in order to let your Haxe code call Java code.
+* The Java code that does stuff in Android.
  
-Part 1 - The Haxe Code
-Open up NativeTest.hx. Observe that we’re getting a function “pointer” to showAlert(), a Java function on the native side of things.
+> In contrast to iOS, Android doesn't have that intermediate layer of C++ to worry about, but the Haxe part is a little bit more complex to compensate.
+ 
+#### Part 1 - The Haxe Code
 
+Just like, in the iOS case, the purpose of the Haxe portion of the extension is two fold.
+
+* It exposes an API for your game (and blocks) to use.
+* It fetches function pointers to native code and calls them.
+
+Open up **NativeTest.hx** and find this line (~line 30).
+
+```
 androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lang/String;Ljava/lang/String;)V", true);
-This is a little bit more complicated than the iOS case because this involves JNI, a commonly used technology for exposing native code to Java.
+```
 
-Don’t get bogged down in the details - accept for now that we’re getting a function “pointer” and calling it. Think of JNI as the rough equivalent to what ExternalInterface.cpp was doing for iOS, just in a more compact form.
+Here, we’re getting a "function pointer" to **showAlert()**, a Java function on the native side of things. The syntax is more complicated due to the use of [JNI](http://www.stencyl.com/help/view/jni-guide), the standard way of exposing native code to Java. Think of JNI as the rough equivalent to what ExternalInterface.cpp was doing for iOS, just in a more compact form.
 
+Now, let's look right below (~line 33)
+
+```
 androidAlert([title, message]);
-Here, the syntax is a little different. We’re passing in an array with the parameters, rather then the parameters individually.
+```
 
-Aside: In some extensions, you may encounter an alternate approach where the array is pre-defined and passed in. For example, our Ads extension does this.
+Here, we're calling the function, but the syntax is a little different. Instead of padding in the parameters directly, we're wrapping them inside an array.
 
+> **Aside:** In some extensions, you may encounter an alternate approach where the array is pre-defined and passed in. For example, our Ads extension does this.
+
+> ```
 var args = new Array();
 args.push(adwhirlCode);
 args.push(position);
 _init_func(args);
+```
  
-Part 2 - The Java Code
-Now, peek at project/android/NativeTest.java.
 
+#### Part 2 - The Java Code
+
+Now, peek at **project/android/NativeTest.java**.
+
+```
 public static void showAlert(final String title, final String message)
 {
     [...]
 }
-There’s the underlying Java implementation. Recognize the showAlert function from the prior section? See that it takes two Strings are arguments? That’s why that JNI call above looked the way it did.
+```
 
+There’s the underlying Java implementation for **showAlert()**. Notice how `showAlert()` takes two Strings as its arguments? That’s why that JNI call above looked the way it did.
+
+```
 androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lang/String;Ljava/lang/String;)V", true);
+```
+
+
+#### More on JNI
+
+It turns out that **JNI is serving the same purpose that ExternalInterface.cpp did for iOS**. It’s the glue that connects native code to Haxe. It just happens at the Haxe level, rather than being in a separate file.
+
+Getting the JNI syntax correct is a [topic in itself](http://www.stencyl.com/help/view/jni-guide/).
+
  
-
-More on JNI
-It turns out that JNI is serving the same purpose that ExternalInterface.cpp did for iOS. It’s the glue that connects native code to Haxe. It just happens at the Haxe level, rather than being in a separate file.
-
-Getting the JNI syntax correct is a topic in itself. If you'd like to learn more about it, we've written a separate article about it.
-
- 
-Recap
+#### Recap
 To recap, an Android extension consists of 2 parts.
 
-Haxe source that fetches function pointers to native code through JNI.
-The Java source files.
+* Haxe source that fetches function pointers to native code through JNI.
+* The Java source files.
+
+This is summarized in the following graphic.
+
+![stencyl-levels-of-abstraction](http://static.stencyl.com/pedia2/chapter-d/AbstractionAndroid.png)
+
 Now, we'll look at a few more topics.
 
 
-Editing project/Build.xml (iOS Only)
+## Editing project/Build.xml (iOS Only)
 
 You must edit project/Build.xml before creating an iOS extension. project/Build.xml controls the name of the outputted library files and also serves to specify what .mm (iOS implementation) files to include.
 
