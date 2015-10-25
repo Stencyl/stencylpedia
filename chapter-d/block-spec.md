@@ -1,5 +1,5 @@
-<table style="border:1px solid #cccccc;"><tr>
-<td width="180" valign="top">
+<table style="border:1px solid #cccccc; padding-left:5px;"><tr>
+<td width="180" valign="top" style="border:0px;">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
 <li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
@@ -11,7 +11,7 @@
 </ul>
 </td>
 <td width="30"></td>
-<td width="180" valign="top">
+<td width="180" valign="top" style="border:0px;">
 <h5>Toolset Extensions</h5>
 <ul class="pedia-links">
 <li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
