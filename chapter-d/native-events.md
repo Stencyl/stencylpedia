@@ -87,7 +87,11 @@ Finally, a simplified example of Objective-C code from Purchases.mm that demonst
 }
 ```
 
-To reiterate, this is an advanced use case where it’s best to view existing examples to understand. It sounds a lot more confusing than it really is, and there’s no better explanation than viewing the source for yourself.
+Everything we've talked about is summarized in the following diagram.
+
+![ios-callbacks](http://static.stencyl.com/pedia2/chapter-d/IOSCallback.png)
+
+To reiterate, this is an advanced use case where it’s best to view existing examples to understand what's going on. It sounds a lot more confusing than it really is, and there’s no better explanation than viewing the source for yourself.
 
 
 ## Android (Java -> Haxe)
@@ -98,7 +102,11 @@ Calling back Haxe from Java code follows a similar line of thinking, except that
 * In Java, said function accepts a parameter of **org.haxe.nme.HaxeObject**.
 * Calling back Haxe from Java involves doing **HaxeObject.call(functionName, args)**.
 
-Let's peek at Purchases.hx once more.
+This is summarized in the following diagram.
+
+![android-callbacks](http://static.stencyl.com/pedia2/chapter-d/AndroidCallback.png)
+
+Let's walk through what's going on. First, let's peek at Purchases.hx once more.
 
 ```
 class Purchases {	
