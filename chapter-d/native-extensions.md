@@ -12,10 +12,10 @@
 * Walkthrough
   * How to Create an Extension (iOS)
   * How to Create an Extension (Android)
+  * External Libraries
+  * Building from Command Line
   * Editing Build.xml
   * Sending Data back from Native to Haxe
-* External Libraries
-* Building from Command Line
 * Tips
  
 
@@ -259,7 +259,9 @@ If you need to include an External Library, you can specify which libraries you 
 
 #### For iOS Extensions
 
-In this example, we're importing an official framework (iAd).
+In this example, we're importing a system framework (iAd) using the `<dependency>` tag. 
+
+> **Aside:** `<ndll>` is used to import the compiled form of your iOS extension into any projects that use it.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -285,39 +287,45 @@ In this example, we're importing a 3rd party framework that is placed under the 
 
 #### For Android Extensions
 
-If your Android extension includes just Java source and no libraries, just specify the relative path to the folder containing those sources, like this:
+If your Android extension includes just Java source and no libraries, just specify the (relative) path to the folder containing the source. For example, if your Java source was located under **project/android**, you'd do this:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
   <section if="android">
-    <java path="project/android" />
+    <java path="project/android"/>
   </section>
 </extension>
 ```
 
-If it needs to import libraries, it gets more complicated. It's best to check out existing extensions for examples.
+If your Android extension needs to import libraries, it gets more complicated.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
   <section if="android">
     <dependency name="tapdaq" path="dependencies/tapdaq"/>
-    <android extension="com.byrobin.tapdaq.TapdaqEx" />
+    <android extension="com.byrobin.tapdaq.TapdaqEx"/>
   </section>
 </extension>
 ```
 
-`<dependency>` is used to specify what folder contains the sources and libraries for your Android extension. In this case, all of that falls under **dependencies/tapdaq**. [(See Example)](https://github.com/byrobingames/tapdaq/tree/master/dependencies/tapdaq)
+`<dependency>` specifies what folder contains the sources and libraries for your Android extension. In this example, those are located at **dependencies/tapdaq**. [(See Example)](https://github.com/byrobingames/tapdaq/tree/master/dependencies/tapdaq)
 
-Within that folder are two subfolders and a few extra files. One subfolder is a **libs* folder that contains the .jar library we want to import.
+Within that folder are two subfolders and a few extra files. One subfolder is a **libs* folder that contains the tapdaq.jar library we want to import.
 
-`<android>` is used to specify the path to the Java sources for the extension (usually, the portion that *you* write). The lone attribute's value is always the package name for your sources. You place the sources under **[DEPENDENCY]/src/** where [DEPENDENCY] is the folder specified in the `<dependency>` tag.
+`<android>` is used to specify the path to the Java sources for the extension (the portion that *you* write). The value for the `extension` attribute is the package name for your sources. You place the sources under **[DEPENDENCY]/src/** where [DEPENDENCY] is the folder specified in the `<dependency>` tag.
+
+#### OpenFL Reference
+
+This [page](http://www.openfl.org/documentation/projects/project-files/xml-format/) covers the purpose of each `<dependency>`, `<ios>`, and `<android>` in more detail.  
+
+Documentation is pretty thin for this, so our recommendation is to check out [existing extensions](https://github.com/byrobingames) for examples of how to lay the files in your extension. 
 
 
 ## Building from the Command Line (iOS Only)
 
-If you make a change to an iOS extension (Android does not require this), you must **compile** the extension, which will output libraries to its **ndll** directory.
+If you make a change to an iOS extension, you must **compile** the extension, which will output libraries to its **ndll** directory. This step is not required for Android.
 
 To compile the extension, **run the `build` script** (located under the **project/** subdirectory of an extension). This compiles the iOS source and generates the .a libraries.
 
@@ -333,15 +341,26 @@ cd [WORKSPACE]/engine-extensions/test-native/project
 > **Tip:** If you get errors about Neko or Haxe not being recognized, re-read the Setup section of this doc.
 
 
-## Editing project/Build.xml (iOS Only)
+## Editing project/Build.xml (iOS only)
 
-You must edit **project/Build.xml** before creating an iOS extension. **project/Build.xml** controls the name of the outputted library files and also serves to specify what .mm (Objective-C) files to include.
+You must edit **project/Build.xml** before compiling your iOS extension. **project/Build.xml** controls the name of the outputted library files and also serves to specify what .mm (Objective-C) files to include (and compile).
 
-View existing examples for the exact fields to edit. You want to edit lines 21 and 52 in the “test-native” extension if you’re going off of that. The portions you need to edit are **bolded**.
+Our recommendation is to view existing examples to figure out what to edit - it's a lot easier than trying to type it up from scratch.
 
-Line 21 contains [file name="iphone/**NativeTest**.mm"/]
+For example, take [this sample](https://github.com/byrobingames/tapdaq/blob/master/project/Build.xml) from an extension for Tapdaq ads.
 
-Line 52 contains [target id="NDLL" output="${name_prefix}**nativetest**${name_extra}" tool="linker" toolid="${ndll-tool}"]
+Then, you'd do two things:
+
+1. Search for **mm**. This is where you'd specify all the .mm source files for the extension.
+
+  ```
+  <file name="ios/TapdaqEx.mm"/>
+  ```
+
+2. Search for `tapdaq` and replace each instance with the name of your extension (in lower case).
+
+  * Line 56 contains `<target id="NDLL" output="${name_prefix}tapdaq${name_extra}" tool="linker" toolid="${ndll-tool}">`
+  * Line 65 contains `<vflag name="-framework" value="Tapdaq" />`
 
 
 ## Sending Data back from Native Code to Haxe
