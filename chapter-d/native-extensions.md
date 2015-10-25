@@ -302,7 +302,7 @@ Line 52 contains [target id="NDLL" output="${name_prefix}**nativetest**${name_ex
 
 ## Sending Data back from Native Code to Haxe
 
-> **Note:** Refer to the purchases extension for a real example of how to send data back from Objective-C to Haxe.
+> **Note:** Refer to the purchases extension for a real example of how to send data back from Objective-C/Java to Haxe.
 
 A big part of Stencyl's ease of use comes in the form of [Events](Events). Users find it convenient to be **automatically notified** that something has happened, versus having to constantly check if that something has happened.
 
@@ -384,9 +384,9 @@ To reiterate, this is an advanced use case where it’s best to view existing ex
 
 Calling back Haxe from Java code follows a similar line of thinking, except that instead of passing in a function pointer that gets called back, you pass in the entire Haxe class instead and call any function you want form Java.
 
-* Pass in the entire Haxe class to Java by calling a Java function (via JNI).
-* In Java, said function accepts a parameter of org.haxe.nme.HaxeObject.
-* Calling back Haxe from Java involves doing HaxeObject.call(functionName, args).
+* **Pass in the entire Haxe class** to Java by calling a Java function (via JNI).
+* In Java, said function accepts a parameter of **org.haxe.nme.HaxeObject**.
+* Calling back Haxe from Java involves doing **HaxeObject.call(functionName, args)**.
 
 Let's peek at Purchases.hx once more.
 
