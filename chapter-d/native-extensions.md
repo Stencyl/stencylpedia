@@ -14,7 +14,7 @@
   * How to Create an Extension (Android)
   * Editing Build.xml
   * Sending Data back from Native to Haxe
-* Including External Libraries
+* External Libraries
 * Building from Command Line
 * Tips
  
@@ -253,33 +253,76 @@ This is summarized in the following graphic.
 Now, we'll look at a few more topics.
 
 
-## Including External Libraries
+## External Libraries
 
-If you need to include an External Library, you can specify this inside include.nmml.
+If you need to include an External Library, you can specify which libraries you wish to include inside **include.xml** (in some extensions, it's called **include.nmml**).
 
 #### For iOS Extensions
 
+In this example, we're importing an official framework (iAd).
+
 ```
-<dependency if="ios" name="GameKit.framework"/>
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <section if="ios">
+        <ndll name="ads" if="ios"/>
+        <dependency if="ios" name="iAd.framework" />
+    </section>
+</project>
 ```
 
-In this example, we import the GameKit framework that's part of iOS.
+In this example, we're importing a 3rd party framework that is placed under the **frameworks/** subfolder of the extension. Note that the attribute name is **path**, rather than **name** in the example above.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <section if="ios">
+        <ndll name="ads" if="tapdaq"/>
+        <dependency path="frameworks/Tapdaq.framework" />
+    </section>
+</project>
+```
 
 #### For Android Extensions
 
+If your Android extension includes just Java source and no libraries, just specify the relative path to the folder containing those sources, like this:
+
 ```
-<template if="android" path="template/android/libs" rename="libs"/>
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+  <section if="android">
+    <java path="project/android" />
+	 </section>
+</extension>
 ```
 
-In this example. we're telling the system to treat all files under template/android/libs as libraries. Just place all your .jar files under that path. See the Ads extension for an example.
+If it needs to import libraries, it gets more complicated. It's best to check out existing extensions for examples.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+  <section if="android">
+    <classpath name="src" />
+    <dependency name="tapdaq" path="dependencies/tapdaq" if="android" />
+    <android extension="com.byrobin.tapdaq.TapdaqEx" />
+	 </section>
+</extension>
+```
+
+`<dependency>` is used to specify what folder contains the sources and libraries for your Android extension. In this case, all of that falls under **dependencies/tapdaq**. [(See Example)](https://github.com/byrobingames/tapdaq/tree/master/dependencies/tapdaq)
+
+Within that folder are two subfolders and a few extra files. One subfolder is a **libs* folder that contains the .jar library we want to import. The other folder contains the Java sources for the extension itself.
+
 
 ## Building from the Command Line (iOS Only)
 
-If you make a change on the iOS side of things (Android does not require this), you must compile the extension, which will output libraries to the “ndll” directory.
+If you make a change to an iOS extension (Android does not require this), you must **compile** the extension, which will output libraries to its **ndll** directory.
 
-To do compile the extension, run the “build” script (located under the **project/** subdirectory of an extension). This compiles the iOS source and generates the .a libraries.
+To compile the extension, **run the `build` script** (located under the **project/** subdirectory of an extension). This compiles the iOS source and generates the .a libraries.
 
-For example, if you are on a Mac and want to build the test-native extension, you would **cd** to [WORKSPACE]/engine-extensions/test-native/project and then run **./build**.
+![build-script](http://static.stencyl.com/pedia2/chapter-d/build-script.png)
+
+For example, if you wanted to build the test-native extension, you would **cd** to **[WORKSPACE]/engine-extensions/test-native/project** and then run **./build**.
 
 ```
 cd [WORKSPACE]/engine-extensions/test-native/project
