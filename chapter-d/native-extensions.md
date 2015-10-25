@@ -265,8 +265,8 @@ In this example, we're importing an official framework (iAd).
 <?xml version="1.0" encoding="utf-8"?>
 <project>
     <section if="ios">
-        <ndll name="ads" if="ios"/>
-        <dependency if="ios" name="iAd.framework" />
+        <ndll name="ads"/>
+        <dependency name="iAd.framework" />
     </section>
 </project>
 ```
@@ -277,7 +277,7 @@ In this example, we're importing a 3rd party framework that is placed under the 
 <?xml version="1.0" encoding="utf-8"?>
 <project>
     <section if="ios">
-        <ndll name="ads" if="tapdaq"/>
+        <ndll name="ads"/>
         <dependency path="frameworks/Tapdaq.framework" />
     </section>
 </project>
@@ -292,7 +292,7 @@ If your Android extension includes just Java source and no libraries, just speci
 <extension>
   <section if="android">
     <java path="project/android" />
-	 </section>
+  </section>
 </extension>
 ```
 
@@ -302,16 +302,17 @@ If it needs to import libraries, it gets more complicated. It's best to check ou
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
   <section if="android">
-    <classpath name="src" />
-    <dependency name="tapdaq" path="dependencies/tapdaq" if="android" />
+    <dependency name="tapdaq" path="dependencies/tapdaq"/>
     <android extension="com.byrobin.tapdaq.TapdaqEx" />
-	 </section>
+  </section>
 </extension>
 ```
 
 `<dependency>` is used to specify what folder contains the sources and libraries for your Android extension. In this case, all of that falls under **dependencies/tapdaq**. [(See Example)](https://github.com/byrobingames/tapdaq/tree/master/dependencies/tapdaq)
 
-Within that folder are two subfolders and a few extra files. One subfolder is a **libs* folder that contains the .jar library we want to import. The other folder contains the Java sources for the extension itself.
+Within that folder are two subfolders and a few extra files. One subfolder is a **libs* folder that contains the .jar library we want to import.
+
+`<android>` is used to specify the path to the Java sources for the extension (usually, the portion that *you* write). The lone attribute's value is always the package name for your sources. You place the sources under **[DEPENDENCY]/src/** where [DEPENDENCY] is the folder specified in the `<dependency>` tag.
 
 
 ## Building from the Command Line (iOS Only)
