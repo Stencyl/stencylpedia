@@ -5,8 +5,7 @@
 * Walkthrough
   * Setting up on iTunes Connect
   * Setting up your iOS device
-  * Setting up Stencyl
-  * Make a Purchase
+  * Setting up Purchases in Stencyl
   * Purchase Events
   * Consumables
   * Restoring Purchases
@@ -145,6 +144,8 @@ If consumption was successful, you will receive a purchase-succeeded event. If i
 ## Restoring Purchases
 
 If a user installs your app in a different device, or if the user has wiped their device, they'll want to get their purchases back for your app. Restoring Purchases is the feature that enables this. The way it works is that when a restore happens, the game acts as if the player made all those purchases again.
+
+#### Usage
 
 Use the **restore purchases block** under **Game > Mobile** to initiate this process (connect it to a button press, for example).
 
