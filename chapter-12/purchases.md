@@ -166,7 +166,7 @@ In Billing v3, unmanged products are treated as managed products. You don't have
 
 ![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
 
-To replicate unmanaged products in Billing v3, create a managed consumable product instead.
+To replicate unmanaged products in Billing v3 for new products, create a managed, consumable product instead.
  
 
 ## Restoring Purchases
@@ -192,7 +192,7 @@ Before you export and upload your game, ensure that the **Enable Purchases** che
 
 ![billing-app-key](http://static.stencyl.com/pedia2/ch12/enable-purchases.png)
 
-#### What happened to unamanged purchases?
+#### What happened to unmanaged purchases?
 
 Google has made everything a managed purchase. The closest thing to an unmanaged purchase is a consumable, managed purchase. To gracefully handle existing "unmanaged" purchases, do the following to let a user "repurchase" them.
 
