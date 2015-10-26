@@ -53,12 +53,10 @@ Have fun with this challenge and make it your own. Good luck!
 
 To help you get started, we’ve created scaffold project, so you don't have to worry about importing any resources at the outset.
 
-[Download the Project](http://static.stencyl.com/pedia2/ch4/challenge/Chapter%204%20Challenge.zip)
+[Download the Project](http://static.stencyl.com/pedia2/ch4/Chapter4.stencyl)
 
-> **Instructions:** Import this using File > Import.
+> **Instructions:** Import this using File > Import. Requires Stencyl 3.4.0 or later.
 
-> NOTICE (October 2015): The project does not open up in any recent version of Stencyl. We plan to fix this up, but this will take time and is low on our priority list. For the moment, we'd like to focus on updating the rest of Stencylpedia first.
- 
 
 ## Stuck? Want some hints?
 
