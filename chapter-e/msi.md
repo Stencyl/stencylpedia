@@ -11,10 +11,21 @@ If all goes well, an MSI will pop up after some time (5-10 minutes).
 
 If it fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
 
+## Changing the Default Workspace Directory
+
+1. Open up **installer/src/Core.wxs** in a text editor.
+2. Locate the following line.
+
+  ```
+  <RegistryValue Type='string' Name='global.workdir' Value='[WORKDIRECTORYROOT]'/>
+  ```
+
+3. Replace **[WORKDIRECTORYROOT** with the desired default path for the workspace.
+4. Save the file.
+5. Rebuild the MSI (step 6 in the first section).
+
 
 ## Specifying a Default Username / Password
-
-Do the following.
 
 1. Open up **installer/src/Core.wxs** in a text editor.
 2. Locate the following lines.
@@ -27,7 +38,7 @@ Do the following.
 3. Replace **[DEFAULTUSERNAME]** with your Stencyl account name. (the username, not the e-mail)
 4. Replace **[DEFAULTPASSWORD]** with your password, with sha1() applied to it.
 5. Save the file.
-6. Rebuild the MSI (step 6 above).
+6. Rebuild the MSI (step 6 in the first section).
 
 > If you don't trust web-based SHA1 generators, you can download [this utility from Microsoft](https://support.microsoft.com/en-us/kb/841290) and generate it yourself.
 
