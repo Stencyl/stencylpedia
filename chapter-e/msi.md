@@ -9,7 +9,7 @@
 
 If all goes well, an MSI will pop up after some time (5-10 minutes).
 
-If it fails, please contact us via e-mail.
+If it fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
 
 
 ## Specifying a Default Username / Password
@@ -21,7 +21,7 @@ Do the following. Then rebuild the MSI (step 6 above).
 
   ```
   <RegistryValue Type='string' Name='global.default.user' Value='[DEFAULTUSERNAME]'/>
-	<RegistryValue Type='string' Name='global.default.password' Value='[DEFAULTPASSWORD]'/>
+  <RegistryValue Type='string' Name='global.default.password' Value='[DEFAULTPASSWORD]'/>
   ```
 
 3. Replace **[DEFAULTUSERNAME]** with your Stencyl account name. (the username, not the e-mail)
