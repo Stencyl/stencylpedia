@@ -1,5 +1,3 @@
-> **NOTICE (October 2015):** The solution project does not open up in any recent version of Stencyl. We plan to fix this up, but this will take time and is low on our priority list. For the moment, we'd like to focus on updating the rest of Stencylpedia first.
-
 This is the solution to the Chapter 3 Challenge. We'll walk you through each step.
 
 [Return to the Chapter 3 Challenge](http://www.stencyl.com/help/view/chapter-3-challenge/)
@@ -7,9 +5,9 @@ This is the solution to the Chapter 3 Challenge. We'll walk you through each ste
 
 ## Download the Solution
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch3/challenge/Chapter%203%20Challenge%20Solution.zip">Download</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch3/Chapter3Solution.stencyl">Download</a>
 
-To install the project, either drag the file into the Stencyl window from the Welcome Center or import it from the File menu (File > Import Game…).
+To install the project, either drag the file into the Stencyl window from the Welcome Center or import it from the File menu (File > Import Game…). Requires Stencyl 3.4.0 or later.
 
 ![breakout-screenshot](http://static.stencyl.com/pedia2/ch3/challenge/image02.png)
 
