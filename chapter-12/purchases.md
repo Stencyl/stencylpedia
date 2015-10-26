@@ -155,6 +155,9 @@ Note: Although Stencyl automatically keeps count, we recommend maintaining a cop
  
 
 ## Restoring Purchases (TODO)
+
+(mike said something about needing to consume a non-consumable purchase to be able to restore it?)
+
 Restoring Purchases allow a user on a separate device who has bought non-consumable goods from your game to transfer those goods to that extra device.
 
 Use the restore purchases block under Game > Mobile to initiate this process (connect it to a button press, for example).
