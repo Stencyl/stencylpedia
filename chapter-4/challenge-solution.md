@@ -1,5 +1,3 @@
-> NOTICE (October 2015): The solution project does not open up in any recent version of Stencyl. We plan to fix this up, but this will take time and is low on our priority list. For the moment, we'd like to focus on updating the rest of Stencylpedia first.
-
 This is the solution to Chapter 4’s Challenge, where we walk you through each step.
 
 [Return to the Chapter 4 Challenge](http://www.stencyl.com/help/viewArticle/165/)
@@ -7,9 +5,9 @@ This is the solution to Chapter 4’s Challenge, where we walk you through each 
 
 ## Download the Solution
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch4/challenge/Chapter%204%20Challenge%20Solution.zip">Download</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch4/challenge/Chapter4Solution.stencyl">Download</a>
 
-To install the project, import it from the File menu (File > Import Game…).
+To install the project, import it from the File menu (File > Import Game…). Requires Stencyl 3.4.0 or later.
  
  
 ## Contents
