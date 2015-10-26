@@ -82,41 +82,56 @@ In order to test out purchases, you'll need to get your app's public key (now re
 
 Now that you've set everything up on Google Play, you'll need to do a few more things in Stencyl before you can begin.
 
-1) Ensure that the Enable Purchases checkbox is checked. It's inside Settings > Mobile > Monetization.
+* Ensure that the **Enable Purchases** checkbox is checked. It's inside **Settings > Mobile > Monetization**.
 
-2) Enter in your Android Public Key on that same page (Settings > Mobile > Monetization). This is the key you obtained in the previous section.
+* Enter in your Android Public Key on that same page (Settings > Mobile > Monetization). This is the "**License Key for this Application**" that you obtained in the previous section.
 
- 
+![billing-app-key](http://static.stencyl.com/pedia2/ch12/enable-purchases.png)
 
-Making a Purchase
 
-Step 1: Declare All Purchases
-Use the request info for product block to declare a purchase. You can find it under Game > Mobile towards the bottom. The ID you use is the Product ID you entered into the Google Play dashboard.
 
-request-product-info
+## Making a Purchase
 
-Do this for each purchase in your game. You only have to do this ONCE, not every time you wish to make a purchase.
+Finally, we're ready to start testing purchases.
 
-(In order to "know" when your request succeeded, use the when a product info request succeeds event under Add Event > Mobile > Purchases.)
+#### Check if In-App Billing has started
 
-product-info-event
+Before doing anything with in-app billing, we need to check if the service has started. Use the following Purchase event (under Add Event > Mobile > Purchases) to accomplish this. Store the value inside a boolean Game Attribute, so you can refer to it in the future.
 
- 
+![](http://static.stencyl.com/pedia2/ch12/can-make-purchases.png)
 
-Step 2: Make a Purchase
-You can find the buy product block under Game > Mobile towards the bottom. The ID you use is the Product ID you entered into the Google Play dashboard.
+> **Warning:** You can't do the following on Android at this time due to a bug.<br/><br/>![](http://static.stencyl.com/pedia2/ch12/can-make-purchases-wrong.png)
 
-buy-product-block
 
-Tip: If you'd like to test out purchases without setting up an entry on Google Play, you can use the following product IDs that Google has designated for testing.
+#### Make a Purchase
 
+With the switch over to Billing v3, it's no longer necessary to request purchases on Android. Just buy the product directly by passing in its product ID using the **buy** block, located under Game > Mobile.
+
+The ID you use is the Product ID you entered into the Google Play dashboard.
+
+![](http://static.stencyl.com/pedia2/ch12/buy.png)
+
+> Recall from above that we want to check if in-app billing has started, so we used an event and stored that in a game attribute. What's where **canMakePurchases** comes from.
+
+
+#### Testing for Success / Failure
+
+Purchases are asynchronous (non-blocking), so you'll need to use an event to get notified of the purchase's success or failure.
+
+![](http://static.stencyl.com/pedia2/ch12/buy2.png)
+
+
+#### Easy Test Purchases (Static Responses)
+
+If you'd like to [test out purchases without setting up an entry](https://developer.android.com/google/play/billing/billing_testing.html#billing-testing-static) on Google Play, you can use the following product IDs that Google has designated for testing.
+
+```
 android.test.purchased
 android.test.canceled
+```
  
 
-Other Operations
-
-Purchase Events
+## Purchase Events
 Just like on iOS, purchase events are available, so your app is informed when purchases succeed, fail and so forth. The following events apply to Android.
 
 Player can purchase goods
