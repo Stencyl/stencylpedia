@@ -5,7 +5,7 @@ This is the solution to Chapter 4’s Challenge, where we walk you through each 
 
 ## Download the Solution
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch4/challenge/Chapter4Solution.stencyl">Download</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch4/Chapter4Solution.stencyl">Download</a>
 
 To install the project, import it from the File menu (File > Import Game…). Requires Stencyl 3.4.0 or later.
  
