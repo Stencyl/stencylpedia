@@ -111,7 +111,7 @@ With the switch over to Billing v3, it's no longer necessary to request purchase
 
 The ID you use is the Product ID you entered into the Google Play dashboard.
 
-![](http://static.stencyl.com/pedia2/ch12/buy.png)
+![buy-product](http://static.stencyl.com/pedia2/ch12/buy.png)
 
 > Recall from above that we want to check if in-app billing has started, so we used an event and stored that in a game attribute. What's where **canMakePurchases** comes from.
 
@@ -120,11 +120,11 @@ The ID you use is the Product ID you entered into the Google Play dashboard.
 
 Purchases are asynchronous (non-blocking), so you'll need to use an event to get notified of the purchase's success or failure.
 
-![](http://static.stencyl.com/pedia2/ch12/buy2.png)
+![bought-product](http://static.stencyl.com/pedia2/ch12/buy2.png)
 
 The following approach also works.
 
-![](http://static.stencyl.com/pedia2/ch12/buy2-alt.png)
+![bought-product-alt](http://static.stencyl.com/pedia2/ch12/buy2-alt.png)
 
 
 #### Easy Test Purchases (Static Responses)
@@ -156,7 +156,7 @@ A common example of a consumable purchase is virtual currency. Some games (parti
 
 Consumables are "used" using the **use product** block (same block as **buy product**, click the dropdown). Make sure to check that the user has at least 1 of that product before using, as shown below.
 
-![](http://static.stencyl.com/pedia2/ch12/use.png)
+![consume-product](http://static.stencyl.com/pedia2/ch12/use.png)
 
 If consumption was successful, you will receive a purchase-succeeded event. If it failed, you will receive a purchased-failed event. **Be sure to handle these events** - do not let the user consume the products immediately.
 
@@ -164,22 +164,24 @@ If consumption was successful, you will receive a purchase-succeeded event. If i
 
 In Billing v3, unmanged products are treated as managed products. You don't have to create a new entry for them, but you do have to take one extra step to let a user "repurchase" them.
 
-![](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
+![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
 
 To replicate unmanaged products in Billing v3, create a managed consumable product instead.
  
 
 ## Restoring Purchases
 
-Restoring Purchases allow a user on a separate device who has bought goods from your game to transfer those goods to that extra device. **Restoration happens automatically when a game launches**, but you can force a restore to happen (such as providing a block to let the user request this).
+If a user installs your app in a different device, or if the user has wiped their device, they'll want to get their purchases back for your app. Restoring Purchases is the feature that enables this. The way it works is that when a restore happens, the game acts as if the player made all those purchases again.
 
-Use the restore purchases block under Game > Mobile to initiate this process.
+**Restoration happens automatically when a game launches**, but you can force a restore to happen (such as providing a block to let the user request this).
 
-![](http://static.stencyl.com/pedia2/ch12/restore.png)
+Use the restore purchases block under Game > Mobile to forcefully initiate this process.
 
-When this happens, you will receive a bunch of purchase restoration events (which you can receive via Add Event > Mobile > Purchases), each corresponding to a purchase. It's your task to react to these events in an appropriate manner.
+![restore-example](http://static.stencyl.com/pedia2/ch12/restore-block.png)
 
-restore-purchase-event
+When this happens, you will receive a series of purchase-restored events, each corresponding to a product). It's your task to react to these events in an appropriate manner.
+
+![restore-purchase-event](http://static.stencyl.com/pedia2/ch12/restore.png)
 
 
 ## Troubleshooting
