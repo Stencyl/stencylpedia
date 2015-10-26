@@ -67,7 +67,13 @@ In summary, the process goes as follows:
 
 Consult Google's guide on [Testing In-App Purchases](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases) for a complete walkthrough.
 
-#### Step 5: Getting the Android Public Key
+#### Step 5: Publish the Game to Alpha/Beta Testing Channels
+
+In order to test purchases, the game must published. 
+
+Google provides various channels (Alpha/Beta) for publishing the game, so that it does not show up in public listings and can only be installed by testers you designate. Consult Google's [guide](https://support.google.com/googleplay/android-developer/answer/3131213) for details.
+
+#### Step 6: Get the Android Public Key
 
 In order to test out purchases, you'll need to get your app's public key (now referred to as License Key on Google's end).
 
@@ -102,7 +108,7 @@ Before doing anything with in-app billing, we need to check if the service has s
 
 ![](http://static.stencyl.com/pedia2/ch12/can-make-purchases.png)
 
-> **Warning:** You can't do the following on Android at this time due to a bug.<br/><br/>![](http://static.stencyl.com/pedia2/ch12/can-make-purchases-wrong.png)
+> **Warning:** You can't do the following on Android at this time due to a bug. This was fixed on Oct 25, 2015, but we're keeping this up for now.<br/><br/>![](http://static.stencyl.com/pedia2/ch12/can-make-purchases-wrong.png)
 
 
 #### Make a Purchase
@@ -197,6 +203,13 @@ Before you export and upload your game, ensure that the **Enable Purchases** che
 Google has made everything a managed purchase. The closest thing to an unmanaged purchase is a consumable, managed purchase. To gracefully handle existing "unmanaged" purchases, do the following to let a user "repurchase" them.
 
 ![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
+
+#### I can't test my IAP's in-game.
+
+* Did you remember to set up [test accounts](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases)?
+* Did you remember to publish your game to [alpha or beta channels](https://support.google.com/googleplay/android-developer/answer/3131213) in Google Play?
+
+Consult Google's [testing in-app billing](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases) guide for further details.
 
 
 ## Further Reading
