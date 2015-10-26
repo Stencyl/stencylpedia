@@ -122,6 +122,10 @@ Purchases are asynchronous (non-blocking), so you'll need to use an event to get
 
 ![](http://static.stencyl.com/pedia2/ch12/buy2.png)
 
+The following approach also works.
+
+![](http://static.stencyl.com/pedia2/ch12/buy2-alt.png)
+
 
 #### Easy Test Purchases (Static Responses)
 
@@ -132,18 +136,17 @@ android.test.purchased
 android.test.canceled
 ```
  
-
-## Purchase Events
+#### Purchase Events
 Just like on iOS, purchase events are available, so your app is informed when purchases succeed, fail and so forth. The following events apply to Android.
 
-Player can purchase goods
-A purchase succeeds
-A purchase fails
-A purchase is canceled
-A product info request succeeds
+* Player can purchase goods
+* A purchase succeeds
+* A purchase fails
+* A purchase is canceled
+* A product info request succeeds (required to get title/price/description, you can't use these blocks without this event)
  
 
-Consumables
+## Consumables (TODO)
 Stencyl supports consumable purchases in addition to non-consumables. No extra work is required on your part to support this - Stencyl will automatically keep a count for you.
 
 For example, if you buy a consumable, we'll increment the count for that product by 1. If you use a consumable, that product's count will be decreased by 1.
@@ -151,7 +154,7 @@ For example, if you buy a consumable, we'll increment the count for that product
 Note: Although Stencyl automatically keeps count, we recommend maintaining a copy of transactions on a personal server in order to combat cheaters or using a service to track this information for you.
  
 
-Restoring Purchases
+## Restoring Purchases (TODO)
 Restoring Purchases allow a user on a separate device who has bought non-consumable goods from your game to transfer those goods to that extra device.
 
 Use the restore purchases block under Game > Mobile to initiate this process (connect it to a button press, for example).
@@ -159,10 +162,6 @@ Use the restore purchases block under Game > Mobile to initiate this process (co
 When this happens, you will receive a bunch of purchase restoration events (which you can receive via Add Event > Mobile > Purchases), each corresponding to a purchase. It's your task to react to these events in an appropriate manner.
 
 restore-purchase-event
-
- 
-
-
 
 
 ## Troubleshooting
