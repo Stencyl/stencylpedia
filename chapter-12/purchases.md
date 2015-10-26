@@ -184,10 +184,19 @@ When this happens, you will receive a series of purchase-restored events, each c
 ![restore-purchase-event](http://static.stencyl.com/pedia2/ch12/restore.png)
 
 
-## Troubleshooting
+## FAQ / Troubleshooting
 
 #### I uploaded my APK, but the developer console won't let me add IAPs to my game.
+
 Before you export and upload your game, ensure that the **Enable Purchases** checkbox is checked for your game, otherwise the Google developer console will not let you add IAPs. Enable Purchases is located inside **Settings > Mobile > Monetization**.
+
+![billing-app-key](http://static.stencyl.com/pedia2/ch12/enable-purchases.png)
+
+#### What happened to unamanged purchases?
+
+Google has made everything a managed purchase. The closest thing to an unmanaged purchase is a consumable, managed purchase. To gracefully handle existing "unmanaged" purchases, do the following to let a user "repurchase" them.
+
+![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
 
 
 ## Further Reading
