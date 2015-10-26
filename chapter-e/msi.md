@@ -10,3 +10,23 @@
 If all goes well, an MSI will pop up after some time (5-10 minutes).
 
 If it fails, please contact us via e-mail.
+
+
+## Specifying a Default Username / Password
+
+Do the following. Then rebuild the MSI (step 6 above).
+
+1. Open up **installer/src/Core.wxs** in a text editor.
+2. Locate the following lines.
+
+  ```
+  <RegistryValue Type='string' Name='global.default.user' Value='[DEFAULTUSERNAME]'/>
+	<RegistryValue Type='string' Name='global.default.password' Value='[DEFAULTPASSWORD]'/>
+  ```
+
+3. Replace **[DEFAULTUSERNAME]** with your Stencyl account name. (the username, not the e-mail)
+4. Replace **[DEFAULTPASSWORD]** with your password, with sha1() applied to it.
+
+> If you don't trust the web-based SHA1 generators, you can download [this utility from Microsoft](https://support.microsoft.com/en-us/kb/841290) and generate it yourself.
+
+> `FCIV -sha1 path\to\file\holding\password`
