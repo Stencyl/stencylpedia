@@ -68,7 +68,7 @@ If you have a SWC library, you need to extract the SWF that resides inside of it
 
 4. (Optional) Edit blocks.xml if you want to add some custom blocks that expose the Flash library's functionality.
 
-That’s it. Once your extension is ready, open a game, enable the extension, save -> close -> reopen and finally test the game. If you’ve done everything correctly, the extension will work.
+That’s it. Once your extension is ready, open a game, enable the extension, and test the game. If you’ve done everything correctly, the extension will work.
 
 
 ## Example: Base 64 Encoding/Decoding
