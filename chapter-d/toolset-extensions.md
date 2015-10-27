@@ -113,11 +113,10 @@ Use this as a template to base your own extension off of.
 
 1. [Download](https://github.com/Stencyl/toolset-extension-sample/archive/master.zip) the Sample Extension.
 
-2. Place it under [WORKSPACE]/extensions/ - This folder contains all of your toolset extensions.
-
-3. Create a project for the extension using your IDE of choice.
+2. Create a project for the extension using your IDE of choice.
   * Add sw.jar to the project's classpath.
   * Add an ANT task for the **dist** task inside **build.xml**.
+  * Set the path to sw.jar and [WORKSPACE]/extensions in the build-helper.properties file.
 
 4. After that is done, run the **dist** ANT task from the IDE. This builds a Java **JAR file** that Stencyl recognizes as an extension.
 
@@ -295,9 +294,6 @@ Name | Location | Purpose
 --- | --- | ---
 Prefs | {workspace}/prefs/{id}.eprefs | Dictionary of key-value pairs
 Data | {workspace}/prefs/{id}.edata | Any data (as a single file)
-Game Prefs | {workspace}/games/{game}/extension-data/{name}/.prefs | Game-specific preferences
-Game Data | {workspace}/games/{game}/extension-data/{name} | Folder containing game-specific data
-Game Extras | {workspace}/games/{game}/extras/{name} | Game-specific data needed by the engine at runtime
 
 If you need to store data, use our data API to save out this data to disk. Do not attempt to write out to other locations using the plain Java API's. We may reject your extension if you do so.
 
@@ -309,13 +305,15 @@ If you need to store data, use our data API to save out this data to disk. Do no
 <br/>
 **float readFloatProp(String key, float defaultValue)**
 <br/>
+**boolean readBoolProp(String key, boolean defaultValue)**
+<br/>
 **String readStringProp(String key, String defaultValue)**
 <br/>
 Read properties as different data types from `Prefs`.
 
 ***
 
-**properties.put(String key, Object value)**
+**putProp(String key, Object value)**
 <br/>
 Add a property to `Prefs`.
 
@@ -363,13 +361,15 @@ Game Extras | {workspace}/games/{game}/extras/{name} | Game-specific data needed
 <br/>
 **float readFloatGameProp(String key, float defaultValue)**
 <br/>
+**boolean readBoolGameProp(String key, boolean defaultValue)**
+<br/>
 **String readStringGameProp(String key, String defaultValue)**
 <br/>
 Read properties as different data types from `Game Prefs`.
 
 ***
 
-**extensionGameProperties.put(String key, Object value)**
+**putGameProp(String key, Object value)**
 <br/>
 Add a property to `Game Prefs`.
 
