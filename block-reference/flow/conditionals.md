@@ -1,10 +1,10 @@
-# [Block Reference](http://api.stencyl.com/blocks.html) > Flow > Conditions
+# Flow > Conditions
 
 ***
 
 ## Conditionals
 
-#### If
+### If
 
 ![if-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/If.png)
 
@@ -18,7 +18,7 @@ if([BOOLEAN]) {
 
 ***
 
-#### Otherwise
+### Otherwise
 
 ![otherwise-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/Otherwise.png)
 
@@ -32,7 +32,7 @@ else {
 
 ***
 
-#### Otherwise If
+### Otherwise If
 
 ![otherwise-if-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/OtherwiseIf.png)
 
@@ -52,7 +52,7 @@ else if([BOOLEAN]) {
 
 Booleans (denoted by a hexagon shape) are conditions that resolve to `true` or `false`.
 
-#### And
+### And
 
 ![and-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/And.png)
 
@@ -62,7 +62,7 @@ Returns `true` if both of the provided conditions are `true`.
 [BOOLEAN] && [BOOLEAN]
 ```
 
-#### Or
+### Or
 
 ![or-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/Or.png)
 
@@ -72,7 +72,7 @@ Returns `true` if at least one of the provided conditions is `true`. If the firs
 [BOOLEAN] || [BOOLEAN]
 ```
 
-#### Not
+### Not
 
 ![not-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/Not.png)
 
@@ -82,7 +82,7 @@ Returns `true` if the condition resolves to `false`.
 ![BOOLEAN]
 ```
 
-#### True / False
+### True / False
 
 ![true-false-blocks](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/TrueFalse.png)
 
@@ -102,7 +102,7 @@ asBoolean([VALUE])
 
 ## Equality
 
-#### Equals
+### Equals
 
 ![equals-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/Equals.png)
 
@@ -114,7 +114,7 @@ Returns `true` if both values are equal.
 
 ***
 
-#### Not Equal
+### Not Equal
 
 ![not-equals-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/EqualsNot.png)
 
