@@ -62,6 +62,8 @@ Returns `true` if both of the provided conditions are `true`.
 [BOOLEAN] && [BOOLEAN]
 ```
 
+***
+
 ### Or
 
 ![or-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/Or.png)
@@ -71,6 +73,8 @@ Returns `true` if at least one of the provided conditions is `true`. If the firs
 ```
 [BOOLEAN] || [BOOLEAN]
 ```
+
+***
 
 ### Not
 
@@ -82,13 +86,17 @@ Returns `true` if the condition resolves to `false`.
 ![BOOLEAN]
 ```
 
+***
+
 ### True / False
 
 ![true-false-blocks](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/TrueFalse.png)
 
 Literal values of `true` and `false`.
 
-#### Boolean Conversion
+***
+
+### Boolean Conversion
 
 ![boolean-convert-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/BooConvert.png)
 
