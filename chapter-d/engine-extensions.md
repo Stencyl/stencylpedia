@@ -98,7 +98,7 @@ The extension is now installed. You'll need to enable it in each game that needs
 1. Open a game.
 2. Go to **Settings > Extensions**.
 3. Click **Enable/Disable** for the extensions you wish to enable/disable.
-4. Save your game. Close it. Reopen it. The extensions will now be enabled/disabled.
+4. The extensions will now be enabled/disabled. Save your game.
 
 ![enable-disable-extensions](http://static.stencyl.com/help/images/extensions-1.png)
 
@@ -148,7 +148,7 @@ To create a new extension, it's easiest to copy an existing one. We've created t
 5. Edit **blocks.xml** if you wish to add custom blocks for your extension. The **spec** for this file's format can be found [here](http://www.stencyl.com/help/view/adding-blocks/).
 
 
-That’s it. Once your extension is ready, open a game, enable the extension, save -> close -> reopen and finally test the game. If you’ve done everything correctly, the extension will work.
+That’s it. Once your extension is ready, open a game, enable the extension, and test the game. If you’ve done everything correctly, the extension will work.
 
 #### Testing an Extension
 
