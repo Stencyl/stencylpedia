@@ -92,7 +92,7 @@ Literal values of `true` and `false`.
 
 ![boolean-convert-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/BooConvert.png)
 
-Converts the given value (typically text) into a Boolean (if possible). May throw a compile-time or runtime error if conversion is not possible.
+Converts the given value (typically text) into a Boolean. May throw a compile-time or runtime error if conversion is not possible.
 
 ```
 asBoolean([VALUE])
