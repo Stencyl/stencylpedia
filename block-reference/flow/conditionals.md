@@ -101,3 +101,25 @@ asBoolean([VALUE])
 ***
 
 ## Equality
+
+#### Equals
+
+![equals-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/Equals.png)
+
+Returns `true` if both values are equal.
+
+```
+[VALUE] == [VALUE]
+```
+
+***
+
+#### Not Equal
+
+![not-equals-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/EqualsNot.png)
+
+Returns `true` if the values are not equal.
+
+```
+[VALUE] != [VALUE]
+```
