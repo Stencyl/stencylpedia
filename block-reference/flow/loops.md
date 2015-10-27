@@ -11,7 +11,7 @@
 Repeats the wrapped blocks a given number of times.
 
 ```
-for(var index0:int = 0; index0 < [NUMBER]; index0++) {
+for(index0 in 0...[NUMBER]) {
   [ACTIONS]
 }
 ```
