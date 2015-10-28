@@ -6,7 +6,7 @@
 
 ### Do after [N] seconds
 
-![do-after-block](http://static.stencyl.com/pedia2/blocks/flow/flow_time/DoAfterLoopBlock.png)
+![do-after-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/dolater.png)
 
 Runs the code after the given delay (in seconds, can be partial seconds).
 
@@ -24,7 +24,7 @@ runLater(1000 * [NUMBER], function(task:TimedTask):Void {
 
 ### Do every [N] seconds
 
-![do-every-block](http://static.stencyl.com/pedia2/blocks/flow/flow_time/DoEveryLoopBlock.png)
+![do-every-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/periodic.png)
 
 Runs the code every [N] seconds (can be partial seconds).
 
@@ -45,7 +45,7 @@ runPeriodically(1000 * [NUMBER], function(task:TimedTask):Void {
 
 ### Cancel
 
-![cancel-block](http://static.stencyl.com/pedia2/blocks/flow/flow_looping/RepeatBlock.png)
+![cancel-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/cancel.png)
 
 Cancels the execution of a periodic (`do-every-n-seconds`) task.
 
