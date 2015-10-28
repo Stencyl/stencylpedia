@@ -10,6 +10,8 @@
 
 Lets you embed code into your Behavior. Can be used in many ways. Particularly useful for calling functions that Stencyl or Haxe provide but don't exist in block form.
 
+***
+
 ### Code Block (Inline)
 
 ![code-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/CodeInline.png)
@@ -30,6 +32,8 @@ Returns the current [scale](http://www.stencyl.com/help/view/mobile-app-scaling/
 Engine.SCALE
 ```
 
+***
+
 ### Game URL
 
 ![game-url-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/GameURL.png)
@@ -39,6 +43,8 @@ Returns the URL of the website where this game is running (on Flash, HTML5). Ret
 ```
 gameURL()
 ```
+
+***
 
 ### Step Size
 
@@ -80,6 +86,8 @@ Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
 #if(mobile && !android) Engine.isTabletIOS #else false #end
 ```
 
+***
+
 ### Do only on [PLATFORM]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/DoPlatform.png)
@@ -92,6 +100,8 @@ Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 [ACTIONS]
 #end
 ```
+
+***
 
 ### Exit Game
 
@@ -119,6 +129,8 @@ Tells the game to load (or unload) an atlas in the **next** scene. Specify the *
 loadAtlas([NUMBER]);
 unloadAtlas([NUMBER]);
 ```
+
+***
 
 ### Is Atlas Loaded?
 
