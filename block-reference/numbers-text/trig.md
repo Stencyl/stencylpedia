@@ -75,12 +75,38 @@ Using inverse tangent, we can calculate the angle to rotate the actor to based o
 
 ### Square Root
 
+![sqrt-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/ExponentSqrt.png)
+
+Returns the square root of the given number.
+
+```
+Math.sqrt[NUMBER]
+```
+
 ***
 
 ### Power
 
+![power-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/ExponentExponent.png)
+
+Returns the given number to the specified power (e.g., x<sup>y</sup>).
+
+```
+Math.pow[NUMBER, NUMBER]
+```
+
 ***
 
-### Logarithm
+### Natural Logarithm / E Raised to a Power
+
+![log-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/LogBlocks.png)
+
+**ln** - Returns the natural log of the given number.<br/>
+**e^** - Returns the number e to the given power.
+
+```
+Math.log[NUMBER]
+Math.exp[NUMBER]
+```
 
 ***
