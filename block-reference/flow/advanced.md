@@ -58,7 +58,7 @@ getStepSize()
 
 ![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/RunningPlatform.png)
 
-Returns `true` if the game is running on the selected platform.
+Returns `true` if the game is running on the selected platform.<br/>
 Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 
 ```
@@ -69,7 +69,7 @@ Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/RunningDevice.png)
 
-Returns `true` if the game is running on the selected kind of iOS device. Useful if you want to fine-tune a game's display or behavior on specific devices.
+Returns `true` if the game is running on the selected kind of iOS device. Useful if you want to fine-tune a game's display or behavior on specific devices.<br/>
 Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
 
 ```
@@ -84,7 +84,7 @@ Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/DoPlatform.png)
 
-Include the wrapped blocks only on the specified platform. On other platforms, the wrapped blocks will not exist at all.
+Include the wrapped blocks only on the specified platform. On other platforms, the wrapped blocks will not exist at all.<br/>
 Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 
 ```
