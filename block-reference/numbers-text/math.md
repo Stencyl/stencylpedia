@@ -69,8 +69,6 @@ randomFloat()
 
 ## Increment / Decrement
 
-***
-
 ### Increment / Decrement Number
 
 ![increment-decrement-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Increment.png)
