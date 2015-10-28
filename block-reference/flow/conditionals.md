@@ -131,3 +131,24 @@ Returns `true` if the values are not equal.
 ```
 [VALUE] != [VALUE]
 ```
+
+***
+
+### Comparators
+
+Returns `true` if...
+
+Operator | Description
+--- | ---
+![less-block](http://static.stencyl.com/pedia2/blocks/numbers_text/compare/Less.png)|First number is smaller than second number.
+![lte-block](http://static.stencyl.com/pedia2/blocks/numbers_text/compare/LessEqual.png)|First number is smaller than or equal to than second number.
+![greater-block](http://static.stencyl.com/pedia2/blocks/numbers_text/compare/Greater.png)|First number is larger than second number.
+![gte-block](http://static.stencyl.com/pedia2/blocks/numbers_text/compare/GreaterEqual.png)|First number is larger than or equal to second number.
+
+```
+([NUMBER] < [NUMBER])
+([NUMBER] <= [NUMBER])
+([NUMBER] > [NUMBER])
+([NUMBER] >= [NUMBER])
+```
+
