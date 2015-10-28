@@ -217,7 +217,7 @@ Returns the width of the given text using the given font. Useful for calculating
 Returns the height of the given font. Useful for calculating positions for drawing text.
 
 ```
-[FONT].font.getHeight()
+[FONT].getHeight()
 ```
 
 ***
