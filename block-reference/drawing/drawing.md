@@ -68,7 +68,7 @@ Draws the following.
 
 ![draw-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-rect.png)
 
-Draws an outline of (or fills) a rectangle at the specified position and size, using the current stroke color and thickness.
+Draws an outline of (or fills) a rectangle at the specified position and size, using the current stroke color and thickness (and color for filling).
 
 ```
 g.drawRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
@@ -80,7 +80,7 @@ g.drawRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ![draw-round-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-roundrect.png)
 
-Draws an outline of (or fills) a rounded rectangle at the specified position and size, using the current stroke color and thickness.
+Draws an outline of (or fills) a rounded rectangle at the specified position and size, using the current stroke color and thickness (and color for filling).
 
 ```
 g.drawRoundRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
@@ -94,7 +94,7 @@ g.drawRoundRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ![draw-circle-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-circle.png)
 
-Draws an outline of (or fills) a circle at the specified position and size, using the current stroke color and thickness.
+Draws an outline of (or fills) a circle at the specified position and size, using the current stroke color and thickness (and color for filling).
 
 ```
 g.drawCircle([NUMBER], [NUMBER], [NUMBER]);
@@ -108,7 +108,7 @@ g.drawCircle([NUMBER], [NUMBER], [NUMBER]);
 
 ![draw-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-poly.png)
 
-Draws an outline of (or fills) a polygon at the specified position, using the current stroke color and thickness. Use `add point to polygon` to add points to the polygon.
+Draws an outline of (or fills) a polygon at the specified position, using the current stroke color and thickness (and color for filling). Use the `add point to polygon` block to add points to the polygon.
 
 ```
 g.beginDrawPolygon();
