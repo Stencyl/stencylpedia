@@ -53,7 +53,7 @@ Returns the result of applying a trigonometric function to the given number. Dro
 
 ```
 //Incoming number is Degrees
-Math.sin( * Utils.RAD)
+Math.sin([NUMBER] * Utils.RAD)
 
 //Incoming number is Radians
 Math.sin([NUMBER])
