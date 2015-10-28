@@ -11,7 +11,7 @@
 aaa
 
 ```
-aaa
+g.drawString("" + "anything", 0, 0);
 ```
 
 ***
@@ -23,7 +23,7 @@ aaa
 aaa
 
 ```
-aaa
+g.drawLine(0, 0, 0, 0);
 ```
 
 ***
@@ -35,7 +35,7 @@ aaa
 aaa
 
 ```
-aaa
+g.fillPixel(0, 0);
 ```
 
 ***
@@ -45,6 +45,10 @@ aaa
 ### Draw Image for Actor
 
 ![draw-actor-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-image-actor.png)
+
+```
+__.drawImage(g);
+```
 
 ***
 
@@ -57,7 +61,7 @@ aaa
 aaa
 
 ```
-aaa
+g.drawRect(0, 0, 0, 0);
 ```
 
 ***
@@ -69,7 +73,7 @@ aaa
 aaa
 
 ```
-aaa
+g.drawRoundRect(0, 0, 0, 0, 0);
 ```
 
 ***
@@ -83,7 +87,7 @@ aaa
 aaa
 
 ```
-aaa
+g.drawCircle(0, 0, 0);
 ```
 
 ***
@@ -97,7 +101,9 @@ aaa
 aaa
 
 ```
-aaa
+g.beginDrawPolygon();
+[ACTIONS]
+g.endDrawingPolygon();
 ```
 
 ***
@@ -109,7 +115,7 @@ aaa
 aaa
 
 ```
-aaa
+g.addPointToPolygon(0, 0);
 ```
 
 ***
