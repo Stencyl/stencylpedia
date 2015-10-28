@@ -142,7 +142,7 @@ StringUtil.replace([TEXT], [TEXT], [TEXT])
 
 ### Substring (Part of Text)
 
-![substring-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Substring.png0
+![substring-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Substring.png)
 
 Returns part of the given text, given the starting and ending indices. More specifically, this block returns the characters beginning with the **start index** and ending with **one less than** the **ending index**. 
 
@@ -156,12 +156,68 @@ Returns part of the given text, given the starting and ending indices. More spec
 
 ## Case
 
+### Get Text in Upper/Lower Case
+
+![uppercase-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/CaseUp.png)
+![lowercase-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/CaseLow.png)
+
+Returns the given text in all uppercase (or lowercase).
+
+```
+[TEXT].toUpperCase()
+[TEXT].toLowerCase()
+```
+
 ***
 
 ## Split
 
+### Split into Words
+
+![split-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Split.png)
+
+Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/), using **space** as the separator (delimiter).
+
+```
+[TEXT].split(" ")
+```
+
+***
+
+### Split using Separator
+
+![split-block2](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Split2.png)
+
+Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/), using the given separator (delimiter) text.
+
+```
+[TEXT].split([TEXT])
+```
+
 ***
 
 ## Fonts
+
+### Get Width of Text using Font
+
+![text-width-block](http://static.stencyl.com/pedia2/blocks/drawing/drawingproperties/WidthCurrent.png)
+
+Returns the width of the given text using the given font. Useful for calculating positions for drawing text.
+
+```
+[FONT].font.getTextWidth([TEXT])
+```
+
+***
+
+### Get Height of Font
+
+![text-height-block](http://static.stencyl.com/pedia2/blocks/drawing/drawingproperties/WidthFont.png)
+
+Returns the height of the given font. Useful for calculating positions for drawing text.
+
+```
+[FONT].font.getHeight()
+```
 
 ***
