@@ -6,19 +6,37 @@
 
 ### Draw Text
 
-![repeat-block](http://static.stencyl.com/pedia2/blocks/flow/flow_looping/RepeatBlock.png)
+![draw-text-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-text.png)
 
-Repeats the wrapped blocks a given number of times.
+aaa
 
 ```
-for(var index0:int = 0; index0 < [NUMBER]; index0++) {
-  [ACTIONS]
-}
+aaa
 ```
+
+***
 
 ### Draw Line
 
+![draw-line-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-line.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
 ### Fill Pixel
+
+![fill-pixel-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-pixel.png)
+
+aaa
+
+```
+aaa
+```
 
 ***
 
@@ -26,13 +44,33 @@ for(var index0:int = 0; index0 < [NUMBER]; index0++) {
 
 ### Draw Image for Actor
 
+![draw-actor-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-image-actor.png)
+
 ***
 
 ## Rectangles
 
 ### Draw Rectangle
 
+![draw-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-rect.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
 ### Draw Rounded Rectangle
+
+![draw-round-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-roundrect.png)
+
+aaa
+
+```
+aaa
+```
 
 ***
 
@@ -40,12 +78,38 @@ for(var index0:int = 0; index0 < [NUMBER]; index0++) {
 
 ### Draw Circle
 
+![draw-circle-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-circle.png)
+
+aaa
+
+```
+aaa
+```
+
 ***
 
 ## Polygons
 
 ### Draw Polygon
 
+![draw-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-poly.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
 ### Add Point to Polygon
+
+![add-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/add-to-poly.png)
+
+aaa
+
+```
+aaa
+```
 
 ***
