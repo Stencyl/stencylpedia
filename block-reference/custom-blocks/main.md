@@ -10,7 +10,7 @@
 
 ### Return
 
-![return-block](http://static.stencyl.com/pedia2/blocks/custom/Return.png)
+![return-block](http://static.stencyl.com/pedia2/block-images/11%20-%20Custom/0%20-%20Custom/return.png)
 
 Use the `return` block to report back a value for a custom block.
 
