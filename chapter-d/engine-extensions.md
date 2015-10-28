@@ -88,11 +88,6 @@ The extension is now installed. You'll need to enable it in each game that needs
 1. Locate the Stencyl workspace folder (**Debug > View > View Workspace Folder**). We'll refer to this as **[WORKSPACE]**.
 2. Unzip the Extension and copy it into **[WORKSPACE]/engine-extensions/**
 
-The extension is now installed. You'll need to enable it in each game that needs to use it.
-
-> **Note:** While extensions are enabled on a per-game basis, they are installed globally, meaning that you only need to install them once.
- 
-
 #### How To: Enabling / Disabling an Extension
 
 1. Open a game.
