@@ -11,7 +11,7 @@
 aaa
 
 ```
-aaa
+Utils.getColorRGB(Std.int(0), Std.int(0), Std.int(0))
 ```
 
 ***
@@ -23,7 +23,7 @@ aaa
 aaa
 
 ```
-aaa
+g.fillColor = Utils.getColorRGB(255,200,0);
 ```
 
 ***
@@ -35,7 +35,7 @@ aaa
 aaa
 
 ```
-aaa
+g.setFont(!ERROR!);
 ```
 
 ***
@@ -49,7 +49,7 @@ aaa
 aaa
 
 ```
-aaa
+g.alpha = (0/100);
 ```
 
 ***
@@ -63,7 +63,7 @@ aaa
 aaa
 
 ```
-aaa
+g.strokeColor = Utils.getColorRGB(255,200,0);
 ```
 
 ***
@@ -75,7 +75,7 @@ aaa
 aaa
 
 ```
-aaa
+g.strokeSize = Std.int(0);
 ```
 
 ***
@@ -89,7 +89,7 @@ aaa
 aaa
 
 ```
-aaa
+g.font.font.getTextWidth("text")/Engine.SCALE
 ```
 
 ***
@@ -101,7 +101,7 @@ aaa
 aaa
 
 ```
-aaa
+!ERROR!.font.getTextWidth("text")/Engine.SCALE
 ```
 
 ***
@@ -115,7 +115,7 @@ aaa
 aaa
 
 ```
-aaa
+g.font.getHeight()/Engine.SCALE
 ```
 
 ***
@@ -127,7 +127,7 @@ aaa
 aaa
 
 ```
-aaa
+!ERROR!.getHeight()/Engine.SCALE
 ```
 
 ***
