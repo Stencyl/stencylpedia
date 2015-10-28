@@ -6,7 +6,8 @@
 
 ### Code Block (Single Line, Multi Line)
 
-![code-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/CodeThumb.png)
+![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/custom-code.png)<br/>
+![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-long.png)
 
 Lets you embed code into your Behavior. Can be used in many ways. Particularly useful for calling functions that Stencyl or Haxe provide but don't exist in block form.
 
@@ -14,7 +15,7 @@ Lets you embed code into your Behavior. Can be used in many ways. Particularly u
 
 ### Code Block (Inline)
 
-![code-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/CodeInline.png)
+![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-short.png)
 
 Lets you embed a fragment of code into a block field.
 
@@ -24,7 +25,7 @@ Lets you embed a fragment of code into a block field.
 
 ### Current Scale
 
-![scale-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/CurrentScale.png)
+![scale-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/engine-scale.png)
 
 Returns the current [scale](http://www.stencyl.com/help/view/mobile-app-scaling/) of the game. Either 1, 1.5, 2, 3 or 4.
 
@@ -36,7 +37,7 @@ Engine.SCALE
 
 ### Game URL
 
-![game-url-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/GameURL.png)
+![game-url-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/game-url.png)
 
 Returns the URL of the website where this game is running (on Flash, HTML5). Returns an empty text on other platforms.
 
@@ -48,7 +49,7 @@ gameURL()
 
 ### Step Size
 
-![step-size-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/StepSize.png)
+![step-size-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/stepsize.png)
 
 Returns the number of milliseconds in each "frame" of the game. This corresponds to the time elapsed between updates to **when updating** events.
 
@@ -62,7 +63,7 @@ getStepSize()
 
 ### Running on [PLATFORM]
 
-![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/RunningPlatform.png)
+![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-platform.png)
 
 Returns `true` if the game is running on the selected platform.<br/>
 Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
@@ -73,7 +74,7 @@ Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 
 ### Running on [SPECIFIC IOS DEVICE]
 
-![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/RunningDevice.png)
+![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-device2.png)
 
 Returns `true` if the game is running on the selected kind of iOS device. Useful if you want to fine-tune a game's display or behavior on specific devices.<br/>
 Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
@@ -90,7 +91,7 @@ Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
 
 ### Do only on [PLATFORM]
 
-![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/DoPlatform.png)
+![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/do-on-platform.png)
 
 Include the wrapped blocks only on the specified platform. On other platforms, the wrapped blocks will not exist at all.<br/>
 Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
@@ -105,7 +106,7 @@ Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 
 ### Exit Game
 
-![exit-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/Exit.png)
+![exit-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/exit-game.png)
 
 Quits out of a Desktop game. Does nothing on Flash/HTML5. On iOS/Android, it may send the app to the background (and goes against platform guidelines).
 
@@ -121,7 +122,7 @@ These blocks are deprecated. We now recommend handling [atlases](http://www.sten
 
 ### Load/Unload Atlas
 
-![atlas-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/Atlas.png)
+![atlas-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/load-unload-atlas.png)
 
 Tells the game to load (or unload) an atlas in the **next** scene. Specify the **Atlas ID**.
 
@@ -134,7 +135,7 @@ unloadAtlas([NUMBER]);
 
 ### Is Atlas Loaded?
 
-![atlas-check-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/AtlasLoaded.png)
+![atlas-check-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/atlas-loaded.png)
 
 Returns `true` if the specified atlas (using Atlas ID) is currently loaded.
 
