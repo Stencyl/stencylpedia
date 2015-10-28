@@ -42,7 +42,7 @@ event.otherFromRight
 
 ![group-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Group.png)
 
-Returns the group of the shape for the "other" (or "second") object in the collision. In most cases, the group of the shape is the same as that of the actor.
+Returns the group of the shape for the "other" (or "second") object in the collision. In most cases, the group of the shape is the same as that of the actor, but that [isn't always the case](http://www.stencyl.com/help/view/collisions-and-groups/).
 
 ```
 internalGetGroup(event.thisActor, event.thisShape, event);
