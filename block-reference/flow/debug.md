@@ -49,6 +49,8 @@ This variant of comments wraps around a stack of blocks. It has no effect on the
 
 Outlines collision boxes, tiles, regions and terrain regions for debug purposes. Useful for testing physics/collisions. Can also be activated from the menu (prior to testing) via **Run > Enable Debug Drawing**.
 
+![debug-draw-example](http://static.stencyl.com/pedia2/blocks/flow/flow_debug/DrawingExample1Thumb.png)
+
 ```
 enableDebugDrawing();
 disableDebugDrawing();
