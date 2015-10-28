@@ -1,7 +1,5 @@
 # Numbers & Text > Math
 
-***
-
 ## Arithmetic
 
 ### Add / Subtract / Multiply / Divide
@@ -135,8 +133,6 @@ Math.ceil([NUMBER])
 ***
 
 ## Conversion
-
-***
 
 ### Number Conversion
 
