@@ -8,10 +8,10 @@
 
 ![draw-text-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-text.png)
 
-aaa
+Draws the specified text to the given location using the current font.
 
 ```
-g.drawString("" + "anything", 0, 0);
+g.drawString([TEXT], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -20,10 +20,10 @@ g.drawString("" + "anything", 0, 0);
 
 ![draw-line-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-line.png)
 
-aaa
+Draws a line from the starting point to the ending point, using the current stroke color and thickness.
 
 ```
-g.drawLine(0, 0, 0, 0);
+g.drawLine([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -32,10 +32,10 @@ g.drawLine(0, 0, 0, 0);
 
 ![fill-pixel-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-pixel.png)
 
-aaa
+Draws a single pixel to the given location, using the current color. We recommend using the [Image API](http://www.stencyl.com/help/view/image-api) if you intend to fill many pixels at a time.
 
 ```
-g.fillPixel(0, 0);
+g.fillPixel([NUMBER], [NUMBER]);
 ```
 
 ***
@@ -46,9 +46,19 @@ g.fillPixel(0, 0);
 
 ![draw-actor-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-image-actor.png)
 
+Draws the specified actor's image to the current pen position. Will base this upon the actor's current animation (and current frame). Still works if the actor is hidden. Useful for drawing things behind an actor.
+
 ```
-__.drawImage(g);
+[ACTOR].drawImage(g);
 ```
+
+#### Example
+
+![example](http://static.stencyl.com/pedia2/blocks/drawing/drawing/actor_example.png)
+
+Draws the following.
+
+![example](http://static.stencyl.com/pedia2/blocks/drawing/drawing/actor_example2.png)
 
 ***
 
@@ -58,10 +68,10 @@ __.drawImage(g);
 
 ![draw-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-rect.png)
 
-aaa
+Draws an outline of a rectangle at the specified position and size, using the current stroke color and thickness.
 
 ```
-g.drawRect(0, 0, 0, 0);
+g.drawRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -70,10 +80,10 @@ g.drawRect(0, 0, 0, 0);
 
 ![draw-round-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-roundrect.png)
 
-aaa
+Draws an outline of a rounded rectangle at the specified position and size, using the current stroke color and thickness.
 
 ```
-g.drawRoundRect(0, 0, 0, 0, 0);
+g.drawRoundRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -84,10 +94,10 @@ g.drawRoundRect(0, 0, 0, 0, 0);
 
 ![draw-circle-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-circle.png)
 
-aaa
+Draws an outline of a circle at the specified position and size, using the current stroke color and thickness.
 
 ```
-g.drawCircle(0, 0, 0);
+g.drawCircle([NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -98,7 +108,7 @@ g.drawCircle(0, 0, 0);
 
 ![draw-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-poly.png)
 
-aaa
+Draws an outline of a polygon at the specified position, using the current stroke color and thickness. Use `add point to polygon` to add points to the polygon.
 
 ```
 g.beginDrawPolygon();
@@ -112,10 +122,10 @@ g.endDrawingPolygon();
 
 ![add-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/add-to-poly.png)
 
-aaa
+Adds the specified point to the polygon.
 
 ```
-g.addPointToPolygon(0, 0);
+g.addPointToPolygon([NUMBER], [NUMBER]);
 ```
 
 ***
