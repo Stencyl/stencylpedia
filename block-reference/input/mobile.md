@@ -2,6 +2,10 @@
 
 ***
 
+> **Note:** These blocks only work on iOS and Android. They have no effect on other platforms (or return 0/-1/useless values).
+
+***
+
 ## Accelerometer
 
 ### Accelerometer Value
