@@ -6,36 +6,36 @@
 
 ### Create Color (from RGB)
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/rgb-to-color.png)
+![rgb-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/rgb-to-color.png)
 
-aaa
+Creates a **Color** value from red, green, blue channels. Numbers must be between [0-255] inclusive.
 
 ```
-Utils.getColorRGB(Std.int(0), Std.int(0), Std.int(0))
+Utils.getColorRGB([NUMBER], [NUMBER], [NUMBER])
 ```
 
 ***
 
 ### Set Color
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-color.png)
+![set-color-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-color.png)
 
-aaa
+Sets the color used in drawing shapes (does not apply to fonts). You can select the color using the color picker, drag in a color attribute or drag in any block that returns a color.
 
 ```
-g.fillColor = Utils.getColorRGB(255,200,0);
+g.fillColor = [COLOR];
 ```
 
 ***
 
 ### Set Font
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-font-new.png)
+![set-font-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-font-new.png)
 
-aaa
+Sets the font used in drawing text. You can pick the font directly or drag in a font attribute block.
 
 ```
-g.setFont(!ERROR!);
+g.setFont([FONT]);
 ```
 
 ***
@@ -44,12 +44,12 @@ g.setFont(!ERROR!);
 
 ### Set Opacity
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-alpha.png)
+![set-opacity-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-alpha.png)
 
-aaa
+Sets the opacity (alpha) used in drawing to the specified percentage. Number must be between [0-100] inclusive.
 
 ```
-g.alpha = (0/100);
+g.alpha = ([NUMBER]/100);
 ```
 
 ***
@@ -58,24 +58,24 @@ g.alpha = (0/100);
 
 ### Set Stroke Color
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-stroke-color.png)
+![set-stroke-color-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-stroke-color.png)
 
-aaa
+Sets the stroke color used when drawing shapes.
 
 ```
-g.strokeColor = Utils.getColorRGB(255,200,0);
+g.strokeColor = [COLOR];
 ```
 
 ***
 
 ### Set Stroke Thickness
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-thickness.png)
+![set-stroke-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-thickness.png)
 
-aaa
+Sets the stroke thickness (width) used when drawing shapes. Set to 0 to disable.
 
 ```
-g.strokeSize = Std.int(0);
+g.strokeSize = [NUMBER];
 ```
 
 ***
@@ -84,24 +84,24 @@ g.strokeSize = Std.int(0);
 
 ### Get Width of Text for Current Font
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width.png)
+![get-font-width-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width.png)
 
-aaa
+Returns the width of the specified text using the current font. Useful for calculating text drawing positions.
 
 ```
-g.font.font.getTextWidth("text")/Engine.SCALE
+g.font.font.getTextWidth([TEXT])
 ```
 
 ***
 
 ### Get Width of Text for Specific Font
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width2-new.png)
+![get-font-width-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width2-new.png)
 
-aaa
+Returns the width of the specified text using the given font. Useful for calculating text drawing positions.
 
 ```
-!ERROR!.font.getTextWidth("text")/Engine.SCALE
+[FONT].font.getTextWidth([TEXT])
 ```
 
 ***
@@ -110,24 +110,24 @@ aaa
 
 ### Get Height for Current Font
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height.png)
+![get-font-height-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height.png)
 
-aaa
+Returns the height of text using the current font. Useful for calculating text drawing positions.
 
 ```
-g.font.getHeight()/Engine.SCALE
+g.font.getHeight()
 ```
 
 ***
 
 ### Get Height for Specific Font
 
-![](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height2-new.png)
+![get-font-height-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height2-new.png)
 
-aaa
+Returns the height of text using the given font. Useful for calculating text drawing positions.
 
 ```
-!ERROR!.getHeight()/Engine.SCALE
+[FONT].getHeight()
 ```
 
 ***
