@@ -8,7 +8,7 @@
 
 ![draw-text-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-text.png)
 
-Draws the specified text to the given location using the current font.
+Draws the specified text to the given location using the current font. Color and stroke settings do not apply to fonts.
 
 ```
 g.drawString([TEXT], [NUMBER], [NUMBER]);
@@ -68,7 +68,7 @@ Draws the following.
 
 ![draw-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-rect.png)
 
-Draws an outline of a rectangle at the specified position and size, using the current stroke color and thickness.
+Draws an outline of (or fills) a rectangle at the specified position and size, using the current stroke color and thickness.
 
 ```
 g.drawRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
@@ -80,7 +80,7 @@ g.drawRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ![draw-round-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-roundrect.png)
 
-Draws an outline of a rounded rectangle at the specified position and size, using the current stroke color and thickness.
+Draws an outline of (or fills) a rounded rectangle at the specified position and size, using the current stroke color and thickness.
 
 ```
 g.drawRoundRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
@@ -94,7 +94,7 @@ g.drawRoundRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ![draw-circle-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-circle.png)
 
-Draws an outline of a circle at the specified position and size, using the current stroke color and thickness.
+Draws an outline of (or fills) a circle at the specified position and size, using the current stroke color and thickness.
 
 ```
 g.drawCircle([NUMBER], [NUMBER], [NUMBER]);
@@ -108,7 +108,7 @@ g.drawCircle([NUMBER], [NUMBER], [NUMBER]);
 
 ![draw-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-poly.png)
 
-Draws an outline of a polygon at the specified position, using the current stroke color and thickness. Use `add point to polygon` to add points to the polygon.
+Draws an outline of (or fills) a polygon at the specified position, using the current stroke color and thickness. Use `add point to polygon` to add points to the polygon.
 
 ```
 g.beginDrawPolygon();
@@ -122,7 +122,7 @@ g.endDrawingPolygon();
 
 ![add-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/add-to-poly.png)
 
-Adds the specified point to the polygon.
+Adds the specified point to the polygon. At least 3 points must be specified. You do not have to "close" the polygon by repeating the starting point.
 
 ```
 g.addPointToPolygon([NUMBER], [NUMBER]);
