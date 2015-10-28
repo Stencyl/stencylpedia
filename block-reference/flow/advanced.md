@@ -54,6 +54,55 @@ getStepSize()
 
 ## Platforms
 
+### Running on [PLATFORM]
+
+![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/RunningPlatform.png)
+
+Returns `true` if the game is running on the selected platform.
+Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
+
+```
+#if(PLATFORM) true #else false #end
+```
+
+### Running on [SPECIFIC IOS DEVICE]
+
+![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/RunningDevice.png)
+
+Returns `true` if the game is running on the selected kind of iOS device. Useful if you want to fine-tune a game's display or behavior on specific devices.
+Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
+
+```
+#if(mobile && !android) Engine.isStandardiOS #else false #end
+#if(mobile && !android) Engine.isExtendedIOS #else false #end
+#if(mobile && !android) Engine.isIPhone6 #else false #end
+#if(mobile && !android) Engine.isIPhone6Plus #else false #end
+#if(mobile && !android) Engine.isTabletIOS #else false #end
+```
+
+### Do only on [PLATFORM]
+
+![do-platform-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/DoPlatform.png)
+
+Include the wrapped blocks only on the specified platform. On other platforms, the wrapped blocks will not exist at all.
+Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
+
+```
+#if(PLATFORM)
+[ACTIONS]
+#end
+```
+
+### Exit Game
+
+![exit-block](http://static.stencyl.com/pedia2/blocks/flow/flow_advanced/Exit.png)
+
+Quits out of a Desktop game. Does nothing on Flash/HTML5. On iOS/Android, it may send the app to the background (and goes against platform guidelines).
+
+```
+exitGame();
+```
+
 ***
 
 ## Memory Management
