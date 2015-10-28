@@ -1,5 +1,7 @@
 # Numbers & Text > Math
 
+***
+
 ## Arithmetic
 
 ### Add / Subtract / Multiply / Divide
@@ -136,10 +138,10 @@ Math.ceil([NUMBER])
 
 ![number-convert-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Conversion.png)
 
-Converts the given object to a number. In practice, this is mainly useful for text and booleans (where true = 1, false = 0).
+Converts the given value (can be any type) to a number. In practice, this is mainly useful for text and booleans (where true = 1, false = 0).
 
 ```
-asNumber([ANYTHING])
+asNumber([VALUE])
 ```
 
 ***
