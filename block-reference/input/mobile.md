@@ -50,6 +50,12 @@ Input.swipedLeft
 Input.swipedRight
 ```
 
+#### Alernate Approach: Events
+
+![swipe-event](http://static.stencyl.com/help/images/mobile-input-5.png)
+
+We recommend using a swipe event instead of a swipe block. It's easier to work with.
+
 ***
 
 ## Joystick
