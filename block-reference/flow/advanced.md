@@ -65,8 +65,19 @@ getStepSize()
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-platform.png)
 
-Returns `true` if the game is running on the selected platform.<br/>
-Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
+Returns `true` if the game is running on the selected platform.
+
+**Choices:**
+* Flash
+* HTML5
+* Desktop
+* iOS
+* Android
+* Web
+* Mobile
+* Windows
+* Mac
+* Linux
 
 ```
 #if(PLATFORM) true #else false #end
@@ -76,8 +87,14 @@ Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-device2.png)
 
-Returns `true` if the game is running on the selected kind of iOS device. Useful if you want to fine-tune a game's display or behavior on specific devices.<br/>
-Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
+Returns `true` if the game is running on the selected kind of iOS device. Useful if you want to fine-tune a game's display or behavior on specific devices.
+
+**Choices:**
+* 3.5" iPhone
+* 4.0" iPhone
+* 4.7" iPhone
+* 5.5" iPhone
+* iPad
 
 ```
 #if(mobile && !android) Engine.isStandardiOS #else false #end
@@ -93,8 +110,19 @@ Choices: [3.5" iPhone, 4.0" iPhone, 4.7" iPhone, 5.5" iPhone, iPad]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/do-on-platform.png)
 
-Include the wrapped blocks only on the specified platform. On other platforms, the wrapped blocks will not exist at all.<br/>
-Choices: [Flash, HTML5, Desktop, iOS, Android, Web, Mobile, Windows, Mac, Linux]
+Include the wrapped blocks only on the specified platform. On other platforms, the wrapped blocks will not exist at all.
+
+**Choices:**
+* Flash
+* HTML5
+* Desktop
+* iOS
+* Android
+* Web
+* Mobile
+* Windows
+* Mac
+* Linux
 
 ```
 #if(PLATFORM)
