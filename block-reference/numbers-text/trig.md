@@ -49,7 +49,22 @@ Returns e, the base of natural logarithms. (2.718...)
 
 ![trig-block](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/Trig.png)
 
-Returns the result of applying a trigonometric function to the given number. Supports sin/cos/tan/asin/acos/atan.
+Returns the result of applying a trigonometric function to the given number. Dropdown for degrees/radians specifies what format the **incoming** number is in. Supports sin/cos/tan/asin/acos/atan.
+
+```
+//Incoming number is Degrees
+Math.sin( * Utils.RAD)
+
+//Incoming number is Radians
+Math.sin([NUMBER])
+
+//Other operations
+Math.cos([NUMBER])
+Math.tan([NUMBER])
+Math.asin([NUMBER])
+Math.acos([NUMBER])
+Math.atan([NUMBER])
+```
 
 ***
 
