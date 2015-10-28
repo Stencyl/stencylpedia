@@ -103,12 +103,23 @@ You can alter a tileset's row and column count by clicking directly on the row a
 
 ![](http://static.stencyl.com/pedia2/ch4/tiles/image00.png)
 
-#### Adding More Tiles
-You may add additional tiles to a tileset after the initial import.
+#### Adding and Replacing Tiles
 
-For best results, we recommend importing using an image that is the **same width as the existing tileset**, so additions don't get "offset" and break the layout. 
+![](http://static.stencyl.com/help/images/add-replace-tiles.png)
 
-> For example, if your tileset is 6 columns wide, ensure that what you are importing is also 6 columns wide.
+The following operations are available for editing the tileset image:
+
+**Add Tiles** (Green Plus)
+
+* Import another set of tiles. New tiles are inserted beneath all existing tiles. The tileset is expanded as needed to fit the new tiles.
+
+**Replace Tiles** (Blue Arrow)
+
+* Import another set of tiles. Only the current tile selection is replaced by new tiles.
+
+**Edit Tileset Image** (Pencil)
+
+* Send the entire tileset image to an external editor. Saving the image in the external editor automatically updates the tileset in Stencyl.
 
 #### Rearranging Tiles
 You can drag and drop tiles to rearrange them. Here's how.
@@ -120,6 +131,8 @@ You can drag and drop tiles to rearrange them. Here's how.
 2) Now, switch to the Move Tiles mode.
 
 ![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd2.png)
+
+> You can use the "s" and "m" keys as hotkeys for the "select" and "move" operations.
 
 3) **Drag and drop** your selection to the desired location. This will **perform a swap** between the tiles you have selected and the tiles in the desired location.
 
@@ -133,15 +146,6 @@ You can select multiple tiles at a time by clicking and dragging a box over thos
 You can edit multiple collision bounds at the same time, a major time saver. As described above, you can also move/rearrange multiple tiles at a time.
 
 ![](http://static.stencyl.com/features/tileset-3.2.png)
-
-#### Modifying the Tile Sheet Directly
-You can...
-
-* Edit the tileset's backing image directly in an external editor.
-* Reimport the image, provided that it's the same size as the existing one.
-* Replace the images for selected tiles.
-
-This allows you to make visual tweaks to the tileset without having to reimport everything or manually edit the image from the game's directory.
 
 #### Tile Metadata
 You can tag tiles with textual data that can be accessed during game. For example, a lava tile could convey that it's deadly to the touch, or a healing tile in an RPG could heal the character passing over it.
