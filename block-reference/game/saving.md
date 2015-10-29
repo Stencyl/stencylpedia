@@ -2,7 +2,7 @@
 
 ***
 
-View our article on [Saving Games](http://www.stencyl.com/help/view/saving-and-loading-games/) for an explanation of these blocks.
+> View our article on [Saving Games](http://www.stencyl.com/help/view/saving-and-loading-games/) for an explanation of these blocks.
 
 ***
 
