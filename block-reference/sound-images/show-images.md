@@ -15,7 +15,7 @@
 aaa
 
 ```
-aaa
+new BitmapWrapper(new Bitmap(image))
 ```
 
 ***
@@ -27,7 +27,7 @@ aaa
 aaa
 
 ```
-aaa
+attachImageToActor(image inst, __, Std.int(0), Std.int(0), 1);
 ```
 
 ***
@@ -39,7 +39,7 @@ aaa
 aaa
 
 ```
-aaa
+attachImageToLayer(image inst, 0, "" + "text", Std.int(0), Std.int(0), 1);
 ```
 
 ***
@@ -51,7 +51,7 @@ aaa
 aaa
 
 ```
-aaa
+attachImageToHUD(image inst, Std.int(0), Std.int(0));
 ```
 
 ***
@@ -63,7 +63,7 @@ aaa
 aaa
 
 ```
-aaa
+removeImage(image inst);
 ```
 
 ***
@@ -77,7 +77,7 @@ aaa
 aaa
 
 ```
-aaa
+setOrderForImage(image inst, Std.int(0));
 ```
 
 ***
@@ -89,7 +89,10 @@ aaa
 aaa
 
 ```
-aaa
+bringImageBack(image inst);
+bringImageBack(image inst);
+bringImageBack(image inst);
+bringImageBack(image inst);
 ```
 
 ***
@@ -101,7 +104,7 @@ aaa
 aaa
 
 ```
-aaa
+getOrderForImage(image inst)
 ```
 
 ***
@@ -115,7 +118,8 @@ aaa
 aaa
 
 ```
-aaa
+setXForImage(image inst, 0);
+setXForImage(image inst, 0);
 ```
 
 ***
@@ -127,7 +131,7 @@ aaa
 aaa
 
 ```
-aaa
+image inst.rotation = 0;
 ```
 
 ***
@@ -139,7 +143,8 @@ aaa
 aaa
 
 ```
-aaa
+image inst.scaleX = (0/100);
+image inst.scaleX = (0/100);
 ```
 
 ***
@@ -151,7 +156,7 @@ aaa
 aaa
 
 ```
-aaa
+setOriginForImage(image inst, 0, 0);
 ```
 
 ***
@@ -163,7 +168,8 @@ aaa
 aaa
 
 ```
-aaa
+image inst.x/Engine.SCALE
+MANY MORE
 ```
 
 ***
@@ -177,7 +183,7 @@ aaa
 aaa
 
 ```
-aaa
+moveImageBy(image inst, 0, 0, 0, Linear.easeNone);
 ```
 
 ***
@@ -189,7 +195,7 @@ aaa
 aaa
 
 ```
-aaa
+spinImageBy(image inst, 0, 0, Linear.easeNone);
 ```
 
 ***
@@ -201,7 +207,7 @@ aaa
 aaa
 
 ```
-aaa
+fadeImageTo(image inst, 0 / 100, 0, Linear.easeNone);
 ```
 
 ***
@@ -213,7 +219,7 @@ aaa
 aaa
 
 ```
-aaa
+growImageTo(image inst, 0/100, 0/100, 0, Linear.easeNone);
 ```
 
 ***
@@ -227,7 +233,7 @@ aaa
 aaa
 
 ```
-aaa
+image inst.blendMode = BlendMode.ADD;
 ```
 
 ***
@@ -239,7 +245,7 @@ aaa
 aaa
 
 ```
-aaa
+setFilterForImage(image inst, effect);
 ```
 
 ***
@@ -251,7 +257,7 @@ aaa
 aaa
 
 ```
-aaa
+clearFiltersForImage(image inst);
 ```
 
 ***
