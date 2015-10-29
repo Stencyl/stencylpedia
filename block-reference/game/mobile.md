@@ -2,13 +2,13 @@
 
 ***
 
-## Game Center
+## Game Center (iOS-only)
 
 ### Start Game Center
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-init.png)
 
-aaa
+Initializes the Game Center service. Use a Game Center event to know if initialization has succeeded.
 
 ```
 gameCenterInitialize();
@@ -18,9 +18,9 @@ gameCenterInitialize();
 
 ### Game Center is Started?
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-enabled.png)
+![started-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-enabled.png)
 
-aaa
+Returns `true` if Game Center is currently active.
 
 ```
 gameCenterIsAuthenticated()
@@ -30,9 +30,9 @@ gameCenterIsAuthenticated()
 
 ### [Name / ID] of Player
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-id-name.png)
+![name-id-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-id-name.png)
 
-aaa
+Returns the [Name / ID] of the current player.
 
 ```
 gameCenterGetPlayerName()
@@ -43,9 +43,9 @@ gameCenterGetPlayerID()
 
 ### Submit Score
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-board-submit.png)
+![submit-score-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-board-submit.png)
 
-aaa
+Submits a score to the given leaderboard (by leaderboard ID).
 
 ```
 gameCenterSubmitScore([NUMBER], [TEXT]);
@@ -55,9 +55,9 @@ gameCenterSubmitScore([NUMBER], [TEXT]);
 
 ### Show Leaderboard
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-board-show.png)
+![show-leaderboard-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-board-show.png)
 
-aaa
+Shows the given leaderboard (by leaderboard ID).
 
 ```
 gameCenterShowLeaderboard([TEXT]);
@@ -67,9 +67,9 @@ gameCenterShowLeaderboard([TEXT]);
 
 ### Report Achievement
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-submit.png)
+![report-achievement-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-submit.png)
 
-aaa
+Reports the completion status for an achievement (given an achievement ID). Number must be between [0 - 100] inclusive.
 
 ```
 gameCenterSubmitAchievement([TEXT], [NUMBER]);
@@ -77,23 +77,24 @@ gameCenterSubmitAchievement([TEXT], [NUMBER]);
 
 ***
 
-### Show Achievement
+### Show All Achievements / Reset Achievements
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-show-reset.png)
+![show-achievement-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-show-reset.png)
 
-aaa
+Shows a page containing all of the game's achievements. This block can also reset (erase) all of a game's achievements.
 
 ```
 gameCenterShowAchievements();
+gameCenterResetAchievements();
 ```
 
 ***
 
 ### Show Achievement Banner
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-banner.png)
+![show-banner-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-banner.png)
 
-aaa
+Shows an achievement banner. Provide the title and text for this banner.
 
 ```
 gameCenterShowBanner([TEXT], [TEXT]);
@@ -101,7 +102,7 @@ gameCenterShowBanner([TEXT], [TEXT]);
 
 ***
 
-## Google Play Games
+## Google Play Games (Android-only)
 
 ### Start Google Play Games
 
@@ -371,10 +372,10 @@ purchasesGetDescription([TEXT])
 
 ![show-alert-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/show-alert.png)
 
-aaa
+Displays a native modal (blocking) dialog to the user. Provide the title and message.
 
 ```
-showAlert([TEXT}, [TEXT]);
+showAlert([TEXT], [TEXT]);
 ```
 
 ***
@@ -383,7 +384,7 @@ showAlert([TEXT}, [TEXT]);
 
 ![set-badge-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/ios-badge-number.png)
 
-aaa
+iOS-only. Sets your app icon's badge number. For example, on an e-mail app, this would report the number of unread messages. For a game, perhaps the number of notifications / events that have happened in your game. 
 
 ```
 setIconBadgeNumber([NUMBER]);
