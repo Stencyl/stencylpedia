@@ -12,10 +12,10 @@
 
 ![set-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/set-map.png)
 
-aaa
+Assigns the specified key to the given value for this map.
 
 ```
-aaa
+map.set([TEXT], [VALUE]);
 ```
 
 ***
@@ -24,10 +24,10 @@ aaa
 
 ![remove-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/remove-map.png)
 
-aaa
+Removes the entry for the specified key from the map.
 
 ```
-aaa
+map.remove([TEXT]);
 ```
 
 ***
@@ -36,10 +36,12 @@ aaa
 
 ![empty-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/empty-map.png)
 
-aaa
+Removes all entries from the map.
 
 ```
-aaa
+for(key in map.keys()) {
+	map.remove(key);
+}
 ```
 
 ***
@@ -50,10 +52,10 @@ aaa
 
 ![get-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/key-value.png)
 
-aaa
+Returns the entry for the given key, or null if it doesn't exist.
 
 ```
-aaa
+map.get("text")
 ```
 
 ***
@@ -62,10 +64,10 @@ aaa
 
 ![key-exists-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/key-exists-map.png)
 
-aaa
+Returns `true` if an entry exists for the given key.
 
 ```
-aaa
+map.exists([TEXT])
 ```
 
 ***
@@ -74,10 +76,10 @@ aaa
 
 ![value-exists-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/value-exists-map.png)
 
-aaa
+Returns `true` if the value exists in the map.
 
 ```
-aaa
+Utils.mapContainsValue(map, [VALUE])
 ```
 
 ***
@@ -86,10 +88,10 @@ aaa
 
 ![size-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/count-map.png)
 
-aaa
+Returns the number of entries in the map.
 
 ```
-aaa
+Utils.mapCount(map)
 ```
 
 ***
@@ -98,10 +100,10 @@ aaa
 
 ![is-empty-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/map-is-empty.png)
 
-aaa
+Returns `true` if the map contains no entries.
 
 ```
-aaa
+Utils.mapCount(map) == 0
 ```
 
 ***
@@ -110,15 +112,13 @@ aaa
 
 ![list-keys-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/map-as-list.png)
 
-aaa
+Returns the `list` of keys for this map. No specific order is guaranteed. (In other words, do not count on it being the same order in which you added the keys.)
 
 ```
-aaa
+Utils.mapToList(map, "keys")
 ```
 
 ***
-
-
 
 ## Create / Copy
 
@@ -126,10 +126,10 @@ aaa
 
 ![create-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/create-map.png)
 
-aaa
+Creates a new, empty map. Usually, you'll assign it to a map attribute right away.
 
 ```
-aaa
+new Map<String, Dynamic>()
 ```
 
 ***
@@ -138,10 +138,10 @@ aaa
 
 ![copy-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/copy-map.png)
 
-aaa
+Returns a shallow copy of the map.
 
 ```
-aaa
+Utils.copyMap(map)
 ```
 
 ***
@@ -152,10 +152,12 @@ aaa
 
 ![for-each-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/for-each-map.png)
 
-aaa
+Lets you perform logic on each item in the map. Use the embedded `item` block to retrieve the current item being examined.
 
 ```
-aaa
+for(item in map.keys()) {
+	[ACTION]
+}
 ```
 
 ***
