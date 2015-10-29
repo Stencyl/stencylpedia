@@ -12,7 +12,7 @@
 
 ![blank-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-create.png)
 
-aaa
+Create a blank image of the specified width and height. Usually assigned to an Image attribute right away.
 
 ```
 new BitmapData([NUMBER] * Engine.SCALE, [NUMBER] * Engine.SCALE, true, 0)
@@ -24,7 +24,7 @@ new BitmapData([NUMBER] * Engine.SCALE, [NUMBER] * Engine.SCALE, true, 0)
 
 ![copy-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-copy.png)
 
-aaa
+Returns a copy of the specified image. This is a true copy, so altering the copy will not affect the original.
 
 ```
 [IMAGE].clone()
@@ -36,7 +36,7 @@ aaa
 
 ![part-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-subimage.png)
 
-aaa
+Returns the specified part of the image as a new image.
 
 ```
 getSubImage([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER])
@@ -48,7 +48,7 @@ getSubImage([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER])
 
 ![resize-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-resize.png)
 
-aaa
+Returns a larger (or smaller) copy of the image. Width and Height are given as percentages - 100% means keep it the same. 200% means double. 50% means half.
 
 ```
 //Smoothing
@@ -66,7 +66,7 @@ resizeImage([IMAGE], ([NUMBER]/100), ([NUMBER]/100), false)
 
 ![screen-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-screen.png)
 
-aaa
+Captures the current screen as an image and returns that. This takes time (it may pause the game for a a tenth of a second), so use it sparingly.
 
 ```
 captureScreenshot()
@@ -78,7 +78,7 @@ captureScreenshot()
 
 ![actor-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-actor.png)
 
-aaa
+Returns the current image for the specified actor. (In other words, the exact visual state of the actor at the time that you use this.)
 
 ```
 getImageForActor([ACTOR])
@@ -92,7 +92,7 @@ getImageForActor([ACTOR])
 
 ![file-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-file.png)
 
-aaa
+Returns an image that is loaded from a file. Images must be placed into the **extras** subfolder of your game.
 
 ```
 getExternalImage([TEXT])
@@ -104,7 +104,7 @@ getExternalImage([TEXT])
 
 ![url-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-url.png)
 
-aaa
+Returns an image that is loaded from a URL. When the image successfully loads, the enclosed blocks will run. Use the embedded `the image` block to refer to the loaded image. If the image does not load, the enclosed blocks will not run.
 
 ```
 loadImageFromURL([TEXT], function(img:BitmapData):Void {
@@ -120,7 +120,7 @@ loadImageFromURL([TEXT], function(img:BitmapData):Void {
 
 ![to-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-to-text.png)
 
-aaa
+Converts an image into text form and returns that. Useful for storing image data on servers (via an HTTP request). This takes time to run (a split second or longer).
 
 ```
 imageToText([IMAGE])
@@ -132,7 +132,7 @@ imageToText([IMAGE])
 
 ![from-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-from-text.png)
 
-aaa
+Returns an image that was converted to text using the prior block. This takes time to run (a split second or longer).
 
 ```
 imageFromText([TEXT])
