@@ -11,7 +11,7 @@
 aaa
 
 ```
-aaa
+drawImageOnImage([IMAGE], [IMAGE], [NUMBER], [NUMBER], [BLEND MODE]);
 ```
 
 ***
@@ -23,7 +23,7 @@ aaa
 aaa
 
 ```
-aaa
+drawTextOnImage([IMAGE], [TEXT], [NUMBER], [NUMBER], [FONT]);
 ```
 
 ***
@@ -35,7 +35,7 @@ aaa
 aaa
 
 ```
-aaa
+fillImage([IMAGE], [COLOR]);
 ```
 
 ***
@@ -47,7 +47,7 @@ aaa
 aaa
 
 ```
-aaa
+Utils.getColorRGB([NUMBER], [NUMBER], [NUMBER])
 ```
 
 ***
@@ -61,7 +61,7 @@ aaa
 aaa
 
 ```
-aaa
+clearImagePartially([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -73,7 +73,7 @@ aaa
 aaa
 
 ```
-aaa
+clearImage([IMAGE]);
 ```
 
 ***
@@ -85,7 +85,7 @@ aaa
 aaa
 
 ```
-aaa
+clearImageUsingMask([IMAGE], [IMAGE], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -99,7 +99,7 @@ aaa
 aaa
 
 ```
-aaa
+filterImage([IMAGE], [EFFECT]);
 ```
 
 ***
@@ -111,7 +111,7 @@ aaa
 aaa
 
 ```
-aaa
+flipImageHorizontal([IMAGE]);
 ```
 
 ***
@@ -123,7 +123,7 @@ aaa
 aaa
 
 ```
-aaa
+imageSwapColor([IMAGE], [COLOR], [COLOR]);
 ```
 
 ***
@@ -137,7 +137,9 @@ aaa
 aaa
 
 ```
-aaa
+[IMAGE].lock();
+[ACTIONS]
+[IMAGE].unlock();
 ```
 
 ***
@@ -149,7 +151,7 @@ aaa
 aaa
 
 ```
-aaa
+imageSetPixel([IMAGE], [NUMBER], [NUMBER], [COLOR]);
 ```
 
 ***
@@ -161,7 +163,7 @@ aaa
 aaa
 
 ```
-aaa
+imageGetPixel([IMAGE], [NUMBER], [NUMBER])
 ```
 
 ***
