@@ -12,7 +12,7 @@
 
 ![add-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/add-list.png)
 
-aaa
+Adds the given value to the end of the list.
 
 ```
 list.push([VALUE]);
@@ -24,7 +24,7 @@ list.push([VALUE]);
 
 ![insert-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/insert-list.png)
 
-aaa
+Inserts the given value at the specified index of the list. This will push everything at that index and after down one position. The index must be between 0 and (size of list - 1) inclusive.
 
 ```
 list.insert([NUMBER], [VALUE]);
@@ -38,7 +38,7 @@ list.insert([NUMBER], [VALUE]);
 
 ![remove-item-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/remove-item.png)
 
-aaa
+Removes the given value from the list, if it exists. If it does not exist, nothing happens.
 
 ```
 list.remove([VALUE]);
@@ -50,7 +50,7 @@ list.remove([VALUE]);
 
 ![remove-index-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/remove-index.png)
 
-aaa
+Removes the value at the specified index from the list. The index must be between 0 and (size of list - 1) inclusive.
 
 ```
 list.splice([NUMBER], 1);
@@ -58,11 +58,11 @@ list.splice([NUMBER], 1);
 
 ***
 
-### Empty List
+### Empty out List
 
 ![empty-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/clear-list.png)
 
-aaa
+Removes all values from the list.
 
 ```
 Utils.clear(list);
@@ -76,7 +76,7 @@ Utils.clear(list);
 
 ![replace-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/replace-list.png)
 
-aaa
+Replaces the item at the specified index with another for the list. The index must be between 0 and (size of list - 1) inclusive.
 
 ```
 list[[NUMBER]] = [VALUE];
@@ -90,7 +90,7 @@ list[[NUMBER]] = [VALUE];
 
 ![get-index-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/get-item.png)
 
-aaa
+Returns the item at the specified index in the list. The index must be between 0 and (size of list - 1) inclusive.
 
 ```
 list[[NUMBER]]
@@ -102,7 +102,7 @@ list[[NUMBER]]
 
 ![contains-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/contains-item.png)
 
-aaa
+Returns `true` if the list contains the specified item.
 
 ```
 Utils.contains(list, [VALUE])
@@ -114,7 +114,7 @@ Utils.contains(list, [VALUE])
 
 ![size-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/length-list.png)
 
-aaa
+Returns the number of items in the list.
 
 ```
 list.length
@@ -126,7 +126,7 @@ list.length
 
 ![is-empty-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/is-empty.png)
 
-aaa
+Returns `true` if the list contains no items.
 
 ```
 (list.length == 0)
@@ -140,7 +140,7 @@ aaa
 
 ![create-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/create-list.png)
 
-aaa
+Creates and returns an empty list. Usually, you'll want to set this immediately to a list attribute.
 
 ```
 new Array<Dynamic>()
@@ -152,7 +152,7 @@ new Array<Dynamic>()
 
 ![copy-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/copy-list.png)
 
-aaa
+Returns a shallow copy of the specified list.
 
 ```
 list.copy()
@@ -162,15 +162,15 @@ list.copy()
 
 ## Looping
 
-### Add Item to List
+### For Each Item in List
 
 ![loop-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/for-each.png)
 
-aaa
+Lets you perform logic on each item in the list. Use the embedded `item` block to retrieve the current item being examined.
 
 ```
 for(item in cast(list, Array<Dynamic>)) {
-	
+  [ACTIONS]
 }
 ```
 
