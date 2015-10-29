@@ -15,7 +15,7 @@
 aaa
 
 ```
-aaa
+playSound([SOUND]);
 ```
 
 ***
@@ -27,7 +27,7 @@ aaa
 aaa
 
 ```
-aaa
+stopAllSounds();
 ```
 
 ***
@@ -41,7 +41,7 @@ aaa
 aaa
 
 ```
-aaa
+setVolumeForAllSounds([NUMBER]/100);
 ```
 
 ***
@@ -53,7 +53,8 @@ aaa
 aaa
 
 ```
-aaa
+fadeInForAllSounds([NUMBER]);
+fadeOutForAllSounds([NUMBER]);
 ```
 
 ***
@@ -67,7 +68,7 @@ aaa
 aaa
 
 ```
-aaa
+playSoundOnChannel([SOUND], [NUMBER]);
 ```
 
 ***
@@ -79,7 +80,7 @@ aaa
 aaa
 
 ```
-aaa
+stopSoundOnChannel([NUMBER]);
 ```
 
 ***
@@ -91,7 +92,7 @@ aaa
 aaa
 
 ```
-aaa
+setVolumeForChannel([NUMBER]/100, [NUMBER]);
 ```
 
 ***
@@ -103,7 +104,7 @@ aaa
 aaa
 
 ```
-aaa
+fadeInSoundOnChannel([NUMBER], [NUMBER]);
 ```
 
 ***
@@ -115,7 +116,7 @@ aaa
 aaa
 
 ```
-aaa
+getPositionForChannel([NUMBER])
 ```
 
 ***
@@ -127,7 +128,7 @@ aaa
 aaa
 
 ```
-aaa
+getSoundLengthForChannel([NUMBER])
 ```
 
 ***
@@ -139,7 +140,7 @@ aaa
 aaa
 
 ```
-aaa
+getSoundLength([SOUND])
 ```
 
 ***
@@ -151,7 +152,7 @@ aaa
 aaa
 
 ```
-aaa
+getSoundByName([TEXT])
 ```
 
 ***
