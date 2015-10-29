@@ -2,13 +2,17 @@
 
 ***
 
+> Read our [Image API](http://www.stencyl.com/help/view/image-api) guide for an explanation of these blocks.
+
+***
+
 ## Draw on Image
 
 ### Draw Image onto Image
 
 ![draw-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-draw.png)
 
-aaa
+Draws an image
 
 ```
 drawImageOnImage([IMAGE], [IMAGE], [NUMBER], [NUMBER], [BLEND MODE]);
