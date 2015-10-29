@@ -11,7 +11,7 @@
 aaa
 
 ```
-aaa
+gameCenterInitialize();
 ```
 
 ***
@@ -23,7 +23,7 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterIsAuthenticated()
 ```
 
 ***
@@ -35,7 +35,8 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterGetPlayerName()
+gameCenterGetPlayerID()
 ```
 
 ***
@@ -47,7 +48,7 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterSubmitScore([NUMBER], [TEXT]);
 ```
 
 ***
@@ -59,7 +60,7 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterShowLeaderboard([TEXT]);
 ```
 
 ***
@@ -71,7 +72,7 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterSubmitAchievement([TEXT], [NUMBER]);
 ```
 
 ***
@@ -83,7 +84,7 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterShowAchievements();
 ```
 
 ***
@@ -95,7 +96,7 @@ aaa
 aaa
 
 ```
-aaa
+gameCenterShowBanner([TEXT], [TEXT]);
 ```
 
 ***
@@ -109,7 +110,7 @@ aaa
 aaa
 
 ```
-aaa
+initGooglePlayGames();
 ```
 
 ***
@@ -121,7 +122,10 @@ aaa
 aaa
 
 ```
-aaa
+getGPGConnectionInfo(0) //established
+getGPGConnectionInfo(1) //pending
+getGPGConnectionInfo(2) //failed
+getGPGConnectionInfo(3) //canceled
 ```
 
 ***
@@ -133,7 +137,7 @@ aaa
 aaa
 
 ```
-aaa
+showGPGAchievements();
 ```
 
 ***
@@ -145,7 +149,7 @@ aaa
 aaa
 
 ```
-aaa
+showGPGLeaderboard([TEXT]);
 ```
 
 ***
@@ -157,7 +161,7 @@ aaa
 aaa
 
 ```
-aaa
+unlockGPGAchievement([TEXT]);
 ```
 
 ***
@@ -169,7 +173,7 @@ aaa
 aaa
 
 ```
-aaa
+incrementGPGAchievement([TEXT], [NUMBER]);
 ```
 
 ***
@@ -181,7 +185,7 @@ aaa
 aaa
 
 ```
-aaa
+submitGPGScore([TEXT], [NUMBER]);
 ```
 
 ***
@@ -193,7 +197,7 @@ aaa
 aaa
 
 ```
-aaa
+updateGPGEvent([TEXT], [NUMBER]);
 ```
 
 ***
@@ -205,7 +209,7 @@ aaa
 aaa
 
 ```
-aaa
+hasNewGPGQuestCompleted()
 ```
 
 ***
@@ -217,7 +221,7 @@ aaa
 aaa
 
 ```
-aaa
+getCompletedGPGQuests()
 ```
 
 ***
@@ -229,7 +233,7 @@ aaa
 aaa
 
 ```
-aaa
+getGPGQuestReward("text")
 ```
 
 ***
@@ -243,7 +247,8 @@ aaa
 aaa
 
 ```
-aaa
+showMobileAd();
+hideMobileAd();
 ```
 
 ***
@@ -255,7 +260,7 @@ aaa
 aaa
 
 ```
-aaa
+(Engine.landscape ? 32 : 50)
 ```
 
 ***
@@ -269,7 +274,7 @@ aaa
 aaa
 
 ```
-aaa
+purchasesRequestProductInfo([[TEXT]]);
 ```
 
 ***
