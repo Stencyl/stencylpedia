@@ -15,7 +15,7 @@
 aaa
 
 ```
-aaa
+new BitmapData([NUMBER] * Engine.SCALE, [NUMBER] * Engine.SCALE, true, 0)
 ```
 
 ***
@@ -27,7 +27,7 @@ aaa
 aaa
 
 ```
-aaa
+[IMAGE].clone()
 ```
 
 ***
@@ -39,7 +39,7 @@ aaa
 aaa
 
 ```
-aaa
+getSubImage([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER])
 ```
 
 ***
@@ -51,7 +51,11 @@ aaa
 aaa
 
 ```
-aaa
+//Smoothing
+resizeImage([IMAGE], ([NUMBER]/100), ([NUMBER]/100), true)
+
+//No Smoothing
+resizeImage([IMAGE], ([NUMBER]/100), ([NUMBER]/100), false)
 ```
 
 ***
@@ -65,7 +69,7 @@ aaa
 aaa
 
 ```
-aaa
+captureScreenshot()
 ```
 
 ***
@@ -77,7 +81,7 @@ aaa
 aaa
 
 ```
-aaa
+getImageForActor([ACTOR])
 ```
 
 ***
@@ -91,7 +95,7 @@ aaa
 aaa
 
 ```
-aaa
+getExternalImage([TEXT])
 ```
 
 ***
@@ -103,7 +107,9 @@ aaa
 aaa
 
 ```
-aaa
+loadImageFromURL([TEXT], function(img:BitmapData):Void {
+  [ACTIONS]
+});
 ```
 
 ***
@@ -117,7 +123,7 @@ aaa
 aaa
 
 ```
-aaa
+imageToText([IMAGE])
 ```
 
 ***
@@ -129,7 +135,7 @@ aaa
 aaa
 
 ```
-aaa
+imageFromText([TEXT])
 ```
 
 ***
