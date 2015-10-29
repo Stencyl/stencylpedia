@@ -108,14 +108,15 @@ Utils.mapCount(map) == 0
 
 ***
 
-### Keys of Map (as list)
+### [Keys / Values] of Map (as list)
 
 ![list-keys-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/map-as-list.png)
 
-Returns the `list` of keys for this map. No specific order is guaranteed. (In other words, do not count on it being the same order in which you added the keys.)
+Returns the `list` of [keys or values] for this map. No specific order is guaranteed. (In other words, do not count on it being the same order in which you added the entries.)
 
 ```
 Utils.mapToList(map, "keys")
+Utils.mapToList(map, "values")
 ```
 
 ***
