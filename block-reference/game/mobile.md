@@ -106,9 +106,9 @@ gameCenterShowBanner([TEXT], [TEXT]);
 
 ### Start Google Play Games
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-initialize.png)
+![start-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-initialize.png)
 
-aaa
+Starts the Google Play Games service.
 
 ```
 initGooglePlayGames();
@@ -118,9 +118,9 @@ initGooglePlayGames();
 
 ### Connection is Estalished?
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-connection.png)
+![check-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-connection.png)
 
-aaa
+Returns `true` if Google Play Games is ready to use. Other status checks are available for pending (attempting to connect), failed (to connect) and canceled (by user).
 
 ```
 getGPGConnectionInfo(0) //established
@@ -131,23 +131,25 @@ getGPGConnectionInfo(3) //canceled
 
 ***
 
-### Show Achievements
+### Show Achievements / Leaderboards / Quests
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-show.png)
+![achievements-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-show.png)
 
-aaa
+Shows a page containing every [achivement / leaderboard / quest] for your game.
 
 ```
 showGPGAchievements();
+showGPGLeaderboards();
+showGPGQuests();
 ```
 
 ***
 
 ### Show Leaderboard
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-show-leaderboard.png)
+![leaderboard-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-show-leaderboard.png)
 
-aaa
+Shows the specified leaderboard (given a Leaderboard ID).
 
 ```
 showGPGLeaderboard([TEXT]);
@@ -157,9 +159,9 @@ showGPGLeaderboard([TEXT]);
 
 ### Unlock Achievement
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-unlock-achievments.png)
+![unlock-achievement-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-unlock-achievments.png)
 
-aaa
+Unlocks the specified achievement (given an Achievement ID).
 
 ```
 unlockGPGAchievement([TEXT]);
@@ -169,9 +171,9 @@ unlockGPGAchievement([TEXT]);
 
 ### Make Progress Towards Incremental Achievement
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-increment-achievments.png)
+![increment-achievement-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-increment-achievments.png)
 
-aaa
+Updates the player's progress towards an incremental achievement (given an achievement ID). This will add to the existing amount.
 
 ```
 incrementGPGAchievement([TEXT], [NUMBER]);
@@ -181,9 +183,9 @@ incrementGPGAchievement([TEXT], [NUMBER]);
 
 ### Submit Score to Leaderboard
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-submit-score.png)
+![score-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-submit-score.png)
 
-aaa
+Submits a score to the specified leaderboard (given a Leaderboard ID).
 
 ```
 submitGPGScore([TEXT], [NUMBER]);
@@ -193,9 +195,9 @@ submitGPGScore([TEXT], [NUMBER]);
 
 ### Update Event
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-update-event.png)
+![event-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-update-event.png)
 
-aaa
+Submits event data (given an Event ID) to Google. Event data is reportedi n batches, so there may be a slight delay in delivery.
 
 ```
 updateGPGEvent([TEXT], [NUMBER]);
@@ -205,9 +207,9 @@ updateGPGEvent([TEXT], [NUMBER]);
 
 ### Has Quest Completed?
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-check-requests.png)
+![quest-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-check-requests.png)
 
-aaa
+Returns `true` if a quest has been recently completed. Once this is called, this resets, so calling it again immediately will return `false`.
 
 ```
 hasNewGPGQuestCompleted()
@@ -217,9 +219,9 @@ hasNewGPGQuestCompleted()
 
 ### Get Completed Quest List
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-completed-quests.png)
+![start-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-completed-quests.png)
 
-aaa
+Returns a `list` of completed quests.
 
 ```
 getCompletedGPGQuests()
@@ -229,12 +231,12 @@ getCompletedGPGQuests()
 
 ### Get Reward for Quest
 
-![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-get-reward.png)
+![reward-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-get-reward.png)
 
-aaa
+Each quest that you define contains a reward value that you can use to offer items or other benefits to players in-game. This block (given a Quest ID) returns that value as text.
 
 ```
-getGPGQuestReward("text")
+getGPGQuestReward([TEXT])
 ```
 
 ***
@@ -245,7 +247,7 @@ getGPGQuestReward("text")
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iad-show-hide.png)
 
-aaa
+Shows (or hides) a banner ad for your game. Placed at the top or bottom of the screen (this is set in Settings > Mobile > Monetization). Uses iAd on iOS, AdMob on Android.
 
 ```
 showMobileAd();
@@ -258,7 +260,7 @@ hideMobileAd();
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iad-height.png)
 
-aaa
+Returns the height of the banner ad, so you can reposition your game elements accordingly.
 
 ```
 (Engine.landscape ? 32 : 50)
@@ -272,7 +274,7 @@ aaa
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-request-info.png)
 
-aaa
+In order to retrieve title/price/description information for a product, you must request that info from Google/Apple. This block sends in that request (given the Product ID). You can check for success using a Purchase event.
 
 ```
 purchasesRequestProductInfo([[TEXT]]);
@@ -284,7 +286,7 @@ purchasesRequestProductInfo([[TEXT]]);
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-loaded.png)
 
-aaa
+Returns `true` if the purchasing API is ready to use.
 
 ```
 purchasesAreInitialized()
@@ -296,7 +298,7 @@ purchasesAreInitialized()
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-buy-use.png)
 
-aaa
+Buy (or use) a product (given a Product ID). This makes a request to do these actions - you must check for success or failure using a Purchase Event.
 
 ```
 purchasesBuy([TEXT]);
@@ -308,7 +310,7 @@ purchasesBuy([TEXT]);
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-free-unmanaged.png)
 
-aaa
+Unmanaged products on Android are now treated as managed consumable purchases. This block "frees" up those purchases, so they can be repurchased by players, without having to set up new entries for them.
 
 ```
 purchasesGoogleConsume([TEXT]);
@@ -320,7 +322,7 @@ purchasesGoogleConsume([TEXT]);
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-purchased.png)
 
-aaa
+Returns `true` if the specified product (given a Product ID) has been bought by the player. For a consumable, returns `true` if the player currently owns 1 or more of that product.
 
 ```
 purchasesHasBought([TEXT])
@@ -332,7 +334,7 @@ purchasesHasBought([TEXT])
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-get-quantity.png)
 
-aaa
+For a consumable product, will return the amount of the specified product (given a Product ID) that the player owns.
 
 ```
 purchasesGetQuantity([TEXT])
@@ -344,7 +346,7 @@ purchasesGetQuantity([TEXT])
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-restore.png)
 
-aaa
+Manually tell the Apple/Google to restore a player's purchases. This will emit Purchase Restored events that you will need to handle.
 
 ```
 purchasesRestore();
@@ -356,7 +358,7 @@ purchasesRestore();
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-title-desc-price.png)
 
-aaa
+Returns the [title/price/description] of the specified product (given a Product ID). Must use the `request info for product` block before this information is available.
 
 ```
 purchasesGetTitle([TEXT])
