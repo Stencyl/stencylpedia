@@ -76,7 +76,7 @@ removeImage([IMAGE INSTANCE]);
 
 ![set-z-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-set-z.png)
 
-aaa
+Sets the drawing order (within the layer/actor) for the image instance.
 
 ```
 setOrderForImage([IMAGE INSTANCE], [NUMBER]);
@@ -88,13 +88,13 @@ setOrderForImage([IMAGE INSTANCE], [NUMBER]);
 
 ![switch-layer-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-set-z-friendly.png)
 
-aaa
+Sets the drawing order (within the layer/actor) for the image instance in a user-friendly way.
 
 ```
 bringImageBack([IMAGE INSTANCE]);
-bringImageBack(image inst);
-bringImageBack(image inst);
-bringImageBack(image inst);
+bringImageForward([IMAGE INSTANCE]);
+bringImageToFront([IMAGE INSTANCE]);
+bringImageToBack([IMAGE INSTANCE]);
 ```
 
 ***
@@ -103,7 +103,7 @@ bringImageBack(image inst);
 
 ![get-z-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-get-z.png)
 
-aaa
+Returns the drawing order (within the layer/actor) for the image instance.
 
 ```
 getOrderForImage([IMAGE INSTANCE])
@@ -117,7 +117,7 @@ getOrderForImage([IMAGE INSTANCE])
 
 ![position-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-set-props0.png)
 
-aaa
+Sets the position of the image instance (relative to the actor/layer it is attached to).
 
 ```
 setXForImage([IMAGE INSTANCE], [NUMBER]);
@@ -130,7 +130,7 @@ setYForImage([IMAGE INSTANCE], [NUMBER]);
 
 ![direction-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-set-props1.png)
 
-aaa
+Sets the direction (angle, in degrees) of the image instance (relative to the actor/layer it is attached to).
 
 ```
 [IMAGE INSTANCE].rotation = [NUMBER];
@@ -142,11 +142,11 @@ aaa
 
 ![resize-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-set-props2.png)
 
-aaa
+Sets the width and height (in percentage) of the image instance. 100% keeps that dimension the same. 200% will double it. 50% will halve it.
 
 ```
 [IMAGE INSTANCE].scaleX = ([NUMBER]/100);
-[IMAGE INSTANCE].scaleX = ([NUMBER]/100);
+[IMAGE INSTANCE].scaleY = ([NUMBER]/100);
 ```
 
 ***
@@ -155,7 +155,7 @@ aaa
 
 ![origin-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-origin.png)
 
-aaa
+Sets the origin (pivot) point for the image instance. This affects how it's scaled and rotated.
 
 ```
 setOriginForImage([IMAGE INSTANCE], [NUMBER], [NUMBER]);
@@ -167,11 +167,17 @@ setOriginForImage([IMAGE INSTANCE], [NUMBER], [NUMBER]);
 
 ![props-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-get-props.png)
 
-aaa
+Returns various properties for the image instance.
 
 ```
-[IMAGE INSTANCE].x/Engine.SCALE
-MANY MORE
+[IMAGE INSTANCE].x
+[IMAGE INSTANCE].y
+[IMAGE INSTANCE].rotation
+[IMAGE INSTANCE].width
+[IMAGE INSTANCE].height
+[IMAGE INSTANCE].width/100
+[IMAGE INSTANCE].height/100
+[IMAGE INSTANCE].alpha
 ```
 
 ***
@@ -182,7 +188,7 @@ MANY MORE
 
 ![slide-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-slide.png)
 
-aaa
+Slides (moves) the image instance over the specified time.
 
 ```
 moveImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [NUMBER], [EASING]);
@@ -194,7 +200,7 @@ moveImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [NUMBER], [EASING]);
 
 ![spin-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-spin.png)
 
-aaa
+Spins (rotates) the image instance over the specified time.
 
 ```
 spinImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [EASING]);
@@ -206,7 +212,7 @@ spinImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [EASING]);
 
 ![fade-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-fade.png)
 
-aaa
+[Fades In / Fades Out] the image instance over the specified time.
 
 ```
 fadeImageTo([IMAGE INSTANCE], [NUMBER] / 100, [NUMBER], [EASING]);
@@ -218,7 +224,7 @@ fadeImageTo([IMAGE INSTANCE], [NUMBER] / 100, [NUMBER], [EASING]);
 
 ![grow-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-scale.png)
 
-aaa
+Resizes the image instance in percentage terms over the specified time. 100% keeps that dimension the same. 200% will double it. 50% will halve it.
 
 ```
 growImageTo([IMAGE INSTANCE], [NUMBER]/100, [NUMBER]/100, 0, [EASING]);
@@ -232,7 +238,7 @@ growImageTo([IMAGE INSTANCE], [NUMBER]/100, [NUMBER]/100, 0, [EASING]);
 
 ![blend-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-blend.png)
 
-aaa
+Changes the blending mode for the image instance.
 
 ```
 [IMAGE INSTANCE].blendMode = [BLEND MODE];
@@ -244,7 +250,7 @@ aaa
 
 ![effect-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-apply-filter.png)
 
-aaa
+Applies the specified effect to the image instance. The effect persists until removed, so you do not need to call this each frame.
 
 ```
 setFilterForImage([IMAGE INSTANCE], [EFFECT]);
@@ -256,7 +262,7 @@ setFilterForImage([IMAGE INSTANCE], [EFFECT]);
 
 ![remove-effects-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-clear-filter.png)
 
-aaa
+Removes all effects from the image instance.
 
 ```
 clearFiltersForImage([IMAGE INSTANCE]);
