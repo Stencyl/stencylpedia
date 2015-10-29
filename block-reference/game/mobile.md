@@ -207,7 +207,7 @@ updateGPGEvent([TEXT], [NUMBER]);
 
 ### Has Quest Completed?
 
-![quest-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-check-requests.png)
+![quest-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-check-quests.png)
 
 Returns `true` if a quest has been recently completed. Once this is called, this resets, so calling it again immediately will return `false`.
 
