@@ -15,7 +15,7 @@
 aaa
 
 ```
-aaa
+list.push([VALUE]);
 ```
 
 ***
@@ -27,7 +27,7 @@ aaa
 aaa
 
 ```
-aaa
+list.insert([NUMBER], [VALUE]);
 ```
 
 ***
@@ -41,7 +41,7 @@ aaa
 aaa
 
 ```
-aaa
+list.remove([VALUE]);
 ```
 
 ***
@@ -53,7 +53,7 @@ aaa
 aaa
 
 ```
-aaa
+list.splice([NUMBER], 1);
 ```
 
 ***
@@ -65,7 +65,7 @@ aaa
 aaa
 
 ```
-aaa
+Utils.clear(list);
 ```
 
 ***
@@ -79,7 +79,7 @@ aaa
 aaa
 
 ```
-aaa
+list[[NUMBER]] = [VALUE];
 ```
 
 ***
@@ -93,7 +93,7 @@ aaa
 aaa
 
 ```
-aaa
+list[[NUMBER]]
 ```
 
 ***
@@ -105,7 +105,7 @@ aaa
 aaa
 
 ```
-aaa
+Utils.contains(list, [VALUE])
 ```
 
 ***
@@ -117,7 +117,7 @@ aaa
 aaa
 
 ```
-aaa
+list.length
 ```
 
 ***
@@ -129,7 +129,7 @@ aaa
 aaa
 
 ```
-aaa
+(list.length == 0)
 ```
 
 ***
@@ -143,7 +143,7 @@ aaa
 aaa
 
 ```
-aaa
+new Array<Dynamic>()
 ```
 
 ***
@@ -155,7 +155,7 @@ aaa
 aaa
 
 ```
-aaa
+list.copy()
 ```
 
 ***
@@ -169,7 +169,9 @@ aaa
 aaa
 
 ```
-aaa
+for(item in cast(list, Array<Dynamic>)) {
+	
+}
 ```
 
 ***
