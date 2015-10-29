@@ -12,10 +12,10 @@
 
 ![create-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-inst-create.png)
 
-aaa
+Creates an Image Instance from the given image. Usually assigned to an attribute right away.
 
 ```
-new BitmapWrapper(new Bitmap(image))
+new BitmapWrapper(new Bitmap([IMAGE]))
 ```
 
 ***
@@ -24,10 +24,11 @@ new BitmapWrapper(new Bitmap(image))
 
 ![attach-actor-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-inst-actor.png)
 
-aaa
+Attaches the image instance to the specified actor at the given position.
 
 ```
-attachImageToActor(image inst, __, Std.int(0), Std.int(0), 1);
+attachImageToActor([IMAGE INSTANCE], [ACTOR], [NUMBER], [NUMBER], 1); // front
+attachImageToActor([IMAGE INSTANCE], [ACTOR], [NUMBER], [NUMBER], 2); // behind
 ```
 
 ***
@@ -36,10 +37,11 @@ attachImageToActor(image inst, __, Std.int(0), Std.int(0), 1);
 
 ![attach-layer-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-inst-layer2.png)
 
-aaa
+Attaches the image instance to the specified layer (via ID or name) at the given position.
 
 ```
-attachImageToLayer(image inst, 0, "" + "text", Std.int(0), Std.int(0), 1);
+attachImageToLayer([IMAGE INSTANCE], 0, [LAYER], [NUMBER], [NUMBER], 1); //front
+attachImageToLayer([IMAGE INSTANCE], 0, [LAYER], [NUMBER], [NUMBER], 2); //behind
 ```
 
 ***
@@ -48,10 +50,10 @@ attachImageToLayer(image inst, 0, "" + "text", Std.int(0), Std.int(0), 1);
 
 ![attach-screen-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-inst-hud.png)
 
-aaa
+Attaches the image instance to the HUD layer at the given position. This will make it draw in front of everything and ignore the camera.
 
 ```
-attachImageToHUD(image inst, Std.int(0), Std.int(0));
+attachImageToHUD([IMAGE INSTANCE], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -60,10 +62,10 @@ attachImageToHUD(image inst, Std.int(0), Std.int(0));
 
 ![remove-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-inst-remove.png)
 
-aaa
+Takes the image instance out of the game (by removing it from the object it is attached to).
 
 ```
-removeImage(image inst);
+removeImage([IMAGE INSTANCE]);
 ```
 
 ***
@@ -77,7 +79,7 @@ removeImage(image inst);
 aaa
 
 ```
-setOrderForImage(image inst, Std.int(0));
+setOrderForImage([IMAGE INSTANCE], [NUMBER]);
 ```
 
 ***
@@ -89,7 +91,7 @@ setOrderForImage(image inst, Std.int(0));
 aaa
 
 ```
-bringImageBack(image inst);
+bringImageBack([IMAGE INSTANCE]);
 bringImageBack(image inst);
 bringImageBack(image inst);
 bringImageBack(image inst);
@@ -104,7 +106,7 @@ bringImageBack(image inst);
 aaa
 
 ```
-getOrderForImage(image inst)
+getOrderForImage([IMAGE INSTANCE])
 ```
 
 ***
@@ -118,8 +120,8 @@ getOrderForImage(image inst)
 aaa
 
 ```
-setXForImage(image inst, 0);
-setXForImage(image inst, 0);
+setXForImage([IMAGE INSTANCE], [NUMBER]);
+setYForImage([IMAGE INSTANCE], [NUMBER]);
 ```
 
 ***
@@ -131,7 +133,7 @@ setXForImage(image inst, 0);
 aaa
 
 ```
-image inst.rotation = 0;
+[IMAGE INSTANCE].rotation = [NUMBER];
 ```
 
 ***
@@ -143,8 +145,8 @@ image inst.rotation = 0;
 aaa
 
 ```
-image inst.scaleX = (0/100);
-image inst.scaleX = (0/100);
+[IMAGE INSTANCE].scaleX = ([NUMBER]/100);
+[IMAGE INSTANCE].scaleX = ([NUMBER]/100);
 ```
 
 ***
@@ -156,7 +158,7 @@ image inst.scaleX = (0/100);
 aaa
 
 ```
-setOriginForImage(image inst, 0, 0);
+setOriginForImage([IMAGE INSTANCE], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -168,7 +170,7 @@ setOriginForImage(image inst, 0, 0);
 aaa
 
 ```
-image inst.x/Engine.SCALE
+[IMAGE INSTANCE].x/Engine.SCALE
 MANY MORE
 ```
 
@@ -183,7 +185,7 @@ MANY MORE
 aaa
 
 ```
-moveImageBy(image inst, 0, 0, 0, Linear.easeNone);
+moveImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [NUMBER], [EASING]);
 ```
 
 ***
@@ -195,7 +197,7 @@ moveImageBy(image inst, 0, 0, 0, Linear.easeNone);
 aaa
 
 ```
-spinImageBy(image inst, 0, 0, Linear.easeNone);
+spinImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [EASING]);
 ```
 
 ***
@@ -207,7 +209,7 @@ spinImageBy(image inst, 0, 0, Linear.easeNone);
 aaa
 
 ```
-fadeImageTo(image inst, 0 / 100, 0, Linear.easeNone);
+fadeImageTo([IMAGE INSTANCE], [NUMBER] / 100, [NUMBER], [EASING]);
 ```
 
 ***
@@ -219,7 +221,7 @@ fadeImageTo(image inst, 0 / 100, 0, Linear.easeNone);
 aaa
 
 ```
-growImageTo(image inst, 0/100, 0/100, 0, Linear.easeNone);
+growImageTo([IMAGE INSTANCE], [NUMBER]/100, [NUMBER]/100, 0, [EASING]);
 ```
 
 ***
@@ -233,7 +235,7 @@ growImageTo(image inst, 0/100, 0/100, 0, Linear.easeNone);
 aaa
 
 ```
-image inst.blendMode = BlendMode.ADD;
+[IMAGE INSTANCE].blendMode = [BLEND MODE];
 ```
 
 ***
@@ -245,7 +247,7 @@ image inst.blendMode = BlendMode.ADD;
 aaa
 
 ```
-setFilterForImage(image inst, effect);
+setFilterForImage([IMAGE INSTANCE], [EFFECT]);
 ```
 
 ***
@@ -257,7 +259,7 @@ setFilterForImage(image inst, effect);
 aaa
 
 ```
-clearFiltersForImage(image inst);
+clearFiltersForImage([IMAGE INSTANCE]);
 ```
 
 ***
