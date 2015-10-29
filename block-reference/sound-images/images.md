@@ -2,6 +2,10 @@
 
 ***
 
+> Read our [Image API](http://www.stencyl.com/help/view/image-api) guide for an explanation of these blocks.
+
+***
+
 ## Create Images
 
 ### Create Blank Image
