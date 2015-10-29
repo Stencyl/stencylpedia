@@ -2,7 +2,7 @@
 
 ***
 
-For a walkthrough of how to integrate Kongregate and Newgrounds into your game, read [our article](http://www.stencyl.com/help/view/kongregate-mochi-newgrounds/) on Stencylpedia.
+> For a walkthrough of how to integrate Kongregate and Newgrounds into your game, read [our article](http://www.stencyl.com/help/view/kongregate-mochi-newgrounds/) on Stencylpedia.
 
 ***
 
