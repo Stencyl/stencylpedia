@@ -227,7 +227,7 @@ fadeImageTo([IMAGE INSTANCE], [NUMBER] / 100, [NUMBER], [EASING]);
 Resizes the image instance in percentage terms over the specified time. 100% keeps that dimension the same. 200% will double it. 50% will halve it.
 
 ```
-growImageTo([IMAGE INSTANCE], [NUMBER]/100, [NUMBER]/100, 0, [EASING]);
+growImageTo([IMAGE INSTANCE], [NUMBER]/100, [NUMBER]/100, [NUMBER], [EASING]);
 ```
 
 ***
