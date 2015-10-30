@@ -8,10 +8,11 @@
 
 ![screen-xy](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/screen-xy.png)
 
-The camera's horizontal (X) or vertical (Y) position.
+Returns the camera's horizontal (X) or vertical (Y) position.
 
 ```
 getScreenX()
+getScreenY()
 ```
 
 ***
@@ -20,10 +21,11 @@ getScreenX()
 
 ![screen-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/screen-wh.png)
 
-The game's screen width/height.
+Returns the game's screen width/height.
 
 ```
 getScreenWidth()
+getScreenHeight()
 ```
 
 ***
@@ -34,10 +36,10 @@ getScreenWidth()
 
 ![camera-move](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/camera-move.png)
 
-Moves the camera center to the given point.
+Moves the camera to the given point.
 
 ```
-engine.moveCamera(0, 0);
+engine.moveCamera([NUMBER], [NUMBER]);
 ```
 
 ***
@@ -46,10 +48,10 @@ engine.moveCamera(0, 0);
 
 ![camera-follow](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/camera-follow.png)
 
-Forces the camera center to follow the given actor using its anchor point.
+Moves the camera to the given actor's location.
 
 ```
-engine.cameraFollow(__);
+engine.cameraFollow([ACTOR]);
 ```
 
 ***
@@ -60,10 +62,10 @@ engine.cameraFollow(__);
 
 ![shake-start](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/shake-start.png)
 
-Shake the screen. Good for conveying explosions or earthquakes. 1 is a good intensity.
+Shakes the screen for the specified time. Good for conveying explosions or earthquakes. Intensity specifies how "violent" the shaking is.
 
 ```
-startShakingScreen(0 / 100, 0);
+startShakingScreen([NUMBER] / 100, [NUMBER]);
 ```
 
 ***
@@ -72,7 +74,7 @@ startShakingScreen(0 / 100, 0);
 
 ![shake-stop](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/shake-stop.png)
 
-Immediately stop shaking the screen
+Immediately stop shaking the screen.
 
 ```
 stopShakingScreen();
@@ -84,7 +86,7 @@ stopShakingScreen();
 
 ![toggle-fullscreen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/toggle-fullscreen.png)
 
-Enables/Disables full-screen. Works for Flash & Desktop targets.
+Enables/Disables full-screen mode for Flash & Desktop targets.
 
 ```
 toggleFullScreen();
@@ -98,10 +100,10 @@ toggleFullScreen();
 
 ![set-color-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-color-bg.png)
 
-Changes the background color to a solid color.
+Changes the background color to a solid color. (if you don't have an image background covering it up)
 
 ```
-setColorBackground(Utils.getColorRGB(255,200,0));
+setColorBackground([COLOR]);
 ```
 
 ***
@@ -110,10 +112,10 @@ setColorBackground(Utils.getColorRGB(255,200,0));
 
 ![set-grad-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-grad-bg.png)
 
-Changes the background color to a vertical gradient.
+Changes the background color to a vertical gradient. (if you don't have an image background covering it up)
 
 ```
-setColorBackground(Utils.getColorRGB(255,200,0), Utils.getColorRGB(255,200,0));
+setColorBackground([COLOR], [COLOR]);
 ```
 
 ***
@@ -127,7 +129,8 @@ setColorBackground(Utils.getColorRGB(255,200,0), Utils.getColorRGB(255,200,0));
 Changes the speed that the specified background layer scrolls at (must have already been a scrolling background).
 
 ```
-setScrollSpeedForBackground(0, "" + "text", 0, 0);
+setScrollSpeedForBackground(0, [TEXT], [NUMBER], [NUMBER]); //specify a layer ID
+setScrollSpeedForBackground(1, [TEXT], [NUMBER], [NUMBER]); //specify a layer name
 ```
 
 ***
@@ -139,7 +142,7 @@ setScrollSpeedForBackground(0, "" + "text", 0, 0);
 Change the speed at which a layer scrolls, as a percentage of the baseline.
 
 ```
-setScrollFactorForLayer(0, "" + "text", 0, 0);
+setScrollFactorForLayer(0, "" + "text", 0, 0); //specify a layer ID
 ```
 
 ***
@@ -151,7 +154,7 @@ setScrollFactorForLayer(0, "" + "text", 0, 0);
 Shows/Hides the given layer.
 
 ```
-hideTileLayer(0, "" + "text");
+hideTileLayer(0, "" + "text"); //specify a layer ID
 ```
 
 ***
@@ -163,7 +166,7 @@ hideTileLayer(0, "" + "text");
 Fades the given layer to the specified alpha (0 - 100%) over time.
 
 ```
-fadeTileLayerTo(0, "" + "text", 0/100, 0);
+fadeTileLayerTo(0, "" + "text", 0/100, 0); //specify a layer ID
 ```
 
 *** Set Blend Mode (for layer)
@@ -175,7 +178,7 @@ fadeTileLayerTo(0, "" + "text", 0/100, 0);
 Set Blend Mode for Layer (by ID or name)
 
 ```
-setBlendModeForLayer(0,"" + "text",BlendMode.ADD);
+setBlendModeForLayer(0,"" + "text",BlendMode.ADD); //specify a layer ID
 ```
 
 ***
@@ -187,7 +190,7 @@ setBlendModeForLayer(0,"" + "text",BlendMode.ADD);
 Change the image displayed in the specified background layer.
 
 ```
-changeBackgroundImage(0, "" + "text", image);
+changeBackgroundImage(0, "" + "text", image); //specify a layer ID
 ```
 
 ***
@@ -201,7 +204,7 @@ changeBackgroundImage(0, "" + "text", image);
 Add a new background layer.
 
 ```
-addBackground("text", "text", 0);
+addBackground("text", "text", 0); //specify a layer ID
 ```
 
 ***
@@ -213,7 +216,7 @@ addBackground("text", "text", 0);
 Add a new background layer using an image.
 
 ```
-addBackgroundFromImage(image, true, "text", 0);
+addBackgroundFromImage(image, true, "text", 0); //specify a layer ID
 ```
 
 ***
@@ -225,7 +228,7 @@ addBackgroundFromImage(image, true, "text", 0);
 Remove a background layer.
 
 ```
-removeBackground(0, "text");
+removeBackground(0, "text"); //specify a layer ID
 ```
 
 ***
@@ -239,7 +242,7 @@ removeBackground(0, "text");
 Set the display order of the specified layer. 0 is the back, higher numbers are closer.
 
 ```
-engine.moveLayerToOrder(0, "text", 0);
+engine.moveLayerToOrder(0, "text", 0); //specify a layer ID
 ```
 
 ***
@@ -251,7 +254,7 @@ engine.moveLayerToOrder(0, "text", 0);
 Get the display order of the specified layer. 0 is the back, higher numbers are closer.
 
 ```
-engine.getOrderOfLayer(0, "text")
+engine.getOrderOfLayer(0, "text") //specify a layer ID
 ```
 
 ***
@@ -260,7 +263,7 @@ engine.getOrderOfLayer(0, "text")
 
 ![numlayers](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/numlayers.png)
 
-The number of layers.
+Returns the number of layers in the current scene.
 
 ```
 engine.getNumberOfLayers()
@@ -274,10 +277,10 @@ engine.getNumberOfLayers()
 
 ![offscreen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/offscreen.png)
 
-Used in determining when actors are off-screen relative to the screen.
+Used to set how far actors have to be off-screen to be considered off screen.
 
 ```
-setOffscreenTolerance(0, 0, 0, 0);
+setOffscreenTolerance([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
