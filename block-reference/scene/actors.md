@@ -4,110 +4,108 @@
 
 ## Create Actor
 
-### create %0 at ( x: %1 y: %2 ) at %3
+### Create Actor
 
 ![create-actor3](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/create-actor3.png)
 
-Creates an actor.
+Creates an actor at the specified position.
 
 ```
-createRecycledActor(!ERROR!, 0, 0, Script.FRONT);
+createRecycledActor([ACTOR TYPE], [NUMBER], [NUMBER], Script.FRONT);
+createRecycledActor([ACTOR TYPE], [NUMBER], [NUMBER], Script.MIDDLE);
+createRecycledActor([ACTOR TYPE], [NUMBER], [NUMBER], Script.BACK);
 ```
 
 ***
 
-### create %0 at ( x: %1 y: %2 ) on layer with %3 : %4
+### Create Actor on Layer
 
 ![create-actor-on-layer](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/create-actor-on-layer.png)
 
-Creates an actor on a specific layer.
+Creates an actor at the specified position and layer (given a Layer ID or Name).
 
 ```
-createRecycledActorOnLayer(!ERROR!, 0, 0, 0, "" + "text");
+createRecycledActorOnLayer([ACTOR TYPE], [NUMBER], [NUMBER], 0, [TEXT]); //By Layer ID
+createRecycledActorOnLayer([ACTOR TYPE], [NUMBER], [NUMBER], 1, [TEXT]); //By Layer Name
 ```
 
 ***
 
 ## Get Actor
 
-### [sp] %0 [sp]
+### Get Actor Instance
 
 ![actor](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actor.png)
 
-Choose an actor.
+Let you choose a specific actor instance to return.
 
 ```
-__
+[ACTOR]
 ```
 
 ***
 
-### for each %1
+### For Each Actor On Screen...
 
 ![actors-on-screen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-on-screen.png)
 
-Loops over all actors on the screen.
+Loops over all actors on the screen. Use the embedded `actor on screen` block to refer to each actor.
 
 ```
 engine.allActors.reuseIterator = false;
-for(actorOnScreen in engine.allActors)
-{
-	if(actorOnScreen != null && !actorOnScreen.dead && !actorOnScreen.recycled && actorOnScreen.isOnScreenCache)
-	{
-		
-	}
+for(actorOnScreen in engine.allActors) {
+if(actorOnScreen != null && !actorOnScreen.dead && !actorOnScreen.recycled && actorOnScreen.isOnScreenCache) {
+    [ACTIONS]		
+  }
 }
 engine.allActors.reuseIterator = true;
 ```
 
 ***
 
-### for each %2 %0 
+### For Each Actor in Region...
 
 ![actors-in-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-in-region.png)
 
-Fetches all actors inside the region.
+Loops over all actors inside the specified region. Use the embedded `actor within region` block to refer to each actor.
 
 ```
-for(actorInRegion in getActorsInRegion(__))
-{
-	if(actorInRegion != null && !actorInRegion.dead){
-		
-	}
+for(actorInRegion in getActorsInRegion([REGION])) {
+  if(actorInRegion != null && !actorInRegion.dead) {
+    [ACTIONS]
+  }
 }
 ```
 
 ***
 
-### for each  %2 %0
+### For Each Actor of Type...
 
 ![actors-of-type3](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-of-type3.png)
 
-Fetches all actors of the given type.
+Loops over all actors of a given Actor Type (whether on or off screen). Use the embedded `actor of type` block to refer to each actor.
 
 ```
-for(actorOfType in getActorsOfType(!ERROR!))
-{
-	if(actorOfType != null && !actorOfType.dead && !actorOfType.recycled){
-		
-	}
+for(actorOfType in getActorsOfType([ACTOR TYPE])) {
+  if(actorOfType != null && !actorOfType.dead && !actorOfType.recycled) {
+    [ACTIONS]		
+  }
 }
 ```
 
 ***
 
-### for each %2 %0 
+### For Each Actor of Actor Group...
 
 ![actors-in-group](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-in-group.png)
 
-Fetches all actors that are members of the group.
+Loops over all actors inside the specified Actor Group (whether on or off screen). Use the embedded `member of group` block to refer to each actor.
 
 ```
-for(actorInGroup in cast(!ERROR!, Group).list)
-{
-	if(actorInGroup != null && !actorInGroup.dead && !actorInGroup.recycled){
-		
-	}
+for(actorInGroup in [ACTOR GROUP].list) {
+  if(actorInGroup != null && !actorInGroup.dead && !actorInGroup.recycled) {
+    [ACTIONS]
+  }
 }
 ```
 
