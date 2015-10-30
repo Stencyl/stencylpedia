@@ -101,7 +101,7 @@ Moves the region to the given actor's location using its origin point.
 
 ## Resize
 
-### reset size of %0
+### Reset Region Size
 
 ![reset-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/reset-region.png)
 
