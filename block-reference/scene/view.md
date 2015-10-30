@@ -4,7 +4,7 @@
 
 ## Screen Bounds
 
-### %0 of camera [i:camera]
+### Camera Position
 
 ![screen-xy](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/screen-xy.png)
 
@@ -16,7 +16,7 @@ getScreenX()
 
 ***
 
-### screen %0
+### Screen Size
 
 ![screen-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/screen-wh.png)
 
@@ -30,7 +30,7 @@ getScreenWidth()
 
 ## Camera
 
-### move [i:camera] camera center to ( x: %0 y: %1 )
+### Move Camera
 
 ![camera-move](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/camera-move.png)
 
@@ -42,7 +42,7 @@ engine.moveCamera(0, 0);
 
 ***
 
-### move [i:camera] camera center to %0
+### Move Camera to Actor
 
 ![camera-follow](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/camera-follow.png)
 
@@ -56,7 +56,7 @@ engine.cameraFollow(__);
 
 ## Effects
 
-### shake screen for %1 sec with intensity %0 [pct]
+### Shake Screen
 
 ![shake-start](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/shake-start.png)
 
@@ -68,7 +68,7 @@ startShakingScreen(0 / 100, 0);
 
 ***
 
-### stop shaking screen
+### Stop Shaking Screen
 
 ![shake-stop](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/shake-stop.png)
 
@@ -80,7 +80,7 @@ stopShakingScreen();
 
 ***
 
-### toggle full-screen mode [i:desktop]
+### Toggle Full-Screen Mode
 
 ![toggle-fullscreen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/toggle-fullscreen.png)
 
@@ -94,7 +94,7 @@ toggleFullScreen();
 
 ## Color Background
 
-### set color background to solid color %0
+### Set Background to Color
 
 ![set-color-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-color-bg.png)
 
@@ -106,7 +106,7 @@ setColorBackground(Utils.getColorRGB(255,200,0));
 
 ***
 
-### set color background to vertical gradient with %0 and %1
+### Set Background to Gradient
 
 ![set-grad-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-grad-bg.png)
 
@@ -120,7 +120,7 @@ setColorBackground(Utils.getColorRGB(255,200,0), Utils.getColorRGB(255,200,0));
 
 ## Layer Properties
 
-### set autoscroll speed for background with %0 : %1 to ( x: %2 , y: %3 )
+### Set Autoscroll Speed (for layer)
 
 ![set-bg-speed](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-bg-speed.png)
 
@@ -132,7 +132,7 @@ setScrollSpeedForBackground(0, "" + "text", 0, 0);
 
 ***
 
-### set scroll factor for layer with %0 : %1 to ( x: %2 [pct] , y: %3 [pct] )
+### Set Scroll Factor for (for layer)
 
 ![set-layer-scrollfactor](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-layer-scrollfactor.png)
 
@@ -144,7 +144,7 @@ setScrollFactorForLayer(0, "" + "text", 0, 0);
 
 ***
 
-### %0 layer with %1 : %2
+### [Show/Hide] Layer
 
 ![showhide-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/showhide-layer2.png)
 
@@ -156,7 +156,7 @@ hideTileLayer(0, "" + "text");
 
 ***
 
-### fade layer with %0 : %1 to %2 [pct] over %3 secs
+### Fade Layer
 
 ![fadeTo-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/fadeTo-layer2.png)
 
@@ -166,7 +166,7 @@ Fades the given layer to the specified alpha (0 - 100%) over time.
 fadeTileLayerTo(0, "" + "text", 0/100, 0);
 ```
 
-***
+*** Set Blend Mode (for layer)
 
 ### set blend mode for layer with %0 : %1 to %2 [i:flash]
 
@@ -180,7 +180,7 @@ setBlendModeForLayer(0,"" + "text",BlendMode.ADD);
 
 ***
 
-### change image for background layer with %0 : %1 to %2
+### Change Background Image (for layer)
 
 ![set-bg-image](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-bg-image.png)
 
@@ -194,7 +194,7 @@ changeBackgroundImage(0, "" + "text", image);
 
 ## Add/Remove Layers
 
-### create background layer with name %1 using background %0 at z-index %2
+### Create a Background Layer
 
 ![create-bglayer-from-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/create-bglayer-from-bg.png)
 
@@ -206,7 +206,7 @@ addBackground("text", "text", 0);
 
 ***
 
-### create %1 background layer with name %2 using %0 at z-index %3
+### Create a Background Layer (from image)
 
 ![create-bglayer-from-image](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/create-bglayer-from-image.png)
 
@@ -218,7 +218,7 @@ addBackgroundFromImage(image, true, "text", 0);
 
 ***
 
-### remove background layer with %0 : %1
+### Remove Background Layer
 
 ![remove-bglayer](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/remove-bglayer.png)
 
@@ -232,7 +232,7 @@ removeBackground(0, "text");
 
 ## Layer Order
 
-### set z-index of layer with %0 : %1 to %2
+### Set Drawing Order for Layer
 
 ![set-layer-order](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-layer-order.png)
 
@@ -244,7 +244,7 @@ engine.moveLayerToOrder(0, "text", 0);
 
 ***
 
-### z-index of layer with %0 : %1
+### Get Drawing Order for Layer
 
 ![get-layer-order](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/get-layer-order.png)
 
@@ -256,7 +256,7 @@ engine.getOrderOfLayer(0, "text")
 
 ***
 
-### number of layers
+### Number of Layers
 
 ![numlayers](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/numlayers.png)
 
@@ -270,7 +270,7 @@ engine.getNumberOfLayers()
 
 ## Offscreen Bounds
 
-### set offscreen bounds to ( top: %0 left: %1 bot: %2 right: %3 )
+### Set Offscreen Bounds
 
 ![offscreen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/offscreen.png)
 
