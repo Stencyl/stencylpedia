@@ -353,47 +353,6 @@
 			
 		</section>
 		
-		<!-- Shaders -->
-		<section title="@cat.scene.shaders">
-
-			<label text="@cat.scene.shaders.i" />
-			
-			<!-- Shaders -->
-			<header title="Shaders" icon="question" action="help:shaders" />
-			<block tag="shader-apply" />
-			<block tag="shader-clear" />
-			<block tag="shader-hud" />
-			<spacer />
-			<block tag="shader-combine" />
-			<block tag="shader-combine3" />
-			<block tag="shader-combine4" />
-			
-			<!-- Properties -->
-			<header title="Properties" icon="question" action="help:shaders" />
-			<block tag="shader-set" />
-			<block tag="shader-tween" />
-			<block tag="shader-time" />
-			
-			<!-- Color Shaders -->
-			<header title="Color Shaders" icon="question" action="help:shaders" />
-			<block tag="shader-hue" />
-			<block tag="shader-csb" />
-			<block tag="shader-tint" />
-			
-			<!-- Filter Shaders -->
-			<header title="Filter Shaders" icon="question" action="help:shaders" />
-			<block tag="shader-filters" />
-			<block tag="shader-blur" />
-			<block tag="shader-sharpen" />
-			<block tag="shader-bloom" />
-			
-			<!-- Effect Shaders -->
-			<header title="Effect Shaders" icon="question" action="help:shaders" />
-			<block tag="shader-grain" />
-			<block tag="shader-scanline" />
-			
-		</section>
-		
 		<!-- Game Flow -->
 		<section title="@cat.scene.switch">
 
@@ -444,20 +403,6 @@
 			<spacer />
 			<block tag="mousedisp" />
 
-		</section>
-		
-		<!-- Gamepad -->
-		<section title="@cat.controls.gamepad">
-
-			<!-- Gamepad -->
-			<header title="@cat.controls.gamepad" />
-			<block tag="enable-gamepad" />
-			<block tag="map-gamepad-control" />
-			<block tag="set-gamepad-sensitivity" />
-			<block tag="get-button-pressure" />
-			<block tag="save-gamepad-config" />
-			<block tag="load-gamepad-config" />
-			
 		</section>
 		
 		<!-- Mobile-Only -->
