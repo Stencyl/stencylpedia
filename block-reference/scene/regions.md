@@ -2,6 +2,11 @@
 
 ***
 
+
+> Read our guide on [regions](http://www.stencyl.com/help/view/regions/) for an explanation of these blocks.
+
+***
+
 ## Get Region
 
 ### [sp] %0 [sp]
