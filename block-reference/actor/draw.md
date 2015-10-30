@@ -26,10 +26,11 @@ aaa
 
 ![show-sprite-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/toggle-image.png)
 
-aaa
+Enables (or disables) the graphics for this actor. In other words, makes the actor invisible or visible. Everything else about the actor still works, and the `[actor] is on screen?` block will still return `true`.
 
 ```
-aaa
+[ACTOR].enableActorDrawing();
+[ACTOR].disableActorDrawing();
 ```
 
 ***
@@ -38,10 +39,10 @@ aaa
 
 ![set-opacity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-opacity.png)
 
-aaa
+Sets the actor's opacity (alpha) value, which controls how "transparent" the actor is. Value must be between [0 - 100] inclusive. 0 means fully transparent. 100 is the default.
 
 ```
-aaa
+[ACTOR].alpha = [NUMBER] / 100;
 ```
 
 ***
@@ -50,10 +51,10 @@ aaa
 
 ![get-opacity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-opacity.png)
 
-aaa
+Returns the actor's opacity (alpha) value as a value between [0 - 100] inclusive.
 
 ```
-aaa
+([ACTOR].alpha * 100)
 ```
 
 ***
@@ -64,10 +65,10 @@ aaa
 
 ![anchor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/anchor-screen.png)
 
-aaa
+Moves the actor to the HUD layer, which is on top of all regular layers. The actor will ignore the camera, so when the screen scrolls, the actor will still remain in the same place.
 
 ```
-aaa
+[ACTOR].anchorToScreen();
 ```
 
 ***
@@ -76,10 +77,10 @@ aaa
 
 ![unanchor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/unanchor-screen.png)
 
-aaa
+Moves the actor back from the HUD layer.
 
 ```
-aaa
+[ACTOR].unanchorFromScreen();
 ```
 
 ***
