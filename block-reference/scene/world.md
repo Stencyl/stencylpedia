@@ -156,7 +156,7 @@ Get data for tile at this position. Returns empty text if no tile found.
 
 ```
 getTileDataAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
-getTileDataAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer name
+getTileDataAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
 ***
