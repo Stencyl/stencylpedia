@@ -144,6 +144,100 @@ aaa
 
 ## Collision Shapes
 
+### Add Rectangle Collision Shape
+
+![rect-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-rectangle.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### Add Circle Collision Shape
+
+![circle-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-circle.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### Add Polygon Collision Shape
+
+![poly-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-polygon.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### Add Point to Polygon Shape
+
+![point-add-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-vertex.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### For Each Collision Shape...
+
+![foreach-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/foreach-shape.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### Make Collision Shape [Solid/Sensor]
+
+![solid-sensor-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-sensorsolid.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### Remove Collision Shape
+
+![remove-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-destroy.png)
+
+aaa
+
+```
+aaa
+```
+
+***
+
+### Resize Collision Shape
+
+![resize-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-scale.png)
+
+aaa
+
+```
+aaa
+```
+
 ***
 
 ## Properties
