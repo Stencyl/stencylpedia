@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<category title="@events.add.basics" icon="basic">
+		
+		<section title="@events.add.basics">
+
+			<event block="init" menuText="@events.defs.init" description="@events.defs.init2" icon="create" menuIcon="when-creating" />
+			<event block="draw" menuText="@events.defs.draw" description="@events.defs.draw2" icon="draw" menuIcon="when-drawing" />
+			<event block="step" menuText="@events.defs.step" description="@events.defs.step2" icon="step" menuIcon="when-updating" />
+			
+		</section>
+
+	</category>
+
+	<seperator />
+
+	<category title="@events.add.input" icon="mouse">
+
+		<section title="@events.add.input2">
+
+			<event block="event-key-press-release" menuText="@events.defs.key" description="@events.defs.key" icon="keyboard" menuIcon="keyboard" />
+			<event block="event-key-any-press-release" menuText="@events.defs.anykey" description="@events.defs.anykey" icon="keyboard" menuIcon="keyboard" />
+			<event block="event-focus-changed" menuText="@events.defs.focus" description="@events.defs.focus" icon="target" menuIcon="target" />
+			
+		</section>
+		
+		<section title="@events.add.input.mouse">
+		
+			<event block="event-mouse-press-release" menuText="@events.defs.mouse" description="@events.defs.mouse" icon="mouse-select" menuIcon="mouse" />
+			<event block="event-mouse-enter-exit-actor" menuText="@events.defs.mouse.actor" description="@events.defs.mouse.actor" icon="mouse-wheel" menuIcon="mouse-actor" />
+			<event block="event-mouse-enter-exit-region" menuText="@events.defs.mouse.region" description="@events.defs.mouse.region" icon="mouse-wheel" menuIcon="mouse-region" />
+		
+		</section>
+		
+		<section title="@events.add.input.mobile">
+
+			<!--
+			<event block="event-device-touch" menuText="@events.defs.touch" description="@events.defs.touch" icon="touch" menuIcon="touch" />
+			<event block="event-device-touch-actor" menuText="@events.defs.touch.actor" description="@events.defs.touch.actor" icon="tilt" menuIcon="tilt" />
+			-->
+			<event block="event-device-swipe" menuText="@events.defs.swipe" description="@events.defs.swipe" icon="swipe" menuIcon="swipe" />
+			<event block="event-device-multitouch" menuText="@events.defs.multitouch" description="@events.defs.multitouch" icon="touch" menuIcon="touch" />
+		
+		</section>
+		
+		<section title="@events.add.input.desktop">
+
+			<event block="event-gamepad-any-press-release" menuText="@events.defs.anygamepad" description="@events.defs.anygamepad" icon="controller" menuIcon="controller" />
+				
+		</section>
+	
+	</category>
+
+	<category title="@events.add.time" icon="time">
+
+		<section title="@events.add.time">
+
+			<event block="event-delay" menuText="@events.defs.delay" description="@events.defs.delay2" icon="clock-future" menuIcon="periodic" />
+			<event block="event-periodic" menuText="@events.defs.periodic" description="@events.defs.periodic2" icon="clock" menuIcon="do-later" />
+		
+		</section>
+		
+		<section title="@events.add.time.game">
+
+			<event block="event-paused" menuText="@events.defs.pause" description="@events.defs.pause" icon="clock" menuIcon="pause" />
+				
+		</section>
+	
+	</category>
+
+	<seperator />
+
+	<category title="@events.add.actors" icon="actor">
+
+		<section title="@events.add.actors.created">
+		
+			<event block="event-actor-create-kill" menuText="@events.defs.generic.actor" description="@events.defs.actor.create" icon="actor" menuIcon="actor" />
+			<event block="event-type-create-kill" menuText="@events.defs.generic.type" description="@events.defs.actor.create" icon="actor" menuIcon="type" />
+			<event block="event-group-create-kill" menuText="@events.defs.generic.group" description="@events.defs.actor.create" icon="actor" menuIcon="group" />
+				
+		</section>
+	
+		<section title="@events.add.actors.screen">
+
+			<event block="event-actor-screen" menuText="@events.defs.generic.actor" description="@events.defs.actor.screen" icon="actor" menuIcon="actor" />
+			<event block="event-type-screen" menuText="@events.defs.generic.type" description="@events.defs.actor.screen" icon="actor" menuIcon="type" />
+			<event block="event-group-screen" menuText="@events.defs.generic.group" description="@events.defs.actor.screen" icon="actor" menuIcon="group" />
+	
+		</section>
+		
+		<section title="@events.add.actors.region">
+
+			<event block="event-actor-region" menuText="@events.defs.generic.actor" description="@events.defs.actor.region" icon="actor" menuIcon="actor" />
+			<event block="event-type-region" menuText="@events.defs.generic.type" description="@events.defs.actor.region" icon="actor" menuIcon="type" />
+			<event block="event-group-region" menuText="@events.defs.generic.group" description="@events.defs.actor.region" icon="actor" menuIcon="group" />
+				
+		</section>
+	
+	</category>
+
+	<category title="@events.add.collisions" icon="collision">
+
+		<section title="@events.add.collisions.with" if="actor">
+	
+			<!--
+			<event block="event-collide-actor" menuText="@events.defs.generic.actor" description="@events.defs.collision.actor" icon="collide" menuIcon="actor" />
+			<event block="event-collide-type" menuText="@events.defs.generic.type" description="@events.defs.collision.type" icon="collide" menuIcon="type" />
+			<event block="event-collide-group" menuText="@events.defs.generic.group" description="@events.defs.collision.group" icon="collide" menuIcon="group" />
+			-->
+
+			<event block="collide" menuText="@events.defs.something" description="@events.defs.collision.generic" icon="collide" menuIcon="collision" />
+			
+		</section>
+
+		<section title="@events.add.collisions.anywith">
+
+			<event block="event-collide-actortoactor" menuText="@events.defs.generic.actor" description="@events.defs.collision.actor" icon="collide" menuIcon="actor" />
+			<event block="event-collide-actortotype" menuText="@events.defs.generic.type" description="@events.defs.collision.type" icon="collide" menuIcon="type" />
+			<event block="event-collide-actortogroup" menuText="@events.defs.generic.group" description="@events.defs.collision.group" icon="collide" menuIcon="group" />
+			
+		</section>
+			
+		<section title="@events.add.collisions.between">
+
+			<event block="event-collide-typetotype" menuText="@events.defs.collision.typetype" description="@events.defs.collision.typetype2" icon="collide" menuIcon="type" />
+			<event block="event-collide-grouptogroup" menuText="@events.defs.collision.groupgroup" description="@events.defs.collision.groupgroup2" icon="collide" menuIcon="group" />
+			
+		</section>
+			
+	</category>
+
+	<seperator />
+
+	<category title="@events.add.sound" icon="sound">
+	
+		<section title="@events.add.sound">
+		
+			<event block="event-sound-finished" menuText="@events.defs.sound" description="@events.defs.sound" icon="sound" menuIcon="sound" />
+			<event block="event-channel-finished" menuText="@events.defs.channel" description="@events.defs.channel" icon="sound" menuIcon="sound-channel" />
+			
+		</section>
+	
+	</category>
+
+	<seperator />
+
+	<category title="@events.add.mobile" icon="tilt">
+	
+		<section title="@events.add.mobile.money">
+		
+			<event block="event-mobile-ads" menuText="@events.defs.ads" description="@events.defs.ads" icon="ad" menuIcon="ad" />
+			<event block="event-mobile-purchases" menuText="@events.defs.purchases" description="@events.defs.purchases" icon="money" menuIcon="money" />
+			
+		</section>
+		
+		<section title="@events.add.mobile.fun">
+		
+			<event block="event-mobile-gamecenter" menuText="@events.defs.gamecenter" description="@events.defs.gamecenter" icon="gamecenter" menuIcon="gamecenter" />
+			<event block="event-mobile-keyboard" menuText="@events.defs.mobilekey" description="@events.defs.mobilekey" icon="keyboard" menuIcon="keyboard" />
+			
+		</section>
+		
+	</category>
+
+	<seperator />
+
+	<category title="@events.add.attributes" icon="attributes">
+
+		<section title="@events.add.attributes">
+		
+			<event block="event-att-number" menuText="@events.defs.number" description="@events.defs.number" icon="vars" menuIcon="att-number" />
+			<event block="event-att-equals" menuText="@events.defs.equality" description="@events.defs.equality" icon="vars" menuIcon="att-any" />
+			<event block="event-att-bool" menuText="@events.defs.boolean" description="@events.defs.boolean" icon="vars" menuIcon="att-bool" />
+			
+		</section>
+
+	</category>
+
+	<category title="@events.add.advanced" icon="advanced">
+
+		<section title="@events.add.advanced.events">
+		
+			<event block="event-custom" menuText="@events.defs.customevent" description="@events.defs.customevent" icon="arrow-0" menuIcon="do-later" />
+			
+		</section>
+		
+		<section title="@events.add.advanced.blocks">
+		
+			<event block="event-custom-block" menuText="@events.defs.customblock" description="@events.defs.customblock" icon="console" menuIcon="basic" />
+			<event block="event-custom-block-global" menuText="@events.defs.customblock.global" description="@events.defs.customblock.global2" icon="console" menuIcon="basic" />
+			
+		</section>
+		
+		<section title="@events.add.advanced.code">
+		
+			<event block="event-custom-code" menuText="@events.defs.customcode" description="@events.defs.customcode2" icon="console" menuIcon="advanced" />
+			<event block="event-custom-import" menuText="@events.defs.customimport" description="@events.defs.customimport2" icon="console" menuIcon="advanced" />
+			
+		</section>
+
+	</category>
+
+</events>
