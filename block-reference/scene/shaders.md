@@ -12,10 +12,10 @@
 
 ![shader-apply](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-apply.png)
 
-Enables shader. Existing shaders will be disabled.
+Applies the specified shader to the game. This replaces the existing shader. To use multiple shaders at a time, use the combine shader blocks below.
 
 ```
-shader.enable();
+[SHADER].enable();
 ```
 
 ***
@@ -24,7 +24,7 @@ shader.enable();
 
 ![shader-clear](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-clear.png)
 
-Removes existing shaders from the game.
+Removes the existing shader from the game.
 
 ```
 engine.clearShaders();
@@ -48,10 +48,10 @@ engine.toggleShadersForHUD();
 
 ![shader-combine](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-combine.png)
 
-Combines 2 shaders together. If combining more than 2, stick further combines always in the second slot.
+Combines 2 shaders together. If combining more than 2, stick further combines in the second slot.
 
 ```
-shader.combine(shader)
+[SHADER].combine([SHADER])
 ```
 
 ***
@@ -63,7 +63,7 @@ shader.combine(shader)
 Combines 3 shaders together.
 
 ```
-shader.combine(shader).combine(shader)
+[SHADER].combine([SHADER]).combine([SHADER])
 ```
 
 ***
@@ -75,7 +75,7 @@ shader.combine(shader).combine(shader)
 Combines 4 shaders together.
 
 ```
-shader.combine(shader).combine(shader).combine(shader)
+[SHADER].combine([SHADER]).combine([SHADER]).combine([SHADER])
 ```
 
 ***
@@ -84,10 +84,10 @@ shader.combine(shader).combine(shader).combine(shader)
 
 ![shader-file](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-file.png)
 
-Load a shader placed into a game's 'extras' directory.
+Loads a shader placed into a game's **extras** directory.
 
 ```
-new ExternalShader("text")
+new ExternalShader([TEXT])
 ```
 
 ***
@@ -99,7 +99,7 @@ new ExternalShader("text")
 Define a shader inline using GLSL.
 
 ```
-new InlineShader("")
+new InlineShader([TEXT])
 ```
 
 ***
@@ -110,10 +110,12 @@ new InlineShader("")
 
 ![shader-set](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-set.png)
 
-Instantly set a shader's properties. Consult Stencylpedia for property names.
+Instantly set a shader's properties. This lets you tweak a shader (in ways that the blocks don't allow) and alter its appearance after creation.
+
+Consult our [Shaders article](http://www.stencyl.com/help/view/shaders/) for property names.
 
 ```
-shader.setProperty("text", 0);
+[SHADER].setProperty([TEXT], [VALUE]);
 ```
 
 ***
@@ -122,10 +124,10 @@ shader.setProperty("text", 0);
 
 ![shader-tween](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-tween.png)
 
-Change a shader's properties over time. Consult Stencylpedia for property names.
+Change a shader's properties over time. Consult our [Shaders article](http://www.stencyl.com/help/view/shaders/) for property names.
 
 ```
-shader.tweenProperty("text", 0, 0, Linear.easeNone);
+[SHADER].tweenProperty([TEXT], [NUMBER], [NUMBER], [EASING]);
 ```
 
 ***
@@ -134,10 +136,10 @@ shader.tweenProperty("text", 0, 0, Linear.easeNone);
 
 ![shader-time](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-time.png)
 
-Makes animated shaders run faster/slower. Useful for porting. 1.0 is normal time. 2.0 is twice as fast.
+Makes animated shaders run faster/slower. Useful for porting shaders written for other environments. 1.0 is normal time. 2.0 is twice as fast.
 
 ```
-shader.setTimeScale(0);
+[SHADER].setTimeScale([NUMBER]);
 ```
 
 ***
@@ -160,10 +162,12 @@ new HueShader(0)
 
 ![shader-csb](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-csb.png)
 
-Adjust the screen's contrast, saturation and brightness, in percentages.
+Adjust the screen's contrast, saturation and brightness, in percentages. 100% means original value, 200% means twice as much, 50% means half as much.
 
 ```
-CSBShader.create("contrast", 0/100)
+CSBShader.create("contrast", [NUMBER]/100)
+CSBShader.create("saturation", [NUMBER]/100)
+CSBShader.create("brightness", [NUMBER]/100)
 ```
 
 ***
@@ -172,10 +176,10 @@ CSBShader.create("contrast", 0/100)
 
 ![shader-tint](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-tint.png)
 
-Apply a color to the screen.
+Apply a color-based tint to the screen using the specified opacity in pecentage between 0% (no tint), 100% (full tint).
 
 ```
-new TintShader(Utils.getColorRGB(255,200,0), 0/100)
+new TintShader([COLOR], [NUMBER]/100)
 ```
 
 ***
@@ -190,6 +194,8 @@ Apply simple filters (grayscale, inverse, sepia) to the screen.
 
 ```
 new GrayscaleShader()
+new InverseShader()
+new SepiaShader()
 ```
 
 ***
@@ -198,10 +204,10 @@ new GrayscaleShader()
 
 ![shader-blur](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-blur.png)
 
-Directional blur. x/y define a 'slope', so -1,-1 is a diagonal blur.
+Applies a directional blur to the screen. x/y collectively define a 'slope' for the direction, so -1,-1 is a diagonal blur.
 
 ```
-new BlurShader(0, 0, 0)
+new BlurShader([NUMBER], [NUMBER], [NUMBER])
 ```
 
 ***
@@ -213,7 +219,7 @@ new BlurShader(0, 0, 0)
 Sharpen with the given intensity.
 
 ```
-new SharpenShader(0)
+new SharpenShader([NUMBER])
 ```
 
 ***
@@ -222,7 +228,7 @@ new SharpenShader(0)
 
 ![shader-bloom](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-bloom.png)
 
-Causes highlights (bright areas) to bleed and blow.
+Causes highlights (bright areas) to bleed and glow.
 
 ```
 new BloomShader()
