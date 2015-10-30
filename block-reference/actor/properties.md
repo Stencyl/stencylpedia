@@ -184,8 +184,6 @@ var vertices:Array<B2Vec2> = new Array<B2Vec2>();
 polygonActor.addPolygonalShape(vertices);
 ```
 
-***
-
 ### Add Point to Polygon Shape
 
 ![point-add-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-vertex.png)
@@ -216,8 +214,6 @@ if (shapeActor.physicsMode == 0) {
 }
 ```
 
-***
-
 ### Make Collision Shape [Solid/Sensor]
 
 ![solid-sensor-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-sensorsolid.png)
@@ -229,8 +225,6 @@ fixture.setSensor(true); //Make it a sensor
 fixture.setSensor(false); //Make it solid
 ```
 
-***
-
 ### Remove Collision Shape
 
 ![remove-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-destroy.png)
@@ -240,8 +234,6 @@ Removes the collision shape from the actor. Must be used within the `for each co
 ```
 body.DestroyFixture(fixture);
 ```
-
-***
 
 ### Resize Collision Shape
 
