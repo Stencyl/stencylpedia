@@ -9,92 +9,92 @@
 
 ## Get Region
 
-### [sp] %0 [sp]
+### Choose Region
 
 ![region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/region.png)
 
-Choose a region.
+Returns a Region of choice (whether an instance of one, an attribute or other form).
 
 ```
-__
+[REGION]
 ```
 
 ***
 
-### %0 is inside %1
+### Actor is Inside Region?
 
 ![is-in-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/is-in-region.png)
 
-Returns true if the given actor is inside the given region.
+Returns `true` if the actor is inside the specified region.
 
 ```
-isInRegion(__, __)
+isInRegion([ACTOR], [REGION])
 ```
 
 ***
 
 ## Create
 
-### create region at ( x: %0 y: %1 ) with ( w: %2 h: %3 )
+### Create Box Region
 
 ![create-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/create-region.png)
 
-Creates a region.
+Creates a rectangular region with the given location and size. Assign to a Region attribute to refer to it in the future.
 
 ```
-createBoxRegion(0, 0, 0, 0);
+createBoxRegion([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
 
-### create circular region at ( x: %0 y: %1 ) with radius: %2
+### Create Circle Region
 
 ![create-circular-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/create-circular-region.png)
 
-Creates a circular region.
+Creates a circular region with the given location and size. Assign to a Region attribute to refer to it in the future.
 
 ```
-createCircularRegion(0, 0, 0);
+createCircularRegion([NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
 
 ## Delete
 
-### delete %0
+### Delete Region
 
 ![delete-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/delete-region.png)
 
-Deletes a region.
+Deletes a region from the current scene. (It will return if you leave the scene and come back.)
 
 ```
-removeRegion(__.getID());
+removeRegion([REGION].getID());
 ```
 
 ***
 
 ## Move
 
-### move %0 to ( x: %1 y: %2 )
+### Move Region
 
 ![move-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/move-region.png)
 
 Moves the region to the given point.
 
 ```
-__.setLocation(0, 0);
+[REGION].setLocation([NUMBER], [NUMBER]);
 ```
 
 ***
 
-### make %0 follow %1
+### Move Region to Actor
 
 ![follow-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/follow-region.png)
 
-Forces the region to follow the given actor using its anchor point.
+Moves the region to the given actor's location using its origin point.
 
 ```
-__.follow(__);
+[REGION].follow([ACTOR]);
 ```
 
 ***
@@ -105,60 +105,62 @@ __.follow(__);
 
 ![reset-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/reset-region.png)
 
-Resets region to original size.
+Resets the region to its original size.
 
 ```
-__.resetSize();
+[REGION].resetSize();
 ```
 
 ***
 
-### set diameter of %0 to %1 px
+### Resize Circle Region
 
 ![resize-region1](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/resize-region1.png)
 
-Sets size of circular region to given diameter.
+Sets the size of a circular region to the given diameter.
 
 ```
-__.setRegionDiameter(0);
+[REGION].setRegionDiameter([NUMBER]);
 ```
 
 ***
 
-### set size of %0 to ( w: %1 h: %2 )
+### Resize Box Region
 
 ![resize-region2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/resize-region2.png)
 
-Sets size of box region to given width and height.
+Sets the size of a box region to the given width and height.
 
 ```
-__.setRegionSize(0, 0);
+[REGION].setRegionSize([NUMBER], [NUMBER]);
 ```
 
 ***
 
 ## Properties
 
-### %1 of %0
+### Position of Region
 
 ![get-region-pos](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/get-region-pos.png)
 
-Gets position of region.
+Gets the [X/Y] location of the region.
 
 ```
-__.getX()
+[REGION].getX()
+[REGION].getY()
 ```
 
 ***
 
-### %1 of %0
+### [Width/Height] of Region
 
 ![get-region-size](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/get-region-size.png)
 
-Gets size of region.
+Gets the [Width/Height] of the region.
 
 ```
-__.getWidth()
+[REGION].getWidth()
+[REGION].getHeight()
 ```
 
 ***
