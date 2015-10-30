@@ -8,10 +8,11 @@
 
 ![position-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/get-xy.png)
 
-aaa
+Gets the current [X / Y] position of the actor.
 
 ```
-aaa
+[ACTOR].getX()
+[ACTOR].getY()
 ```
 
 ***
@@ -20,10 +21,11 @@ aaa
 
 ![set-position-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/set-xy.png)
 
-aaa
+Sets the [X, Y] position of the actor.
 
 ```
-aaa
+[ACTOR].setX([NUMBER]);
+[ACTOR].setY([NUMBER]);
 ```
 
 ***
@@ -32,10 +34,10 @@ aaa
 
 ![isonscreen-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/isonscreen.png)
 
-aaa
+Returns `true` if the specified actor is at least partially on screen.
 
 ```
-aaa
+[ACTOR].isOnScreen()
 ```
 
 ***
@@ -46,10 +48,10 @@ aaa
 
 ![direction-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/getdir.png)
 
-aaa
+Returns the actor's direction (angle), in degrees. 0 degrees -> facing right. 90 degrees -> facing down.
 
 ```
-aaa
+Utils.DEG * ([ACTOR].getAngle())
 ```
 
 ***
@@ -58,10 +60,10 @@ aaa
 
 ![set-direction-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/setangle.png)
 
-aaa
+Sets the actor's direction (angle), in degrees. 0 degrees -> facing right. 90 degrees -> facing down.
 
 ```
-aaa
+[ACTOR].setAngle(Utils.RAD * [NUMBER]);
 ```
 
 ***
@@ -70,10 +72,10 @@ aaa
 
 ![turncw-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/rotate.png)
 
-aaa
+Instantly rotates the the actor clockwise by the given number of degrees.
 
 ```
-aaa
+[ACTOR].rotate(Utils.RAD * [NUMBER]);
 ```
 
 ***
@@ -82,10 +84,10 @@ aaa
 
 ![turnccw-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/rotate2.png)
 
-aaa
+Instantly rotates the the actor counter-clockwise by the given number of degrees.
 
 ```
-aaa
+[ACTOR].rotate(-Utils.RAD * [NUMBER]);
 ```
 
 ***
