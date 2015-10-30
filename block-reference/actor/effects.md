@@ -76,7 +76,7 @@ createHueFilter([NUMBER])
 
 ![saturation-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-sat.png)
 
-Adjust how "vivid" the actor's colors are in percentage amount. 0% would make an actor grayscale. 100% would restore the default saturation. 200% would make it look very vivid.
+Adjust how "vivid" the actor's colors are in relative percentage amounts. 0% would make an actor grayscale. 100% would restore the default saturation. 200% would make it look very vivid.
 
 ```
 createSaturationFilter([NUMBER])
@@ -88,7 +88,7 @@ createSaturationFilter([NUMBER])
 
 ![brightness-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-bright.png)
 
-Adjust how bright (or dark) the actor is in percentage amount (0 - 100 inclusive). 0 means total darkness. 100 is the default.
+Adjust how bright (or dark) the actor is in relative percentage amounts. 0% means total darkness. 100% is the default. 200% would make it brighter than usual.
 
 ```
 createBrightnessFilter([NUMBER])
