@@ -11,7 +11,8 @@
 aaa
 
 ```
-aaa
+[ACTOR].getXVelocity()
+[ACTOR].getYVelocity()
 ```
 
 ***
@@ -23,7 +24,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setXVelocity([NUMBER]);
+[ACTOR].setYVelocity([NUMBER]);
 ```
 
 ***
@@ -35,7 +37,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setVelocity([NUMBER], [NUMBER]);
 ```
 
 ***
@@ -49,7 +51,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].push([NUMBER], [NUMBER], [NUMBER]);
+[ACTOR].shove([NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
@@ -61,7 +64,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].pushInDirection([NUMBER], [NUMBER]);
+[ACTOR].shoveInDirection([NUMBER], [NUMBER]);
 ```
 
 ***
@@ -73,7 +77,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].applyTorque(Utils.RAD * [NUMBER]);
 ```
 
 ***
@@ -87,7 +91,7 @@ aaa
 aaa
 
 ```
-aaa
+Utils.DEG * ([ACTOR].getAngularVelocity())
 ```
 
 ***
@@ -99,7 +103,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setAngularVelocity(Utils.RAD * [NUMBER]);
 ```
 
 ***
@@ -113,7 +117,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setIgnoreGravity(false); //enable gravity
+[ACTOR].setIgnoreGravity(true); //disable gravity
 ```
 
 ***
@@ -125,7 +130,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].enableRotation();
+[ACTOR].disableRotation();
 ```
 
 ***
@@ -137,7 +143,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setFriction([NUMBER]);
+[ACTOR].setBounciness([NUMBER]);
 ```
 
 ***
@@ -149,7 +156,8 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].getFriction()
+[ACTOR].getBounciness()
 ```
 
 ***
