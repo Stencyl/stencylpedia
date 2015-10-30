@@ -2,6 +2,10 @@
 
 ***
 
+> Read our article on [Tweening](http://www.stencyl.com/help/view/tweening/) for an explanation of these blocks.
+
+***
+
 ## Slide
 
 ### Slide
