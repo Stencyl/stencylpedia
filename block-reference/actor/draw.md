@@ -11,7 +11,7 @@
 aaa
 
 ```
-aaa
+[ACTOR].getAnimation()
 ```
 
 ***
@@ -23,7 +23,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setAnimation("" + "anim attribute");
 ```
 
 ***
@@ -35,7 +35,7 @@ aaa
 aaa
 
 ```
-aaa
+("" + "anything")
 ```
 
 ***
@@ -47,7 +47,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].isAnimationPlaying()
 ```
 
 ***
@@ -59,7 +59,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setCurrentFrame(Std.int(0));
 ```
 
 ***
@@ -71,7 +71,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].getCurrentFrame()
 ```
 
 ***
@@ -83,7 +83,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].getNumFrames()
 ```
 
 ***
@@ -95,7 +95,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].currAnimation.getFrameDurations()[Std.int(0)]
 ```
 
 ***
@@ -107,7 +107,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].currAnimation.setFrameDuration(Std.int(0), Std.int(0));
 ```
 
 ***
@@ -121,7 +121,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].getLayerID()
 ```
 
 ***
@@ -133,7 +133,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].moveToLayer(0, "" + "text");
 ```
 
 ***
@@ -145,7 +145,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].sendBackward();
 ```
 
 ***
@@ -157,7 +157,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].moveDown();
 ```
 
 ***
@@ -169,7 +169,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].getZIndex()
 ```
 
 ***
@@ -181,7 +181,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setZIndex(0);
 ```
 
 ***
@@ -193,7 +193,7 @@ aaa
 aaa
 
 ```
-aaa
+engine.getNumberOfActorsWithinLayer(0, "" + "text")
 ```
 
 ***
