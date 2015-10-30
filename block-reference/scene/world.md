@@ -4,171 +4,185 @@
 
 ## Gravity
 
-### %0 gravity
+### Get Value of Gravity
 
 ![grav-xy](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/grav-xy.png)
 
-Horizontal (X) or Vertical (Y) world gravity.
+Returns the value of the Horizontal (X) or Vertical (Y) components of gravity. Gravity is a force that is applied to all actors (that are affected by it).
 
 ```
 getGravity().x
+getGravity().y
 ```
 
 ***
 
-### set gravity to ( xDir: %0 yDir: %1 )
+### Set Gravity
 
 ![setgrav](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/setgrav.png)
 
 Sets the world's gravity.
 
 ```
-setGravity(0, 0);
+setGravity([NUMBER], [NUMBER]);
 ```
 
 ***
 
 ## Tile API
 
-### tile %0
+### Tile [Width/Height]
 
 ![tile-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-wh.png)
 
-The current scene's tile width/height.
+Returns the current scene's tile width/height.
 
 ```
 getTileWidth()
+getTileHeight()
 ```
 
 ***
 
-### get %0 coordinate of %1 in scene
+### Convert to Tile Coordinates
 
 ![tile-coord-at](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-coord-at.png)
 
-Converts x/y coordinates to column/row in tile grid.
+Converts a coordinate from pixels (real location) to tiles. In other words, divides the coordinate by the tile width or height respectively.
 
 ```
-getTilePosition(0,0)
+getTilePosition(0, [NUMBER]) //x coordinate
+getTilePosition(1, [NUMBER]) //y coordinate
 ```
 
 ***
 
-### set tile at row: %0 col: %1 layer %2 : %3 using tileID: %5 from tilesetID: %4
+### Set a Tile
 
 ![set-tile-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/set-tile-at2.png)
 
-Sets a tile into the Scene at the given position.
+Sets a tile at the given position and layer.
 
 ```
-setTileAt(Std.int(0),Std.int(0),0,"" + "text",0,0);
+setTileAt([NUMBER], [NUMBER], 0, [TEXT], [NUMBER], [NUMBER]); //specify layer ID
+setTileAt([NUMBER], [NUMBER], 1, [TEXT], [NUMBER], [NUMBER]); //specify layer name
 ```
 
 ***
 
-### tile exists at row: %0 col: %1 layer %2 : %3
+### Does a Tile exist at location?
 
 ![tile-exists-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-exists-at2.png)
 
-Returns true if a tile exists at the given position.
+Returns `true` if any tile exists at the given position and layer.
 
 ```
-tileExistsAt(Std.int(0),Std.int(0),0,"" + "text")
+tileExistsAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
+tileExistsAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
-***
+*** 
 
-### ID for tile at row: %0 col: %1 layer %2 : %3
+### Get ID for Tile at location
 
 ![tileID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tileID-at2.png)
 
-The ID of the tile at the given position, or -1 if no tile found.
+Returns the ID of the tile at the given position and layer, or -1 if no tile found.
 
 ```
-getTileIDAt(Std.int(0), Std.int(0), 0, "" + "text")
+getTileIDAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
+getTileIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
-***
+*** 
 
-### tile collision shape found at row: %0 col: %1 layer %2 : %3
+### Does a solid tile exist at location?
 
 ![tileCollisionAt2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tileCollisionAt2.png)
 
-Returns true if ANY collision shape exists. If layer ID is a negative value, loops through all layers.
+Returns `true` if ANY collision shape exists. If layer ID is -1, loops through all layers.
 
 ```
-tileCollisionAt(Std.int(0),Std.int(0),0,"" + "text")
+tileCollisionAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
+tileCollisionAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
-***
+*** 
 
-### collision ID for tile at row: %0 col: %1 layer %2 : %3
+### Get Collision ID for tile at location
 
 ![tileColID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tileColID-at2.png)
 
-ID of the collision shape for the tile at this position, or -1 if no tile found.
+Returns the ID of the collision shape for the tile at this position and layer, or -1 if no tile found.
 
 ```
-getTileColIDAt(Std.int(0),Std.int(0),0,"" + "text")
+getTileColIDAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
+getTileColIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
 ***
 
-### ID for tile's tileset at row: %0 col: %1 layer %2 : %3
+### Get Tileset ID for tile at location
 
 ![tilesetID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tilesetID-at2.png)
 
-ID of the tileset for the tile at this position, or -1 if no tile found.
+ID of the tileset for the tile at this position and layer, or -1 if no tile found.
 
 ```
-getTilesetIDAt(Std.int(0),Std.int(0),0,"" + "text")
+getTilesetIDAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
+getTilesetIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
 ***
 
-### remove tile at row: %0 col: %1 layer %2 : %3
+### Remove tile at location
 
 ![remove-tile-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/remove-tile-at2.png)
 
 Remove tile at this position.
 
 ```
-removeTileAt(Std.int(0),Std.int(0),0,"" + "text");
+removeTileAt([NUMBER], [NUMBER], 0, [TEXT]); //specify layer ID
+removeTileAt([NUMBER], [NUMBER], 1, [TEXT]); //specify layer name
 ```
 
 ***
 
-### data for tile at row: %0 col: %1 layer %2 : %3
+### Get Metadata for tile at location
 
 ![tile-data-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-data-at2.png)
 
 Get data for tile at this position. Returns empty text if no tile found.
 
 ```
-getTileDataAt(Std.int(0),Std.int(0),0,"" + "text")
+getTileDataAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
+getTileDataAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer name
 ```
 
 ***
 
 ## Properties
 
-### scene %0
+### Scene [Width / Height]
 
 ![scene-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/scene-wh.png)
 
-The current scene's width/height in pixels/tiles.
+Returns the current scene's [width/height] in [pixels/tiles].
 
 ```
 (getSceneWidth())
+(getSceneHeight())
+(getSceneWidth()/getTileWidth())
+(getSceneHeight()/getTileHeight())
 ```
 
 ***
 
-### scene name
+### Scene Name
 
 ![scenename](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/scenename.png)
 
-The current scene's name.
+Returns the current scene's name.
 
 ```
 getCurrentSceneName()
