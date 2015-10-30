@@ -8,7 +8,7 @@
 
 ![get-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/getanim.png)
 
-aaa
+Returns the current animation for the actor.
 
 ```
 [ACTOR].getAnimation()
@@ -20,10 +20,10 @@ aaa
 
 ![switch-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setanim.png)
 
-aaa
+Changes the animation for the actor to the specified one.
 
 ```
-[ACTOR].setAnimation("" + "anim attribute");
+[ACTOR].setAnimation([ANIMATION]);
 ```
 
 ***
@@ -32,10 +32,10 @@ aaa
 
 ![get-text-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/string-to-anim.png)
 
-aaa
+Returns the Animation (within the actor) whose name matches the specified text.
 
 ```
-("" + "anything")
+([TEXT])
 ```
 
 ***
@@ -44,7 +44,7 @@ aaa
 
 ![is-playing-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/is-anim.png)
 
-aaa
+Returns `true` if the actor's current animation is still playing. This is only relevant for non-looping animations since looping ones will always return `true`.
 
 ```
 [ACTOR].isAnimationPlaying()
@@ -56,10 +56,10 @@ aaa
 
 ![set-frame-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-frame.png)
 
-aaa
+Sets the frame (by index) for the actor's current animation.
 
 ```
-[ACTOR].setCurrentFrame(Std.int(0));
+[ACTOR].setCurrentFrame([NUMBER]);
 ```
 
 ***
@@ -68,7 +68,7 @@ aaa
 
 ![get-frame-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-frame.png)
 
-aaa
+Returns the index of the current frame in the actor's current animation.
 
 ```
 [ACTOR].getCurrentFrame()
@@ -80,7 +80,7 @@ aaa
 
 ![get-num-frames-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-num-frames.png)
 
-aaa
+Returns the number of frames in the actor's current animation.
 
 ```
 [ACTOR].getNumFrames()
@@ -92,10 +92,10 @@ aaa
 
 ![get-frame-duration-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-frame-duration.png)
 
-aaa
+Returns the duration (in seconds) of the current frame in the actor's current animation.
 
 ```
-[ACTOR].currAnimation.getFrameDurations()[Std.int(0)]
+[ACTOR].currAnimation.getFrameDurations()[[NUMBER]]
 ```
 
 ***
@@ -104,10 +104,10 @@ aaa
 
 ![set-frame-duration-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-frame-duration.png)
 
-aaa
+Sets the duration (in seconds) of the current frame in the actor's current animation.
 
 ```
-[ACTOR].currAnimation.setFrameDuration(Std.int(0), Std.int(0));
+[ACTOR].currAnimation.setFrameDuration([NUMBER], [NUMBER]);
 ```
 
 ***
@@ -118,7 +118,7 @@ aaa
 
 ![get-layerid-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/getlayer.png)
 
-aaa
+Returns the ID of the layer that this actor is part of.
 
 ```
 [ACTOR].getLayerID()
@@ -130,10 +130,11 @@ aaa
 
 ![switch-layer-id-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setlayer2.png)
 
-aaa
+Changes an actor's layer by either specifying the Layer ID or Layer Name. You can find both pieces of info in the Scene Designer's Layers Pane.
 
 ```
-[ACTOR].moveToLayer(0, "" + "text");
+[ACTOR].moveToLayer(0, [TEXT]); //By Layer ID
+[ACTOR].moveToLayer(1, [TEXT]); //By Layer Name
 ```
 
 ***
@@ -142,31 +143,37 @@ aaa
 
 ![switch-layer-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/backforward.png)
 
-aaa
+A user-friendly way of making adjustments to an actor's layer. Can move to front/back/forward 1 layer/back 1 layer.
 
 ```
 [ACTOR].sendBackward();
+[ACTOR].bringForward();
+[ACTOR].sendToBack();
+[ACTOR].bringToFront();
 ```
 
 ***
 
-### Switch Order (within layer)
+### Switch Drawing Order (within layer)
 
 ![switch-order-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/movewithinlayer.png)
 
-aaa
+A user-friendly way of making adjustments to an actor's **drawing order** (z-order) within a layer. Can move to front/back/forward 1 layer/back 1 layer.
 
 ```
 [ACTOR].moveDown();
+[ACTOR].moveUp();
+[ACTOR].moveToBottom();
+[ACTOR].moveToTop();
 ```
 
 ***
 
-### Get Z-Order (within layer)
+### Get Drawing Order (within layer)
 
 ![get-order-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/zindex.png)
 
-aaa
+Returns an actor's **drawing order** (z-order) within its layer.
 
 ```
 [ACTOR].getZIndex()
@@ -174,14 +181,14 @@ aaa
 
 ***
 
-### Set Z-Order (within layer)
+### Set Drawing Order (within layer)
 
 ![set-order-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setzindex.png)
 
-aaa
+Sets an actor's **drawing order** (z-order) within its layer. This lets you make fine-tuned adjustments to layering without introducing a more layers to the game.
 
 ```
-[ACTOR].setZIndex(0);
+[ACTOR].setZIndex([NUMBER]);
 ```
 
 ***
@@ -190,10 +197,11 @@ aaa
 
 ![num-actors-layer-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/actorswithinlayer2.png)
 
-aaa
+Returns the number of actors in the specified actor's layer. Can specify by Layer ID or Layer Name. You can find both pieces of info in the Scene Designer's Layers Pane.
 
 ```
-engine.getNumberOfActorsWithinLayer(0, "" + "text")
+engine.getNumberOfActorsWithinLayer(0, [TEXT]) //by Layer ID
+engine.getNumberOfActorsWithinLayer(1, [TEXT]) //by Layer Name
 ```
 
 ***
