@@ -15,7 +15,7 @@
 aaa
 
 ```
-aaa
+[ACTOR].setBlendMode([BLEND MODE]);
 ```
 
 ***
@@ -29,7 +29,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].setFilter([[EFFECT]]);
 ```
 
 ***
@@ -41,7 +41,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR].clearFilters();
 ```
 
 ***
@@ -55,7 +55,7 @@ aaa
 aaa
 
 ```
-aaa
+createTintFilter([COLOR], [NUMBER]/100)
 ```
 
 ***
@@ -67,7 +67,7 @@ aaa
 aaa
 
 ```
-aaa
+createHueFilter([NUMBER])
 ```
 
 ***
@@ -79,7 +79,7 @@ aaa
 aaa
 
 ```
-aaa
+createSaturationFilter([NUMBER])
 ```
 
 ***
@@ -91,7 +91,7 @@ aaa
 aaa
 
 ```
-aaa
+createBrightnessFilter([NUMBER])
 ```
 
 ***
@@ -105,7 +105,7 @@ aaa
 aaa
 
 ```
-aaa
+createGrayscaleFilter()
 ```
 
 ***
@@ -117,7 +117,7 @@ aaa
 aaa
 
 ```
-aaa
+createNegativeFilter()
 ```
 
 ***
@@ -129,7 +129,7 @@ aaa
 aaa
 
 ```
-aaa
+createSepiaFilter()
 ```
 
 ***
