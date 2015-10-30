@@ -8,10 +8,12 @@
 
 ![kill-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/die.png)
 
-aaa
+Immediately kills the specified actor. 
+
+If killing the current actor from its own actor behavior, the remaining logic will continue to run. We recommending using the stop block to prevent errors from happening in this case.
 
 ```
-aaa
+recycleActor(__);
 ```
 
 ***
@@ -20,10 +22,10 @@ aaa
 
 ![kill-actor-later-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/kill-leave-screen.png)
 
-aaa
+Instructs the game to kill the actor if it exits the screen. This is useful for "bullets" and other temporary actors that aren't of much use to hold around once they're off the screen.
 
 ```
-aaa
+__.killSelfAfterLeavingScreen();
 ```
 
 ***
@@ -35,7 +37,7 @@ aaa
 aaa
 
 ```
-aaa
+__.isAlive()
 ```
 
 ***
@@ -49,7 +51,8 @@ aaa
 aaa
 
 ```
-aaa
+(__.getWidth())
+(__.getWidth())
 ```
 
 ***
@@ -63,7 +66,7 @@ aaa
 aaa
 
 ```
-aaa
+__.getType()
 ```
 
 ***
@@ -75,7 +78,7 @@ aaa
 aaa
 
 ```
-aaa
+__.getGroup()
 ```
 
 ***
@@ -87,7 +90,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR TYPE]
 ```
 
 ***
@@ -99,7 +102,7 @@ aaa
 aaa
 
 ```
-aaa
+[ACTOR GROUP]
 ```
 
 ***
@@ -111,7 +114,7 @@ aaa
 aaa
 
 ```
-aaa
+getActorTypeByName("text")
 ```
 
 ***
@@ -125,7 +128,7 @@ aaa
 aaa
 
 ```
-aaa
+__.makeAlwaysSimulate();
 ```
 
 ***
@@ -137,7 +140,7 @@ aaa
 aaa
 
 ```
-aaa
+makeActorNotPassThroughTerrain(__);
 ```
 
 ***
@@ -151,7 +154,7 @@ aaa
 aaa
 
 ```
-aaa
+__.addRectangularShape(0, 0, 0, 0);
 ```
 
 ***
@@ -163,7 +166,7 @@ aaa
 aaa
 
 ```
-aaa
+__.addCircularShape(0, 0, 0);
 ```
 
 ***
@@ -175,7 +178,10 @@ aaa
 aaa
 
 ```
-aaa
+var polygonActor:Actor = __;
+var vertices:Array<B2Vec2> = new Array<B2Vec2>();
+
+polygonActor.addPolygonalShape(vertices);
 ```
 
 ***
@@ -187,7 +193,7 @@ aaa
 aaa
 
 ```
-aaa
+polygonActor.addVertex(vertices, 0, 0);
 ```
 
 ***
@@ -199,7 +205,15 @@ aaa
 aaa
 
 ```
-aaa
+var shapeActor:Actor = __;
+if (shapeActor.physicsMode == 0) {
+	var body:B2Body = shapeActor.getBody();
+	var fixture:B2Fixture = body.getFixtureList();
+	while (fixture != null){
+		
+		fixture = fixture.getNext();
+	}
+}
 ```
 
 ***
@@ -211,7 +225,7 @@ aaa
 aaa
 
 ```
-aaa
+fixture.setSensor(true);
 ```
 
 ***
@@ -223,7 +237,7 @@ aaa
 aaa
 
 ```
-aaa
+body.DestroyFixture(fixture);
 ```
 
 ***
@@ -235,7 +249,7 @@ aaa
 aaa
 
 ```
-aaa
+Actor.scaleShape(fixture.getShape(), body.getLocalCenter(), 0 / 100);
 ```
 
 ***
@@ -249,7 +263,8 @@ aaa
 aaa
 
 ```
-aaa
+actor-set-prop
+__.setActorValue("text", "anything");
 ```
 
 ***
@@ -261,7 +276,7 @@ aaa
 aaa
 
 ```
-aaa
+__.getActorValue("text")
 ```
 
 ***
@@ -273,7 +288,7 @@ aaa
 aaa
 
 ```
-aaa
+asBoolean("anything")
 ```
 
 ***
@@ -285,7 +300,7 @@ aaa
 aaa
 
 ```
-aaa
+asNumber("anything")
 ```
 
 ***
@@ -297,7 +312,7 @@ aaa
 aaa
 
 ```
-aaa
+("" + "anything")
 ```
 
 ***
