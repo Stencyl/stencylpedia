@@ -8,7 +8,7 @@
 
 ![slide-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/moveToBy.png)
 
-aaa
+Slides (moves) the actor by the given distance (or to the given location) over the specified time.
 
 ```
 [ACTOR].moveBy([NUMBER], [NUMBER], [NUMBER], [EASING]);
@@ -23,7 +23,7 @@ aaa
 
 ![spin-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/spinToBy.png)
 
-aaa
+Spins (rotates) the actor [by / to] the given amount in degrees over the specified time. For the "to" case, it will always spin clockwise.
 
 ```
 [ACTOR].spinBy([NUMBER], [NUMBER], [EASING]);
@@ -38,7 +38,7 @@ aaa
 
 ![fade-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeInOut.png)
 
-aaa
+Fades the actor [in / out] over the specified time. This means that its opacity will either go to 100% (fade in) or 0% (fade out).
 
 ```
 [ACTOR].fadeTo(1, [NUMBER], [EASING]); //fade in
@@ -51,7 +51,7 @@ aaa
 
 ![fadeto-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeTo.png)
 
-aaa
+Sets the actor's opacity to the given amount (in percent) over the specified time. Amount must be between [0 - 100] inclusive.
 
 ```
 [ACTOR].fadeTo([NUMBER] / 100, [NUMBER], [EASING]);
@@ -65,7 +65,7 @@ aaa
 
 ![scale-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/scaleTo.png)
 
-aaa
+Resizes the actor's width and height (in percentage terms) over the specified time. Amounts are relative - 100% means original size, 200% means twice the size, 50% means half the size.
 
 ```
 [ACTOR].growTo([NUMBER]/100, [NUMBER]/100, [NUMBER], [EASING]);
