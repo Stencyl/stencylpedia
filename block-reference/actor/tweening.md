@@ -69,7 +69,7 @@ Sets the actor's opacity to the given amount (in percent) over the specified tim
 
 ![scale-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/scaleTo.png)
 
-Resizes the actor's width and height (in percentage terms) over the specified time. Amounts are relative - 100% means original size, 200% means twice the size, 50% means half the size.
+Resizes the actor's width and height (in percentage terms) over the specified time. Amounts are relative to the actor's original size -- 100% means original size, 200% means twice the size, 50% means half the size.
 
 ```
 [ACTOR].growTo([NUMBER]/100, [NUMBER]/100, [NUMBER], [EASING]);
