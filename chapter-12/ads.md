@@ -72,7 +72,7 @@ Check out our [Extensions Market](http://www.stencyl.com/developers/market/) and
 ## FAQ
 
 #### Why don’t the ad events fire for Android, but they do for iOS?
-This is currently a limitation and is the expected behavior at this time.
+This is currently a limitation and is the expected behavior at this time. **(Edit - As of Oct 31, 2015, event support has been added for Android ads. This will be available in the next public release after this date.)**
 
 #### AdMob on iOS?
 The aforementioned [extension](http://community.stencyl.com/index.php/topic,41376.0.html) that provides full AdMob support for Android also supports AdMob on iOS.
