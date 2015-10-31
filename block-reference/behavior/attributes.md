@@ -8,7 +8,7 @@
 
 ## For Actor
 
-### Get Attribute (for Actor)
+### <a name="get-attribute"></a> Get Attribute (for Actor)
 
 ![actor-get-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/get-attribute.png)
 
@@ -24,7 +24,7 @@ We strongly recommend clicking the dropdown arrow for the first blank and select
 
 ***
 
-### Set Attribute (for Actor)
+### <a name="set-attribute"></a> Set Attribute (for Actor)
 
 ![actor-set-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/set-attribute.png)
 
@@ -42,7 +42,7 @@ We strongly recommend clicking the dropdown arrow for the first blank and select
 
 ## For Scene
 
-### Get Attribute (for Scene)
+### <a name="scene-get-attribute"></a> Get Attribute (for Scene)
 
 ![scene-get-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/scene-get-attribute.png)
 
@@ -58,7 +58,7 @@ getValueForScene([TEXT], [TEXT])
 
 ***
 
-### Set Attribute (for Scene)
+### <a name="scene-set-attribute"></a> Set Attribute (for Scene)
 
 ![scene-get-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/scene-get-attribute.png)
 
