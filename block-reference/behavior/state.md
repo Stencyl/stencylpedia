@@ -4,7 +4,7 @@
 
 ## Is Enabled?
 
-### Is Behavior enabled? (for Actor)
+### <a name="is-snippet-enableda"></a> Is Behavior enabled? (for Actor)
 
 ![behavior-enabled-actor-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/is-snippet-enableda.png)
 
@@ -16,7 +16,7 @@ Returns `true` if the specified behavior (using its name) is enabled for the giv
 
 ***
 
-### Is Behavior enabled? (for Scene)
+### <a name="is-snippet-enabled"></a> Is Behavior enabled? (for Scene)
 
 ![behavior-enabled-scene-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/is-snippet-enabled.png)
 
@@ -30,7 +30,7 @@ isBehaviorEnabledForScene([TEXT])
 
 ## Enable / Disable
 
-### [Enable/Disable] Behavior for Actor
+### <a name="actor-enabledisable-snippet"></a> [Enable/Disable] Behavior for Actor
 
 ![behavior-enabled-scene-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/actor-enabledisable-snippet.png)
 
@@ -42,7 +42,7 @@ Enables (or disabled) the specified behavior (using its name) for the given Acto
 
 ***
 
-### [Enable/Disable] Behavior for Scene
+### <a name="scene-enabledisable-snippet"></a> [Enable/Disable] Behavior for Scene
 
 ![behavior-enabled-scene-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/scene-enabledisable-snippet.png)
 
@@ -54,7 +54,7 @@ enableBehaviorForScene([TEXT]);
 
 ***
 
-### Disable This Behavior
+### <a name="disable-snippet"></a> Disable This Behavior
 
 ![behavior-enabled-scene-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/disable-snippet.png)
 
@@ -70,7 +70,7 @@ disableThisBehavior();
 
 ## Has Behavior?
 
-### Does Actor have behavior?
+### <a name="has-snippet"></a> Does Actor have behavior?
 
 ![scene-has-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/has-snippet.png)
 
@@ -82,7 +82,7 @@ Returns `true` if the specified behavior (given the behavior name) exists for th
 
 ***
 
-### Does Scene have behavior?
+### <a name="scene-has-snippet"></a> Does Scene have behavior?
 
 ![actor-has-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/scene-has-snippet.png)
 
