@@ -4,7 +4,7 @@
 
 ## Monetization
 
-### Ads
+### <a name="event-mobile-ads"></a> Ads
 
 ![event-mobile-ads](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/14%20-%20Mobile/event-mobile-ads.png)
 
@@ -14,7 +14,7 @@ View our articles for [iOS](http://www.stencyl.com/help/view/iads/) and [Android
 
 ***
 
-### Purchases
+### <a name="event-mobile-purchases"></a> Purchases
 
 ![event-mobile-purchases](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/14%20-%20Mobile/event-mobile-purchases.png)
 
@@ -26,7 +26,7 @@ View our articles for [iOS](http://www.stencyl.com/help/view/ios-in-app-purchase
 
 ## Game Services
 
-### Game Center
+### <a name="event-mobile-gamecenter"></a> Game Center
 
 ![event-mobile-gamecenter](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/15%20-%20Mobile/event-mobile-gamecenter.png)
 
@@ -36,7 +36,7 @@ View our article on [Game Center](http://www.stencyl.com/help/view/ios-game-cent
 
 ***
 
-### Keyboard
+### <a name="event-mobile-keyboard"></a> Keyboard
 
 ![event-mobile-keyboard](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/15%20-%20Mobile/event-mobile-keyboard.png)
 
