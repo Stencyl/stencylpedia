@@ -8,7 +8,7 @@
 
 ## Modify
 
-### Set (Assign Key to Value)
+### <a name="set-map"></a> Set (Assign Key to Value)
 
 ![set-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/set-map.png)
 
@@ -20,7 +20,7 @@ map.set([TEXT], [VALUE]);
 
 ***
 
-### Remove Item (using Key)
+### <a name="remove-map"></a> Remove Item (using Key)
 
 ![remove-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/remove-map.png)
 
@@ -32,7 +32,7 @@ map.remove([TEXT]);
 
 ***
 
-### Remove All Items
+### <a name="empty-map"></a> Remove All Items
 
 ![empty-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/empty-map.png)
 
@@ -48,7 +48,7 @@ for(key in map.keys()) {
 
 ## Getters
 
-### Get (Value for Key)
+### <a name="key-value"></a> Get (Value for Key)
 
 ![get-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/key-value.png)
 
@@ -60,7 +60,7 @@ map.get("text")
 
 ***
 
-### Map has Key?
+### <a name="key-exists-map"></a> Map has Key?
 
 ![key-exists-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/key-exists-map.png)
 
@@ -72,7 +72,7 @@ map.exists([TEXT])
 
 ***
 
-### Map has Value?
+### <a name="value-exists-map"></a> Map has Value?
 
 ![value-exists-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/value-exists-map.png)
 
@@ -84,7 +84,7 @@ Utils.mapContainsValue(map, [VALUE])
 
 ***
 
-### Number of Items in Map
+### <a name="count-map"></a> Number of Items in Map
 
 ![size-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/count-map.png)
 
@@ -96,7 +96,7 @@ Utils.mapCount(map)
 
 ***
 
-### Map is Empty?
+### <a name="map-is-empty"></a> Map is Empty?
 
 ![is-empty-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/map-is-empty.png)
 
@@ -108,7 +108,7 @@ Utils.mapCount(map) == 0
 
 ***
 
-### [Keys / Values] of Map (as list)
+### <a name="map-as-list"></a> [Keys / Values] of Map (as list)
 
 ![list-keys-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/map-as-list.png)
 
@@ -123,7 +123,7 @@ Utils.mapToList(map, "values")
 
 ## Create / Copy
 
-### Create New Map
+### <a name="create-map"></a> Create New Map
 
 ![create-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/create-map.png)
 
@@ -135,7 +135,7 @@ new Map<String, Dynamic>()
 
 ***
 
-### Copy of Map
+### <a name="copy-map"></a> Copy of Map
 
 ![copy-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/copy-map.png)
 
@@ -149,7 +149,7 @@ Utils.copyMap(map)
 
 ## Looping
 
-### For Each Item in Map...
+### <a name="for-each-map"></a> For Each Item in Map...
 
 ![for-each-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/for-each-map.png)
 
@@ -157,7 +157,7 @@ Lets you perform logic on each item in the map. Use the embedded `item` block to
 
 ```
 for(item in map.keys()) {
-	[ACTION]
+  [ACTION]
 }
 ```
 
