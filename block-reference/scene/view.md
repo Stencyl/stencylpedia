@@ -126,7 +126,7 @@ setColorBackground([COLOR], [COLOR]);
 
 ![set-bg-speed](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-bg-speed.png)
 
-Changes the speed that the specified background layer scrolls at (must have already been a scrolling background).
+Changes the speed that the specified background layer (automatically) scrolls at. The layer must be designated as scrolling to begin with for this to work.
 
 ```
 setScrollSpeedForBackground(0, [TEXT], [NUMBER], [NUMBER]); //specify a layer ID
@@ -139,10 +139,11 @@ setScrollSpeedForBackground(1, [TEXT], [NUMBER], [NUMBER]); //specify a layer na
 
 ![set-layer-scrollfactor](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-layer-scrollfactor.png)
 
-Change the speed at which a layer scrolls, as a percentage of the baseline.
+Change the speed at which any layer scrolls, as a percentage of the baseline. In other words, 100% is the original value, 200% is twice as much and 50% is half as much.
 
 ```
-setScrollFactorForLayer(0, "" + "text", 0, 0); //specify a layer ID
+setScrollFactorForLayer(0, [TEXT], [NUMBER], [NUMBER]); //specify a layer ID
+setScrollFactorForLayer(0, [TEXT], [NUMBER], [NUMBER]); //specify a layer name
 ```
 
 ***
@@ -154,7 +155,11 @@ setScrollFactorForLayer(0, "" + "text", 0, 0); //specify a layer ID
 Shows/Hides the given layer.
 
 ```
-hideTileLayer(0, "" + "text"); //specify a layer ID
+showTileLayer(0, [TEXT]); //specify a layer ID
+showTileLayer(1, [TEXT]); //specify a layer name
+
+hideTileLayer(0, [TEXT]); //specify a layer ID
+hideTileLayer(1, [TEXT]); //specify a layer name
 ```
 
 ***
@@ -163,10 +168,11 @@ hideTileLayer(0, "" + "text"); //specify a layer ID
 
 ![fadeTo-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/fadeTo-layer2.png)
 
-Fades the given layer to the specified alpha (0 - 100%) over time.
+Fades the given layer to the specified opacity value (0 - 100%) over time.
 
 ```
-fadeTileLayerTo(0, "" + "text", 0/100, 0); //specify a layer ID
+fadeTileLayerTo(0, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer ID
+fadeTileLayerTo(1, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer name
 ```
 
 *** Set Blend Mode (for layer)
@@ -175,10 +181,11 @@ fadeTileLayerTo(0, "" + "text", 0/100, 0); //specify a layer ID
 
 ![set-blend-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-blend-layer2.png)
 
-Set Blend Mode for Layer (by ID or name)
+Set the [Blend Mode](http://www.stencyl.com/help/view/blending-modes/) for the specified layer.
 
 ```
-setBlendModeForLayer(0,"" + "text",BlendMode.ADD); //specify a layer ID
+setBlendModeForLayer(0, [TEXT], [BLEND MODE]); //specify a layer ID
+setBlendModeForLayer(1, [TEXT], [BLEND MODE]); //specify a layer name
 ```
 
 ***
@@ -190,7 +197,8 @@ setBlendModeForLayer(0,"" + "text",BlendMode.ADD); //specify a layer ID
 Change the image displayed in the specified background layer.
 
 ```
-changeBackgroundImage(0, "" + "text", image); //specify a layer ID
+changeBackgroundImage(0, [TEXT], [IMAGE]); //specify a layer ID
+changeBackgroundImage(1, [TEXT], [IMAGE]); //specify a layer name
 ```
 
 ***
@@ -201,10 +209,10 @@ changeBackgroundImage(0, "" + "text", image); //specify a layer ID
 
 ![create-bglayer-from-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/create-bglayer-from-bg.png)
 
-Add a new background layer.
+Add a new background layer. Provide the name, the name of the Background resource and the drawing order (z-order). 0 is the back, higher numbers display on top.
 
 ```
-addBackground("text", "text", 0); //specify a layer ID
+addBackground([TEXT], [TEXT], [NUMBER]);
 ```
 
 ***
@@ -213,10 +221,11 @@ addBackground("text", "text", 0); //specify a layer ID
 
 ![create-bglayer-from-image](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/create-bglayer-from-image.png)
 
-Add a new background layer using an image.
+Add a new background layer using an image. Provide the image, name and drawing order (z-order). 0 is the back, higher numbers display on top.
 
 ```
-addBackgroundFromImage(image, true, "text", 0); //specify a layer ID
+addBackgroundFromImage([IMAGE], true, [TEXT], [NUMBER]); //tiled background
+addBackgroundFromImage([IMAGE], false, [TEXT], [NUMBER]); //regular background
 ```
 
 ***
@@ -225,10 +234,11 @@ addBackgroundFromImage(image, true, "text", 0); //specify a layer ID
 
 ![remove-bglayer](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/remove-bglayer.png)
 
-Remove a background layer.
+Remove the specified background layer.
 
 ```
-removeBackground(0, "text"); //specify a layer ID
+removeBackground(0, [TEXT]); //specify a layer ID
+removeBackground(1, [TEXT]); //specify a layer name
 ```
 
 ***
@@ -239,10 +249,11 @@ removeBackground(0, "text"); //specify a layer ID
 
 ![set-layer-order](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-layer-order.png)
 
-Set the display order of the specified layer. 0 is the back, higher numbers are closer.
+Set the drawing order of the specified layer. 0 is the back, higher numbers display on top.
 
 ```
-engine.moveLayerToOrder(0, "text", 0); //specify a layer ID
+engine.moveLayerToOrder(0, [TEXT], [NUMBER]); //specify a layer ID
+engine.moveLayerToOrder(1, [TEXT], [NUMBER]); //specify a layer name
 ```
 
 ***
@@ -251,10 +262,11 @@ engine.moveLayerToOrder(0, "text", 0); //specify a layer ID
 
 ![get-layer-order](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/get-layer-order.png)
 
-Get the display order of the specified layer. 0 is the back, higher numbers are closer.
+Get the drawing order of the specified layer. 0 is the back, higher numbers display on top.
 
 ```
-engine.getOrderOfLayer(0, "text") //specify a layer ID
+engine.getOrderOfLayer(0, [TEXT]) //specify a layer ID
+engine.getOrderOfLayer(1, [TEXT]) //specify a layer name
 ```
 
 ***
