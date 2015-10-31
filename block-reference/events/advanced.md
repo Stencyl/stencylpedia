@@ -4,7 +4,7 @@
 
 ## Custom Events
 
-### when %0 happens
+### Custom Event
 
 ![event-custom](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/17%20-%20Advanced/event-custom.png)
 
