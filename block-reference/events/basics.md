@@ -2,7 +2,7 @@
 
 ***
 
-### When Creating
+### <a name="when-creating-event"></a> When Creating
 
 ![when-creating-event](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/0%20-%20Basics/init.png)
 
@@ -12,7 +12,7 @@ Happens just once -- when this behavior is first initialized. For an actor, this
 
 ***
 
-### When Drawing
+### <a name="when-drawing-event"></a> When Drawing
 
 ![when-drawing-event](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/0%20-%20Basics/draw.png)
 
@@ -20,7 +20,7 @@ All drawing code goes here. Happens once a frame.
 
 ***
 
-### When Updating
+### <a name="when-updatingevent"></a> When Updating
 
 ![when-updatingevent](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/0%20-%20Basics/step.png)
 
