@@ -4,7 +4,7 @@
 
 ## Print to Console
 
-### Print
+### <a name="print"></a> Print
 
 ![print-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/print.png)
 
@@ -18,7 +18,7 @@ print([ANYTHING]);
 
 ## Commenting
 
-### Comment (Single Line, Multiple Lines)
+### <a name="comment-short"></a><a name="comment-long"></a>  Comment (Single Line, Multiple Lines)
 
 ![comment-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/comment-short.png)<br/>
 ![comment-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/comment-long.png)
@@ -29,7 +29,7 @@ Comments let you mark up your behaviors. They are like sticky notes. They have n
 /* [ANYTHING] */
 ```
 
-### Comment (Wrapper)
+### <a name="comment-wrapper"></a> Comment (Wrapper)
 
 ![wrapper-comment-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/comment-wrapper.png)
 
@@ -44,7 +44,7 @@ This variant of comments wraps around a stack of blocks. It has no effect on the
 
 ## Drawing
 
-### Enable/Disable Debug Drawing
+### <a name="debug-draw"></a> Enable/Disable Debug Drawing
 
 ![debug-draw-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/debug-draw.png)
 
