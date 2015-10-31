@@ -8,7 +8,7 @@
 
 ## Blend Modes
 
-### Set Blend Mode
+### <a name="set-blend-actor"></a> Set Blend Mode
 
 ![blend-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/set-blend-actor.png)
 
@@ -22,7 +22,7 @@ This block sets an actor's blend mode. [Blend Modes](http://www.stencyl.com/help
 
 ## Add / Remove
 
-### Apply Effect
+### <a name="apply-filter"></a>Apply Effect
 
 ![apply-fx-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/apply-filter.png)
 
@@ -34,7 +34,7 @@ Applies the specified effect to the actor. Effects stack on each other in the or
 
 ***
 
-### Remove all Effects
+### <a name="clear-filter"></a>Remove all Effects
 
 ![remove-fx-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/clear-filter.png)
 
@@ -48,7 +48,7 @@ Removes all effects from the actor.
 
 ## Tint
 
-### Tint using Color
+### <a name="filter-tint"></a>Tint using Color
 
 ![tint-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-tint.png)
 
@@ -60,7 +60,7 @@ createTintFilter([COLOR], [NUMBER]/100)
 
 ***
 
-### Hue
+### <a name="filter-hsb"></a>Hue
 
 ![hue-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-hsb.png)
 
@@ -72,7 +72,7 @@ createHueFilter([NUMBER])
 
 ***
 
-### Saturation
+### <a name="filter-sat"></a>Saturation
 
 ![saturation-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-sat.png)
 
@@ -84,7 +84,7 @@ createSaturationFilter([NUMBER])
 
 ***
 
-### Brightness
+### <a name="filter-bright"></a>Brightness
 
 ![brightness-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-bright.png)
 
@@ -98,7 +98,7 @@ createBrightnessFilter([NUMBER])
 
 ## Other
 
-### Grayscale
+### <a name="filter-grayscale"></a>Grayscale
 
 ![grayscale-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-grayscale.png)
 
@@ -110,7 +110,7 @@ createGrayscaleFilter()
 
 ***
 
-### Negative
+### <a name="filter-negative"></a>Negative
 
 ![negative-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-negative.png)
 
@@ -122,7 +122,7 @@ createNegativeFilter()
 
 ***
 
-### Sepia
+### <a name="filter-sepia"></a>Sepia
 
 ![sepia-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/5%20-%20Effects/filter-sepia.png)
 
