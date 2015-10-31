@@ -96,7 +96,7 @@ continue;
 
 #### Example
 
-![return-example](http://static.stencyl.com/pedia2/block-images/extras/flow-loop-example1.png)
+![return-example](http://static.stencyl.com/pedia2/block-images/extras/flow-loop-example2.png)
 
 The loop prints out even numbers between [0-9], so this will print out [1 3 5 7 9].
 
