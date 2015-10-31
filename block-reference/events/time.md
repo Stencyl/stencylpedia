@@ -28,7 +28,6 @@ Runs the enclosed blocks every N seconds.
 
 Triggers whenever the game is [paused](http://www.stencyl.com/help/view/pausing/) or unpaused.
 
-```
 
 ***
 
