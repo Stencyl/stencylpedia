@@ -179,9 +179,8 @@ fadeTileLayerTo(0, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer ID
 fadeTileLayerTo(1, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer name
 ```
 
-*** Set Blend Mode (for layer)
-
-### set blend mode for layer with %0 : %1 to %2 [i:flash]
+*** 
+### Set Blend Mode (for layer)
 
 ![set-blend-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-blend-layer2.png)
 
