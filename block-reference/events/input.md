@@ -8,7 +8,7 @@
 
 ## Universal
 
-### Keyboard
+### <a name="event-key-press-release"></a> Keyboard
 
 ![event-key-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/1%20-%20Input/event-key-press-release.png)
 
@@ -16,7 +16,7 @@ Triggers when any [Control](http://www.stencyl.com/help/view/controls/) is press
 
 ***
 
-### Any Key
+### <a name="event-key-any-press-release"></a> Any Key
 
 ![event-key-any-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/1%20-%20Input/event-key-any-press-release.png)
 
@@ -30,7 +30,7 @@ The embedded `character` block tells you what letter, number or character was pr
 
 ***
 
-### Focus
+### <a name="event-focus-changed"></a> Focus
 
 ![event-focus-changed](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/1%20-%20Input/event-focus-changed.png)
 
@@ -40,7 +40,7 @@ Triggers when the game gains/loses focus. Useful for mobile apps for telling whe
 
 ## Universal (Works for Mouse & Touch)
 
-### (Mouse) Click
+### <a name="event-mouse-press-release"></a> (Mouse) Click
 
 ![event-mouse-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-press-release.png)
 
@@ -48,7 +48,7 @@ Triggers whenever the mouse pressed/released/moved/dragged. For mobile-devices, 
 
 ***
 
-### (Mouse) Click on Actor
+### <a name="event-mouse-enter-exit-actor"></a> (Mouse) Click on Actor
 
 ![event-mouse-enter-exit-actor](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-enter-exit-actor.png)
 
@@ -56,7 +56,7 @@ Triggers whenever the mouse enters/exits/presses/releases/drags on an actor. For
 
 ***
 
-### (Mouse) Click on Region
+### <a name="event-mouse-enter-exit-region"></a> (Mouse) Click on Region
 
 ![event-mouse-enter-exit-region](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-enter-exit-region.png)
 
@@ -66,7 +66,7 @@ Triggers whenever the mouse enters/exits/presses/releases/drags on a region. For
 
 ## Mobile-Only
 
-### Swipe
+### <a name="event-device-swipe"></a> Swipe
 
 ![event-device-swipe](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/3%20-%20Input/event-device-swipe.png)
 
@@ -74,7 +74,7 @@ Triggers whenever the device is swiped in the specified direction.
 
 ***
 
-### Multi-Touch
+### <a name="event-device-multitouch"></a> Multi-Touch
 
 ![event-device-multitouch](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/3%20-%20Input/event-device-multitouch.png)
 
@@ -86,7 +86,7 @@ Useful for on-screen virtual buttons (use the **On Screen Button** that we [ship
 
 ## Desktop-Only
 
-### Any Button (Gamepad)
+### <a name="event-gamepad-any-press-release"></a> Any Button (Gamepad)
 
 ![event-gamepad-any-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/4%20-%20Input/event-gamepad-any-press-release.png)
 
