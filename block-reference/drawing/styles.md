@@ -4,7 +4,7 @@
 
 ## Color and Font
 
-### Create Color (from RGB)
+### <a name="rgb-to-color"></a> Create Color (from RGB)
 
 ![rgb-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/rgb-to-color.png)
 
@@ -16,7 +16,7 @@ Utils.getColorRGB([NUMBER], [NUMBER], [NUMBER])
 
 ***
 
-### Set Color
+### <a name="set-color"></a> Set Color
 
 ![set-color-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-color.png)
 
@@ -28,7 +28,7 @@ g.fillColor = [COLOR];
 
 ***
 
-### Set Font
+### <a name="set-font-new"></a> Set Font
 
 ![set-font-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-font-new.png)
 
@@ -42,7 +42,7 @@ g.setFont([FONT]);
 
 ## Opacity
 
-### Set Opacity
+### <a name="set-alpha"></a> Set Opacity
 
 ![set-opacity-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-alpha.png)
 
@@ -56,7 +56,7 @@ g.alpha = ([NUMBER]/100);
 
 ## Stroke
 
-### Set Stroke Color
+### <a name="set-stroke-color"></a> Set Stroke Color
 
 ![set-stroke-color-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-stroke-color.png)
 
@@ -68,7 +68,7 @@ g.strokeColor = [COLOR];
 
 ***
 
-### Set Stroke Thickness
+### <a name="set-thickness"></a> Set Stroke Thickness
 
 ![set-stroke-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-thickness.png)
 
@@ -82,7 +82,7 @@ g.strokeSize = [NUMBER];
 
 ## Font Width
 
-### Get Width of Text for Current Font
+### <a name="get-font-width"></a> Get Width of Text for Current Font
 
 ![get-font-width-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width.png)
 
@@ -94,7 +94,7 @@ g.font.font.getTextWidth([TEXT])
 
 ***
 
-### Get Width of Text for Specific Font
+### <a name="get-font-width2-new"></a> Get Width of Text for Specific Font
 
 ![get-font-width-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width2-new.png)
 
@@ -108,7 +108,7 @@ Returns the width of the specified text using the given font. Useful for calcula
 
 ## Font Height
 
-### Get Height for Current Font
+### <a name="get-font-height"></a> Get Height for Current Font
 
 ![get-font-height-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height.png)
 
@@ -120,7 +120,7 @@ g.font.getHeight()
 
 ***
 
-### Get Height for Specific Font
+### <a name="get-font-height2-new"></a> Get Height for Specific Font
 
 ![get-font-height-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height2-new.png)
 
