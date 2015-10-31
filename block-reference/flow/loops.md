@@ -18,7 +18,7 @@ for(index0 in 0...[NUMBER]) {
 
 #### Example
 
-![loop-count-example](http://static.stencyl.com/pedia2/blocks/flow/flow_looping/DefiniteLoopExample1.png)
+![loop-count-example](http://static.stencyl.com/pedia2/block-images/extras/flow-loop-example1.png)
 
 Prints out [0 1 2 3 4].
 
@@ -54,18 +54,19 @@ while(![BOOLEAN]) {
 
 #### Example
 
-![repeat-example](http://static.stencyl.com/pedia2/blocks/flow/flow_looping/IndefiniteLoopExample2.png)
+![repeat-example](http://static.stencyl.com/pedia2/blocks-images/extras/flow-loop-fibonacci.png.png)
 
-This will add the current loop count to the running sum, until the sum is greater than 10.
+This will calculate Fibonacci sequence numbers until the current number is greater than 10.
 
-Loop Count | Sums | Answer
+Loop Count | Result | Answer
 --- | --- | ---
-0 | 0 | 0
-1 | 0 + 1 | 1
-2 | 0 + 1 + 2 | 3
-3 | 0 + 1 + 2 + 3 | 6
-4 | 0 + 1 + 2 + 3 + 4 | 10
-5 | 0 + 1 + 2 + 3 + 4 + 5 | 15 <-- Greater than 10, stop looping.
+Prev | 1 | -
+Curr | 1 | -
+1 | 1 + 1 = 2 | 2
+2 | 1 + 2 = 3 | 3
+3 | 2 + 3 = 5 | 5
+4 | 3 + 5 = 8 | 8
+5 | 5 + 8 = 13 | 13 <-- Greater than 10, stop looping.
 
 ***
 
@@ -95,7 +96,7 @@ continue;
 
 #### Example
 
-![return-example](http://static.stencyl.com/pedia2/blocks/flow/flow_looping/StoppingExample3.png)
+![return-example](http://static.stencyl.com/pedia2/block-images/extras/flow-loop-example1.png)
 
 The loop prints out even numbers between [0-9], so this will print out [1 3 5 7 9].
 
