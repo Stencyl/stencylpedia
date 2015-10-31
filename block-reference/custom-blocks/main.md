@@ -8,7 +8,7 @@
 
 ## Return Values
 
-### Return
+### <a name="return"></a> Return
 
 ![return-block](http://static.stencyl.com/pedia2/block-images/11%20-%20Custom/0%20-%20Custom/return.png)
 
