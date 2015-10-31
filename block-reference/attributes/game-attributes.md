@@ -8,7 +8,7 @@
 
 ## Game Attribute Getter / Setter
 
-### Get Game Attribute
+### <a name="get-game-att"></a> Get Game Attribute
 
 ![get-gameatt-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/2%20-%20Game%20Attributes/get-game-att.png)
 
@@ -19,6 +19,8 @@ Gets the value of the specified game attribute (using its name).
 ```
 
 ***
+
+### <a name="set-game-att"></a> Set Game Attribute
 
 ![set-gameatt-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/2%20-%20Game%20Attributes/set-game-att.png)
 
