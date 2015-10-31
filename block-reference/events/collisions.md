@@ -2,7 +2,7 @@
 
 ***
 
-> Read our [Collisions](http://www.stencyl.com/help/view/collisions-and-groups/) for an explanation of these events.
+> Read our [Collisions article](http://www.stencyl.com/help/view/collisions-and-groups/) for an explanation of these events.
 
 ***
 
