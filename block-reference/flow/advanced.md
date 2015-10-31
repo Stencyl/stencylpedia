@@ -4,7 +4,7 @@
 
 ## Code
 
-### Code Block (Single Line, Multi Line)
+### <a name="code-long"></a> Code Block (Single Line, Multi Line)
 
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/custom-code.png)<br/>
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-long.png)
@@ -13,7 +13,7 @@ Lets you embed code into your Behavior. Can be used in many ways. Particularly u
 
 ***
 
-### Code Block (Inline)
+### <a name="custom-code"></a> Code Block (Inline)
 
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-short.png)
 
@@ -23,7 +23,7 @@ Lets you embed a fragment of code into a block field.
 
 ## Constants
 
-### Current Scale
+### <a name="engine-scale"></a> Current Scale
 
 ![scale-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/engine-scale.png)
 
@@ -35,7 +35,7 @@ Engine.SCALE
 
 ***
 
-### Game URL
+### <a name="game-url"></a> Game URL
 
 ![game-url-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/game-url.png)
 
@@ -47,7 +47,7 @@ gameURL()
 
 ***
 
-### Step Size
+### <a name="stepsize"></a> Step Size
 
 ![step-size-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/stepsize.png)
 
@@ -61,7 +61,7 @@ getStepSize()
 
 ## Platforms
 
-### Running on [PLATFORM]
+### <a name="is-platform"></a> Running on [PLATFORM]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-platform.png)
 
@@ -83,7 +83,7 @@ Returns `true` if the game is running on the selected platform.
 #if(PLATFORM) true #else false #end
 ```
 
-### Running on [SPECIFIC IOS DEVICE]
+### <a name="is-device2"></a> Running on [SPECIFIC IOS DEVICE]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-device2.png)
 
@@ -106,7 +106,7 @@ Returns `true` if the game is running on the selected kind of iOS device. Useful
 
 ***
 
-### Do only on [PLATFORM]
+### <a name="do-on-platform"></a> Do only on [PLATFORM]
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/do-on-platform.png)
 
@@ -132,7 +132,7 @@ Include the wrapped blocks only on the specified platform. On other platforms, t
 
 ***
 
-### Exit Game
+### <a name="exit-game"></a> Exit Game
 
 ![exit-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/exit-game.png)
 
@@ -148,7 +148,7 @@ exitGame();
 
 These blocks are deprecated. We now recommend handling [atlases](http://www.stencyl.com/help/view/mobile-atlases/) entirely using the Atlas page.
 
-### Load/Unload Atlas
+### <a name="load-unload-atlas"></a> Load/Unload Atlas
 
 ![atlas-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/load-unload-atlas.png)
 
@@ -161,7 +161,7 @@ unloadAtlas([NUMBER]);
 
 ***
 
-### Is Atlas Loaded?
+### <a name="atlas-loaded"></a> Is Atlas Loaded?
 
 ![atlas-check-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/atlas-loaded.png)
 
