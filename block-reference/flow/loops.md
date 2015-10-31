@@ -62,11 +62,11 @@ Loop Count | Result | Answer
 --- | --- | ---
 Prev | 1 | -
 Curr | 1 | -
-1 | 1 + 1 = 2 | 2
-2 | 1 + 2 = 3 | 3
-3 | 2 + 3 = 5 | 5
-4 | 3 + 5 = 8 | 8
-5 | 5 + 8 = 13 | 13 <-- Greater than 10, stop looping.
+1 | 1 + 1 | 2
+2 | 1 + 2 | 3
+3 | 2 + 3 | 5
+4 | 3 + 5 | 8
+5 | 5 + 8 | 13 <-- Greater than 10, stop looping.
 
 ***
 
