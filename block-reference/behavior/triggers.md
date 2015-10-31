@@ -8,7 +8,7 @@
 
 ## For Actor
 
-### Trigger Event in Specific Behavior (for Actor)
+### <a name="say"></a> Trigger Event in Specific Behavior (for Actor)
 
 ![say-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/say.png)
 
@@ -20,7 +20,7 @@ Triggers the custom event for a specific behavior that is attached to the specif
 
 ***
 
-### Trigger Event in All Behaviors (for Actor)
+### <a name="shout"></a> Trigger Event in All Behaviors (for Actor)
 
 ![shout-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/shout.png)
 
@@ -34,7 +34,7 @@ Triggers the custom event for all behaviors that are attached to the specified a
 
 ## For Scene
 
-### Trigger Event in Specific Behavior (for Scene)
+### <a name="scene-say"></a> Trigger Event in Specific Behavior (for Scene)
 
 ![say-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/scene-say.png)
 
@@ -46,7 +46,7 @@ sayToScene([TEXT], "_customEvent_" + [TEXT]);
 
 ***
 
-### Trigger Event in All Behaviors (for Scene)
+### <a name="scene-shout"></a> Trigger Event in All Behaviors (for Scene)
 
 ![shout-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/scene-shout.png)
 
@@ -60,7 +60,7 @@ shoutToScene("_customEvent_" + [TEXT]);
 
 ## For Both
 
-### Trigger Event (Global)
+### <a name="say-this"></a> Trigger Event (Global)
 
 ![global-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/say-this.png)
 
