@@ -44,7 +44,7 @@ Triggers when the game gains/loses focus. Useful for mobile apps for telling whe
 
 ![event-mouse-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-press-release.png)
 
-Triggers whenever the mouse pressed/released/moved/dragged.
+Triggers whenever the mouse pressed/released/moved/dragged. For mobile-devices, triggers whenever a finger touches, releases or is dragged around the screen.
 
 ***
 
@@ -52,7 +52,7 @@ Triggers whenever the mouse pressed/released/moved/dragged.
 
 ![event-mouse-enter-exit-actor](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-enter-exit-actor.png)
 
-Triggers whenever the mouse enters/exits/presses/releases/drags on an actor.
+Triggers whenever the mouse enters/exits/presses/releases/drags on an actor. For mobile-devices, triggers whenever a finger touches, releases or drags an actor.
 
 ***
 
@@ -60,7 +60,7 @@ Triggers whenever the mouse enters/exits/presses/releases/drags on an actor.
 
 ![event-mouse-enter-exit-region](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-enter-exit-region.png)
 
-Triggers whenever the mouse enters/exits/presses/releases/drags on a region.
+Triggers whenever the mouse enters/exits/presses/releases/drags on a region. For mobile-devices, triggers whenever a finger touches, releases or drags a region.
 
 ***
 
@@ -90,6 +90,8 @@ Useful for on-screen virtual buttons (use the **On Screen Button** that we [ship
 
 ![event-gamepad-any-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/4%20-%20Input/event-gamepad-any-press-release.png)
 
-Triggers when any gamepad button pressed/released. Read our [Gamepad article](http://www.stencyl.com/help/view/gamepads/) for further details -- you are not meant to use this to implement gamepad controls, only to detect what controls to map to.
+Triggers when any gamepad button pressed/released. 
+
+Read our [Gamepad article](http://www.stencyl.com/help/view/gamepads/) for further details -- you are not meant to use this to implement gamepad controls, only to detect what controls to map to or to build a control configuration component.
 
 ***
