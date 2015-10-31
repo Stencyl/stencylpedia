@@ -4,7 +4,7 @@
 
 ## Delayed
 
-### Do after [N] seconds
+### <a name="dolater"></a> Do after [N] seconds
 
 ![do-after-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/dolater.png)
 
@@ -22,7 +22,7 @@ runLater(1000 * [NUMBER], function(task:TimedTask):Void {
 
 ## Periodic
 
-### Do every [N] seconds
+### <a name="periodic"></a> Do every [N] seconds
 
 ![do-every-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/periodic.png)
 
@@ -43,7 +43,7 @@ runPeriodically(1000 * [NUMBER], function(task:TimedTask):Void {
 `do-after` and `do-every` can be combined together. In this example, we implement a "blinking" effect by alternating the actor between hidden and not-hidden, without relying on a variable to store state.
 
 
-### Cancel
+### <a name="cancel"></a> Cancel
 
 ![cancel-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/cancel.png)
 
