@@ -2,7 +2,7 @@
 
 ***
 
-Read our article on [Backgrounds](http://www.stencyl.com/help/view/backgrounds-and-foregrounds/) and [Camera](http://www.stencyl.com/help/view/the-camera/) for an explanation of some of these blocks.
+> Read our article on [Backgrounds](http://www.stencyl.com/help/view/backgrounds-and-foregrounds/) and [Camera](http://www.stencyl.com/help/view/the-camera/) for an explanation of some of these blocks.
 
 ***
 
