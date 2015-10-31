@@ -8,7 +8,7 @@
 
 ## Add / Insert
 
-### Add Item to List
+### <a name="add-list"></a> Add Item to List
 
 ![add-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/add-list.png)
 
@@ -20,7 +20,7 @@ list.push([VALUE]);
 
 ***
 
-### Insert Item into List
+### <a name="insert-list"></a> Insert Item into List
 
 ![insert-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/insert-list.png)
 
@@ -34,7 +34,7 @@ list.insert([NUMBER], [VALUE]);
 
 ## Remove
 
-### Remove Item from List
+### <a name="remove-item"></a> Remove Item from List
 
 ![remove-item-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/remove-item.png)
 
@@ -46,7 +46,7 @@ list.remove([VALUE]);
 
 ***
 
-### Remove Item from Index
+### <a name="remove-index"></a> Remove Item from Index
 
 ![remove-index-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/remove-index.png)
 
@@ -58,7 +58,7 @@ list.splice([NUMBER], 1);
 
 ***
 
-### Empty out List
+### <a name="clear-list"></a> Empty out List
 
 ![empty-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/clear-list.png)
 
@@ -72,7 +72,7 @@ Utils.clear(list);
 
 ## Replace
 
-### Replace Item in List
+### <a name="replace-list"></a> Replace Item in List
 
 ![replace-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/replace-list.png)
 
@@ -86,7 +86,7 @@ list[[NUMBER]] = [VALUE];
 
 ## Getters
 
-### Get Item from Index
+### <a name="get-item"></a> Get Item from Index
 
 ![get-index-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/get-item.png)
 
@@ -98,7 +98,7 @@ list[[NUMBER]]
 
 ***
 
-### List contains Item?
+### <a name="contains-item"></a> List contains Item?
 
 ![contains-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/contains-item.png)
 
@@ -110,7 +110,7 @@ Utils.contains(list, [VALUE])
 
 ***
 
-### List Size
+### <a name="length-list"></a> List Size
 
 ![size-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/length-list.png)
 
@@ -122,7 +122,7 @@ list.length
 
 ***
 
-### Is List Empty?
+### <a name="is-empty"></a> Is List Empty?
 
 ![is-empty-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/is-empty.png)
 
@@ -136,7 +136,7 @@ Returns `true` if the list contains no items.
 
 ## Create / Copy
 
-### Create New List
+### <a name="create-list"></a> Create New List
 
 ![create-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/create-list.png)
 
@@ -148,7 +148,7 @@ new Array<Dynamic>()
 
 ***
 
-### Copy of List
+### <a name="copy-list"></a> Copy of List
 
 ![copy-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/copy-list.png)
 
@@ -162,7 +162,7 @@ list.copy()
 
 ## Looping
 
-### For Each Item in List
+### <a name="for-each"></a> For Each Item in List
 
 ![loop-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/for-each.png)
 
