@@ -4,7 +4,7 @@
 
 ## Operations
 
-### Tween a Number Attribute
+### <a name="tween-number"></a> Tween a Number Attribute
 
 ![tween-number-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/tween-number.png)
 
@@ -16,7 +16,7 @@ Actuate.tween(this, [NUMBER], {[TEXT]:[NUMBER]}).ease([EASING]);
 
 ***
 
-### Has Value?
+### <a name="value"></a> Has Value?
 
 ![value-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/value.png)
 
@@ -28,7 +28,7 @@ Returns `true` if the given attribute has a value (is not "null" or "empty").
 
 ***
 
-### Clear Value of Attributes
+### <a name="clear"></a> Clear Value of Attributes
 
 ![clear-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/clear.png)
 
