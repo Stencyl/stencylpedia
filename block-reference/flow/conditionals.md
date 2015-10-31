@@ -4,7 +4,7 @@
 
 ## Conditionals
 
-### If
+### <a name="if"></a> If
 
 ![if-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/if.png)
 
@@ -18,7 +18,7 @@ if([BOOLEAN]) {
 
 ***
 
-### Otherwise
+### <a name="else"></a> Otherwise
 
 ![otherwise-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/else.png)
 
@@ -32,7 +32,7 @@ else {
 
 ***
 
-### Otherwise If
+### <a name="else-if"></a> Otherwise If
 
 ![otherwise-if-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/else-if.png)
 
@@ -52,7 +52,7 @@ else if([BOOLEAN]) {
 
 Booleans (denoted by a hexagon shape) are conditions that resolve to `true` or `false`.
 
-### And
+### <a name="and"></a> And
 
 ![and-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/and.png)
 
@@ -64,7 +64,7 @@ Returns `true` if both of the provided conditions are `true`.
 
 ***
 
-### Or
+### <a name="or"></a> Or
 
 ![or-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/or.png)
 
@@ -76,7 +76,7 @@ Returns `true` if at least one of the provided conditions is `true`. If the firs
 
 ***
 
-### Not
+### <a name="not"></a> Not
 
 ![not-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/not.png)
 
@@ -88,7 +88,7 @@ Returns `true` if the condition resolves to `false`.
 
 ***
 
-### True / False
+### <a name="true"></a><a name="false"></a>  True / False
 
 ![true-false-blocks](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/true.png) ![true-false-blocks](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/false.png)
 
@@ -96,7 +96,7 @@ Literal values of `true` and `false`.
 
 ***
 
-### Boolean Conversion
+### <a name="as-boolean"></a> Boolean Conversion
 
 ![boolean-convert-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/as-boolean.png)
 
@@ -110,7 +110,7 @@ asBoolean([VALUE])
 
 ## Equality
 
-### Equals
+### <a name="eq"></a> Equals
 
 ![equals-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/eq.png)
 
@@ -122,7 +122,7 @@ Returns `true` if both values are equal.
 
 ***
 
-### Not Equal
+### <a name="noteq"></a> Not Equal
 
 ![not-equals-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/noteq.png)
 
@@ -133,6 +133,8 @@ Returns `true` if the values are not equal.
 ```
 
 ***
+
+<a name="less"></a> <a name="lesseq"></a> <a name="more"></a> <a name="moreeq"></a> 
 
 ### Comparators
 
