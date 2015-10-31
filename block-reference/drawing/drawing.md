@@ -4,7 +4,7 @@
 
 ## Basic
 
-### Draw Text
+### <a name="draw-text"></a> Draw Text
 
 ![draw-text-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-text.png)
 
@@ -16,7 +16,7 @@ g.drawString([TEXT], [NUMBER], [NUMBER]);
 
 ***
 
-### Draw Line
+### <a name="draw-line"></a> Draw Line
 
 ![draw-line-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-line.png)
 
@@ -28,7 +28,7 @@ g.drawLine([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ***
 
-### Fill Pixel
+### <a name="draw-pixel"></a> Fill Pixel
 
 ![fill-pixel-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-pixel.png)
 
@@ -42,7 +42,7 @@ g.fillPixel([NUMBER], [NUMBER]);
 
 ## Actor Drawing
 
-### Draw Image for Actor
+### <a name="draw-image-actor"></a> Draw Image for Actor
 
 ![draw-actor-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/draw-image-actor.png)
 
@@ -64,7 +64,7 @@ Draws the following.
 
 ## Rectangles
 
-### Draw Rectangle
+### <a name="drawfill-rect"></a> Draw Rectangle
 
 ![draw-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-rect.png)
 
@@ -76,7 +76,7 @@ g.drawRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ***
 
-### Draw Rounded Rectangle
+### <a name="drawfill-roundrect"></a> Draw Rounded Rectangle
 
 ![draw-round-rect-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-roundrect.png)
 
@@ -90,7 +90,7 @@ g.drawRoundRect([NUMBER], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ## Circles
 
-### Draw Circle
+### <a name="drawfill-circle"></a> Draw Circle
 
 ![draw-circle-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-circle.png)
 
@@ -104,7 +104,7 @@ g.drawCircle([NUMBER], [NUMBER], [NUMBER]);
 
 ## Polygons
 
-### Draw Polygon
+### <a name="drawfill-poly"></a> Draw Polygon
 
 ![draw-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/drawfill-poly.png)
 
@@ -118,7 +118,7 @@ g.endDrawingPolygon();
 
 ***
 
-### Add Point to Polygon
+### <a name="add-to-poly"></a> Add Point to Polygon
 
 ![add-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/add-to-poly.png)
 
