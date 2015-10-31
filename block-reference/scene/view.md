@@ -143,7 +143,7 @@ Change the speed at which any layer scrolls, as a percentage of the baseline. In
 
 ```
 setScrollFactorForLayer(0, [TEXT], [NUMBER], [NUMBER]); //specify a layer ID
-setScrollFactorForLayer(0, [TEXT], [NUMBER], [NUMBER]); //specify a layer name
+setScrollFactorForLayer(1, [TEXT], [NUMBER], [NUMBER]); //specify a layer name
 ```
 
 ***
