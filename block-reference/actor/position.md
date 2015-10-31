@@ -4,7 +4,7 @@
 
 ## Position
 
-### Get Position
+### <a name="get-xy"></a> Get Position
 
 ![position-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/get-xy.png)
 
@@ -17,7 +17,7 @@ Gets the current [X / Y] position of the actor.
 
 ***
 
-### Set Position
+### <a name="set-xy"></a> Set Position
 
 ![set-position-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/set-xy.png)
 
@@ -30,7 +30,7 @@ Sets the [X, Y] position of the actor.
 
 ***
 
-### Actor is on screen?
+### <a name="isonscreen"></a> Actor is on screen?
 
 ![isonscreen-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/isonscreen.png)
 
@@ -44,7 +44,7 @@ Returns `true` if the specified actor is at least partially on screen.
 
 ## Direction
 
-### Get Direction (Angle)
+### <a name="getdir"></a> Get Direction (Angle)
 
 ![direction-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/getdir.png)
 
@@ -56,7 +56,7 @@ Utils.DEG * ([ACTOR].getAngle())
 
 ***
 
-### Set Direction (Angle)
+### <a name="setangle"></a> Set Direction (Angle)
 
 ![set-direction-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/setangle.png)
 
@@ -68,7 +68,7 @@ Sets the actor's direction (angle), in degrees. 0 degrees -> facing right. 90 de
 
 ***
 
-### Turn Clockwise
+### <a name="rotate"></a> Turn Clockwise
 
 ![turncw-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/rotate.png)
 
@@ -80,7 +80,7 @@ Instantly rotates the the actor clockwise by the given number of degrees.
 
 ***
 
-### Turn Counter Clockwise
+### <a name="rotate2"></a> Turn Counter Clockwise
 
 ![turnccw-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/rotate2.png)
 
