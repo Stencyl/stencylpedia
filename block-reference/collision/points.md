@@ -4,7 +4,7 @@
 
 ## Loop Over Each Point
 
-### For each collision point
+### <a name="collision-foreach"></a> For each collision point
 
 ![foreachpoint-block](http://static.stencyl.com/pedia2/blocks/collision/collisionpoints/ForEachPoint.png)
 
@@ -18,7 +18,7 @@ for(point in event.points) {
 
 ***
 
-### Collision Point
+### <a name="collision-xynxy"></a> Collision Point
 
 ![point-block](http://static.stencyl.com/pedia2/blocks/collision/collisionpoints/Point.png)
 
@@ -31,7 +31,7 @@ Engine.toPixelUnits(point.y)
 
 ***
 
-### Get Data for Collided Tile
+### <a name="tile-data-for-collision"></a> Get Data for Collided Tile
 
 ![data-block](http://static.stencyl.com/pedia2/blocks/collision/collisionpoints/TileData.png)
 
