@@ -2,7 +2,7 @@
 
 ***
 
-> The following blocks are useful if you want to build a behavior that can get/set game attributes by name, using a text attribute or other means. Can also be useful as a general way of storing data (pass in a name that isn't used), without specifying it in the toolset. For regular usage, we recommend sticking to the blocks that Stencyl auto-generates for your [Game Attributes](http://www.stencyl.com/help/view/game-attributes/).
+> The following blocks are useful if you want to build a behavior that can get/set game attributes by name, using a text attribute or other means. They can also be useful as a general way of storing data (pass in a name that isn't used), without specifying it in the toolset. For regular usage, we recommend sticking to the blocks that Stencyl auto-generates for your [Game Attributes](http://www.stencyl.com/help/view/game-attributes/).
 
 ***
 
