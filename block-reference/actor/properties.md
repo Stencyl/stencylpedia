@@ -242,7 +242,7 @@ body.DestroyFixture(fixture);
 Resizes the collision shape in percentage terms, relative to the original size (100%). Must be used within the `for each collision shape` block above.
 
 ```
-Actor.scaleShape(fixture.getShape(), body.getLocalCenter(), 0 / 100);
+Actor.scaleShape(fixture.getShape(), body.getLocalCenter(), [NUMBER] / 100);
 ```
 
 ***
