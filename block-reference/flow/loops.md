@@ -54,7 +54,7 @@ while(![BOOLEAN]) {
 
 #### Example
 
-![repeat-example](http://static.stencyl.com/pedia2/blocks-images/extras/flow-loop-fibonacci.png.png)
+![repeat-example](http://static.stencyl.com/pedia2/blocks-images/extras/flow-loop-fibonacci.png)
 
 This will calculate Fibonacci sequence numbers until the current number is greater than 10.
 
