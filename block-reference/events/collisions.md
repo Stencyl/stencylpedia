@@ -12,7 +12,7 @@
 
 ![collide](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/10%20-%20Collisions/collide.png)
 
-Triggers when this actor collides with any another actor.
+Triggers when this actor collides with any other actor.
 
 ***
 
@@ -24,7 +24,7 @@ Triggers when this actor collides with any another actor.
 
 ![event-collide-actortoactor](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/11%20-%20Collisions/event-collide-actortoactor.png)
 
-Triggers when the specified actor collides with any another actor. For example, you could use this to detect a switch being pressed.
+Triggers when the specified actor collides with any other actor. For example, you could use this to detect a switch being pressed.
 
 ***
 
