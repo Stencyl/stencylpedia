@@ -16,7 +16,7 @@ You can refer to Actor 1 and Actor 2 directly using the blocks embedded in the e
 
 ## Collision Side
 
-### [Top/Left/Bottom/Right] Side was Hit
+### <a name="collision-top"></a> [Top/Left/Bottom/Right] Side was Hit
 
 ![collision-side-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Side.png)
 
@@ -38,7 +38,7 @@ event.otherFromRight
 
 ## Collision Details
 
-### Group of Colliding Shape
+### <a name="collision-shape-group2"></a> Group of Colliding Shape
 
 ![group-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Group.png)
 
@@ -51,7 +51,7 @@ internalGetGroup(event.thisActor, event.otherShape, event);
 
 ***
 
-### Hit an Actor / Terrain / Tile / Sensor
+### <a name="collision-type2"></a> Hit an Actor / Terrain / Tile / Sensor
 
 ![hittype-block](http://static.stencyl.com/pedia2/blocks/collision/basic/HitType.png)
 
