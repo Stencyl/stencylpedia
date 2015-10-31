@@ -4,7 +4,7 @@
 
 ## Custom Events
 
-### Custom Event
+### <a name="event-custom"></a> Custom Event
 
 ![event-custom](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/17%20-%20Advanced/event-custom.png)
 
@@ -16,7 +16,7 @@
 
 ## Custom Blocks
 
-### Custom Block
+### <a name="event-custom-block"></a> Custom Block
 
 ![event-custom-block](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/18%20-%20Advanced/event-custom-block.png)
 
@@ -24,7 +24,7 @@ Lets you create a regular [Custom Block](http://www.stencyl.com/help/view/creati
 
 ***
 
-### Global Custom Block
+### <a name="event-custom-block-global"></a> Global Custom Block
 
 ![event-custom-block-global](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/18%20-%20Advanced/event-custom-block-global.png)
 
@@ -34,7 +34,7 @@ Lets you create a global (static) [Custom Block](http://www.stencyl.com/help/vie
 
 ## Custom Code
 
-### Arbitrary Code
+### <a name="event-custom-code"></a> Arbitrary Code
 
 ![event-custom-code](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/19%20-%20Advanced/event-custom-code.png)
 
@@ -42,7 +42,7 @@ Not an event. Lets you insert arbitrary code into your behavior at the "class" l
 
 ***
 
-### Import Statements
+### <a name="event-custom-import"></a> Import Statements
 
 ![event-custom-import](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/19%20-%20Advanced/event-custom-import.png)
 
