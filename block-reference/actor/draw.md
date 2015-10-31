@@ -4,7 +4,7 @@
 
 ## Animation
 
-### Current Animation
+### <a name="getanim"></a> Current Animation
 
 ![get-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/getanim.png)
 
@@ -16,7 +16,7 @@ Returns the current animation for the actor.
 
 ***
 
-### Switch Animation
+### <a name="setanim"></a> Switch Animation
 
 ![switch-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setanim.png)
 
@@ -28,7 +28,7 @@ Changes the animation for the actor to the specified one.
 
 ***
 
-### Get Animation (from text)
+### <a name="string-to-anim"></a> Get Animation (from text)
 
 ![get-text-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/string-to-anim.png)
 
@@ -40,7 +40,7 @@ Returns the Animation (within the actor) whose name matches the specified text.
 
 ***
 
-### Is an Animation playing?
+### <a name="is-anim"></a> Is an Animation playing?
 
 ![is-playing-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/is-anim.png)
 
@@ -52,7 +52,7 @@ Returns `true` if the actor's current animation is still playing. This is only r
 
 ***
 
-### Set Frame # for Animation
+### <a name="set-frame"></a> Set Frame # for Animation
 
 ![set-frame-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-frame.png)
 
@@ -64,7 +64,7 @@ Sets the frame (by index) for the actor's current animation.
 
 ***
 
-### Get Current Frame #
+### <a name="get-frame"></a> Get Current Frame #
 
 ![get-frame-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-frame.png)
 
@@ -76,7 +76,7 @@ Returns the index of the current frame in the actor's current animation.
 
 ***
 
-### Get Number of Frames in Current Animation
+### <a name="get-num-frames"></a> Get Number of Frames in Current Animation
 
 ![get-num-frames-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-num-frames.png)
 
@@ -88,7 +88,7 @@ Returns the number of frames in the actor's current animation.
 
 ***
 
-### Get Duration of Current Frame
+### <a name="get-frame-duration"></a> Get Duration of Current Frame
 
 ![get-frame-duration-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-frame-duration.png)
 
@@ -100,7 +100,7 @@ Returns the duration (in seconds) of the current frame in the actor's current an
 
 ***
 
-### Set Duration of Current Frame
+### <a name="set-frame-duration"></a> Set Duration of Current Frame
 
 ![set-frame-duration-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-frame-duration.png)
 
@@ -114,7 +114,7 @@ Sets the duration (in seconds) of the current frame in the actor's current anima
 
 ## Layer (Z-Order)
 
-### Get Layer ID
+### <a name="getlayer"></a> Get Layer ID
 
 ![get-layerid-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/getlayer.png)
 
@@ -126,7 +126,7 @@ Returns the ID of the layer that this actor is part of.
 
 ***
 
-### Switch Layer by ID
+### <a name="setlayer2"></a> Switch Layer by ID
 
 ![switch-layer-id-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setlayer2.png)
 
@@ -139,7 +139,7 @@ Changes an actor's layer by either specifying the Layer ID or Layer Name. You ca
 
 ***
 
-### Switch Layer
+### <a name="backforward"></a> Switch Layer
 
 ![switch-layer-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/backforward.png)
 
@@ -154,7 +154,7 @@ A user-friendly way of making adjustments to an actor's layer. Can move to front
 
 ***
 
-### Switch Drawing Order (within layer)
+### <a name="movewithinlayer"></a> Switch Drawing Order (within layer)
 
 ![switch-order-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/movewithinlayer.png)
 
@@ -169,7 +169,7 @@ A user-friendly way of making adjustments to an actor's **drawing order** (z-ord
 
 ***
 
-### Get Drawing Order (within layer)
+### <a name="zindex"></a> Get Drawing Order (within layer)
 
 ![get-order-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/zindex.png)
 
@@ -181,7 +181,7 @@ Returns an actor's **drawing order** (z-order) within its layer.
 
 ***
 
-### Set Drawing Order (within layer)
+### <a name="setzindex"></a> Set Drawing Order (within layer)
 
 ![set-order-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setzindex.png)
 
@@ -193,7 +193,7 @@ Sets an actor's **drawing order** (z-order) within its layer. This lets you make
 
 ***
 
-### Number of Actors within Layer
+### <a name="actorswithinlayer2"></a> Number of Actors within Layer
 
 ![num-actors-layer-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/actorswithinlayer2.png)
 
@@ -208,7 +208,7 @@ engine.getNumberOfActorsWithinLayer(1, [TEXT]) //by Layer Name
 
 ## Drawing
 
-### [Show/Hide] Sprite
+### <a name="toggle-image"></a> [Show/Hide] Sprite
 
 ![show-sprite-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/toggle-image.png)
 
@@ -221,7 +221,7 @@ Makes the actor invisible or visible. Everything else about the actor still work
 
 ***
 
-### Set Opacity
+### <a name="set-opacity"></a> Set Opacity
 
 ![set-opacity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-opacity.png)
 
@@ -233,7 +233,7 @@ Sets the actor's opacity (alpha) value, which controls how "transparent" the act
 
 ***
 
-### Get Opacity
+### <a name="get-opacity"></a> Get Opacity
 
 ![get-opacity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-opacity.png)
 
@@ -247,7 +247,7 @@ Returns the actor's opacity (alpha) value as a value between [0 - 100] inclusive
 
 ## Anchoring
 
-### Anchor Actor to Screen
+### <a name="anchor-screen"></a> Anchor Actor to Screen
 
 ![anchor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/anchor-screen.png)
 
@@ -259,7 +259,7 @@ Moves the actor to the HUD layer, which is on top of all regular layers. The act
 
 ***
 
-### Unanchor Actor from Screen
+### <a name="unanchor-screen"></a> Unanchor Actor from Screen
 
 ![unanchor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/unanchor-screen.png)
 
