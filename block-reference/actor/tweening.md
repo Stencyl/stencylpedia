@@ -8,7 +8,7 @@
 
 ## Slide
 
-### Slide
+### <a name="moveToBy"></a> Slide
 
 ![slide-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/moveToBy.png)
 
@@ -23,7 +23,7 @@ Slides (moves) the actor by the given distance (or to the given location) over t
 
 ## Spin
 
-### Spin
+### <a name="spinToBy"></a> Spin
 
 ![spin-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/spinToBy.png)
 
@@ -38,7 +38,7 @@ Spins (rotates) the actor [by / to] the given amount in degrees over the specifi
 
 ## Fade
 
-### Fade [In/Out]
+### <a name="fadeInOut"></a> Fade [In/Out]
 
 ![fade-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeInOut.png)
 
@@ -51,7 +51,7 @@ Fades the actor [in / out] over the specified time. This means that its opacity 
 
 ***
 
-### Fade To
+### <a name="fadeTo"></a> Fade To
 
 ![fadeto-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeTo.png)
 
@@ -65,7 +65,7 @@ Sets the actor's opacity to the given amount (in percent) over the specified tim
 
 ## Scale
 
-### Grow / Shrink
+### <a name="scaleTo"></a> Grow / Shrink
 
 ![scale-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/scaleTo.png)
 
