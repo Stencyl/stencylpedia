@@ -32,7 +32,7 @@ Returns the number of characters in the given text.
 
 ### Combine Text
 
-![combine-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers & Text/2%20-%20Text/str-combine.png)
+![combine-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/str-combine.png)
 
 Combines the two given pieces of text into one and returns that result.
 
@@ -200,7 +200,7 @@ Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/),
 
 ### Get Width of Text using Font
 
-![text-width-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers & Text/2%20-%20Text/get-font-width2-new.png)
+![text-width-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/get-font-width2-new.png)
 
 Returns the width of the given text using the given font. Useful for calculating positions for drawing text.
 
@@ -212,7 +212,7 @@ Returns the width of the given text using the given font. Useful for calculating
 
 ### Get Height of Font
 
-![text-height-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers & Text/2%20-%20Text/get-font-height2-new.png)
+![text-height-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/get-font-height2-new.png)
 
 Returns the height of the given font. Useful for calculating positions for drawing text.
 
