@@ -8,7 +8,7 @@
 
 ## Draw on Image
 
-### Draw Image onto Image
+### <a name="image-draw"></a> Draw Image onto Image
 
 ![draw-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-draw.png)
 
@@ -20,7 +20,7 @@ drawImageOnImage([IMAGE], [IMAGE], [NUMBER], [NUMBER], [BLEND MODE]);
 
 ***
 
-### Draw Text onto Image
+### <a name="image-draw-text"></a> Draw Text onto Image
 
 ![draw-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-draw-text.png)
 
@@ -32,7 +32,7 @@ drawTextOnImage([IMAGE], [TEXT], [NUMBER], [NUMBER], [FONT]);
 
 ***
 
-### Fill Image with Color
+### <a name="image-fill"></a> Fill Image with Color
 
 ![fill-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-fill.png)
 
@@ -44,7 +44,7 @@ fillImage([IMAGE], [COLOR]);
 
 ***
 
-### Make Color (from RGB)
+### <a name="rgb-to-color"></a> Make Color (from RGB)
 
 ![rgb-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/rgb-to-color.png)
 
@@ -58,7 +58,7 @@ Utils.getColorRGB([NUMBER], [NUMBER], [NUMBER])
 
 ## Clear Image
 
-### Clear Part of Image
+### <a name="image-clear"></a> Clear Part of Image
 
 ![clear-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-clear.png)
 
@@ -70,7 +70,7 @@ clearImagePartially([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ***
 
-### Clear Whole Image
+### <a name="image-clear-all"></a> Clear Whole Image
 
 ![clear-full-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-clear-all.png)
 
@@ -82,7 +82,7 @@ clearImage([IMAGE]);
 
 ***
 
-### [Clear/Retain] Image using Mask
+### <a name="image-mask"></a> [Clear/Retain] Image using Mask
 
 ![mask-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-mask.png)
 
@@ -97,7 +97,7 @@ retainImageUsingMask([IMAGE], [IMAGE], [NUMBER], [NUMBER]);
 
 ## Transform Image
 
-### Apply Effect to Image
+### <a name="image-filter"></a> Apply Effect to Image
 
 ![effect-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-filter.png)
 
@@ -109,7 +109,7 @@ filterImage([IMAGE], [EFFECT]);
 
 ***
 
-### Flip Image
+### <a name="image-flip"></a> Flip Image
 
 ![flip-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-flip.png)
 
@@ -122,7 +122,7 @@ flipImageVertical([IMAGE]);
 
 ***
 
-### Swap Colors in Image
+### <a name="iamge-swap"></a> Swap Colors in Image
 
 ![swap-color-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-swap.png)
 
@@ -136,7 +136,7 @@ imageSwapColor([IMAGE], [COLOR], [COLOR]);
 
 ## Pixel Operations
 
-### Batch Draw
+### <a name="image-wrapper"></a> Batch Draw
 
 ![batch-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-wrapper.png)
 
@@ -150,7 +150,7 @@ When setting many pixels at a time, this tells the system not to push an image u
 
 ***
 
-### Set Pixel
+### <a name="image-set-px"></a> Set Pixel
 
 ![set-pixel-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-set-px.png)
 
@@ -162,7 +162,7 @@ imageSetPixel([IMAGE], [NUMBER], [NUMBER], [COLOR]);
 
 ***
 
-### Draw Image onto Image
+### <a name="image-get-px"></a> Draw Image onto Image
 
 ![get-pixel-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-get-px.png)
 
