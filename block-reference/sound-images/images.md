@@ -8,7 +8,7 @@
 
 ## Create Images
 
-### Create Blank Image
+### <a name="image-create"></a> Create Blank Image
 
 ![blank-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-create.png)
 
@@ -20,7 +20,7 @@ new BitmapData([NUMBER] * Engine.SCALE, [NUMBER] * Engine.SCALE, true, 0)
 
 ***
 
-### Copy of Image
+### <a name="image-copy"></a> Copy of Image
 
 ![copy-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-copy.png)
 
@@ -32,7 +32,7 @@ Returns a copy of the specified image. This is a true copy, so altering the copy
 
 ***
 
-### Part of Image
+### <a name="image-subimage"></a> Part of Image
 
 ![part-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-subimage.png)
 
@@ -44,7 +44,7 @@ getSubImage([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER])
 
 ***
 
-### Resized Copy of Image
+### <a name="image-resize"></a> Resized Copy of Image
 
 ![resize-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-resize.png)
 
@@ -62,7 +62,7 @@ resizeImage([IMAGE], ([NUMBER]/100), ([NUMBER]/100), false)
 
 ## From the Game
 
-### Current Screen as Image
+### <a name="image-screen"></a> Current Screen as Image
 
 ![screen-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-screen.png)
 
@@ -74,7 +74,7 @@ captureScreenshot()
 
 ***
 
-### Image from Actor
+### <a name="image-actor"></a> Image from Actor
 
 ![actor-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-actor.png)
 
@@ -88,7 +88,7 @@ getImageForActor([ACTOR])
 
 ## From External Sources
 
-### Image from File
+### <a name="image-file"></a> Image from File
 
 ![file-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-file.png)
 
@@ -100,7 +100,7 @@ getExternalImage([TEXT])
 
 ***
 
-### Load Image from URL
+### <a name="image-url"></a> Load Image from URL
 
 ![url-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-url.png)
 
@@ -116,7 +116,7 @@ loadImageFromURL([TEXT], function(img:BitmapData):Void {
 
 ## Convert Image to/from Text
 
-### Image to Text
+### <a name="image-to-text"></a> Image to Text
 
 ![to-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-to-text.png)
 
@@ -128,7 +128,7 @@ imageToText([IMAGE])
 
 ***
 
-### Text to Image
+### <a name="image-from-text"></a> Text to Image
 
 ![from-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-from-text.png)
 
