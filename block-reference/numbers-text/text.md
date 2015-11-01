@@ -4,7 +4,7 @@
 
 ## Conversion
 
-### Convert to Text
+### <a name="tostring"></a> Convert to Text
 
 ![convert-text-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Conversion.png)
 
@@ -18,7 +18,7 @@ Converts the given value to text.
 
 ## Operations
 
-### Text Length
+### <a name="str-length"></a> Text Length
 
 ![length-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/TextLength.png)
 
@@ -30,7 +30,7 @@ Returns the number of characters in the given text.
 
 ***
 
-### Combine Text
+### <a name="str-combine"></a> Combine Text
 
 ![combine-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/str-combine.png)
 
@@ -42,7 +42,7 @@ Combines the two given pieces of text into one and returns that result.
 
 ***
 
-### Trim Text
+### <a name="str-trim"></a> Trim Text
 
 ![trim-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Operations_TrimSpace.png)
 
@@ -56,7 +56,7 @@ StringTools.trim([TEXT])
 
 ## Comparison
 
-### Equals (Text)
+### <a name="eq"></a>  Equals (Text)
 
 ![equals-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_Equality.png)
 
@@ -68,7 +68,7 @@ Returns `true` if both pieces of text are exactly the same.
 
 ***
 
-### Is Text Empty?
+### <a name="str-empty"></a> Is Text Empty?
 
 ![empty-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_Empty.png)
 
@@ -80,7 +80,7 @@ Returns `true` if the length of the given text is 0.
 
 ***
 
-### Does Text come before/after?
+### <a name="str-beforeafter"></a> Does Text come before/after?
 
 ![before-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_Before.png)
 ![after-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_After.png)
@@ -99,7 +99,7 @@ strCompare([TEXT], [TEXT], 1);
 
 ## Find / Replace
 
-### Find Character
+### <a name="str-char-at"></a> Find Character
 
 ![char-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Character.png)
 
@@ -111,7 +111,7 @@ Returns the character at the given position. Note that the first index in a text
 
 ***
 
-### Get Text Position
+### <a name="str-indexof"></a> Get Text Position
 
 ![textpos-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Index.png)
 
@@ -126,7 +126,7 @@ Returns the index at which the given phrase (or character) appears in the given 
 
 ***
 
-### Replace Text in Text
+### <a name="str-replace"></a> Replace Text in Text
 
 ![replace-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_ReplaceBlock.png)
 
@@ -140,7 +140,7 @@ StringUtil.replace([TEXT], [TEXT], [TEXT])
 
 ***
 
-### Substring (Part of Text)
+### <a name="str-substring"></a> Substring (Part of Text)
 
 ![substring-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Substring.png)
 
@@ -156,7 +156,7 @@ Returns part of the given text, given the starting and ending indices. More spec
 
 ## Case
 
-### Get Text in Upper/Lower Case
+### <a name="str-toupperlower"></a> Get Text in Upper/Lower Case
 
 ![uppercase-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/CaseUp.png)
 ![lowercase-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/CaseLow.png)
@@ -172,7 +172,7 @@ Returns the given text in all uppercase (or lowercase).
 
 ## Split
 
-### Split into Words
+### <a name="str-split-space"></a> Split into Words
 
 ![split-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Split.png)
 
@@ -184,7 +184,7 @@ Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/),
 
 ***
 
-### Split using Separator
+### <a name="str-split"></a> Split using Separator
 
 ![split-block2](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Split2.png)
 
@@ -198,7 +198,7 @@ Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/),
 
 ## Fonts
 
-### Get Width of Text using Font
+### <a name="get-font-width2-new"></a> Get Width of Text using Font
 
 ![text-width-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/get-font-width2-new.png)
 
@@ -210,7 +210,7 @@ Returns the width of the given text using the given font. Useful for calculating
 
 ***
 
-### Get Height of Font
+### <a name="get-font-height2-new"></a> Get Height of Font
 
 ![text-height-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/get-font-height2-new.png)
 
