@@ -8,7 +8,7 @@
 
 ## Kongregate
 
-### Start Kongregate API
+### <a name="kong-init"></a> Start Kongregate API
 
 ![kong-init-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/kong-init.png)
 
@@ -20,7 +20,7 @@ kongregateInitAPI();
 
 ***
 
-### Submit Score
+### <a name="kong-submit"></a> Submit Score
 
 ![kong-init-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/kong-submit.png)
 
@@ -32,7 +32,7 @@ kongregateSubmitStat([TEXT], [NUMBER]);
 
 ***
 
-### Is a Guest? (vs. logged in)
+### <a name="kong-guest"></a> Is a Guest? (vs. logged in)
 
 ![kong-init-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/kong-guest.png)
 
@@ -44,7 +44,7 @@ kongregateIsGuest()
 
 ***
 
-### Name of Player
+### <a name="kong-name"></a> Name of Player
 
 ![kong-init-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/kong-name.png)
 
@@ -56,7 +56,7 @@ kongregateGetUsername()
 
 ***
 
-### User ID of Player
+### <a name="kong-userid"></a> User ID of Player
 
 ![kong-init-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/kong-userid.png)
 
@@ -70,7 +70,7 @@ kongregateGetUserID()
 
 ## Newgrounds
 
-### Show Ad
+### <a name="newgrounds-ad-show"></a> Show Ad
 
 ![show-ad-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/newgrounds-ad-show.png)
 
@@ -82,7 +82,7 @@ newgroundsShowAd();
 
 ***
 
-### Submit Score
+### <a name="newgrounds-score-submit"></a> Submit Score
 
 ![submit-score-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/newgrounds-score-submit.png)
 
@@ -94,7 +94,7 @@ newgroundsSubmitScore([TEXT], [NUMBER]);
 
 ***
 
-### Show Scoreboard
+### <a name="newgrounds-score-show"></a> Show Scoreboard
 
 ![show-scoreboard-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/newgrounds-score-show.png)
 
@@ -106,7 +106,7 @@ newgroundsShowScore([TEXT]);
 
 ***
 
-### Unlock Medal
+### <a name="newgrounds-medal-achieved"></a> Unlock Medal
 
 ![unlock-medal-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/newgrounds-medal-achieved.png)
 
@@ -120,7 +120,7 @@ newgroundsUnlockMedal([TEXT]);
 
 ***
 
-### Move Medal Window
+### <a name="newgrounds-medal-move"></a> Move Medal Window
 
 ![move-medal-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/newgrounds-medal-move.png)
 
