@@ -4,7 +4,7 @@
 
 ## Keyboard
 
-### Key Status
+### <a name="keystate"></a> Key Status
 
 ![key-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/KeyState.png)
 
@@ -24,7 +24,7 @@ isKeyReleased([CONTROL])
 
 ***
 
-### Special Key is Down
+### <a name="is-special-down"></a> Special Key is Down
 
 ![special-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/Special.png)
 
@@ -37,7 +37,7 @@ isCtrlDown()
 
 ***
 
-### Simulate Keys
+### <a name="simulate-key"></a> Simulate Keys
 
 ![special-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/Simulate.png)
 
@@ -50,7 +50,7 @@ simulateKeyRelease([CONTROL]);
 
 ***
 
-### Get Key Code
+### <a name="keycode"></a> Get Key Code
 
 ![special-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/Code.png)
 
@@ -76,7 +76,7 @@ A simple implementation of a text-field behavior. See the "Example: Text Input" 
 
 Mouse and Single Touch (vs. Multi-Touch) are handled using the same blocks, as described in our [Touch article](http://www.stencyl.com/help/view/mobile-input/).
 
-### Mouse / Touch Status
+### <a name="mousestate"></a> Mouse / Touch Status
 
 ![status-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Status.png)
 
@@ -97,7 +97,7 @@ isMouseReleased()
 
 ***
 
-### Mouse on Actor / Touched Actor
+### <a name="amousestate"></a> Mouse on Actor / Touched Actor
 
 ![actor-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Actor.png)
 
@@ -117,7 +117,7 @@ was released | Mouse button was **just** released. Called once per click-release
 
 ***
 
-### Mouse / Touch Position
+### <a name="mousexy"></a> Mouse / Touch Position
 
 ![position-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Position.png)
 
@@ -136,7 +136,7 @@ getMouseReleasedY()
 
 ***
 
-### Mouse Cursor
+### <a name="mousedisp"></a> Mouse Cursor
 
 ![cursor-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/MouseCursor.png)
 
