@@ -8,7 +8,7 @@
 
 ## Gamepad
 
-### Enable Gamepad
+### <a name="enable-gamepad"></a> Enable Gamepad
 
 ![enable-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/Enable.png)
 
@@ -20,7 +20,7 @@ Input.enableJoystick();
 
 ***
 
-### Map Button to Control
+### <a name="map-gamepad-control"></a> Map Button to Control
 
 ![map-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/Map.png)
 
@@ -38,7 +38,7 @@ Read [our guide](http://www.stencyl.com/help/view/gamepads/) on Gamepads for an 
 
 ***
 
-### Set Analog Sensitivity
+### <a name="set-gamepad-sensitivity"></a> Set Analog Sensitivity
 
 ![analog-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/Analog.png)
 
@@ -50,7 +50,7 @@ Input.setJoySensitivity([NUMBER]/100);
 
 ***
 
-### Get Pressure for Control
+### <a name="get-button-pressure"></a> Get Pressure for Control
 
 ![pressure-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/Pressure.png)
 
@@ -62,7 +62,7 @@ Input.getButtonPressure([CONTROL])
 
 ***
 
-### Save/Load Gamepad Configuration
+### <a name="save-gamepad-config"></a> <a name="load-gamepad-config"></a> Save/Load Gamepad Configuration
 
 ![saveload-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/SaveLoad.png)
 
