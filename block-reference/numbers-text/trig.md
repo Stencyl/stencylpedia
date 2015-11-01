@@ -4,7 +4,7 @@
 
 ## Conversion
 
-### Degrees <--> Radians
+### <a name="to-degreesradians"></a> Degrees <--> Radians
 
 ![degrees-block](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/Conversions.png)
 
@@ -19,7 +19,7 @@ Util.toRadians([NUMBER])
 
 ## Constants
 
-### Pi
+### <a name="pi"></a> Pi
 
 ![pi-block](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/Pi.png)
 
@@ -31,7 +31,7 @@ Math.PI
 
 ***
 
-### e
+### <a name="e"></a> e
 
 ![e-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/ConstantE.png)
 
@@ -45,7 +45,7 @@ Returns e, the base of natural logarithms. (2.718...)
 
 ## Trig Functions
 
-### Sin / Cos / Tan
+### <a name="trig-master"></a> Sin / Cos / Tan
 
 ![trig-block](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/Trig.png)
 
@@ -68,7 +68,7 @@ Math.atan([NUMBER])
 
 ***
 
-### Inverse Tangent
+### <a name="atan2"></a> Inverse Tangent
 
 ![inverse-tan-block](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/Atan.png)
 
@@ -88,7 +88,7 @@ Using inverse tangent, we can calculate the angle to rotate the actor to based o
 
 ## Exponents
 
-### Square Root
+### <a name="sqrt"></a> Square Root
 
 ![sqrt-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/ExponentSqrt.png)
 
@@ -100,7 +100,7 @@ Math.sqrt[NUMBER]
 
 ***
 
-### Power
+### <a name="pow"></a> Power
 
 ![power-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/ExponentExponent.png)
 
@@ -112,7 +112,7 @@ Math.pow[NUMBER, NUMBER]
 
 ***
 
-### Natural Logarithm / E Raised to a Power
+### <a name="lnexp"></a> Natural Logarithm / E Raised to a Power
 
 ![log-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/LogBlocks.png)
 
