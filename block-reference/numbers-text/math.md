@@ -4,7 +4,7 @@
 
 ## Arithmetic
 
-### Add / Subtract / Multiply / Divide
+### <a name="plus"></a> <a name="minus"></a> <a name="times"></a> <a name="divide"></a>  Add / Subtract / Multiply / Divide
 
 ![arithmetic-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/arithmetic.png)
 
@@ -19,7 +19,7 @@ Adds/Subtracts/Multiplies/Divides the two provided numbers.
 
 ***
 
-### Negate
+### <a name="neg"></a> Negate
 
 ![negate-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Negate.png)
 
@@ -31,7 +31,7 @@ Flips the sign of the given number.
 
 ***
 
-### Remainder (Modulo)
+### <a name="mod"></a> Remainder (Modulo)
 
 ![remainder-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Remainder.png)
 
@@ -45,7 +45,7 @@ Returns the integer remainder after dividing the first number by the second.
 
 ## Random Numbers
 
-### Random Integer
+### <a name="randint"></a> Random Integer
 
 ![random-int-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/RandomInt.png)
 
@@ -57,7 +57,7 @@ randomInt(Math.floor(Number), Math.floor(Number))
 
 ***
 
-### Random Floating Point Number
+### <a name="random"></a> Random Floating Point Number
 
 ![random-float-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/RandomFloat.png)
 
@@ -71,7 +71,7 @@ randomFloat()
 
 ## Increment / Decrement
 
-### Increment / Decrement Number
+### <a name="incdec"></a> Increment / Decrement Number
 
 ![increment-decrement-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Increment.png)
 
@@ -86,7 +86,7 @@ Adds (or subtracts) the given number to/from a **number attribute**.
 
 ## Operations
 
-### Absolute Value
+### <a name="abs"></a> Absolute Value
 
 ![abs-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/AbsoluteValue.png)
 
@@ -98,7 +98,7 @@ Math.abs([NUMBER])
 
 ***
 
-### Smaller / Larger of Two Numbers
+### <a name="minmax"></a> Smaller / Larger of Two Numbers
 
 ![smaller-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Smaller.png)
 ![larger-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Larger.png)
@@ -112,7 +112,7 @@ Math.max([NUMBER], [NUMBER])
 
 ***
 
-### Round / Floor / Ceiling
+### <a name="roundnew"></a> Round / Floor / Ceiling
 
 ![round-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Round.png)
 
@@ -134,7 +134,7 @@ Math.ceil([NUMBER])
 
 ## Conversion
 
-### Number Conversion
+### <a name="as-number"></a> Number Conversion
 
 ![number-convert-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Conversion.png)
 
