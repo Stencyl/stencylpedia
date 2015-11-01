@@ -8,7 +8,7 @@
 
 ## Shaders
 
-### Apply Shader
+### <a name="shader-apply"></a> Apply Shader
 
 ![shader-apply](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-apply.png)
 
@@ -20,7 +20,7 @@ Applies the specified shader to the game. This replaces the existing shader. To 
 
 ***
 
-### Clear Shaders
+### <a name="shader-clear"></a> Clear Shaders
 
 ![shader-clear](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-clear.png)
 
@@ -32,7 +32,7 @@ engine.clearShaders();
 
 ***
 
-### Toggle shaders for HUD layer
+### <a name="shader-hud"></a> Toggle shaders for HUD layer
 
 ![shader-hud](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-hud.png)
 
@@ -44,7 +44,7 @@ engine.toggleShadersForHUD();
 
 ***
 
-### Combine 2 Shaders
+### <a name="shader-combine"></a> Combine 2 Shaders
 
 ![shader-combine](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-combine.png)
 
@@ -56,7 +56,7 @@ Combines 2 shaders together. If combining more than 2, stick further combines in
 
 ***
 
-### Combine 3 Shaders
+### <a name="shader-combine3"></a> Combine 3 Shaders
 
 ![shader-combine3](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-combine3.png)
 
@@ -68,7 +68,7 @@ Combines 3 shaders together.
 
 ***
 
-### Combine 4 Shaders
+### <a name="shader-combine4"></a> Combine 4 Shaders
 
 ![shader-combine4](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-combine4.png)
 
@@ -80,7 +80,7 @@ Combines 4 shaders together.
 
 ***
 
-### Load Shader from File
+### <a name="shader-file"></a> Load Shader from File
 
 ![shader-file](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-file.png)
 
@@ -92,7 +92,7 @@ new ExternalShader([TEXT])
 
 ***
 
-### Load Shader from Text
+### <a name="shader-text"></a> Load Shader from Text
 
 ![shader-text](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-text.png)
 
@@ -106,7 +106,7 @@ new InlineShader([TEXT])
 
 ## Properties
 
-### Set Shader Property
+### <a name="shader-set"></a> Set Shader Property
 
 ![shader-set](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-set.png)
 
@@ -120,7 +120,7 @@ Consult our [Shaders article](http://www.stencyl.com/help/view/shaders/) for pro
 
 ***
 
-### Tween a Shader Property
+### <a name="shader-tween"></a> Tween a Shader Property
 
 ![shader-tween](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-tween.png)
 
@@ -132,7 +132,7 @@ Change a shader's properties over time. Consult our [Shaders article](http://www
 
 ***
 
-### Set Time Scale for Shader
+### <a name="shader-time"></a> Set Time Scale for Shader
 
 ![shader-time](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-time.png)
 
@@ -146,7 +146,7 @@ Makes animated shaders run faster/slower. Useful for porting shaders written for
 
 ## Color Shaders
 
-### Hue
+### <a name="shader-hue"></a> Hue
 
 ![shader-hue](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-hue.png)
 
@@ -158,7 +158,7 @@ new HueShader(0)
 
 ***
 
-### [Contrast / Saturation / Brightness]
+### <a name="shader-csb"></a> [Contrast / Saturation / Brightness]
 
 ![shader-csb](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-csb.png)
 
@@ -172,7 +172,7 @@ CSBShader.create("brightness", [NUMBER]/100)
 
 ***
 
-### Tint
+### <a name="shader-tint"></a> Tint
 
 ![shader-tint](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-tint.png)
 
@@ -186,7 +186,7 @@ new TintShader([COLOR], [NUMBER]/100)
 
 ## Filter Shaders
 
-### Filters (Grayscale / Inverse / Sepia)
+### <a name="shader-filters"></a> Filters (Grayscale / Inverse / Sepia)
 
 ![shader-filters](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-filters.png)
 
@@ -200,7 +200,7 @@ new SepiaShader()
 
 ***
 
-### Blur
+### <a name="shader-blur"></a> Blur
 
 ![shader-blur](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-blur.png)
 
@@ -212,7 +212,7 @@ new BlurShader([NUMBER], [NUMBER], [NUMBER])
 
 ***
 
-### Sharpen
+### <a name="shader-sharpen"></a> Sharpen
 
 ![shader-sharpen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-sharpen.png)
 
@@ -224,7 +224,7 @@ new SharpenShader([NUMBER])
 
 ***
 
-### Bloom
+### <a name="shader-bloom"></a> Bloom
 
 ![shader-bloom](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-bloom.png)
 
@@ -238,7 +238,7 @@ new BloomShader()
 
 ## Effect Shaders
 
-### Grain
+### <a name="shader-grain"></a> Grain
 
 ![shader-grain](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-grain.png)
 
@@ -250,7 +250,7 @@ new GrainShader()
 
 ***
 
-### Scanlines
+### <a name="shader-scanline"></a> Scanlines
 
 ![shader-scanline](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-scanline.png)
 
