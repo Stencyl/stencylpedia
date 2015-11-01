@@ -8,7 +8,7 @@
 
 ## Screen Bounds
 
-### Camera Position
+### <a name="screen-xy"></a> Camera Position
 
 ![screen-xy](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/screen-xy.png)
 
@@ -21,7 +21,7 @@ getScreenY()
 
 ***
 
-### Screen Size
+### <a name="screen-wh"></a> Screen Size
 
 ![screen-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/screen-wh.png)
 
@@ -36,7 +36,7 @@ getScreenHeight()
 
 ## Camera
 
-### Move Camera
+### <a name="camera-move"></a> Move Camera
 
 ![camera-move](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/camera-move.png)
 
@@ -48,7 +48,7 @@ engine.moveCamera([NUMBER], [NUMBER]);
 
 ***
 
-### Move Camera to Actor
+### <a name="camera-follow"></a> Move Camera to Actor
 
 ![camera-follow](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/camera-follow.png)
 
@@ -62,7 +62,7 @@ engine.cameraFollow([ACTOR]);
 
 ## Effects
 
-### Shake Screen
+### <a name="shake-start"></a> Shake Screen
 
 ![shake-start](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/shake-start.png)
 
@@ -74,7 +74,7 @@ startShakingScreen([NUMBER] / 100, [NUMBER]);
 
 ***
 
-### Stop Shaking Screen
+### <a name="shake-stop"></a> Stop Shaking Screen
 
 ![shake-stop](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/shake-stop.png)
 
@@ -86,7 +86,7 @@ stopShakingScreen();
 
 ***
 
-### Toggle Full-Screen Mode
+### <a name="toggle-fullscreen"></a> Toggle Full-Screen Mode
 
 ![toggle-fullscreen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/toggle-fullscreen.png)
 
@@ -100,7 +100,7 @@ toggleFullScreen();
 
 ## Color Background
 
-### Set Background to Color
+### <a name="set-color-bg"></a> Set Background to Color
 
 ![set-color-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-color-bg.png)
 
@@ -112,7 +112,7 @@ setColorBackground([COLOR]);
 
 ***
 
-### Set Background to Gradient
+### <a name="set-grad-bg"></a> Set Background to Gradient
 
 ![set-grad-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-grad-bg.png)
 
@@ -126,7 +126,7 @@ setColorBackground([COLOR], [COLOR]);
 
 ## Layer Properties
 
-### Set Autoscroll Speed (for layer)
+### <a name="set-bg-speed"></a> Set Autoscroll Speed (for layer)
 
 ![set-bg-speed](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-bg-speed.png)
 
@@ -139,7 +139,7 @@ setScrollSpeedForBackground(1, [TEXT], [NUMBER], [NUMBER]); //specify a layer na
 
 ***
 
-### Set Scroll Factor for (for layer)
+### <a name="set-layer-scrollfactor"></a> Set Scroll Factor for (for layer)
 
 ![set-layer-scrollfactor](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-layer-scrollfactor.png)
 
@@ -152,7 +152,7 @@ setScrollFactorForLayer(1, [TEXT], [NUMBER], [NUMBER]); //specify a layer name
 
 ***
 
-### [Show/Hide] Layer
+### <a name="showhide-layer2"></a> [Show/Hide] Layer
 
 ![showhide-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/showhide-layer2.png)
 
@@ -168,7 +168,7 @@ hideTileLayer(1, [TEXT]); //specify a layer name
 
 ***
 
-### Fade Layer
+### <a name="fadeTo-layer2"></a> Fade Layer
 
 ![fadeTo-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/fadeTo-layer2.png)
 
@@ -180,7 +180,8 @@ fadeTileLayerTo(1, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer name
 ```
 
 *** 
-### Set Blend Mode (for layer)
+
+### <a name="set-blend-layer2"></a> Set Blend Mode (for layer)
 
 ![set-blend-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-blend-layer2.png)
 
@@ -193,7 +194,7 @@ setBlendModeForLayer(1, [TEXT], [BLEND MODE]); //specify a layer name
 
 ***
 
-### Change Background Image (for layer)
+### <a name="set-bg-image"></a> Change Background Image (for layer)
 
 ![set-bg-image](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-bg-image.png)
 
@@ -208,7 +209,7 @@ changeBackgroundImage(1, [TEXT], [IMAGE]); //specify a layer name
 
 ## Add/Remove Layers
 
-### Create a Background Layer
+### <a name="create-bglayer-from-bg"></a> Create a Background Layer
 
 ![create-bglayer-from-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/create-bglayer-from-bg.png)
 
@@ -220,7 +221,7 @@ addBackground([TEXT], [TEXT], [NUMBER]);
 
 ***
 
-### Create a Background Layer (from image)
+### <a name="create-bglayer-from-image"></a> Create a Background Layer (from image)
 
 ![create-bglayer-from-image](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/create-bglayer-from-image.png)
 
@@ -233,7 +234,7 @@ addBackgroundFromImage([IMAGE], false, [TEXT], [NUMBER]); //regular background
 
 ***
 
-### Remove Background Layer
+### <a name="remove-bglayer"></a> Remove Background Layer
 
 ![remove-bglayer](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/remove-bglayer.png)
 
@@ -248,7 +249,7 @@ removeBackground(1, [TEXT]); //specify a layer name
 
 ## Layer Order
 
-### Set Drawing Order for Layer
+### <a name="set-layer-order"></a> Set Drawing Order for Layer
 
 ![set-layer-order](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-layer-order.png)
 
@@ -261,7 +262,7 @@ engine.moveLayerToOrder(1, [TEXT], [NUMBER]); //specify a layer name
 
 ***
 
-### Get Drawing Order for Layer
+### <a name="get-layer-order"></a> Get Drawing Order for Layer
 
 ![get-layer-order](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/get-layer-order.png)
 
@@ -274,7 +275,7 @@ engine.getOrderOfLayer(1, [TEXT]) //specify a layer name
 
 ***
 
-### Number of Layers
+### <a name="numlayers"></a> Number of Layers
 
 ![numlayers](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/numlayers.png)
 
@@ -288,7 +289,7 @@ engine.getNumberOfLayers()
 
 ## Offscreen Bounds
 
-### Set Offscreen Bounds
+### <a name="offscreen"></a> Set Offscreen Bounds
 
 ![offscreen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/offscreen.png)
 
