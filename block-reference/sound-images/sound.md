@@ -8,7 +8,7 @@
 
 ## Playback
 
-### [Play/Loop] Sound
+### <a name="play-sound4"></a> [Play/Loop] Sound
 
 ![play-sound-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/play-sound4.png)
 
@@ -21,7 +21,7 @@ loopSound([SOUND]);
 
 ***
 
-### Stop all Sounds
+### <a name="stop-sounds"></a> Stop all Sounds
 
 ![stop-sounds-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/stop-sounds.png)
 
@@ -35,7 +35,7 @@ stopAllSounds();
 
 ## Volume
 
-### Set Volume
+### <a name="set-volume"></a> Set Volume
 
 ![set-volume-sound-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/set-volume.png)
 
@@ -47,7 +47,7 @@ setVolumeForAllSounds([NUMBER]/100);
 
 ***
 
-### Fade [In/Out]
+### <a name="fade-sounds"></a> Fade [In/Out]
 
 ![fade-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/fade-sounds.png)
 
@@ -62,7 +62,7 @@ fadeOutForAllSounds([NUMBER]);
 
 ## Channels
 
-### [Play/Loop] on Channel
+### <a name="play-sound-channel"></a> [Play/Loop] on Channel
 
 ![play-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/play-sound-channel.png)
 
@@ -75,7 +75,7 @@ loopSoundOnChannel([SOUND], [NUMBER]);
 
 ***
 
-### [Stop/Pause/Resume] on Channel
+### <a name="control-sound-channel"></a> [Stop/Pause/Resume] on Channel
 
 ![stop-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/control-sound-channel.png)
 
@@ -89,7 +89,7 @@ resumeSoundOnChannel([NUMBER]);
 
 ***
 
-### Set Volume on Channel
+### <a name="set-volume-channel"></a> Set Volume on Channel
 
 ![volume-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/set-volume-channel.png)
 
@@ -101,7 +101,7 @@ setVolumeForChannel([NUMBER]/100, [NUMBER]);
 
 ***
 
-### [Fade In / Fade Out] on Channel
+### <a name="fade-sound-channel"></a> [Fade In / Fade Out] on Channel
 
 ![fade-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/fade-sound-channel.png)
 
@@ -114,7 +114,7 @@ fadeOutSoundOnChannel([NUMBER], [NUMBER]);
 
 ***
 
-### Sound Position on Channel
+### <a name="get-position-channel"></a> Sound Position on Channel
 
 ![sound-position-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/get-position-channel.png)
 
@@ -126,7 +126,7 @@ getPositionForChannel([NUMBER])
 
 ***
 
-### Length of Track on Channel
+### <a name="get-length-channel"></a> Length of Track on Channel
 
 ![length-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/get-length-channel.png)
 
@@ -138,7 +138,7 @@ getSoundLengthForChannel([NUMBER])
 
 ***
 
-### Length of Sound
+### <a name="get-length-sound"></a> Length of Sound
 
 ![length-sound-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/get-length-sound.png)
 
@@ -150,7 +150,7 @@ getSoundLength([SOUND])
 
 ***
 
-### Get Sound with Name
+### <a name="text-to-sound"></a> Get Sound with Name
 
 ![get-sound-by-name-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/text-to-sound.png)
 
