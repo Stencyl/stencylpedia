@@ -4,7 +4,7 @@
 
 ## Gravity
 
-### Get Value of Gravity
+### <a name="grav-xy"></a> Get Value of Gravity
 
 ![grav-xy](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/grav-xy.png)
 
@@ -17,7 +17,7 @@ getGravity().y
 
 ***
 
-### Set Gravity
+### <a name="setgrav"></a> Set Gravity
 
 ![setgrav](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/setgrav.png)
 
@@ -31,7 +31,7 @@ setGravity([NUMBER], [NUMBER]);
 
 ## Tile API
 
-### Tile [Width/Height]
+### <a name="tile-wh"></a> Tile [Width/Height]
 
 ![tile-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-wh.png)
 
@@ -44,7 +44,7 @@ getTileHeight()
 
 ***
 
-### Convert to Tile Coordinates
+### <a name="tile-coord-at"></a> Convert to Tile Coordinates
 
 ![tile-coord-at](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-coord-at.png)
 
@@ -57,7 +57,7 @@ getTilePosition(1, [NUMBER]) //y coordinate
 
 ***
 
-### Set a Tile
+### <a name="set-tile-at2"></a> Set a Tile
 
 ![set-tile-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/set-tile-at2.png)
 
@@ -70,7 +70,7 @@ setTileAt([NUMBER], [NUMBER], 1, [TEXT], [NUMBER], [NUMBER]); //specify layer na
 
 ***
 
-### Does a Tile exist at location?
+### <a name="tile-exists-at2"></a> Does a Tile exist at location?
 
 ![tile-exists-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-exists-at2.png)
 
@@ -83,7 +83,7 @@ tileExistsAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 *** 
 
-### Get ID for Tile at location
+### <a name="tileID-at2"></a> Get ID for Tile at location
 
 ![tileID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tileID-at2.png)
 
@@ -96,7 +96,7 @@ getTileIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 *** 
 
-### Does a solid tile exist at location?
+### <a name="tileCollisionAt2"></a> Does a solid tile exist at location?
 
 ![tileCollisionAt2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tileCollisionAt2.png)
 
@@ -109,7 +109,7 @@ tileCollisionAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 *** 
 
-### Get Collision ID for tile at location
+### <a name="tileColID-at2"></a> Get Collision ID for tile at location
 
 ![tileColID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tileColID-at2.png)
 
@@ -122,7 +122,7 @@ getTileColIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 ***
 
-### Get Tileset ID for tile at location
+### <a name="tilesetID-at2"></a> Get Tileset ID for tile at location
 
 ![tilesetID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tilesetID-at2.png)
 
@@ -135,7 +135,7 @@ getTilesetIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 ***
 
-### Remove tile at location
+### <a name="remove-tile-at2"></a> Remove tile at location
 
 ![remove-tile-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/remove-tile-at2.png)
 
@@ -148,7 +148,7 @@ removeTileAt([NUMBER], [NUMBER], 1, [TEXT]); //specify layer name
 
 ***
 
-### Get Metadata for tile at location
+### <a name="tile-data-at2"></a> Get Metadata for tile at location
 
 ![tile-data-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-data-at2.png)
 
@@ -163,7 +163,7 @@ getTileDataAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 ## Properties
 
-### Scene [Width / Height]
+### <a name="scene-wh"></a> Scene [Width / Height]
 
 ![scene-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/scene-wh.png)
 
@@ -178,7 +178,7 @@ Returns the current scene's [width/height] in [pixels/tiles].
 
 ***
 
-### Scene Name
+### <a name="scenename"></a> Scene Name
 
 ![scenename](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/scenename.png)
 
