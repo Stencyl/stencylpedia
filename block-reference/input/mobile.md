@@ -6,7 +6,7 @@
 
 ***
 
-## Accelerometer
+## <a name="accelerometer"></a> Accelerometer
 
 ### Accelerometer Value
 
@@ -41,7 +41,7 @@ Input.accelY
 
 ## Gestures
 
-### Swiped
+### <a name="swipe-detect"></a> Swiped
 
 ![swipe-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Swipe.png)
 
@@ -70,7 +70,7 @@ We recommend using a swipe event instead of a swipe block. It's easier to work w
 
 ## Other
 
-### Show/Hide Keyboard
+### <a name="show-hide-keyboard"></a> Show/Hide Keyboard
 
 ![keyboard-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Keyboard.png)
 
@@ -85,7 +85,7 @@ hideKeyboard()
 
 ***
 
-### Set Keyboard Text
+### <a name="set-keyboard-text"></a> Set Keyboard Text
 
 ![text-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/KeyboardText.png)
 
@@ -97,7 +97,7 @@ setKeyboardText([TEXT]);
 
 ***
 
-### Clear Keyboard Text
+### <a name="clear-keyboard-text"></a> Clear Keyboard Text
 
 ![clear-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/ClearKeyboard.png)
 
@@ -109,7 +109,7 @@ setKeyboardText("");
 
 ***
 
-### Vibrate
+### <a name="vibrate"></a> Vibrate
 
 ![vibrate-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Vibrate.png)
 
