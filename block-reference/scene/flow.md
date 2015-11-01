@@ -8,7 +8,7 @@
 
 ## Transitions
 
-### Switch Scene (Fade In/Out)
+### <a name="scene-change-color"></a> Switch Scene (Fade In/Out)
 
 ![scene-change-color](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-change-color.png)
 
@@ -20,7 +20,7 @@ switchScene([SCENE].getID(), createFadeOut([NUMBER], [COLOR]), createFadeIn([NUM
 
 ***
 
-### Switch Scene (Crossfade / Slide)
+### <a name="scene-change-through"></a> Switch Scene (Crossfade / Slide)
 
 ![scene-change-through](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-change-through.png)
 
@@ -36,7 +36,7 @@ switchScene([SCENE].getID(), null, createSlideRightTransition([NUMBER]));
 
 ***
 
-### Reload Current Scene (Fade In/Out)
+### <a name="scene-reload-color"></a> Reload Current Scene (Fade In/Out)
 
 ![scene-reload-color](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-reload-color.png)
 
@@ -48,7 +48,7 @@ reloadCurrentScene(createFadeOut([NUMBER], [COLOR]), createFadeIn([NUMBER], [COL
 
 ***
 
-### Reload Current Scene (Crossfade / Slide)
+### <a name="scene-reload-through"></a> Reload Current Scene (Crossfade / Slide)
 
 ![scene-reload-through](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-reload-through.png)
 
@@ -64,7 +64,7 @@ reloadCurrentScene(null, createSlideRightTransition([NUMBER]));
 
 ***
 
-### Get Scene (using name)
+### <a name="scenebyname"></a> Get Scene (using name)
 
 ![scenebyname](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scenebyname.png)
 
@@ -76,7 +76,7 @@ GameModel.get().scenes.get(getIDForScene([TEXT]))
 
 ***
 
-### Scene is transitioning?
+### <a name="is-transitioning"></a> Scene is transitioning?
 
 ![is-transitioning](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/is-transitioning.png)
 
@@ -90,7 +90,7 @@ isTransitioning()
 
 ## Post-Transition
 
-### Create Actor in next scene
+### <a name="create-actor3-next"></a> Create Actor in next scene
 
 ![create-actor3-next](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/create-actor3-next.png)
 
@@ -106,7 +106,7 @@ createActorInNextScene([ACTOR TYPE], [NUMBER], [NUMBER], Script.BACK);
 
 ## Pausing
 
-### [Pause / Unpause] Game
+### [<a name="pause-unpause"></a> Pause / Unpause] Game
 
 ![pause-unpause](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/pause-unpause.png)
 
@@ -119,7 +119,7 @@ engine.unpause();
 
 ***
 
-### Game is Paused?
+### <a name="is-paused"></a> Game is Paused?
 
 ![is-paused](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/is-paused.png)
 
