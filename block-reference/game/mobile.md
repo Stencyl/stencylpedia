@@ -4,7 +4,7 @@
 
 ## Game Center (iOS-only)
 
-### Start Game Center
+### <a name="gamecenter-init"></a> Start Game Center
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-init.png)
 
@@ -16,7 +16,7 @@ gameCenterInitialize();
 
 ***
 
-### Game Center is Started?
+### <a name="gamecenter-enabled"></a> Game Center is Started?
 
 ![started-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-enabled.png)
 
@@ -28,7 +28,7 @@ gameCenterIsAuthenticated()
 
 ***
 
-### [Name / ID] of Player
+### <a name="gamecenter-id-name"></a> [Name / ID] of Player
 
 ![name-id-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-id-name.png)
 
@@ -41,7 +41,7 @@ gameCenterGetPlayerID()
 
 ***
 
-### Submit Score
+### <a name="gamecenter-board-submit"></a> Submit Score
 
 ![submit-score-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-board-submit.png)
 
@@ -53,7 +53,7 @@ gameCenterSubmitScore([NUMBER], [TEXT]);
 
 ***
 
-### Show Leaderboard
+### <a name="gamecenter-board-show"></a> Show Leaderboard
 
 ![show-leaderboard-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-board-show.png)
 
@@ -65,7 +65,7 @@ gameCenterShowLeaderboard([TEXT]);
 
 ***
 
-### Report Achievement
+### <a name="gamecenter-achievement-submit"></a> Report Achievement
 
 ![report-achievement-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-submit.png)
 
@@ -77,7 +77,7 @@ gameCenterSubmitAchievement([TEXT], [NUMBER]);
 
 ***
 
-### Show All Achievements / Reset Achievements
+### <a name="gamecenter-achievement-show-reset"></a> Show All Achievements / Reset Achievements
 
 ![show-achievement-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-show-reset.png)
 
@@ -90,7 +90,7 @@ gameCenterResetAchievements();
 
 ***
 
-### Show Achievement Banner
+### <a name="gamecenter-achievement-banner"></a> Show Achievement Banner
 
 ![show-banner-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-achievement-banner.png)
 
@@ -104,7 +104,7 @@ gameCenterShowBanner([TEXT], [TEXT]);
 
 ## Google Play Games (Android-only)
 
-### Start Google Play Games
+### <a name="gpg-initialize"></a> Start Google Play Games
 
 ![start-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-initialize.png)
 
@@ -116,7 +116,7 @@ initGooglePlayGames();
 
 ***
 
-### Connection is Estalished?
+### <a name="gpg-connection"></a> Connection is Estalished?
 
 ![check-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-connection.png)
 
@@ -131,7 +131,7 @@ getGPGConnectionInfo(3) //canceled
 
 ***
 
-### Show Achievements / Leaderboards / Quests
+### <a name="gpg-show"></a> Show Achievements / Leaderboards / Quests
 
 ![achievements-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-show.png)
 
@@ -145,7 +145,7 @@ showGPGQuests();
 
 ***
 
-### Show Leaderboard
+### <a name="gpg-show-leaderboard"></a> Show Leaderboard
 
 ![leaderboard-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-show-leaderboard.png)
 
@@ -157,7 +157,7 @@ showGPGLeaderboard([TEXT]);
 
 ***
 
-### Unlock Achievement
+### <a name="gpg-unlock-achievments"></a> Unlock Achievement
 
 ![unlock-achievement-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-unlock-achievments.png)
 
@@ -169,7 +169,7 @@ unlockGPGAchievement([TEXT]);
 
 ***
 
-### Make Progress Towards Incremental Achievement
+### <a name="gpg-increment-achievments"></a> Make Progress Towards Incremental Achievement
 
 ![increment-achievement-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-increment-achievments.png)
 
@@ -181,7 +181,7 @@ incrementGPGAchievement([TEXT], [NUMBER]);
 
 ***
 
-### Submit Score to Leaderboard
+### <a name="gpg-submit-score"></a> Submit Score to Leaderboard
 
 ![score-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-submit-score.png)
 
@@ -193,7 +193,7 @@ submitGPGScore([TEXT], [NUMBER]);
 
 ***
 
-### Update Event
+### <a name="gpg-update-event"></a> Update Event
 
 ![event-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-update-event.png)
 
@@ -205,7 +205,7 @@ updateGPGEvent([TEXT], [NUMBER]);
 
 ***
 
-### Has Quest Completed?
+### <a name="gpg-check-quests"></a> Has Quest Completed?
 
 ![quest-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-check-quests.png)
 
@@ -217,7 +217,7 @@ hasNewGPGQuestCompleted()
 
 ***
 
-### Get Completed Quest List
+### <a name="gpg-completed-quests"></a> Get Completed Quest List
 
 ![start-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-completed-quests.png)
 
@@ -229,7 +229,7 @@ getCompletedGPGQuests()
 
 ***
 
-### Get Reward for Quest
+### <a name="gpg-get-reward"></a> Get Reward for Quest
 
 ![reward-googleplay-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gpg-get-reward.png)
 
@@ -243,7 +243,7 @@ getGPGQuestReward([TEXT])
 
 ## Ads
 
-### [Show/Hide] Mobile Ad
+### <a name="iad-show-hide"></a> [Show/Hide] Mobile Ad
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iad-show-hide.png)
 
@@ -256,7 +256,7 @@ hideMobileAd();
 
 ***
 
-### Height of Ad
+### <a name="iad-height"></a> Height of Ad
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iad-height.png)
 
@@ -270,7 +270,7 @@ Returns the height of the banner ad, so you can reposition your game elements ac
 
 ## Purchases
 
-### Request Info for Product
+### <a name="iap-request-info"></a> Request Info for Product
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-request-info.png)
 
@@ -282,7 +282,7 @@ purchasesRequestProductInfo([[TEXT]]);
 
 ***
 
-### Player Can Make Purchases?
+### <a name="iap-loaded"></a> Player Can Make Purchases?
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-loaded.png)
 
@@ -294,7 +294,7 @@ purchasesAreInitialized()
 
 ***
 
-### [Buy/Use] Product
+### <a name="iap-buy-use"></a> [Buy/Use] Product
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-buy-use.png)
 
@@ -306,7 +306,7 @@ purchasesBuy([TEXT]);
 
 ***
 
-### Free Unmanaged Purchases (Android)
+### <a name="iap-free-unmanaged"></a> Free Unmanaged Purchases (Android)
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-free-unmanaged.png)
 
@@ -318,7 +318,7 @@ purchasesGoogleConsume([TEXT]);
 
 ***
 
-### Purchased Product?
+### <a name="iap-purchased"></a> Purchased Product?
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-purchased.png)
 
@@ -330,7 +330,7 @@ purchasesHasBought([TEXT])
 
 ***
 
-### Get Product Quantity (for consumable)
+### <a name="iap-get-quantity"></a> Get Product Quantity (for consumable)
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-get-quantity.png)
 
@@ -342,7 +342,7 @@ purchasesGetQuantity([TEXT])
 
 ***
 
-### Restore Purchases
+### <a name="iap-restore"></a> Restore Purchases
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-restore.png)
 
@@ -354,7 +354,7 @@ purchasesRestore();
 
 ***
 
-### [Title/Price/Description] for Product
+### <a name="iap-title-desc-price"></a> [Title/Price/Description] for Product
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-title-desc-price.png)
 
@@ -370,7 +370,7 @@ purchasesGetDescription([TEXT])
 
 ## Other
 
-### Show Alert
+### <a name="show-alert"></a> Show Alert
 
 ![show-alert-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/show-alert.png)
 
@@ -382,7 +382,7 @@ showAlert([TEXT], [TEXT]);
 
 ***
 
-### Set Icon Badge (iOS)
+### <a name="ios-badge-number"></a> Set Icon Badge (iOS)
 
 ![set-badge-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/ios-badge-number.png)
 
