@@ -1,5 +1,9 @@
 ***
 
+> [Instructions on how to install toolset extensions]
+
+***
+
 ## Released
 
 ### Dialog Extension
