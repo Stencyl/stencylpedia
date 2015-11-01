@@ -4,7 +4,7 @@
 
 ## Create Actor
 
-### Create Actor
+### <a name="create-actor3"></a> Create Actor
 
 ![create-actor3](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/create-actor3.png)
 
@@ -18,7 +18,7 @@ createRecycledActor([ACTOR TYPE], [NUMBER], [NUMBER], Script.BACK);
 
 ***
 
-### Create Actor on Layer
+### <a name="create-actor-on-layer"></a> Create Actor on Layer
 
 ![create-actor-on-layer](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/create-actor-on-layer.png)
 
@@ -33,7 +33,7 @@ createRecycledActorOnLayer([ACTOR TYPE], [NUMBER], [NUMBER], 1, [TEXT]); //By La
 
 ## Get Actor
 
-### Get Actor Instance
+### <a name="actor"></a> Get Actor Instance
 
 ![actor](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actor.png)
 
@@ -45,7 +45,7 @@ Let you choose a specific actor instance to return.
 
 ***
 
-### For Each Actor On Screen...
+### <a name="actors-on-screen"></a> For Each Actor On Screen...
 
 ![actors-on-screen](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-on-screen.png)
 
@@ -63,7 +63,7 @@ engine.allActors.reuseIterator = true;
 
 ***
 
-### For Each Actor in Region...
+### <a name="actors-in-region"></a> For Each Actor in Region...
 
 ![actors-in-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-in-region.png)
 
@@ -79,7 +79,7 @@ for(actorInRegion in getActorsInRegion([REGION])) {
 
 ***
 
-### For Each Actor of Type...
+### <a name="actors-of-type3"></a> For Each Actor of Type...
 
 ![actors-of-type3](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-of-type3.png)
 
@@ -95,7 +95,7 @@ for(actorOfType in getActorsOfType([ACTOR TYPE])) {
 
 ***
 
-### For Each Actor of Actor Group...
+### <a name="actors-in-group"></a> For Each Actor of Actor Group...
 
 ![actors-in-group](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-in-group.png)
 
