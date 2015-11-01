@@ -8,7 +8,7 @@
 
 ## Actions
 
-### Save Game
+### <a name="save-game"></a> Save Game
 
 ![save-game-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/1%20-%20Saving/save-game.png)
 
@@ -18,7 +18,7 @@ If the save operation succeeds, the embedded `save succeeded` block will return 
 
 ```
 saveGame("mySave", function(success:Bool):Void {
-	[ACTIONS]
+  [ACTIONS]
 });
 ```
 
@@ -29,7 +29,7 @@ saveGame("mySave", function(success:Bool):Void {
 
 ***
 
-### Load Game
+### <a name="load-game"></a> Load Game
 
 ![load-game-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/1%20-%20Saving/load-game.png)
 
@@ -39,7 +39,7 @@ If the load operation succeeds, the embedded `save succeeded` block will return 
 
 ```
 loadGame("mySave", function(success:Bool):Void {
-	[ACTIONS]
+  [ACTIONS]
 });
 ```
 
