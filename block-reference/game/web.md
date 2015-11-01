@@ -8,7 +8,7 @@
 
 ## Web Browser
 
-### Open URL in Browser
+### <a name="show-browser"></a> Open URL in Browser
 
 ![open-url-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/0%20-%20Web/show-browser.png)
 
@@ -22,7 +22,7 @@ openURLInBrowser([TEXT]);
 
 ## HTTP Requests
 
-### GET Request
+### <a name="visit-site"></a> GET Request
 
 ![get-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/0%20-%20Web/visit-site.png)
 
@@ -30,13 +30,13 @@ Issues an HTTP GET request at the given URL, then executes the enclosed blocks i
 
 ```
 visitURL([TEXT], function(event:Event):Void {
-	[ACTIONS]
+  [ACTIONS]
 });
 ```
 
 ***
 
-### POST Request
+### <a name="visit-site-post"></a> POST Request
 
 ![post-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/0%20-%20Web/visit-site-post.png)
 
@@ -46,7 +46,7 @@ Parameters are pased in as key=value pairs, separated by ampersands (&), like th
 
 ```
 postToURL([TEXT], [TEXT], function(event:Event):Void {
-	[ACTIONS]
+  [ACTIONS]
 });
 ```
 
