@@ -143,8 +143,8 @@ getMouseReleasedY()
 Shows or hides the mouse cursor. Doesn't apply to mobile games. Useful for implementing custom cursors (using an actor that follows the mouse).
 
 ```
-hideCursor()
-showCursor()
+hideCursor();
+showCursor();
 ```
 
 ***
