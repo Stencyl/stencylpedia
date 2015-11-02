@@ -2,7 +2,7 @@
 
 ***
 
-> Read our guide on [changing scenes](http://www.stencyl.com/help/view/changing-scenes/) and [pausing](http://www.stencyl.com/help/view/pausing/) for an explanation of these blocks.
+> Read our guide on [Changing Scenes](http://www.stencyl.com/help/view/changing-scenes/) and [Pausing](http://www.stencyl.com/help/view/pausing/) for an explanation of these blocks.
 
 ***
 
