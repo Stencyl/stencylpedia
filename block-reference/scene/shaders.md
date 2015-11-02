@@ -96,7 +96,7 @@ new ExternalShader([TEXT])
 
 ![shader-text](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-text.png)
 
-Define a shader inline using GLSL.
+Define a shader inline using [GLSL] (https://en.wikipedia.org/wiki/OpenGL_Shading_Language).
 
 ```
 new InlineShader([TEXT])
