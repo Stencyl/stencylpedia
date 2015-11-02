@@ -83,3 +83,12 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active | -
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active | -
 [**Workflow Utilities**](http://community.stencyl.com/index.php/topic,44968.0.html) | letmethink | 3.0.0+ | All | Active | -
+
+
+## Wanted (Extension Requests)
+
+Use this section to add requests for extensions. If one has already been suggested, add your name to the extra votes section.
+
+Title | Your Name (on Stencyl.com) | Description | Extra Votes
+--- | --- | ---
+Video Player | Jon | Video playback for iOS and Android | mdotedot
