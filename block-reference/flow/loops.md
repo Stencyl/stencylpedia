@@ -30,7 +30,7 @@ Prints out [0 1 2 3 4].
 
 ![while-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/1%20-%20Loops/while.png)
 
-Runs the wrapped blocks while the given condition is `true`. If the condition is `false` to begin with, nothing will run.
+Runs the wrapped blocks while the given condition is `true`. If the condition is `false` to begin with, nothing will run. Make sure that the condition becomes `false` at some point during the evaluation of the loop (or use the `exit loop` block), otherwise it will result in an infinite loop that will crash your game.
 
 ```
 while([BOOLEAN]) {
@@ -44,7 +44,7 @@ while([BOOLEAN]) {
 
 ![repeat-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/1%20-%20Loops/repeatu.png)
 
-Runs the wrapped blocks while the given condition is `false`. If the condition is `true` to begin with, nothing will run.
+Runs the wrapped blocks while the given condition is `false`. If the condition is `true` to begin with, nothing will run. Make sure that the condition becomes `true` at some point during the evaluation of the loop (or use the `exit loop` block), otherwise it will result in an infinite loop that will crash your game.
 
 ```
 while(![BOOLEAN]) {
