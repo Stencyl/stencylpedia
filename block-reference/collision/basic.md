@@ -16,7 +16,7 @@ You can refer to Actor 1 and Actor 2 directly using the blocks embedded in the e
 
 ## Collision Side
 
-### <a name="collision-top"></a> [Top/Left/Bottom/Right] Side was Hit
+### <a name="collision-top"></a> Top / Left / Bottom / Right Side was Hit
 
 ![collision-side-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Side.png)
 
