@@ -1,16 +1,3 @@
-This section include ad networks and third party APIs that Stencyl can hook into.
-
-> [Instructions on how to install toolset extensions]
-
-***
-
-## Our Favorites
-
-(TODO - Instead, put our favorite choices at the top or highlight them.)
-(TODO - Scan forums for new things to add)
-
-***
-
 ## Ads
 
 These extensions hook Stencyl up to various ad networks.
@@ -25,7 +12,6 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**FGL Ads**](http://community.stencyl.com/index.php/topic,25931.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
 [**RevMob**](http://community.stencyl.com/index.php/topic,24331.0.html) | GeorgeN | 3.3.0+ | iOS, Android | Abandoned | [New version](http://community.stencyl.com/index.php/index.php?topic=24331.msg246523#msg246523) provided by a different author.
 [**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS | Active
-
 
 ***
 
@@ -42,12 +28,11 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Video Playback**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [Someone else](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) is working on a new version.
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
 
-
 ***
 
 ## Services
 
-These extensions hook Stencyl up with 3rd party apis, such as leaderboards and multiplayer services.
+These extensions hook Stencyl up with 3rd party services, such as leaderboards and multiplayer providers.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
@@ -58,7 +43,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ***
 
-## Features
+## Other Features
 
 These extensions add new functionality to non-mobile games (or for all platforms).
 
@@ -80,7 +65,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ## Utilities
 
-These extensions add new or enhanced blocks to the palette.
+These extensions add new blocks (or enhanced versions of existing ones) to the palette.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
@@ -101,5 +86,3 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active
 [**Workflow Utilities**](http://community.stencyl.com/index.php/topic,44968.0.html) | letmethink | 3.0.0+ | All | Active
-
-***
