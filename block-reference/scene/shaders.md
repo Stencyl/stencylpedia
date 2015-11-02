@@ -158,7 +158,7 @@ new HueShader(0)
 
 ***
 
-### <a name="shader-csb"></a> [Contrast / Saturation / Brightness]
+### <a name="shader-csb"></a> Contrast / Saturation / Brightness
 
 ![shader-csb](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-csb.png)
 
