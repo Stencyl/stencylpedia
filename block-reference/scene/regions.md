@@ -2,7 +2,7 @@
 
 ***
 
-> Read our guide on [regions](http://www.stencyl.com/help/view/regions/) for an explanation of these blocks.
+> Read our guide on [Regions](http://www.stencyl.com/help/view/regions/) for an explanation of these blocks.
 
 ***
 
