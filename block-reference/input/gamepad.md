@@ -24,7 +24,7 @@ Input.enableJoystick();
 
 ![map-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/Map.png)
 
-Binds a physical button on the gamepad to a Stencyl [control](http://www.stencyl.com/help/view/controls/). Each model of controller has different names for its buttons, so you must either let the user configure their controls or [discover]((http://www.stencyl.com/help/view/gamepads/)) those names.
+Binds a physical button on the gamepad to a Stencyl [control](http://www.stencyl.com/help/view/controls/). Each model of controller has different names for its buttons, so you must either let the user configure their controls or [discover](http://www.stencyl.com/help/view/gamepads/) those names.
 
 ```
 Input.mapJoystickButton([TEXT],[CONTROL]);
