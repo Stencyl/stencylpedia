@@ -31,7 +31,7 @@ setGravity([NUMBER], [NUMBER]);
 
 ## Tile API
 
-### <a name="tile-wh"></a> Tile [Width/Height]
+### <a name="tile-wh"></a> Tile Width / Height
 
 ![tile-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-wh.png)
 
@@ -163,7 +163,7 @@ getTileDataAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 ## Properties
 
-### <a name="scene-wh"></a> Scene [Width / Height]
+### <a name="scene-wh"></a> Scene Width / Height
 
 ![scene-wh](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/scene-wh.png)
 
