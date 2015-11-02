@@ -57,7 +57,7 @@ Returns the width or height of the actor.
 
 ***
 
-## Groups / Type
+## Groups / Types
 
 ### <a name="getatype"></a> Get Actor Type
 
