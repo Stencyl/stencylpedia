@@ -126,7 +126,7 @@ getTileColIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 ![tilesetID-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tilesetID-at2.png)
 
-ID of the tileset for the tile at this position and layer, or -1 if no tile found.
+Returns the ID of the tileset for the tile at this position and layer, or -1 if no tile found.
 
 ```
 getTilesetIDAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
@@ -139,7 +139,7 @@ getTilesetIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 
 ![remove-tile-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/remove-tile-at2.png)
 
-Remove tile at this position.
+Remove the tile at this position.
 
 ```
 removeTileAt([NUMBER], [NUMBER], 0, [TEXT]); //specify layer ID
@@ -152,7 +152,7 @@ removeTileAt([NUMBER], [NUMBER], 1, [TEXT]); //specify layer name
 
 ![tile-data-at2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/2%20-%20World/tile-data-at2.png)
 
-Get data for tile at this position. Returns empty text if no tile found.
+Get the tile data for the tile at this position. Returns empty text if no tile found.
 
 ```
 getTileDataAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
