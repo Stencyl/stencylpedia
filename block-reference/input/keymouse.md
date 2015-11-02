@@ -121,7 +121,7 @@ was released | Mouse button was **just** released. Called once per click-release
 
 ![position-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Position.png)
 
-Returns the last known (x,y) position of the [mouse (cursor), mouse press, mouse release]. Before using mouse press/release, first check if the mouse has been pressed or released.
+Returns the last known (x, y) position of the [mouse (cursor), mouse press, mouse release]. Before using mouse press/release, first check if the mouse has been pressed or released.
 
 > On mobile, only mouse press/release are available since there's no concept of a mouse hovering over the screen.
 
