@@ -162,7 +162,7 @@ new HueShader(0)
 
 ![shader-csb](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/4%20-%20Shaders/shader-csb.png)
 
-Adjust the screen's contrast, saturation and brightness, in percentages. 100% means original value, 200% means twice as much, 50% means half as much.
+Adjust the screen's contrast, saturation or brightness, in percentages. 100% means original value, 200% means twice as much, 50% means half as much.
 
 ```
 CSBShader.create("contrast", [NUMBER]/100)
