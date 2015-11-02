@@ -61,7 +61,7 @@ getStepSize()
 
 ## Platforms
 
-### <a name="is-platform"></a> Running on [PLATFORM]
+### <a name="is-platform"></a> Running on Platform
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-platform.png)
 
@@ -83,7 +83,7 @@ Returns `true` if the game is running on the selected platform.
 #if(PLATFORM) true #else false #end
 ```
 
-### <a name="is-device2"></a> Running on [SPECIFIC IOS DEVICE]
+### <a name="is-device2"></a> Running on Specific iOS Device
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-device2.png)
 
@@ -106,7 +106,7 @@ Returns `true` if the game is running on the selected kind of iOS device. Useful
 
 ***
 
-### <a name="do-on-platform"></a> Do only on [PLATFORM]
+### <a name="do-on-platform"></a> Do only on Platform
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/do-on-platform.png)
 
@@ -148,7 +148,7 @@ exitGame();
 
 These blocks are deprecated. We now recommend handling [atlases](http://www.stencyl.com/help/view/mobile-atlases/) entirely using the Atlas page.
 
-### <a name="load-unload-atlas"></a> Load/Unload Atlas
+### <a name="load-unload-atlas"></a> Load / Unload Atlas
 
 ![atlas-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/load-unload-atlas.png)
 
