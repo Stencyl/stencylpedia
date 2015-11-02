@@ -51,7 +51,7 @@ gameURL()
 
 ![step-size-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/stepsize.png)
 
-Returns the number of milliseconds in each "step" of the game. This corresponds to the time elapsed between updates to **when updating** events. The default step size is 10 milliseconds.
+Returns the number of milliseconds in each "step" of the game. This corresponds to the time elapsed between updates to `when updating` events. The default step size is 10 milliseconds.
 
 ```
 getStepSize()
