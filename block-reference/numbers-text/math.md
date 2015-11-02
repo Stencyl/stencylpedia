@@ -8,7 +8,7 @@
 
 ![arithmetic-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/arithmetic.png)
 
-Adds/Subtracts/Multiplies/Divides the two provided numbers.
+Adds/Subtracts/Multiplies/Divides the two provided numbers. Note that only Chuck Norris can divide by 0.
 
 ```
 ([NUMBER] + [NUMBER])
@@ -90,7 +90,7 @@ Adds (or subtracts) the given number to/from a **number attribute**.
 
 ![abs-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/AbsoluteValue.png)
 
-Returns the absolute value of the given number. (Makes it positive)
+Returns the absolute value of the given number. (If it is negative, makes it positive.)
 
 ```
 Math.abs([NUMBER])
