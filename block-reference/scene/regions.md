@@ -151,7 +151,7 @@ Gets the [X/Y] location of the region.
 
 ***
 
-### <a name="get-region-size"></a> [Width/Height] of Region
+### <a name="get-region-size"></a> Width / Height of Region
 
 ![get-region-size](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/get-region-size.png)
 
