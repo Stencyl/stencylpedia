@@ -30,7 +30,7 @@ Sets the [X / Y] speed for the actor.
 
 ***
 
-### <a name="setvel"></a> Set Velocity (given direction, speed)
+### <a name="setvel"></a> Set Velocity (given Direction and Speed)
 
 ![set-velocity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/setvel.png)
 
