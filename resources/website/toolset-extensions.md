@@ -1,11 +1,3 @@
-***
-
-> [Instructions on how to install toolset extensions]
-
-***
-
-## Released
-
 ### Dialog Extension
 
 Author | Stencyl Version | Platforms | Status | Download | Discuss
@@ -14,8 +6,7 @@ Justin Espedal, Cory Martin | 3.4.0+ | All | Active | <a role="button" class="bt
 
 A comprehensive system for dislaying rich, scripted dialogs in your game. Comes with an editor for composing dialogs within Stencyl.
 
-![img1](http://static.stencyl.com/v3/images/dev/sample-dg.png) 
-![img2](http://static.stencyl.com/v3/images/dev/sample-dg.png)
+![dialog-extension](http://static.stencyl.com/v3/images/dev/sample-dg.png) 
 
 ***
 
@@ -27,12 +18,9 @@ Justin Espedal | 3.4.0+ | All | Active | <a role="button" class="btn btn-primary
 
 Create and manage data structures in Stencyl. For example, for an RPG you can create a 'Character' structure with attributes like HP, MP, and level.
 
-![img1](http://static.stencyl.com/v3/images/dev/sample-dg.png) 
-![img2](http://static.stencyl.com/v3/images/dev/sample-dg.png)
+![data-structures](http://static.stencyl.com/v3/images/dev/sample-dg.png) 
 
 ***
-
-## In Development
 
 ### Easy RPG Creator
 
@@ -42,7 +30,6 @@ Siren Games | 3.4.0+ | All | In Development | <a role="button" class="btn btn-pr
 
 Create and manage data structures in Stencyl. For example, for an RPG you can create a 'Character' structure with attributes like HP, MP, and level.
 
-![img1](http://i40.tinypic.com/6e27mh.png) 
-![img2](http://i40.tinypic.com/6e27mh.png)
+![easy-rpg-creator](http://i40.tinypic.com/6e27mh.png) 
 
 ***
