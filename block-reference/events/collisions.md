@@ -6,7 +6,7 @@
 
 ***
 
-## This Actor collides with...
+## This Actor collides with ...
 
 ### <a name="collide"></a> Something Else
 
@@ -16,7 +16,7 @@ Triggers when this actor collides with any other actor.
 
 ***
 
-## Any Actor collides with...
+## Any Actor collides with ...
 
 ***
 
@@ -44,7 +44,7 @@ Triggers when an actor of the specified Actor Group collides with any other acto
 
 ***
 
-## Collisions Between...
+## Collisions Between ...
 
 ### <a name="event-collide-typetotype"></a> Type and Type
 
