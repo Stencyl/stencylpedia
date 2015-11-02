@@ -7,6 +7,7 @@ This section include ad networks and third party APIs that Stencyl can hook into
 ## Our Favorites
 
 (TODO - Instead, put our favorite choices at the top or highlight them.)
+(TODO - Scan forums for new things to add)
 
 ***
 
