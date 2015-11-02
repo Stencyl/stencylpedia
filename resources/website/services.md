@@ -21,6 +21,12 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ## Services
 
-### aaa
+Name | Author | Stencyl Version | Platforms | Status | Notes
+--- | --- | --- | --- | --- | ---
+[**Facebook Leaderboards**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs $15 EUR / ~$17 USD.
+[**Mind Jolt**](http://community.stencyl.com/index.php/topic,32923.0.html) | VashTS | 3.3.0+ | Flash | Active
+[**Multiplayer**](http://community.stencyl.com/index.php/topic,42202.0.html) | --- | --- | All | Active | Lists out several options.
+[**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
+[**Player IO**](http://community.stencyl.com/index.php/topic,26007.0.html) | Robert Alvarez | 3.3.0+ | Flash | Abandoned
 
 ***
