@@ -8,7 +8,7 @@
 
 ## Playback
 
-### <a name="play-sound4"></a> [Play/Loop] Sound
+### <a name="play-sound4"></a> Play / Loop Sound
 
 ![play-sound-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/play-sound4.png)
 
@@ -47,7 +47,7 @@ setVolumeForAllSounds([NUMBER]/100);
 
 ***
 
-### <a name="fade-sounds"></a> Fade [In/Out]
+### <a name="fade-sounds"></a> Fade Volume In / Out
 
 ![fade-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/fade-sounds.png)
 
@@ -62,7 +62,7 @@ fadeOutForAllSounds([NUMBER]);
 
 ## Channels
 
-### <a name="play-sound-channel"></a> [Play/Loop] on Channel
+### <a name="play-sound-channel"></a> Play / Loop Sound on Channel
 
 ![play-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/play-sound-channel.png)
 
@@ -75,7 +75,7 @@ loopSoundOnChannel([SOUND], [NUMBER]);
 
 ***
 
-### <a name="control-sound-channel"></a> [Stop/Pause/Resume] on Channel
+### <a name="control-sound-channel"></a> Stop / Pause / Resume Sound on Channel
 
 ![stop-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/control-sound-channel.png)
 
@@ -101,7 +101,7 @@ setVolumeForChannel([NUMBER]/100, [NUMBER]);
 
 ***
 
-### <a name="fade-sound-channel"></a> [Fade In / Fade Out] on Channel
+### <a name="fade-sound-channel"></a> Fade Volume In / Out on Channel
 
 ![fade-channel-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/0%20-%20Sound/fade-sound-channel.png)
 
