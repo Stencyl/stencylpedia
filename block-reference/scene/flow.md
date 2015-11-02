@@ -106,7 +106,7 @@ createActorInNextScene([ACTOR TYPE], [NUMBER], [NUMBER], Script.BACK);
 
 ## Pausing
 
-### <a name="pause-unpause"></a> [Pause / Unpause] Game
+### <a name="pause-unpause"></a> Pause / Unpause Game
 
 ![pause-unpause](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/pause-unpause.png)
 
