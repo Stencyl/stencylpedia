@@ -2,7 +2,7 @@
 
 ***
 
-> Read our guide on [shaders](http://www.stencyl.com/help/view/shaders/) for an explanation of these blocks.
+> Read our guide on [Shaders](http://www.stencyl.com/help/view/shaders/) for an explanation of these blocks.
 
 ***
 
