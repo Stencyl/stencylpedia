@@ -1,4 +1,4 @@
-## Dialog Extension
+### Dialog Extension
 
 Authors | Stencyl Version | Platforms | Status | Download | Discuss
 --- | --- | --- | --- | --- | ---
@@ -6,8 +6,9 @@ Justin Espedal, Cory Martin | 3.4.0+ | All | Active | <a role="button" class="bt
 
 The Dialog Extension is a powerful, easy to use dialog system created for Stencyl. Every essential dialog feature is there, and then some. It was designed from the ground up to be as intuitive and extensive as possible.
 
+***
 
-## Data Structures
+### Data Structures
 
 Author | Stencyl Version | Platforms | Status | Download | Discuss
 --- | --- | --- | --- | --- | ---
@@ -15,8 +16,9 @@ Justin Espedal | 3.4.0+ | All | Active | <a role="button" class="btn btn-primary
 
 Create and manage data structures in Stencyl. For example, for an RPG you can create a 'Character' structure with attributes like HP, MP, and level.
 
+***
 
-## Extras Manager
+### Extras Manager
 
 Author | Stencyl Version | Platforms | Status | Download | Discuss
 --- | --- | --- | --- | --- | ---
@@ -24,8 +26,9 @@ Justin Espedal | 3.4.0+ | All | Beta | <a role="button" class="btn btn-primary b
 
 Let you manage your Extras folder from within Stencyl. Particularly useful when using the [Image API](http://www.stencyl.com/help/view/image-api).
 
+***
 
-## Imgur Uploader
+### Imgur Uploader
 
 Author | Stencyl Version | Platforms | Status | Download | Discuss
 --- | --- | --- | --- | --- | ---
@@ -33,8 +36,9 @@ Nathaniel Mitchell | 3.4.0+ | All | Active | <a role="button" class="btn btn-pri
 
 Lets you quickly and easily upload screenshots from Stencyl to Imgur. Handy when you want to share your latest screenshots when asking for help with a bug or when seeking feedback on your game.
 
+***
 
-## Easy RPG Creator
+### Easy RPG Creator
 
 Author | Stencyl Version | Platforms | Status | Download | Discuss
 --- | --- | --- | --- | --- | ---
