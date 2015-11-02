@@ -92,7 +92,7 @@ Returns the number of frames in the actor's current animation.
 
 ![get-frame-duration-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/get-frame-duration.png)
 
-Returns the duration (in seconds) of the current frame in the actor's current animation.
+Returns the duration (in milliseconds) of the current frame in the actor's current animation.
 
 ```
 [ACTOR].currAnimation.getFrameDurations()[[NUMBER]]
@@ -104,7 +104,7 @@ Returns the duration (in seconds) of the current frame in the actor's current an
 
 ![set-frame-duration-anim-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/set-frame-duration.png)
 
-Sets the duration (in seconds) of the current frame in the actor's current animation.
+Sets the duration (in milliseconds) of the current frame in the actor's current animation.
 
 ```
 [ACTOR].currAnimation.setFrameDuration([NUMBER], [NUMBER]);
