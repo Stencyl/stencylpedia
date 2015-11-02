@@ -4,7 +4,7 @@
 
 ## Delayed
 
-### <a name="dolater"></a> Do after [N] seconds
+### <a name="dolater"></a> Do after N seconds
 
 ![do-after-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/dolater.png)
 
@@ -22,7 +22,7 @@ runLater(1000 * [NUMBER], function(task:TimedTask):Void {
 
 ## Periodic
 
-### <a name="periodic"></a> Do every [N] seconds
+### <a name="periodic"></a> Do every N seconds
 
 ![do-every-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/periodic.png)
 
