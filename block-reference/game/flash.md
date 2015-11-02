@@ -24,7 +24,7 @@ kongregateInitAPI();
 
 ![kong-init-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/3%20-%20Flash/kong-submit.png)
 
-Submit a [score](http://developers.kongregate.com/docs/kongregate-apis/stats) to Kongregate. First field is the name of the Statistic. Second field is the value of it (a number).
+Submit a [score](http://developers.kongregate.com/docs/kongregate-apis/stats) to Kongregate. First field is the name of the statistic. Second field is the value of it (a number).
 
 ```
 kongregateSubmitStat([TEXT], [NUMBER]);
