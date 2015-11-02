@@ -60,11 +60,11 @@ shoutToScene("_customEvent_" + [TEXT]);
 
 ## For Both
 
-### <a name="say-this"></a> Trigger Event (Global)
+### <a name="say-this"></a> Trigger Event (this Behavior)
 
 ![global-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/say-this.png)
 
-Triggers the custom event for all behaviors attached to every actor in the current scene and the current scene.
+Triggers a custom event in this behaviors. This is a direct function call, so an event with the specified name must exist, otherwise it will cause a compilation error.
 
 ```
 _customEvent_text();
