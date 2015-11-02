@@ -68,7 +68,7 @@ reloadCurrentScene(null, createSlideRightTransition([NUMBER]));
 
 ![scenebyname](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scenebyname.png)
 
-Returns a Scene by its name. Use inside a scene-switching block for an easy way to switch scenes by name or by text.
+Returns a Scene by its name. Use inside a scene-switching block for an easy way to switch scenes by name.
 
 ```
 GameModel.get().scenes.get(getIDForScene([TEXT]))
@@ -80,7 +80,7 @@ GameModel.get().scenes.get(getIDForScene([TEXT]))
 
 ![is-transitioning](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/is-transitioning.png)
 
-Returns `true` if the game is in the process of transitioning to another scene, transitions from another scene or reloading.
+Returns `true` if the game is in the process of transitioning to another scene, transitioning from another scene, or reloading.
 
 ```
 isTransitioning()
@@ -94,7 +94,7 @@ isTransitioning()
 
 ![create-actor3-next](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/create-actor3-next.png)
 
-Notifies the game to creates an actor in the next scene (or the reload of the current one). This is useful for top-down games (like Zelda) where you'll exit the screen on one side and want to seamlessly reappear on the "correct" side.
+Notifies the game to creates an actor in the next scene (or the reload of the current one). This is useful, for example, for top-down games (like Zelda) where you'll exit the screen on one side and want to seamlessly reappear on the "correct" side.
 
 ```
 createActorInNextScene([ACTOR TYPE], [NUMBER], [NUMBER], Script.FRONT);
@@ -123,7 +123,7 @@ engine.unpause();
 
 ![is-paused](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/is-paused.png)
 
-Return `true` if the game is paused.
+Returns `true` if the game is paused.
 
 ```
 engine.isPaused()
