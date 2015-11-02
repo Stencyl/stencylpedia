@@ -8,7 +8,7 @@
 
 ![move-pen-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/2%20-%20Transforms/draw-transtoby.png)
 
-Moves the origin point of drawing [to / by] the specified amount.
+Moves the origin point of drawing to or by the specified amount.
 
 **To** = Sets to the specified amount.<br/>
 **By** = Adds the specified amount to the existing amount.
@@ -34,7 +34,7 @@ g.translateToScreen();
 
 ***
 
-### <a name="to-local-space"></a> Switch to Actor Space (for Specific Actor)
+### <a name="to-local-space"></a> Switch to Actor Space
 
 ![actor-space-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/2%20-%20Transforms/to-local-space.png)
 
