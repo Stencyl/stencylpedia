@@ -38,7 +38,7 @@ Spins (rotates) the actor [by / to] the given amount in degrees over the specifi
 
 ## Fade
 
-### <a name="fadeInOut"></a> Fade [In/Out]
+### <a name="fadeInOut"></a> Fade In / Out
 
 ![fade-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeInOut.png)
 
