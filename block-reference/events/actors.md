@@ -30,7 +30,7 @@ Triggers when any actor that is a member of the specified Actor Group is created
 
 ## Enters or Leaves the Scene or Screen
 
-### <a name="event-actor-screen"></a> Specific Actor (enters or leaves a the scene or screen)
+### <a name="event-actor-screen"></a> Specific Actor (enters or leaves the scene or screen)
 
 ![event-actor-screen](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/8%20-%20Actors/event-actor-screen.png)
 
@@ -38,7 +38,7 @@ Triggers when the specified actor enters/leaves the Screen/Scene.
 
 ***
 
-### <a name="event-type-screen"></a> Actor of Type (enters or leaves a the scene or screen)
+### <a name="event-type-screen"></a> Actor of Type (enters or leaves the scene or screen)
 
 ![event-type-screen](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/8%20-%20Actors/event-type-screen.png)
 
@@ -46,7 +46,7 @@ Triggers when any actor of the specified Actor Type enters/leaves the screen/sce
 
 ***
 
-### <a name="event-group-screen"></a> Member of Group (enters or leaves a the scene or screen)
+### <a name="event-group-screen"></a> Member of Group (enters or leaves the scene or screen)
 
 ![event-group-screen](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/8%20-%20Actors/event-group-screen.png)
 
