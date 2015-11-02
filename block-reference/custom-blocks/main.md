@@ -2,7 +2,7 @@
 
 ***
 
-> Read our [Stencylpedia guide](http://www.stencyl.com/help/view/creating-custom-blocks/) on Custom Blocks.
+> Read our guide on [Custom Blocks](http://www.stencyl.com/help/view/creating-custom-blocks/) for more information on how to create custom blocks.
 
 ***
 
