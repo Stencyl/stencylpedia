@@ -4,16 +4,14 @@ These extensions hook Stencyl up to various ad networks.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
-[**AdMob**](http://community.stencyl.com/index.php/topic,41376.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active
-[**Ad Colony**](http://community.stencyl.com/index.php/topic,40370.0.html) | Max Glockling | 3.3.0+ | iOS, Android | Active
+[**AdMob**](http://community.stencyl.com/index.php/topic,41376.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | 
+[**Ad Colony**](http://community.stencyl.com/index.php/topic,40370.0.html) | Max Glockling | 3.3.0+ | iOS, Android | Active | 
 [**Chartboost**](http://community.stencyl.com/index.php/topic,25006.0.html) | rob1221 | 3.3.0+ | iOS, Android | Active | May have [issues](http://community.stencyl.com/index.php/index.php?topic=25006.msg250824#msg250824).
 [**CPM Star**](http://community.stencyl.com/index.php/topic,26486.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
-[**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
+[**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | 
 [**FGL Ads**](http://community.stencyl.com/index.php/topic,25931.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
 [**RevMob**](http://community.stencyl.com/index.php/topic,24331.0.html) | GeorgeN | 3.3.0+ | iOS, Android | Abandoned | [New version](http://community.stencyl.com/index.php/index.php?topic=24331.msg246523#msg246523) provided by a different author.
-[**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS | Active
-
-***
+[**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS | Active | 
 
 ## Mobile Features
 
@@ -25,10 +23,9 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Notifications & Alerts**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active
-[**Video Playback**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [Someone else](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) is working on a new version.
+[**Video Playback**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) is working on a new version.
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
 
-***
 
 ## Services
 
@@ -41,7 +38,6 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Multiplayer**](http://community.stencyl.com/index.php/topic,42202.0.html) | --- | --- | All | Active | Lists out several options.
 [**Player IO**](http://community.stencyl.com/index.php/topic,26007.0.html) | rob1221 | 3.3.0+ | Flash | Abandoned
 
-***
 
 ## Other Features
 
@@ -61,7 +57,6 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**SFXR**](http://community.stencyl.com/index.php/topic,24159.0.html) | GeorgeN | 3.3.0+ | Flash | Active
 [**Spine Animations**](http://community.stencyl.com/index.php/topic,26183.0.html) | AnemoneLabSNC | 3.0.0+ | All | Abandoned
 
-***
 
 ## Utilities
 
