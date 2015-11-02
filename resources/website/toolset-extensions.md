@@ -1,4 +1,4 @@
-> Toolset Extensions Guide ([Installing](http://community.stencyl.com/index.php/topic,3445.0.html) - [Developing](http://www.stencyl.com/help/view/creating-extensions/) - [Publishing](http://community.stencyl.com/index.php/topic,30433.0.html) - [Adding to this Page](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/toolset-extensions.md))
+> Toolset Extensions Guide ([Installing](http://community.stencyl.com/index.php/topic,3445.0.html) - [Developing](http://www.stencyl.com/help/view/creating-extensions/) - [Publishing](http://community.stencyl.com/index.php/topic,30433.0.html) - [Forums](http://community.stencyl.com/index.php/board,11.0.html) - [Adding to this Page](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/toolset-extensions.md))
 
 
 ### Dialog Extension
