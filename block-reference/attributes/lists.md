@@ -162,7 +162,7 @@ list.copy()
 
 ## Looping
 
-### <a name="for-each"></a> For Each Item in List
+### <a name="for-each"></a> For Each Item in List ...
 
 ![loop-list-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/3%20-%20Lists/for-each.png)
 
