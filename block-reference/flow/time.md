@@ -40,14 +40,14 @@ runPeriodically(1000 * [NUMBER], function(task:TimedTask):Void {
 
 ![time-example](http://static.stencyl.com/pedia2/blocks/flow/flow_time/PeriodicExample2.png)
 
-`do-after` and `do-every` can be combined together. In this example, we implement a "blinking" effect by alternating the actor between hidden and not-hidden, without relying on a variable to store state.
+`do after n seconds` and `do every n seconds` can be combined together. In this example, we implement a "blinking" effect by alternating the actor between hidden and not-hidden, without relying on a variable to store state.
 
 
 ### <a name="cancel"></a> Cancel
 
 ![cancel-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/2%20-%20Time/cancel.png)
 
-Cancels the execution of a periodic (`do-every-n-seconds`) task.
+Cancels the execution of a periodic (`do every n seconds`) task.
 
 ```
 timeTask.repeats = false; 
