@@ -42,9 +42,9 @@ This variant of comments wraps around a stack of blocks. It has no effect on the
 
 ***
 
-## Drawing
+## Debug Drawing
 
-### <a name="debug-draw"></a> Enable/Disable Debug Drawing
+### <a name="debug-draw"></a> Enable / Disable Debug Drawing
 
 ![debug-draw-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/debug-draw.png)
 
