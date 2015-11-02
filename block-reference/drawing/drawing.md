@@ -122,7 +122,7 @@ g.endDrawingPolygon();
 
 ![add-poly-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/0%20-%20Drawing/add-to-poly.png)
 
-Adds the specified point to the polygon. At least 3 points must be specified. You do not have to "close" the polygon by repeating the starting point.
+Adds the specified point to the polygon. Must be used within the `draw a [oulined/filled] polygon` wrapper, and at least 3 points must be specified. You do not have to "close" the polygon by repeating the starting point.
 
 ```
 g.addPointToPolygon([NUMBER], [NUMBER]);
