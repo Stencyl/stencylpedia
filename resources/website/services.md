@@ -93,5 +93,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Scaling Utilities**](http://community.stencyl.com/index.php/topic,34277.0.html) | harryzun | 3.0.0+ | All | Active
 [**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active
+[**Workflow Utilities**](http://community.stencyl.com/index.php/topic,44968.0.html) | letmethink | 3.0.0+ | All | Active
+
 
 ***
