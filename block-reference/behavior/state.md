@@ -8,7 +8,7 @@
 
 ![behavior-enabled-actor-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/is-snippet-enableda.png)
 
-Returns `true` if the specified behavior (using its name) is enabled for the given Actor.
+Returns `true` if the specified behavior (using its name) is enabled for the given actor.
 
 ```
 [ACTOR].isBehaviorEnabled([TEXT])
@@ -74,7 +74,7 @@ disableThisBehavior();
 
 ![scene-has-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/has-snippet.png)
 
-Returns `true` if the specified behavior (given the behavior name) exists for the given Actor.
+Returns `true` if the specified behavior (given the behavior name) is attached to the given actor.
 
 ```
 [ACTOR].hasBehavior([TEXT])
@@ -86,7 +86,7 @@ Returns `true` if the specified behavior (given the behavior name) exists for th
 
 ![actor-has-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/scene-has-snippet.png)
 
-Returns `true` if the specified behavior (given the behavior name) exists for the current scene.
+Returns `true` if the specified behavior (given the behavior name) is attached to the current scene.
 
 ```
 sceneHasBehavior([TEXT])
