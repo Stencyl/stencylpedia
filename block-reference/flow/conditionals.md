@@ -22,7 +22,7 @@ if([BOOLEAN]) {
 
 ![otherwise-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/else.png)
 
-Used directly below an "If" block. If the condition in the preceding "If" block is `false`, the blocks wrapped inside the "Otherwise" block will execute.
+Use directly below an "If" block. If the condition in the preceding "If" block is `false`, the blocks wrapped inside the "Otherwise" block will execute.
 
 ```
 else {
@@ -36,7 +36,7 @@ else {
 
 ![otherwise-if-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/else-if.png)
 
-Equivalent to doing the following.
+Use directly below an "If" block. If the condition in the preceding "If" block is `false`, and the condition of this wrapper is `true`, the blocks wrapped inside the "Otherwise If" block will execute. Equivalent to doing the following:
 
 ![equivalent-to-otherwise-if-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/OtherwiseIf2.png)
 
