@@ -30,7 +30,7 @@ isBehaviorEnabledForScene([TEXT])
 
 ## Enable / Disable
 
-### <a name="actor-enabledisable-snippet"></a> [Enable/Disable] Behavior for Actor
+### <a name="actor-enabledisable-snippet"></a> Enable / Disable Behavior for Actor
 
 ![behavior-enabled-scene-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/actor-enabledisable-snippet.png)
 
@@ -42,7 +42,7 @@ Enables (or disabled) the specified behavior (using its name) for the given Acto
 
 ***
 
-### <a name="scene-enabledisable-snippet"></a> [Enable/Disable] Behavior for Scene
+### <a name="scene-enabledisable-snippet"></a> Enable / Disable Behavior for Scene
 
 ![behavior-enabled-scene-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/2%20-%20State/scene-enabledisable-snippet.png)
 
