@@ -16,7 +16,7 @@ Happens just once -- when this behavior is first initialized. For an actor, this
 
 ![when-drawing-event](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/0%20-%20Basics/draw.png)
 
-All drawing code goes here. Happens once a frame.
+All drawing code goes here. Happens once every frame. The number of frames per second (FPS) is variable, capped at 60 frames per second. 
 
 ***
 
@@ -24,7 +24,7 @@ All drawing code goes here. Happens once a frame.
 
 ![when-updatingevent](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/0%20-%20Basics/step.png)
 
-The "meat" of a behavior's logic goes here. Happens for every frame of the game.
+The "meat" of a behavior's logic goes here. Happens for every step of the game. A step takes 10 milliseconds, therefore there are 100 steps per second.
 
 ***
 
