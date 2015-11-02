@@ -1,4 +1,4 @@
-> Extensions Guide ([Installing](http://community.stencyl.com/index.php/topic,30432.0.html) - [Developing](http://www.stencyl.com/help/view/how-to-create-engine-extension) - [Publishing](http://community.stencyl.com/index.php/topic,30433.0.html) - [Adding to this Page](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md))
+> Extensions Guide ([Installing](http://community.stencyl.com/index.php/topic,30432.0.html) - [Developing](http://www.stencyl.com/help/view/how-to-create-engine-extension) - [Publishing](http://community.stencyl.com/index.php/topic,30433.0.html) - [Forums](http://community.stencyl.com/index.php/board,70.0.html) - [Adding to this Page](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md))
 
 ## Ads
 
