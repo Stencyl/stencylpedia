@@ -88,7 +88,7 @@ break;
 
 ![return-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/1%20-%20Loops/continue.png)
 
-Skips the rest of the code for an iteration of the loop proceeds to the next iteration (if one will be done).
+Skips the rest of the code for an iteration of the loop and proceeds to the next iteration (if another iteration will be done).
 
 ```
 continue;
