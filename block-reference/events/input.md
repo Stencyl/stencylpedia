@@ -40,7 +40,7 @@ Triggers when the game gains/loses focus. Useful for mobile apps for telling whe
 
 ## Universal (Works for Mouse & Touch)
 
-### <a name="event-mouse-press-release"></a> (Mouse) Click
+### <a name="event-mouse-press-release"></a> Clicked / Moved
 
 ![event-mouse-press-release](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-press-release.png)
 
@@ -48,7 +48,7 @@ Triggers whenever the mouse pressed/released/moved/dragged. For mobile-devices, 
 
 ***
 
-### <a name="event-mouse-enter-exit-actor"></a> (Mouse) Click on Actor
+### <a name="event-mouse-enter-exit-actor"></a> Clicked / Moved on Actor
 
 ![event-mouse-enter-exit-actor](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-enter-exit-actor.png)
 
@@ -56,7 +56,7 @@ Triggers whenever the mouse enters/exits/presses/releases/drags on an actor. For
 
 ***
 
-### <a name="event-mouse-enter-exit-region"></a> (Mouse) Click on Region
+### <a name="event-mouse-enter-exit-region"></a> Clicked / Moved on Region
 
 ![event-mouse-enter-exit-region](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/2%20-%20Input/event-mouse-enter-exit-region.png)
 
