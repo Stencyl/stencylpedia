@@ -152,7 +152,7 @@ setScrollFactorForLayer(1, [TEXT], [NUMBER], [NUMBER]); //specify a layer name
 
 ***
 
-### <a name="showhide-layer2"></a> [Show/Hide] Layer
+### <a name="showhide-layer2"></a> Show / Hide Layer
 
 ![showhide-layer2](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/showhide-layer2.png)
 
