@@ -110,7 +110,7 @@ createActorInNextScene([ACTOR TYPE], [NUMBER], [NUMBER], Script.BACK);
 
 ![pause-unpause](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/pause-unpause.png)
 
-[Pauses](http://www.stencyl.com/help/view/pausing/) (or Unpauses) the game. You can selectively opt out actors on the Physics > Advanced page of their editor.
+[Pauses](http://www.stencyl.com/help/view/pausing/) (or unpauses) the game. You can selectively opt out actors on the Physics > Advanced page of their editor.
 
 ```
 engine.pause();
