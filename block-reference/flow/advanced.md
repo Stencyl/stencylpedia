@@ -136,7 +136,7 @@ Include the wrapped blocks only on the specified platform. On other platforms, t
 
 ![exit-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/exit-game.png)
 
-Quits out of a Desktop game. Does nothing on Flash/HTML5. On iOS/Android, it may send the app to the background (and goes against platform guidelines).
+Quits out of a Desktop game or standalone Flash game. Does nothing on Flash/HTML5 running in a browser. On iOS/Android, it may send the app to the background (and goes against platform guidelines).
 
 ```
 exitGame();
