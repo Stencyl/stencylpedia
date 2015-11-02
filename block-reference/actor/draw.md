@@ -126,7 +126,7 @@ Returns the ID of the layer that this actor is part of.
 
 ***
 
-### <a name="setlayer2"></a> Switch Layer by ID
+### <a name="setlayer2"></a> Switch Layer by ID/Name
 
 ![switch-layer-id-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/setlayer2.png)
 
