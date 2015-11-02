@@ -105,7 +105,8 @@ getExternalImage([TEXT])
 ![url-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-url.png)
 
 Returns an image that is loaded from a URL. When the image successfully loads, the enclosed blocks will run. Use the embedded `the image` block to refer to the loaded image. If the image does not load, the enclosed blocks will not run.
-For a Flash game you may need to give [permissions] (http://www.stencyl.com/help/view/web-flash-security/) to let it access the web. 
+
+For a Flash game you may need to give [permissions] (http://www.stencyl.com/help/view/web-flash-security/) to access the web. 
 
 ```
 loadImageFromURL([TEXT], function(img:BitmapData):Void {
