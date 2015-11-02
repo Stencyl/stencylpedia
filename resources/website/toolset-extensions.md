@@ -17,6 +17,8 @@ Name | Author | Stencyl Version | Platforms | Status | Forum Topic
 [Data Structures](http://community.stencyl.com/index.php/topic,35128.0.html) | Justin Espedal | 3.4.0+ | All | Active | [Visit](http://community.stencyl.com/index.php/topic,35128.0.html)
 [Extras Manager](http://community.stencyl.com/index.php/topic,30830.0.html) | Justin Espedal | 3.4.0+ | All | Active | [Visit](http://community.stencyl.com/index.php/topic,30830.0.html)
 [Imgur Uploader](http://community.stencyl.com/index.php/topic,30685.0.html) | Nathaniel Mitchell | 3.4.0+ | All | Active | [Visit](http://community.stencyl.com/index.php/topic,30685.0.html)
+[Keep 'Em Safe!](http://community.stencyl.com/index.php/topic,35.0.html) | Alexin | 3.0.0+ | All | Inactive | [Visit](http://community.stencyl.com/index.php/topic,35.0.html)
+[Resources Monitor](http://community.stencyl.com/index.php/topic,3444.0.html) | Alexin | 3.0.0+ | All | Inactive | [Visit](http://community.stencyl.com/index.php/topic,3444.0.html)
 
 
 ## In Development
