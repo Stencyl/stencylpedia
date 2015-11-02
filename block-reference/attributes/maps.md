@@ -108,7 +108,7 @@ Utils.mapCount(map) == 0
 
 ***
 
-### <a name="map-as-list"></a> [Keys / Values] of Map (as list)
+### <a name="map-as-list"></a> Keys / Values of Map (as list)
 
 ![list-keys-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/map-as-list.png)
 
@@ -149,7 +149,7 @@ Utils.copyMap(map)
 
 ## Looping
 
-### <a name="for-each-map"></a> For Each Item in Map...
+### <a name="for-each-map"></a> For Each Item in Map ...
 
 ![for-each-map-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/4%20-%20Maps/for-each-map.png)
 
