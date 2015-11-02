@@ -87,8 +87,9 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ## Wanted (Extension Requests)
 
-Use this section to add requests for extensions. If one has already been suggested, add your name to the extra votes section.
+Use this section to [add requests](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md) for extensions. If one has already been suggested, [add your name](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md) to the extra votes section.
 
 Title | Your Name (on Stencyl.com) | Description | Extra Votes
---- | --- | ---
-Video Player | Jon | Video playback for iOS and Android | mdotedot
+--- | --- | --- | ---
+[Video Player](http://community.stencyl.com/index.php/topic,24896.0.html) | Jon | Video playback for iOS and Android | mdotedot
+[Skeletal Animation](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | -
