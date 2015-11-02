@@ -212,7 +212,7 @@ engine.getNumberOfActorsWithinLayer(1, [TEXT]) //by Layer Name
 
 ![show-sprite-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/toggle-image.png)
 
-Makes the actor invisible or visible. Everything else about the actor still works, and the `[actor] is on screen?` block will still return `true`.
+Makes the actor invisible or visible. Everything else about the actor still works, and the `[actor] is on screen` block will still return `true`.
 
 ```
 [ACTOR].enableActorDrawing();
