@@ -48,7 +48,7 @@ getSubImage([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER])
 
 ![resize-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-resize.png)
 
-Returns a larger (or smaller) copy of the image. Width and Height are given as percentages - 100% means keep it the same. 200% means double. 50% means half.
+Returns a larger (or smaller) copy of the image. Width and height are given as percentages - 100% means keep it the same, 200% means double, 50% means half.
 
 ```
 //Smoothing
@@ -105,6 +105,7 @@ getExternalImage([TEXT])
 ![url-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-url.png)
 
 Returns an image that is loaded from a URL. When the image successfully loads, the enclosed blocks will run. Use the embedded `the image` block to refer to the loaded image. If the image does not load, the enclosed blocks will not run.
+For Flash games you may need to give [permissions] (http://www.stencyl.com/help/view/web-flash-security/) to let it access the web. 
 
 ```
 loadImageFromURL([TEXT], function(img:BitmapData):Void {
