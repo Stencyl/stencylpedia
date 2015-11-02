@@ -34,6 +34,7 @@ These extensions hook Stencyl up with 3rd party services, such as leaderboards a
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Facebook Leaderboards**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs $15 EUR / ~$17 USD.
+[**Firebase**](http://community.stencyl.com/index.php/topic,42986.0.html) | gurigraphics | 3.3.0+ | All | Active | -
 [**Mind Jolt**](http://community.stencyl.com/index.php/topic,32923.0.html) | VashTS | 3.3.0+ | Flash | Active | -
 [**Multiplayer**](http://community.stencyl.com/index.php/topic,42202.0.html) | --- | --- | All | Active | Lists out several options.
 [**Player IO**](http://community.stencyl.com/index.php/topic,26007.0.html) | rob1221 | 3.3.0+ | Flash | Abandoned | -
