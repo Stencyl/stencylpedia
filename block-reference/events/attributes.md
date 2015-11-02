@@ -6,7 +6,7 @@
 
 ![event-att-number](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/16%20-%20Attributes/event-att-number.png)
 
-Triggers when the first Number attribute becomes greater/less than the second Number attribute.
+Triggers when the first Number attribute becomes greater/less than the given number.
 
 ***
 
