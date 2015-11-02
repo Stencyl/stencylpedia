@@ -163,7 +163,7 @@ setOriginForImage([IMAGE INSTANCE], [NUMBER], [NUMBER]);
 
 ***
 
-### <a name="image-get-props"></a> Get [Position/Direction/Scale/Opacity] for Image Instance
+### <a name="image-get-props"></a> Get Position / Direction / Scale / Opacity for Image Instance
 
 ![props-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-get-props.png)
 
@@ -208,7 +208,7 @@ spinImageBy([IMAGE INSTANCE], [NUMBER], [NUMBER], [EASING]);
 
 ***
 
-### <a name="image-tween-fade"></a> Fade [In/Out] an Image Instance
+### <a name="image-tween-fade"></a> Fade In / Out an Image Instance
 
 ![fade-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-fade.png)
 
@@ -220,7 +220,7 @@ fadeImageTo([IMAGE INSTANCE], [NUMBER] / 100, [NUMBER], [EASING]);
 
 ***
 
-### <a name="image-tween-scale"></a> [Grow/Shrink] an Image Instance
+### <a name="image-tween-scale"></a> Grow / Shrink an Image Instance
 
 ![grow-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-scale.png)
 
