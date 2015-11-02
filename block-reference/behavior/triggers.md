@@ -58,7 +58,7 @@ shoutToScene("_customEvent_" + [TEXT]);
 
 ***
 
-## For Both
+## In this Behavior
 
 ### <a name="say-this"></a> Trigger Event (this Behavior)
 
