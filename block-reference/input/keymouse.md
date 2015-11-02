@@ -2,7 +2,7 @@
 
 ***
 
-> Read our articles on [Controls](http://www.stencyl.com/help/view/controls/), and [Touch & Gestures](http://www.stencyl.com/help/view/mobile-input/) for more information on handling user input.
+> Read our articles on [Controls](http://www.stencyl.com/help/view/controls/) and [Touch & Gestures](http://www.stencyl.com/help/view/mobile-input/) for more information on handling user input.
 
 ***
 
