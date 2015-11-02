@@ -82,7 +82,7 @@ clearImage([IMAGE]);
 
 ***
 
-### <a name="image-mask"></a> [Clear/Retain] Image using Mask
+### <a name="image-mask"></a> Clear / Retain Image using Mask
 
 ![mask-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-mask.png)
 
