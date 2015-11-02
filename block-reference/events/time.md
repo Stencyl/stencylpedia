@@ -4,7 +4,7 @@
 
 ## Time
 
-### <a name="event-delay"></a> After [N] Seconds
+### <a name="event-delay"></a> After N Seconds
 
 ![event-delay](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/5%20-%20Time/event-delay.png)
 
@@ -12,7 +12,7 @@ Runs the enclosed blocks after the given delay (in seconds).
 
 ***
 
-### <a name="event-periodic"></a> Every [N] Seconds
+### <a name="event-periodic"></a> Every N Seconds
 
 ![event-periodic](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/5%20-%20Time/event-periodic.png)
 
