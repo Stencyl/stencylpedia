@@ -9,7 +9,7 @@
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/custom-code.png)<br/>
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-long.png)
 
-Lets you embed code into your Behavior. Can be used in many ways. Particularly useful for calling functions that Stencyl or Haxe provide but don't exist in block form.
+Lets you embed code into your Behavior. Can be used in many ways. Particularly useful for calling functions that Stencyl or Haxe provide but don't exist in block form. Take a look at out [API] (http://static.stencyl.com/api/33/) to see what's available.
 
 ***
 
