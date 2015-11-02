@@ -36,7 +36,7 @@ Triggers when an actor of the specified Actor Type collides with any other actor
 
 ***
 
-### <a name="event-collide-actortogroup"></a> Member of (Actor) Group
+### <a name="event-collide-actortogroup"></a> Actor of Group
 
 ![event-collide-actortogroup](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/11%20-%20Collisions/event-collide-actortogroup.png)
 
@@ -46,7 +46,7 @@ Triggers when an actor of the specified Actor Group collides with any other acto
 
 ## Collisions Between...
 
-### <a name="event-collide-typetotype"></a> Type vs. Type
+### <a name="event-collide-typetotype"></a> Type and Type
 
 ![event-collide-typetotype](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/12%20-%20Collisions/event-collide-typetotype.png)
 
@@ -56,7 +56,7 @@ Triggers when actors of the specified Actor Types collide. 1st actor corresponds
 
 ***
 
-### <a name="event-collide-grouptogroup"></a> Group vs. Group
+### <a name="event-collide-grouptogroup"></a> Group and Group
 
 ![event-collide-grouptogroup](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/12%20-%20Collisions/event-collide-grouptogroup.png)
 
