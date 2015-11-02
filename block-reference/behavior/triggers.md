@@ -64,7 +64,7 @@ shoutToScene("_customEvent_" + [TEXT]);
 
 ![global-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/say-this.png)
 
-Triggers a custom event in this behaviors. This is a direct function call, so an event with the specified name must exist, otherwise it will cause a compilation error.
+Triggers a custom event in this behavior. This is a direct function call, so an event with the specified name must exist, otherwise it will cause a compilation error.
 
 ```
 _customEvent_text();
