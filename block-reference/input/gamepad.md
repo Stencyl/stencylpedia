@@ -62,7 +62,7 @@ Input.getButtonPressure([CONTROL])
 
 ***
 
-### <a name="save-gamepad-config"></a> <a name="load-gamepad-config"></a> Save/Load Gamepad Configuration
+### <a name="save-gamepad-config"></a> <a name="load-gamepad-config"></a> Save / Load Gamepad Configuration
 
 ![saveload-gamepad-block](http://static.stencyl.com/pedia2/blocks/user_input/gamepad/SaveLoad.png)
 
