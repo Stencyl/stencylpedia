@@ -99,7 +99,7 @@ for(actorOfType in getActorsOfType([ACTOR TYPE])) {
 
 ![actors-in-group](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/0%20-%20Actors/actors-in-group.png)
 
-Loops over all actors inside the specified Actor Group (whether on or off screen). Use the embedded `member of group` block to refer to each actor.
+Loops over all actors inside the specified Actor Group (whether on or off screen). Use the embedded `actor of group` block to refer to each actor.
 
 ```
 for(actorInGroup in [ACTOR GROUP].list) {
