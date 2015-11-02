@@ -86,7 +86,7 @@ g.strokeSize = [NUMBER];
 
 ![get-font-width-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-width.png)
 
-Returns the width of the specified text using the current font. Useful for calculating text drawing positions.
+Returns the width of the specified text using the current font. Useful for calculating text drawing positions. May only be used in a `when drawing` event.
 
 ```
 g.font.font.getTextWidth([TEXT])
@@ -112,7 +112,7 @@ Returns the width of the specified text using the given font. Useful for calcula
 
 ![get-font-height-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/get-font-height.png)
 
-Returns the height of text using the current font. Useful for calculating text drawing positions.
+Returns the height of text using the current font. Useful for calculating text drawing positions. May only be used in a `when drawing` event.
 
 ```
 g.font.getHeight()
