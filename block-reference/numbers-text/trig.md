@@ -112,7 +112,7 @@ Math.pow[NUMBER, NUMBER]
 
 ***
 
-### <a name="lnexp"></a> Natural Logarithm / E Raised to a Power
+### <a name="lnexp"></a> Natural Logarithm / e Raised to a Power
 
 ![log-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/LogBlocks.png)
 
