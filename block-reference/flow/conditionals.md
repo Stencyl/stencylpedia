@@ -80,7 +80,7 @@ Returns `true` if at least one of the provided conditions is `true`. If the firs
 
 ![not-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/not.png)
 
-Returns `true` if the condition resolves to `false`.
+Returns `true` if the condition resolves to `false`. Testing `if not [CONDITION]` is equivalent to `if [CONDITION] = false` 
 
 ```
 ![BOOLEAN]
