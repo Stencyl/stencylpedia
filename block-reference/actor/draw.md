@@ -208,7 +208,7 @@ engine.getNumberOfActorsWithinLayer(1, [TEXT]) //by Layer Name
 
 ## Drawing
 
-### <a name="toggle-image"></a> [Show/Hide] Sprite
+### <a name="toggle-image"></a> Show / Hide Sprite
 
 ![show-sprite-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/3%20-%20Draw/toggle-image.png)
 
