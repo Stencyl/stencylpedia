@@ -20,7 +20,7 @@ Utils.getColorRGB([NUMBER], [NUMBER], [NUMBER])
 
 ![set-color-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-color.png)
 
-Sets the color used in drawing shapes (does not apply to fonts). You can select the color using the color picker, drag in a color attribute or drag in any block that returns a color.
+Sets the color used for filling shapes (does not apply to fonts). You can select the color using the color picker, drag in a color attribute or drag in any block that returns a color.
 
 ```
 g.fillColor = [COLOR];
@@ -60,7 +60,7 @@ g.alpha = ([NUMBER]/100);
 
 ![set-stroke-color-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/1%20-%20Styles/set-stroke-color.png)
 
-Sets the stroke color used when drawing shapes.
+Sets the stroke color used when drawing shapes (does not apply to fonts). You can select the color using the color picker, drag in a color attribute or drag in any block that returns a color.
 
 ```
 g.strokeColor = [COLOR];
