@@ -32,8 +32,6 @@ Sets the value of an attribute (from the specified behavior) for the actor you s
 
 We strongly recommend clicking the dropdown arrow for the first blank and selecting the desired entry under **Attribute Names** -- this will fill the first and third fields out for you automatically.
 
-![example](http://static.stencyl.com/pedia2/ch7/getset/image01.png)
-
 ```
 [ACTOR].setValue([TEXT], [TEXT], [VALUE]);
 ```
@@ -50,8 +48,6 @@ Gets the value of an attribute (from the specified behavior) from the current sc
 
 We strongly recommend clicking the dropdown arrow for the first blank and selecting the desired entry under **Attribute Names** -- this will fill everything out for you automatically.
 
-![example](http://static.stencyl.com/pedia2/ch7/getset/image01.png)
-
 ```
 getValueForScene([TEXT], [TEXT])
 ```
@@ -65,8 +61,6 @@ getValueForScene([TEXT], [TEXT])
 Sets the value of an attribute (from the specified behavior) for the current scene.
 
 We strongly recommend clicking the dropdown arrow for the first blank and selecting the desired entry under **Attribute Names** -- this will fill the first and third fields out for you automatically.
-
-![example](http://static.stencyl.com/pedia2/ch7/getset/image01.png)
 
 ```
 setValueForScene([TEXT], [TEXT], [VALUE]);
