@@ -4,7 +4,15 @@ This section include ad networks and third party APIs that Stencyl can hook into
 
 ***
 
+## Our Favorites
+
+(TODO - Instead, put our favorite choices at the top or highlight them.)
+
+***
+
 ## Ads
+
+These extensions hook Stencyl up to various ad networks.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
@@ -21,6 +29,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ## Mobile Features
 
+These extensions add new functionality to mobile games.
+
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Notifications & Alerts**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active
@@ -31,6 +41,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 ***
 
 ## Services
+
+These extensions hook Stencyl up with 3rd party apis, such as leaderboards and multiplayer services.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
@@ -43,6 +55,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ## Features
 
+These extensions add new functionality to non-mobile games (or for all platforms).
+
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Custom Controls**](http://community.stencyl.com/index.php/topic,31251.0.html) | captaincomic | 3.3.0+ | Flash, Desktop | Active
@@ -51,8 +65,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Joints**](http://community.stencyl.com/index.php/topic,31947.0.html) | captaincomic | 3.3.0+ | All | Active
 [**Leaderboards**](http://community.stencyl.com/index.php/topic,42216.0.html) | mdotedot | 3.3.0+ | All | Active
 [**Perlin Noise**](http://community.stencyl.com/index.php/topic,25079.0.html) | rob1221 | 3.3.0+ | All | Active
+[**Physics Tools**](http://community.stencyl.com/index.php/topic,44858.0.html) | merrak | 3.3.0+ | All | Active
 [**Playsurface**](http://community.stencyl.com/index.php/topic,38139.0.html) | FTL Labs | 3.3.0+ | Flash | Active
-[**Raycasting**](http://community.stencyl.com/index.php/topic,16734.0.html) | coleislazy | 3.3.0+ | All | Abandoned
 [**SFXR**](http://community.stencyl.com/index.php/topic,24159.0.html) | GeorgeN | 3.3.0+ | Flash | Active
 [**Spine Animations**](http://community.stencyl.com/index.php/topic,26183.0.html) | AnemoneLabSNC | 3.0.0+ | All | Abandoned
 
@@ -60,7 +74,25 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 ## Utilities
 
+These extensions add new or enhanced blocks to the palette.
+
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
+[**List Utilities**](http://community.stencyl.com/index.php/topic,23821.0.html) | Dom818 | 3.0.0+ | All | Active
+[**2D Lists**](http://community.stencyl.com/index.php/topic,28081.0.html) | Photon | 3.0.0+ | All | Active
+[**Color Utilities**](http://community.stencyl.com/index.php/topic,34370.0.html) | ETHproductions | 3.0.0+ | All | Active
+[**Drawing Utilities**](http://community.stencyl.com/index.php/topic,35352.0.html) | ETHproductions | 3.0.0+ | All | Active
+[**External Data**](http://community.stencyl.com/index.php/topic,35620.0.html) | ETHproductions | 3.0.0+ | All | Active
+[**Attribute Saving**](http://community.stencyl.com/index.php/topic,22217.0.html) | GeorgeN | 3.0.0+ | All | Active
+[**Easy Math**](http://community.stencyl.com/index.php/topic,27769.0.html) | Photon | 3.0.0+ | All | Active
+[**All-In-One Booleans**](http://community.stencyl.com/index.php/topic,29132.0.html) | Photon | 3.0.0+ | All | Active
+[**Cast to Integer**](http://community.stencyl.com/index.php/topic,15894.0.html) | Dom818 | 3.0.0+ | All | Active
+[**Date and Time**](http://community.stencyl.com/index.php/topic,15063.0.html) | Dom818 | 3.0.0+ | All | Active
+[**Number to Time Conversion**](http://community.stencyl.com/index.php/topic,15691.0.html) | rob1221 | 3.0.0+ | All | Active
+[**Physics Settings**](http://community.stencyl.com/index.php/topic,26482.0.html) | rob1221 | 3.0.0+ | All | Active
+[**Scaling Utilities**](http://community.stencyl.com/index.php/topic,34277.0.html) | harryzun | 3.0.0+ | All | Active
+[**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active
+[**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active
+[**Pathfinding (A*)**](http://community.stencyl.com/index.php/topic,15343.0.html) | jihem | 3.0.0+ | All | Active
 
 ***
