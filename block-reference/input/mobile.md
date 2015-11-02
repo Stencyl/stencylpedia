@@ -80,7 +80,7 @@ Immediately shows or hides the [virtual keyboard](http://www.stencyl.com/help/vi
 
 ```
 showKeyboard();
-hideKeyboard()
+hideKeyboard();
 ```
 
 ***
