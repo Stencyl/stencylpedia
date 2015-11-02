@@ -44,7 +44,7 @@ Returns `true` if the specified actor is alive. Useful for checking prior to per
 
 ## Size
 
-### <a name="get-wh"></a> [Width / Height]
+### <a name="get-wh"></a> Get Width / Height
 
 ![size-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/get-wh.png)
 
