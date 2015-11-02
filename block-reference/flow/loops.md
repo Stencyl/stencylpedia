@@ -106,7 +106,7 @@ The loop prints out even numbers between [0-9], so this will print out [1 3 5 7 
 
 ![stop-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/1%20-%20Loops/stop.png)
 
-Skips the rest of the code in this event for the current frame.
+Skips the rest of the code in this event for the current step/frame.
 
 ```
 return;
