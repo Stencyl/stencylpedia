@@ -2,7 +2,7 @@
 
 ***
 
-> Read [our guide](http://www.stencyl.com/help/view/gamepads/) on Gamepads before consulting this reference.
+> Read our guide on [Gamepads](http://www.stencyl.com/help/view/gamepads/) before consulting this reference.
 
 ***
 
