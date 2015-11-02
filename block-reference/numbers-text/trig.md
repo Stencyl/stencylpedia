@@ -72,7 +72,7 @@ Math.atan([NUMBER])
 
 ![inverse-tan-block](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/Atan.png)
 
-Converts from rectangular to polar coordinates.
+Converts from rectangular to polar coordinates. The return value is in radians.
 
 ```
 Math.atan2([NUMBER],[NUMBER])
@@ -116,7 +116,7 @@ Math.pow[NUMBER, NUMBER]
 
 ![log-block](http://static.stencyl.com/pedia2/blocks/numbers_text/exponents/LogBlocks.png)
 
-**ln** - Returns the natural log of the given number.<br/>
+**ln** - Returns the natural logarithm of the given number.<br/>
 **e^** - Returns the number e to the given power.
 
 ```
