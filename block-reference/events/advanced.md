@@ -38,7 +38,7 @@ Lets you create a global (static) [Custom Block](http://www.stencyl.com/help/vie
 
 ![event-custom-code](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/19%20-%20Advanced/event-custom-code.png)
 
-Not an event. Lets you insert arbitrary code into your behavior at the "class" level. You could use this to define functions or add class-level fields, for example. Use code blocks within this field.
+Not an event. Lets you insert arbitrary code into your behavior at the "class" level. You could use this to define functions or add class-level fields, for example. Use code blocks within this wrapper.
 
 ***
 
@@ -46,7 +46,7 @@ Not an event. Lets you insert arbitrary code into your behavior at the "class" l
 
 ![event-custom-import](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/19%20-%20Advanced/event-custom-import.png)
 
-Not an event. Lets you add **import statements** to the beginning of your behavior's "class". Use code blocks within this field.
+Not an event. Lets you add **import statements** to the beginning of your behavior's "class". Use code blocks within this wrapper.
 
 ***
 
