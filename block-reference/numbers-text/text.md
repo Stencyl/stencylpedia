@@ -46,7 +46,7 @@ Combines the two given pieces of text into one and returns that result.
 
 ![trim-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Operations_TrimSpace.png)
 
-Removes spaces at the end of the given text.
+Removes spaces from the beginning and the end of the given text and returns that result. (When given an attribute, the value of the attribute remains unchanged.)
 
 ```
 StringTools.trim([TEXT])
