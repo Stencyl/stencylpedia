@@ -89,10 +89,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Cast to Integer**](http://community.stencyl.com/index.php/topic,15894.0.html) | Dom818 | 3.0.0+ | All | Active
 [**Date and Time**](http://community.stencyl.com/index.php/topic,15063.0.html) | Dom818 | 3.0.0+ | All | Active
 [**Number to Time Conversion**](http://community.stencyl.com/index.php/topic,15691.0.html) | rob1221 | 3.0.0+ | All | Active
-[**Physics Settings**](http://community.stencyl.com/index.php/topic,26482.0.html) | rob1221 | 3.0.0+ | All | Active
 [**Scaling Utilities**](http://community.stencyl.com/index.php/topic,34277.0.html) | harryzun | 3.0.0+ | All | Active
 [**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active
-[**Pathfinding (A*)**](http://community.stencyl.com/index.php/topic,15343.0.html) | jihem | 3.0.0+ | All | Active
 
 ***
