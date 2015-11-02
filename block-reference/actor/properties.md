@@ -214,7 +214,7 @@ if (shapeActor.physicsMode == 0) {
 }
 ```
 
-### <a name="shape-sensorsolid"></a> Make Collision Shape [Solid/Sensor]
+### <a name="shape-sensorsolid"></a> Make Collision Shape Solid / Sensor
 
 ![solid-sensor-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-sensorsolid.png)
 
