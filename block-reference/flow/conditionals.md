@@ -56,7 +56,7 @@ Booleans (denoted by a hexagon shape) are conditions that resolve to `true` or `
 
 ![and-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/and.png)
 
-Returns `true` if both of the provided conditions are `true`.
+Returns `true` if both of the provided conditions are `true`. If the first condition is `false`, the second condition will not be evaluated.
 
 ```
 [BOOLEAN] && [BOOLEAN]
