@@ -20,7 +20,7 @@ Actuate.tween(this, [NUMBER], {[TEXT]:[NUMBER]}).ease([EASING]);
 
 ![value-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/value.png)
 
-Returns `true` if the given attribute has a value (is not "null" or "empty").
+Returns `true` if the given attribute has a value (is not "null").
 
 ```
 (hasValue([ATTRIBUTE]))
