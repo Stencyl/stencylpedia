@@ -38,7 +38,7 @@ isInRegion([ACTOR], [REGION])
 
 ![create-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/create-region.png)
 
-Creates a rectangular region with the given location and size. Assign to a Region attribute to refer to it in the future.
+Creates a rectangular region with the given location and size. Assign to a Region attribute (using the "Last Created Region" selection) to refer to it in the future.
 
 ```
 createBoxRegion([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
@@ -50,7 +50,7 @@ createBoxRegion([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ![create-circular-region](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/1%20-%20Regions/create-circular-region.png)
 
-Creates a circular region with the given location and size. Assign to a Region attribute to refer to it in the future.
+Creates a circular region with the given location and size. Assign to a Region attribute (using the "Last Created Region" selection) to refer to it in the future.
 
 ```
 createCircularRegion([NUMBER], [NUMBER], [NUMBER]);
