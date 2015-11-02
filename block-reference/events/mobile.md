@@ -40,7 +40,7 @@ View our article on [Game Center](http://www.stencyl.com/help/view/ios-game-cent
 
 ![event-mobile-keyboard](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/15%20-%20Mobile/event-mobile-keyboard.png)
 
-Triggers when the mobile (soft) keyboard is shown, hidden, typed into or hidden.
+Triggers when the mobile (soft) keyboard is shown, hidden, typed into, or submitted.
 
 View our article on [Mobile Keyboards](http://www.stencyl.com/help/view/mobile-features/) for further details.
 
