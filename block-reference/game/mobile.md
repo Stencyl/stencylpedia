@@ -28,7 +28,7 @@ gameCenterIsAuthenticated()
 
 ***
 
-### <a name="gamecenter-id-name"></a> [Name / ID] of Player
+### <a name="gamecenter-id-name"></a> Name / ID of Player
 
 ![name-id-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/gamecenter-id-name.png)
 
@@ -243,7 +243,7 @@ getGPGQuestReward([TEXT])
 
 ## Ads
 
-### <a name="iad-show-hide"></a> [Show/Hide] Mobile Ad
+### <a name="iad-show-hide"></a> Show / Hide Mobile Ad
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iad-show-hide.png)
 
@@ -294,7 +294,7 @@ purchasesAreInitialized()
 
 ***
 
-### <a name="iap-buy-use"></a> [Buy/Use] Product
+### <a name="iap-buy-use"></a> Buy / Use Product
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-buy-use.png)
 
@@ -330,7 +330,7 @@ purchasesHasBought([TEXT])
 
 ***
 
-### <a name="iap-get-quantity"></a> Get Product Quantity (for consumable)
+### <a name="iap-get-quantity"></a> Get Product Quantity (for Consumable)
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-get-quantity.png)
 
@@ -354,7 +354,7 @@ purchasesRestore();
 
 ***
 
-### <a name="iap-title-desc-price"></a> [Title/Price/Description] for Product
+### <a name="iap-title-desc-price"></a> Get Title / Price / Description for Product
 
 ![start-gamecenter-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/2%20-%20Mobile/iap-title-desc-price.png)
 
