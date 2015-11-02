@@ -104,7 +104,7 @@ toggleFullScreen();
 
 ![set-color-bg](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/3%20-%20View/set-color-bg.png)
 
-Changes the background color to a solid color. (if you don't have an image background covering it up)
+Changes the background color to a solid color (if you don't have an image background covering it up).
 
 ```
 setColorBackground([COLOR]);
