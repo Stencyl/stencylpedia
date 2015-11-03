@@ -2,8 +2,6 @@
 
 Repositories are collections of related extensions (both toolset and engine) that are hosted together on a site and can be selectively installed. In this way, you can pick and choose which extensions you wish to install.
 
-> *If you've used an IDE such as Eclipse, repositories are like sites for plugins.*
-
 
 ## The Repositories
 
@@ -27,5 +25,5 @@ Name | Repository URL | Author | Description
 
 Some info is located [here](http://www.mazeland.net/repo/).
 
-(TODO - Justin - Create a separate article and link it from here)
+(Justin - Create a separate article and link it from here)
 
