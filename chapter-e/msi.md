@@ -11,35 +11,73 @@ If all goes well, an MSI will pop up after some time (5-10 minutes).
 
 If it fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
 
+
 ## Changing the Default Workspace Directory
 
-1. Open up **installer/src/Core.wxs** in a text editor.
-2. Locate the following line.
+1. Open up **installer/src/UI.wxs** in a text editor.
+2. Locate the following line (Line 31)
 
   ```
-  <RegistryValue Type='string' Name='global.workdir' Value='[WORKDIRECTORYROOT]'/>
+  <Control Id="WorkspaceEdit" Type="Edit" X="45" Y="85" Width="220" Height="18" Property="WORKDIRECTORYROOT" Text="{80}" />
   ```
 
-3. Replace **[WORKDIRECTORYROOT** with the desired default path for the workspace.
+3. Add a **default** attribute to that XML element, with the value being the desired default path for the workspace. Like the following...
+
+  ```
+  <Control Id="WorkspaceEdit" Type="Edit" X="45" Y="85" Width="220" Height="18" Property="WORKDIRECTORYROOT" Text="{80}" default="DIRECTORYGOESHERE"/>
+  ```
+
 4. Save the file.
 5. Rebuild the MSI (step 6 in the first section).
 
 
 ## Specifying a Default Username / Password
 
-1. Open up **installer/src/Core.wxs** in a text editor.
-2. Locate the following lines.
+1. Open up **installer/src/Ui.wxs** in a text editor.
+2. Locate the following line (Line 7).
 
   ```
-  <RegistryValue Type='string' Name='global.default.user' Value='[DEFAULTUSERNAME]'/>
-  <RegistryValue Type='string' Name='global.default.password' Value='[DEFAULTPASSWORD]'/>
+  <Control Id="NameEdit" Type="Edit" X="45" Y="85" Width="220" Height="18" Property="DEFAULTUSERNAME" Text="{80}" />
   ```
 
-3. Replace **[DEFAULTUSERNAME]** with your Stencyl account name. (the username, not the e-mail)
-4. Replace **[DEFAULTPASSWORD]** with your password, with sha1() applied to it.
+3. Add a **default** attribute to that XML element, with the value being your Stencyl account name. (the username, not the e-mail). Like the following...
+
+  ```
+  <Control Id="NameEdit" Type="Edit" X="45" Y="85" Width="220" Height="18" Property="DEFAULTUSERNAME" Text="{80}" default="YOURUSERNAME" />
+  ```
+
+4. Do the same thing with the following line (Line 9), which sets the default password. Note that the password you type in here should already have **sha1() hashing** applied to it.
+
+  ```
+  <Control Id="PasswordEdit" Type="Edit" Password="yes" X="45" Y="122" Width="220" Height="18" Property="DEFAULTPASSWORD" Text="{80}" default="YOUR-HASHED-PASSWORD"/>
+  ```
+
 5. Save the file.
+
 6. Rebuild the MSI (step 6 in the first section).
 
 > If you don't trust web-based SHA1 generators, you can download [this utility from Microsoft](https://support.microsoft.com/en-us/kb/841290) and generate it yourself.
 
 > `FCIV -sha1 path\to\file\holding\password`
+
+
+## Specifying Proxy Details
+
+Same process as described in the prior section. This time, look at lines 54, 56, 58 and 60. Add a default attribute to these XML elements and stick in the desired value into that.
+
+```
+<Control Id="NameEdit" Type="Edit" X="45" Y="85" Width="220" Height="18" Property="PROXYUSERNAME" Text="{80}" />
+```
+
+```
+<Control Id="PasswordEdit" Type="Edit" Password="yes" X="45" Y="122" Width="220" Height="18" Property="PROXYPASSWORD" Text="{80}" />
+```
+
+```
+<Control Id="HostEdit" Type="Edit" X="45" Y="159" Width="170" Height="18" Property="PROXYHOST" Text="{80}" />
+```
+
+```
+<Control Id="PortEdit" Type="Edit" X="235" Y="159" Width="30" Height="18" Property="PROXYPORT" Text="{5}" />
+```
+
