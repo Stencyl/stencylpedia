@@ -1,15 +1,22 @@
+## Stencyl & MSI Installers
+
+We are providing these instructions to schools who have paid for a [classroom license](http://www.stencyl.com/education/pricing/) and wish to deploy Stencyl using an MSI installer.
+
+At this time, you must build the MSI installer yourself using Wix as described below. The advantage to this approach is that you may use any recent version of Stencyl to do this.
+
+
 ## How to Generate an MSI
 
 1. Install [WiX 3.9](https://wix.codeplex.com/releases/view/136891) from the official website.
 2. Add WiX's bin folder to your PATH. ([Here's how](https://msdn.microsoft.com/en-us/library/gg513936.aspx))
-3. Download and Install the latest public release of Stencyl. 
-4. [Download this ZIP](http://static.stencyl.com/edukit/Stencyl-MSI-Generator-3.zip). It contains a WiX project for generating an MSI. Unzip it.
-5. Then, copy the contents of your Stencyl install to that that folder under a folder called **dist**.
+3. Download and Install the latest [public release](http://www.stencyl.com/download/) of Stencyl. 
+4. [Download this ZIP package](http://static.stencyl.com/edukit/Stencyl-MSI-Generator-3.zip). It contains a WiX project for generating an MSI. Unzip it.
+5. Copy the contents of your Stencyl install to the subfolder (inside the unpacked ZIP package) called **dist**.
 6. From the command line, cd to the WiX project's folder and run **generate_installer.bat**
 
 If all goes well, an MSI will pop up after some time (5-10 minutes).
 
-If it fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
+If building fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
 
 
 ## Setting Properties
@@ -28,7 +35,8 @@ PROXYPASSWORD | Password for your proxy (optional)
 PROXYHOST | IP address/hostname for your proxy (optional)
 PROXYPORT | Port for your proxy (optional)
 
-If you don't wish to use the properties approach, you can edit the installer source directly instead.
+
+> We strongly recommend setting properties to customize your MSI installer. If you don't wish to use the properties approach, you can edit the installer source as described in the sections below.
 
 
 ## Changing the Default Workspace Directory
