@@ -389,7 +389,7 @@ Then, you'd do two things:
 
 ## Sending Data back from Native Code to Haxe
 
-A big part of Stencyl's ease of use comes in the form of [Events](Events). As a developer, it's more convenient to be **automatically notified** that something has happened, versus having to constantly check if that something has happened.
+A big part of Stencyl's ease of use comes in the form of [Events](http://www.stencyl.com/help/view/native-events/). As a developer, it's more convenient to be **automatically notified** that something has happened, versus having to constantly check if that something has happened.
 
 To implement Events for your extensions, you would need to know how to get the Objective-C (or Java) code to send notifications back to Haxe. For example, if the player completed an in-app purchase, you'd want to inform the player if the purchase succeeded and do something in-game in response to that.
 
