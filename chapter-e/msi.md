@@ -28,12 +28,12 @@ Property Name | Description | Required?
 **INSTALLDIR** | Installation directory | Yes
 **DEFAULTUSERNAME** | Your school's Stencyl username | Yes
 **DEFAULTPASSWORD** | The *SHA1 hash* of the username's password | Yes
-WORKDIRECTORYROOT | The default working directory (including the ending backslash); this is optional -- otherwise, the roaming directory will be used
-USEUSER | A boolean ("true"/"false") to tell Stencyl whether or not to append the Windows user's login name to the workspace path above; this way, every user can have his or her own workspace (e.g., \\share\students\stencyl\johndoe) (optional)
-PROXYUSERNAME | Username for your proxy (optional)
-PROXYPASSWORD | Password for your proxy (optional)
-PROXYHOST | IP address/hostname for your proxy (optional)
-PROXYPORT | Port for your proxy (optional)
+WORKDIRECTORYROOT | The default working directory (including the ending backslash); this is optional -- otherwise, the roaming directory will be used | No
+USEUSER | A boolean ("true"/"false") to tell Stencyl whether or not to append the Windows user's login name to the workspace path above; this way, every user can have his or her own workspace (e.g., \\share\students\stencyl\johndoe) | No
+PROXYUSERNAME | Username for your proxy | No
+PROXYPASSWORD | Password for your proxy | No
+PROXYHOST | IP address/hostname for your proxy | No
+PROXYPORT | Port for your proxy | No
 
 
 > We strongly recommend setting properties to customize your MSI installer. If you don't wish to use the properties approach, you can edit the installer source as described in the sections below.
