@@ -14,18 +14,19 @@ If it fails, please [contact us via e-mail](http://www.stencyl.com/about/contact
 
 ## Setting Properties
 
-Your ActiveDirectory administrator will want to set the following properties using msiexec or a free tool like Orca. Here are the properties you have available to configure prior to installation (bold = required):
+If you wish to fully automate the installation process, you will want your ActiveDirectory administrator to set the following properties using **msiexec** or a free tool like **Orca**. Here are the properties you have available to configure prior to installation.
 
-- **INSTALLDIR**: Installation directory
-- **DEFAULTUSERNAME**: Your school's Stencyl username
-- **DEFAULTPASSWORD**: The *SHA1 hash* of the username's password
-
-- WORKDIRECTORYROOT: The default working directory (including the ending backslash); this is optional -- otherwise, the roaming directory will be used
-- USEUSER: A boolean ("true"/"false") to tell Stencyl whether or not to append the Windows user's login name to the workspace path above; this way, every user can have his or her own workspace (e.g., \\share\students\stencyl\johndoe) (optional)
-- PROXYUSERNAME: Username for your proxy (optional)
-- PROXYPASSWORD: Password for your proxy (optional)
-- PROXYHOST: IP address/hostname for your proxy (optional)
-- PROXYPORT: Port for your proxy (optional)
+Property Name | Description | Required?
+--- | --- | ---
+**INSTALLDIR** | Installation directory | Yes
+**DEFAULTUSERNAME** | Your school's Stencyl username | Yes
+**DEFAULTPASSWORD** | The *SHA1 hash* of the username's password | Yes
+WORKDIRECTORYROOT | The default working directory (including the ending backslash); this is optional -- otherwise, the roaming directory will be used
+USEUSER | A boolean ("true"/"false") to tell Stencyl whether or not to append the Windows user's login name to the workspace path above; this way, every user can have his or her own workspace (e.g., \\share\students\stencyl\johndoe) (optional)
+PROXYUSERNAME | Username for your proxy (optional)
+PROXYPASSWORD | Password for your proxy (optional)
+PROXYHOST | IP address/hostname for your proxy (optional)
+PROXYPORT | Port for your proxy (optional)
 
 If you don't wish to use the properties approach, you can edit the installer source directly instead.
 
