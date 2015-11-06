@@ -1,9 +1,9 @@
-## Stencyl & MSI Installers
+## Creating an MSI Installer for Stencyl
 
-We are providing these instructions to [schools](http://www.stencyl.com/education/pricing/) that wish to deploy Stencyl using an MSI installer.
+We are providing these instructions to [schools](http://www.stencyl.com/education/pricing/) that wish to deploy Stencyl over a network using an MSI installer.
 
 
-## How to Generate an MSI
+## How To: Generating an MSI
 
 At this time, you must build the MSI installer yourself described below. We do not provide a pre-built MSI at this time.
 
@@ -19,7 +19,7 @@ If all goes well, an MSI will pop up after some time (5-10 minutes).
 If building fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
 
 
-## Setting Properties
+## How To: Setting Properties
 
 If you wish to fully automate the installation process, you will want your ActiveDirectory administrator to set the following properties using **msiexec** or a free tool like **Orca**. Here are the properties you have available to configure prior to installation.
 
