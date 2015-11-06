@@ -1,6 +1,6 @@
 ## Stencyl & MSI Installers
 
-We are providing these instructions to schools who have paid for a [classroom license](http://www.stencyl.com/education/pricing/) and wish to deploy Stencyl using an MSI installer.
+We are providing these instructions to [schools](http://www.stencyl.com/education/pricing/) that wish to deploy Stencyl using an MSI installer.
 
 At this time, you must build the MSI installer yourself using Wix as described below. The advantage to this approach is that you may use any recent version of Stencyl to do this.
 
