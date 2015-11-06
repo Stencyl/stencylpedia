@@ -2,10 +2,10 @@
 
 We are providing these instructions to [schools](http://www.stencyl.com/education/pricing/) that wish to deploy Stencyl using an MSI installer.
 
-At this time, you must build the MSI installer yourself using Wix as described below. The advantage to this approach is that you may use any recent version of Stencyl to do this.
-
 
 ## How to Generate an MSI
+
+At this time, you must build the MSI installer yourself described below. We do not provide a pre-built MSI at this time.
 
 1. Install [WiX 3.9](https://wix.codeplex.com/releases/view/136891) from the official website.
 2. Add WiX's bin folder to your PATH. ([Here's how](https://msdn.microsoft.com/en-us/library/gg513936.aspx))
@@ -36,10 +36,11 @@ PROXYHOST | IP address/hostname for your proxy | No
 PROXYPORT | Port for your proxy | No
 
 
-> We strongly recommend setting properties to customize your MSI installer. If you don't wish to use the properties approach, you can edit the installer source as described in the sections below.
+## Customizing the Installer (Alernate Approach)
 
+> We strongly recommend setting properties as described in the pervious section. If you don't wish to use the properties approach, you can edit the installer source as described in the sections below.
 
-## Changing the Default Workspace Directory
+#### Changing the Default Workspace Directory
 
 1. Open up **installer/src/UI.wxs** in a text editor.
 2. Locate the following line (Line 31)
@@ -58,7 +59,7 @@ PROXYPORT | Port for your proxy | No
 5. Rebuild the MSI (step 6 in the first section).
 
 
-## Specifying a Default Username / Password
+#### Specifying a Default Username / Password
 
 1. Open up **installer/src/Ui.wxs** in a text editor.
 2. Locate the following line (Line 7).
@@ -88,7 +89,7 @@ PROXYPORT | Port for your proxy | No
 > `FCIV -sha1 path\to\file\holding\password`
 
 
-## Specifying Proxy Details
+#### Specifying Proxy Details
 
 Same process as described in the prior section. This time, look at lines 54, 56, 58 and 60. Add a default attribute to these XML elements and stick in the desired value into that.
 
