@@ -52,7 +52,7 @@ msiexec /I Stencyl.msi DEFAULTUSERNAME="ImaginaryAcademy" DEFAULTPASSWORD="5baa6
 
 ## Customizing the Installer (Alernate Approach)
 
-> We **strongly** recommend setting properties as described in the pervious section. If you don't wish to use the properties approach, you can edit the installer source directly as described in the sections below.
+> We **strongly** recommend setting properties as described in the previous section. If you don't wish to use the properties approach, you can edit the installer source directly as described in the sections below.
 
 #### Changing the Default Workspace Directory
 
