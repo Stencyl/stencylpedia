@@ -21,11 +21,11 @@ If building the MSI fails, please [contact us via e-mail](http://www.stencyl.com
 
 ## How To: Setting Properties
 
-One key purpose of an MSI is to automate installation across many computers. In order to fully automate the installation process, you will want your ActiveDirectory administrator to set the following properties using **msiexec** or [Orca](http://support.microsoft.com/kb/255905)
+One key purpose of an MSI is to automate installation across many computers. In order to fully automate the installation process, you will want your ActiveDirectory administrator to set the following properties using [msiexec](http://stackoverflow.com/questions/458857/how-to-make-better-use-of-msi-files) or [Orca](http://support.microsoft.com/kb/255905).
 
 #### The Properties
 
-Here are the properties you have available to configure prior to installation. 
+Here are the properties you can configure prior to installation. 
 
 Property Name | Description | Required?
 --- | --- | ---
@@ -42,6 +42,8 @@ PROXYPORT | Port for your proxy | No
 #### Example: Setting a Username and Password
 
 Suppose that our username is **ImaginaryAcademy** and our password is **password** -- which in turn is **5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8** when put into our [sha1() generator](http://www.stencyl.com/users/hashForm).
+
+This is what you'd run in msiexec.
 
 ```
 msiexec /I Stencyl.msi DEFAULTUSERNAME="ImaginaryAcademy" DEFAULTPASSWORD="5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8"
