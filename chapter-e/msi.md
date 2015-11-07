@@ -27,7 +27,7 @@ Property Name | Description | Required?
 --- | --- | ---
 **INSTALLDIR** | Installation directory | Yes
 **DEFAULTUSERNAME** | Your school's Stencyl username | Yes
-**DEFAULTPASSWORD** | The *SHA1 hash* of the username's password | Yes
+**DEFAULTPASSWORD** | The *SHA1 hash* of the username's password (vist [this page](http://www.stencyl.com/users/hashForm) to get it) | Yes
 WORKDIRECTORYROOT | The default working directory (including the ending backslash); this is optional -- otherwise, the roaming directory will be used | No
 USEUSER | A boolean ("true"/"false") to tell Stencyl whether or not to append the Windows user's login name to the workspace path above; this way, every user can have his or her own workspace (e.g., \\share\students\stencyl\johndoe) | No
 PROXYUSERNAME | Username for your proxy | No
@@ -74,7 +74,7 @@ PROXYPORT | Port for your proxy | No
   <Control Id="NameEdit" Type="Edit" X="45" Y="85" Width="220" Height="18" Property="DEFAULTUSERNAME" Text="{80}" default="YOURUSERNAME" />
   ```
 
-4. Do the same thing with the following line (Line 9), which sets the default password. Note that the password you type in here should already have **sha1() hashing** applied to it.
+4. Do the same thing with the following line (Line 9), which sets the default password. Note that the password you type in here should already have **sha1() hashing** applied to it. Visit [this page](http://www.stencyl.com/users/hashForm) to obtain this.
 
   ```
   <Control Id="PasswordEdit" Type="Edit" Password="yes" X="45" Y="122" Width="220" Height="18" Property="DEFAULTPASSWORD" Text="{80}" default="YOUR-HASHED-PASSWORD"/>
@@ -83,10 +83,6 @@ PROXYPORT | Port for your proxy | No
 5. Save the file.
 
 6. Rebuild the MSI (step 6 in the first section).
-
-> If you don't trust web-based SHA1 generators, you can download [this utility from Microsoft](https://support.microsoft.com/en-us/kb/841290) and generate it yourself.
-
-> `FCIV -sha1 path\to\file\holding\password`
 
 
 #### Specifying Proxy Details
