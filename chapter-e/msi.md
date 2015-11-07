@@ -27,7 +27,7 @@ Property Name | Description | Required?
 --- | --- | ---
 **INSTALLDIR** | Installation directory | Yes
 **DEFAULTUSERNAME** | Your school's Stencyl username | Yes
-**DEFAULTPASSWORD** | The *SHA1 hash* of the username's password (vist [this page](http://www.stencyl.com/users/hashForm) to get it) | Yes
+**DEFAULTPASSWORD** | The *SHA1 hash* of the account's password (visit [this page](http://www.stencyl.com/users/hashForm) to get it) | Yes
 WORKDIRECTORYROOT | The default working directory (including the ending backslash); this is optional -- otherwise, the roaming directory will be used | No
 USEUSER | A boolean ("true"/"false") to tell Stencyl whether or not to append the Windows user's login name to the workspace path above; this way, every user can have his or her own workspace (e.g., \\share\students\stencyl\johndoe) | No
 PROXYUSERNAME | Username for your proxy | No
