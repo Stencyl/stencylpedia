@@ -14,14 +14,16 @@ At this time, you must build the MSI installer yourself described below. We do n
 5. Copy the contents of your Stencyl install to the subfolder (inside the unpacked ZIP package) called **dist**.
 6. From the command line, cd to the WiX project's folder and run **generate_installer.bat**
 
-If all goes well, an MSI will pop up after some time (5-10 minutes).
+If all goes well, an MSI will pop up after some time - usually within 5 - 10 minutes.
 
-If building fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
+If building the MSI fails, please [contact us via e-mail](http://www.stencyl.com/about/contact/).
 
 
 ## How To: Setting Properties
 
-If you wish to fully automate the installation process, you will want your ActiveDirectory administrator to set the following properties using **msiexec** or a free tool like **Orca**. Here are the properties you have available to configure prior to installation.
+One key purpose of an MSI is to automate installation across many computers. In order to fully automate the installation process, you will want your ActiveDirectory administrator to set the following properties using **msiexec** or a free tool like **Orca**. 
+
+Here are the properties you have available to configure prior to installation. 
 
 Property Name | Description | Required?
 --- | --- | ---
@@ -38,7 +40,7 @@ PROXYPORT | Port for your proxy | No
 
 ## Customizing the Installer (Alernate Approach)
 
-> We strongly recommend setting properties as described in the pervious section. If you don't wish to use the properties approach, you can edit the installer source as described in the sections below.
+> We **strongly** recommend setting properties as described in the pervious section. If you don't wish to use the properties approach, you can edit the installer source directly as described in the sections below.
 
 #### Changing the Default Workspace Directory
 
