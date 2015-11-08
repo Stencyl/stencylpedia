@@ -27,7 +27,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Video Playback**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) is working on a new version.
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Android Utils 1.1**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.2.0+ | Android | inactive | no notes on if it work with 3.0
-
+[**Heyzap advertising**](http://community.stencyl.com/index.php/topic,45095.0.html)| Robin Schaafsma | 3.4+ | iOS, Android | Active | -
 
 ## Services
 
