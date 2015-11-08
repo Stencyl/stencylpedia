@@ -10,6 +10,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**CPM Star**](http://community.stencyl.com/index.php/topic,26486.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
 [**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**FGL Ads**](http://community.stencyl.com/index.php/topic,25931.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
+[**Heyzap**](http://community.stencyl.com/index.php/topic,45095.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
+[**Leadbolt**](http://community.stencyl.com/index.php/topic,45093.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
 [**RevMob**](http://community.stencyl.com/index.php/topic,24331.0.html) | GeorgeN | 3.3.0+ | iOS, Android | Abandoned | [New version](http://community.stencyl.com/index.php/index.php?topic=24331.msg246523#msg246523) provided by a different author.
 [**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS | Active | -
 
