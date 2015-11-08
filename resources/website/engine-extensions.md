@@ -26,9 +26,9 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
+[**Utils for Android**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.0.0+ | Android | Abandoned | May not work on 3.3.0+.
 [**Video Playback**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) is working on a new version.
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
-[**Android Utils 1.1**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.2.0+ | Android | inactive | no notes on if it work with 3.0
 
 
 ## Services
