@@ -5,14 +5,14 @@ November 09, 2015
  - (b8818) Fix: name instead of internal name in remove attribute dialog
  - (b8814) Fix: Ask user to confirm before deleting Android Keystore
  - (b8813) Fix: resize yes/no dialogs to fit text
- - (b8809) use fallback icon for fonts that cannot display char 'A'
+ - (b8809) Fix: use fallback icon for fonts that cannot display char 'A'
  - (b8808) Fix: use the actual fonts for the default font previews (Newspaper, Sans Serif, and Typewriter)
  - (b8807) Fix: only show displayable chars in font preview
  - (b8806) Fix: error when selecting custom font without choosing one
  - (b8805) Fix: warn and fall back if font contains no displayable chars
  - (b8804) Fix: misleading preview image if font has no displayable chars
  - (b8802) enable 3x scale by default
- - (b8801) catch exceptions during parsing of engine extension definitions
+ - (b8801) Fix: catch exceptions during parsing of engine extension definitions
  - (b8799) success/fail dialogs for Run -> Clean Project
 
 November 05, 2015
