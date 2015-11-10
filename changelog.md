@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 10, 2015
+
+ - (b8825) Remove lang/br (incorrect lang code and very incomplete)
+ - 
 November 09, 2015
  - (b8820) Fix: error dialog for parsing code mode attribute definitions
  - (b8818) Fix: name instead of internal name in remove attribute dialog
