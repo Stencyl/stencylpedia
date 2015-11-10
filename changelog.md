@@ -19,6 +19,8 @@ November 05, 2015
  - (b8796) Fix: Can't drag embedded blocks out of wrappers.
 
 November 04, 2015
+ - (b8793) Fix: clarify font character sets in dropdown
+ - (b8791) Fix: warn instead of erroring out for attached blocks in extensions
  - (b8787) Fix: Mac OS X sometimes says that we're an unregistered developer (and won't let Stencyl launch)
  - (b8786) Fix: FileNotFoundException when copying freeform code
  - (b8785) Fix: use NIO to avoid "Failed to copy full contents" in SnippetsWriter
@@ -26,7 +28,7 @@ November 04, 2015
 
 November 03, 2015
  - (b8783) Fix: Can drag blocks into design mode work area without an event.
- - (b8782) Fix groups with return block not snapping into top of event wrapper.
+ - (b8782) Fix: groups with return block not snapping into top of event wrapper.
 
 November 02, 2015
  - (b8781) Fix: "Attribute doesn't exist" warning for unassigned values
