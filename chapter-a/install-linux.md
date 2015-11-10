@@ -44,7 +44,16 @@ Run the following command to install the packages needed by the standalone Adobe
 ```
 sudo apt-get install libgtk2.0-0:i386 libxt6:i386 libxext6:i386 libatk1.0-0:i386 libc6:i386 libcairo2:i386 libexpat1:i386 libfontconfig1:i386 libfreetype6:i386 libglib2.0-0:i386 libice6:i386 libpango1.0-0:i386 libpng12-0:i386 libsm6:i386 libx11-6:i386 libxau6:i386 libxcursor1:i386 libxdmcp6:i386 libxfixes3:i386 libxi6:i386 libxinerama1:i386 libxrandr2:i386 libxrender1:i386 zlib1g:i386 libnss3-1d:i386 libnspr4-0d:i386 libcurl3:i386 libasound2:i386
 ```
+
  
+#### Step 4 - Install JDK 8 to be able to test or export to Android
+Run the following command to install JDK 8 from [WebUpd8 PPA](https://launchpad.net/~webupd8team/+archive/ubuntu/java):
+
+```
+sudo apt-add-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+```
 
 ## Installation Instructions for Arch Linux
 
