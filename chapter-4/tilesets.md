@@ -174,7 +174,7 @@ Tilesets follow this same rule.
 
 ## Troubleshooting
 
-* **Keep the tile size for all tilesets and scenes the same**. For example, if your tilesets have a tile size of 32 x 32, make sure that the scenes also have a tile size of 32 x 32.
+* **Keep the tile size for all tilesets and scenes the same**. For example, if your tilesets have a tile size of 32 x 32, make sure that the scenes also have a tile size of 32 x 32. If they are not the same size, the tiles will be [invisible when testing or publishing the game](http://community.stencyl.com/index.php?issue=122.0).
 
 * When defining custom polygon shapes for Tiles, **you can only use convex polygons**. If you need to make a concave polygon, use multiple tiles to achieve this.
 
