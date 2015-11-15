@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 15, 2015
+
+ - (b8826) Fix: NPE in determining the name of actor/scene events
+
 November 10, 2015
 
  - (b8825) Remove lang/br (incorrect lang code and very incomplete)
