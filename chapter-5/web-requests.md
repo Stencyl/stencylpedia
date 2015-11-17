@@ -14,7 +14,7 @@ Using the open URL block (under Game > Web), you can visit any URL from within a
 
 ![Open URL block](http://static.stencyl.com/pedia2/ch5/web/image01.png)
 
-> **Tip:** If you want an in-app browser, check out the [Web Views extension](http://community.stencyl.com/index.php/topic,26708.0.html).
+> **Tip:** If you want an in-app browser, check out the [Web Views extension](http://community.stencyl.com/index.php/topic,38900.0.html).
 
 #### What could you use this for?
 
