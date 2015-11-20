@@ -1,5 +1,10 @@
 ### Changelog ###
 
+November 17, 2015
+
+ - (b8832) Fix: be more lenient and catch error in parsing of engine extension version
+ - (b8828) Fix: prevent NPE in LogTableCellRenderer
+
 November 15, 2015
 
  - (b8826) Fix: NPE in determining the name of actor/scene events
