@@ -28,15 +28,12 @@ To pause and unpause the game, use these blocks under **Scene > Game Flow**.
 What exactly is paused and what remains unpaused?
 
 * All **When Updating** events for Actors will stop happening (unless opted out)
+* All **Do Every** and **Do After** events for Actors events will stop happening
 * All physics for Actors will be paused (unless opted out)
 * All **When Updating** events for Scenes will continue to happen
 * All **Drawing** events still happen (but paused actors will not animate)
 
-#### Gotcha 1: Do Every / Do After events
-
-These events remain active. If you wish to "pause" them, wrap their contents in an if-statement checking whether the game is not paused.
-
-#### Gotcha 2: Pause Buttons
+#### Gotcha: Pause Buttons
 
 When pausing using a pause button actor, do not forget to opt the pause button out of pausing. Otherwise, the button itself will be frozen and unable to receive click events.
 
