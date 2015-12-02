@@ -68,7 +68,8 @@ We recommend using a swipe event instead of a swipe block. It's easier to work w
 
 ![joystick-add-static](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-add-static.png)
 
-Adds a new joystick to the screen at the given coordinates.
+Adds a new static joystick to the screen at the given coordinates. A static joystick works only if you touch or click inside its outer radius. Other touches or clicks outside its outer radius will be ignored. Static doesn't mean immovable: you can move a static joystick by using the `set center for joystick` block.
+
 
 ```
 Joystick.addJoystick(0,0,0,0,0,0,0,0,false);
@@ -80,7 +81,7 @@ Joystick.addJoystick(0,0,0,0,0,0,0,0,false);
 
 ![joystick-add-relative](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-add-relative.png)
 
-Adds a new joystick to the screen, positioned relatively to the coordinates of mouse or touch presses.
+Adds a new relative joystick to the screen. For a relative joystick its center position is relative to the coordinates of mouse or touch first press. A relative joystick works only inside its own touch region.
 
 ```
 Joystick.addJoystick(0,0,0,1,0,0,0,0,false);
@@ -106,6 +107,8 @@ Joystick.removeJoystick(0);
 
 The direction of the joystick will be set to this default direction when the joystick is idle.
 
+Useful when you want an actor to face towards a particular direction when the player doesn't press the joystick. The default value of default direction is 0.
+
 ```
 Joystick.setDefaultDirection(0,0);
 ```
@@ -118,6 +121,9 @@ Joystick.setDefaultDirection(0,0);
 
 Sets the inner or the outer radius to a given value for a joystick.
 
+The default value of the outer radius is half the width of the outer joystick.
+The default value of the inner radius is half the width of the inner joystick.
+
 ```
 Joystick.setJoystickRadius(0,true,0);
 ```
@@ -128,7 +134,7 @@ Joystick.setJoystickRadius(0,true,0);
 
 ![joystick-set-region](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-region.png)
 
-Sets the x position, y position, the width and the height of the touch region of a joystick.
+Sets the x position, y position, the width and the height of the touch region of a joystick. You can use this block to update the position and/or the size of a touch region of an existing relative joystick.
 
 ```
 Joystick.setTouchRegionForRJ(0,0,0,0,0);
@@ -140,7 +146,15 @@ Joystick.setTouchRegionForRJ(0,0,0,0,0);
 
 ![joystick-set-image](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-image.png)
 
-Sets the image of the outer or inner part of a joystick.
+Sets the image of the outer or inner part of a joystick. You need to have corresponding images inside your games "extras" folder, one for each scale:
+
+```
+imagename.png
+imagename@1.5x.png
+imagename@2x.png
+imagename@3x.png
+imagename@4x.png
+```
 
 ```
 Joystick.setJoystickImage(0,true,"text");
@@ -164,7 +178,7 @@ Joystick.setJoystickAlpha(0,true,0,true);
 
 ![joystick-set-always-hide](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-always-hide.png)
 
-Makes a relative joystick to be always hidden when it is idle.
+Makes a relative joystick to be always hidden when it is idle. Since the position of a relative joystick is not so important, you can use this block to always hide a relative joystick id when there is no press to save some screen space. 
 
 ```
 Joystick.alwaysHideRJ(0);
@@ -189,6 +203,9 @@ Joystick.isJoystickPressed(0)
 ![joystick-get-distance-direction](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-get-distance-direction.png)
 
 Returns the distance or the direction of a joystick.
+
+Distance is always a float number between 0 and 1.
+Direction is always a float number between 0 (inclusive) and 360 (exclusive), where 0 means that the joystick is facing towards right, and 90 means that the joystick is facing down.
 
 ```
 Joystick.getJoystickDisDir(0,false)
