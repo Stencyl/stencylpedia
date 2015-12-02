@@ -1,5 +1,12 @@
 ### Changelog ###
 
+December 02, 2015
+
+ - (b8851) Fix: support 3x joystick images
+ - (b8850) Add crisper default joystick images
+ - (b8849) New joystick blocks (based on the "Virtual Joysticks Extension")
+ - (b8839) Fix: ignore case in engine extension compatibility
+ - 
 November 17, 2015
 
  - (b8832) Fix: be more lenient and catch error in parsing of engine extension version
