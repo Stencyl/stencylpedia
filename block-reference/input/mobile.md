@@ -64,8 +64,171 @@ We recommend using a swipe event instead of a swipe block. It's easier to work w
 
 ## Joystick
 
-> We will be replacing our built-in joystick plugin with this far better [third party one](http://community.stencyl.com/index.php/topic,29026.0.html) in the future. Consult our [Joysticks guide](http://www.stencyl.com/help/view/mobile-joystick/) for the moment.
+### Add a Static Joystick
 
+![joystick-add-static](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-add-static.png)
+
+Adds a new joystick to the screen at the given coordinates.
+
+```
+Joystick.addJoystick(0,0,0,0,0,0,0,0,false);
+```
+
+***
+
+### Add a Relative Joystick
+
+![joystick-add-relative](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-add-relative.png)
+
+Adds a new joystick to the screen, positioned relatively to the coordinates of mouse or touch presses.
+
+```
+Joystick.addJoystick(0,0,0,1,0,0,0,0,false);
+```
+
+***
+
+### Remove a Joystick 
+
+![joystick-remove](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-remove.png)
+
+Removes a joystick from the screen.
+
+```
+Joystick.removeJoystick(0);
+```
+
+***
+
+### Default Direction
+
+![joystick-set-default-direction](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-default-direction.png)
+
+The direction of the joystick will be set to this default direction when the joystick is idle.
+
+```
+Joystick.setDefaultDirection(0,0);
+```
+
+***
+
+### Set Radius
+
+![joystick-set-radius](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-radius.png)
+
+Sets the inner or the outer radius to a given value for a joystick.
+
+```
+Joystick.setJoystickRadius(0,true,0);
+```
+
+***
+
+### Set Touch Region (for a Relative Joystick)
+
+![joystick-set-region](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-region.png)
+
+Sets the x position, y position, the width and the height of the touch region of a joystick.
+
+```
+Joystick.setTouchRegionForRJ(0,0,0,0,0);
+```
+
+***
+
+### Set Joystick Images
+
+![joystick-set-image](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-image.png)
+
+Sets the image of the outer or inner part of a joystick.
+
+```
+Joystick.setJoystickImage(0,true,"text");
+```
+
+***
+
+### Set Joystick Transparency
+
+![joystick-set-alpha](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-alpha.png)
+
+Sets the joystick image transparency for a joystick.
+
+```
+Joystick.setJoystickAlpha(0,true,0,true);
+```
+
+***
+
+### Auto-hide a Joystick
+
+![joystick-set-always-hide](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-set-always-hide.png)
+
+Makes a relative joystick to be always hidden when it is idle.
+
+```
+Joystick.alwaysHideRJ(0);
+```
+
+***
+
+### Joystick is Pressed
+
+![joystick-is-pressed](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-is-pressed.png)
+
+Returns 'true' if the joystick is being pressed, 'false' otherwise.
+
+```
+Joystick.isJoystickPressed(0)
+```
+
+***
+
+### Distance / Direction  
+
+![joystick-get-distance-direction](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-get-distance-direction.png)
+
+Returns the distance or the direction of a joystick.
+
+```
+Joystick.getJoystickDisDir(0,false)
+```
+
+***
+
+### Jostick Center Coordinates
+
+![joystick-get-center](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-get-center.png)
+
+Returns the x or the y coordinate of the center of a joystick.
+
+```
+Joystick.getJoystickCenter(0,true)
+```
+
+***
+
+### Joystick Radius
+
+![joystick-get-radius](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-get-radius.png)
+
+Returns the outer or inner radius value for a joystick.
+
+```
+Joystick.getJoystickRadius(0,true)
+```
+
+***
+
+### Touch Region (for a Relative Joystick) 
+
+![joystick-get-touch-region-property](http://static.stencyl.com/pedia2/block-images/3%20-%20User Input/2%20-%20Mobile-Only/joystick-get-touch-region-property.png)
+
+Returns the position or size of the touch region for a relative joystick.
+
+```
+Joystick.getTouchRegionPropertyForRJ(0,1)
+```
 ***
 
 ## Other
