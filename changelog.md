@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 03, 2015
+
+ - (b8854) move new joystick blocks to their own palette section (User Input > Joytick)
+
 December 02, 2015
 
  - (b8851) Fix: support 3x joystick images
