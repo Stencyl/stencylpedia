@@ -27,12 +27,12 @@ In Freeform Mode, you can write arbitrary classes. They are not behaviors, so yo
 
 ## The Interface
 
-![stencyl-ide-code-mode-pic](http://static.stencyl.com/help/images/CodeModeUI1.png)
+![stencyl-ide-code-mode-pic](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-b/images/code-mode-ui.png)
  
 
 ### Top Tool Bar
 
-![stencyl-ide-code-mode-toolbar-pic](http://static.stencyl.com/help/images/CodeModeUI2.png)
+![stencyl-ide-code-mode-toolbar-pic](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-b/images/code-mode-toolbar.png)
 
 This area has three separate buttons: Refresh Attributes, Open in External Editor, and View API.
 
@@ -52,7 +52,7 @@ In Freeform Mode you cannot define attributes, so this area does not exist.
 
 In this area you write your code. Syntax highlighting and find/replace are supported. For more advanced features use an external editor.
 
-![stencyl-ide-code-mode-editing-area-pic](http://static.stencyl.com/help/images/CodeModeUI4.png)
+![stencyl-ide-code-mode-editing-area-pic](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-b/images/code-mode-editarea.png)
 
  
 ## Using External Editors
