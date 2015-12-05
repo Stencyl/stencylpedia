@@ -21,7 +21,7 @@ You have three options to write code in Stencyl:
 * Create behaviors written in code in **Code Mode**. 
 * Write arbitrary classes in **Freeform Mode**.
 
-This article is about the latter two options. Code Mode behaviors are just like normal behaviors, you can attach them to your scenes and actors. For a scene behavior, write a class that extends SceneScript; for an actor behavior write a class that extends ActorScript. You can also define attributes in Code Mode behaviors (explained later in this article.)
+This article is about the latter two options. Code Mode behaviors are just like normal behaviors, you can attach them to your scenes and actors. For a scene behavior, write a class that extends SceneScript; for an actor behavior write a class that extends ActorScript. You can also define attributes in Code Mode behaviors (explained later in this article).
 
 In Freeform Mode, you can write arbitrary classes. They are not behaviors, so you cannot define attributes or attach them to your scenes or actors. In order to make use of a Freeform Mode class, you will need to call the code from another behavior.
 
