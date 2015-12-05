@@ -1,4 +1,3 @@
-> **Call for Help:** This article is out of date. Want to help us rewrite it? [Head over to Github](https://github.com/Stencyl/stencylpedia/blob/master/chapter-b/code-mode.md) and submit edits to this article.
 
 Stencyl supports Code Mode, a way to write behaviors entirely using code (currently, Haxe).
 
@@ -7,12 +6,24 @@ This article surveys the interface and explains how to accomplish crucial tasks,
  
 ## Contents
 
+* The Basics
 * The Interface
 * Using External Editors
 * Switching Between Design and Code Mode
 * How to Define Attributes
 * The Future
  
+## The Basics
+
+You have three options to write code in Stencyl:
+
+* Use code blocks in Design Mode behaviors. This is this easiest option to include short pieces of code in your behaviors.  
+* Create behaviors written in code in Code Mode. 
+* Write arbitrary classes in Freeform Mode.
+
+This article is about the latter two options. Code Mode behaviors are just like normal behaviors, you can attach them to your scenes and actors. For a scene behavior, write a class that extends SceneScript; for an actor behavior write a class that extends ActorScript. You can also define attributes in Code Mode behaviors (explained later in this article.)
+
+In Freeform Mode, you can write arbitrary classes. They are not behaviors, so you cannot define attributes or attach them to your scenes or actors. In order to make use of a Freeform Mode class, you will need to call the code from another behavior.
 
 ## The Interface
 
@@ -23,24 +34,23 @@ This article surveys the interface and explains how to accomplish crucial tasks,
 
 ![stencyl-ide-code-mode-toolbar-pic](http://static.stencyl.com/help/images/CodeModeUI2.png)
 
-This area has four separate buttons, Check Syntax, Refresh Attributes, Open in External Editor, and View API.
+This area has three separate buttons: Refresh Attributes, Open in External Editor, and View API.
 
-* **Check Syntax:** This checks your code's syntax for errors.
-* **Refresh Attributes:** This updates the attributes in your Behavior by running an annotation parser over it.
+* **Refresh Attributes:** This updates the attributes in your Behavior by running an annotation parser over it. (Only available in Code Mode.)
 * **Open in External Editor:** This allows you to use an IDE of your choosing, such as Eclipse, Notepad++, FlashDevelop, etc.
-* **View API:** Lets you view Stencyl's ActionScript-based API.
+* **View API:** Lets you view Stencyl's Haxe API.
  
 
 ### Attributes Pane
 
 The Attributes Pane stores all attributes currently defined by this behavior. To define attributes, you have to annotate them. Scroll down to the **How to Define Attributes** section below for further details.
 
+In Freeform Mode you cannot define attributes, so this area does not exist.
+
  
 ### Editing Area
 
-This area is split in to two sections, one where you add new code, and the other area that shows compiler output when you press Check Syntax.
-
-Syntax highlighting and simple code completion are supported, as well as find/replace.
+In this area you write your code. Syntax highlighting and find/replace are supported. For more advanced features use an external editor.
 
 ![stencyl-ide-code-mode-editing-area-pic](http://static.stencyl.com/help/images/CodeModeUI4.png)
 
@@ -74,38 +84,47 @@ public var attributeName:String = "default";
 ### Accepted Properties
  
 
-Name | Description	| Required?
---- | --- | ---
-id | Must be a unique integer |	Yes
-order |	What order it appears in the Behavior page |	No
-desc | Display name on the Behavior page |	Yes
-dropdown | dropdown data |	No
-type | Use this if you are defining a Control, Animation, Effect or Game Attribute attribute and set to "control" "animation" "effect" or "game-attribute" |	Yes, for certain types
+Name     | Description	                                   | Required?
+-------- | ---------------------------------------------- | ---------
+id       | Must be a unique integer                       |	Yes
+order    |	What order it appears in the Behavior page     |	No
+desc     | Display name on the Behavior page              |	Yes
+dropdown | Name=Value pairs for Dropdowns                 |	No
+type     | Use this if specify the type of your attribute |	Yes, for certain types
 
-### The Types
- 
-    Int
-    Number
-    Object
-    String
-    Boolean
-    Actor
-    Group
-    ActorType
-    Color
-    Control
-    Animation
-    Font
-    Effect
-    GameAttribute
-    Joint
-    Region
-    SoundClip
-    Scene
-    Array
+The type is necessary for attributes that don't have a distinct type in Haxe. For example a Control is stored as a String, the same type used for Text attributes. So to define a Control attribute without ambiguity, you need to provide the type parameter. The parameter is case-insensitive.
 
-> **TODO:** This list was drafted for 2.0 / ActionScript and may not be correct in 3.0 / Haxe.
- 
+The following types are supported, listed with the corresponding type in Haxe.
+
+Attribute Type | Haxe Type
+-------------- | ---------
+ACTOR      			 | Actor
+ACTORGROUP		   | Group
+ACTORTYPE	   	 | ActorType
+ANIMATION		    | String
+BOOLEAN		    	 | Bool
+COLOR		      	 | Int
+CONTROL			     | String
+CODE_BLOCK		   | Dynamic
+DROPDOWN		     | Dynamic
+FILTER			      | Dynamic
+FONT			        | Font
+GAME_ATTRIBUTE	| String
+IMAGE			       | BitmapData
+IMAGE_INSTANCE	| BitmapWrapper
+INT				        | Int
+JOINT			       | B2Joint
+LIST			        | Array<Dynamic>
+MAP				        | Map<String,Dynamic>
+NUMBER			      | Float
+OBJECT			      | Dynamic
+REGION		     	 | Region
+SCENE			       | Scene
+SHADER			      | Dynamic
+SOUND			       | Sound
+TEXT		       	 | String
+VOID			        | Void
+
 
 ## The Future
 
