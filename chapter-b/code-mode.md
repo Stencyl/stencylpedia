@@ -17,9 +17,9 @@ This article surveys the interface and explains how to accomplish crucial tasks,
 
 You have three options to write code in Stencyl:
 
-* Use code blocks in Design Mode behaviors. This is this easiest option to include short pieces of code in your behaviors.  
-* Create behaviors written in code in Code Mode. 
-* Write arbitrary classes in Freeform Mode.
+* Use **code blocks** in **Design Mode** behaviors. This is this easiest option to include short pieces of code in your behaviors.  
+* Create behaviors written in code in **Code Mode**. 
+* Write arbitrary classes in **Freeform Mode**.
 
 This article is about the latter two options. Code Mode behaviors are just like normal behaviors, you can attach them to your scenes and actors. For a scene behavior, write a class that extends SceneScript; for an actor behavior write a class that extends ActorScript. You can also define attributes in Code Mode behaviors (explained later in this article.)
 
