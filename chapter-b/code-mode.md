@@ -105,11 +105,8 @@ ANIMATION		    | String
 BOOLEAN		    	 | Bool
 COLOR		      	 | Int
 CONTROL			     | String
-CODE_BLOCK		   | Dynamic
-DROPDOWN		     | Dynamic
 FILTER			      | Dynamic
 FONT			        | Font
-GAME_ATTRIBUTE	| String
 IMAGE			       | BitmapData
 IMAGE_INSTANCE	| BitmapWrapper
 INT				        | Int
@@ -123,7 +120,6 @@ SCENE			       | Scene
 SHADER			      | Dynamic
 SOUND			       | Sound
 TEXT		       	 | String
-VOID			        | Void
 
 
 ## The Future
