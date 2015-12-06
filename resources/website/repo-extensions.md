@@ -24,6 +24,3 @@ Name | Repository URL | Author | Description
 ## How to Create a Repository
 
 Some info is located [here](http://www.mazeland.net/repo/).
-
-(Justin - Create a separate article and link it from here)
-
