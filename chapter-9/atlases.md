@@ -141,7 +141,7 @@ No.
 
 **Are atlases actually stored in one big, combined image?**
 
-Not anymore. They were in the past but that no longer is the case.
+Not anymore. They were in the past but that is no longer the case.
 
 **What platforms do atlases apply to?**
 
@@ -151,7 +151,7 @@ iOS, Android, Windows, Mac and Linux.
 
 The images in your resources folder are likely compressed, but images are decompressed before being stored into memory. The numbers you see in the atlases manager represent how much space your resources take up in memory, not the file system. **No amount of image compression will reduce your game's memory usage.**
 
-**I'm not able to toggle unbind my atlases to scenes and they appear grayed out**
+**I'm not able to unbind my atlases to scenes and they appear grayed out**
 
 You either need to enable atlas binding for the scenes in question (this can be done for *all* scenes at once from the Preferences page in Atlses) or disable "Include in all Scenes" for the atlases in question. Both of these can be accomplished from the Scenes page of Atlases.
 
