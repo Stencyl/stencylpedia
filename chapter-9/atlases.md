@@ -45,7 +45,7 @@ In this Quick Guide, we'll go through the basic steps to convert a simple single
 
 	![Resources, Main Atlas](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-4.png)
 	
-1. We can view other atlases from the **Atlas dropdown menu**. Let's switch over to **Pirate Ship**.
+1. We can view other atlases from the **Atlas drop-down menu**. Let's switch over to **Pirate Ship**.
 
 	![Resources, Pirate Ship](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-5.png)
 
@@ -55,7 +55,7 @@ In this Quick Guide, we'll go through the basic steps to convert a simple single
 	
 	Keep in mind that these resources will *only* be available in scenes that have Pirate Ship atlas bound to them. Common resources (such as the player, interface elements and pickups) will typically stay in the Main Atlas.
 
-1. Now, we're going to switch over to **Island** (from the Atlas dropdown, just as we did in Step 7) and drag all of the Island-exclusive resources over.
+1. Now, we're going to switch over to **Island** (from the Atlas drop-down, just as we did in Step 7) and drag all of the Island-exclusive resources over.
 
 	![Island with resources](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-7.png)
 
@@ -76,7 +76,7 @@ In this Quick Guide, we'll go through the basic steps to convert a simple single
 	![Scenes Button in Toolbar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-11.png)
 	![Scenes](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-12.png)
 
-1. We want to switch the **Primary View dropdown** from Scenes over to **Atlases**.
+1. We want to switch the **Primary View drop-down** from Scenes over to **Atlases**.
 
 	![](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-13.png)
 
@@ -109,9 +109,9 @@ However, realize that **every game is different**. What works best for one game 
 
 ### Combine Related Resources Together Into Atlases
 
-If you're fairly sure you'll usually be using a certain group of resources in conjunction with each other, consider grouping them into the same atlas.
+If you're fairly sure that you'll typically be using a certain group of resources in conjunction with each other, consider grouping these resources into the same atlas.
 
-For example, you could have an "Underwater" atlas that features seabed tiles, various fish actors and a water-themed music track. Or if you wanted to be more specific in your atlas assignments, you could even give individual enemies their own atlases (especially if individual enemies use multiple resources).
+For example, you could have an "Underwater" atlas that contains seabed tiles, various fish actors and a water-themed music track. Or if you wanted to be more specific in your atlas assignments, you could even give individual enemies their own atlases (especially if individual enemies use multiple unique resources, like their own sound effects and projectiles).
 
 ### Watch Your Memory Usage
 
@@ -121,39 +121,46 @@ Take note of how much memory rises by using the FPS Monitor or telemetry.
 
 Although most games probably won't require too many atlases, [large, intensive games](http://community.stencyl.com/index.php/topic,30809.0.html) could possibly require hundreds. Keep your atlases and resources named and organized in a logical fashion to make things easier on yourself.
 
-## Reference
-
-(Cover the whole UI - leave this part for later)
+### Add a Loading Scene
+Sometimes, you'll find that if you're loading a lot of resources, atlas loading can take some time. In order to prevent an awkward pause with a black screen, consider switching to an intermediate scene with a "loading" graphic and then switching to the desired scene after that.
 
 
 ## FAQ
 
-### Is there a limit to how many resources can go into an atlas?
+**Is there a limit to how many resources can go into an atlas?**
 
 Nope.
 
-### Is there a performance penalty for having too many atlases?
+**Is there a performance penalty for having too many atlases?**
 
 No. The only disadvantage is that it becomes harder for you (the creator) to keep track.
 
-### Is there a way to load/unload an atlas during a scene?
+**Is there a way to load/unload an atlas during a scene?**
 
 No.
 
-### Are atlases actually stored in one big, combined image?
+**Are atlases actually stored in one big, combined image?**
 
 Not anymore. They were in the past but that no longer is the case.
 
-### What platforms do atlases apply to?
+**What platforms do atlases apply to?**
 
 iOS, Android, Windows, Mac and Linux.
+
+**Why does Stencyl say my resources are bigger than they are?**
+
+The images in your resources folder are likely compressed, but images are decompressed before being stored into memory. The numbers you see in the atlases manager represent how much space your resources take up in memory, not the file system. **No amount of image compression will reduce your game's memory usage.**
+
+**I'm not able to toggle unbind my atlases to scenes and they appear grayed out**
+
+You either need to enable atlas binding for the scenes in question (this can be done for *all* scenes at once from the Preferences page in Atlses) or disable "Include in all Scenes" for the atlases in question. Both of these can be accomplished from the Scenes page of Atlases.
 
 
 ## Challenge: Making a Preloader
 
 At the time of writing, Stencyl doesn't support preloaders on mobile and desktop platforms. For some games, this may generate an awkward pause at the start. Let's create a preloader from scratch using what we know.
 
-* Tell all atlases not to initially load besides the main atlas.
+* Tell all atlases not to initially load, aside from your main atlas. 
 * Make the first scene show a loading graphic of your choice (bonus points if it's animated or moves across the screen to give the semblance of progress).
 * Load the atlases you need.
 * Then, switch to the "real" first scene.
