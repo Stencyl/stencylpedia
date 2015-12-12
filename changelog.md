@@ -1,5 +1,11 @@
 ### Changelog ###
 
+December 12, 2015
+
+ - (b8858) Fix: Code Mode attributes with ambiguous types
+ - (b8857) Fix: "set center for joystick"-block missing
+ - (b8856) Fix: "current loop count" block, view code shows "index-1"
+
 December 03, 2015
 
  - (b8854) move new joystick blocks to their own palette section (User Input > Joytick)
