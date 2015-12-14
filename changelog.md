@@ -1,5 +1,10 @@
 ### Changelog ###
 
+December 14, 2015
+
+ - (b8860) Fix: don't accept spaces in custom events
+ - (b8859) Fix: show actor/scene name for custom blocks defined in events
+
 December 12, 2015
 
  - (b8858) Fix: Code Mode attributes with ambiguous types
