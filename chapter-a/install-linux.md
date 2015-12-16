@@ -55,6 +55,12 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
 
+When asked by Stencyl for the location of Java, navigate and select 
+```
+/usr/lib/jvm/java-8-oracle 
+```
+
+
 ## Installation Instructions for Arch Linux
 
 [View this page](http://community.stencyl.com/index.php/topic,32022.0.html)
