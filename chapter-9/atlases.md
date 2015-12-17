@@ -153,7 +153,7 @@ The images in your resources folder are likely compressed, but images are decomp
 
 **I'm not able to unbind my atlases to scenes and they appear grayed out**
 
-You either need to enable atlas binding for the scenes in question (this can be done for *all* scenes at once from the Preferences page in Atlses) or disable "Include in all Scenes" for the atlases in question. Both of these can be accomplished from the Scenes page of Atlases.
+You either need to enable atlas binding for the scenes in question (this can be done for *all* scenes at once from the Preferences page in Atlases) or disable "Include in all Scenes" for the atlases in question. Both of these can be accomplished from the Scenes page of Atlases.
 
 
 ## Challenge: Making a Preloader
