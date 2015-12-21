@@ -25,4 +25,8 @@ Click "Create" and Stencyl will build your blank game and open it.
 
 Next, we’ll start importing assets.
 
-[Click here to go to Step 2](http://www.stencyl.com/help/viewArticle/171/)
+***
+
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/171//">Continue to Step 2 &rarr;</a>
+
+***
