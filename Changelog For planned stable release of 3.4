@@ -1,0 +1,83 @@
+ Changelog For planned stable release of 3.4
+
+Hello Stencylers :)! 
+
+
+                                           Changelog:
+
+Fixes Pending:
+Confirmed - Bug : [When testing game, when tileset's tile size doesn't match the scene's tile size tiles invisable](http://community.stencyl.com/index.php?issue=122.0)
+Confirmed - Bug : [When stretching out a actor in a scene, actor appears different then in scene](http://community.stencyl.com/index.php?issue=115.0)
+Confirmed - Bug : [Certain IMAGE API blocks don't recognize image instances when they are pulled from a list of image instances](http://community.stencyl.com/index.php?issue=118.0)
+Confirmed - Bug : [Italics Fonts. Spacing between letters is poor](http://community.stencyl.com/index.php?issue=23.0)
+Confirmed - Bug : [ "Attribute doesn't exist" warning for unassigned values](http://community.stencyl.com/index.php?issue=9.0)
+Confirmed - Bug : [Operations blocks can't be used with remote attributes](http://community.stencyl.com/index.php?issue=112.0) 
+Confirmed - Bug : [HTML5 exported games do silly things with list game attributes](http://community.stencyl.com/index.php?issue=91.0)
+Confirmed - Bug : [Stency generates 3x from x files also when 4x are available](http://community.stencyl.com/index.php?issue=113.0)
+Confirmed - Bug : [Attributes chooser (from right-click menu) is sometimes empty](http://community.stencyl.com/index.php?issue=55.0)
+Confirmed - Bug : [Regions collide with tiles](http://community.stencyl.com/index.php?issue=65.0)
+Confirmed - Bug : [Can't prevent autorotate on Android](http://community.stencyl.com/index.php?issue=47.0)
+
+
+
+
+Enhancements:
+Follow up work on extensions framework.
+Enhancement: Right-click a block > View Help will open the block guide and highlight that block's entry for you.
+Enhancement: Full Screen (Interstitial) Ads for iOS and Android
+Enhancement: Events for Android Ads (Feedback Wanted)
+
+Minor Changes :
+
+(b8769) Add anchors (using Definition.tag) for [block] > View Help.
+(b8768) Hook up block help url's to new block reference.
+(b8762) Allow base palette and event lists to be overwritten with user-defined lists.
+
+Follow up work on extensions framework.
+
+Completed Fixes :
+(b8825) Remove lang/br (incorrect lang code and very incomplete)
+(b8820) Fix: error dialog for parsing code mode attribute definitions
+(b8818) Fix: name instead of internal name in remove attribute dialog
+(b8814) Fix: Ask user to confirm before deleting Android Keystore
+(b8813) Fix: resize yes/no dialogs to fit text
+(b8809) Fix: use fallback icon for fonts that cannot display char 'A'
+(b8808) Fix: use the actual fonts for the default font previews (Newspaper, Sans Serif, and Typewriter)
+(b8807) Fix: only show displayable chars in font preview
+(b8806) Fix: error when selecting custom font without choosing one
+(b8805) Fix: warn and fall back if font contains no displayable chars
+(b8804) Fix: misleading preview image if font has no displayable chars
+(b8802) enable 3x scale by default
+(b8801) Fix: catch exceptions during parsing of engine extension definitions
+(b8799) success/fail dialogs for Run -> Clean Project
+(b8796) Fix: Can't drag embedded blocks out of wrappers.
+(b8793) Fix: clarify font character sets in dropdown
+(b8791) Fix: warn instead of erroring out for attached blocks in extensions
+(b8787) Fix: Mac OS X sometimes says that we're an unregistered developer (and won't let Stencyl launch)
+(b8786) Fix: FileNotFoundException when copying freeform code
+(b8785) Fix: use NIO to avoid "Failed to copy full contents" in SnippetsWriter
+(b8784) Fix: warning "Could not add block for tag toggle-flxpause to menu."
+(b8783) Fix: Can drag blocks into design mode work area without an event.
+(b8782) Fix: groups with return block not snapping into top of event wrapper.
+(b8781) Fix: "Attribute doesn't exist" warning for unassigned values
+(b8780) Fix: uncaught exception when taking a screenshot of a behavior without events
+(b8778) Fix: Actors and Players collide with Tiles even when not set to collide
+(b8773) Fix: cannot export actor type that has no animation
+(b8772) Fix: parsing numbers in locales using "," as decimal point
+(b8769) Add anchors (using Definition.tag) for [block] > View Help.
+(b8768) Hook up block help url's to new block reference.
+(b8762) Allow base palette and event lists to be overwritten with user-defined lists.
+(b8761) Fix actors recreated have shorter first frames of animation
+(b8761) Fix: error "Array should be Array" when building HTML5 games
+(b8760) Fix: Exporting a sound only exports MP3
+(b8759) Fix: internal Java error when highlighting a block on Linux
+(b8758) Fix: "exit game" block not working on Flash
+(b8748) Fixed ConcurrentModificationExceptions in extension repo browser, don't show header for empty extension lists.
+(b8747) Expand Deisgn Mode EditArea by dragging blocks near the edge.
+(b8746) Fix block drag behavior on multiple monitor setups.
+(b8745) Fixed actor customization title not filling horizontal space.
+(b8744) Remove misleading "real world gravity" hint
+(b8741) Fix: "Games" counter doesn't decrease when deleting games
+(b8740) Fix: broken "copy of image" block
+(b8739) Broken toolset extensions prevent Stencyl from opening.
+(b8738) Android Soft Keyboard support
