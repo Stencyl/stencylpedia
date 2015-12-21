@@ -6,7 +6,7 @@ Welcome to Stencyl’s Crash Course 2. The first Crash Course helped you learn t
 
 The game you’ll build will be a simplified version of the classic game Space Invaders, where the player controls a spaceship and shoots enemies that are floating at the top of the screen.
 > [Click here to download a ZIP file containing the assets used in this crash course.](http://static.stencyl.com/pedia2/ch1/cc2/assets.zip)
-[(Updated February 2014 with corrected assets)]
+(Updated February 2014 with corrected assets)
 
 ## Part 1 : Creating a Game
 Step 1: Click on the box that says “Click here to create a new Game.”
