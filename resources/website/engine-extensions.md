@@ -91,7 +91,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 
 Use this section to [add requests](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md) for extensions. If one has already been suggested, [add your name](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md) to the extra votes section.
 
-Title | Your Name (on Stencyl.com) | Description | Extra Votes
---- | --- | --- | ---
-[Video Player](http://community.stencyl.com/index.php/topic,24896.0.html) | Jon | Video playback for iOS and Android | mdotedot
+Title | Your Name (on Stencyl.com) | Description | Extra Votes | Notes
+--- | --- | --- | --- | --- |
+[Video Player](http://community.stencyl.com/index.php/topic,24896.0.html) | Jon | Video playback  for iOS and Android | mdotedot | A extension is availbe for IOS
 [Skeletal Animation](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | -
