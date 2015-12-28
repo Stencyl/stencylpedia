@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 28, 2015
+
+ - (b8864) Add prompt to open and accept Xcode license for desktop builds
+
 December 23, 2015
 
  - (b8862) Fix: Allow repeating backgrounds to animate
