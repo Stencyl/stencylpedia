@@ -1,8 +1,9 @@
 ### Changelog ###
 
 December 28, 2015
-
+ 
  - (b8864) Add prompt to open and accept Xcode license for desktop builds
+ - (b8863) Fix : Can't test any game ; engine wasn't updated correctly
 
 December 23, 2015
 
