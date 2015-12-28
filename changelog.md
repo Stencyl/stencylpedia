@@ -1,5 +1,13 @@
 ### Changelog ###
 
+December 23, 2015
+
+ - (b8862) Fix: Allow repeating backgrounds to animate
+
+December 16, 2015
+
+ - (b8861) Fix: exception when opening settings, if no iOS simulator found
+
 December 14, 2015
 
  - (b8860) Fix: don't accept spaces in custom events
