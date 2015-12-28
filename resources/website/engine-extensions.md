@@ -51,6 +51,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Custom Controls**](http://community.stencyl.com/index.php/topic,31251.0.html) | captaincomic | 3.3.0+ | Flash, Desktop | Active | -
 [**Extra Mouse Buttons**](http://community.stencyl.com/index.php/topic,31772.0.html) | rob1221 | 3.3.0+ | Flash, Desktop | Active | -
+[**Gamepad SWF**](http://community.stencyl.com/index.php/topic,45710.0.html) | gurigraphics | 3.3.0+ | Flash | Active | -
 [**HUD Console**](http://community.stencyl.com/index.php/topic,35554.0.html) | captaincomic | 3.3.0+ | Flash, Desktop | Active | -
 [**Isometric**](http://community.stencyl.com/index.php/topic,41431.0.html) | merrak | 3.3.0+ | All | Active | -
 [**Joints**](http://community.stencyl.com/index.php/topic,31947.0.html) | captaincomic | 3.3.0+ | All | Active | -
