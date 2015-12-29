@@ -1,6 +1,6 @@
 > [Introduction](http://www.stencyl.com/help/viewArticle/170) - [Step 1 (Create a Game)]
-(http://www.stencyl.com/help/viewArticle/171) - [Step 2  (Create Actors)](http://www.stencyl.com/help/viewArticle/172) - [Step 3
-(Actor Collisions)](http://www.stencyl.com/help/viewArticle/173/) - [Step 4 (More Actors)]
+(http://www.stencyl.com/help/viewArticle/171) - [Step 2  (Create Actors)](http://www.stencyl.com/help/viewArticle/171) - [Step 3
+(Actor Collisions)](http://www.stencyl.com/help/viewArticle/172/) - [Step 4 (More Actors)]
 (http://www.stencyl.com/help/viewArticle/174/)-- [ Build the Game Out] -- [Step 5 (Import Sounds)]
 (http://www.stencyl.com/help/viewArticle/175) - [Step 6 (Create a scene)](http://www.stencyl.com/help/viewArticle/176) - [Step 7
 (Add Background Music)](http://www.stencyl.com/help/viewArticle/177) --- [Add Logic] --- [Step 8 (Make the Ship Move)]
