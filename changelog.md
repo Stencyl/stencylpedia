@@ -3,6 +3,7 @@
 December 28, 2015
 
  - (b8864) Add prompt to open and accept Xcode license for desktop builds
+ - (b8863) Fix for regression from b8862 (Missing Joystick class)
 
 December 23, 2015
 
