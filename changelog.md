@@ -1,5 +1,7 @@
 ### Changelog ###
 
+_**3.4.0 (Beta 2) - b8868 - January 7th**_
+
 January 05, 2016
 
  - (b8866) Update download link for Visual Studio 2015
@@ -138,7 +140,7 @@ October 12, 2015
 October 10, 2015
 - Follow up work on extensions framework.
 
-_**(Weekly Release - b8734 - October 10th)**_
+_**3.4.0 (Beta 1) - b8734 - October 10th**_
 
 October 08, 2015
 - (b8734) Final touches and fixes to extensions framework.
