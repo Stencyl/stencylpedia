@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 05, 2016
+
+ - (b8866) Update download link for Visual Studio 2015
+
 December 28, 2015
 
  - (b8864) Add prompt to open and accept Xcode license for desktop builds
