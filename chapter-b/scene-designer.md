@@ -34,6 +34,8 @@ Once an item is selected, you can move it or change the layer it's on. To move a
 1. Select a Tile (or several!) from the Palette.
 2. Click and drag around the main area to place them.
 
+> **Note:** To remove a tile that is already placed in the scene click on that tile and press the " backspace " key.
+
 > **Tip:** To select multiple tiles at once, click and drag to draw a box around the tiles you want to select. Selected tiles are indicated by a box with a yellow border.
  
 
