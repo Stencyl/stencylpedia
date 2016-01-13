@@ -82,6 +82,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Extra Utilities**](http://community.stencyl.com/index.php/topic,35612.0.html) | ETHproductions | 3.0.0+ | All | Active | -
 [**List Utilities**](http://community.stencyl.com/index.php/topic,23821.0.html) | Dom818 | 3.0.0+ | All | Active | -
 [**Number to Time Conversion**](http://community.stencyl.com/index.php/topic,15691.0.html) | rob1221 | 3.0.0+ | All | Active | -
+[**Raycast API**](http://community.stencyl.com/index.php/topic,16734.0.html) | coleislazy | 3.0.0+ | All | Abandoned | -
 [**Scaling Utilities**](http://community.stencyl.com/index.php/topic,34277.0.html) | harryzun | 3.0.0+ | All | Active | -
 [**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active | -
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active | -
