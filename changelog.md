@@ -2,14 +2,14 @@
 
 January 18, 2016
 
- - (b8881) remove StencylForge upload options 
- - (b8876) support different workspaces per installation
+ - (b8881) Remove StencylForge upload options 
+ - (b8876) Support different workspaces per installation
 
 January 17, 2016
 
- - (b8872) clarify attributes text for when no event is selected
+ - (b8872) Clarify attributes text for when no event is selected
  - (b8871) Fix: disable OK button when Controls name verifcation fails
- - (b8870) remember game settings dialog state
+ - (b8870) Remember game settings dialog state
  - (b8869) Fix: add indication of illegal chars in Control name fields
 
 #### 3.4.0 (Beta 2) - b8868 - January 7th ####
