@@ -97,4 +97,4 @@ Title | Your Name (on Stencyl.com) | Description | Extra Votes | Notes |
 --- | --- | --- | --- | ---- |
 [Video Player](http://community.stencyl.com/index.php/topic,24896.0.html) | Jon | Video playback for iOS and Android | mdotedot | --- |
 [Skeletal Animation](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | --- | ---
-[In app browser for Windows] | Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
+In app browser for Windows| Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
