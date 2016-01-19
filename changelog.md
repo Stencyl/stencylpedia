@@ -8,7 +8,7 @@ January 19, 2016
 January 18, 2016
 
  - (b8882) Fix: don't set beta-reports-active for adhoc builds
- - (b8881) Remove StencylForge upload options 
+ - (b8881) Disable StencylForge upload options 
  - (b8876) Support different workspaces per installation
 
 January 17, 2016
