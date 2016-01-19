@@ -20,8 +20,9 @@ These extensions add new functionality to mobile games.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
+[**Batch.com Push Notification & Unlock**](http://community.stencyl.com/index.php/topic,46041.0.html) | Robin Schaafsma | 3.4.0 | iOS, Android | Active | -
 [**Joysticks**](http://community.stencyl.com/index.php/topic,29026.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
-[**Notifications & Alerts**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
+[**Local Notifications**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
