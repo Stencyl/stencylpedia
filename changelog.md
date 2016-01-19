@@ -1,7 +1,13 @@
 ### Changelog ###
 
+January 19, 2016
+
+ - (b8884) Fix: check whether imported projects are valid
+ - (b8883) Allow to import ZIP project files
+
 January 18, 2016
 
+ - (b8882) Fix: don't set beta-reports-active for adhoc builds
  - (b8881) Remove StencylForge upload options 
  - (b8876) Support different workspaces per installation
 
