@@ -91,8 +91,11 @@ order    |	What order it appears in the Behavior page     |	No
 desc     | Display name on the Behavior page              |	Yes
 dropdown | Name=Value pairs for Dropdowns                 |	No
 type     | Use this if specify the type of your attribute |	Yes, for certain types
+default  | Default value for the attribute                | No
 
 The type is necessary for attributes that don't have a distinct type in Haxe. For example a Control is stored as a String, the same type used for Text attributes. So to define a Control attribute without ambiguity, you need to provide the type parameter. The parameter is case-insensitive.
+
+After exposing a new attribute to a behavior, you need to reload the scenes or actors to which the behavior is attached for the changes to take effect.
 
 The following types are supported, listed with the corresponding type in Haxe.
 
