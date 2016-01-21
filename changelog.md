@@ -6,7 +6,7 @@ January 21, 2016
  - (b8914) Add "exit game" block to block picker
  - (b8913) Better block picker header for memory management
  - (b8912) Add comment wrapper block to block picker
- - (b8911) add constants blocks to block picker
+ - (b8911) Add constants blocks to block picker
  - (b8909) Fix: "joystick [id] is pressed" block not working correctly
  - (b8893) Fix: remove old joystick section from block picker
 
