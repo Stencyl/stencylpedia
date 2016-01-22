@@ -1,5 +1,13 @@
 ### Changelog ###
 
+January 22, 2016
+
+ - (b8932) Hide "as animation" block (not needed anymore)
+
+January 21, 2016
+
+ - (b8918-b8931) Update palette; Improve block formatting
+ - 
 January 21, 2016
 
  - (b8916) New "language" block
