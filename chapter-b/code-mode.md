@@ -76,9 +76,9 @@ If you want to mix the two, you need to make a design mode behavior and stick in
 In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. The easiest way to learn the syntax is by example.
 
 ```
-//Expose your attributes to Stencyl like this
-[Attribute(id="1", name="Display Name", desc="An Attribute")]
-public var attributeName:String = "default";
+//Expose your attributes like this:
+@:attribute("id='1' name='Display Name' desc='An Attribute'")
+public var attributeName:String;
 ``` 
 
 ### Accepted Properties
