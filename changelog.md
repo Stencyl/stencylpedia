@@ -1,5 +1,23 @@
 ### Changelog ###
 
+January 26, 2016
+
+ - (b8951) Fix: App doesn't close (toolset extension compatibility)
+
+January 25, 2016
+
+ - (b8950) Don't log taskkill output (looks like an error when it isn't)
+ - (b8949) Fix: show favorites submenu for all attribute types in block picker
+ - (b8947) Fix: don't show (game) attribute menus for non-attribute types in block picker
+ - (b8946) Fix: attribute getters & setters not showing up in block picker
+
+January 24, 2016
+
+ - (b8942) Fix: mixed up sub menus in block picker
+ - (b8936) Fix: don't show error for unsupported Desktop.browse() on Linux
+ - (b8935) Fix: create extension repository settings if they don't exist
+ - (b8934) Fix: compilation error if custom block is not created after adding the event
+
 January 22, 2016
 
  - (b8932) Hide "as animation" block (not needed anymore)
