@@ -6,7 +6,7 @@ January 26, 2016
  - (b8959) Fix: null pointer exception if sound header cannot be read
  - (b8956) Show warning icon on deprecated blocks
  - (b8952) Fix: animation fields not accepting text blocks
- - (b8951) Fix: App doesn't close (toolset extension compatibility)
+ - (b8951) Fix: Stencyl doesn't close (toolset extension compatibility)
 
 January 25, 2016
 
