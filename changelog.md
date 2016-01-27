@@ -1,5 +1,12 @@
 ### Changelog ###
 
+January 27, 2016
+
+ - (b8974) New blocks to change the drawing layer
+ - (b8965) Clarify extension menu items
+ - (b8964) Fix: bundled extension not copied to workspace on install
+ - (b8961) Fix: search and "Find in Palette" for attribute getters/setters
+
 January 26, 2016
 
  - (b8960) Fix: drag & drop mime type detection
