@@ -1,5 +1,8 @@
 ### Changelog ###
 
+January 28, 2016
+ - (b8980) Replace iAds for Admob. Now Admob is build-in for both iOS and Android.
+
 January 27, 2016
 
  - (b8974) New blocks to change the drawing layer
