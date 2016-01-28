@@ -2,7 +2,7 @@
 
 January 28, 2016
 
- - (b8986) Add event for fullscreen ads.
+ - (b8987) Add event for fullscreen ads.
  - (b8985) Reorganize palette sections
  - (b8982) Split Sounds & Images palette sections
  - (b8981) Give game attributes their own palette section
