@@ -1,6 +1,10 @@
 ### Changelog ###
 
 January 28, 2016
+
+ - (b8985) Reorganize palette sections
+ - (b8982) Split Sounds & Images palette sections
+ - (b8981) Give game attributes their own section in palette
  - (b8980) Replace iAds for Admob. Now Admob is build-in for both iOS and Android.
 
 January 27, 2016
