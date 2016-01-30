@@ -1,5 +1,9 @@
 ### Changelog ###
 
+Jamuary 30, 2016
+
+ - (b8988) Fix: Getters section of Game Attributes shows setters blocks instead of getters blocks
+
 January 28, 2016
 
  - (b8987) Add event for fullscreen ads.
