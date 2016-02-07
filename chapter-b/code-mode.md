@@ -77,8 +77,14 @@ In order to expose a class member for a Code Mode Behavior as a configurable att
 
 ```
 //Expose your attributes like this:
-@:attribute("id='1' name='Display Name' desc='An Attribute'")
+@:attribute("id='1' name='Display Name' desc='A Text Attribute'")
 public var attributeName:String;
+
+@:attribute("id='2' name='My Color' desc='A Color Attribute' type='color'")
+public var color:Int;
+
+@:attribute("id='3' name='Action 1' desc='A Control Attribute' type='control'")
+public var action1:String;
 ``` 
 
 ### Accepted Properties
