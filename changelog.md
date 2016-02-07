@@ -2,6 +2,10 @@
 
 February 07, 2016
 
+ - (b8997) Fix: uncaught exception in "Open Resource" dialog
+ - (b8995) Fix: splash screen not rendering correctly on Mac
+ - (b8994) Fix: error when pressing delete on an empty page or folder
+ - (b8993) Fix: importing maps from text files
  - (b8992) Fix: parsing default values for color attributes in code mode
  - (b8991) Multiple changes to how scrolling repeated backgrounds are rendered
 
