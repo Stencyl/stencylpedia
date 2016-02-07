@@ -1,5 +1,14 @@
 ### Changelog ###
 
+February 07, 2016
+
+ - (b8992) Fix: parsing default values for color attributes in code mode
+ - (b8991) Multiple changes to how scrolling repeated backgrounds are rendered
+
+February 05, 2016
+
+ - (b8990) Fix: animated backgrounds on mobile
+
 Jamuary 30, 2016
 
  - (b8988) Fix: Getters section of Game Attributes shows setters blocks instead of getters blocks
