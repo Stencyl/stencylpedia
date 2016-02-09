@@ -1,5 +1,10 @@
 ### Changelog ###
 
+February 08, 2016
+
+ - (b9000) Fix: making changes in "Settings" reverts name to previous save
+ - (b8998) Fix: Stencyl doesn't start with old settings
+
 February 07, 2016
 
  - (b8997) Fix: uncaught exception in "Open Resource" dialog
