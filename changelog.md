@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 05, 2016
+
+ - (b9004) Fix error when dragging blocks.
+
 February 08, 2016
 
  - (b9000) Fix: making changes in "Settings" reverts name to previous save
