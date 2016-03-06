@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 06, 2016
+
+ - (b9007) Updated Admob iOS SDK to v7.7.0.
+
 March 05, 2016
 
  - (b9004) Fix error when dragging blocks.
