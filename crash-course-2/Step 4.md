@@ -70,6 +70,6 @@ Now it's time to import our sound assets.
 
 ***
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/173/">Continue to Step 5 &rarr;</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/175">Continue to Step 5 &rarr;</a>
 
 *** 
