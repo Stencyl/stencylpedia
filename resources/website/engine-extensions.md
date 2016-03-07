@@ -27,7 +27,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
 [**Utils for Android**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.0.0+ | Android | Abandoned | May not work on 3.3.0+.
-[**Video Playback**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) is working on a new version.
+[**Video Playback (New Version)**](http://community.stencyl.com/index.php/topic,46822.0.html) | mdotedot | 3.3+  | iOS, Android | Active | [Has some restrictions](http://community.stencyl.com/index.php/topic,46822.0.html) |
+[**Video Playback(Old version)**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) created a new version. ^
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 
 
@@ -96,6 +97,5 @@ Use this section to [add requests](https://github.com/Stencyl/stencylpedia/blob/
 
 Title | Your Name (on Stencyl.com) | Description | Extra Votes | Notes |
 --- | --- | --- | --- | ---- |
-[Video Player](http://community.stencyl.com/index.php/topic,24896.0.html) | Jon | Video playback for iOS and Android | mdotedot | --- |
 [Skeletal Animation](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | --- | ---
 In app browser for Windows| Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
