@@ -1,4 +1,7 @@
 ### Changelog ###
+March 06, 2016
+
+ - (b9006) Fixed the error when Stencyl attempts to use 3x graphics when only 4x is enabled.
 
 March 06, 2016
 
