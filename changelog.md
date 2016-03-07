@@ -1,5 +1,11 @@
 ### Changelog ###
 
+March 08, 2016
+
+ - (b9012) Fix: importing sounds from menu File->Import Resource...
+ - (b9011) Fix: import OGG file by drag and drop
+ - (b9010) Fix: exception if mime type cannot be determined
+
 March 07, 2016
 
  - (b9008) Fix: engine extension blocks don't show up after enabling
