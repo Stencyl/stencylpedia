@@ -1,4 +1,9 @@
 ### Changelog ###
+
+March 07, 2016
+
+ - (b9008) Fix: engine extension blocks don't show up after enabling
+
 March 06, 2016
 
  - (b9006) Fixed the error when Stencyl attempts to use 3x graphics when only 4x is enabled.
