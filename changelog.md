@@ -2,6 +2,7 @@
 
 March 08, 2016
 
+ - (b9014) Fix: "as Number" block doesn't work on CPP targets in some cases
  - (b9013) Don't use escape key to exit fullscreen in desktop games
  - (b9012) Fix: importing sounds from menu File->Import Resource...
  - (b9011) Fix: import OGG file by drag and drop
