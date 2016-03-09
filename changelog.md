@@ -2,6 +2,8 @@
 
 March 09, 2016
 
+ - (b9025) add "layer with <ID|name> exists" block
+ - (b9023) add "layer name of <actor>" block
  - (b9022) add "null" block
  - (b9021) Fix: "language" block returns text
  - (b9019) add "empty text" and "space" blocks
