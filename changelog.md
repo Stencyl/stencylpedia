@@ -2,6 +2,7 @@
 
 March 09, 2016
 
+ - (b9027) add "Cut" option to block context menu
  - (b9025) add "layer with <ID|name> exists" block
  - (b9023) add "layer name of <actor>" block
  - (b9022) add "null" block
