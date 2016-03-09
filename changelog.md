@@ -1,5 +1,13 @@
 ### Changelog ###
 
+March 09, 2016
+
+ - (b9022) add "null" block
+ - (b9021) Fix: "language" block returns text
+ - (b9019) add "empty text" and "space" blocks
+ - (b9018) Fix: text fields accept animations
+ - (b9017) Fix: hide deprecated blocks from block picker
+
 March 08, 2016
 
  - (b9014) Fix: "as Number" block doesn't work on CPP targets in some cases
