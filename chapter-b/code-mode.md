@@ -73,7 +73,7 @@ If you want to mix the two, you need to make a design mode behavior and stick in
  
 ## How to Define Attributes
 
-In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. This is knew like a [Metadata](http://haxe.org/manual/lf-metadata.html) Haxe language feature. The easiest way to learn the syntax is by example.
+In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. This is using the [Metadata](http://haxe.org/manual/lf-metadata.html) feature of the Haxe language. The easiest way to learn the syntax is by example.
 
 ```haxe
 //Expose your attributes like this:
