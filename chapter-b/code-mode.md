@@ -73,9 +73,9 @@ If you want to mix the two, you need to make a design mode behavior and stick in
  
 ## How to Define Attributes
 
-In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. The easiest way to learn the syntax is by example.
+In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. This is knew like a [Metadata](http://haxe.org/manual/lf-metadata.html) Haxe language feature. The easiest way to learn the syntax is by example.
 
-```
+```haxe
 //Expose your attributes like this:
 @:attribute("id='1' name='Display Name' desc='A Text Attribute'")
 public var attributeName:String;
@@ -85,6 +85,10 @@ public var color:Int;
 
 @:attribute("id='3' name='Action 1' desc='A Control Attribute' type='control'")
 public var action1:String;
+
+// The "type" property can be in uppercase too, like a constant
+@:attribute("id='1' name='Move Speed' desc='A Number Attribute' type='NUMBER' default='20.0'")
+public var moveSpeed:Float;
 ``` 
 
 ### Accepted Properties
