@@ -1,5 +1,12 @@
 ### Changelog ###
 
+March 12, 2016
+
+ - (b9034) Accurately portray gradient bg's in Scene Designer.
+ - (b9033) Fix: Can't edit "Rect Up" collision shape.
+ - (b9032) Increase opacity of tileset collision shape overlay.
+ - (b9031) Default tile collision shapes are wrong.
+
 March 09, 2016
 
  - (b9028) add "random float between" block
