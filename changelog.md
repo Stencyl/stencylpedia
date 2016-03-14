@@ -2,6 +2,8 @@
 
 March 14, 2016
 
+ - (b9042) Fix: multiple error dialogs shown; extenal output out of order
+ - (b9041) Fix: instructions and verification of frame and tileset import dialog
  - (b9040) Fix: "random float between _ and _" block
  - (b9039) Fix: After duplicating an open scene, the original has to be refreshed before further changes are saved.
  - (b9038) Fix: Remove column tool might delete last column.
