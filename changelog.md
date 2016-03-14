@@ -2,6 +2,7 @@
 
 March 12, 2016
 
+ - (b9036) Fix:  Actors don't stay put on tile layers that parallax 
  - (b9034) Accurately portray gradient bg's in Scene Designer.
  - (b9033) Fix: Can't edit "Rect Up" collision shape.
  - (b9032) Increase opacity of tileset collision shape overlay.
