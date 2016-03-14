@@ -1,7 +1,12 @@
 ### Changelog ###
 
+March 15, 2016
+
+ - (b9045) Fix: Bitmap font properties don't get saved
+
 March 14, 2016
 
+ - (b9043) Don't register collisions between regions and tiles.
  - (b9042) Fix: multiple error dialogs shown in case of compilation errors; external output out of order
  - (b9041) Fix: instructions and verification of frame and tileset import dialog
  - (b9040) Fix: "random float between _ and _" block
