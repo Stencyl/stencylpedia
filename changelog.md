@@ -1,5 +1,16 @@
 ### Changelog ###
 
+March 14, 2016
+
+ - (b9040) Fix: "random float between _ and _" block
+ - (b9039) Fix: After duplicating an open scene, the original has to be refreshed before further changes are saved.
+ - (b9038) Fix: Remove column tool might delete last column.
+
+March 13, 2016
+
+ - (b9037) Fix: Allow runlengths of more than 32,000 of the same tile in a scene.
+ - (b9036) Fix: Actors don't stay put on tile layers that parallax.
+
 March 12, 2016
 
  - (b9034) Accurately portray gradient bg's in Scene Designer.
