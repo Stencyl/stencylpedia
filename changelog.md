@@ -1,7 +1,14 @@
 ### Changelog ###
 
+March 16, 2016
+
+ - (b9052) Fix: "clear value" and "has value" blocks for primitives
+ - (b9050) Clarify limitations of "Auto-scale collision bounds"
+ - (b9049) Fix: Error when increasing box collision values beyond bounds
+
 March 15, 2016
 
+ - (b9048) Fix: missing spaces after parenthesis in two blocks
  - (b9045) Fix: Bitmap font properties don't get saved
 
 March 14, 2016
