@@ -1,5 +1,10 @@
 ### Changelog ###
 
+March 16, 2016
+
+ -(b9052) Fix: The "clear value of <attribute>" block doesn't work for primitives
+ -(b9049) Fix: Error when trying to increase rectangular collision size/position beyond bounds
+
 March 15, 2016
 
  - (b9045) Fix: Bitmap font properties don't get saved
