@@ -1,5 +1,15 @@
 ### Changelog ###
 
+March 22, 2016
+
+ - (b9062) Fix: "has value" block returns true for empty text attribute
+ - (b9060) Fix: block context detection (static Script context)
+
+March 17, 2016
+
+ - (b9057) Add blocks to access collision groups for individual shapes, and get the last created shape.
+ - (b9056) Make attribute tween block accept only numbers via dropdown
+
 March 16, 2016
 
  - (b9052) Fix: "clear value" and "has value" blocks for primitives
