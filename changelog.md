@@ -1,5 +1,16 @@
 ### Changelog ###
 
+March 28, 2016
+
+ - (b9069) Fix: error when right-clicking on code mode attributes
+ - (b9068) Fix: "Find in Behaviors" highlighting doesn't always work
+
+March 27, 2016
+
+ - (b9067) Fix: "Find in Behaviors" error in code mode behaviors
+ - (b9066) Fix: events pane highlighting is never cleared
+ - (b9064) use escape to clear block highlighting
+
 March 22, 2016
 
  - (b9062) Fix: "has value" block returns true for empty text attribute
