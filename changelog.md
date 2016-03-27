@@ -9,7 +9,7 @@ March 27, 2016
 
  - (b9067) Fix: "Find in Behaviors" error in code mode behaviors
  - (b9066) Fix: events pane highlighting is never cleared
- - (b9064) use escape to clear block highlighting
+ - (b9064) Use escape key to clear block highlighting
 
 March 22, 2016
 
