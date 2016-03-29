@@ -1,5 +1,10 @@
 ### Changelog ###
 
+March 29, 2016
+
+ - (b9071) Fix: Inconsistent naming of "always" event
+ - (b9070) Add support for a custom block font
+
 March 28, 2016
 
  - (b9069) Fix: error when right-clicking on code mode attributes
