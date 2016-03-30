@@ -165,9 +165,6 @@ January 22, 2016
 January 21, 2016
 
  - (b8918-b8931) Update palette; Improve block formatting
- - 
-January 21, 2016
-
  - (b8916) New "language" block
  - (b8914) Add "exit game" block to block picker
  - (b8913) Better block picker header for memory management
