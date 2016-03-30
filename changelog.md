@@ -1,5 +1,10 @@
 ### Changelog ###
 
+March 31, 2016
+
+ - (b9072) Fix: Slight jitter when scrolling (camera centre)
+ - (b9072) Fix: Exiting fullscreen reverts to 1x scale
+ 
 March 29, 2016
 
  - (b9071) Fix: Inconsistent naming of "always" event
