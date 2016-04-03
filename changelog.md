@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 02, 2016
+
+ - (b9073) Fix timed events running when actors are recycled
+
 March 31, 2016
 
  - (b9072) Fix: Slight jitter when scrolling (camera centre)
