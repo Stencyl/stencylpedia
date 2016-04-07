@@ -2,6 +2,11 @@
 
 April 07, 2016
 
+ - (b9092) Fix: Sorting of atlas/scene tables in atlas manager.
+ - (b9091) Fix: ArrayIndexOutOfBoundsException in TableHeaderRenderer
+ - (b9090) Fix: Copying a bitmap font is bugged (WIP)
+ - (b9088) Fix: Scene layers being toggled invisible when upgrading old projects.
+ - (b9087) Fix: prevent null pointer exceptions in region controllers
  - (b9085) Fix: "Scale to Fit (Letterbox)" crops off the edges
  - (b9084) Fix: Cannot scroll when cursor is over block dropdown
 
