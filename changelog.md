@@ -2,6 +2,10 @@
 
 April 07, 2016
 
+ - (b9096) Update Actuate library from 1.6.5 to 1.8.6.
+ - (b9095) Fix: Rectangle tool cursor appears in wrong place when zoomed.
+ - (b9094) Fix: Atlas resource list doesn't update with new resources if already open.
+ - (b9093) Fix: Scale modes swapped
  - (b9092) Fix: Sorting of atlas/scene tables in atlas manager.
  - (b9091) Fix: ArrayIndexOutOfBoundsException in TableHeaderRenderer
  - (b9090) Fix: Copying a bitmap font is bugged (WIP)
