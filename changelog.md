@@ -1,5 +1,25 @@
 ### Changelog ###
 
+April 07, 2016
+
+ - (b9085) Fix: "Scale to Fit (Letterbox)" crops off the edges
+ - (b9084) Fix: Cannot scroll when cursor is over block dropdown
+
+April 06, 2016
+
+ - (b9083) Create "collision shape" attribute type for actor shape blocks.
+ - (b9082) Fix: Alt+click block duplication makes next click do nothing.
+ - (b9080) "snap to grid" is stuck on when shift is pressed for Rectangle tool
+ - (b9079) Fix: Scene grid color dialog disappears when clicked.
+ - (b9078) Fix long lines appearing when drawing pencil near scene boundary.
+ - (b9077) Don't let blocks with large text areas prevent mouse wheel scrolling of workspace and palette.
+ - (b9076) Show warnings for bitrate and metadata when using filedrop to import MP3s.
+ - (b9075) Don't scale tiles to be drawn the wrong size in scenes with a different tile size.
+
+April 05, 2016
+
+ - (b9074) Fix: View code returns blank on all deactivated blocks.
+
 April 02, 2016
 
  - (b9073) Fix timed events running when actors are recycled
