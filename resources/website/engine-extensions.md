@@ -4,15 +4,19 @@ These extensions hook Stencyl up to various ad networks.
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
-[**AdMob**](http://community.stencyl.com/index.php/topic,41376.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
+[**AdMob**](http://community.stencyl.com/index.php/topic,41376.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
 [**Ad Colony**](http://community.stencyl.com/index.php/topic,40370.0.html) | Max Glockling | 3.3.0+ | iOS, Android | Active | -
+[**AppLovin**](http://community.stencyl.com/index.php/topic,47148.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
 [**Chartboost**](http://community.stencyl.com/index.php/topic,25006.0.html) | rob1221 | 3.3.0+ | iOS, Android | Active | May have [issues](http://community.stencyl.com/index.php/index.php?topic=25006.msg250824#msg250824).
 [**CPM Star**](http://community.stencyl.com/index.php/topic,26486.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
-[**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
+[**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 10 EUR
 [**Heyzap**](http://community.stencyl.com/index.php/topic,45095.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
 [**Leadbolt**](http://community.stencyl.com/index.php/topic,45093.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
 [**RevMob**](http://community.stencyl.com/index.php/topic,24331.0.html) | GeorgeN | 3.3.0+ | iOS, Android | Abandoned | [New version](http://community.stencyl.com/index.php/index.php?topic=24331.msg246523#msg246523) provided by a different author.
-[**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS | Active | -
+[**StartApp**](http://community.stencyl.com/index.php/topic,47149.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
+[**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
+[**UnityAds**](http://community.stencyl.com/index.php/topic,47146.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
+[**Vungle**](http://community.stencyl.com/index.php/topic,47147.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
 
 ## Mobile Features
 
@@ -23,8 +27,9 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Batch.com Push Notification & Unlock**](http://community.stencyl.com/index.php/topic,46041.0.html) | Robin Schaafsma | 3.4.0 | iOS, Android | Active | -
 [**Joysticks**](http://community.stencyl.com/index.php/topic,29026.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
 [**Local Notifications**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
+[**ReplayKit**](http://community.stencyl.com/index.php/topic,47254.0.html) | Robin Schaafsma | 3.4.0+ | iOS9 or above | Active | Costs 10 EUR
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
-[**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
+[**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 5 EUR
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
 [**Utils for Android**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.0.0+ | Android | Abandoned | May not work on 3.3.0+.
 [**Video Playback (New Version)**](http://community.stencyl.com/index.php/topic,46822.0.html) | mdotedot | 3.3+  | iOS, Android | Active | [Has some restrictions](http://community.stencyl.com/index.php/topic,46822.0.html) |
