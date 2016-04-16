@@ -1,7 +1,40 @@
 ### Changelog ###
 
+April 16, 2016
+
+ - (b9118) Further refined block snapping. Action blocks and wrappers also snap in based on mouse position.
+
+April 14, 2016
+
+ - (b9113) Fix "Scale to Fit (Full Screen)" scale issue.
+
+April 13, 2016
+
+ - (b9112) Fix "collision group of [ collision shape ]" block when group is inherited from parent actor.
+ - (b9111) Fix: Normal blocks can't be dropped into other normal blocks that are overriding some attribute choosers.
+ - (b9110) Improve block snapping for multiple nested layers of normal blocks.
+ - (b9109) Improve block snapping when it involves wrapper blocks.
+
+April 12, 2016
+
+ - (b9108) Fix "Scale to Fit (Full Screen)" cropping issue.
+
+April 11, 2016
+
+ - (b9107) In tileset editor, allow tiles to be moved over previous selection along a single axis.
+ - (b9106) Show name of parent actor/scene for events in Open Resource dialog.
+ - (b9104) Fix: Full screen when using scale other than 1x
+
+April 10, 2016
+
+ - (b9101) Update Visual Studio installation instructions
+ - (b9100) Fix: catch "Process creation failure : cl.exe" error
+
 April 07, 2016
 
+ - (b9099) Fix code generation of wrong type name for "collision shape" attributes.
+ - (b9098) Fix: layer data is only loaded from first scene due to last commit.
+ - (b9097) Update lime (2.6.8 -> 2.9.1) and openfl (3.3.8 -> 3.6.1)
  - (b9096) Update Actuate library from 1.6.5 to 1.8.6.
  - (b9095) Fix: Rectangle tool cursor appears in wrong place when zoomed.
  - (b9094) Fix: Atlas resource list doesn't update with new resources if already open.
