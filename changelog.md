@@ -1,5 +1,25 @@
 ### Changelog ###
 
+April 19, 2016
+
+ - (b9133) Fixed wrong white/red highlights for block snapping related to wrappers, attached blocks, and multiple-block drags.
+ - (b9132) Fix: bottom blocks in Design Mode allowing other blocks to snap on beneath them.
+ - (b9131) Error reporting fix: Catch Haxe compilation errors reported with a range of line numbers.
+ - (b9130) Don't auto-increment mobile game build number when it's set to 1.
+ - (b9129) Various fixes to design mode, including drawing bugs, block drag canceling, and undo support.
+ - (b9128) Reduce speed of block holding autoscroll a bit.
+ - (b9127) Insert duplicated events after the original instead of at the bottom.
+
+April 18, 2016
+
+ - (b9126) Fix: Pressing enter to find next in Code Preview dialog closes the window.
+ - (b9125) Improve smoothness of scrolling by holding blocks near the edge of design mode, and make the right edge only scroll after .5 seconds.
+ - (b9124) Fix: Block notches don't draw correctly when behaviors are first opened.
+ - (b9123) Fixed glitchy drawing of normal block snap highlight.
+ - (b9122) Fix: Can't undo using block picker to place blocks in fields.
+ - (b9121) Make design mode not autoscroll when dragging blocks to/from palette.
+ - (b9120) Fix: Desktop/mobile, image instance properties can't be accessed using blocks that return dynamic values.
+
 April 16, 2016
 
  - (b9118) Further refined block snapping. Action blocks and wrappers also snap in based on mouse position.
