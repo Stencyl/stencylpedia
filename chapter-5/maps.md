@@ -102,4 +102,4 @@ As you may expect, you can set the value of a Game Attribute to a Map.
 > **Note:** Assigning values simply gets the Game Attribute to "point" to your Map. No copying is done, so modifying it modifies the one and only "copy" of that Map.
  
 #### Gotcha: Saving & Maps
-Be careful when saving out Maps as Game Attributes. Just like lists, they can only contain contain Numbers and Text.
+Be careful when saving out Maps as Game Attributes. Just like Lists, they can only contain contain Numbers, Text, and nested Lists or Maps.
