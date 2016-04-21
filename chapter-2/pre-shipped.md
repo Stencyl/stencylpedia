@@ -52,4 +52,4 @@ Then, pick something from the **FROM YOUR LIBRARY** section.
 
 ## Can I suggest some behaviors?
 
-Sure! Tell us in this [forum topic](http://community.stencyl.com/index.php/topic,6386.0.html). 
+Sure! Create a topic in the [issue tracker](http://community.stencyl.com/index.php?project=1;area=issues;tracker=feature) (as a suggestion) stating the behaviors you want Stencyl to have pre-installed.
