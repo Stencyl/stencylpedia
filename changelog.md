@@ -1,5 +1,23 @@
 ### Changelog ###
 
+April 26, 2016
+
+ - (b9141) Fix: Error when taking screenshot of behavior with a large code block in an unviewed event.
+
+April 23, 2016
+
+ - (b9140) Fix: Smooth layer scrolling without pixel snapping
+
+April 21, 2016
+
+ - (b9139) Fix: No scale when using non 1x scale
+ - (b9138) Fix error when creating new event using keyboard.
+ - (b9137) Highlight listed events when hoverd over while dragging blocks.
+
+April 20, 2016
+
+ - (b9134) Fix: Some older games not opening since b9105.
+
 April 19, 2016
 
  - (b9133) Fixed wrong white/red highlights for block snapping related to wrappers, attached blocks, and multiple-block drags.
