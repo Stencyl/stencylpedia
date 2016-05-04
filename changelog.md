@@ -1,5 +1,25 @@
 ### Changelog ###
 
+
+May 04, 2016
+
+ - (b9155) Fix: mouse over scaled rotated actor detection (thanks, yoplalala!)
+
+May 03, 2016
+
+ - (b9154) Notifications for new repository extension versions and an update all button.
+
+April 28, 2016
+
+ - (b9148) Refresh dashboard when extensions are enabled/disabled.
+ - (b9146) Cache extension repositories.
+
+April 27, 2016
+
+ - (b9145) HTML5 and Cppia platforms are always enabled.
+ - (b9144) Make openfl legacy/next a per-game option in the interface.
+ - (b9143) Block placement errors are shown in Design Mode before compiling.
+
 April 26, 2016
 
  - (b9141) Fix: Error when taking screenshot of behavior with a large code block in an unviewed event.
