@@ -38,6 +38,7 @@ PROXYUSERNAME | Username for your proxy | No
 PROXYPASSWORD | Password for your proxy | No
 PROXYHOST | IP address/hostname for your proxy | No
 PROXYPORT | Port for your proxy | No
+FORGEENABLED | A boolean ("true"/"false"). Set to "false" to disable access to StencylForge | No
 
 #### Example: Setting a Username and Password
 
