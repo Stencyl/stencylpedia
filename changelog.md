@@ -1,12 +1,27 @@
 ### Changelog ###
 
+June 01, 2016
 
-May 04, 2016
+ - (b9174) Fix: Can't change tile selection to one of the tiles that exists in current selection.
+ - (b9173) Put Stencyl's hxcpp config in workspace instead of user home.
 
- - (b9155) Fix: mouse over scaled rotated actor detection (thanks, yoplalala!)
+May 07, 2016
+
+ - (b9167) Add pausing of tweens.
+
+May 06, 2016
+
+ - (b9166) Fix slight issue for scaling with graphics.
+ - (b9163) Fix: scaling using Scale to fit (full screen)
+
+May 05, 2016
+
+ - (b9162) Move extension repository cache to "repositories" folder in workspace.
 
 May 03, 2016
 
+ - (b9158) Fixed engine compilation errors in Engine.hx, and related to shaders in HTML5.
+ - (b9155) Fix: mouse over scaled rotated actor detection (thanks, yoplalala!)
  - (b9154) Notifications for new repository extension versions and an update all button.
 
 April 28, 2016
