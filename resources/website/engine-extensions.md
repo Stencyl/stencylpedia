@@ -68,7 +68,8 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Playsurface**](http://community.stencyl.com/index.php/topic,38139.0.html) | FTL Labs | 3.3.0+ | Flash | Active | -
 [**SFXR**](http://community.stencyl.com/index.php/topic,24159.0.html) | GeorgeN | 3.3.0+ | Flash | Active | -
 [**Spine Animations**](http://community.stencyl.com/index.php/topic,26183.0.html) | AnemoneLabSNC | 3.0.0+ | All | Abandoned | -
-
+[**Web Extension**](http://community.stencyl.com/index.php/topic,48459.0.html) | gurigraphics | 3.4+ | All | Active | -
+[**Radio SWF**](http://community.stencyl.com/index.php/topic,45759.0.html) | gurigraphics | 3.3+ | Flash | Active | Tested in Google Chrome 47.0.2526.106 and Firefox 43.0.2 |
 
 ## Utilities
 
