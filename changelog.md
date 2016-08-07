@@ -1,8 +1,6 @@
 ### Changelog ###
 
-#### 3.4.0 (Beta 4) - b9180 - June 26th, 2016 ####
-
- - (b9180) Fixes a regression related to the Regions feature.
+#### 3.4.0 (Beta 4) - b9180 - July 7th, 2016 ####
 
 June 13, 2016
 
