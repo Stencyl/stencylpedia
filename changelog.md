@@ -4,6 +4,13 @@ August 04, 2016
 
  - (b9184) engine.setZoom() now accepts a value of 1.
 
+July 28, 2016
+
+ - (b9181) Merged 3 pull requests:
+   - Fix: Stop tiles animating when game is paused 
+   - Fix simple physics for HTML5
+   - Update Universal.hx Fix scale
+
 #### 3.4.0 (Beta 4) - b9180 - July 7th, 2016 ####
 
 June 13, 2016
