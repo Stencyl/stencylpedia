@@ -1,12 +1,7 @@
 ## How do I report a bug?
 
-All bugs should be reported on one of these two methods.
+All bugs should be reported on the [Issue Tracker](http://community.stencyl.com/index.php?project=1).
 
-* [Forums](http://community.stencyl.com/index.php/board,119.0.html)
-  <br/>Use this if you are new to Stencyl and do not understand why the bug is happening. (e.g. your game won't run)
-
-* [Issue Tracker](http://community.stencyl.com/index.php?project=1)
-  <br/>For experienced (or technically-minded) users, or if you hit a bug in the toolset itself.
 
 > Please do not send us bug reports via e-mail or via other sources. 
 
