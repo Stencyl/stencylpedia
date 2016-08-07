@@ -1,5 +1,19 @@
 ### Changelog ###
 
+#### 3.4.0 (Beta 4) - b9180 - June 26th, 2016 ####
+
+ - (b9180) Fixes a regression related to the Regions feature.
+
+June 13, 2016
+
+ - (b9179) Fix region tool.
+ - (b9178) Fixed regression: some scenes can't be opened or removed.
+
+June 02, 2016
+
+ - (b9176) Fix: Allow duplication of scenes that haven't been opened before.
+ - (b9175) Fix: Don't throw error for invalid reporistory.
+
 June 01, 2016
 
  - (b9174) Fix: Can't change tile selection to one of the tiles that exists in current selection.
