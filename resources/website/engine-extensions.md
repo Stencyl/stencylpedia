@@ -33,7 +33,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
 [**Utils for Android**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.0.0+ | Android | Abandoned | May not work on 3.3.0+.
 [**Video Playback (New Version)**](http://community.stencyl.com/index.php/topic,46822.0.html) | mdotedot | 3.3+  | iOS, Android | Active | [Has some restrictions](http://community.stencyl.com/index.php/topic,46822.0.html) |
-[**Video Playback(Old version)**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) created a new version. ^
+[**Video Playback (Old version)**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) created a new version.
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 
 
@@ -66,10 +66,9 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Perlin Noise**](http://community.stencyl.com/index.php/topic,25079.0.html) | rob1221 | 3.3.0+ | All | Active | -
 [**Physics Tools**](http://community.stencyl.com/index.php/topic,44858.0.html) | merrak | 3.3.0+ | All | Active | -
 [**Playsurface**](http://community.stencyl.com/index.php/topic,38139.0.html) | FTL Labs | 3.3.0+ | Flash | Active | -
+[**Radio SWF**](http://community.stencyl.com/index.php/topic,45759.0.html) | gurigraphics | 3.3+ | Flash | Active | Tested in Google Chrome 47.0.2526.106 and Firefox 43.0.2 |
 [**SFXR**](http://community.stencyl.com/index.php/topic,24159.0.html) | GeorgeN | 3.3.0+ | Flash | Active | -
 [**Spine Animations**](http://community.stencyl.com/index.php/topic,26183.0.html) | AnemoneLabSNC | 3.0.0+ | All | Abandoned | -
-[**Web Extension**](http://community.stencyl.com/index.php/topic,48459.0.html) | gurigraphics | 3.4+ | All | Active | -
-[**Radio SWF**](http://community.stencyl.com/index.php/topic,45759.0.html) | gurigraphics | 3.3+ | Flash | Active | Tested in Google Chrome 47.0.2526.106 and Firefox 43.0.2 |
 
 ## Utilities
 
@@ -94,6 +93,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Scaling Utilities**](http://community.stencyl.com/index.php/topic,34277.0.html) | harryzun | 3.0.0+ | All | Active | -
 [**Smooth Actor Motion**](http://community.stencyl.com/index.php/topic,26967.0.html) | rob1221 | 3.0.0+ | All | Active | -
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active | -
+[**Web Extension**](http://community.stencyl.com/index.php/topic,48459.0.html) | gurigraphics | 3.4+ | All | Active | -
 [**Workflow Utilities**](http://community.stencyl.com/index.php/topic,44968.0.html) | letmethink | 3.0.0+ | All | Active | -
 
 
