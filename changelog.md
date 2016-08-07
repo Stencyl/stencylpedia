@@ -1,5 +1,10 @@
 ### Changelog ###
 
+**3.4.0 (Beta 4)**
+July 07, 2016
+
+- (b9180) fixes a regression related to the Regions feature. 
+
 June 01, 2016
 
  - (b9174) Fix: Can't change tile selection to one of the tiles that exists in current selection.
