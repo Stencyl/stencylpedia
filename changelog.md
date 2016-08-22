@@ -1,5 +1,14 @@
 ### Changelog ###
 
+August 22, 2016
+
+- (b9186) Android Purchases: Step 2- Updated google play services to version 9.4 (only the required libraries are now added)
+   - This Fixed the Google in-App billing (Issue: Piracy on Android is ramped. This needs a major fix...)
+   - This also update the library for Google Play Games Services
+   - This also update the library for for Android Admob
+ 
+- (b9185) Android Purchases: Step 1- Rebuild Android Purchases with latest Iabhelper SDK.
+
 August 04, 2016
 
  - (b9184) engine.setZoom() now accepts a value of 1.
