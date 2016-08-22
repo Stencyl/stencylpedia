@@ -2,6 +2,8 @@
 
 August 22, 2016
 
+- (b9188) Android: Added API 20,21 and 22 in dropdown.
+   - Users needs to update the SDK in SDK Manager manualy
 - (b9187) Fix: added missing "src" and "res" folder in google play services libraries.
 - (b9186) Android Purchases: Step 2- Updated google play services to version 9.4 (only the required libraries are now added)
    - This Fixed the Google in-App billing (Issue: Piracy on Android is ramped. This needs a major fix...)
