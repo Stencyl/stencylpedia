@@ -1,8 +1,12 @@
 ### Changelog ###
 
+August 25, 2016
+
+- (b9191) Added Validate Receipt function for iOS only, this function Validate the Purchases, see http://community.stencyl.com/index.php?issue=472.0 for more info.
+
 August 24, 2016
 
-- (b9188) Fix:  Issue: Billing permission added to all export
+- (b9189) Fix:  Issue: Billing permission added to all export
 
 August 22, 2016
 
