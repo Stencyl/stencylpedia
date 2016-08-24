@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 24, 2016
+
+- (b9188) Fix:  Issue: Billing permission added to all export
+
 August 22, 2016
 
 - (b9188) Android: Added API 20,21 and 22 in dropdown.
