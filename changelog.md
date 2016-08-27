@@ -1,5 +1,18 @@
 ### Changelog ###
 
+August 27, 2016
+
+ - (b9199) Create actors, backgrounds, and tilesets by drag and dropping images onto dashboard.
+ - (b9198) Fix: Previous collision group pairs not recognized in interface when new groups created.
+
+August 26, 2016
+
+ - (b9196) Don't allow polygons to be created with edges that have zero length.
+ - (b9195) Add block for getting opacity of layer.
+ - (b9194) Fix: "Attribute" events don't work when the attribute values are changed remotely.
+ - (b9193) Fix: Compilation error when iterating over Map Game Attributes.
+ - (b9192) Fix: Compilation error when using a number attribute to set z-index.
+
 August 25, 2016
 
 - (b9191) Added Validate Receipt function for iOS only, this function Validate the Purchases, see http://community.stencyl.com/index.php?issue=472.0 for more info.
