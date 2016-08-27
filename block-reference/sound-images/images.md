@@ -93,6 +93,7 @@ getImageForActor([ACTOR])
 ![file-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-file.png)
 
 Returns an image that is loaded from a file. Images must be placed into the **extras** subfolder of your game.
+Some blocks require the images to be saved with transparency enabled to work properly.
 
 ```
 getExternalImage([TEXT])
