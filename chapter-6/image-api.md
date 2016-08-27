@@ -94,7 +94,8 @@ Conversely, when using **retain**, anything black in an image will be kept, whil
 
 ![Retain](http://static.stencyl.com/pedia2/ch6/image/mask4.png)
 
- 
+> **Note:** When using files from the **extras** folder, make sure the images were saved with transparency enabled.
+
 #### Setting Pixels
 When setting many pixels at a time, use the batch draw block (placed right above the set pixel block). This informs the system not to push an image's updates to all its instances until you've finished your work.
 
