@@ -1,7 +1,12 @@
 ### Changelog ###
 
+August 28, 2016
+
+ - (b9203) Fix: Prevent resizing from creating dark edges on transparent images.
+
 August 27, 2016
 
+ - (b9201) Fix: Event remains highlighted if block is released on it
  - (b9199) Create actors, backgrounds, and tilesets by drag and dropping images onto dashboard.
  - (b9198) Fix: Previous collision group pairs not recognized in interface when new groups created.
 
