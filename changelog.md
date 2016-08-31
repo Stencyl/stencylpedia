@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 01,2016
+
+- (b9206) Fix: Issue: Free Unmanaged Android Purchase With ID not working.
+
 August 28, 2016
 
  - (b9203) Fix: Prevent resizing from creating dark edges on transparent images.
