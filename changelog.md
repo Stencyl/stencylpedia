@@ -1,5 +1,21 @@
 ### Changelog ###
 
+September 07, 2016
+
+ - (b9215) Don't include any keys or certificates in game.xml file of generated games.
+
+September 06, 2016
+
+ - (b9214) Fix: Animated tiles don't reset to the first frame when switching scenes on Flash.
+
+September 05, 2016
+
+ - (b9213) Fix: Some NPEs related to actor and scene events not being deleted.
+ - (b9212) Fix: clicking on too much text in text field = crash
+ - (b9210) Switch open resource by dragging blocks over tabs.
+ - (b9209) Use filterable, scrollable menus to select behavior/attribute names in "behavior" blocks.
+ - (b9207) Make attribute and actor group dropdowns in Design Mode scrollable.
+
 September 01,2016
 
 - (b9206) Fix: Issue: Free Unmanaged Android Purchase With ID not working.
@@ -62,7 +78,7 @@ June 13, 2016
 June 02, 2016
 
  - (b9176) Fix: Allow duplication of scenes that haven't been opened before.
- - (b9175) Fix: Don't throw error for invalid reporistory.
+ - (b9175) Fix: Don't throw error for invalid repository.
 
 June 01, 2016
 
