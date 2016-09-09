@@ -1,7 +1,15 @@
 ### Changelog ###
 
+September 08, 2016
+
+ - (b9220) Fix: Right-click in Design Mode can cause error if certain things are in system clipboard.
+ - (b9219) Use basic red overlay for design mode errors on mac and linux.
+
 September 07, 2016
 
+ - (b9218) Fix: Default list values don't work until the game is closed, default map values never work.
+ - (b9217) "Remove block" context menu option now only removes the block clicked on.
+ - (b9216) Fix: Some actor events being loaded with the wrong actor id.
  - (b9215) Don't include any keys or certificates in game.xml file of generated games.
 
 September 06, 2016
