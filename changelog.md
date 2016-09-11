@@ -2,7 +2,7 @@
 
 September 11, 2016
 
-	- (b9227) Fix: Issue: Game crash if I try to buy an item again on Android (see: http://community.stencyl.com/index.php?issue=503.0)
+- (b9227) Fix: Issue: Game crash if I try to buy an item again on Android (see: http://community.stencyl.com/index.php?issue=503.0)
 	
 September 08, 2016
 
