@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 11, 2016
+
+	- (b9227) Fix: Issue: Game crash if I try to buy an item again on Android (see: http://community.stencyl.com/index.php?issue=503.0)
+	
 September 08, 2016
 
  - (b9220) Fix: Right-click in Design Mode can cause error if certain things are in system clipboard.
