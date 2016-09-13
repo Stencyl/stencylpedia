@@ -1,5 +1,13 @@
 ### Changelog ###
 
+September 12, 2016
+
+ - (b9233) Fix: Error when dragging loop blocks from palette (since b9232)
+ - (b9232) Fix: Block text fields are resized wrong when dragged from palette.
+ - (b9231) Prevent wrapper blocks from growing a little when first placed.
+ - (b9230) Fixed size of block dropdown when actor chosen from scene.
+ - (b9229) Fixed some block sizing issues.
+
 September 11, 2016
 
 - (b9227) Fix: Issue: Game crash if I try to buy an item again on Android (see: http://community.stencyl.com/index.php?issue=503.0)
