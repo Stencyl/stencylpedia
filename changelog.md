@@ -1,5 +1,31 @@
 ### Changelog ###
 
+September 20, 2016
+
+ - (b9245) Fixed "can't find sdk 4.2" error, and some updates for xcode 8.
+
+September 19, 2016
+
+ - (b9243) Include easy update script in lite download for osx.
+
+September 18, 2016
+
+ - (b9241) Fix: Let Stencyl understand ios versions 10.0 and higher.
+
+September 16, 2016
+
+ - (b9240) Fix: Game pause blocks being marked as errors.
+
+September 14, 2016
+
+ - (b9239) Lots of fixes to pre-compilation error detection.
+
+September 13, 2016
+
+ - (b9238) Fix: Dragging blocks over Jide tabs stops working after rearranging tabs.
+ - (b9237) Fix: Don't switch tabs when dragging events.
+ - (b9234) Fix: Potential NPE when clicking tabs.
+
 September 12, 2016
 
  - (b9233) Fix: Error when dragging loop blocks from palette (since b9232)
