@@ -197,11 +197,11 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 Now, you just need to tell Stencyl where your **P12** and **provisioning profiles** are located, and your Apple Team ID. This is located under **Game Settings > Mobile > iOS Certificates**.
 
-![](images/stencyl-certificates-page.png)
+![](https://github.com/Stencyl/stencylpedia/raw/master/chapter-11/images/stencyl-certificates-page.png)
 
 Your Personal Team ID can be found on your [Apple Developer Membership](https://developer.apple.com/account/#/membership) page.
 
-![](images/apple-team-id.png)
+![](https://github.com/Stencyl/stencylpedia/raw/master/chapter-11/images/apple-team-id.png)
 
 
 ## Final Step: Test It!
