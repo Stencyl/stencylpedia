@@ -1,5 +1,13 @@
 ### Changelog ###
 
+September 23, 2016
+
+ - (b9246) More updates for Xcode 8.
+    - List all simulator devices.
+    - IOS simulator works now.
+    - Team ID setting added to iOS certificates page.
+    - Add option for minimum iOS version deployment.
+
 September 20, 2016
 
  - (b9245) Fixed "can't find sdk 4.2" error, and some updates for xcode 8.
