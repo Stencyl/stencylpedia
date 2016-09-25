@@ -2,7 +2,7 @@
 
 September 25, 2016
 
-- (b9249) Update Google Admon
+- (b9249) Update Google Admob
 	- iOS SDK 7.11.0
 	- Adroid is using play services 9.4
 	- Fix: multi time fullscreen ad requests on iOS en Android (load fullscreen ad now before showing)
