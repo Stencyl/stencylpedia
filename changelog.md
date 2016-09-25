@@ -1,5 +1,14 @@
 ### Changelog ###
 
+September 25, 2016
+
+- (b9249) Update Google Admon
+	- iOS SDK 7.11.0
+	- Adroid is using play services 9.4
+	- Fix: multi time fullscreen ad requests on iOS en Android (load fullscreen ad now before showing)
+	- Added appID in Admon initialize block (you can find your appid in the Admob Dashboard, different for each platform)
+	- Added google-play-services-location library.
+
 September 23, 2016
 
  - (b9246) More updates for Xcode 8.
