@@ -32,9 +32,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 5 EUR
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
-[**Utils for Android**](http://community.stencyl.com/index.php/topic,23285.0.html) | GeorgeN | 3.0.0+ | Android | Abandoned | May not work on 3.3.0+.
 [**Video Playback (New Version)**](http://community.stencyl.com/index.php/topic,46822.0.html) | mdotedot | 3.3+  | iOS, Android | Active | [Has some restrictions](http://community.stencyl.com/index.php/topic,46822.0.html) |
-[**Video Playback (Old version)**](http://community.stencyl.com/index.php/topic,24896.0.html) | Dom818 | 3.0.0+ | iOS | Abandoned | [mdotedot](http://community.stencyl.com/index.php/index.php?topic=24896.msg242202#msg242202) created a new version.
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 
 
@@ -44,11 +42,10 @@ These extensions hook Stencyl up with 3rd party services, such as leaderboards a
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
-[**Facebook Leaderboards**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs $15 EUR / ~$17 USD.
+[**Facebook Leaderboards**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs 15 EUR / ~$17 USD.
 [**Firebase**](http://community.stencyl.com/index.php/topic,42986.0.html) | gurigraphics | 3.3.0+ | All | Active | -
 [**Mind Jolt**](http://community.stencyl.com/index.php/topic,32923.0.html) | VashTS | 3.3.0+ | Flash | Active | -
 [**Multiplayer**](http://community.stencyl.com/index.php/topic,42202.0.html) | --- | --- | All | Active | Lists out several options.
-[**Player IO**](http://community.stencyl.com/index.php/topic,26007.0.html) | rob1221 | 3.3.0+ | Flash | Abandoned | -
 
 
 ## Other Features
