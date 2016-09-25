@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Stencyl</title>
+  <link>http://www.stencyl.com</link>
+  <description>Stencyl is the easiest way to create games for mobile, web and desktop without code.</description>
+  <item>
+    <title>Stencyl Jam 2016</title>
+    <link>http://community.stencyl.com/index.php/topic,49229.0.html</link>
+    <description>Hey everyone, it's Stencyl Jam time again!</description>
+  </item>
+</channel>
+
+</rss>
