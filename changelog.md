@@ -1,16 +1,25 @@
 ### Changelog ###
 
+September 27, 2016
+
+ - (b9256) Package different nodejs binaries to fix xcode 8 simulator testing on Sierra.
+ - (b9255) Add submenus to "test game" dropdown.
+
 September 25, 2016
 
-- (b9249) Update Google Admob
+ - (b9252) Fix: Only include iOS team-id setting if it's set in Stencyl.
+ - (b9251) Fix iOS simulator builds "--log" error.
+ - (b9250) Remove iOS device setting from mobile versions.
+ - (b9249) Update Google Admob
 	- iOS SDK 7.11.0
 	- Adroid is using play services 9.4
 	- Fix: multi time fullscreen ad requests on iOS en Android (load fullscreen ad now before showing)
-	- Added appID in Admon initialize block (you can find your appid in the Admob Dashboard, different for each platform)
+	- Added appID in Admob initialize block (you can find your appid in the Admob Dashboard, different for each platform)
 	- Added google-play-services-location library.
 
 September 23, 2016
 
+ - (b9248) Fix: NPE on startup for incorrect ios version formats previously saved.
  - (b9246) More updates for Xcode 8.
     - List all simulator devices.
     - IOS simulator works now.
