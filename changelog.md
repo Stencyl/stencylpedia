@@ -4,7 +4,11 @@ September 27, 2016
 
  - (b9256) Package different nodejs binaries to fix xcode 8 simulator testing on Sierra.
  - (b9255) Add submenus to "test game" dropdown.
+ 
+September 26, 2016
 
+ - (b9253) Fix: Admob iOS error on compile
+ 
 September 25, 2016
 
  - (b9252) Fix: Only include iOS team-id setting if it's set in Stencyl.
