@@ -1,5 +1,25 @@
 ### Changelog ###
 
+October 01, 2016
+
+ - (b9269) Fix "Could not find icon path: Icon-32.png" on xcode export.
+
+September 30, 2016
+
+ - (b9267) View custom block details by right-clicking event wrapper.
+ - (b9266) Abbreviate extremely long strings in simple UI prompts.
+ - (b9264) Fix Design Mode block dragging when BetterTouchTools is enabled on Mac.
+ - (b9263) Add preloader option for custom haxe code.
+
+September 29, 2016
+
+ - (b9262) Fix: an error dialog infrequently appears when log viewer is open.
+ - (b9261) Fix Mac App Store export.
+
+September 28, 2016
+
+ - (b9260) Fix: Project scales being used instead of iOS-specific scales.
+
 September 27, 2016
 
  - (b9256) Package different nodejs binaries to fix xcode 8 simulator testing on Sierra.
