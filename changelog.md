@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 02, 2016
+
+ - (b9270) Allow engine extensions to set block context.
+
 October 01, 2016
 
  - (b9269) Fix "Could not find icon path: Icon-32.png" on xcode export.
