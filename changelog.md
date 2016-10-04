@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 04, 2016
+
+- (b9270) Fix: Publish to Android (http://community.stencyl.com/index.php/topic,49431.0.html)
+
 October 02, 2016
 
  - (b9270) Allow engine extensions to set block context.
