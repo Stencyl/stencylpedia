@@ -28,7 +28,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Joysticks**](http://community.stencyl.com/index.php/topic,29026.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
 [**Local Notifications**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Near Field Communication**](http://community.stencyl.com/index.php/topic,48557.0.html) | mdotedot | 3.4.0+ | Android | Active | -
-[**ReplayKit**](http://community.stencyl.com/index.php/topic,47254.0.html) | Robin Schaafsma | 3.4.0+ | iOS9 or above | Active | Costs 10 EUR
+[**ReplayKit**](http://community.stencyl.com/index.php/topic,47254.0.html) | Robin Schaafsma | 3.4.0+ | iOS 9,Android 5| Active | Costs 10 EUR
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 5 EUR
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
