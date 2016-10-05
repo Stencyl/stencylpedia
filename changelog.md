@@ -2,11 +2,17 @@
 
 October 05, 2016
 
-- (b9279) Fix: iOS purchases ask to by Consumable again.
+ - (b9279) Fix: iOS purchases ask to buy Consumable again.
+ - (b9277) Fix: potential issue in log viewer if log message ID grows too large.
+ - (b9276) Fix: Blocks get stuck when events/behaviors switched while dragging.
+ - (b9275) Fix: performance issues with comment wrapper blocks.
+ - (b9274) Fix: size and location issues with behavior/attribute name menus.
+ - (b9273) Fix: error when selecting behavior name in certain blocks.
+ - (b9272) Make event names in pane gray when deactivated.
 
 October 04, 2016
 
-- (b9271) Fix: Publish to Android (http://community.stencyl.com/index.php/topic,49431.0.html)
+ - (b9271) Fix: Publish to Android (http://community.stencyl.com/index.php/topic,49431.0.html)
 
 October 02, 2016
 
