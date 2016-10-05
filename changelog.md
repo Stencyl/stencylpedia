@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 05, 2016
+
+- (b9279) Fix: iOS purchases ask to by Consumable again.
+
 October 04, 2016
 
 - (b9271) Fix: Publish to Android (http://community.stencyl.com/index.php/topic,49431.0.html)
