@@ -56,7 +56,7 @@ getValueForScene([TEXT], [TEXT])
 
 ### <a name="scene-set-attribute"></a> Set Attribute (for Scene)
 
-![scene-get-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/scene-get-attribute.png)
+![scene-set-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/scene-set-attribute.png)
 
 Sets the value of an attribute (from the specified behavior) for the current scene.
 
