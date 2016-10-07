@@ -9,14 +9,12 @@
 * Other Ad Networks
 * FAQ
  
-
 ## Introduction
 
 Although Android supports many ad networks, we've chosen to support AdMob, which is owned and operated by Google itself. Through 3rd-party extensions, Stencyl supports a number of other ad networks.
 
 This guide is for Stencyl build 9279 and higher
 
- 
 ## Set Up an AdMob Account
 
 Before you can test ads, in your game, you must set up an account with AdMob.
@@ -43,7 +41,7 @@ Now that you've set up an account with AdMob, you can test out ads in your game.
 #### Enable Test Ads.
 
 Before you publish your game to the store, you want to know if the ads are working.
-Google does not allow you to push live ads when testing your game so you have to set Admob in Testmode.
+Google does not allow you to click on live ads when testing your game so you have to set Admob in Testmode.
 
 1. Open your game in Stencyl. Under **Settings > Mobile > Monetization**.
 2. Enable Test ads
