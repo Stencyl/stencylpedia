@@ -166,5 +166,3 @@ When ads are displayed, they will cover up a small part of the screen. You shoul
 
 The **height of mobile ad** block (under Game > Mobile) provides the height, so you can lay your game out accordingly.
 
-![stencyl-iad-dont-cover-up](http://static.stencyl.com/help/images/iads/image03.png)
-
