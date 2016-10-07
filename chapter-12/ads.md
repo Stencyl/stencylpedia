@@ -156,3 +156,11 @@ Check out our [Extensions Market](http://www.stencyl.com/developers/market/) and
 
 #### What version of the AdMob SDK is used?
 As of late 2016, we're using v9.4 of Google play Services Library (SDK)
+
+
+## Tips
+ 
+#### Avoid covering up the screen
+When ads are displayed, they will cover up a small part of the screen. You should avoid displaying crucial game elements under an ad, such as HUD elements. 
+
+The **height of mobile ad** block (under Game > Mobile) provides the height, so you can lay your game out accordingly.
