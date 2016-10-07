@@ -71,7 +71,7 @@ Google does not allow you to click on live ads when testing your game so you hav
 
 #### Displaying the Banner Ad
 
-To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [iOS Ads](http://www.stencyl.com/help/view/iads/) guide, you'll notice that this is the same block.
+To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [Andoroid Ads](http://www.stencyl.com/help/view/android-ads//) guide, you'll notice that this is the same block.
 
 ![ad-show-hide](http://byrobin.nl/stencyl/admob/admob_banner_showhide.png)
 
