@@ -47,10 +47,6 @@ Stencyl supports these transition types.
 * Blur
 * Box
 * Crossfade
-
-You can preview all of these transitions in the following demo.
-
-<a href="http://blog.stencyl.com/?p=325">![stencyl-switch-scene-demo](http://static.stencyl.com/pedia2/ch4/changing/image11.png)</a>
  
 
 ## Example: Enter Door, Switch Scene
