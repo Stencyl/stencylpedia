@@ -1,5 +1,10 @@
 ### Changelog ###
 
+December 07, 2016
+
+ - (b9283) Removed android.permission.GET_ACCOUNTS and android.permission.USE_CREDENTIALS from Google Play Games AndroidManifest.xml
+   (http://community.stencyl.com/index.php?issue=678.com3723#com2398)
+
 October 05, 2016
 
  - (b9279) Fix: iOS purchases ask to buy Consumable again.
