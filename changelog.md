@@ -1,5 +1,33 @@
 ### Changelog ###
 
+January 31, 2017
+
+- (b9293) Fix: Can't compile with fonts.
+
+January 26, 2017
+
+- (b9291) Fix for b9289 startup error.
+
+January 20, 2017
+
+- (b9288) Fix: Creating a background and later applying scrolling/parallax works now.
+
+January 14, 2017
+
+- (b9287) Fixed shader uniform uResolutionUs (the 1x Stencyl resolution).
+
+January ??, 2017
+
+- (b9286) Fix: Updating behavior properties causes the classname to use the wrong ID.
+
+January 02, 2017
+
+- (b9285) Fixed an issue with spin tween and setting actor direction (issue #407).
+
+December 27, 2016
+
+- (b9284) Fixed issue with slide tween and setting X/Y of an actor (issue #407).
+
 December 07, 2016
 
  - (b9283) Removed android.permission.GET_ACCOUNTS and android.permission.USE_CREDENTIALS from Google Play Games AndroidManifest.xml
