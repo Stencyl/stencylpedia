@@ -1,5 +1,19 @@
 ### Changelog ###
 
+February 08, 2017
+
+- (b9298) Modified the image instance blend mode block to clarify that it is flash only (issue #460).
+
+February 07, 2017
+
+- (b9297) Fixed blur transition by forcing pixel size to 15.
+- (b9296) Help text for random integer block now correctly says that both numbers are inclusive (issue #469).
+
+February 06, 2017
+
+- (b9295) The scene designer no longer changes default zoom based on web scale.
+- (b9294) Changed "transparency" to "opacity" in the set joystick transparency block (issue #703).
+
 January 31, 2017
 
 - (b9293) Fix: Can't compile with fonts.
