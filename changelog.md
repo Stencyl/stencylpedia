@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 12, 2017
+
+- (b9299) Origin points are now updated when saving actors (issue #378).
+
 February 08, 2017
 
 - (b9298) Modified the image instance blend mode block to clarify that it is flash only (issue #460).
