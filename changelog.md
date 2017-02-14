@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 13, 2017
+
+- (b9300) Tile size is now correct when importing above 1x scale (issue #680).
+
 February 12, 2017
 
 - (b9299) Origin points are now updated when saving actors (issue #378).
