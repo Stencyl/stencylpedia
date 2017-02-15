@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 15, 2017
+
+- (b9301) Actors are no longer forced to save when no changes have been made (issue #255).
+
 February 13, 2017
 
 - (b9300) Tile size is now correct when importing above 1x scale (issue #680).
