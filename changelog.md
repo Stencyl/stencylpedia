@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 20, 2017
+
+- (b9302) The list editor can now accept empty text (issue #694).
+
 February 15, 2017
 
 - (b9301) Actors are no longer forced to save when no changes have been made (issue #255).
