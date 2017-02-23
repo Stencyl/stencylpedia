@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 23, 2017
+
+- (b9303) Fixed bug where sounds didn't play after closing and reopening the sound resource.
+
 February 20, 2017
 
 - (b9302) The list editor can now accept empty text (issue #694).
