@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 24, 2017
+
+- (b9304) Disabled forced transition at the start of a game (issue #550).
+
 February 23, 2017
 
 - (b9303) Fixed bug where sounds didn't play after closing and reopening the sound resource.
