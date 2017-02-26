@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 26, 2017
+
+- (b9305) The "list contains anything" block no longer causes a crash when used with a null list (issue #610).
+
 February 24, 2017
 
 - (b9304) Disabled forced transition at the start of a game (issue #550).
