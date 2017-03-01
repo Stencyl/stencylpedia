@@ -1,4 +1,8 @@
 ### Changelog ###
+April 20.2016
+ 
+ -(b1920) Fix : Html5 export doesn't use game attributes properly.
+ -(b1920) Fix : IMAGE API Set [width] block doesn't recognize image instance in list
 
 February 26, 2017
 
