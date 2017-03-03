@@ -1,5 +1,13 @@
 ### Changelog ###
 
+March 03, 2017
+
+- (b9308) Canceling a tileset import no longer adds an extra row and column to existing tilesets.
+
+March 02, 2017
+
+- (b9307) Changed the actor position setter block to have the same dropdown options as the actor position getter block (issue #77).
+
 February 26, 2017
 
 - (b9305) The "list contains anything" block no longer causes a crash when used with a null list (issue #610).
