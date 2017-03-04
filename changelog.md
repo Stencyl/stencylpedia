@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 04, 2017
+
+- (b9309) Continuous collision detection and always active blocks now have a disable option (issue #260).
+
 March 03, 2017
 
 - (b9308) Canceling a tileset import no longer adds an extra row and column to existing tilesets.
