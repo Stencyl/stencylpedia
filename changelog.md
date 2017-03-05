@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 05, 2017
+
+- (b9310) Actors can now be made active at any time when off screen (issue #658).
+
 March 04, 2017
 
 - (b9309) Continuous collision detection and always active blocks now have a disable option (issue #260).
