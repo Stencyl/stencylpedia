@@ -1,5 +1,13 @@
 ### Changelog ###
 
+March 07, 2017
+
+- (b9312) Disabling actor CCD also disables global CCD if there are no actors left with CCD enabled (issue #260).
+
+March 06, 2017
+
+- (b9311) Redid implementation of blocks from b9309 to avoid build errors (issue #753).
+
 March 05, 2017
 
 - (b9310) Actors can now be made active at any time when off screen (issue #658).
