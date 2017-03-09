@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 09, 2017
+
+- (b9313) Hold the CTRL key when closing a resource to skip autosaving (issue #331).
+
 March 07, 2017
 
 - (b9312) Disabling actor CCD also disables global CCD if there are no actors left with CCD enabled (issue #260).
