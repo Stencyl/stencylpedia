@@ -150,12 +150,9 @@ Setting the width/height of an image instance is done in relative (percentage) f
  
 
 #### Setting the Origin Point
-By default, scaling and rotations on an image instance are relative to the center point (0.5, 0.5). To change this, set the origin point.
+By default, scaling and rotations on an image instance are relative to the top left point. To change this, set the origin point.
 
 ![setting-origin-point](http://static.stencyl.com/pedia2/ch6/image/origin.png)
-
-Provide a value between 0 and 1, inclusive, for each blank. 0 corresponds to the top/left while 1 corresponds to the bottom/right. By this definition, the center point would be 0.5, 0.5.
-
  
 
 ## Challenges
