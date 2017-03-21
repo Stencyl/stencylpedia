@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 21, 2017
+
+- (b9314) Folders containing only one type of behavior will no longer show up for other behavior types (issue #754).
+
 March 09, 2017
 
 - (b9313) Hold the CTRL key when closing a resource to skip autosaving (issue #331).
