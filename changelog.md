@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 26, 2017
+
+- (b9316) Added block to get the position of an item in a list (issue #94).
+
 March 21, 2017
 
 - (b9314) Folders containing only one type of behavior will no longer show up for other behavior types (issue #754).
