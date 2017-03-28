@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 28, 2017
+
+- (b9317) The delete option in the right click menu of the scene designer now works for groups of objects (issue #784).
+
 March 26, 2017
 
 - (b9316) Added block to get the position of an item in a list (issue #94).
