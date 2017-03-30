@@ -57,6 +57,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Facebook Leaderboards**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs 15 EUR / ~$17 USD.
 [**Firebase**](http://community.stencyl.com/index.php/topic,42986.0.html) | gurigraphics | 3.3.0+ | All | Active | -
+[**Leaderboard in Google Spreadsheet**](http://community.stencyl.com/index.php/topic,51126.0.html) | gurigraphics | 3.3.0+ | HTML5 | Active | Requires Google account
 [**Mind Jolt**](http://community.stencyl.com/index.php/topic,32923.0.html) | VashTS | 3.3.0+ | Flash | Active | -
 [**Multiplayer**](http://community.stencyl.com/index.php/topic,42202.0.html) | --- | --- | All | Active | Lists out several options.
 
