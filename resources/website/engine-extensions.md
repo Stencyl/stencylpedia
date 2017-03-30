@@ -44,6 +44,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Facebook Leaderboards**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs 15 EUR / ~$17 USD.
 [**Firebase**](http://community.stencyl.com/index.php/topic,42986.0.html) | gurigraphics | 3.3.0+ | All | Active | -
+[**Leaderboard in Google Spreadsheet**](http://community.stencyl.com/index.php/topic,51126.0.html) | gurigraphics | 3.3.0+ | HTML5 | Active | Requires Google account
 [**Mind Jolt**](http://community.stencyl.com/index.php/topic,32923.0.html) | VashTS | 3.3.0+ | Flash | Active | -
 [**Multiplayer**](http://community.stencyl.com/index.php/topic,42202.0.html) | --- | --- | All | Active | Lists out several options.
 
@@ -95,7 +96,6 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Web Extension**](http://community.stencyl.com/index.php/topic,48459.0.html) | gurigraphics | 3.4+ | All | Active | -
 [**Workflow Utilities**](http://community.stencyl.com/index.php/topic,44968.0.html) | letmethink | 3.0.0+ | All | Active | -
 
-
 ## Wanted (Extension Requests)
 
 Use this section to [add requests](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md) for extensions. If one has already been suggested, [add your name](https://github.com/Stencyl/stencylpedia/blob/master/resources/website/engine-extensions.md) to the extra votes section.
@@ -105,3 +105,5 @@ Title | Your Name (on Stencyl.com) | Description | Extra Votes | Notes |
 [Skeletal Animation](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | --- | ---
 In app browser for Windows| Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
 Audio Utilities| Ozygiygas | Modify game audio at runtime: change pitch, speed, and/or distort sounds and music | --- | ---
+[Game Attribute Extension Blocks](http://community.stencyl.com/index.php/topic,51059.0.html) | Donni11 | Additional blocks adding      more functionality to game attributes| --- | ---
+
