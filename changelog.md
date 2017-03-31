@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 31, 2017
+
+- (b9318) Fixed bug where collision shapes couldn't be selected if width or height were 0 (issue #701).
+
 March 28, 2017
 
 - (b9317) The delete option in the right click menu of the scene designer now works for groups of objects (issue #784).
