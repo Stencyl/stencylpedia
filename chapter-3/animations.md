@@ -47,7 +47,9 @@ Now that you understand what animations are, let's go over the import process. Y
 
 #### Method 1: Pick an Image
 
-> *In this instance, we're assuming you've already got an Actor open in the Actor Editor.*
+> *In this instance, we're assuming you've already got an Actor open in the Actor Editor. Note however, that starting with Stencyl 3.4, 
+Stencyl allows you to just drag a animation to the actor dashboard and Stencyl will create a actor with that animation. This 
+is useful when you want to create a lot of actors at once.*
 
 1. Click on **Click here to add frame** under the Frames pane. <br/><br/>![stencyl-choose-image](http://static.stencyl.com/pedia2/ch3/animation/image08.png)<br/>
 
