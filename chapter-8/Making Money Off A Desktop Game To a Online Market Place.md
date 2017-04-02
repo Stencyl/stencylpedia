@@ -70,9 +70,10 @@ Itch.io has many players but its not even comparable to Steam. But its 100% free
 
 Well its best to go with both so your getting both players. However if you don't want to have to maintain your game on two places, the choise is up to you. Here are the Pro's and Con's about both marketplaces.
 
-Name | Pro | Cons |
-Steam | Large Community, you game will be noticed! | Costs, developers have to pay for Greenlit and some of the renvue is collected.
-Itch | 100% Free | Small Community, not enough player. More advertising is needed.
+Name|Pro|Cons|
+---- | --- | --- | 
+Steam|Large Community, you game will be noticed!| Costs, developers have to pay for Greenlit and some of the renvue is collected.|
+Itch |100% Free|Small Community, not enough player. More advertising is needed.|
 
 There you have it. So choose which ever one works. Go with Steam and the cost or go with Itch.io but be prepared to do some advertising.
 
