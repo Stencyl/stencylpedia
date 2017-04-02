@@ -5,17 +5,20 @@ This is a general FAQ for those who have general questions about Stencyl. For th
 
 #### Where can I get more help?
 
-If Stencylpedia and Stencyl TV aren't meeting your needs, your best bet would be to ask your question on our [forums](http://community.stencyl.com/).
+If Stencylpedia and Stencyl TV aren't meeting your needs, your best bet would be to ask your question on our [forums]
+(http://community.stencyl.com/). If you would like more education beyond Stencylpedia and Stencyl TV, please check out our section
+on [Stencyl Books and Online Tutorials](http://www.stencyl.com/affiliates/).
 
 #### I can't launch Stencyl.
 
 In rare cases, Stencyl may not launch at all. Often, this is due to the absence of or an unsupported version of Java.
 
-If Java is installed and up to date, we recommend seeking help on the Stencyl forums. Be as specific as possible when seeking help!
+If Java is installed and up to date, we recommend seeking help on the [Stencyl forums]
+(http://community.stencyl.com/index.php/board,3.0.html). Be as specific as possible when seeking help!
 
 #### Stencyl doesn't let me sign in.
 
-You need to sign up for a free account to sign in to Stencyl and gain access to our forums, StencylForge and other services. You can do this from within Stencyl (most do this) or from our site.
+You need to sign up for a free account to sign in to Stencyl and gain access to our forums, StencylForge and other services. You can do this from within Stencyl (most do this) or from our site. 
 
 
 ## General Questions
@@ -54,11 +57,11 @@ Absolutely not. You can use code (Haxe, Java, Objective-C), but the vast majorit
 
 #### What if I want to use code instead of the visual designer?
 
-You can use Haxe via a built-in code editor or an external editor.
+You can use Haxe via a [built-in code editor](http://www.stencyl.com/help/viewArticle/21) or an external editor.
 
 #### Are there any game graphics or sounds available with Stencyl?
 
-Yes. Through StencylForge, our "marketplace for game resources", you can browse an extensive collection of royalty-free game graphics and sounds for your games.
+Yes. Through [StencylForge](http://www.stencyl.com/help/viewArticle/6), our "marketplace for game resources", you can browse an extensive collection of royalty-free game graphics and sounds for your games.
 
 #### What image format do I use with Stencyl?
 
@@ -66,7 +69,8 @@ Any raster format will do - PNG, JPG, and GIF. We even support animated GIF's. W
 
 #### What kind of audio files can I use?
 
-MP3s for Flash and OGGs for everything else.. It's best if these are at a 44.1kHz sampling rate with a 16-bit resolution. You can use Audacity or a similar program to change the sampling rate, if need be.
+MP3s for Flash and OGGs for everything else.. It's best if these are at a 44.1kHz sampling rate with a 16-bit resolution. You can use 
+Audacity or a similar program to change the sampling rate, if need be.
 
 
 
@@ -74,7 +78,9 @@ MP3s for Flash and OGGs for everything else.. It's best if these are at a 44.1kH
 
 #### Is there multiplayer support?
 
-Not built in. Some clever users have [figured this out](http://community.stencyl.com/index.php/topic,27491.0.html) on a limited basis, though.
+Not built in. However, Some clever users created [extensions](http://community.stencyl.com/index.php/topic,42202.0.html) which do help 
+support this. It is possible, some veteran Stencyl users have [figured this out]
+(http://community.stencyl.com/index.php/topic,27491.0.html) on a limited basis.
 
 #### Can I make a 3D game?
 
