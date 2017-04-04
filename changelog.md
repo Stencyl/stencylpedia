@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 04, 2017
+
+- (b9319) Fixed "On Screen Button" behavior multitouch issues.
+
 March 31, 2017
 
 - (b9318) Fixed bug where collision shapes couldn't be selected if width or height were 0 (issue #701).
