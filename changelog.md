@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 06, 2017
+
+- (b9320) Fixed "Purchased product with ID... returns false after restore.(issue #806)
+
 April 04, 2017
 
 - (b9319) Fixed "On Screen Button" behavior multitouch issues.
