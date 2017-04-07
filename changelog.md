@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 07, 2017
+
+- (b9321) The right click menu for items in the dashboard can now be opened without needing to left click first (issue #810).
+
 April 06, 2017
 
 - (b9320) Fixed "Purchased product with ID... returns false after restore.(issue #806)
