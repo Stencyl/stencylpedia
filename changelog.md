@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 11, 2017
+
+- (b9322) Duplicated actors no longer share the same list and map values (issue #211).
+
 April 07, 2017
 
 - (b9321) The right click menu for items in the dashboard can now be opened without needing to left click first (issue #810).
