@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 13, 2017
+
+- (b9323) Fixed other problems with actors and scenes sharing list and map values (issue #359, #788).
+
 April 11, 2017
 
 - (b9322) Duplicated actors no longer share the same list and map values (issue #211).
