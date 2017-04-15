@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 15, 2017
+
+- (b9324) Fixed bug with mismatched behavior types (issue #668).
+
 April 13, 2017
 
 - (b9323) Fixed other problems with actors and scenes sharing list and map values (issue #359, #788).
