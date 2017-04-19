@@ -25,6 +25,7 @@ These extensions add new functionality to mobile games.
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Batch.com Push Notification & Unlock**](http://community.stencyl.com/index.php/topic,46041.0.html) | Robin Schaafsma | 3.4.0 | iOS, Android | Active | -
+[**HTML5 Mobile Extension**](http://community.stencyl.com/index.php/topic,51258.0.html) | mdotedot | 3.4+ | iOS, Android | Active
 [**Joysticks**](http://community.stencyl.com/index.php/topic,29026.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
 [**Local Notifications**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Near Field Communication**](http://community.stencyl.com/index.php/topic,48557.0.html) | mdotedot | 3.4.0+ | Android | Active | -
