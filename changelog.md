@@ -2,7 +2,7 @@
 
 April 20, 2017
 
-- (b9325) Fixed display issues with normal fonts including blur fix (issue #223).
+- (b9325) Fixed display issues with normal fonts including blur fix (issue #223, #544).
 
 April 15, 2017
 
