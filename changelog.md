@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 20, 2017
+
+- (b9325) Fixed display issues with normal fonts including blur fix (issue #223).
+
 April 15, 2017
 
 - (b9324) Fixed bug with mismatched behavior types (issue #668).
