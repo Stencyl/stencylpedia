@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 23, 2017
+
+- (b9326) Fonts now support shadows with 0 blur (issue #635).
+
 April 20, 2017
 
 - (b9325) Fixed display issues with normal fonts including blur fix (issue #223, #544).
