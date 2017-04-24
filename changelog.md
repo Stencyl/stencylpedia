@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 24, 2017
+
+- (b9327) Continuous collision detection is now reset to the default value when actors are recycled (issue #325).
+
 April 23, 2017
 
 - (b9326) Fonts now support shadows with 0 blur (issue #635).
