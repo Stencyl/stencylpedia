@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 25, 2017
+
+- (b9328) The "for each actor on screen" block now detects anchored actors correctly (issue #474).
+
 April 24, 2017
 
 - (b9327) Continuous collision detection is now reset to the default value when actors are recycled (issue #325).
