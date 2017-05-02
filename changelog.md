@@ -1,5 +1,10 @@
 ### Changelog ###
 
+May 02, 2017
+
+- (b9437) Fix tile rendering with scenes larger than the screen (issue #827).
+- (b9???) Stencyl 3.5.0 (beta 1)
+
 April 25, 2017
 
 - (b9328) The "for each actor on screen" block now detects anchored actors correctly (issue #474).
