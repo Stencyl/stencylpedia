@@ -1,9 +1,13 @@
 ### Changelog ###
 
+May 03, 2017
+
+- (b9439) Reduced default font spacing to account for increased padding and also added new block to change font spacing (issue #837).
+
 May 02, 2017
 
 - (b9437) Fix tile rendering with scenes larger than the screen (issue #827).
-- (b9???) Stencyl 3.5.0 (beta 1)
+- (b94??) Stencyl 3.5.0 (beta 1)
 
 April 25, 2017
 
