@@ -2,6 +2,7 @@
 
 May 03, 2017
 
+- (b9440) Fixed text width blocks to account for font spacing.
 - (b9439) Reduced default font spacing to account for increased padding and also added new block to change font spacing (issue #837).
 
 May 02, 2017
