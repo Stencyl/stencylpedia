@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 05, 2017
+
+- (b9441) Modified earlier font spacing change so it doesn't affect bitmap fonts (issue #841).
+
 May 03, 2017
 
 - (b9440) Fixed text width blocks to account for font spacing.
