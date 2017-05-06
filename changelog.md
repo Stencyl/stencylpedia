@@ -2,6 +2,7 @@
 
 May 05, 2017
 
+- (b9443) Fixed bug that prevented changing of Android paths if there were no paths already set (issue #839).
 - (b9441) Modified earlier font spacing change so it doesn't affect bitmap fonts (issue #841).
 
 May 03, 2017
