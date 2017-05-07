@@ -25,12 +25,16 @@ These extensions add new functionality to mobile games.
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**Batch.com Push Notification & Unlock**](http://community.stencyl.com/index.php/topic,46041.0.html) | Robin Schaafsma | 3.4.0 | iOS, Android | Active | -
-[**HTML5 Mobile Extension**](http://community.stencyl.com/index.php/topic,51258.0.html) | mdotedot | 3.4+ | iOS, Android | Active
+[**Camera Extension**](http://community.stencyl.com/index.php/topic,48090.0.html) | mdotedot | 3.4+ | iOS, Android | Active | -
+[**HTML5 Mobile Extension**](http://community.stencyl.com/index.php/topic,51258.0.html) | mdotedot | 3.4+ | iOS, Android | Active | Supports Youtube Playback
 [**Joysticks**](http://community.stencyl.com/index.php/topic,29026.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
-[**Local Notifications**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
+[**Local Notifications**](http://community.stencyl.com/index.php/topic,42719.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active| -
+[**MFi Gamepad**](http://community.stencyl.com/index.php/topic,46999.0.html) | DJEmergency | 3.4+ | iOS | Active | -
+[**Network Checker**](http://community.stencyl.com/index.php/topic,40741.0.html) | aljosa | 3.3+ | iOS | Active | -
 [**Near Field Communication**](http://community.stencyl.com/index.php/topic,48557.0.html) | mdotedot | 3.4.0+ | Android | Active | -
 [**ReplayKit**](http://community.stencyl.com/index.php/topic,47254.0.html) | Robin Schaafsma | 3.4.0+ | iOS 9 ,Android 5| Active | Costs 10 EUR
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
+[**Simpl Analytics Extension**](http://community.stencyl.com/index.php/topic,49345.0.html) | Team Simpl | 3.4+ | iOS, Android | Active  | In Beta stage
 [**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 5 EUR
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
 [**Video Playback (New Version)**](http://community.stencyl.com/index.php/topic,46822.0.html) | mdotedot | 3.3+  | iOS, Android | Active | [Has some restrictions](http://community.stencyl.com/index.php/topic,46822.0.html) |
@@ -83,6 +87,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Bitmap Drawing**](http://community.stencyl.com/index.php/topic,44065.0.html) | yoplalala | 3.0.0+ | All | Active | -
 [**Cast to Integer**](http://community.stencyl.com/index.php/topic,15894.0.html) | Dom818 | 3.0.0+ | All | Active | -
 [**Color Utilities**](http://community.stencyl.com/index.php/topic,34370.0.html) | ETHproductions | 3.0.0+ | All | Active | -
+[**Change Audio Pitch**](http://community.stencyl.com/index.php/topic,49116.0.html) | Max Finch | 3.4+ | All | Active | -
 [**Date and Time**](http://community.stencyl.com/index.php/topic,15063.0.html) | Dom818 | 3.0.0+ | All | Active | -
 [**Drawing Utilities**](http://community.stencyl.com/index.php/topic,35352.0.html) | ETHproductions | 3.0.0+ | All | Active | -
 [**Easy Math**](http://community.stencyl.com/index.php/topic,27769.0.html) | Photon | 3.0.0+ | All | Active | -
@@ -96,6 +101,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**Text Utilities**](http://community.stencyl.com/index.php/topic,22166.0.html) | GeorgeN | 3.0.0+ | All | Active | -
 [**Web Extension**](http://community.stencyl.com/index.php/topic,48459.0.html) | gurigraphics | 3.4+ | All | Active | -
 [**Workflow Utilities**](http://community.stencyl.com/index.php/topic,44968.0.html) | letmethink | 3.0.0+ | All | Active | -
+[**Zooming Extension**](http://community.stencyl.com/index.php/topic,50736.0.html) | letmethink | 3.4+ | Desktop and Mobile | Active | In testing; not compatible with Flash or HTML5
 
 ## Wanted (Extension Requests)
 
@@ -103,8 +109,8 @@ Use this section to [add requests](https://github.com/Stencyl/stencylpedia/blob/
 
 Title | Your Name (on Stencyl.com) | Description | Extra Votes | Notes |
 --- | --- | --- | --- | ---- |
-[Skeletal Animation](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | --- | ---
-In app browser for Windows| Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
-Audio Utilities| Ozygiygas | Modify game audio at runtime: change pitch, speed, and/or distort sounds and music | --- | ---
-[Game Attribute Extension Blocks](http://community.stencyl.com/index.php/topic,51059.0.html) | Donni11 | Additional blocks adding      more functionality to game attributes| --- | ---
+[**Skeletal Animation**](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | --- | ---
+**In app browser for Windows**| Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
+**Audio Utilities**| Ozygiygas | Modify game audio at runtime: change pitch, speed, and/or distort sounds and music | --- | ---
+[**Game Attribute Extension Blocks**](http://community.stencyl.com/index.php/topic,51059.0.html) | Donni11 | Additional blocks adding    more functionality to game attributes| --- | ---
 
