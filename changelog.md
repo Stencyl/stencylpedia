@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 08, 2017
+
+- (b9445) Edited help text of "trigger event in this behavior" block to indicate it does not work with text attributes.
+
 May 07, 2017
 
 - (b9444) Fixed bug with the "as boolean" block returning wrong values (issue #845).
