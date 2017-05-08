@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 07, 2017
+
+- (b9444) Fixed bug with the "as boolean" block returning wrong values (issue #845).
+
 May 05, 2017
 
 - (b9443) Fixed bug that prevented changing of Android paths if there were no paths already set (issue #839).
