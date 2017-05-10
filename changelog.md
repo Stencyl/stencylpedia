@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 10, 2017
+
+- (b9450) The "draw text on image" block now takes into account letter spacing (issue #854).
+
 May 08, 2017
 
 - (b9445) Edited help text of "trigger event in this behavior" block to indicate it does not work with text attributes.
