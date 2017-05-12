@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 12, 2017
+
+- (b9451) Fixed issue preventing the toggling of the palette (issue #857).
+
 May 10, 2017
 
 - (b9450) The "draw text on image" block now takes into account letter spacing (issue #854).
