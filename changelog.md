@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 15, 2017
+
+- (b9452) The "who uses this" option for scene behaviors now works properly (issue #844).
+
 May 12, 2017
 
 - (b9451) Fixed issue preventing the toggling of the palette (issue #857).
