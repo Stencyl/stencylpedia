@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 16, 2017
+
+- (b9453) Fixed bug with empty lists and maps being replaced with default values (issue #856).
+
 May 15, 2017
 
 - (b9452) The "who uses this" option for scene behaviors now works properly (issue #844).
