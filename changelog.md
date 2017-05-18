@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 18, 2017
+
+- (b9454) Fix for FPS Monitor lines not showing (issue #838).
+
 May 16, 2017
 
 - (b9453) Fixed bug with empty lists and maps being replaced with default values (issue #856).
