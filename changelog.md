@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 21, 2017
+
+- (b9455) Fixed issue with mouse detection on actors when growing width or height to negative 100% (issue #71).
+
 May 18, 2017
 
 - (b9454) Fix for FPS Monitor lines not showing (issue #838).
