@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 25, 2017
+
+- (b9457) Update Admob. iOS SDK to 7.20. Added gradle support for Android. Fixed issue #874
+
 May 24, 2017
 
 - (b9456) Fixed bug with bitmap font image saving (issue #374).
