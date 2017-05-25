@@ -2,6 +2,7 @@
 
 May 25, 2017
 
+- (b9458) Fix Admob can't fin iOS SDk.
 - (b9457) Update Admob. iOS SDK to 7.20. Added gradle support for Android. Fixed issue #874
 
 May 24, 2017
