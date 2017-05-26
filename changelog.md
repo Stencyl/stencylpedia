@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 26, 2017
+
+- (b9459) Fixed bug with the grow tween and collision shapes (issue #392).
+
 May 25, 2017
 
 - (b9458) Fix Admob can't find iOS SDk.
