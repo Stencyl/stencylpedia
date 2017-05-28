@@ -1,5 +1,10 @@
 ### Changelog ###
 
+May 28, 2017
+
+- (b9461) Fixed bug with recycled actors and modified collision shapes (issue #390).
+- (b9460) Fixed bug introduced in previous build.
+
 May 26, 2017
 
 - (b9459) Fixed bug with the grow tween and collision shapes (issue #392).
