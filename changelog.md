@@ -2,6 +2,7 @@
 
 May 28, 2017
 
+- (b9462) Fixed simple physics error introduced in previous build.
 - (b9461) Fixed bug with recycled actors and modified collision shapes (issue #390).
 - (b9460) Fixed bug introduced in previous build.
 
