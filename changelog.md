@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 31, 2017
+
+- (b9463) Fixed block text and help text of the layer scroll factor block to be more accurate (issue #888).
+
 May 28, 2017
 
 - (b9462) Fixed simple physics error introduced in previous build.
