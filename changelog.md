@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 01, 2017
+
+- (b9464) Fixed layer blend modes for tiles when using the block to set them (issue #892).
+
 May 31, 2017
 
 - (b9463) Fixed block text and help text of the layer scroll factor block to be more accurate (issue #888).
