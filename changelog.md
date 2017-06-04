@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 04, 2017
+
+- (b9465) Fixed bug with resuming an unpaused sound (issue #640).
+
 June 01, 2017
 
 - (b9464) Fixed layer blend modes for tiles when using the block to set them (issue #892).
