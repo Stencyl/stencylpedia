@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 06, 2017
+
+- (b9466) Fixed bug with "actor hit a tile" block and sensors (issue #501).
+
 June 04, 2017
 
 - (b9465) Fixed bug with resuming an unpaused sound (issue #640).
