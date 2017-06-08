@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 08, 2017
+
+- (b9467) Additional sound pause/resume fix (issue #640).
+
 June 06, 2017
 
 - (b9466) Fixed bug with "actor hit a tile" block and sensors (issue #501).
