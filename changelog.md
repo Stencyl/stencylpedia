@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 09, 2017
+
+- (b9468) Setting actor speed for simple actors now works with different step sizes (issue #717).
+
 June 08, 2017
 
 - (b9467) Additional sound pause/resume fix (issue #640).
