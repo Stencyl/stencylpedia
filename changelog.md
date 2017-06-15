@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 15, 2017
+
+- (b9469) Fixed the set gravity block for simple physics actors (issue #700).
+
 June 09, 2017
 
 - (b9468) Setting actor speed for simple actors now works with different step sizes (issue #717).
