@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 17, 2017
+
+- (b9470) Fixed bug with pausing/stopping sounds when being played immediately after another sound ends (issue #752).
+
 June 15, 2017
 
 - (b9469) Fixed the set gravity block for simple physics actors (issue #700).
