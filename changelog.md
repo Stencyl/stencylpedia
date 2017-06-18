@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 18, 2017
+
+- (b9471) Fixed group to group collision event for simple physics (issue #506).
+
 June 17, 2017
 
 - (b9470) Fixed bug with pausing/stopping sounds when being played immediately after another sound ends (issue #752).
