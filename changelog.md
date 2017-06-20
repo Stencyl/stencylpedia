@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 20, 2017
+
+- (b9472) Fixed bug preventing opening resources and testing when using Spanish (issue #801).
+
 June 18, 2017
 
 - (b9471) Fixed group to group collision event for simple physics (issue #506).
