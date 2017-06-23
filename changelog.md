@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 23, 2017
+
+- (b9473) Changed help text of "Actor-Any" collision event to match the text of the block (issue #910).
+
 June 20, 2017
 
 - (b9472) Fixed bug preventing opening resources and testing when using Spanish (issue #801).
