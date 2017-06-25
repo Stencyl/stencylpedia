@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 25, 2017
+
+- (b9474) Fixed bug with duplicating bitmap fonts (issue #288).
+
 June 23, 2017
 
 - (b9473) Changed help text of "Actor-Any" collision event to match the text of the block (issue #910).
