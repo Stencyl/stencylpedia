@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 28, 2017
+
+- (b9475) Fixed performance issue with modifying long names (issue #361).
+
 June 25, 2017
 
 - (b9474) Fixed bug with duplicating bitmap fonts (issue #288).
