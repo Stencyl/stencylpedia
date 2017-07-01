@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 01, 2017
+
+- (b9476) The collision editor canvas now adjusts after editing an animation's size (issue #379).
+
 June 28, 2017
 
 - (b9475) Fixed performance issue with modifying long names (issue #361).
