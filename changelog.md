@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 04, 2017
+
+- (b9477) Actor attributes being changed over time now pause when the actor is paused (issue #575).
+
 July 01, 2017
 
 - (b9476) The collision editor canvas now adjusts after editing an animation's size (issue #379).
