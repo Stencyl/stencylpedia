@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 07, 2017
+
+- (b9478) Added blocks to fade sounds to specific volumes (issue #797).
+
 July 04, 2017
 
 - (b9477) Actor attributes being changed over time now pause when the actor is paused (issue #575).
