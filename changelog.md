@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 11, 2017
+
+- (b9479) Fixed display bug with custom tile collision boxes in the editor (issue #258).
+
 July 07, 2017
 
 - (b9478) Added blocks to fade sounds to specific volumes (issue #797).
