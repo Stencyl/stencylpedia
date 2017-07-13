@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 13, 2017
+
+- (b9480) Fixed bug with importing resource packs (issue #782).
+
 July 11, 2017
 
 - (b9479) Fixed display bug with custom tile collision boxes in the editor (issue #258).
