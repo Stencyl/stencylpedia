@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 08, 2018
+
+- (b9709) Fixed placement of parenthesis in direction of actor block (issue #951).
+
 February 05, 2018
 
 - (b9706) Fixed issue with bitmap font images not loading (issue #1046).
