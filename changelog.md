@@ -1,5 +1,169 @@
 ### Changelog ###
 
+February 05, 2018
+
+- (b9706) Fixed issue with bitmap font images not loading (issue #1046).
+
+January 27, 2018
+
+- (b9705) Fix exporting of actor types
+- (b9704) Fix some errors when saving behaviors with attributes that have no default value
+
+January 15, 2018
+
+- (b9703) More simplification, fix more new offset errors.
+- (b9702) Simplify code, fix offset of polygon shapes on actors.
+
+January 14, 2018
+
+- (b9701) Update tile-related coordinates for previous commit.
+- (b9700) fix region offset bug.
+
+January 13, 2018
+
+- (b9699) Replace physicsMode constants with enums in engine.
+- (b9698) toString function for B2Vec2.
+
+January 11, 2018
+
+- (b9696) Fix: missing android info in project.xml
+- (b9695) Preload sound effects the same way graphics are preloaded.
+
+December 19, 2017
+
+- (b9693) Include iphone in lime-templates
+
+December 15, 2017
+
+- (b9692) Fix ios games recompiling from scratch
+- (b9691) Support iPhone X launch image
+
+December 05, 2017
+
+- (b9690) Fix ios gpu crash when more than a few tiles are included on a layer.
+
+November 12, 2017
+
+- (b9689) Fix fonts and sounds not saving.
+- (b9686) Don't show compilation errors if there are only warnings.
+- (b9685) Fix error when canceling scene load from gci
+- (b9684) Fixed thumbnails not regenerating
+- (b9683) Fix error when trying to edit sprites
+- (b9682) More casting / type-hinting / conversion modifications.
+
+November 11, 2017
+
+- (b9679) Codegen, don't directly call non-static members from a static context.
+- (b9678) Expand type-hinting to work on all definitions that return an OBJECT.
+
+November 09, 2017
+
+- (b9677) Use scrollpane for large log messages
+
+November 05, 2017
+
+- (b9676) More Number vs Int fixes
+- (b9675) Fixes for Ints in Design Mode
+- (b9674) Compile fixes
+
+November 04, 2017
+
+- (b9673) Improve performance of layer drawing
+
+November 03, 2017
+
+- (b9666) Don't generate Std.int unless needed
+
+November 01, 2017
+
+- (b9665) Don't generate propertyChanged unless needed
+- (b9663) Don't wait for Xcode to exit when launched from Stencyl.
+- (b9662) Fixed issues with paths containing spaces
+- (b9664) Don't wrap float assignment to other floats in asNumber
+- (b9662) If a custom block is in the same class, call it directly
+
+October 31, 2017
+
+- (b9661) Sort games in welcome center using case insensitive order.
+- (b9660) Allow toolset to receive larger gci packets from games.
+- (b9659) Set 10.9 as default MACOSX_DEPLOYMENT_TARGET
+- (b9657) Fix launching of cppia debug host
+- (b9656) Fix cppia host generation on mac
+- (b9655) Fix ios target on non-ipad devices
+
+October 30, 2017
+
+- (b9653) More engine deprecations
+- (b9652) Fix errors related to resources being unloaded
+- (b9651) Brought back MyAssets as a deprecated typedef
+- (b9650) Fixed freezing at "GCI connected. Waiting for updated assets."
+- (b9649) Use a default gameScale of 1 to not cause issues with extensions
+- (b9647) Another AttributeValues fix
+- (b9646) New compilation errors window
+- (b9645) Fix some mbs actor type loading
+- (b9644) More lenient gci timeout.
+- (b9643) Don't error if preloader.png doesn't exist.
+- (b9641) Fix black screen issue on mobile, remove -d flag from adb install
+- (b9640) Make log output a little less wordy
+- (b9639) Use hyperlinks instead of dropdowns to open trace/callstack sources
+
+October 29, 2017
+
+- (b9638) Clean up trace/error mapping code
+- (b9637) Use lime haxelib override to avoid writing to install dir
+
+October 28, 2017
+
+- (b9636) Fix behavior compilation errors now showing up.
+- (b9635) Undo an earlier change that covered up problems with block lang files
+- (b9634) Fixed html shader compile errors, accept traces in data block
+- (b9633) Fix: controls are supposed to be strings
+- (b9632) Fix some errors when creating blank game.
+- (b9631) Better default value handling for mbs attribute writing.
+- (b9630) Don't let polygons define points out of bounds.
+- (b9629) Ensure correct vertex direction when reading shapes and saving them.
+- (b9628) Fix wireframe crash in no physics games.
+- (b9627) Rebuild cppia host automatically and add a debug version
+
+October 27, 2017
+
+- (b9626) Fix name shortening for flash stacktraces
+- (b9625) Fix design mode line mapping for large text/code blocks
+- (b9624) Support flash callstacks
+- (b9622) Go to callstack sources in log viewer
+- (b9621) Show an error dialog when cppia rebuild fails.
+- (b9620) Fix map game attributes not being read
+- (b9619) Fix download location of android sdk on mac
+- (b9618) Add HaxeDevelop launcher
+- (b9617) Stencyl 3.5.0 (beta 2)
+  - Update Haxe to 3.4.4
+  - Update OpenFL to 6.2.2
+  - Update Lime to 5.7.1
+  - Update svg to 1.1.2
+  - Dropping 32-bit Linux support.
+  - Update flash projector debuggers to version 26
+  - Initial Xcode 9 support
+  - Improve Xcode export instructions
+  - Include non-exempt-encryption in project's ios section
+  - Store unique bundle information per app store. (mac, android, ios, can have different version numbers / app ids)
+  - Load Scene command in game controller
+  - Limited live reloading of game assets (such as actor graphics) and scenes
+  - Clean up project folder, both on the toolset side (in games) and openfl side (in games-generated)
+  - Unify code/asset output among different platforms.
+  - Stencyl memory management overhaul (large games load in toolset faster and take less memory)
+  - MBS - Mapped Binary Storage, as replacement for xml files in engine and for caching in toolset
+  - Improved, faster tile combiner for very large tile masses
+  - Don't crash if an unversioned Haxelib is present.
+  - Fix gamepads not being detected
+  - More game scaling fixes, various engine graphics fixes
+  - Reorganize menu bar, change debug to tools, move debug game to run menu
+  - Add ability to launch VS Code to active games-generated folder
+  - Add HXCPP Compile Cache settings to UI
+  - Double click customized snippet name to edit snippet
+  - Add zoom capability to tileset palette.
+  - Copy and Paste in Scene Designer
+  - Allow game logging to be sent to a GCI pane, which includes ability to see source of print and error output.
+
 July 13, 2017
 
 - (b9480) Fixed bug with importing resource packs (issue #782).
@@ -115,6 +279,13 @@ May 10, 2017
 
 - (b9450) The "draw text on image" block now takes into account letter spacing (issue #854).
 
+May 09, 2017
+
+- (b9449) Fix some bugs by updating OpenFL Export paths
+- (b9448) Fix HTML5 publishing compile error
+- (b9447) Shorten gradle build path to avoid reaching max filename length
+- (b9446) Fix large android tool downloads not working.
+ 
 May 08, 2017
 
 - (b9445) Edited help text of "trigger event in this behavior" block to indicate it does not work with text attributes.
@@ -135,8 +306,37 @@ May 03, 2017
 
 May 02, 2017
 
+- (b9438) Fixed some engine crashes
 - (b9437) Fix tile rendering with scenes larger than the screen (issue #827).
-- (b94??) Stencyl 3.5.0 (beta 1)
+- (b9436) Ignore removed snippets in folder type detection
+- (b9435) Recreate symlinks in install_neko
+- (b9434) Creating folder before copy changes result of copy
+- (b9433) Restore neko linux path
+- (b9432) ant cp doesn't work with wildcard
+- (b9431) Use native cp task to copy symlinks
+- (b9430) Fix missing strings
+- (b9429) stencyltools always defined for cppia
+- (b9428) Resource loading fix if initialization done before extension classloader
+- (b9427) Stencyl 3.5.0 (beta 1)
+  - Removed openfl legacy
+  - Updated Haxe to 3.4.2
+  - Updated hxcpp
+  - Updated Neko to 2.1.0
+  - Updated Lime to 4.0.2
+  - Updated OpenFL to 4.9.2
+  - Updated polygonal-ds to 2.0.0
+  - Use hxcpp compile cache to speed up desktop/mobile compile times
+  - Allow external installs of android ndk/sdk
+  - Reload game configuration (such as scaling mode) and reset game from toolset
+  - Customizable test game dropdown
+  - Launch Xcode from within Stencyl -- "Debug > Xcode > Launch Xcode".
+  - Improved Neko install dialog on mac
+  - Fixed game scaling issues
+  - A couple more blendmodes on desktop/mobile, applying blendmode to layer works better
+  - Faster filters on desktop/mobile
+  - Try to avoid temporary file-lock errors when writing images
+  - Don't cause exception if ios target versions aren't formatted properly
+  - File-based configuration and preloading instead of generated code
 
 April 25, 2017
 
@@ -280,12 +480,9 @@ January 14, 2017
 
 - (b9287) Fixed shader uniform uResolutionUs (the 1x Stencyl resolution).
 
-January ??, 2017
-
-- (b9286) Fix: Updating behavior properties causes the classname to use the wrong ID.
-
 January 02, 2017
 
+- (b9286) Fix: Updating behavior properties causes the classname to use the wrong ID.
 - (b9285) Fixed an issue with spin tween and setting actor direction (issue #407).
 
 December 27, 2016
