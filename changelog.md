@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 10, 2018
+
+- (b9712) Fixed region selector block (issue #1014).
+
 February 09, 2018
 
 - (b9711) Automatic codesigning when testing on iOS device.
