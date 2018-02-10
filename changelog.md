@@ -1,8 +1,13 @@
 ### Changelog ###
 
+February 09, 2018
+
+- (b9711) Automatic codesigning when testing on iOS device.
+
 February 08, 2018
 
 - (b9709) Fixed placement of parenthesis in direction of actor block (issue #951).
+- (b9707) Fixed some Google Play Games blocks not compiling.
 
 February 05, 2018
 
