@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 11, 2018
+
+- (b9713) Fixed error with tile zoom buttons in the scene designer (issue #1027).
+
 February 10, 2018
 
 - (b9712) Fixed region selector block (issue #1014).
