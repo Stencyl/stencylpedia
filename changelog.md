@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 12, 2018
+
+- (b9714) The "get sound by name" block no longer causes a crash when the named sound doesn't exist (issue #1042).
+
 February 11, 2018
 
 - (b9713) Fixed error with tile zoom buttons in the scene designer (issue #1027).
