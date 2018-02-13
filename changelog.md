@@ -1,7 +1,15 @@
 ### Changelog ###
 
+February 13, 2018
+
+- (b9722) Fixed tile combiner missing one point on most complex polygons.
+- (b9719) Fixed error when saving attached behavior with unset attribute dropdown.
+
 February 12, 2018
 
+- (b9717) Fix error when generating thumbnails of new unsaved resources.
+- (b9716) Fix error when generating thumbnail for background with no frames.
+- (b9715) Make default scale for importing/editing graphics a per-project value instead of a global preference.
 - (b9714) The "get sound by name" block no longer causes a crash when the named sound doesn't exist (issue #1042).
 
 February 11, 2018
