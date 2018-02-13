@@ -2,6 +2,7 @@
 
 February 13, 2018
 
+- (b9724) Fixed "channel is done" event for HTML5 (issue #750).
 - (b9722) Fixed tile combiner missing one point on most complex polygons.
 - (b9719) Fixed error when saving attached behavior with unset attribute dropdown.
 
