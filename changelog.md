@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 17, 2018
+
+- (b9735) Fixed bug with broken/missing behavior panes (issue #959).
+
 February 13, 2018
 
 - (b9724) Fixed "channel is done" event for HTML5 (issue #750).
