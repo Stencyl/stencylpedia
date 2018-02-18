@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 18, 2018
+
+- (b9742) Fixed antialiasing when drawing fonts (issue #1047).
+
 February 17, 2018
 
 - (b9735) Fixed bug with broken/missing behavior panes (issue #959).
