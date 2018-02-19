@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 19, 2018
+
+- (b9743) Fixed gamepad button pressure (issue #1071).
+
 February 18, 2018
 
 - (b9742) Fixed antialiasing when drawing fonts (issue #1047).
