@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 20, 2018
+
+- (b9744) Fixed some font spacing problems (issue #943).
+
 February 19, 2018
 
 - (b9743) Fixed gamepad button pressure (issue #1071).
