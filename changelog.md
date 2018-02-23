@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 23, 2018
+
+- (b9751) Fixed a font display bug (issue #1099).
+
 February 20, 2018
 
 - (b9744) Fixed some font spacing problems (issue #943).
