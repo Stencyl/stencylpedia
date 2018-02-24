@@ -2,7 +2,17 @@
 
 February 23, 2018
 
+- (b9759) Fixed behavior properties panel not showing correct icon.
+- (b9758) Fixed project default scale for editing assets not being saved.
+- (b9756) Allow android build path to be set.
 - (b9751) Fixed a font display bug (issue #1099).
+
+February 21, 2018
+
+- (b9750) Added iPhone X display detection block.
+- (b9749) Fixed some box region offsets in engine.
+- (b9747) Fixed error when applying changes after installing android sdk first time.
+- (b9746) Fixed error when an actor with a type/group collision event collides with terrain.
 
 February 20, 2018
 
@@ -15,14 +25,22 @@ February 19, 2018
 February 18, 2018
 
 - (b9742) Fixed antialiasing when drawing fonts (issue #1047).
+- (b9740) Don't show error about unwritable workspace at first launch.
 
 February 17, 2018
 
 - (b9735) Fixed bug with broken/missing behavior panes (issue #959).
+- (b9733) Various minor fixes of Stencyl's bootup process.
+- (b9730) Update selectable Android API levels.
+- (b9729) Override Android back button.
+- (b9728) Fixed swiping for all platforms.
+- (b9727) Fixed publishing games with spaces in the name for HTML5.
+- (b9725) Fixed getting/setting null attributes from other behaviors in HTML5.
 
 February 13, 2018
 
 - (b9724) Fixed "channel is done" event for HTML5 (issue #750).
+- (b9723) Fix toolset errors in scenes with autotiles.
 - (b9722) Fixed tile combiner missing one point on most complex polygons.
 - (b9719) Fixed error when saving attached behavior with unset attribute dropdown.
 
