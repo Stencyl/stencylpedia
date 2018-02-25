@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 25, 2018
+
+- (b9760) Fixed "set drawing to scene layer" block (issue #929).
+
 February 23, 2018
 
 - (b9759) Fixed behavior properties panel not showing correct icon.
