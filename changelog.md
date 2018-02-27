@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 27, 2018
+
+- (b9767) The "current screen as image" block now scales as expected when attaching it back to the screen (issue #124).
+
 February 25, 2018
 
 - (b9760) Fixed "set drawing to scene layer" block (issue #929).
