@@ -1,6 +1,10 @@
 ### Changelog ###
 
-March 1, 2018
+March 02, 2018
+
+- (b9780) Opacity is now used properly when drawing an actor image (issue #1006).
+
+March 01, 2018
 
 - (b9779) iOS game launching works again.
 - (b9778) Try `adb install -r -d` if `adb install -rd` doesn't work
