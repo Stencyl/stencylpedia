@@ -1,11 +1,32 @@
 ### Changelog ###
 
+March 1, 2018
+
+- (b9779) iOS game launching works again.
+- (b9778) Try `adb install -r -d` if `adb install -rd` doesn't work
+- (b9776) Android game launching works again.
+- (b9774) Game launching responsibility is now Stencyl's. Lime only used for building games.
+- (b9772) Fix ios debug builds on ios 11 not building for arm64.
+- (b9771) OpenFL updated to 8.0.0, Lime updated to 6.2.0
+
+February 28, 2018
+
+- (b9770) Fix some errors when trying to edit actors with only 1x scale enabled.
+- (b9769) Allow game to launch when all errors are just warnings.
+- (b9768) Fix classpath lookup from game log on ios devices.
+
 February 27, 2018
 
 - (b9767) The "current screen as image" block now scales as expected when attaching it back to the screen (issue #124).
 
+February 26, 2018
+
+- (b9766) Fix hxcpp compile cache configuration. It's now enabled if set in the UI.
+- (b9763) Fix error when editing animations in duplicated actor types.
+
 February 25, 2018
 
+- (b9762) Make sure no tile shapes passed to engine have zero-length edges.
 - (b9760) Fixed "set drawing to scene layer" block (issue #929).
 
 February 23, 2018
