@@ -2,6 +2,9 @@
 
 March 02, 2018
 
+- (b9786) Support telemetry timing on mobile devices.
+- (b9784) Fix websocket connection on html5 in Firefox.
+- (b9783) Prevent testing game with no default scene.
 - (b9780) Opacity is now used properly when drawing an actor image (issue #1006).
 
 March 01, 2018
