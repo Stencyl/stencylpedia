@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 04, 2018
+
+- (b9787) Changing font spacing multiple times now works properly.
+
 March 02, 2018
 
 - (b9786) Support telemetry timing on mobile devices.
