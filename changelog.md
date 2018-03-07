@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 07, 2018
+
+- (b9788) Fixed a bug with the color white on Flash (issue #1012).
+
 March 04, 2018
 
 - (b9787) Changing font spacing multiple times now works properly.
