@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 09, 2018
+
+- (b9790) Returning null in a custom block on HTML5 is now fixed (issue #761).
+
 March 07, 2018
 
 - (b9788) Fixed a bug with the color white on Flash (issue #1012).
