@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 11, 2018
+
+- (b9791) Tiles can now be zoomed out in the scene editor (issue #1028).
+
 March 09, 2018
 
 - (b9790) Returning null in a custom block on HTML5 is now fixed (issue #761).
