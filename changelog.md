@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 13, 2018
+
+- (b9792) The "actor is on screen" block is now more accurate (issue #1013).
+
 March 11, 2018
 
 - (b9791) Tiles can now be zoomed out in the scene editor (issue #1028).
