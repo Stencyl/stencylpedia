@@ -2,7 +2,7 @@
 
 March 14, 2018
 
-- (b9793) Fixed a code generation problem caused by b9790.
+- (b9793-b9794) Fixed a code generation problem caused by b9790.
 
 March 13, 2018
 
