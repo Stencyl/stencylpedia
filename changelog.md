@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 18, 2018
+
+- (b9798) Fixed debug drawing display bug with the top side of actors (issue #1080).
+
 March 14, 2018
 
 - (b9793-b9794) Fixed a code generation problem caused by b9790.
