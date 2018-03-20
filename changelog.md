@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 20, 2018
+
+- (b9806) Fixed bug with tile IDs not being saved (issue #1126).
+
 March 18, 2018
 
 - (b9798) Fixed debug drawing display bug with the top side of actors (issue #1080).
