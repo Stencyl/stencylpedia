@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 22, 2018
+
+- (b9812) Fixed a type coercion error for Flash.
+
 March 20, 2018
 
 - (b9806) Fixed bug with tile IDs not being saved (issue #1126).
