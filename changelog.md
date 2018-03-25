@@ -2,6 +2,7 @@
 
 March 25, 2018
 
+- (b9827) Fixed a null object error with disabling continuous collisions.
 - (b9826) Fixed bug with sensors incorrectly registering side collisions (issue #137).
 
 March 22, 2018
