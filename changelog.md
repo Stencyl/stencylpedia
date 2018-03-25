@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 25, 2018
+
+- (b9826) Fixed bug with sensors incorrectly registering side collisions (issue #137).
+
 March 22, 2018
 
 - (b9812) Fixed a type coercion error for Flash.
