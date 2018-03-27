@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 27, 2018
+
+- (b9828) Fixed default font display bug for Flash (issue #1055).
+
 March 25, 2018
 
 - (b9827) Fixed a null object error with disabling continuous collisions.
