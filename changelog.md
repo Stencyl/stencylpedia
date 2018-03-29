@@ -1,5 +1,11 @@
 ### Changelog ###
 
+March 28, 2018
+
+- (b9833) Fix error when re-opening an actor type with recently created animations and scales above 1x are included.
+- (b9832) Sync tweens to engine updates instead of real time.
+- (b9829) More rendering/transition fixes, `ToolsetInterface.imageTrace`
+
 March 27, 2018
 
 - (b9828) Fixed default font display bug for Flash (issue #1055).
@@ -9,17 +15,41 @@ March 25, 2018
 - (b9827) Fixed a null object error with disabling continuous collisions.
 - (b9826) Fixed bug with sensors incorrectly registering side collisions (issue #137).
 
+March 23, 2018
+
+- (b9822) Fix instant fade transitions
+- (b9821)
+  - Added hscript haxelib and basic scripting support to gci.
+  - Better support for changing scale at runtime.
+  - Fix flash and ios simulator logging when started through gci.
+
 March 22, 2018
 
 - (b9812) Fixed a type coercion error for Flash.
 
+March 21, 2018
+
+- (b9811) Engine rendering performance enhancements.
+- (b9809) Mitigate an uncommon bug which causes continuously increasing number of collisions reported.
+
 March 20, 2018
 
+- (b9808) Fix adding polygon shapes to actor types.
 - (b9806) Fixed bug with tile IDs not being saved (issue #1126).
+- (b9803)
+  - Allow images to be freed from memory after uploading to gpu.
+  - Experimental batch rendering of actors with `-D use_actor_tilemap`
+  - Automatically regenerate all behaviors when block output is changed
+  - Allow HUD layer to be drawn on
 
 March 18, 2018
 
 - (b9798) Fixed debug drawing display bug with the top side of actors (issue #1080).
+
+March 17, 2018
+
+- (b9797) Make sending large amounts of data from game to toolset over gci more stable.
+- (b9795) Fix iOS simulator testing.
 
 March 14, 2018
 
@@ -39,6 +69,7 @@ March 09, 2018
 
 March 07, 2018
 
+- (b9789) Fix android app installs on Nougat.
 - (b9788) Fixed a bug with the color white on Flash (issue #1012).
 
 March 04, 2018
