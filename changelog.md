@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 29, 2018
+
+- (b9834) Fixed bug with the loading bar staying on the screen for Flash testing.
+
 March 28, 2018
 
 - (b9833) Fix error when re-opening an actor type with recently created animations and scales above 1x are included.
