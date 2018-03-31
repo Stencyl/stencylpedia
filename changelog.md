@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 31, 2018
+
+- (b9836) The override back button option now triggers the escape key as expected.
+
 March 29, 2018
 
 - (b9834) Fixed bug with the loading bar staying on the screen for Flash testing.
