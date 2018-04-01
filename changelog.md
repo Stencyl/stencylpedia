@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 01, 2018
+
+- (b9837) The "last created actor" option now works with actors placed in the scene (issue #1157).
+
 March 31, 2018
 
 - (b9836) The override back button option now triggers the escape key as expected.
