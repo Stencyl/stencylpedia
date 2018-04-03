@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 03, 2018
+
+- (b9838) Added array support for shaders with the set property block.
+
 April 01, 2018
 
 - (b9837) The "last created actor" option now works with actors placed in the scene (issue #1157).
