@@ -2,6 +2,7 @@
 
 April 03, 2018
 
+- (b9839) Fixed shader arrays for HTML5.
 - (b9838) Added array support for shaders with the set property block.
 
 April 01, 2018
