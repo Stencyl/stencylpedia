@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 04, 2018
+
+- (b9841) Removed Flash icon from image instance effect and instance blend mode blocks.  Some blend modes do not work on all platforms.
+
 April 03, 2018
 
 - (b9839) Fixed shader arrays for HTML5.
