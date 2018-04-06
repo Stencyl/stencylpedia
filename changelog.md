@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 06, 2018
+
+- (b9842) The image of actor block now works properly when autoscale images is turned off.  Also, the block returns the actual actor image, so in some cases the copy of image block will need to be used (issue #983).
+
 April 04, 2018
 
 - (b9841) Removed Flash icon from image instance effect and instance blend mode blocks.  Some blend modes do not work on all platforms.
