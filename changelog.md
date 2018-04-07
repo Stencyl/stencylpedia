@@ -2,6 +2,7 @@
 
 April 07, 2018
 
+- (b9844) Fixed image API font scaling bugs (issue #984).
 - (b9843) Fixed a font display bug for Flash introduced in b9828.
 
 April 06, 2018
