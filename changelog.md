@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 09, 2018
+
+- (b9850) Enabled 1.5x scale for HTML5.
+
 April 07, 2018
 
 - (b9845) Fixed antialiasing for actors (issue #1154).
