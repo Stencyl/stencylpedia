@@ -2,6 +2,7 @@
 
 April 09, 2018
 
+- (b9851) Fixed preloader size (issue #1104).
 - (b9850) Enabled 1.5x scale for HTML5.
 
 April 07, 2018
