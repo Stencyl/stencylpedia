@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 10, 2018
+
+- (b9852) Fixed issue with internal sprite names for duplicated and renamed actors (issue #1158).
+
 April 09, 2018
 
 - (b9851) Fixed preloader size (issue #1104).
