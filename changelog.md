@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 11, 2018
+
+- (b9854) Fixed bug with text not resizing when changing the game scale (issue #1156).
+
 April 10, 2018
 
 - (b9852) Fixed issue with internal sprite names for duplicated and renamed actors (issue #1158).
