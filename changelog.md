@@ -1,5 +1,7 @@
 ### Changelog ###
 
+- (b9855) Additional scaling fixes for the preloader (issue #1104).
+
 April 11, 2018
 
 - (b9854) Fixed bug with text not resizing when changing the game scale (issue #1156).
