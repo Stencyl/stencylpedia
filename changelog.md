@@ -1,5 +1,11 @@
 ### Changelog ###
 
+April 13, 2018
+
+- (b9856) Fixed default font scaling when toggling full screen (issue #1156).
+
+April 12, 2018
+
 - (b9855) Additional scaling fixes for the preloader (issue #1104).
 
 April 11, 2018
