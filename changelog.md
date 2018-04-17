@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 17, 2018
+
+- (b9858) New attributes named X and Y will have different internal names to fix a compile issue for Android.
+
 April 13, 2018
 
 - (b9856) Fixed default font scaling when toggling full screen (issue #1156).
