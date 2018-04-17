@@ -2,6 +2,7 @@
 
 April 17, 2018
 
+- (b9859) Updated Follow Path behavior.
 - (b9858) New attributes named X and Y will have different internal names to fix a compile issue for Android.
 
 April 13, 2018
