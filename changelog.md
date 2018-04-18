@@ -2,6 +2,7 @@
 
 April 17, 2018
 
+- (b9860) Set Android versions for extension manifests to avoid extra permissions being added.
 - (b9859) Updated Follow Path behavior.
 - (b9858) New attributes named X and Y will have different internal names to fix a compile issue for Android.
 
