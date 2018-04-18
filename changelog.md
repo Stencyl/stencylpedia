@@ -2,6 +2,7 @@
 
 April 18, 2018
 
+- (b9862) Return null if layer ID is -1 to preserve functionality of some blocks.
 - (b9861) Fixed a bug with the "scene is transitioning" block and 0 duration transitions.
 
 April 17, 2018
