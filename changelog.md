@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 18, 2018
+
+- (b9861) Fixed a bug with the "scene is transitioning" block and 0 duration transitions.
+
 April 17, 2018
 
 - (b9860) Set Android versions for extension manifests to avoid extra permissions being added.
