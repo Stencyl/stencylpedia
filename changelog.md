@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 19, 2018
+
+- (b9863) Added some top padding to fonts to fix a pixel bleeding bug (#1175).
+
 April 18, 2018
 
 - (b9862) Return null if layer ID is -1 to preserve functionality of some blocks.
