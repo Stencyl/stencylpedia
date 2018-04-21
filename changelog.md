@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 21, 2018
+
+- (b9864) Fixed a bug with actor drawing opacity affecting scene drawing opacity (issue #1184).
+
 April 19, 2018
 
 - (b9863) Added some top padding to fonts to fix a pixel bleeding bug (#1175).
