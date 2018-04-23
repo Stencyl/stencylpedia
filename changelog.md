@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 23, 2018
+
+- (b9865) Fixed missing recycled actor animations when toggling full screen (issue #1162).
+
 April 21, 2018
 
 - (b9864) Fixed a bug with actor drawing opacity affecting scene drawing opacity (issue #1184).
