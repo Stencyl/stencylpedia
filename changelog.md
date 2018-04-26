@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 25, 2018
+
+- (b9866) Multiple gamepad buttons can now be mapped to the same control, and there are two new blocks for unmapping either a button or control.
+
 April 23, 2018
 
 - (b9865) Fixed missing recycled actor animations when toggling full screen (issue #1162).
