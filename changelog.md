@@ -1,5 +1,9 @@
 ### Changelog ###
 
+April 29, 2018
+
+- (b9867) Added block to set the collision response of two groups.
+
 April 25, 2018
 
 - (b9866) Multiple gamepad buttons can now be mapped to the same control, and there are two new blocks for unmapping either a button or control.
