@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 03, 2018
+
+- (b9868) Fixed "load image from URL" block (issue #1191).
+
 April 29, 2018
 
 - (b9867) Added block to set the collision response of two groups.
