@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 05, 2018
+
+- (b9875) Added error code logging if sign in fails for Google Play Games.
+
 May 03, 2018
 
 - (b9868) Fixed "load image from URL" block (issue #1191).
