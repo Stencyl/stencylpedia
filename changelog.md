@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 06, 2018
+
+- (b9876) Don't trigger focus events of the same type twice in a row (issue #1193).
+
 May 05, 2018
 
 - (b9875) Added error code logging if sign in fails for Google Play Games.
