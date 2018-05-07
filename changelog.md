@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 07, 2018
+
+- (b9877) Fixed a scaling bug with engine.setZoom (issue #464).
+
 May 06, 2018
 
 - (b9876) Don't trigger focus events of the same type twice in a row (issue #1193).
