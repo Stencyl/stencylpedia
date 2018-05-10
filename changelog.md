@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 10, 2018
+
+- (b9878) Fixed error with showing Android fingerprints when there isn't a debug keystore.
+
 May 07, 2018
 
 - (b9877) Fixed a scaling bug with engine.setZoom (issue #464).
