@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 14, 2018
+
+- (b9879) Fixed context for font spacing block (issue #1015).
+
 May 10, 2018
 
 - (b9878) Fixed error with showing Android fingerprints when there isn't a debug keystore.
