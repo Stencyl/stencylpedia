@@ -2,6 +2,7 @@
 
 May 14, 2018
 
+- (b9880) Fixed Android crash caused by user canceling Google Play Games (issue #1201).
 - (b9879) Fixed context for font spacing block (issue #1015).
 
 May 10, 2018
