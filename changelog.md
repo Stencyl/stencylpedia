@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 19, 2018
+
+- (b9881) The "free unmanaged android purchase" block now works even if the locally stored quantity is 0 (issue #1200).
+
 May 14, 2018
 
 - (b9880) Fixed Android crash caused by user canceling Google Play Games (issue #1201).
