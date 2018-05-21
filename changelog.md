@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 21, 2018
+
+- (b9882) Labels now use the font's spacing when setting the font or text (issue #1015).
+
 May 19, 2018
 
 - (b9881) The "free unmanaged android purchase" block now works even if the locally stored quantity is 0 (issue #1200).
