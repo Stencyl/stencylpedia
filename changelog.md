@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 23, 2018
+
+- (b9883) Fixed a bug where purchases weren't being consumed due to outdated purchase info (issue #1200).
+
 May 21, 2018
 
 - (b9882) Labels now use the font's spacing when setting the font or text (issue #1015).
