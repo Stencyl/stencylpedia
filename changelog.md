@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 26, 2018
+
+- (b9884) Fixed mouse detection for scaled actors with non-center origin points (issue #944).
+
 May 23, 2018
 
 - (b9883) Fixed a bug where purchases weren't being consumed due to outdated purchase info (issue #1200).
