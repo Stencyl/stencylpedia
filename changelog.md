@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 27, 2018
+
+- (b9885) Labels now use the line height property of bitmap fonts (issue #243).
+
 May 26, 2018
 
 - (b9884) Fixed mouse detection for scaled actors with non-center origin points (issue #944).
