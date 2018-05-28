@@ -1,5 +1,9 @@
 ### Changelog ###
 
+May 28, 2018
+
+- (b9886) Fixed a crash caused by attaching the same instance multiple times to a layer (issue #1223).
+
 May 27, 2018
 
 - (b9885) Labels now use the line height property of bitmap fonts (issue #243).
