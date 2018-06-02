@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 02, 2018
+
+- (b9888) Removed NDK 16 and 16b from the tools download listing (issue #1127).
+
 May 28, 2018
 
 - (b9886) Fixed a crash caused by attaching the same instance multiple times to a layer (issue #1223).
