@@ -2,6 +2,7 @@
 
 June 03, 2018
 
+- (b9890) Fixed an issue with actor mass resetting after adding new collision shapes.
 - (b9889) Collision shapes created with blocks now use the friction and bounciness of the actor. 
 
 June 02, 2018
