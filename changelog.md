@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 03, 2018
+
+- (b9889) Collision shapes created with blocks now use the friction and bounciness of the actor. 
+
 June 02, 2018
 
 - (b9888) Removed NDK 16 and 16b from the tools download listing (issue #1127).
