@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 04, 2018
+
+- (b9891) Fixed center of mass for collision shapes created with blocks.
+
 June 03, 2018
 
 - (b9890) Fixed an issue with actor mass resetting after adding new collision shapes.
