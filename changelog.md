@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 05, 2018
+
+- (b9892) Fixed "text as image" block.
+
 June 04, 2018
 
 - (b9891) Fixed center of mass for collision shapes created with blocks.
