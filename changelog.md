@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 09, 2018
+
+- (b9893) Fixed "Fade In/Out Sound over () secs" block (issue #1231).
+
 June 05, 2018
 
 - (b9892) Fixed "text as image" block.
