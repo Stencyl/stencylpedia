@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 11, 2018
+
+- (b9895) Fixed an error with null tiles being placed in the scene (issue #1232).
+
 June 09, 2018
 
 - (b9893) Fixed "Fade In/Out Sound over () secs" block (issue #1231).
