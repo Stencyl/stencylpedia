@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 16, 2018
+
+- (b9905) Fixed a selection bug when moving a map value down (issue #1240).
+
 June 15, 2018
 
 - (b9898) Fixed error with saving/editing an imported actor due to missing scales.
