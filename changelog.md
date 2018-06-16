@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 15, 2018
+
+- (b9898) Fixed error with saving/editing an imported actor due to missing scales.
+
 June 11, 2018
 
 - (b9895) Fixed an error with null tiles being placed in the scene (issue #1232).
