@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 19, 2018
+
+- (b9909) Fixed a simple physics bug where tiles were not being detected from multiple sides (issue #922).
+
 June 16, 2018
 
 - (b9905) Fixed a selection bug when moving a map value down (issue #1240).
