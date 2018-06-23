@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 22, 2019
+
+- (b9910) Changed default Android target version to API 26.
+
 June 19, 2018
 
 - (b9909) Fixed a simple physics bug where tiles were not being detected from multiple sides (issue #922).
