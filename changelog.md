@@ -1,5 +1,9 @@
 ### Changelog ###
 
+June 25, 2019
+
+- (b9911) Scaled actors with non-center origin points now appear in game as they do in the scene designer (issue #115).
+
 June 22, 2019
 
 - (b9910) Changed default Android target version to API 26.
