@@ -1,14 +1,18 @@
 ### Changelog ###
 
-June 30, 2019
+July 01, 2018
+
+- (b9915) Fixed alignment and spacing bugs with labels (issue #1265).
+
+June 30, 2018
 
 - (b9913) Changing the sound type now marks the resource as dirty so autosave can work properly (issue #1103).
 
-June 25, 2019
+June 25, 2018
 
 - (b9911) Scaled actors with non-center origin points now appear in game as they do in the scene designer (issue #115).
 
-June 22, 2019
+June 22, 2018
 
 - (b9910) Changed default Android target version to API 26.
 
