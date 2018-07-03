@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 02, 2018
+
+- (b9916) Created actors no longer reset synchronized animations (issue #1267).
+
 July 01, 2018
 
 - (b9915) Fixed alignment and spacing bugs with labels (issue #1265).
