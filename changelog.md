@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 03, 2018
+
+- (b9917) Changed internal name for some single-letter attribute names to fix compilation errors on Android (issue #1270).
+
 July 02, 2018
 
 - (b9916) Created actors no longer reset synchronized animations (issue #1267).
