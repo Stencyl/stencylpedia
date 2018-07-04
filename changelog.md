@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 04, 2018
+
+- (b9918) Fixed null pointer error with the block picker (issue #1271).
+
 July 03, 2018
 
 - (b9917) Changed internal name for some single-letter attribute names to fix compilation errors on Android (issue #1270).
