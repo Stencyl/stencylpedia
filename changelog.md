@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 05, 2018
+
+- (b9922) Added some padding to the fade transition to avoid display issues caused by scaling (issue #1273).
+
 July 04, 2018
 
 - (b9918) Fixed null pointer error with the block picker (issue #1271).
