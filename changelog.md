@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 08, 2018
+
+- (b9923) Prevent duplicate custom block names (issue #1263).
+
 July 05, 2018
 
 - (b9922) Added some padding to the fade transition to avoid display issues caused by scaling (issue #1273).
