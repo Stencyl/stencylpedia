@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 10, 2018
+
+- (b9924) Fixed default sound attributes set in behaviors.
+
 July 08, 2018
 
 - (b9923) Prevent duplicate custom block names (issue #1263).
