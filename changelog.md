@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 15, 2018
+
+- (b9925) Fixed Android keyboard back button bug and restarting bug (issue #187).
+
 July 10, 2018
 
 - (b9924) Fixed default sound attributes set in behaviors.
