@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 16, 2018
+
+- (b9927) Fixed bug with actor custom blocks having different code names for the actor in other languages (issue #1298).
+
 July 15, 2018
 
 - (b9925) Fixed Android keyboard back button bug and restarting bug (issue #187).
