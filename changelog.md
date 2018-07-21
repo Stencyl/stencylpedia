@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 21, 2018
+
+- (b9928) Allow the Android keyboard to show in landscape mode (issue #187).
+
 July 16, 2018
 
 - (b9927) Fixed bug with actor custom blocks having different code names for the actor in other languages (issue #1298).
