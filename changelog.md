@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 24, 2018
+
+- (b9936) When the Android keyboard is hidden, also hide the navigation bar (issue #187).
+
 July 21, 2018
 
 - (b9928) Allow the Android keyboard to show in landscape mode (issue #187).
