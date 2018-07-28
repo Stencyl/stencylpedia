@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 28, 2018
+
+- (b9938) Fixed a bug with dragged blocks making the scroll area shorter (issue #1304).
+
 July 24, 2018
 
 - (b9936) When the Android keyboard is hidden, also hide the navigation bar (issue #187).
