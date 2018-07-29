@@ -1,5 +1,9 @@
 ### Changelog ###
 
+July 29, 2018
+
+- (b9939) Fonts set to custom characters now have more accurate atlas numbers (issue #823).
+
 July 28, 2018
 
 - (b9938) Fixed a bug with dragged blocks making the scroll area shorter (issue #1304).
