@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 06, 2018
+
+- (b9944) Updated some scene behaviors in Stencyl's library to replace deprecated blocks.
+
 July 29, 2018
 
 - (b9939) Fonts set to custom characters now have more accurate atlas numbers (issue #823).
