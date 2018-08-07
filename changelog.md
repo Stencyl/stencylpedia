@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 07, 2018
+
+- (b9947) Updated Actuate which includes a fix to pausing bug (issue #1261).
+
 August 06, 2018
 
 - (b9944) Updated some scene behaviors in Stencyl's library to replace deprecated blocks.
