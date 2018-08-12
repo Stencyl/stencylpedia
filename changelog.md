@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 12, 2018
+
+- (b9973) Scroll arrows now appear when trying to move a resource if there are many atlases (issue #914).
+
 August 11, 2018
 
 - (b9972) Fixed a bug with actors not being paused on creation (issue #1322).
