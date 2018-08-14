@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 13, 2018
+
+- (b9974) Updated actor behaviors in Stencyl's library that had deprecated blocks.
+
 August 12, 2018
 
 - (b9973) Scroll arrows now appear when trying to move a resource if there are many atlases (issue #914).
