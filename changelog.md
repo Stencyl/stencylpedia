@@ -2,6 +2,7 @@
 
 August 19, 2018
 
+- (b9977) Fix for tile collision shapes not being removed after setting new tiles.
 - (b9976) Fixed search box for behaviors (issue #172).
 
 August 15, 2018
