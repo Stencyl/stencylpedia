@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 19, 2018
+
+- (b9976) Fixed search box for behaviors (issue #172).
+
 August 15, 2018
 
 - (b9975) The default size of circle collision shapes now adjusts to the size of the animation.
