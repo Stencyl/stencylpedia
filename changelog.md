@@ -1,5 +1,9 @@
 ### Changelog ###
 
+August 28, 2018
+
+- (b9978) Attributes can now be sorted by clicking on the "Name", "Type", or "Hidden?" buttons (issue #249).
+
 August 19, 2018
 
 - (b9977) Fix for tile collision shapes not being removed after setting new tiles.
