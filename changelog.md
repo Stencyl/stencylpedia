@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 01, 2018
+
+- (b9980) Fixed error caused by saving a new animation with no frames (issue #1302).
+
 August 28, 2018
 
 - (b9978) Attributes can now be sorted by clicking on the "Name", "Type", or "Hidden?" buttons (issue #249).
