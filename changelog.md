@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 02, 2018
+
+- (b9981) Engine extension blocks no longer replace core blocks if they have the same tag (issue #213).
+
 September 01, 2018
 
 - (b9980) Fixed error caused by saving a new animation with no frames (issue #1302).
