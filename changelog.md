@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 03, 2018
+
+- (b9982) Minimizing Stencyl from full screen will no longer change the saved window size (issue #1204).
+
 September 02, 2018
 
 - (b9981) Engine extension blocks no longer replace core blocks if they have the same tag (issue #213).
