@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 09, 2018
+
+- (b9983) Recycled actors will now be created in the correct position when the game is paused (issue #1336).
+
 September 03, 2018
 
 - (b9982) Minimizing Stencyl from full screen will no longer change the saved window size (issue #1204).
