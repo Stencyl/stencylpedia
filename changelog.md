@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 23, 2018
+
+- (b9992) Added the Android portion of the AdMob consent SDK (issue #1218).
+
 September 09, 2018
 
 - (b9983) Recycled actors will now be created in the correct position when the game is paused (issue #1336).
