@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 24, 2018
+
+- (b9994) Added iPhone X Max dropdown option.
+
 September 23, 2018
 
 - (b9992) Added the Android portion of the AdMob consent SDK (issue #1218).
