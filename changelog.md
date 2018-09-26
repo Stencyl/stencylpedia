@@ -1,5 +1,9 @@
 ### Changelog ###
 
+September 26, 2018
+
+- (b10004) Adjusted pixel detection for the iPhone X Max dropdown option.
+
 September 24, 2018
 
 - (b9994) Added iPhone X Max dropdown option.
