@@ -2,6 +2,7 @@
 
 September 26, 2018
 
+- (b10005) Added iPhone XR dropdown option.
 - (b10004) Adjusted pixel detection for the iPhone X Max dropdown option.
 
 September 24, 2018
