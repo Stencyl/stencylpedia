@@ -58,7 +58,7 @@ Click on the image below to play a sample flash file of what your game should lo
 
 <a href="http://static.stencyl.com/pedia2/ch1/cc2/no-movement.swf">![Test Demo](http://static.stencyl.com/pedia2/playitnow.png)</a>
 
-We'll get to using the Explosion sound effect that we uploaded earlier when we handle destroying the Enemy ships. Now it’s time to move on to an Events that will let the player move the Ship using keyboard keys.
+We'll get to using the Explosion sound effect that we uploaded earlier when we handle destroying the Enemy ships. Now it’s time to move on to an Event that will let the player move the Ship using keyboard keys.
 
 ***
 
