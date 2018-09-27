@@ -50,7 +50,7 @@ Text | ![stencyl-design-mode-text-type-attribute](http://static.stencyl.com/pedi
  
 ## Gotchas
 
-Something you might bump into fairly early on is this.
+Something you might bump into fairly early on is shown in the following image:
 
 ![Cannot configure](http://static.stencyl.com/pedia2/ch4/customize/image05.png)
 
