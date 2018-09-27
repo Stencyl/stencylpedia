@@ -78,7 +78,7 @@ First, change **Move Right Key** and **Move Left Key** to the _**right**_ and _*
 
 ![Control Attributes](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-24.png)
 
-> **Definition:** **Controls** map physical keyboard keys or gamepad buttons to names you can refer to in your behaviors. If you ever decide to change the actual key, you just have to change it once place. See our Controls article for more information.
+> **Definition:** **Controls** map physical keyboard keys or gamepad buttons to names you can refer to in your behaviors. If you ever decide to change the actual key, you just have to change it in one place. See our Controls article for more information.
 
 9) Then choose the desired animations by clicking on the **Choose an Animation** button and selecting the animation sequences you want.
 
