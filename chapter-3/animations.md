@@ -123,7 +123,7 @@ We cover how to define Collision Bounds in our [Collisions](http://www.stencyl.c
 
 ## Switching Animations
 
-All of these blocks are found under **Actor > Drawing** (renamed to **Actors > Draw** in the Palette on the right-hand side of the **Events** tab).
+All of these blocks are found under **Actors > Draw** in the Design Mode Palette.
 
 #### Switch Animation
 This block switches the actor's animation to the one you specify.
