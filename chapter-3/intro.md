@@ -28,7 +28,7 @@ Appearance dictates how an Actor looks. In the 2D games we build, we call these 
 
 [Animations](http://www.stencyl.com/help/view/animations/) are a collection of frames that are played out in sequence and usually loop, to form a fluid, living visual representation of the actor.
 
-Actors need not be bound to a single animation. They can switch between different states, each which are associated with their own Animation and collision bounds.
+Actors need not be bound to a single animation. They can switch between different states, each of which is associated with its own Animation and collision bounds.
 
 Consider the hero or "player" character in a platformer such as Mario. This character will have states for standing, walking, running and jumping.
 
@@ -120,14 +120,14 @@ But every instance of this enemy exists at a different location on the scene. Wh
 
 ![](http://static.stencyl.com/pedia2/ch3/intro/image05.png)
 
-This, in a gist is the distinction between an Actor Type and Actor Instance.
+This, in essence, is the distinction between an Actor Type and Actor Instance.
 
 > **Programmers' Note:** Types are akin to Classes, while Instances are akin to Objects.
  
 
 ## Summary
 
-* Actors are the things that make a game come to life. In simple terms, they are the "objects" or "props"
-* Actors can take on different Animation States, each with their own Animation and Collision Bounds.
+* Actors are the things that make a game come to life. In simple terms, they are the "objects" or "props".
+* Actors can take on different Animation States, each with its own Animation and Collision Bounds.
 * You can control how an Actor acts by attaching Behaviors or Events.
-* Actors obey the laws of physics. You can tweak an Actor's physical properties such as whether it can move, its mass and friction.
+* Actors obey the laws of physics. You can tweak an Actor's physical properties, such as whether it can move, its mass and friction.
