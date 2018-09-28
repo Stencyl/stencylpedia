@@ -18,7 +18,6 @@ Animations bring actors to life. They represent the visuals of an actor, its col
 
 * A platformer hero's states (Stand, Walk, Run, Jump)
 * Destructible Objects that "break" when hit by something else (Broken, Not Broken)
-treasure-chest-animation
 * Treaure Chest (Opened, Not Opened)<br/><br/>![](http://static.stencyl.com/pedia2/ch3/animation/image18.png)
 
 #### What does an Animation Consist of?
@@ -28,11 +27,11 @@ Each Animation state consists of 2 separate parts:
 * Frames (how it **looks**)
 * Collision Bounds (its collision **shape**)
 
-**Frames** are like pages in a flipbook. Each frame represents a a different image or "page" in the book. When these images change quickly over a period of time, the result is an animation.
+**Frames** are like pages in a flipbook. Each frame represents a different image or "page" in the book. When these images change quickly over a period of time, the result is an animation.
 
 ![stencyl-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/image21.png)
 
-**Collision Bounds** determine the physical shape(s) that an an actor assumes in a particular Animation state.
+**Collision Bounds** determine the physical shape(s) that an actor assumes in a particular Animation state.
 
 ![](http://static.stencyl.com/pedia2/ch3/animation/image06.png)
  
@@ -70,7 +69,7 @@ You can drag and drop an image into Stencyl while the Actor Editor is open. Doin
 
 > **Notes**
 * Dragging in an animated GIF will bypass the dialog and immediately import the frames.
-* Dragging in an image to the Dashboard or an editor that is not the Actor Editor will have varying effects, none which will import a new animation for the current Actor.
+* Dragging in an image to the Dashboard or an editor that is not the Actor Editor will have varying effects, none of which will import a new animation for the current Actor.
 
 
 ## Working with Animations
@@ -104,7 +103,7 @@ Every frame can be given a different duration (in milliseconds). Double-click ea
 
 Individual animation frames can be edited in an external editor. This is useful for making small tweaks to the graphics, without having to re-import the whole animation.
 
-Double-click a frame's box to bring up its edit dialog. Then, click the **Edit Image** button to open it up an external editor.
+Double-click a frame's box to bring up its edit dialog. Then, click the **Edit Image** button to open it up in an external editor.
 
 ![](http://static.stencyl.com/pedia2/ch3/animation/edit-frame.png)
 
@@ -113,7 +112,7 @@ Double-click a frame's box to bring up its edit dialog. Then, click the **Edit I
 
 ## Collision Bounds
 
-Collision Bounds determine the physical shape(s) that an an actor assumes in a particular Animation state.
+Collision Bounds determine the physical shape(s) that an actor assumes in a particular Animation state.
 
 To define Collision Bounds, flip to the "Collisions" page of the Actor Editor. There, you will be able to edit your Animation's Collision Bounds on a per-animation basis.
 
@@ -124,7 +123,7 @@ We cover how to define Collision Bounds in our [Collisions](http://www.stencyl.c
 
 ## Switching Animations
 
-All of these blocks are found under **Actor > Drawing**.
+All of these blocks are found under **Actors > Draw** in the Design Mode Palette.
 
 #### Switch Animation
 This block switches the actor's animation to the one you specify.
@@ -182,7 +181,7 @@ So suppose that we start with just the basic animations.
   * Up
   * Down
 
-Not to bad so far. But Link holds a sword! So we have to add 2 more sets of animations, one for holding the sword and one for slashing it.
+Not too bad so far. But Link holds a sword! So we have to add 2 more sets of animations, one for holding the sword and one for slashing it.
 
 * Walk
   * Left
@@ -232,7 +231,7 @@ Note that when using the "switch animation" block, you cannot type text directly
 
 ![stencyl-design-mode-as-animation-casting-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
 
-> **Reminder:** All animation-related blocks are located under Actor > Draw.
+> **Reminder:** All animation-related blocks are located under Actors > Draw.
  
 
 #### Actors with No Animations
@@ -252,6 +251,6 @@ Actors with no animations at all may crash the game. We'll address this in a fut
 
 We talked about the "Zelda Dilemma" above. Now's your chance to see this for yourself and do things the right way.
 
-Create a simple walkaround demo in which the character can equip different items that show up in that character. Do this the right way, by making those items each their own actors.
+Create a simple walkaround demo in which the character can equip different items that show up in that character. Do this the right way, by making those items each its own actor.
 
 ![zelda-link-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/image00.png)
