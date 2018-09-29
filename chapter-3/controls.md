@@ -14,7 +14,7 @@
 
 ## Detecting the Keyboard
 
-Detecting keyboard input works differently in Stencyl than it does in other systems. We use the notion of a an **Control** to make your keyboard controls **flexible** and **easy to remap**.
+Detecting keyboard input works differently in Stencyl than it does in other systems. We use the notion of a **Control** to make your keyboard controls **flexible** and **easy to remap**.
 
 A Control is a name that you assign to an action in a game. For example, if we were designing a control scheme for a Mario game, it would look like this.
 
@@ -31,7 +31,7 @@ Pause | Start
 
 #### Setting up Controls in Stencyl
 
-The same idea applies to Stencyl, through a game’s Controls Page. To set Controls, click the Settings button, shown below, to open that dialog.
+The same idea applies to Stencyl, through a game's Controls Page. To set Controls, click the Settings button, shown below, to open that dialog.
 
 ![Settings](http://static.stencyl.com/help/images/Settings-Button-New.png)
 
@@ -44,13 +44,13 @@ Now, when you check whether a key is pressed, released or down, instead of check
 ![stencyl-design-mode-check-keyboard-input](http://static.stencyl.com/pedia2/ch3/controls/image00.png)
 
 
-#### Why can’t we just check the key directly?
+#### Why can't we just check the key directly?
 
-* What if you decide to change your control scheme? You’d have to change it everywhere.
+* What if you decide to change your control scheme? You'd have to change it everywhere.
 
 * What if you wanted to make your control scheme configurable? That would be a mess. With Controls, you just change what key the Control is mapped to.
 
-> **Note:** To reduce the amount of setup, all Stencyl games come pre-shipped with a default set of controls (arrow keys, action 1, action 2). You’re free to edit them or delete them.
+> **Note:** To reduce the amount of setup, all Stencyl games come pre-shipped with a default set of controls (arrow keys, action 1, action 2). You're free to edit them or delete them.
  
 
 ## Mouse
@@ -63,7 +63,7 @@ Now, when you check whether a key is pressed, released or down, instead of check
 
 ![stencyl-design-mode-get-mouse-state](http://static.stencyl.com/pedia2/ch3/controls/mouse-basic.png)
 
-**Pressed** and **Released** are one-off “events” - they **fire once per that action**, whereas “down” is a constant state that can be checked.
+**Pressed** and **Released** are one-off "events" - they **fire once per that action**, whereas "down" is a constant state that can be checked.
 
 > Mouse presses and releases can also be detected using the **Click** event (under Add Event > Input)
 
@@ -114,7 +114,7 @@ Other mobile input topics are covered separately.
 
 ## Example: 4 Way Motion
 
-This example shows how to use the keyboard to implement a 4-way motion behavior. Up/Down/Left/Right are pre-defined controls that come with each game - they are not to be mixed up with the actual keys by the same name.
+This example shows how to use the keyboard to implement a 4-way motion behavior. Up/Down/Left/Right are pre-defined controls that come with each game - they are not to be mixed up with the arrow keys with the same name.
 
 ![stencyl-design-mode-four-way-motion-example](http://static.stencyl.com/pedia2/ch3/controls/image06.png)
 
@@ -172,7 +172,7 @@ There is a subtle bug in our example code above. Can you spot it?
 
 ## Summary
 
-* Detect key events by creating abstract controls and checking the state those controls.
+* Detect key events by creating abstract controls and checking the state of those controls.
 * Controls let you change the control scheme for your game from one place.
  
 
@@ -180,15 +180,15 @@ There is a subtle bug in our example code above. Can you spot it?
 
 Create a button that responds to Mouse controls but goes beyond just a one liner "when pressed, do something".
 
-The button should work just like a regular button. Specifically, don’t register a button click unless the gesture was both started and completed on the button.
+The button should work just like a regular button. Specifically, don't register a button click unless the gesture was both started and completed on the button.
 
 > **Note:** Think of scenarios where simply detecting a release would be incorrect.
 
 
 ## Challenge: Cutscenes
 
-We include a block for simulating key presses and releases. It’s useful for creating on-screen buttons in mobile games that can act as if they were physical keyboard buttons.
+We include a block for simulating key presses and releases. It's useful for creating on-screen buttons in mobile games that can act as if they were physical keyboard buttons.
 
 ![stencyl-design-mode-simulate-key-press-block](http://static.stencyl.com/pedia2/ch3/controls/image03.png)
 
-It’s also useful for creating cutscenes - in-game sequences that the player does not control but watches, like a movie. **Make a cutscene using this block**.
+It's also useful for creating cutscenes - in-game sequences that the player does not control but watches, like a movie. **Make a cutscene using this block**.
