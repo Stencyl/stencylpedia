@@ -12,13 +12,13 @@
 
 ##How Actors Move and Rotate
 
-What good is a physics game if you can’t make things move?
+What good is a physics game if you can't make things move?
 
 In Stencyl, you can **move** an Actor in one of three ways:
 
-* Setting the Actor’s **position**
-* Setting the Actor’s **velocity**
-* **Pushing** the Actor in the direction you’d like it to move
+* Setting the Actor's **position**
+* Setting the Actor's **velocity**
+* **Pushing** the Actor in the direction you'd like it to move
 
 On top of this, you can **rotate** an Actor in a similar set of ways:
 
@@ -34,7 +34,7 @@ The position of an Actor is its location within a scene, measured in X (horizont
 ![position](http://static.stencyl.com/pedia2/ch4/basics/image12.png)
 
 #### How To: Setting an Actor's Position
-You can set an Actor’s position using the “Set X/Y to” block under **Actor > Position**.
+You can set an Actor's position using the "Set X/Y to" block under **Actor > Position**.
 
 ![set actor position](http://static.stencyl.com/pedia2/ch3/motion/image00.png)
 
@@ -58,7 +58,7 @@ To move the Actor, you are incrementing its position like this. (In short, x = x
 
 ![](http://static.stencyl.com/pedia2/ch3/motion/image17.png)
 
-You now test the game and notice that the ball sails right past the wall as if it weren't there. What happened?
+You now test the game and notice that the ball sails right past the wall as if it weren't there. Why did that happen?
 
 Because setting positions is like teleporting. The actor isn't smoothly moving towards the right. He's teleporting to the right in steps, big enough steps that he skips the wall entirely, and no collisions are recorded.
 
@@ -77,7 +77,7 @@ Velocity is the speed of an object in a given direction.
  
 
 #### How To: Setting an Actor's Velocity
-Set an Actor’s X/Y speed using the “Set X/Y speed to” block under **Actor > Motion**.
+Set an Actor's X/Y speed using the "Set X/Y speed to" block under **Actor > Motion**.
 
 ![](http://static.stencyl.com/pedia2/ch3/motion/image02.png)
 
@@ -101,7 +101,7 @@ If you prefer setting the Velocity in terms of a direction and speed, we have a 
 > **Note:** Direction is in degrees (0 - 360). 0 degrees is right. Angle sweeps clockwise, so 90 degrees would be down.
  
 #### How To: Getting an Actor's Velocity
-In some cases we may also want to find out how fast an Actor is traveling in a given direction. We can do this by using the “X/Y speed of” block under **Actor > Motion**.
+In some cases we may also want to find out how fast an Actor is traveling in a given direction. We can do this by using the "X/Y speed of" block under **Actor > Motion**.
 
 ![](http://static.stencyl.com/pedia2/ch3/motion/image05.png)
 
@@ -116,7 +116,7 @@ What is a force? In Stencyl terms, a force is something that **pushes an object 
  
 
 #### How To: Pushing
-You can push an object towards a given point using the “Push toward [X, Y]” block. (Actor > Motion)
+You can push an object towards a given point using the "Push toward [X, Y]" block. (Actor > Motion)
 
 ![](http://static.stencyl.com/pedia2/ch3/motion/image06.png)
 
@@ -208,19 +208,19 @@ The following 2 blocks (under **Actor > Motion**) set the turning speed and get 
 
 ## Twisting (Angular Force)
 
-You can also rotate, or twist, an object with a given force using the “twist” block. This is **like twisting the cap off a jar**.
+You can also rotate, or twist, an object with a given force using the "twist" block. This is **like twisting the cap off a jar**.
 
 Much like the distinction between Velocity and Forces, the same kinds of differences between Turning Speed and Twisting apply here.
 
-The following block twists an actor (under **Actor > Motion**). There's, curiously, no notion of gently/sharply here since Box2D does not provide it.
+The following block twists an actor (under **Actor > Motion**). There's, curiously, no notion of gently/sharply here since Box2D, the physics simulator engine, does not provide it.
 
 ![](http://static.stencyl.com/pedia2/ch3/motion/image12.png)
 
 
 ## Summary
 
-* An Actor can move in three ways: Set its position, Set its Velocity, Apply a Force to it.
-* Setting an Actor’s position is like teleporting.
+* An Actor can move in three ways: Set its Position, Set its Velocity, Apply a Force to it.
+* Setting an Actor's position is like teleporting.
 * Setting the velocity of an actor makes it move at a constant speed in a given direction.
-* Forces push actors around. They're the most natural but the most difficult to get a constant/fixed result from.
-* Direction, Turning Speed and Twisting are the angular equivalents to Position, Velocity and Force.
+* Forces push actors around. They're the most natural, but the most difficult to get a constant/fixed result from.
+* Angular Direction, Turning Speed and Twisting are the angular counterparts of Position, linear Speed and Force.
