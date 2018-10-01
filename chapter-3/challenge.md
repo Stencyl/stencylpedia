@@ -11,7 +11,7 @@ Chapter 3 was all about Actors. You learned about...
 
 That's quite a lot to take in.
 
-Now that you’re familiar with these concepts, it's time to demonstrate your mastery of them by creating a game, with our help.
+Now that you're familiar with these concepts, it's time to demonstrate your mastery of them by creating a game, with our help.
 
 
 ## Challenge: Create "Breakout"
@@ -31,7 +31,7 @@ A short delay between ball launches. | ---
 Blocks that change color and make a sound, when they collide with the ball. | ![breakout-screenshot-bouncing-ball](http://static.stencyl.com/pedia2/ch3/challenge/image11.png)
 
 ## Start with this Project
-To help you get started, we’ve created a basic Kit with graphics, sounds, and a Scene to get you started and so you don't need to import any game resources. Just write the logic.
+To help you get started, we've created a basic Kit with graphics, sounds, and a Scene to get you started and so you don't need to import any game resources. Just write the logic.
 
 [Download the Project](http://static.stencyl.com/pedia2/ch3/Chapter3.stencyl)
 
