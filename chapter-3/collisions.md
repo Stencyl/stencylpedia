@@ -10,7 +10,7 @@
 
 ## Collisions are Automatic
 
-Because Stencyl is powered by [Box2D](http://www.stencyl.com/help/view/working-with-physics/), collisions happen automatically, as if every object existed in “real-life.” For the default cases, no action is required on your part to make collisions happen.
+Because Stencyl is powered by [Box2D](http://www.stencyl.com/help/view/working-with-physics/), collisions happen automatically, as if every object existed in "real-life." For the default cases, no action is required on your part to make collisions happen.
 
 <a href="http://www.stencyl.com/game/play/10715">![Ragdoll Demo](http://static.stencyl.com/pedia2/ch3/ragdoll.png)</a>
 
@@ -23,7 +23,7 @@ However, what if you **only want certain collisions to happen**? For example, if
 
 To do this, you have to set up Groups.
 
-Groups are **arbitrary collections of Actors**. Groups tend to be named after certain classes of Actors, such as “Players” and “Enemies.”
+Groups are **arbitrary collections of Actors**. Groups tend to be named after certain classes of Actors, such as "Players" and "Enemies."
 
 ![stencyl-players-enemies-collision-groups-pic](http://static.stencyl.com/pedia2/ch3/collisions/image09.png)
 
@@ -61,7 +61,7 @@ By default, Doodads and Regions never get involved in collisions. They may be us
 
 As we talked about in the Animations section, Actors can take on different Animation states. For each Animation state, the Actor can have different collision bounds.
 
-For example, if a character is standing, he may be taller. If he’s ducking, he may be shorter.
+For example, if a character is standing, he may be taller. If he's ducking, he may be shorter.
 
 ![squid-game-sprite](http://static.stencyl.com/pedia2/ch3/collisions/image02.png)
 
@@ -73,7 +73,7 @@ You can place an arbitrary number of these shapes, in order to form more complex
 
 ![stencyl-place-collision-bounds](http://static.stencyl.com/pedia2/ch3/collisions/image04.png)
 
-> In this example, we’ve made an “L” shape using 2 boxes.
+> In this example, we've made an "L" shape using 2 boxes.
 
 
 ## Sensors
@@ -81,11 +81,11 @@ You can place an arbitrary number of these shapes, in order to form more complex
 What if you want to detect collisions, without the shapes actually colliding? For example, in Tower Defense games, the towers shoot at targets that come into range.
 
 
-You’d use Sensors to make this happen. Sensors are special kinds of shapes (a yes/no flag on any shape to be precise), in which an Actor **does not physically collide** with another Actor, but **still detects the collision**.
+You'd use Sensors to make this happen. Sensors are special kinds of shapes (a yes/no flag on any shape to be precise), in which an Actor **does not physically collide** with another Actor, but **still detects the collision**.
 
 ![stencyl-collisions-sensor-option-pic](http://static.stencyl.com/pedia2/ch3/collisions/image13.png)
 
-Just check this box in the right-hand pane of an Actor’s Collision Page to make a certain shape a Sensor.
+Just check this box in the right-hand pane of an Actor's Collision Page to make a certain shape a Sensor.
 
  
 ## Handling Collisions
@@ -96,11 +96,11 @@ We support the following collision events.
 
 ![stencyl-collision-events](http://static.stencyl.com/pedia2/ch3/collisions/image11.png)
 
-Regardless of which Event you pick, you’ll typically see a block similar to this.
+Regardless of which Event you pick, you'll typically see a block similar to this.
 
 ![stencyl-design-mode-collision-event-block](http://static.stencyl.com/pedia2/ch3/collisions/image06.png)
 
-1st actor always pertains to the first actor in the “sentence.” The same goes for the 2nd actor.
+1st actor always pertains to the first actor in the "sentence." The same goes for the 2nd actor.
 
 For example....
 
@@ -110,7 +110,7 @@ Then, when this kind of collision happens, the 1st actor will refer to the Hero 
 
 ![stencyl-design-mode-collision-event-block-example-actor-references](http://static.stencyl.com/pedia2/ch3/collisions/image16.png)
 
-Just in case, you didn’t know, you can drag the “1st actor” and “2nd actor” blocks out and use them anywhere within this event.
+Just in case, you didn't know, you can drag the "1st actor" and "2nd actor" blocks out and use them anywhere within this event.
 
 ![stencyl-design-mode-collision-event-dragging-actor-reference-blocks](http://static.stencyl.com/pedia2/ch3/collisions/image17.png)
 
@@ -136,31 +136,31 @@ One point to watch out for is that **collision sides are based on the rectangula
 
 ![stencyl-design-mode-collision-shape-group-block](http://static.stencyl.com/pedia2/ch3/collisions/image12.png)
 
-What is this “colliding shape” business about? It stems from the ability to **override an Actor’s default group on a per-shape basis**, so that a particular shape can take on a different group.
+What is this "colliding shape" business about? It stems from the ability to **override an Actor's default group on a per-shape basis**, so that a particular shape can take on a different group.
 
 ![stencyl-design-mode-changing-collision-group-for-shape](http://static.stencyl.com/pedia2/ch3/collisions/image10.png)
 
-When working with the “Collision Group for colliding shape” block, be sure to **compare groups directly**, rather than comparing the textual name of the Group, which can lead to bugs and crashes.
+When working with the "Collision Group for colliding shape" block, be sure to **compare groups directly**, rather than comparing the textual name of the Group, which can lead to bugs and crashes.
 
 ![stencyl-design-mode-collision-example-right-way](http://static.stencyl.com/pedia2/ch3/collisions/image00.png)
 <br/>(This is the right way)
 
 ![stencyl-design-mode-collision-example-wrong-way](http://static.stencyl.com/pedia2/ch3/collisions/image08.png)
-<br/>(This is the wrong way, don’t do this!)
+<br/>(This is the wrong way, don't do this!)
 
 
-You can find all Group and Type “getter” blocks under Actor > Properties.
+You can find all Group and Type "getter" blocks under Actor > Properties.
 
 ![stencyl-design-mode-collision-group-getter-blocks](http://static.stencyl.com/pedia2/ch3/collisions/image05.png)
 
 
 #### Collision Points
-Last but not least, you can grab exactly where collisions happened. This isn’t done very often, but it’s here in case you want to do any additional logic based on the collision location.
+Last but not least, you can grab exactly where collisions happened. This isn't done very often, but it's here in case you want to do any additional logic based on the collision location.
 
 ![stencyl-design-mode-collision-points-blocks](http://static.stencyl.com/pedia2/ch3/collisions/image07.png) 
 
 ## Summary
 
 * Thanks to physics, collisions are automatic.
-* Groups help you filter out collisions by specifying who collides with who else.
-* Use sensors to detect collisions without the actor being “solid.”
+* Groups help you filter out collisions by specifying who collides with whom else.
+* Use sensors to detect collisions without the actor being "solid."
