@@ -13,7 +13,7 @@
 
 ## What is Box2D?
 
-Stencyl uses an industry-standard physics engine (**Box2D**) into all its games. What's the benefit? You get realistic and accurate collisions for free, and Actors generally **behave like real-world objects**.
+Stencyl uses an industry-standard physics engine (**Box2D**) in all its games. What's the benefit? You get realistic and accurate collisions for free, and Actors generally **behave like real-world objects**.
 
 How realistic? Try out the following demo.
 
@@ -58,7 +58,7 @@ How much your actor "weighs." The "heavier" you make an actor, the harder it wil
 > **Tip:** Setting a very high mass can roughly simulate infinite mass / cannot be pushed, without the side-effects of that mode.
 
 #### Angular Mass
-Angular mass determines an actors resistance to rotational forces. As such, the higher the number, the slower an actor will rotate when subjected to rotational forces (twisting).
+Angular mass determines an actor's resistance to rotational forces. As such, the higher the number, the slower an actor will rotate when subjected to rotational forces (twisting).
 
 > **Note:** Angular mass is only relevant if the Actor is set to "Can Rotate"
 
@@ -88,7 +88,7 @@ In real-life high friction surfaces would include dirt and sandpaper. Low-fricti
 > **Demo Note:** In this demo, press left/right and lift your key off. Observe that one actor stops moving quickly (high friction) and the other keeps moving, as if he were on ice.
  
 #### Bounciness
-Setting bounciness to a value of 1.0 means an actor will bounce back to the same height it fell from, whereas a value of 0.0 means it won’t bounce at all.
+Setting bounciness to a value of 1.0 means an actor will bounce back to the same height it fell from, whereas a value of 0.0 means it won't bounce at all.
 
 <a href="http://static.stencyl.com/pedia2/ch3/physics/Bounciness.swf">![Bounce Demo](http://static.stencyl.com/pedia2/ch3/physics/demo2.png)</a>
 
@@ -97,9 +97,9 @@ Setting bounciness to a value of 1.0 means an actor will bounce back to the same
 #### How Friction / Bounciness Work  
 Friction and Bounciness **multiply** the values of the two colliding Actors to come up with the effective Friction or Bounciness. For example, if two actors have a friction of 0.5, their effective friction becomes 0.25.
 
-This works out well for actors that have a friction of bounciness of 0 - as you'd expect, that negates everything and causes an effective friction/bounciness value of 0 too.
+This works out well for actors that have a friction or bounciness of 0 - as you'd expect, that negates everything and causes an effective friction/bounciness value of 0, too.
 
-Terrain/Tiles have friction and bounciness of values of 1, so they have no net effect whichever way.
+Terrain/Tiles have friction and bounciness values of 1, so they have no net effect whichever way.
 
 
 ## Damping Tab
@@ -123,7 +123,7 @@ Let you opt this Actor out of physics. We talk about this further in the [next s
 > **Note:** Collisions for this Actor will also cease to function when you do this.
  
 #### Auto-Scale Collision Bounds
-Choosing “Yes” for this option will automatically re-size your Actor’s collision bounds when you resize the Actor using the "scale to" Tweening block. Choosing “No” means the collision bounds will stay the same regardless of what happens to the Actor.
+Choosing "Yes" for this option will automatically re-size your Actor's collision bounds when you resize the Actor using the "scale to" Tweening block. Choosing "No" means the collision bounds will stay the same regardless of what happens to the Actor.
 
 ![](http://static.stencyl.com/pedia2/ch3/physics/image00.png)
 
@@ -186,7 +186,7 @@ Several legitimate reasons for this.
  
 * Did you make sure the actors aren't set as [Sensors](http://www.stencyl.com/help/view/collisions-and-groups/#sensors)?<br/><br/>![Sensors](http://static.stencyl.com/pedia2/ch3/collisions/image13.png)<br/>
 
-* Did you make sure that the actors are from a pair of [Groups](http://www.stencyl.com/help/view/collisions-and-groups/#groups) that are to collide with other?<br/><br/>![Groups](http://static.stencyl.com/pedia2/ch3/collisions/image14.png)
+* Did you make sure that the actors are from a pair of [Groups](http://www.stencyl.com/help/view/collisions-and-groups/#groups) that are to collide with each other?<br/><br/>![Groups](http://static.stencyl.com/pedia2/ch3/collisions/image14.png)
 
 
 ## Summary
@@ -198,7 +198,7 @@ Several legitimate reasons for this.
 
 ## Challenge: Platforms!
 
-**Create a simple game with moving platforms** inside of it, like you've find in any Mario game. It's trickier than it sounds at first!
+**Create a simple game with moving platforms** inside of it, like you would find in any Mario game. It's trickier than it sounds at first!
 
 What are some of the considerations?
 
