@@ -35,7 +35,7 @@ Your hero is walking outside, and he comes across a door to a house. You want to
 
 We want the game to **detect** that the hero walked on top of the door. When this happens, we want to **transition to the house scene**.
 
-Regions do exactly what we want. Here’s how we'd do this (going with our example scenario).
+Regions do exactly what we want. Here's how we'd do this (going with our example scenario).
 
 1. Inside the **Scene Designer**, place a Region.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/regions/image06.png)<br/>
 
@@ -45,7 +45,7 @@ Regions do exactly what we want. Here’s how we'd do this (going with our examp
 
 4. Finally, we add in the **scene switch block** (under Scene > Game Flow) to change the scene.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/regions/image13.png)
 
-That’s it! Here’s a [demo of the game in action](http://dl.dropbox.com/u/2769678/region-1.swf). We’ve drawn the region for you, so you can see exactly where it is.
+That's it! Here's a [demo of the game in action](http://dl.dropbox.com/u/2769678/region-1.swf) [unavailable]. We've drawn the region for you, so you can see exactly where it is.
 
 
 ## Creating Regions
@@ -62,7 +62,7 @@ You can create a region on the fly from a Behavior or Event using a block. The b
 
 ![](http://static.stencyl.com/pedia2/ch4/regions/image14.png)
 
-If you’d like to refer to this newly created region, use the Last Created Region entry anytime you’re asked to Choose Region.
+If you'd like to refer to this newly created region, use the Last Created Region entry anytime you're asked to Choose Region.
 
 ![](http://static.stencyl.com/pedia2/ch4/regions/image10.png)
 
@@ -77,7 +77,7 @@ Alternatively, you can **detect** if an actor is **currently** inside a given re
 
 ![](http://static.stencyl.com/pedia2/ch4/regions/image07.png)
 
-#### What’s the difference?
+#### What's the difference?
 
 * **Event** = I entered the house.
 * **Is Inside** = Are you currently inside your house?
@@ -98,20 +98,20 @@ Use the shape that best suits your game. For most games, box regions suffice.
 
 ## Moving Regions
 
-You can move regions around to a specific (x,y) coordinate or have a region “follow” an actor, which will reposition the region around the actor’s center point.
+You can move regions around to a specific (x,y) coordinate or have a region "follow" an actor, which will reposition the region around the actor's center point.
 
 In both cases, the operation happens instantly. If you wish to have a region continually follow an actor, you must continually move the region using either of these two blocks.
 
 ![](http://static.stencyl.com/pedia2/ch4/regions/image16.png)
 
-The difference is that the “follow” block centers the region on the target Actor’s center point.
+The difference is that the "follow" block centers the region on the target Actor's center point.
 
  
 ## Example: Fiery Barrier
 
-Suppose that in an adventure game, one of the hero’s special moves is a fiery barrier in which all enemies approaching him within a 100 pixel radius automatically get killed.
+Suppose that in an adventure game, one of the hero's special moves is a fiery barrier in which all enemies approaching him within a 100 pixel radius automatically get killed.
 
-([Play the Demo](http://dl.dropbox.com/u/2769678/RegionsDemo.swf))
+([Play the Demo](http://dl.dropbox.com/u/2769678/RegionsDemo.swf)) [ no longer available ]
 
 This could be implemented by creating a box region and having that region continually follow the Hero. When actors from the Enemy group enter this region, they get killed.
 
@@ -124,11 +124,11 @@ You can change the size of a Box or Circular region on the fly. **Resizing** use
 
 ![](http://static.stencyl.com/pedia2/ch4/regions/image05.png)
 
-Because boxes and circles are defined differently, you have to use the corresponding block depending on what kind of region you’re working with.
+Because boxes and circles are defined differently, you have to use the corresponding block depending on what kind of region you're working with.
 
 ![](http://static.stencyl.com/pedia2/ch4/regions/image15.png)
 
-If you need to reset a region’s size back to its original, use the resize block. This block works on both box and circle regions.
+If you need to reset a region's size back to its original, use the reset size of [ Region ] block. This block works on both box and circle regions.
 
 
 ## Summary
