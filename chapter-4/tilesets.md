@@ -12,7 +12,7 @@
  
 ## Introduction
 
-What are the building blocks of a scene? The scene’s terrain or “land” is typically made up of Tiles. Much like the tiles on your kitchen counter or bathroom, Tiles in a game are uniformly sized pieces of land that conform to a grid.
+What are the building blocks of a scene? The scene's terrain or "land" is typically made up of Tiles. Much like the tiles on your kitchen counter or bathroom, Tiles in a game are uniformly sized pieces of land that conform to a grid.
 
 This article will cover the basics of importing and working with tiles.
 
