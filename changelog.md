@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 05, 2018
+
+- (b10020) Allow gamepad buttons to trigger controls without also simulating a key press (issue #1354).
+
 September 26, 2018
 
 - (b10005) Added iPhone XR dropdown option.
