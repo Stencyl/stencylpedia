@@ -22,7 +22,7 @@ Backgrounds can visually enhance a game and provide the illusion of depth. Some 
 
 Put simply, backgrounds scroll at the same pace that you progress overall inside a scene, where "progress" is defined by the location of the Camera. This is commonly known as **Parallax Scrolling**.
 
-If you’re halfway through a scene, the background will be scrolled halfway through.
+If you're halfway through a scene, the background will be scrolled halfway through.
 
 ![background-scrolling-example](http://static.stencyl.com/pedia2/ch4/backgrounds/image05.png)
 
@@ -30,13 +30,13 @@ Likewise, if you're at the end of the scene, the background will be scrolled thr
 
 ![background-scrolling-scene-example](http://static.stencyl.com/pedia2/ch4/backgrounds/image06.png)
 
-To think about this another way, since backgrounds are almost always larger than the screen size, they’ll **scroll at a slower-pace than the main layers**, making them feel like they’re **in the distance**.
+To think about this another way, since backgrounds are almost always larger than the screen size, they'll **scroll at a slower pace than the main layers**, making them feel like they're **in the distance**.
 
-In this video, notice how things in the "foreground" scroll by quickly while things in the "background" (hills)  scroll by slowly.
+In this video, notice how things in the "foreground" scroll by quickly while things in the "background" (hills) scroll by slowly.
 
 <object height="315" width="560"><param name="movie" value="http://www.youtube.com/v/kGndaktrLcw?version=3&amp;hl=en_US"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed allowfullscreen="true" allowscriptaccess="always" height="315" src="http://www.youtube.com/v/kGndaktrLcw?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560"></object>
 
-Intuitively, this makes sense. If you look outside your car's window, the **close-by buildings you drive by will fly by quickly**. But the mountains in the distance **will move relatively slowly** because they are far away.
+Intuitively, this makes sense. If you look outside your car's window, the **nearby buildings you drive past will be left behind quickly**. But the mountains in the distance **will move relatively slowly** because they are far away.
 
 > **Bottom Line:** You don't need to do anything special to make Parallax Scrolling work in Stencyl, but it helps to understand how this kind of scrolling works.
  
@@ -51,9 +51,9 @@ Importing backgrounds works much like importing any other kind of graphic into S
 
 3. Once you've done that, click the Attach to Scene button at top-right corner to attach this background to a Scene.<br/><br/>![stencyl-add-background-to-scene](http://static.stencyl.com/pedia2/ch4/backgrounds/attach-scene.png)<br/>
  
-#### Gotcha: Avoid making a background that’s smaller than the screen size
+#### Gotcha: Avoid making a background that's smaller than the screen size
 
-This will lead to unfilled space at the lower-right hand corner of the screen. The one exception is if you’re creating a repeating background, in which case, the image will tile-itself until it fills out the screen.
+This will lead to unfilled space at the lower-right hand corner of the screen. The one exception is if you're creating a repeating background, in which case, the image will tile itself until it fills out the screen.
 
 
 ## Animated Backgrounds
@@ -65,11 +65,11 @@ You may notice that you can **import multiple frames** into a background and edi
 
 ## Auto-Scrolling
 
-Some games call for a background that automatically scrolls, regardless of the player’s progression through a scene. Auto-scrolling can impart the sense of **constant motion**.
+Some games call for a background that automatically scrolls, regardless of the player's progression through a scene. Auto-scrolling can impart the sense of **constant motion**.
 
 This Stencyl game [demonstrates](http://www.stencyl.com/game/play/2014) auto-scrolling at its best.
 
-> **Note:** Don’t confuse auto-scrolling backgrounds with the notion of an auto-scrolling level in Super Mario Bros, the kind where you’re forced to stay on screen and complete the level at the set pace. We cover this topic inside our [Camera](http://www.stencyl.com/help/viewArticle/114/) article.
+> **Note:** Don't confuse auto-scrolling backgrounds with the notion of an auto-scrolling level in Super Mario Bros, the kind where you're forced to stay on screen and complete the level at the set pace. We cover this topic inside our [Camera](http://www.stencyl.com/help/viewArticle/114/) article.
 
 
 #### How To: Enable Auto-Scrolling
@@ -78,7 +78,7 @@ Setting a background to auto-scroll is simple. Just edit the Horizontal / Vertic
 
 ![stencyl-background-scroll-speed](http://static.stencyl.com/pedia2/ch4/backgrounds/image01.png)
 
-The values don’t hold much meaning in themselves (pixels per sub-frame). **Just experiment until you get a value that works for your game**.
+The values don't hold much meaning in themselves (pixels per sub-frame). **Just experiment until you get a value that works for your game**.
 
 
 ## Repeating Backgrounds
@@ -96,7 +96,7 @@ Repeating Backgrounds can auto-scroll, but they **do not parallax scroll**. In o
  
 ## Backgrounds and the Scene Designer
 
-Backgrounds are considered by Stencyl to be layers, to they are managed through a Scene's Layers pane. This contrasts with our prior approach, which managed backgrounds separately and only allowed them to exist above or below regular layers.
+Backgrounds are considered by Stencyl to be layers, so they are managed through a Scene's Layers pane. This contrasts with our prior approach, which managed backgrounds separately and only allowed them to exist above or below regular layers.
 
 #### Adding a Background
 
@@ -121,7 +121,7 @@ After adding a background, you can customize a few properties by clicking the co
 
 #### Scroll Factors (for Backgrounds and Layers)
 
-As described earlier, backgrounds scroll in parallax. This means that they scroll at the same pace that you progress overall inside a scene. For example, if you’re halfway through a scene, the background will be scrolled halfway through.
+As described earlier, backgrounds scroll in parallax. This means that they scroll at the same pace that you progress overall inside a scene. For example, if you're halfway through a scene, the background will be scrolled halfway through.
 
 ![halfway-through](http://static.stencyl.com/pedia2/ch4/backgrounds/image05.png)
 
@@ -143,8 +143,8 @@ By default the Scroll Factor is 1.
 ## Summary
 
 * Backgrounds are large images that scroll behind or in front of the screen.
-* Backgrounds are like mountains in real life - they scroll by slower than what’s happening right in front of you.
-* Use auto-scrolling to make a game feel like it’s in constant motion.
+* Backgrounds are like remote mountains in real life - they scroll by slower than what's happening right in front of you.
+* Use auto-scrolling to make a game feel like it's in constant motion.
  
 
 ## Challenge: Endless Game
@@ -155,4 +155,4 @@ Endless games such as Canabalt and Jetpack Joyride are popular examples of this 
 
 Create a simple endless game of your own, using an auto-scrolling background to impart the illusion of constant motion.
 
-Think carefully about how you’d make the game truly endless and random in nature. In other words, **don’t make an enormous level**. That’s the wrong way to do it.
+Think carefully about how you'd make the game truly endless and random in nature. In other words, **don't make an enormous level**. That's the wrong way to do it.
