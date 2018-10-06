@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Sometimes, you want an actor to **act a little bit differently** from the norm. Suppose that we’ve created a basic enemy for a Mario-like game, like a Goomba.
+Sometimes, you want an actor to **act a little bit differently** from the norm. Suppose that we've created a basic enemy for a Mario-like game, like a Goomba.
 
 Now, we want to make a Hopping Goomba - one that jumps.
 
@@ -16,7 +16,7 @@ You could do this by creating a brand new Actor Type, copying everything about t
 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image00.png)
 
-Is there a better way to go about this? There is. It’s called **Actor Customization**.
+Is there a better way to go about this? There is. It's called **Actor Customization**.
 
 
 ## What is Actor Customization?
@@ -50,24 +50,24 @@ You can also remove a Behavior (for this Actor instance) from the Inspector by c
 ![Delete Behavior](http://static.stencyl.com/help/images/Inspector-Delete-Behavior-Button.png)
 
 #### How To: Customize Behaviors
-Suppose that we want a particular Actor to walk really quickly. We could increase the “Minimum Speed” field for the "Wander" Behavior that's already attached to this actor.
+Suppose that we want a particular Actor to walk really quickly. We could increase the "Minimum Speed" field for the "Wander" Behavior that's already attached to this actor.
 
 ![Walking Speed](http://static.stencyl.com/help/images/Inspector-Walking-Speed.png)
 
  
 ## You can refer to specific Actors and Regions within a scene.
 
-Recall that an Actor’s behaviors can’t directly refer to specific objects within a scene. This is why, when you attach a Behavior to an Actor, and that behavior has an **Actor attribute**, you see this.
+Recall that an Actor's behaviors can't directly refer to specific objects within a scene. This is why, when you attach a Behavior to an Actor, and that behavior has an **Actor attribute**, you see this.
 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image05.png)
 
-Because an Actor’s behaviors are generic, they have no connections to specific scenes. In other words, **there's no context for referring to things in specific scenes**.
+Because an Actor's behaviors are generic, they have no connections to specific scenes. In other words, **there's no context for referring to things in specific scenes**.
 
 Is there a way to enter values into these fields for Actors? There is! Once you customize an actor, those Actor attribute fields can now let you pick out specific Actors and Regions within a scene.
 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image02.png)
 
-I’ll explain how to do this through a common example: pressing switches.
+I'll explain how to do this through a common example: pressing switches.
 
  
 
@@ -79,7 +79,7 @@ Suppose that you're playing an adventure game like Zelda. You're inside a dungeo
  
 #### How can we use Actor Customization to make this work?
 
-In a gist, we'll create a “Switch” behavior that, given a “Door” actor, will tell that Door actor to open up when our Hero steps (collides) on the switch. (The switch should also visually change to a pressed-down state)
+In short, we'll create a "Switch" behavior that, given a "Door" actor, will tell that Door actor to open up when our Hero steps on (collides with) the switch. (The switch should also visually change to a pressed-down state.)
 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image07.png)
 
@@ -87,7 +87,7 @@ Through Actor Customization, we can customize **each instance of a switch**, so 
 
 #### Walkthrough
 
-> **Note:** As always, these explanations are for learning purposes. You’ll need to tweak the approach to fit your game's needs.
+> **Note:** As always, these explanations are for learning purposes. You'll need to tweak the approach to fit your game's needs.
 
 1. Download the [Customizing Actors](http://static.stencyl.com/pedia2/ch4/customize/Switches.stencyl) project. Import it using **File > Import Game...** and open it up.
 
@@ -107,13 +107,13 @@ That's it!
 
 #### Recap
 
-You’ve customized the switches so that when the left/right switch is pressed, the left/right door opens.
+You've customized the switches so that when the left/right switch is pressed, the left/right door opens.
 
 How does this work? Let's take a peek into the "guts" of this sytem. Open up the **Switch Behavior** behavior.
 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image11.png)
 
-The key piece is the Actor attribute called **Door Actor**. When you customized the Switch actor (via the Inspector pane), the "Door Actor" attribute let you pick a **SPECIFIC** door within the scene. 
+The key piece is the Actor attribute called **Door Actor**. When you customized the Switch actor (via the Inspector pane), the "Door Actor" attribute lets you pick a **SPECIFIC** door within the scene.
 
 ![](http://static.stencyl.com/pedia2/ch4/customize/image12.png)
 
@@ -123,5 +123,5 @@ If you understand that connection, you now fully understand how Actor Customizat
 ## Summary
 
 * Use Actor Customization to tweak the behavior of actors rather than creating brand new ones.
-* Actor Customization lets you modify the attached set of behaviors and modify each behavior’s values, for a particular instance of an Actor within a scene.
+* Actor Customization lets you modify the attached set of behaviors and modify each behavior's values, for a particular instance of an Actor within a scene.
 * You can refer to specific Actors and Regions within a scene through Actor Customization.
