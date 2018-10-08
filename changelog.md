@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 08, 2018
+
+- (b10024) The Name column in the attributes pane can now be sorted correctly by the attribute name (issue #249).
+
 October 05, 2018
 
 - (b10020) Allow gamepad buttons to trigger controls without also simulating a key press (issue #1354).
