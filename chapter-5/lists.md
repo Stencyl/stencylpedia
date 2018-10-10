@@ -29,11 +29,11 @@ As you'd expect, lists are best used to store collections of things. You can use
 
 In general, lists can be a good option any time you want to keep track of lots of information.
 
-> **Aside:** Internally Stencyl uses lists to keep track of created actors, what points in a collision actually collided, and so on. If you've used any block that begins with "for each" you've actually used a list already!
+> **Aside:** Internally, Stencyl uses lists to keep track of created actors, what points in a collision actually collided, and so on. If you've used any block that begins with "for each", you've actually used a list already!
  
  <br/>
  
- > **For Programmers:** Lists are mutable lists. They are equivalent ArrayLists, Vectors, NSMutableArray or whatever you like to call them.
+ > **For Programmers:** Lists are mutable lists. They are equivalent to ArrayLists, Vectors, NSMutableArray or whatever you like to call them.
  
 
 ## List Structure
@@ -99,7 +99,7 @@ How do you create a List in the first place? Lists can be Attributes, so like an
 1. **Configuring** the attribute with initial data.
 2. **Creating it** at runtime inside a behavior and setting the attribute's value to that new list.
 
-> Assume that for both cases, we have created a List Attribute called "myList"<br/>![](http://static.stencyl.com/pedia2/ch5/lists/image01.png)
+> Assume that for both cases, we have created a List Attribute called "myList".<br/>![](http://static.stencyl.com/pedia2/ch5/lists/image01.png)
 
 #### Method 1: Configuring a List Attribute
 After attaching a behavior with a List attribute to either an Actor or a Scene, you'll see this neat interface for adding initial data to the list.
@@ -133,7 +133,7 @@ It should come as no surprise that you're able to set the value of a Game Attrib
 > **Note:** Assigning values simply gets the Game Attribute to "point" to your List. No copying is done, so modifying it modifies the one and only "copy" of that list.
 
 #### Saving & Lists
-As stated earlier, be careful when saving out lists as Game Attributes. They can only contain contain Numbers, Text and other Lists that follow the same rules.
+As stated earlier, be careful when saving out lists as Game Attributes. They can only contain Numbers, Text and other Lists that follow the same rules.
 
  
 ## Summary
@@ -146,7 +146,7 @@ As stated earlier, be careful when saving out lists as Game Attributes. They can
 
 ## Challenge: Two-Dimensional Lists
 
-Lists are great for storing sequential information, but if you need to store a "grid" of data? It turns out that lists are powerful enough that you store a **List within a List**, thereby bringing it up to 2 dimensions.
+Lists are great for storing sequential information, but what if you need to store a "grid" of data? It turns out that lists are powerful enough that you can store a **List within a List**, thereby bringing it up to 2 dimensions.
 
 ![](http://static.stencyl.com/pedia2/ch5/lists/image06.png)
 
