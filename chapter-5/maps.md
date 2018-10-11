@@ -16,13 +16,12 @@ For example, if you wanted to make a Map that associated Stencyl members with po
 
 Maps can also mix and match different types as values.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-2.png)
+![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-3.png)
 
 Or, you could get fancier and use Maps as the data itself.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-3.png)
+![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-2.png)
 
- 
 ## Maps vs. Lists
 
 Maps are useful when you want to...
