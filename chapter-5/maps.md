@@ -27,9 +27,9 @@ Or, you could get fancier and use Maps as the data itself.
 
 Maps are useful when you want to...
 
-* Store many things but don't care about the order.
-* Want to access things instantly.
-* Prefer to refer to things by name.
+* Store many things, but don't care about the order.
+* Access things instantly.
+* Refer to things by name.
 
 Lists are better if you want to...
 
@@ -39,7 +39,7 @@ Lists are better if you want to...
 
 ## Creating Maps
 
-How do you create a Map in the first place? Maps can be attributes, so like any attribute, there are two ways of doing this.
+How do you create a Map in the first place? Maps can be attributes, so like any attribute, there are two ways of doing this:
 
 1. Configuring the attribute with initial data.
 2. Creating the map at runtime inside a behavior and setting the attribute's value to that newly created map.
