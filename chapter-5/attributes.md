@@ -22,7 +22,7 @@ Attributes are often thought to be like "local variables" or variables that are 
 
 #### Required Information
 
-Getting an value of an attribute requires at least 2 pieces of information, sometimes 3.
+Getting the value of an attribute requires at least 2 pieces of information, sometimes 3.
 
 * **Which Behavior** contains the attribute you want?
 * **Which Attribute** do you want, for that behavior?
@@ -75,7 +75,7 @@ In this example, we used an Attribute setter block to assign each level button a
 
 ![](http://static.stencyl.com/pedia2/ch7/getset/image06.png)
 
-> **Note:** The +1 is to account for the fact that computers count, starting from 0, but it would look strange to a regular player to see "Level 0"
+> **Note:** The +1 is to account for the fact that computers start counting at 0, but it would look strange to a regular player to see "Level 0".
  
 
 ## Summary
