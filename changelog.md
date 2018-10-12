@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 12, 2018
+
+- (b10026) Fixed gamepad bug with the boolean control block (issue #1373).
+
 October 08, 2018
 
 - (b10024) The Name column in the attributes pane can now be sorted correctly by the attribute name (issue #249).
