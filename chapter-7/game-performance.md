@@ -1,4 +1,4 @@
-Part of game development is creating logic that not only works but is optimized for fast, smooth gameplay that meets or exceeds the 60 frames per second mark. In Stencyl, there are many ways to improve your game's performance. Here are a few common suggestions.
+Part of game development is creating logic that not only works, but is also optimized for fast, smooth gameplay that meets or exceeds the 60 frames per second mark. In Stencyl, there are many ways to improve your game's performance. Here are a few common suggestions.
 
  
 ## Contents
@@ -40,7 +40,7 @@ This can be tough when you want a game with a lot going on, but if you do need a
 
 ## Avoid Expensive Calculations Every Step
 
-In the **Always event** block, you need to be careful about the types of calculations you choose to run here. The Always event block executes logic every step, so running calculations that take use a lot of processing power each step will slow down your game. 
+In the **Always event** block, you need to be careful about the types of calculations you choose to run here. The Always event block executes logic every step, so running calculations that use a lot of processing power each step will slow down your game. 
 
 Examples of calculations to avoid using in the Always event block include trigonometric calculations, random number generation, calculating the square root of a value, and those involving exponents. While you may not notice any slowdowns on faster systems, on mobile devices and weaker systems, these calculations can make a difference.
 
