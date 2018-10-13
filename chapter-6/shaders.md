@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Shaders are filters that apply visual effects to the entire screen. They aren't all that different from the filters you apply to an photo in Instagram or Photoshop.
+Shaders are filters that apply visual effects to the entire screen. They aren't all that different from the filters you apply to a photo in Instagram or Photoshop.
 
 ![Shader Demo](http://static.stencyl.com/v3/images/announcement/shader2.gif)
 
@@ -24,7 +24,7 @@ Shaders are filters that apply visual effects to the entire screen. They aren't 
 * All of this is hardware accelerated, so within reason, you can accomplish a lot.
 
 #### Supported Platforms
-Windows, Max and Linux. Shaders are not supported on Flash or iOS. They work to a limited extent on Android.
+Windows, Mac and Linux. Shaders are not supported on Flash or iOS. They work to a limited extent on Android.
 
 #### Tech Details
 Shaders are written in GLSL, a programming language that your graphics card understands. Since our engine is based on OpenGL ES 2.0 (in order to support mobile targets), the syntax is more restricted than normal GLSL.
@@ -67,14 +67,14 @@ Sometimes, you want to modify a shader's properties in real-time (or before appl
 
 ## Advanced: Custom Shaders
 
-Stencyl comes with a sizable variety of shaders, but for the adventurous, we allow you to apply your own custom shaders. As mentioned earlier, shaders are written in GLSL and must comply with the OpenFL ES 2.0 standard.
+Stencyl comes with a sizable variety of shaders, but for the adventurous, we allow you to apply your own custom shaders. As mentioned earlier, shaders are written in GLSL and must comply with the OpenGL ES 2.0 standard.
 
 #### Importing a Shader from a File
 1. Create an **extras** folder inside your game's main folder. (Debug > View > View Folder for this Game)
 
 2. Stick the shaders (file extension doesn't matter - we use .glsl in this example) under that extras folder.
 
-3. Refer to your shaders using the **shader from file** block. For example, if your shader is called bloom.glsl, then you type bloom.glsl into the block. The engine automatically assumes that the shaders are under the extras folder, so need to mention that.<br/>![](http://static.stencyl.com/pedia2/ch6/shader/shader-file.png)
+3. Refer to your shaders using the **shader from file** block. For example, if your shader is called bloom.glsl, then you type bloom.glsl into the block. The engine automatically assumes that the shaders are under the extras folder, so you do not need to mention that.<br/>![](http://static.stencyl.com/pedia2/ch6/shader/shader-file.png)
 
 #### Specifying a Shader Inline (inside a Design Mode block)
 Alternatively, for convenience, you can specify a shader's source directly within Design Mode using the shader from text block.
@@ -155,7 +155,7 @@ If you want to emphasize just the brighter colors, you'd move the low/medium thr
 Property Name | Accepted Values
 --- | ---
 grainamount -| How dense the grain effect is. (Default = 0.05 (5%)).
-colored | 1.0 = on, 1.0 = off
+colored | 1.0 = on, 0.0 = off
 coloramount | Saturation of the colors.
 grainsize | Size of the grain particles in pixels. Can be fractional.
 lumamount | How bright the grain effect is.
@@ -287,7 +287,7 @@ uniform float uTime;
 
 ## Experimental: Shaders on iOS/Android
 
-Shaders work on Android but are more restricted than their desktop counterparts. They do not work on iOS at this time.
+Shaders work on Android, but are more restricted than their desktop counterparts. They do not work on iOS at this time.
 
 #### What's different?
 
