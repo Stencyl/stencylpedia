@@ -33,7 +33,7 @@ In order to use the Image API, you need to understand two things - **Images** an
 
 Images in themselves aren't displayed in game. In order to do that, you have to create an **instance** of an image, conveniently called an Image Instance. In ActionScript, they are equivalent to Bitmaps.
 
-This distinction isn't all that different from the different between an Actor Type and an Actor (Instance). One is a template, and the other's the actual instance of the thing.
+This distinction isn't all that different from the contrast between an Actor Type and an Actor (Instance). One is a template, and the other's the actual instance of the thing.
 
  
 
@@ -47,7 +47,7 @@ Images can be pulled from many sources.
 * Capture a screenshot of the game's current view and use that as an image.
 * Use an Actor's current drawing as an image.
 * Load an image from a file.
-* Load an image from the web.
+* Load an image from the web. (Images > Images > From External Sources > load image from URL: [ text ] and then do...)
  
 
 #### Always Do This: Create Attributes for Images
