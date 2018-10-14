@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 14, 2018
+
+- (b10028) Fixed bug caused by disabling extensions with no blocks.xml (issue #1382).
+
 October 12, 2018
 
 - (b10026) Fixed gamepad bug with the boolean control block (issue #1373).
