@@ -10,7 +10,7 @@
 
 Stencyl supports publishing of its Flash games to the [Chrome Web Store](http://chrome.google.com/webstore/category/home).
 
-The Chrome Web Store is an app store that allows web apps and games to be installed to the user’s home screen in the Google Chrome web browser. The most successful apps have garnered millions of installs.
+The Chrome Web Store is an app store that allows web apps and games to be installed to the user's home screen in the Google Chrome web browser. The most successful apps have garnered millions of installs.
 
 <img alt="Chrome Web Store" src="http://static.stencyl.com/pedia2/ch7/chrome/image00.png" style="width: 400px; padding-top:20px;">
 
@@ -55,7 +55,7 @@ If you want to customize the look of the webpage that wraps your "app," unzip th
 
 4. Click on the Menu. Navigate to **Window > Extensions**.
 
-5. Enable the **Developer Mode** checkbox if it isn’t enabled.
+5. Enable the **Developer Mode** checkbox if it isn't enabled.
 
 6. Click **Load unpacked extension...** and select the folder for the app that you just unzipped in step (2).
 
