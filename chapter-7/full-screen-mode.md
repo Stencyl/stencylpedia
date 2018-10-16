@@ -26,13 +26,13 @@ Use the block under **Scene > View** to switch between windowed and full screen 
  
 ## How it Works
 
-By default, full screen mode will use a game’s hi-res graphics to draw to the screen, up to a maximum of 4x. It will pick the closest match (rounded down) and letterbox the result, identical to the **No Scaling (Letterboxing)** mode for mobile apps.
+By default, full screen mode will use the game's hi-res graphics to draw to the screen, up to a maximum of 4x. It will pick the closest match (rounded down) and letterbox the result, identical to the **No Scaling (Letterboxing)** mode for mobile apps.
 
 **These are the same graphics used for the mobile variants of the game**, as described in our [App Scaling](http://www.stencyl.com/help/view/mobile-app-scaling/) article.
 
 ![high-res graphics](http://static.stencyl.com/help/images/full-screen-mode-2.png)
 
-For example, if your game’s base resolution is 480 x 320, and your screen’s resolution is 1024 x 768, the game will scale to 2x (960 x 640).
+For example, if your game's base resolution is 480 x 320, and your screen's resolution is 1024 x 768, the game will scale to 2x (960 x 640).
 
  
 ## What if I don't want to use the high-res graphics?
