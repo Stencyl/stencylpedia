@@ -36,13 +36,13 @@ It turns out that this setup makes gamepad support easier for you too. To suppor
 Sounds simple enough, but to do this, you need to know what the **names** of the buttons are. They differ from device to device.
 
 #### How to Discover Button Names
-If you would like to build a controller mapping, you'll first need to figure out what the **button ID's** are for the controls for your game.
+If you would like to build a controller mapping, you'll first need to figure out what the **button IDs** are for the controls for your game.
 
 To do this, use the **Gamepad event, located at Add Event > Input > Desktop-Only > Any Button**. Then, print out the input like so.
 
 ![](http://static.stencyl.com/pedia2/ch6/gamepad/gamepad-event.png)
 
-Run a game with this behavior and take down the ID's (by pressing the button on your controller and observing the output in the Log Viewer).
+Run a game with this behavior and take down the IDs (by pressing the button on your controller and observing the output in the Log Viewer).
 
 For example, these are **some** of the IDs for an Xbox 360 controller. (We've added the names for your reference.)
 
@@ -79,7 +79,7 @@ Not at this time. If you've come up with some, upload them and share a link. We'
 * Unplugging and replugging a controller may generate unpredictable results. 
 * Plugging in multiple controllers may generate unpredictable button names.
 * It isn't easily possible to auto-detect a controller type because we can't get a controller's model name.
-OpenFL is working on all of these issues, but the fixes are not available at the time of this writing. 
+OpenFL (the high-level graphics layer used in Stencyl) is working on all of these issues, but the fixes are not available at the time of this writing. 
 
 
 ## User-Provided Controls
@@ -93,7 +93,7 @@ We provide two blocks to assist with the saving/loading of configurations...
 *(Much like our save/load blocks, provide a filename in the lone blank. It doesn't really matter what you put in.)*
 
 #### Sample Game
-This sample project demonstrates how accomplish what we described above -- namely, getting the user configure each game's control by pressing a button on their controller. We leave it to you to customize the look to fit your game's needs.
+This sample project demonstrates how to accomplish what we described above -- namely, getting the user to configure each game's control by pressing a button on their controller. We leave it to you to customize the look to fit your game's needs.
 
 [Download Project](https://github.com/Stencyl/stencylpedia/blob/master/chapter-7/Sample%20Game%20for%20Gamepad%20Configuration.stencyl?raw=true)
 
