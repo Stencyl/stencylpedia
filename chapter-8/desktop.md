@@ -20,7 +20,7 @@ Stencyl supports the creation of native, standalone apps for Windows, Mac and Li
 * Windows 7 or better
 * We recommend Visual Studio 2013 for best results. The free editions are fine.
 
-> You can either install Visual Studio on your own, or if you attempt to run a Windows app from Stencyl, we’ll download the Visual Studio installer for you and then ask you to run it. We'll assume the latter.
+> You can either install Visual Studio on your own, or if you attempt to run a Windows app from Stencyl, we'll download the Visual Studio installer for you and then ask you to run it. We'll assume the latter.
  
 #### Setup
 1. After opening up a game in Stencyl, select **Run > Windows** from the main menu. 
@@ -71,7 +71,7 @@ When publishing for Mac, you have two options. You can publish for the **Mac App
  
 ## Linux
 
-> **Note:** We’re not Linux experts, so if you run into issues or have edits to propose, please submit a pull request on Github. For additional tips, visit our [Installing on Linux](http://www.stencyl.com/help/view/install-stencyl-linux/) article.
+> **Note:** We're not Linux experts, so if you run into issues or have edits to propose, please submit a pull request on Github. For additional tips, visit our [Installing on Linux](http://www.stencyl.com/help/view/install-stencyl-linux/) article.
  
 #### Requirements and Setup
 * Ubuntu 11.04 or better
@@ -93,7 +93,7 @@ To publish your game, select **Publish > Desktop > Linux** from the main menu.
 ## FAQ
 
 #### Can I publish a Mac app from a Windows computer?
-No. You’ll need to use a friend’s Mac or figure out other ways to do this. The same goes for any “cross” platform combination. You can only publish to the platform of your host computer.
+No. You'll need to use a friend's Mac or figure out other ways to do this. The same goes for any "cross" platform combination. You can only publish to the platform of your host computer.
 
 #### Can I publish to the Mac App Store?
 Yes. We have an [article](http://www.stencyl.com/help/view/mac-app-store/) on that. 
@@ -101,5 +101,5 @@ Yes. We have an [article](http://www.stencyl.com/help/view/mac-app-store/) on th
 #### How about the Windows Store?
 You can, but we don't directly export to a Windows Store ready format. You'll need to wrap the app up on your own.
 
-#### I just installed Visual Studio, but Stencyl claims I didn’t.
+#### I just installed Visual Studio, but Stencyl claims I didn't.
 Reboot after installing Visual Studio. 
