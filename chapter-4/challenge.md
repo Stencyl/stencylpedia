@@ -12,12 +12,14 @@ Chapter 4 focused on Scenes. You learned about...
 * Adding and using Backgrounds
 * How to customize individual Actors
 
-With all that under your belt, it’s time to take on the Challenge for Chapter 4.
+With all that under your belt, it's time to take on the Challenge for Chapter 4.
 
 
-## Challenge: Create a “Mini-Dungeon” Action Adventure Game
+## Challenge: Create a "Mini-Dungeon"
+## Action Adventure Game
 
-Dungeons are the heart of an adventure game such as Zelda. Dungeons blend both action and puzzle solving.
+Dungeons are the heart of an adventure game such as Zelda.
+They blend both action and puzzle solving.
 
 ![Dungeon](http://static.stencyl.com/pedia2/ch4/challenge/image04.png)
 
@@ -51,7 +53,7 @@ Have fun with this challenge and make it your own. Good luck!
 
 ## Start with this Project
 
-To help you get started, we’ve created scaffold project, so you don't have to worry about importing any resources at the outset.
+To help you get started, we've created a scaffold project, so you don't have to worry about importing any resources at the outset.
 
 [Download the Project](http://static.stencyl.com/pedia2/ch4/Chapter4.stencyl)
 
