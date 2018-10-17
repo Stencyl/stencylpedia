@@ -44,7 +44,7 @@ Custom Events are triggered by any one of the blocks under **Behavior > Triggers
  
 ## One Recipient vs. All
 
-As you have may noticed, triggering Custom Events can be done **directly** (one behavior) or **indirectly** (all behaviors). This to say:
+As you have may noticed, triggering Custom Events can be done **directly** (one behavior) or **indirectly** (all behaviors). That is to say:
 
 * You can specify exactly which behavior you're targeting.<br/>
   ![](http://static.stencyl.com/pedia2/ch6/customevent/image03.png)
@@ -63,11 +63,11 @@ As you have may noticed, triggering Custom Events can be done **directly** (one 
 
 ## Making the Custom Event Configurable
 
-Sometimes, you may want to make a Custom Event configurable. Which is say that you would want to stick a **Text Attribute** into the blank.
+Sometimes, you may want to make a Custom Event configurable. Which is to say that you would want to stick a **Text Attribute** into the blank.
 
 ![](http://static.stencyl.com/pedia2/ch6/customevent/image05.png)
 
-You can do this, and as you'd expect, the text for Custom Event becomes configurable.
+You can do this and, as you'd expect, the text for the Custom Event becomes configurable.
 
 > **Warning:** Do not change the value of the Text Attribute at runtime during the game. The Custom Event may break if you do this.
  
@@ -76,19 +76,19 @@ You can do this, and as you'd expect, the text for Custom Event becomes configur
 
 Custom Events and [Custom Blocks](http://www.stencyl.com/help/viewArticle/106/) overlap somewhat in use case. However, they differ in several respects, as summarized below.
 
-#### Custom Events
+#### Custom Events:
 * Can't accept parameters.
-* Can be indirectly or directly triggered.
-* Easier to setup and use.
+* Can be triggered directly or indirectly.
+* Easier to set up and use.
 
-#### Custom Blocks
-* Accepts parameters.
-* Directly triggered.
-* More difficult to setup but more versatile in some respects.
+#### Custom Blocks:
+* Accept parameters.
+* Triggered directly.
+* More difficult to set up, but more versatile in some respects.
 
 
 ## Summary
 
 * Custom Events are events that you trigger yourself.
-* You define the text that triggers the event.
+* You define the textual name that triggers the event.
 * Generally speaking, it's easier and simpler to just target all behaviors rather than specifying a specific recipient.
