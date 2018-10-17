@@ -40,7 +40,7 @@ When pausing using a pause button actor, do not forget to opt the pause button o
 
 ## Opting Out an Actor (Staying Active)
 
-Actors that opt out of pausing will remain active while the game is paused. To opt an Actor out, flip to its Physics > Advanced page. Select “No” for the **Can be Paused?** option.
+Actors that opt out of pausing will remain active while the game is paused. To opt an Actor out, flip to its Physics > Advanced page. Select "No" for the **Can be Paused?** option.
 
 ![Physics Page](http://static.stencyl.com/pedia2/ch5/pausing/image01.png)
 
@@ -56,7 +56,7 @@ This part toggles between paused and unpaused when you press the spacebar.
 
 
 #### Event 2: Tinting the Screen when Paused
-This part darkens the screen a little when while the game’s paused by drawing a semi-transparent black rectangle on top of everything.
+This part darkens the screen a little while the game's paused by drawing a semi-transparent black rectangle on top of everything.
 
 ![Event 2](http://static.stencyl.com/pedia2/ch5/pausing/image03.png)
 
@@ -70,8 +70,8 @@ This part darkens the screen a little when while the game’s paused by drawing 
 * Opt actors out to keep them active.
  
 
-## Challenge: Pause “Spell”
+## Challenge: Pause "Spell"
 
-Who said that pausing had to be used just to pause the game? Let’s use pausing to create a Pause “Spell”, one that **causes all enemies in a scene to freeze temporarily**.
+Who said that pausing had to be used just to pause the game? Let's use pausing to create a Pause "Spell", one that **causes all enemies in a scene to freeze temporarily**.
 
-Create a game in which picking up a “timer” item will, for 30 seconds, cause all enemies to freeze up. Everything else will operate normally, including the player.
+Create a game in which picking up a "timer" item will, for 30 seconds, cause all enemies to freeze up. Everything else will operate normally, including the player.
