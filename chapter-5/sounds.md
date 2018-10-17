@@ -54,11 +54,11 @@ Linux | OGG
 iOS | OGG
 Android | OGG
 
-In short, we use OGG for every platform except for Flash. If you're publishing your game to Flash and any of the other platforms, you'll need to import the sound in both formats. *(We recommend Audacity for exporting music. It’s free.)*
+In short, we use OGG for every platform except for Flash. If you're publishing your game to Flash and any of the other platforms, you'll need to import the sound in both formats. *(We recommend Audacity for exporting music. It's free.)*
 
 #### MP3 Troubleshooting
 
-If your game unexpectedly does not export your game to Flash, it’s likely that sounds are the culprit. Ensure that your MP3's meet the following specifications.
+If your game unexpectedly does not export your game to Flash, it's likely that sounds are the culprit. Ensure that your MP3s meet the following specifications.
 
 * 44.1 KHz (versus 22 or 11)
 * 16-bit
@@ -67,11 +67,11 @@ If your game unexpectedly does not export your game to Flash, it’s likely that
 
 If you continue to experience issues with MP3s, post your issue to the [forums](http://community.stencyl.com/index.php/board,3.0.html) and generate [logs](http://www.stencyl.com/help/view/generating-logs/).
 
-#### MP3's and Licensing
+#### MP3s and Licensing
 
 For Flash games, licensing is handled by Adobe (the creator of Flash), and as a game developer, you do not have to worry about licensing for your Flash game, even if it makes money.
 
-For desktop and mobile games, we only work with OGG sounds, so the use of MP3's is irrelevant.
+For desktop and mobile games, we only work with OGG sounds, so the use of MP3s is irrelevant.
 
 
 ## Music vs. Sound Effects
@@ -80,7 +80,7 @@ For desktop and mobile games, we only work with OGG sounds, so the use of MP3's 
 
 Stencyl supports two kinds of sounds: **music** and **sound effects**.
 
-**Music** is streamed (like viewing a YouTube video) since it’s too large to fit into memory. This is best for background music. This incurs a small performance penalty on mobile devices.
+**Music** is streamed (like viewing a YouTube video) since it's too large to fit into memory. This is best for background music. This incurs a small performance penalty on mobile devices.
 
 **Sound Effects** are loaded into memory to reduce latency in playback. This is better for short clips that need to be played immediately but consumes memory, particularly on mobile devices.
 
@@ -96,18 +96,18 @@ All sound-related blocks are conveniently located under the Sound category.
 
 Volume ranges between 0% and 100%, inclusive.
 
-> **Note:** If you’d like to pause and resume a sound, skip down to the **Channels** section.
+> **Note:** If you'd like to pause and resume a sound, skip down to the **Channels** section.
 
 #### A Common Mistake: Looping Music
 
-Looping music does not stop upon switching scenes. A common mistake, however, is to attach a “Background Music” behavior to every scene, causing the music to restart each time you enter a new “room” or "stack up." 
+Looping music does not stop upon switching scenes. A common mistake, however, is to attach a "Background Music" behavior to every scene, causing the music to restart each time you enter a new "room" or "stack up."
 
 How would you solve this? One approach is to create a blank scene prior to the first level which loops the music. Since this scene is not encountered again, the loop behavior runs just once.
  
 
 ## Channels
 
-Suppose that you’re playing Zelda. The regular tune plays, but when you approach an enemy, and the music switches over to the battle music. Once you defeat the enemy, the regular tune picks up where it left off.
+Suppose that you're playing Zelda. The regular tune plays, but then you approach an enemy, and the music switches over to the battle music. Once you defeat the enemy, the regular tune picks up where it left off.
 
 **Channels** are a simple way to **refer back to a playback instance of sounds**, so that you can **control their volume and pause/resume them in the future**.
 
@@ -122,19 +122,19 @@ Channels are **referred to by number**, starting at index 0, ending at index 31.
 
 ## Known Issues
 
-On the Android target, playing sounds may be delayed by a quarter to half second on some devices. This is due to a bug in Android's sound APIs. As of late 2015, this bug still exists and afflicts all products that use this API.
+On the Android target, playing sounds may be delayed by a quarter to half second on some devices. This is due to a bug in Android's sound APIs. As of late 2015, this bug still exists and affects all products that use this API.
 
 
 ## Summary
 
 * Music = Streamed, Sound Effects = Loaded into Memory
 * Channels let you control playback. They have little to do with the regular meaning of sound channels.
-* Don’t worry about MP3s - Adobe has you covered. On other platforms, we now use OGGs.
+* Don't worry about MP3s - Adobe has you covered. On other platforms, we now use OGGs.
  
 
 ## Challenge: Zelda-style Battle Music
 
-> Suppose that you’re playing Zelda. The regular tune plays, but when you approach an enemy, and the music switches over to the battle music. Once you defeat the enemy, the regular tune picks up where it left off.
+> Suppose that you're playing Zelda. The regular tune plays, but then you approach an enemy, and the music switches over to the battle music. Once you defeat the enemy, the regular tune picks up where it left off.
 
 How would you build this sound system?
 
