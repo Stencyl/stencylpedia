@@ -1,4 +1,4 @@
-As we described in the Scene Basics section, scenes control a game’s flow and can be thought of as various **states** in a **game** that you transition between, like a story.
+As we described in the Scene Basics section, scenes control a game's flow and can be thought of as various **states** in a **game** that you transition between, like a story.
 
 ![stencyl-scene-flow-diagram](http://static.stencyl.com/pedia2/ch4/changing/image06.png)
 
@@ -51,22 +51,22 @@ Stencyl supports these transition types.
 
 ## Example: Enter Door, Switch Scene
 
-In this simple example, we’ll make the hero enter the cave once he steps into the cave’s door, represented by a [Region](http://www.stencyl.com/help/view/regions/).
+In this simple example, we'll make the hero enter the cave once he steps into the cave's door, represented by a [Region](http://www.stencyl.com/help/view/regions/).
 
-I opted to use a “Actor Type Enters Region” event and placed a Region over the door to detect entry.
+I opted to use a "Actor Type Enters Region" event and placed a Region over the door to detect entry.
 
 ![stencyl-design-mode-switch-scene-using-door](http://static.stencyl.com/pedia2/ch4/changing/image05.png)
 
 
 ## Example: Level Selector
 
-Building a Level Select screen is common to many games. Here’s a simple and elegant way to make one.
+Building a Level Select screen is common to many games. Here's a simple and elegant way to make one.
 
 <a href="http://static.stencyl.com/pedia2/ch4/changing/LevelSelect.swf">![stencyl-design-mode-level-selector-example](http://static.stencyl.com/pedia2/ch4/changing/image12.png)</a>
  
 
 ## The Concepts
-To pull this off, I’ll use the “get scene with name” block (Scene > World). This block returns a scene, given a name.
+To pull this off, I'll use the "get scene with name" block (Scene > World). This block returns a scene, given a name.
 
 ![stencyl-design-mode-get-scene-name-block](http://static.stencyl.com/pedia2/ch4/changing/image00.png)
 
@@ -78,14 +78,14 @@ Our goal is to make a simple behavior that we can reuse. To pull off a clean Lev
 
 ![stencyl-assigning-level-names](http://static.stencyl.com/pedia2/ch4/changing/image09.png)
 
-If we do that, we can then pass a Number Attribute into the “get scene with name” block, and it will magically switch to the scene with that “name”
+If we do that, we can then pass a Number Attribute into the "get scene with name" block, and it will magically switch to the scene with that "name".
 
 ![stencyl-design-mode-switch-scene-get-scene-names](http://static.stencyl.com/pedia2/ch4/changing/image04.png)
 
  
 
 #### The Implementation: Creating the Buttons
-Putting this all together, here’s a behavior that creates 5 Level Select buttons in a row, spaced apart by 100 pixels.
+Putting this all together, here's a behavior that creates 5 Level Select buttons in a row, spaced apart by 100 pixels.
 
 > **Exercise:** You should extend this, so that it wraps over and starts a new line upon hitting the 6th button)
 
@@ -96,7 +96,7 @@ Putting this all together, here’s a behavior that creates 5 Level Select butto
 
 #### The Implementation: The Buttons' Logic
 
-Each Level Select button contains 2 Events and a single Number Attribute (called “SceneNumber” that tells the button what scene it should represent in the Level Select.
+Each Level Select button contains 2 Events and a single Number Attribute (called "SceneNumber" that tells the button what scene it should represent in the Level Select.
 
 1) One event that draws the button.
 
@@ -117,17 +117,17 @@ That's it!
 * You can only perform one scene change at a time.
 
 
-## Challenge: Actor’s Position in “Next” Scene
+## Challenge: Actor's Position in "Next" Scene
 
-In Zelda, when Link walks off the edge of a room, he naturally appears at the “right” spot in the next room.
+In Zelda, when Link walks off the edge of a room, he naturally appears at the "right" spot in the next room.
 
 For example, if he steps off the right side of a room, he will usually appear at the left side of the next room.
 
 <object height="315" width="420"><param name="movie" value="http://www.youtube.com/v/o0I1TScPRMM?version=3&amp;hl=en_US"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed allowfullscreen="true" allowscriptaccess="always" height="315" src="http://www.youtube.com/v/o0I1TScPRMM?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="420"></object>
 
 This turns out to be a challenge because you need to reposition your hero, based on where he came from before.
-Fortunately, there’s a block that can help you out (Scene > Game Flow).
+Fortunately, there's a block that can help you out (Scene > Game Flow).
 
 ![stencyl-design-mode-get-scene-name-block](http://static.stencyl.com/pedia2/ch4/changing/image00.png)
 
-Use this block to implement a generic, reliable system for placing an actor at the “right” spot, much like the Zelda game does.
+Use this block to implement a generic, reliable system for placing an actor at the "right" spot, much like the Zelda game does.
