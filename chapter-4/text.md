@@ -26,7 +26,7 @@ Fonts are a term used to describe the styling of text. Stencyl uses bitmap fonts
 * Because they're pixel based, they can take on many more shapes and forms than traditional vector-based fonts.
 
 **Cons**
-* You can’t grow them at runtime without ruining quality. (You have to create a new font for them)
+* You can't grow them at runtime without ruining quality. (You have to create a new font for them)
 * They sometimes take up more disk space.
  
 
@@ -41,7 +41,7 @@ If you'd like to learn more about creating fonts, read our [Font Editor](http://
 
 ## Drawing Text
 
-Once your game has a font, the easiest way to draw text is to draw it directly via the “when drawing” event. All text drawing blocks are found under Drawing > Drawing and Drawing > Styles.
+Once your game has a font, the easiest way to draw text is to draw it directly via the "when drawing" event. All text drawing blocks are found under: Drawing > Drawing & Drawing > Styles.
 
 #### Step 1: Set a Font
 
@@ -72,7 +72,7 @@ A HUD (heads up display) is a transparent, graphical dashboard that displays on 
 
 #### HUDs do not follow the camera
 
-One aspect of HUDs that’s unique is that they **don’t follow the camera**. They always draw at the same place on screen, regardless of where you are. Think of them as being this piece of glass that's on top of the game but not part of the game itself.
+One aspect of HUDs that's unique is that they **don't follow the camera**. They always draw at the same place on screen, regardless of where you are. Think of them as being this piece of glass that's on top of the game but not part of the game itself.
 
 #### How to make an Actor "disobey" the camera
 
@@ -80,14 +80,14 @@ Have you seen this block? (under Actor > Drawing)
 
 ![](http://static.stencyl.com/pedia2/ch4/text/image07.png)
 
-The ability to anchor an actor to the screen was made specifically for creating HUDs. As the name suggests, anchoring an actor makes the actor ignore the camera, so it **always is drawn at the same place on screen**.
+The ability to anchor an actor to the screen was made specifically for creating HUDs. As the name suggests, anchoring an actor makes the actor ignore the camera, so it is **always drawn at the same place on screen**.
 
-**HUDs aren’t a part of Stencyl or a specific feature**. They’re just a common aspect of most games that they deserved special mention and to establish how to make them using the anchor block.
+**HUDs aren't a part of Stencyl or a specific feature**. They're just such a common aspect of most games that it was worth it to bring attention to them and establish how to make them using the anchor block.
  
 
 ## Example: Drawing a Timer
 
-In this example, we’ll talk about how to do something common: drawing a timer.
+In this example, we'll talk about how to do something common: drawing a timer.
 
 <a href="http://static.stencyl.com/pedia2/ch4/text/Demo.swf">![](http://static.stencyl.com/pedia2/ch4/text/image11.png)</a>
 
@@ -114,7 +114,7 @@ We want to draw the Timer shown in the demo.
 
 6. Add a **When Drawing** event. Make it draw the time, like this.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/text/image02.png)<br/>
 
-7. That’s it (or is it?). Run the game, and you should now notice it drawing the timer, just like in the demo above.
+7. That's it (or is it?). Run the game, and you should now notice it drawing the timer, just like in the demo above.
 
 #### Walkthrough (Part 2) - Fix the Bug
 
@@ -155,4 +155,4 @@ Create a simple system for displaying dialog, in which you pass in a [list](http
 
 The dialog system should display 1 sentence at a time. The player has to hit a key to proceed.
 
-> **Bonus:** Bonus points for auto-wrapping text and displaying a little blinking arrow to indicate to the player that the sentence is “finished” and the system is waiting for the player’s go to continue.
+> **Bonus:** Bonus points for auto-wrapping text and displaying a little blinking arrow to indicate to the player that the sentence is "finished" and the system is waiting for the player's go-ahead to continue.
