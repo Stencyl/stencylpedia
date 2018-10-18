@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 18, 2018
+
+- (b10049) Fixed a couple bugs with the AdMob consent SDK for Android (issue #1218).
+
 October 14, 2018
 
 - (b10028) Fixed bug caused by disabling extensions with no blocks.xml (issue #1382).
