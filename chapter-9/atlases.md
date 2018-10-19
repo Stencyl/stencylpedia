@@ -37,7 +37,7 @@ In this Quick Guide, we'll go through the basic steps to convert a simple single
 
 	![Main Sidebar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-2.png)
 
-5. Now let's switch over to **Resources** page
+5. Now let's switch over to **Resources** page.
 
 	![Resources Button in Toolbar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-3.png)
 	
