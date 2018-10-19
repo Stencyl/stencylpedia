@@ -47,7 +47,7 @@ Under Settings > Mobile > Display is a **Scale Mode dropdown** for both iOS and 
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data="http://static.stencyl.com/pedia2/ch9/scaling-modes.swf" height="320" width="640"><param name="quality" value="high"><param name="movie" value="http://static.stencyl.com/pedia2/ch9/scaling-modes.swf"><embed height="320" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://static.stencyl.com/pedia2/ch9/scaling-modes.swf" type="application/x-shockwave-flash" width="640"></object>
 
 #### No Scaling (Letterboxing)
-After selecting the multiple to draw at, this mode will will not perform any resizing. The unused space is left blank.
+After selecting the multiple to draw at, this mode will not perform any resizing. The unused space is left blank.
 
 #### Full Screen
 After selecting the multiple to draw at, this mode will display the game "as is" without any further scaling. Anchors to the top-left. This will cause **more of the game to be shown on certain device and less on others**.
@@ -121,4 +121,4 @@ You can import at a lower scale such as 1x or 2x (you can tell Stencyl what scal
 It forces the game to max out at 2x resolution, even on tablets and smartphones where a higher resolution could be used. With most device resolutions trending well past the 2x point now, we think this isn't all that useful and may remove it in the future.
 
 #### What does Tablet-Only mode do?
-Tablet-only mode is useful for tablet-only games. You still must import your graphics at 4x, but we’ll omit the inapplicable (1x) sets from the app at publication time to save you a little bit of space.
+Tablet-only mode is useful for tablet-only games. You still must import your graphics at 4x, but we'll omit the inapplicable (1x) sets from the app at publication time to save you a little bit of space.
