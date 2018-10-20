@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 20, 2018
+
+- (b10050) Prevent repeats when changing the full screen setting on desktop.
+
 October 18, 2018
 
 - (b10049) Fixed a couple bugs with the AdMob consent SDK for Android (issue #1218).
