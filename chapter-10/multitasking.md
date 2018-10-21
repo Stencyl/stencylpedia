@@ -34,7 +34,7 @@ Happens just after the game resumes but before anything else happens to it.
 
 When would you use the Focus event in a mobile game?
 
-It’s a good idea to **pause** a game when it enters the background. When that happens, it's also a good idea to display some appropriate graphics to indicate the game's paused status.
+It's a good idea to **pause** a game when it enters the background. When that happens, it's also a good idea to display some appropriate graphics to indicate the game's paused status.
 
 ![Losing Focus](http://static.stencyl.com/help/images/multitasking-4.png)
 
