@@ -45,7 +45,7 @@ To launch it, **click the magnifying glass at the top-right of the screen** (it'
 ![keychain-access](http://static.stencyl.com/help/images/ios-primer2-7.png)
 
 
-## Step 1 (of 8): Install Apple’s WWDR Intermediate Certificate
+## Step 1 (of 8): Install Apple's WWDR Intermediate Certificate
 
 1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
@@ -68,11 +68,11 @@ To launch it, **click the magnifying glass at the top-right of the screen** (it'
 
 ![](http://static.stencyl.com/help/images/ioscerts/image00.png)
 
-3) Enter in just your e-mail and name. Leave the CA Email Address field blank. Select “Saved to Disk” and “Let me specify key pair information”.
+3) Enter in just your e-mail and name. Leave the CA Email Address field blank. Select "Saved to Disk" and "Let me specify key pair information".
 
 ![](http://static.stencyl.com/help/images/ioscerts/image01.png)
 
-4) **Save it** to a location you’ll remember such as the Desktop.
+4) **Save it** to a location you'll remember, such as the Desktop.
 
 5) On the Key Pair Information screen, it should be **Key Size: 2048 bits and Algorithm: RSA**.
 
@@ -109,11 +109,11 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 ## Step 4 (of 8): Create a P12 file
 
-> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), a P12 file combines your certificate and your private key togther into a single file. The private key is used to sign the app, while the certificate is embedded inside of that, so that an end user's device to verify that the app has not been tampered.
+> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), a P12 file combines your certificate and your private key togther into a single file. The private key is used to sign the app, while the certificate is embedded inside of that, so that an end user's device can use it to verify that the app has not been tampered.
 
 1) Launch **Keychain Access**.
 
-2) Locate your **DISTRIBUTION** certificate. (Click “Certificates” in the Category pane to locate it)
+2) Locate your **DISTRIBUTION** certificate. (Click "Certificates" in the Category pane to locate it)
 
 ![](http://static.stencyl.com/help/images/ioscerts/image02.png)
 
@@ -123,7 +123,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 ![](http://static.stencyl.com/help/images/ioscerts/image03.png)
 
-4) Pick a location you’ll remember. **Provide a password (do not leave blank)**. The password itself isn’t that important (you can use "aaa" for example), but you will need to provide it when configuring your game to publish.
+4) Pick a location you'll remember. **Provide a password (do not leave blank)**. The password itself isn't that important (you can use "aaa" for example), but you will need to provide it when configuring your game to publish.
 
 ![](http://static.stencyl.com/help/images/ios-primer2-4.png)
 
@@ -138,7 +138,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 3) Click **Add Devices**. (It's the "plus" button at the top-right.)
 
-4) Enter a name that you’ll be able to recognize in the future.
+4) Enter a name that you'll be able to recognize in the future.
 
 5) Enter in the **Device ID (UDID)**. You can find this ID by connecting your iOS device to your Mac, opening iTunes, selecting the device under DEVICES, and then clicking the Serial Number field which will then switch to Identifier (UDID).
 
@@ -149,7 +149,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 ## Step 6 (of 8): Create an App ID
 
-> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), an App ID is a unique identifier that’s used to allow your game to communicate with Apple’s services or to share data between your games. A provisioning profile uses the App ID alongside the list of authorized Device IDs to verify that your device is able to play the game.
+> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), an App ID is a unique identifier that's used to allow your game to communicate with Apple's services or to share data between your games. A provisioning profile uses the App ID alongside the list of authorized Device IDs to verify that your device is able to play the game.
 
 > You must create an App ID for **EACH** app you make.
 
@@ -159,7 +159,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 3) Click **New App ID**. (It's the "plus" button at the top-right.)
 
-4) Enter in a name that you’ll remember. **(This is NOT the App ID yet!)**
+4) Enter in a name that you'll remember. **(This is NOT the App ID yet!)**
 
 5) Enter in the actual **App ID** you wish (Explicit App ID) and then submit. We strongly recommend sticking to the convention that Apple suggests of using a reverse-domain name. For example, **com.stencyl.balloons**.
 
@@ -183,9 +183,9 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 4) Click **New Profile**. (It's the "plus" button at the top-right.)
 
-5) Fill in the details as appropriate and submit. Do this twice, once for the **App Store** and one for **Ad Hoc**. This will result in **TWO** different provisioning proiles.
+5) Fill in the details as appropriate and submit. Do this twice, once for the **App Store** and once for **Ad Hoc**. This will result in **TWO** different provisioning proiles.
 
-6) After you’ve created both profiles, download them to your Mac and **double-click them to install them**. They have an extension of **.mobileprovision**.
+6) After you've created both profiles, download them to your Mac and **double-click them to install them**. They have an extension of **.mobileprovision**.
 
 7) You can verify that the provisioning profiles have been installed by checking the **Accounts** area of Xcode (Xcode > Preferences > Accounts) and clicking on View Details at the bottom (you need to sign in with your Apple ID to enable this).
 
