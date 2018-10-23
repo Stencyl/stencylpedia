@@ -116,7 +116,7 @@ Events are like **analytics**. They let you collect data from your players durin
 
 #### Setup
 
-Events, Quests and Rewards must be set up on the [Google Play Developer Console](https://play.google.com/apps/publish/). Read Google's guide on [Events and Quests](https://developers.google.com/games/services/common/concepts/quests) to learn h ow set these up.
+Events, Quests and Rewards must be set up on the [Google Play Developer Console](https://play.google.com/apps/publish/). Read Google's guide on [Events and Quests](https://developers.google.com/games/services/common/concepts/quests) to learn how to set these up.
 
 #### Reporting Events (Analytics)
 
@@ -128,7 +128,7 @@ Block | Description | Where to Find
 
 #### Quests
 
-Quests lets you create in-game challenges for players to attempt to complete within a predefined time period.
+Quests let you create in-game challenges for players to attempt to complete within a predefined time period.
 
 Block | Description | Where to Find
 --- | --- | ---
@@ -147,7 +147,7 @@ Block | Description | Where to Find
 ## Troubleshooting
 
 #### Consult the [Official Guide](https://developers.google.com/games/services/console/enabling)
-Specifically, skip down to **Avoiding common setup problems**, which list out the most common reasons why Google Play Games will fail to work for your app.
+Specifically, skip down to **Avoiding common setup problems**, which lists out the most common reasons why Google Play Games will fail to work for your app.
 
 #### Does support Events (as in Stencyl Events) for Google Play Games?
 Not at this time. We'd like to in the future.
