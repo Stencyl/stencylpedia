@@ -7,7 +7,7 @@ When can this happen? For example, suppose that you've added a new Group and wan
 Here are a few other cases where this can happen...
 
 * Adding/Removing Controls
-* Addding/Removing Groups
+* Adding/Removing Groups
 * Adding/Removing most kinds of Resources
 
 Generally speaking, reload a document if in doubt.
