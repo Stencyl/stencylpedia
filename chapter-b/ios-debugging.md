@@ -42,7 +42,7 @@ Errors in your behaviors are generally caught by Stencyl, with the offending beh
 
 #### Why it happens
 
-What we're focusing on are the cases where your game gets stuck in the "Compiling..." state or abruptly tells you that the game could not be built. The first thing to realize is that your game isn't stuck. It hit an error that we couldn't detect for reasons like these.
+What we're focusing on are the cases where your game gets stuck in the "Compiling..." state or abruptly tells you that the game could not be built. The first thing to realize is that your game isn't stuck. It hit an error that we couldn't detect for reasons like these:
 
 * Errors with iOS certificates.
 * Errors with signing an app.
@@ -98,11 +98,11 @@ This app displays your device's console logs. Useful if your game crashes, and y
 
 ## Understanding Crashes
 
-Crashes are errors in your game’s logic or the Stencyl engine that cause the game to suddenly quit. Many types of errors can cause crashes. The most common ones include the following:
+Crashes are errors in your game's logic or the Stencyl engine that cause the game to suddenly quit. Many types of errors can cause crashes. The most common ones include the following:
 
 * Referring to something that no longer exists, such as a dead actor.
 * Doing something illegal, such as dividing by 0 or attempting to grab an element from a list that does not exist.
-* Performing an operation on something that doesn’t support that operation.
+* Performing an operation on something that doesn't support that operation.
 
 Sometimes crashes are due to reasons beyond your control (and ours), but if you find that you made an edit and the game crashes, try to recall what you did, undo that change and see if the game runs.
 
@@ -111,18 +111,18 @@ Sometimes crashes are due to reasons beyond your control (and ours), but if you 
  
 ## Debugging Tips
 
-Putting the elements discussed previously together, you can now debug your game when it crashes. Here’s a summary of what to do:
+Putting the elements discussed previously together, you can now debug your game when it crashes. Here's a summary of what to do:
 
-#### Step 1: Make the crash happen again (“repro,” short for “reproduce,” the problem)
+#### Step 1: Make the crash happen again ("repro," short for "reproduce," the problem)
 This will cue you in on what actually caused the problem.
 
-#### Step 2: Examine the game logs and stack trace in the Stencyl's Log Viewer (or Mac's Console)
+#### Step 2: Examine the game logs and stack trace in Stencyl's Log Viewer (or Mac's Console)
 See if you can recognize your behaviors. Is it something you can trace back to your game and fix?
 
 #### Step 3: Tinker with your game to isolate the issue
-If you can’t recognize the faulty behavior, disable suspicious behaviors, based on what you know causes the crash, until the game no longer crashes.
+If you can't recognize the faulty behavior, disable suspicious behaviors, based on what you know causes the crash, until the game no longer crashes.
 
-Once you’ve figure out the offending behavior(s), try to narrow it down to particular blocks, if possible. If you are unable to fix the issue, or if you think it’s a problem on our end, report it on the forums and include the following info.
+Once you've figured out the offending behavior(s), try to narrow it down to particular blocks, if possible. If you are unable to fix the issue, or if you think it's a problem on our end, report it on the forums and include the following info:
 
 1. Your logs
 2. Exact steps taken to make your game produce the crash. If the crash happens randomly, let us know.
