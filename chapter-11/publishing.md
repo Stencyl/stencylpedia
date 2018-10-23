@@ -18,7 +18,7 @@
 
 ## Step 1: Enter in Certificate Details
 
-Before you can export your app, you’ll need to tell Stencyl where your P12 and provision profiles are located.
+Before you can export your app, you'll need to tell Stencyl where your P12 and provision profiles are located.
 
 Specify these two things under Game Settings > Mobile > Certificates (iOS).
 
