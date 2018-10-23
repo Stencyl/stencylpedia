@@ -69,7 +69,7 @@ Consult Google's guide on [Testing In-App Purchases](https://developer.android.c
 
 #### Step 5: Publish the Game to Alpha/Beta Testing Channels
 
-In order to test purchases, the game must published. 
+In order to test purchases, the game must be published. 
 
 Google provides various channels (Alpha/Beta) for publishing the game, so that it does not show up in public listings and can only be installed by testers you designate. Consult Google's [guide](https://support.google.com/googleplay/android-developer/answer/3131213) for details.
 
@@ -119,7 +119,7 @@ The ID you use is the Product ID you entered into the Google Play dashboard.
 
 ![buy-product](http://static.stencyl.com/pedia2/ch12/buy.png)
 
-> Recall from above that we want to check if in-app billing has started, so we used an event and stored that in a game attribute. What's where **canMakePurchases** comes from.
+> Recall from above that we want to check if in-app billing has started, so we used an event and stored that in a game attribute. That's where **canMakePurchases** comes from.
 
 
 #### Testing for Success / Failure
@@ -156,11 +156,11 @@ Just like on iOS, purchase events are available, so your app is informed when pu
 
 Consumable purchases are products that can be **used**. More specifically, these are products that can be repurchased over and over again. This contrasts with regular (non-consumable) purchases that stay with the user forever. 
 
-A common example of a consumable purchase is virtual currency. Some games (particularly those that make you wait to progress), will sell a special currency that can be used in game to speed the game up or let you purchase special items that accomplish the same.
+A common example of a consumable purchase is virtual currency. Some games (particularly those that make you wait to progress), will sell a special currency that can be used in-game to speed the game up or let you purchase special items that accomplish the same.
 
 #### Usage
 
-Consumables are "used" using the **use product** block (same block as **buy product**, click the dropdown). Make sure to check that the user has at least 1 of that product before using, as shown below.
+Consumables get "used" with the **use product** block (same block as **buy product**, click the dropdown). Make sure to check that the user has at least 1 of that product before using, as shown below.
 
 ![consume-product](http://static.stencyl.com/pedia2/ch12/use.png)
 
@@ -204,7 +204,7 @@ Google has made everything a managed purchase. The closest thing to an unmanaged
 
 ![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
 
-#### I can't test my IAP's in-game.
+#### I can't test my IAPs in-game.
 
 * Did you remember to set up [test accounts](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases)?
 * Did you remember to publish your game to [alpha or beta channels](https://support.google.com/googleplay/android-developer/answer/3131213) in Google Play?
