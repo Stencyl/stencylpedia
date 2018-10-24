@@ -61,4 +61,4 @@ Besides creating new behaviors on your own, Behaviors can come in from two sourc
 
 To **import Behaviors from your computer**, click **Import...** in the top toolbar and pick out the Behavior. Behaviors are PNG files embedded with metadata.
 
-To import a **pre-shipped behaviors**, [read this article](http://www.stencyl.com/help/view/pre-shipped-behaviors/).
+To import a **pre-shipped behavior**, [read this article](http://www.stencyl.com/help/view/pre-shipped-behaviors/).
