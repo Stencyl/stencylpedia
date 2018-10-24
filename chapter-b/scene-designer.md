@@ -27,7 +27,7 @@ To select a **single** object, click on it while the Select tool is active.
 
 To select **multiple objects**, create a box around the objects you want to select by clicking the background and dragging, or CTRL + Click every object you want to select.
 
-Once an item is selected, you can move it or change the layer it's on. To move an item or number of selected items, click and drag it/them. To change what layer the items are on, right click them and click one of the send or bring items (arrows in the Layers pane in the bottom right section).
+Once an item is selected, you can move it or change the layer it's on. To move an item or number of selected items, click and drag it/them. To change what layer the items are on, right click them and click one of the send or bring items (up and down arrows in the Layers pane in the bottom right section).
 
  
 ## Adding Tiles
