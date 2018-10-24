@@ -27,14 +27,14 @@ To select a **single** object, click on it while the Select tool is active.
 
 To select **multiple objects**, create a box around the objects you want to select by clicking the background and dragging, or CTRL + Click every object you want to select.
 
-Once an item is selected, you can move it or change the layer it's on. To move an item or number of selected items, click and drag it/them. To change the layer items are on, right click them and click one of the send or bring items.
+Once an item is selected, you can move it or change the layer it's on. To move an item or number of selected items, click and drag it/them. To change what layer the items are on, right click them and click one of the send or bring items (arrows in the Layers pane in the bottom right section).
 
  
 ## Adding Tiles
 1. Select a Tile (or several!) from the Palette.
 2. Click and drag around the main area to place them.
 
-> **Note:** To remove a tile that is already placed in the scene click on that tile and press the " backspace " key.
+> **Note:** To remove a tile that is already placed in the scene click on that tile and press the "**backspace**" key.
 
 > **Tip:** To select multiple tiles at once, click and drag to draw a box around the tiles you want to select. Selected tiles are indicated by a box with a yellow border.
  
@@ -42,11 +42,35 @@ Once an item is selected, you can move it or change the layer it's on. To move a
 ## Adding Actors
 1. Select an Actor from the Palette.
 2. Click to place the Actor. You can click and drag around to place multiple Actors.
+ 
+To create an Actor on a **specific Layer**, follow these steps:
+
++ click on "Work on Current Layer" (button on the **left**) as Layer Mode (in the top left area of the Scene Designer **Toolbar**)
++ click on "Work only with Actors" (**black head and shoulders icon**) as Working Mode (center area of the Scene Designer **Toolbar**)
++ click on the **Layers** pane
++ click on the desired **Layer**
++ click on **Palette**
++ click on **Actors**
++ click on the desired **Actor**
++ click inside the **scene** where you want the Actor to be placed
+
+## Erasing Actors
+To erase an Actor you don't want in the scene, you can do one of two things:
+1. Using the mouse:
+
++ click on the **Select** Tool in the vertical **Toolbar** on the left-hand side of the Scene Designer
++ click on the unwanted **Actor**
++ **right**-click > Delete
+
+2. Using the keyboard:
+
++ **Select** the unwanted Actor
++ press the "**backspace**" key [<--]
 
 
 ## Changing Layers (for an object)
 
-Layers determine whether an object is drawn at in front of, or behind other objects.
+Layers determine whether an object is drawn in front of, or behind, other objects.
 
 1. Right-click the desired object.
 2. You'll see this menu. Pick the desired option.
@@ -150,7 +174,7 @@ The **lock** prevents edits to a layer. Click to toggle this setting.
 The **cog**, when clicked, brings up a popup with properties to edit, including the name, opacity, blend mode and scroll factor.
 
 > **Tip:** You can also double-click a layer to rename it.
- 
+
 
 ### Status Bar (Part 6 of 6)
 
