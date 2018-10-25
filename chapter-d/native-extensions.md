@@ -412,7 +412,7 @@ GameActivity.getInstance()
 
 By default, code runs on the main thread rather than the UI thread. This can pose problems if you need to change the UI (e.g. and can lead to crashes or unexpected behavior.
 
-If do you need to alter the UI, like adding stuff to the screen, you should do something much like `SwingUtilities.invokeLater()`:
+If you do need to alter the UI, like adding stuff to the screen, you should do something much like `SwingUtilities.invokeLater()`:
 
 ```
 GameActivity.getInstance().runOnUiThread(new Runnable()
