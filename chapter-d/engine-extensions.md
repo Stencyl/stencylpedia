@@ -43,7 +43,7 @@
 
 ## Introduction
 
-Stencyl supports user-written extensions for its the [engine](https://github.com/Stencyl/stencyl-engine). Using either Haxe or a combination of Haxe and native code, extensions can be written for all of our supported targets, including iOS, Android, Windows, Mac, Linux and Flash.
+Stencyl supports user-written extensions for its [engine](https://github.com/Stencyl/stencyl-engine). Using either Haxe or a combination of Haxe and native code, extensions can be written for all of our supported targets, including iOS, Android, Windows, Mac, Linux and Flash.
 
 Even if you don't intend to write any code, extensions can define custom blocks that expose features of Haxe (and our engine) that we don't currently have in block form.
  
@@ -65,7 +65,7 @@ No additional software is required to build pure Haxe or Flash extensions. Nativ
 
 ## How To: Installing Extensions
 
-Before we dive into how to create an extension, it’s good to know where to get them and how to turn them on and off.
+Before we dive into how to create an extension, it's good to know where to get them and how to turn them on and off.
 
 #### Where to Get Extensions
 
@@ -112,7 +112,7 @@ Part | Description
 **icon.png** | 32x32 PNG icon
 **include.nmml** | Used to specify properties for native extensions.
 **info.txt** | Various metadata for the extension. All fields are required.
-**Source files and DLL’s** | The meat of the extension
+**Source files and DLLs** | The meat of the extension
 
 
 ## How To: Creating a Haxe Extension
@@ -143,7 +143,7 @@ To create a new extension, it's easiest to copy an existing one. We've created t
 5. Edit **blocks.xml** if you wish to add custom blocks for your extension. The **spec** for this file's format can be found [here](http://www.stencyl.com/help/view/adding-blocks/).
 
 
-That’s it. Once your extension is ready, open a game, enable the extension, and test the game. If you’ve done everything correctly, the extension will work.
+That's it. Once your extension is ready, open a game, enable the extension, and test the game. If you've done everything correctly, the extension will work.
 
 #### Testing an Extension
 
@@ -158,7 +158,7 @@ If you encounter compile errors, use the Log Viewer to see what went wrong.
 
 ## How To: Creating a Flash Extension
 
-Creating a Flash extension is necessary if you wish to **import a custom SWF or SWC**. For example, a common use case is to import a sponsor’s API.
+Creating a Flash extension is necessary if you wish to **import a custom SWF or SWC**. For example, a common use case is to import a sponsor's API.
 
 Read our article on [Flash Extensions](http://www.stencyl.com/help/view/flash-extensions/) to learn how to create them.
 
@@ -203,7 +203,7 @@ If you hit a compile-time error, check out the Log Viewer to see what it says. C
 
 #### My blocks look wrong or my game doesn't load.
 
-If your custom blocks don't load, don't come out right or prevent your game from loading at all, again, open up the Log Viewer before you load up your game to see if any errors. You probably goofed up in the [custom block portion](http://www.stencyl.com/help/view/adding-blocks/).
+If your custom blocks don't load, don't come out right or prevent your game from loading at all, again, open up the Log Viewer before you load up your game to see if there are any errors. You probably goofed up in the [custom block portion](http://www.stencyl.com/help/view/adding-blocks/).
  
 #### Asking for Help
 
