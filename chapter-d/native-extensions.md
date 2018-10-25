@@ -63,7 +63,7 @@ These extensions accomplish this by getting **pointers** to those native functio
 
 #### Add Haxe to your Path
 
-If you’re writing an iOS or Android extension, you must add a couple items to your computer's "path" before proceeding, so that our bundled install of Haxe is recognized by the system.
+If you're writing an iOS or Android extension, you must add a couple items to your computer's "path" before proceeding, so that our bundled install of Haxe is recognized by the system.
 
 > **Note:** If you prefer to use your own install of Haxe, you must use Haxe 3.1. Don't forget to install Neko too.
  
@@ -105,7 +105,7 @@ Every iOS extension consists of 3 parts.
  
 #### Part 1 - The Haxe code
 
-The purpose of the Haxe portion of the extension is two fold.
+The purpose of the Haxe portion of the extension is twofold.
 
 * It exposes an API for your game (and blocks) to use.
 * It fetches function pointers to native code and calls them.
@@ -126,14 +126,14 @@ iosAlert(title, message);
 #end
 ```
 
-Here, we're calling the function, whose pointer we fetched as described above. The `#if(cpp && mobile && !android)` are pre-processor flags that only let this code execute on certain targets. In this case, this is a roundabout way of saying "only do this on ios".
+Here, we're calling the function whose pointer we fetched as described above. The `#if(cpp && mobile && !android)` are pre-processor flags that only let this code execute on certain targets. In this case, this is a roundabout way of saying "only do this on ios".
 
  
 #### Part 2 - The C++ "Mapping"
 
 The purpose of the C++ code is to establish a mapping beween Haxe and Objective-C.
 
-Open up **project/common/ExternalInterface.cpp**. This file is the “glue” that connects Haxe to the underlying Objective-C code. (We've shortened the code to the essential bits for brevity.)
+Open up **project/common/ExternalInterface.cpp**. This file is the "glue" that connects Haxe to the underlying Objective-C code. (We've shortened the code to the essential bits for brevity.)
 
 ```
 using namespace nativetest;
@@ -147,7 +147,7 @@ DEFINE_PRIM(ios_alert, 2);
 #endif
 ```
 
-As you can see `ios_alert` shows up again. This time, it's a function. That’s where that function “pointer” is coming from in the Haxe file!
+As you can see, `ios_alert` shows up again. This time, it's a function. That's where that function "pointer" is coming from in the Haxe file!
 
 The `DEFINE_PRIM` part specifies how many parameters the function has.
 
@@ -184,14 +184,14 @@ namespace nativetest
 To recap, an iOS extension effectively consists of 3 parts.
 
 * Haxe source that fetches **function pointers** to native code and calls them.
-* **ExternalInterface.cpp** provides those native calls and acts as the “glue” between Haxe and Objective-C.
+* **ExternalInterface.cpp** provides those native calls and acts as the "glue" between Haxe and Objective-C.
 * Objective-C (headers and .mm implementations) act as the implementation.
 
 This is summarized in the following diagram.
 
 ![stencyl-levels-of-abstraction](http://static.stencyl.com/pedia2/chapter-d/LevelsOfAbstraction.png)
 
-Now, we’ll look at Android. Thankfully, the story is quite similar.
+Now, we'll look at Android. Thankfully, the story is quite similar.
 
 
 ## How to Create an Extension (Android)
@@ -208,7 +208,7 @@ Every Android extension consists of 2 parts.
  
 #### Part 1 - The Haxe Code
 
-Just like, in the iOS case, the purpose of the Haxe portion of the extension is two fold.
+Just like, in the iOS case, the purpose of the Haxe portion of the extension is twofold.
 
 * It exposes an API for your game (and blocks) to use.
 * It fetches function pointers to native code and calls them.
@@ -219,7 +219,7 @@ Open up **NativeTest.hx** and find this line (~line 30).
 androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lang/String;Ljava/lang/String;)V", true);
 ```
 
-Here, we’re getting a "function pointer" to **showAlert()**, a Java function on the native side of things. The syntax is more complicated due to the use of [JNI](http://www.stencyl.com/help/view/jni-guide), the standard way of exposing native code to Java. Think of JNI as the rough equivalent to what ExternalInterface.cpp was doing for iOS, just in a more compact form.
+Here, we're getting a "function pointer" to **showAlert()**, a Java function on the native side of things. The syntax is more complicated due to the use of [JNI](http://www.stencyl.com/help/view/jni-guide), the standard way of exposing native code to Java. Think of JNI as the rough equivalent to what ExternalInterface.cpp was doing for iOS, just in a more compact form.
 
 Now, let's look right below (~line 33)
 
@@ -250,7 +250,7 @@ public static void showAlert(final String title, final String message)
 }
 ```
 
-There’s the underlying Java implementation for **showAlert()**. Notice how `showAlert()` takes two Strings as its arguments? That’s why that JNI call above looked the way it did.
+There's the underlying Java implementation for **showAlert()**. Notice how `showAlert()` takes two Strings as its arguments? That's why that JNI call above looked the way it did.
 
 ```
 androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lang/String;Ljava/lang/String;)V", true);
@@ -259,7 +259,7 @@ androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lan
 
 #### More on JNI
 
-It turns out that **JNI is serving the same purpose that ExternalInterface.cpp did for iOS**. It’s the glue that connects native code to Haxe. It just happens at the Haxe level, rather than being in a separate file.
+It turns out that **JNI is serving the same purpose that ExternalInterface.cpp did for iOS**. It's the glue that connects native code to Haxe. It just happens at the Haxe level, rather than being in a separate file.
 
 Getting the JNI syntax correct is a [topic in itself](http://www.stencyl.com/help/view/jni-guide/).
 
@@ -400,7 +400,7 @@ To implement Events for your extensions, you would need to know how to get the O
 
 #### Android (Java) - Getting the Main Class
 
-If you need to refer to the “main class” or “Activity” in Android speak, call `GameActivity.getInstance()`.
+If you need to refer to the "main class" or "Activity" in Android speak, call `GameActivity.getInstance()`.
 
 ```
 import org.haxe.nme.GameActivity;
@@ -412,7 +412,7 @@ GameActivity.getInstance()
 
 By default, code runs on the main thread rather than the UI thread. This can pose problems if you need to change the UI (e.g. and can lead to crashes or unexpected behavior.
 
-If you need to do alter the UI, like adding stuff to the screen, you do something much like `SwingUtilities.invokeLater()`:
+If do you need to alter the UI, like adding stuff to the screen, you should do something much like `SwingUtilities.invokeLater()`:
 
 ```
 GameActivity.getInstance().runOnUiThread(new Runnable()
@@ -423,4 +423,4 @@ GameActivity.getInstance().runOnUiThread(new Runnable()
 });
 ```
 
-> **Tip:** There’s another method calls **runOnHaxeThread** that does the opposite - guarantees running on the HaXe/main thread.
+> **Tip:** There's another method called **runOnHaxeThread** that does the opposite - guarantees running on the Haxe/main thread.
