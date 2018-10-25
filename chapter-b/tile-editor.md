@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Tiles can take on more than just square shapes or blank areas. You can define their collision shapes are non-square  **boxes**, **slopes** (triangles) or even arbitrary **polygons**.
+Tiles can take on more than just square shapes or blank areas. You can define their collision shapes as non-square  **boxes**, **slopes** (triangles) or even arbitrary **polygons**.
 
  
 ## Setting the Collision Shape
@@ -34,7 +34,7 @@ Suppose that we want to set the collision shape for the tile selected below. It'
 
 ## Custom Collision Shapes
 
-Sometimes you will need a custom collision shape for a tile that isn't reflected in any of the standard shapes we provide.
+Sometimes, you will need a custom collision shape for a tile that isn't reflected in any of the standard shapes we provide.
 
 If this is the case, you can define a Custom Collision Shape by clicking on the + button. You can create either a **Box** or a **Polygon**.
 
@@ -43,7 +43,7 @@ If this is the case, you can define a Custom Collision Shape by clicking on the 
 
 X and Y dictate the relative position of the box, in case you want it to be shifted off the origin (0,0).
 
-All values are in percentages (0 - 100 inclusive). We do this, so that you don't have to worry about how big the tiles are.
+All values are in percentages (0 - 100 inclusive). We do this so that you don't have to worry about how big the tiles are.
 
 ![Creating a collision box](http://static.stencyl.com/help/images/BoxCollision.png)
 
@@ -56,4 +56,4 @@ Create a Polygon by defining points and setting their x,y values, either through
 
 ![Creating a polygonal collision shape](http://static.stencyl.com/help/images/PolygonCollision.png)
 
-> **Gotcha:** Only convex polygons are supported. Do not enter in a concave polygon such as an "L" shape. Instead, use an actor instead or split the tile into two or more separate tiles that you place on top of each other.
+> **Gotcha:** Only convex polygons are supported. Do not enter in a concave polygon, such as an "L" shape. Instead, use an actor or split the tile into two or more separate tiles that you place on top of each other.
