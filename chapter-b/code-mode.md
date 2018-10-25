@@ -21,7 +21,7 @@ You have three options to write code in Stencyl:
 * Create behaviors written in code in **Code Mode**. 
 * Write arbitrary classes in **Freeform Mode**.
 
-This article is about the latter two options. Code Mode behaviors are just like normal behaviors, you can attach them to your scenes and actors. For a scene behavior, write a class that extends SceneScript; for an actor behavior write a class that extends ActorScript. You can also define attributes in Code Mode behaviors (explained later in this article).
+This article is about the latter two options. Code Mode behaviors are just like normal behaviors, you can attach them to your scenes and actors. For a scene behavior, write a class that extends SceneScript; for an actor behavior, write a class that extends ActorScript. You can also define attributes in Code Mode behaviors (explained later in this article).
 
 In Freeform Mode, you can write arbitrary classes. They are not behaviors, so you cannot define attributes or attach them to your scenes or actors. In order to make use of a Freeform Mode class, you will need to call the code from another behavior.
 
@@ -50,7 +50,7 @@ In Freeform Mode you cannot define attributes, so this area does not exist.
  
 ### Editing Area
 
-In this area you write your code. Syntax highlighting and find/replace are supported. For more advanced features use an external editor.
+In this area you write your code. Syntax highlighting and find/replace are supported. For more advanced features, use an external editor.
 
 ![stencyl-ide-code-mode-editing-area-pic](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-b/images/code-mode-editarea.png)
 
@@ -59,7 +59,7 @@ In this area you write your code. Syntax highlighting and find/replace are suppo
 
 Stencyl plays nicely with external editors such as Notepad and FlashDevelop.
 
-**Configure this setting inside Preferences > Workspace**. It will open up the editor on demand and auto-sync the changes when you save in that external editor.
+**Configure this setting inside (File > ) Preferences > Workspace**. It will open up the editor on demand and auto-sync the changes when you save in that external editor.
 
 ![stencyl-code-mode-using-an-external-ide](http://static.stencyl.com/help/images/PencylPreferencesPic.png)
  
