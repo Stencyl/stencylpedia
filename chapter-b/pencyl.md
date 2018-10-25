@@ -1,4 +1,4 @@
-> **Disclaimer:** Pencyl is **third party** software we've bundled into Stencyl. It is a rebadge of a free, cross-platform editor that is closed-source. As such, we are unable to support or develop it.<br/><br/>You are highly encouraged to use another package of your choosing such as GIMP or Photoshop.
+> **Disclaimer:** Pencyl is **third party** software we've bundled into Stencyl. It is a rebadge of a free, cross-platform editor that is closed-source. As such, we are unable to support or develop it.<br/><br/>You are highly encouraged to use another package of your choosing, such as GIMP or Photoshop.
  
 
 ## Contents
@@ -62,10 +62,10 @@ Once you enter Pencyl, you will see the toolbar, which may be familiar to you if
 <p><img alt="" src="http://static.stencyl.com/help/images/PencylPerspectiveTool.png" style="width: 29px; height: 28px; float: left;" />&nbsp; The<strong> Perspective Transform Tool</strong> allows you to shape the image into a perspective by manipulating the corners.</p>
 <p><img alt="" src="http://static.stencyl.com/help/images/PencylWarp.png" style="width: 29px; height: 28px; float: left;" />&nbsp; The&nbsp;<strong>Warp Tool</strong> warps the image as you push around the bright green grid nodes.</p>
 <p><img alt="" src="http://static.stencyl.com/help/images/PencylHand.png" style="width: 29px; height: 28px; float: left;" />&nbsp; The&nbsp;<strong>Panning Tool</strong> moves the screen around. This does not affect the position of the image.</p>
-<p><img alt="" src="http://static.stencyl.com/help/images/PencylZoom.png" style="width: 29px; height: 28px; float: left;" />&nbsp; The&nbsp;<strong>Zoom Tool</strong> zooms into the image, like the Panning Tool, it does not affect the image.</p>
+<p><img alt="" src="http://static.stencyl.com/help/images/PencylZoom.png" style="width: 29px; height: 28px; float: left;" />&nbsp; The&nbsp;<strong>Zoom Tool</strong> zooms into the image; like the Panning Tool, it does not affect the image.</p>
 <p></p>
 <p><img alt="" src="http://static.stencyl.com/help/images/Pencylcolor.png" style="width: 58px; height: 60px; float: left;" />This shows the Foreground and Background colors you&#39;re currently working with. The small arrows on the top-right corner switches the colors assigned to the right mouse button. The white and black boxes in the bottom left corner are the default colors. By clicking on them, the Foreground and Background become black and white, respectively.</p>
-<p>On the left-hand side of the program you will see another vertical bar that lets you manipulate colors, gradients, and opacity. Each section on this bar has its own options for fine-tuning an image.</p>
+<p>On the right-hand side of the program, you will see another vertical bar that lets you manipulate colors, gradients, and opacity. Each section on this bar has its own options for fine-tuning an image.</p>
 <p><img alt="" src="http://static.stencyl.com/help/images/PencylColors.png" style="width: 146px; height: 567px;" /></p>
 
 
@@ -75,7 +75,7 @@ When you're done, you can save your image in a variety of formats. Of these, we 
 
 Type | Supported? | Comments
 --- | --- | ---
-**Native** | No | Saves under the extention .ie which can't be opened by most programsm if not all. Don't use this one.
+**Native** | No | Saves under the extention .ie, which most, if not all, programs are unable to open. Don't use this one.
 **JPEG** | Yes | Does not support transparency.
 **GIF** | Yes | Allows transparency and is good with solid colored images
 **PNG** | Yes | **The best for transparency and arguably the best format for sprite work.**
