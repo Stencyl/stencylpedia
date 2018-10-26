@@ -62,11 +62,11 @@ Yes. Through StencylForge, our "marketplace for game resources", you can browse 
 
 #### What image format do I use with Stencyl?
 
-Any raster format will do - PNG, JPG, and GIF. We even support animated GIF's. We don't support vector art to a satisfactory degree. It will import, but it will be converted to raster form.
+Any raster format will do - PNG, JPG, and GIF. We even support animated GIFs. We don't support vector art to a satisfactory degree. It will import, but it will be converted to raster form.
 
 #### What kind of audio files can I use?
 
-MP3s for Flash and OGGs for everything else.. It's best if these are at a 44.1kHz sampling rate with a 16-bit resolution. You can use Audacity or a similar program to change the sampling rate, if need be.
+MP3s for Flash and OGGs for everything else. It's best if these are at a 44.1kHz sampling rate with a 16-bit resolution. You can use Audacity or a similar program to change the sampling rate, if need be.
 
 
 
