@@ -73,7 +73,7 @@ Developing an extension is simple once you master two key concepts: hooks and ca
 
 #### Hooks
 
-Hooks determine **where your extension is displayed** in Stencyl's GUI. At this time, the available places where an extension an hook into include:
+Hooks determine **where your extension is displayed** in Stencyl's GUI. At this time, the available places where an extension can hook into include:
 
 * Extensions menu in the menu bar
 * Extensions menu in the dashboard sidebar
@@ -295,7 +295,7 @@ Name | Location | Purpose
 Prefs | {workspace}/prefs/{id}.eprefs | Dictionary of key-value pairs
 Data | {workspace}/prefs/{id}.edata | Any data (as a single file)
 
-If you need to store data, use our data API to save out this data to disk. Do not attempt to write out to other locations using the plain Java API's. We may reject your extension if you do so.
+If you need to store data, use our data API to save out this data to disk. Do not attempt to write out to other locations using the plain Java APIs. We may reject your extension if you do so.
 
 ***
 
