@@ -1,5 +1,9 @@
 ### Changelog ###
 
+October 28, 2018
+
+- (b10051) Fixed performance issue with simple physics sensors and tiles (issue #1347).
+
 October 20, 2018
 
 - (b10050) Prevent repeats when changing the full screen setting on desktop.
