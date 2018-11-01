@@ -34,7 +34,7 @@ sudo apt-get update
 Run the following command to install the packages needed by the JRE and the Android SDK:
 
 ```
-sudo apt-get install libstdc++6:i386 libxtst6:i386 libXext6:i386 libxi6:i386 libncurses5:i386 libxt6:i386 libxpm4:i386 libxmu6:i386 libxp6:i386
+sudo apt-get install libstdc++6:i386 libxtst6:i386 libxext6:i386 libxi6:i386 libncurses5:i386 libxt6:i386 libxpm4:i386 libxmu6:i386 libxp6:i386
 ```
  
 
