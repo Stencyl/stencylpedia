@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 03, 2018
+
+- (b10058) Merged pull request for convertToPseudoUnicode (issue #714).
+
 October 28, 2018
 
 - (b10051) Fixed performance issue with simple physics sensors and tiles (issue #1347).
