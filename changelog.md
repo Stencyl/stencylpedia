@@ -2,6 +2,7 @@
 
 November 03, 2018
 
+- (b10059) Fixed bug with the default scene not being set properly.
 - (b10058) Merged pull request for convertToPseudoUnicode (issue #714).
 
 October 28, 2018
