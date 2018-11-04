@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 04, 2018
+
+- (b10060) Fixed duration bug for "spin by" and "slide by" tween options.
+
 November 03, 2018
 
 - (b10059) Fixed bug with the default scene not being set properly.
