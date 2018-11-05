@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 05, 2018
+
+- (b10061) Fixed bug with 0 duration actor tweens (issue #1401).
+
 November 04, 2018
 
 - (b10060) Fixed duration bug for "spin by" and "slide by" tween options.
