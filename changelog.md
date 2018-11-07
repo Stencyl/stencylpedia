@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 06, 2018
+
+- (b10062) Fixed tweening bug with recycled actors (issue #1409).
+
 November 05, 2018
 
 - (b10061) Fixed bug with 0 duration actor tweens (issue #1401).
