@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 08, 2018
+
+- (b10063) Fixed compiler error with the Game Debugger behavior.
+
 November 06, 2018
 
 - (b10062) Fixed tweening bug with recycled actors (issue #1409).
