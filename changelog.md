@@ -2,6 +2,7 @@
 
 November 13, 2018
 
+- (b10077) Prevent full screen mode from being disabled when the game is minimized.
 - (b10076) Prevent Android alert from blocking keyboard inputs (issue #1416).
 
 November 08, 2018
