@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 13, 2018
+
+- (b10076) Prevent Android alert from blocking keyboard inputs (issue #1416).
+
 November 08, 2018
 
 - (b10063) Fixed compiler error with the Game Debugger behavior.
