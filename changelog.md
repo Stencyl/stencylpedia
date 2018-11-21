@@ -1,5 +1,9 @@
 ### Changelog ###
 
+November 21, 2018
+
+- (b10101) Fixed bug with changing the collision shape groups for actors (issue #1418).
+
 November 13, 2018
 
 - (b10077) Prevent full screen mode from being disabled when the game is minimized.
