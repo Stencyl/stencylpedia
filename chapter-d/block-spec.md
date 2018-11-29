@@ -46,7 +46,7 @@ Suppose that we wanted to remake the `print` block. This is what the definition 
 
 Don't worry about the details for now. This will be useful to refer back to as you read through this article.
 
-```
+```xml
 <palette>
   <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void">
     <fields>
@@ -61,7 +61,7 @@ Don't worry about the details for now. This will be useful to refer back to as y
 
 `<palette>` is the root tag for the document -- it contains a list of `<block>` entries. 
 
-```
+```xml
 <palette>
     <block></block>
     <block></block>
@@ -91,7 +91,7 @@ hidden | If `true`, the block will not display in the palette. Used in conjuncti
 
 **EXAMPLE**
 
-```
+```xml
 <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void"></block>
 ```
 
@@ -133,7 +133,7 @@ These are the available types you can use for the **returns** property of `<bloc
 
 Each `<block>` contains `<fields>` as a child. `<fields>` is a list of **block input fields** (the blank spaces in a block).
 
-```
+```xml
 <block tag="print" spec="print %0" code="System.print(~);" type="action" color="gray" returns="void">
   <fields>
     <text order="0"/>
@@ -148,7 +148,7 @@ Each child of `<fields>` is a tag, whose name corresponds to a type (the ones me
 
 Fields are ordered using `order` attribute, starting at zero and incremented by 1. Don't skip numbers.
 
-```
+```xml
 <fields>
   <text order="0"/>
   <text order="1"/>
@@ -164,7 +164,7 @@ If you wish to use a dropdown, look at the example below for syntax.
 The `text` attribute specifies what's visible to the end user.
 The `code` attribute specifies the literal value that will be output into code.
 
-```
+```xml
 <block tag="number-dropdown" spec="%0" code="~" type="normal" returns="number">
   <fields>
     <dropdown order="0">
@@ -196,7 +196,7 @@ Here's how you define one.
 
 Here's an example of this in action.
 
-```
+```xml
 <block tag="save-successful" spec="save successful" code="success" type="normal" returns="boolean" hidden="true">
 	<fields/>
 </block>
@@ -214,7 +214,7 @@ Here's an example of this in action.
 
 This is a special type of `field` that can only show up inside a wrapper block (such as if). It has nothing to do with literal code and is used to allow a wrapper block to contain a bunch of fields before the wrapped stack of blocks is accepted (in other words, this field always comes last).
 
-```
+```xml
 <block tag="if" spec="if %0" code="if (~) {~}" type="wrapper" returns="void">
 	<fields>
 		<boolean order="0"/>
