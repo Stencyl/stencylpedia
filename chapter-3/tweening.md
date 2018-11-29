@@ -8,9 +8,9 @@
 
 ## What is Tweening?
 
-Tweens. We’re not talking about pre-teens.
+Tweens. We're not talking about pre-teens.
 
-Instead, we’re talking about a powerful ability to bring **numerical properties** of actors to a **destination value** over time.
+Instead, we're talking about a powerful ability to bring **numerical properties** of actors to a **destination value** over time.
 
 ![Tween Example](http://static.stencyl.com/pedia2/ch3/tweening/image02.png)
 
@@ -25,7 +25,7 @@ Tweens apply to the following properties.
 
 ## How To Tween
 
-All Tweens are initiated using blocks under the **Actor > Tweening** category.
+All Tweens are initiated using blocks under the **Actors > Tweening** category.
 
 ![](http://static.stencyl.com/pedia2/ch3/tweening/image05.png)
 
@@ -58,14 +58,14 @@ Use tweens to add **visual flair and polish** to your game. How so?
 
 Tweens can make all the difference between a game that feels polished and one that is functional but feels raw.
 
-Next time you play a game, **observe where tweens are used**. You’ll be surprised to see how pervasive they are!
+Next time you play a game, **observe where tweens are used**. You'll be surprised to see how pervasive they are!
 
 
 ## Gotchas
 
 #### Falling Short
 
-On occasion, you may notice that a tween falls a little short of its “destination.”
+On occasion, you may notice that a tween falls a little short of its "destination."
 
 ![Falling Short](http://static.stencyl.com/pedia2/ch3/tweening/image00.png)
 
@@ -79,7 +79,7 @@ We encourage you to employ a workaround in which you manually set the value in t
 
 The other gotcha is trying to tween with a 0 second duration. Avoid doing this if possible and use a small, positive value instead such as 0.01 seconds.
 
-#### Scaling sometimes doesn’t scale up the collision bounds.
+#### Scaling sometimes doesn't scale up the collision bounds.
 
 If you specify an Actor to not auto-scale its collision bounds, you may observe that scaling an Actor up or down will not change its collision bounds accordingly.
 
@@ -93,13 +93,13 @@ For example, if you are sliding an actor to the right, and it slams into a box, 
 
 If accurate physics are desired, **avoid using tweens** and **use conventional methods** instead.
 
-* Set the actor’s velocity or angular velocity.
+* Set the actor's velocity or angular velocity.
 * Use forces to push the actor or twist it.
  
 
 ## Summary
 
-* Tweens let you apply gradual changes to an Actor’s property over time.
+* Tweens let you apply gradual changes to an Actor's property over time.
 * Tweens are not 100% accurate and do not guarantee arrival at the exact final value.
 * Avoid tweening with a 0 second duration. Use a small value like 0.01 instead.
-* Physics becomes inaccurate (it works but is like directly setting position) when using tweening to move an Actor. Use forces or velocity setting instead.
+* Physics becomes inaccurate (it works, but is like directly setting position) when using tweening to move an Actor. Use forces or velocity setting instead.
