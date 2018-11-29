@@ -26,7 +26,7 @@ You can access accelerometer data through a trio of blocks under the **User Inpu
 The values of each of these range **between -1.0 and 1.0 inclusive**. Those values represent how much the device is tilted in a given direction.
 
 * An **x value of 1** would mean it's tilted **all the way to the right**. 
-* An **x value of -1** would mean it’s tilted **all the way to the left**.
+* An **x value of -1** would mean it's tilted **all the way to the left**.
 
 ![Directions](http://static.stencyl.com/help/images/accel-1.png)
 
