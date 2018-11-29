@@ -8,7 +8,7 @@
 
 ## Keyboard
 
-At times, it’s useful to display the on-screen keyboard in order to support text entry. For example, you may want the player to enter in a name when upon achieving a high score.
+At times, it's useful to display the on-screen keyboard in order to support text entry. For example, you may want the player to enter in a name when upon achieving a high score.
 
 <img src="http://static.stencyl.com/help/images/mobile-features-1.png" alt="On Screen Keyboard" style="width:300px;"/>
 
@@ -28,7 +28,7 @@ So that you can then draw it on screen.
 
 ![Key Input](http://static.stencyl.com/help/images/mobile-features-4.png)
 
-When the user’s done (hits return), you can get the final result and act accordingly.
+When the user's done (hits return), you can get the final result and act accordingly.
 
 ![Key Input](http://static.stencyl.com/help/images/mobile-features-5.png)
 
@@ -41,7 +41,7 @@ Besides receiving events, you can perform a few operations on the keyboard.
 
 ## Alerts
 
-Alerts are modal dialogs that display information to the user. When they appear, everything about the game pauses. Alerts are a blunt way of grabbing the user’s attention and should be used sparingly.
+Alerts are modal dialogs that display information to the user. When they appear, everything about the game pauses. Alerts are a blunt way of grabbing the user's attention and should be used sparingly.
 
 <img src="http://static.stencyl.com/help/images/mobile-features-6.png" alt="Alerts" style="width:300px;"/>
 
@@ -56,7 +56,7 @@ Vibrations provide haptic (tactile) feedback to a user, if a device supports the
 
 ![Vibrate](http://static.stencyl.com/help/images/mobile-features-8.png)
 
-> **Notes:** If a device doesn’t support vibrate (iPad, iPod Touch), nothing will happen. iOS devices may only vibrate for 2 seconds. In other words, you have no control over the duration.
+> **Notes:** If a device doesn't support vibrate (iPad, iPod Touch), nothing will happen. iOS devices may only vibrate for 2 seconds. In other words, you have no control over the duration.
  
 
 ## Other Features
@@ -75,5 +75,5 @@ As these extensions mature and see further uptake, we'll selectively pull them i
 
 ## Want to create your own extension?
 
-If you wish to contribute an extension you have a some technical expertise, consider [creating a Extension](http://www.stencyl.com/help/view/how-to-create-engine-extension/) which allows you to extend the Stencyl engine with native code (Objective-C, C++, Java).
+If you wish to contribute an extension and have some technical expertise, consider [creating an Extension](http://www.stencyl.com/help/view/how-to-create-engine-extension/) which allows you to extend the Stencyl engine with native code (Objective-C, C++, Java).
 
