@@ -1,4 +1,4 @@
-Stencyl supports a variety shortcuts to speed up your workflow. The shortcuts below are organized by the section/editor they are used in.  Most of these actions are available via buttons or menus as well.
+Stencyl supports a variety of shortcuts to speed up your workflow. The shortcuts below are organized by the section/editor they are used in.  Most of these actions are available via buttons or menus as well.
 
 > **Note:** Mac users - Use Command instead of Ctrl, and Option instead of Alt.
 
