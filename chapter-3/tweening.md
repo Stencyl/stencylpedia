@@ -25,7 +25,7 @@ Tweens apply to the following properties.
 
 ## How To Tween
 
-All Tweens are initiated using blocks under the **Actor > Tweening** (renamed to Actor**s** > Tweening) category.
+All Tweens are initiated using blocks under the **Actors > Tweening** category.
 
 ![](http://static.stencyl.com/pedia2/ch3/tweening/image05.png)
 
