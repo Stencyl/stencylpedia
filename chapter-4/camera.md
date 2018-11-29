@@ -68,7 +68,7 @@ Something you may notice is that actors that are off screen **stop working**, as
 
 Nevertheless, there are cases where you want an actor to be active regardless of whether it's on- or offscreen.
 
-To make an actor always active, use the following block: Actors > Properties > Performance > make [ Actor ] always active (formerly under Actor > Properties > Misc).
+To make an actor always active, use the following block: Actors > Properties > Performance > make [ Actor ] always active.
 
 ![](http://static.stencyl.com/pedia2/ch4/camera/image01.png)
 
