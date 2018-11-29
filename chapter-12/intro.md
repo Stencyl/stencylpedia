@@ -26,12 +26,12 @@ The rest of the software requirements are fetched by Stencyl directly from Googl
 
 No emulator or simulator is available for testing Android games on your computer. 
 
-If you don’t have an Android device, we recommend picking up a cheap one, such as a [Moto E](https://www.motorola.com/us/smartphones/moto-e-2nd-gen/moto-e-2nd-gen.html) or [Moto G](http://www.motorola.com/us/products/moto-g). We do not recommend purchasing off-brand devices since you may be unable to test your games on them
+If you don't have an Android device, we recommend picking up a cheap one, such as a [Moto E](https://www.motorola.com/us/smartphones/moto-e-2nd-gen/moto-e-2nd-gen.html) or [Moto G](http://www.motorola.com/us/products/moto-g). We do not recommend purchasing off-brand devices since you may be unable to test your games on them.
  
 
 ## Step 1: Set up your Device
 
-If you haven’t tested apps on your device before, you’ll need to do a few things to it before you begin.
+If you haven't tested apps on your device before, you'll need to do a few things to it before you begin.
 
 
 #### Install a USB Driver
@@ -46,7 +46,7 @@ Google maintains a [page](http://developer.android.com/tools/extras/oem-usb.html
 
 **Do a Google search for `USB debugging [YOUR_DEVICE_HERE]`**
 
-#### Turn on USB Mass Storage
+#### Turn off USB Mass Storage
 
 If you don't turn off **USB Mass Storage**, your device will be treated like a USB flash drive, rather than a proper Android device. Again, the location of this option varies depending on what version of Android and what device you have.
 
@@ -57,7 +57,7 @@ One trick that sometimes works is to plug your device in - if you're lucky, your
 
 ## Step 2: Install the Java JDK
 
-Android requires the Java JDK (Java Development Kit), version 1.6 or later, in order to build and sign apps. You must install this on your own, although Stencyl will make a best effort to flag this if you don’t have it installed.
+Android requires the Java JDK (Java Development Kit), version 1.6 or later, in order to build and sign apps. You must install this on your own, although Stencyl will make a best effort to flag this if you don't have it installed.
 
 * [Mac](http://stackoverflow.com/a/6785545)
 * [Windows](http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html)
