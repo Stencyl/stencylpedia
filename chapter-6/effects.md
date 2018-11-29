@@ -17,9 +17,7 @@ Effects let you add visual flair to actors (and [images](http://www.stencyl.com/
 
 The following demo demonstrates all of the available effects in Stencyl.
 
-(no longer available)
-
-<embed allowscriptaccess="never" height="640" quality="high" src="http://dl.dropbox.com/u/2769678/EffectsSandbox.swf" type="application/x-shockwave-flash" width="640"></embed>
+<embed allowscriptaccess="never" height="640" quality="high" src="https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/files/EffectsSandbox.swf" type="application/x-shockwave-flash" width="640"></embed>
 
 
 ## Effects and Performance
