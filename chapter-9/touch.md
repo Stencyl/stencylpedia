@@ -37,7 +37,7 @@ If you prefer to use Events, the analogous Mouse Events do the same thing.
 
 ## Multi-Touch
 
-For many games, single-touch is sufficient, but for some games, it’s necessary to support multi-touch. Such games require **tracking several fingers on screen moving independently**. One very common example of this use case is a game that displays multiple on-screen buttons, such as a platformer.
+For many games, single-touch is sufficient, but for some games, it's necessary to support multi-touch. Such games require **tracking several fingers on screen moving independently**. One very common example of this use case is a game that displays multiple on-screen buttons, such as a platformer.
 
 Stencyl supports multi-touch exclusively through an event.
 
