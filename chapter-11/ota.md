@@ -22,13 +22,13 @@ If you're hosting the server locally, you'll need to determine your computer's n
 
 > **Instructions**
 
-> 1) Download this [template](https://dl.dropbox.com/u/2769678/game.plist).<br/>
+> 1) Download this [template](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-11/files/game.plist).<br/>
 > 2) Replace **YOUR-BUNDLE-ID** and **GAME-NAME** with the appropriate values. (3 spots total)<br/>
 > 3) Replace **localhost** with the appropriate value.
 
 3) Create an HTML webpage under the folder. The link to the game will take on the following form.
 
-> **Instructions:** Download this [template](https://dl.dropbox.com/u/2769678/game.html) and replace **localhost** with an appropriate value.
+> **Instructions:** Download this [template](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-11/files/game.html) and replace **localhost** with an appropriate value.
 
 4) Create a **icon.png** image. Stick under the folder.
 
