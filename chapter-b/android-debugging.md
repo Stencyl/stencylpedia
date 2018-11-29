@@ -37,7 +37,7 @@ Errors in your behaviors are generally caught by Stencyl, with the offending beh
 
 #### Why it happens
 
-What we're focusing on are the cases where your game gets stuck in the "Compiling..." state seemingly forever. The first thing to realize is that your game isn't stuck. It hit an error that we couldn't detect for reasons like these.
+What we're focusing on are the cases where your game gets stuck in the "Compiling..." state seemingly forever. The first thing to realize is that your game isn't stuck. It hit an error that we couldn't detect for reasons like these:
 
 * Errors with certificates.
 * Errors with signing an app.
@@ -64,11 +64,11 @@ Although we try to scan and identify common errors, some inevitably slip through
 
 ## Understanding Crashes
 
-Crashes are errors in your game’s logic or the Stencyl engine that cause the game to suddenly quit. Many types of errors can cause crashes. The most common ones include the following:
+Crashes are errors in your game's logic or the Stencyl engine that cause the game to suddenly quit. Many types of errors can cause crashes. The most common ones include the following:
 
 * Referring to something that no longer exists, such as a dead actor.
 * Doing something illegal, such as dividing by 0 or attempting to grab an element from a list that does not exist.
-* Performing an operation on something that doesn’t support that operation.
+* Performing an operation on something that doesn't support that operation.
 
 The **Android Device Monitor** gives you visibility into the raw Android system logs. They can be daunting for an average user to go through, which is why they're filtered out by default. However, when your game crashes, they can be your main source of information.
 
@@ -84,23 +84,23 @@ Android logs can appear complex and overwhelming at first. Here are a couple thi
 
 * Anything starting with **I/trace** is a Stencyl-related log.
 * Look out for any lines mentioning your **App ID** (the thing that usually looks like com.yoursite.gamename). These are relevant to your game.
-* Crashes usually show up towards the end and are accompanied by the term **tombstone**, which refers a process that unexpectedly quit (crashed, ran out of memory, etc.).
+* Crashes usually show up towards the end and are accompanied by the term **tombstone**, which refers to a process that unexpectedly quit (crashed, ran out of memory, etc.).
  
 
 ## Debugging Tips
 
-Putting the elements discussed previously together, here's what you can do debug your game when it crashes.
+Putting the elements discussed previously together, here's what you can do to debug your game when it crashes.
 
-####Step 1: Make the crash happen again (“repro,” short for “reproduce,” the problem)
+####Step 1: Make the crash happen again ("repro," short for "reproduce," the problem)
 This will cue you in on what actually caused the problem.
 
 ####Step 2: Examine the game logs and Android Monitor logs for cues.
 See if you can recognize your behavior names, which can sometimes be printed out in a stack trace (a "blame" list that traces all the steps leading to an error. Is it something you can trace back to your game and fix?
 
 ####Step 3: Tinker with your game to isolate the issue
-If you can’t recognize the faulty behavior, disable suspicious behaviors, based on what you know causes the crash, until the game no longer crashes.
+If you can't recognize the faulty behavior, disable suspicious behaviors, based on what you know causes the crash, until the game no longer crashes.
 
-Once you’ve figure out the offending behavior(s), try to narrow it down to particular blocks, if possible. If you are unable to fix the issue, or if you think it’s a problem on our end, report it on the forums and include the following info.
+Once you've discovered the offending behavior(s), try to narrow it down to particular blocks, if possible. If you are unable to fix the issue, or if you think it's a problem on our end, report it on the forums and include the following info:
 
 1. Android Monitor logs.
 2. Stencyl logs.
