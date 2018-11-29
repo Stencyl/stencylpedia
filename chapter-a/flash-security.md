@@ -1,4 +1,4 @@
-Some games require access the web. When?
+Some games require access to the web. When?
 
 * Linking to a website
 * Pulling down high score data
@@ -13,12 +13,12 @@ Adobe added security settings that prevent Flash Player from accessing the web w
 
 > "Some websites may access information from other sites using an older system of security. This is usually harmless, but it is possible that some sites could obtain unauthorized information using the older system."
 
-For more information about Security Settings and why it exists you can visit Adobe's website.
+For more information about Security Settings and why it exists, you can visit Adobe's website.
 
 
 ## How do I let games created with Stencyl access the web when testing locally?
 
-To allow games made with Stencyl to access the web when testing them locally, you need set the permissions for your game's SWF in the [Global Security Settings Manager](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html) on Adobe's website. Below is a screenshot of what the panel looks like as well as what the location for a Stencyl game would be.
+To allow games made with Stencyl to access the web when testing them locally, you need to set the permissions for your game's SWF in the [Global Security Settings Manager](http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html) on Adobe's website. Below is a screenshot of what the panel looks like as well as what the location for a Stencyl game would be.
 
 ![Flash Player Security Manager](http://static.stencyl.com/help/images/FlashPlayerSecurity.png)
 
