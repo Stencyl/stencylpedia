@@ -16,7 +16,7 @@ Importing resources is a key part of the Stencyl workflow. This article talks ab
  
 ## The Two Methods
 
-In general, you can import resources through one of the following methods.
+In general, you can import resources through one of the following methods:
 
 1. Picking a file from the file system
 2. Drag and Drop from the file explorer
@@ -54,11 +54,11 @@ Read our [article on Sounds](http://www.stencyl.com/help/view/playing-sounds-and
  
 ## Importing Behaviors
 
-Besides creating new behaviors on your own, Behaviors can come in from two sources.
+Besides creating new behaviors on your own, Behaviors can come in from two sources:
 
 1. Local File System
-2. From our pre-shipped collection
+2. Our pre-shipped collection
 
 To **import Behaviors from your computer**, click **Import...** in the top toolbar and pick out the Behavior. Behaviors are PNG files embedded with metadata.
 
-To import a **pre-shipped behaviors**, [read this article](http://www.stencyl.com/help/view/pre-shipped-behaviors/).
+To import a **pre-shipped behavior**, [read this article](http://www.stencyl.com/help/view/pre-shipped-behaviors/).
