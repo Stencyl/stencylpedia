@@ -56,7 +56,7 @@ In an early Stencyl game that featured a level editor, the developer used HTTP r
 
 Suppose that we're building a simple game that stores its levels online. We want to create a level loader for this game that takes the data and creates actors based on the type and location.
 
-Here's some sample data: http://dl.dropbox.com/u/2769678/level1.txt (no longer available)
+Here's some sample data: [level1.txt](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-5/files/level1.txt)
 
 This file contains just 3 entries, one line each. The 3 "columns" correspond to: Name of the actor, x-location, y-location.
 
