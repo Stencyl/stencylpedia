@@ -12,14 +12,14 @@
 
 ## Introduction
 
-Google Play is the the primary place for distributing Android apps.
+Google Play is the primary place for distributing Android apps.
 
 Stencyl provides a quick way of exporting a signed app for publishing to Google Play (in contrast to the more [hands-on experience](http://www.stencyl.com/help/view/ios-certificates-guide-2) that Apple requires).
 
 
 ## Requirements
 
-* Ensure that you’re able to [test an app](http://www.stencyl.com/help/view/setup-android) on your Android device.
+* Ensure that you're able to [test an app](http://www.stencyl.com/help/view/setup-android) on your Android device.
 * Registration in the [Google Play Developer Program](http://developer.android.com/distribute/googleplay/publish/register.html).
 
 
@@ -52,7 +52,7 @@ With this in mind, let's get started with the publishing process.
 
 ![create-keystore](http://static.stencyl.com/help/images/google-play-3.png)
 
-4) You’re done. Not only does this do all the hard work, it will also fill in the fields on the Certificates (Android) page for you.
+4) You're done. Not only does this do all the hard work, it will also fill in the fields on the Certificates (Android) page for you.
 
 You only need to go through this process just once. Your keystore persists between installs of Stencyl and can be revealed on your file system (for backup purposes) by clicking on **View Certificate**.
 
@@ -79,10 +79,10 @@ At this point, you can upload your APK to Google Play. [Follow Google's instruct
 First, delete the existing keystore using the "Delete Certificate" button (the red one). Then, remake the certificate. 
 
 #### Can I update my game if I remake the keystore (or lost it)?
-No, if you overwrite or delete your Stencyl-generated keystore after publishing an app to Google Play, you won’t be able update your app. You'll need to pull the old entry down and make a new one.
+No, if you overwrite or delete your Stencyl-generated keystore after publishing an app to Google Play, you won't be able to update your app. You'll need to pull the old entry down and make a new one.
 
 #### How can I back up my keystore?
 From **Settings > Mobile > Certificates (Android)**, click on **View Certificate** to reveal the keystore on your computer.
 
 #### Can I use an existing keystore that I made outside of Stencyl?
-Yes you can. Just specify the path to it under **Settings > Mobile > Certificates (Android)** and clicking the Choose... button next to the Keystore field.
+Yes, you can. Just specify the path to it under **Settings > Mobile > Certificates (Android)** and clicking the Choose... button next to the Keystore field.
