@@ -46,7 +46,7 @@ Recall that in Haxe, we set up function pointers to the C++ layer and can specif
 
 Here is the Haxe code that does this.
 
-```
+```haxe
 private function init()
 {
   set_event_handle(notifyListeners);
@@ -66,7 +66,7 @@ In this code, `set_event_handle()` is a C++ function that we use to pass a point
 
 Now, let's look at what the C++ (ExternalInterface.cpp) looks like for this example. *(Again, this is simplified a bit to make the important bits clear. See the Purchases extension for the full source.)*
 
-```
+```cpp
 AutoGCRoot* purchaseEventHandle = 0;
 
 static void purchases_set_event_handle(value onEvent)
@@ -94,7 +94,7 @@ A bit more is going on here.
 
 Finally, a simplified example of Objective-C code from Purchases.mm that demonstrates how the code would call `sendPurchaseEvent()`
 
-```
+```objc
 -(void)finishTransaction:(SKTransaction*)t succeeded:(BOOL)succeeded {
   if(succeeded) {
 		  sendPurchaseEvent("success", t.ID);
@@ -112,12 +112,12 @@ Everything we've talked about is summarized in the following diagram.
 
 ![ios-callbacks](http://static.stencyl.com/pedia2/chapter-d/IOSCallback.png)
 
-To reiterate, this is an advanced use case where it’s best to view existing examples to understand what's going on. It sounds a lot more confusing than it really is, and there’s no better explanation than viewing the source for yourself.
+To reiterate, this is an advanced use case where it's best to view existing examples to understand what's going on. It sounds a lot more confusing than it really is, and there's no better explanation than viewing the source for yourself.
 
 
 ## Android (Java -> Haxe)
 
-Calling back Haxe from Java code follows a similar line of thinking, except that instead of passing in a function pointer that gets called back, you pass in the entire Haxe class instead and call any function you want form Java.
+Calling back Haxe from Java code follows a similar line of thinking, except that instead of passing in a function pointer that gets called back, you pass in the entire Haxe class instead and call any function you want from Java.
 
 * **Pass in the entire Haxe class** to Java by calling a Java function (via JNI).
 * In Java, said function accepts a parameter of **org.haxe.nme.HaxeObject**.
@@ -129,7 +129,7 @@ This is summarized in the following diagram.
 
 Let's walk through what's going on. First, let's peek at Purchases.hx once more.
 
-```
+```haxe
 class Purchases {	
   public function new() {
     var fn = nme.JNI.createStaticMethod("Billing", "initialize", "(Lorg/haxe/nme/HaxeObject;)V", true);
@@ -144,7 +144,7 @@ class Purchases {
 
 As you can see, the JNI call takes in a pointer to the entire class. `onSuccessfulPurchase()` will be called from Java, as we'll see next.
 
-```
+```java
 import org.haxe.nme.HaxeObject;
 
 public class Billing {
