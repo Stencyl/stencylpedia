@@ -73,7 +73,7 @@ Sometimes you have to wait a few hours for the data to show up in Game Center. T
 Another common cause is that sometimes, **Game Center requires that at LEAST 2 players need to submit scores for the board to show up at all**.
 
 #### Game Center doesn't work at all in iOS 7 for my app. I canceled Game Center a few times.
-Is a user has canceled Game Center 3 or more times, Game Center is permanently disabled for that app. The following post explains how to reverse this. 
+If a user has canceled Game Center 3 or more times, Game Center is permanently disabled for that app. The following post explains how to reverse this. 
 
 http://stackoverflow.com/questions/18927723/reenabling-gamecenter-after-user-cancelled-3-times-ios7-only
 
