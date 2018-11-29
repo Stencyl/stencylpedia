@@ -49,13 +49,13 @@ JNI bindings let Haxe code call Java code. The JNI syntax can be confusing to un
 
 > For this document, we'll be referring to **NativeTest.hx** within the **test-native** extension.
 
-JNI is used to grab the “pointers” to Java code from Haxe. Let's peek at **NativeTest.hx**. Look for the following code.
+JNI is used to grab the "pointers" to Java code from Haxe. Let's peek at **NativeTest.hx**. Look for the following code.
 
 ```
 androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lang/String;Ljava/lang/String;)V", true);
 ```
 
-* First parameter is the fully qualified name of the class. For example, **com/mysite/MyClass**. Packages use / rather than . as the delimiter. To make your life easier, it’s best to not use packages at all.
+* First parameter is the fully qualified name of the class. For example, **com/mysite/MyClass**. Packages use / rather than . as the delimiter. To make your life easier, it's best to not use packages at all.
 
 * Second parameter is the method name.
 
@@ -93,19 +93,19 @@ It is only possible to pass in and return primitives, Strings and Arrays thereof
 * float
 * double
 
-If the function has 0 arguments, then you include the parens but put nothing in between. For example, if your the function takes no arguments and returns `void`, it would come out as `()V`.
+If the function has 0 arguments, then you include the parens but put nothing in between. For example, if your function takes no arguments and returns `void`, it would come out as `()V`.
 
 > **Tip:** If you need to toss around binary data (took an image with the camera and pass back to Haxe?), use Base64 to encode and decode.
 
 
 ## Static vs. Non-Static Methods
 
-Is it possible to use JNI with a regular (non-static) method? It probably is, but, we haven't attempted this and haven't seen cases of this. We recommend sticking to static methods if you can.
+Is it possible to use JNI with a regular (non-static) method? It probably is, but we haven't attempted this and haven't seen cases of this. We recommend sticking to static methods if you can.
 
 
 ## Shortcut - Autogenerating JNI
 
-There is a way to auto-generate the JNI syntax using a script. To make this work, you must add “lime” to your path. (If you haven't installed it separately, that is.)
+There is a way to auto-generate the JNI syntax using a script. To make this work, you must add "lime" to your path. (If you haven't installed it separately, that is.)
 
 lime is located under [STENCYL_INSTALL]/plaf/haxe/lime (or lime.bat)
 
@@ -117,4 +117,4 @@ lime is located under [STENCYL_INSTALL]/plaf/haxe/lime (or lime.bat)
   lime generate -java-externs [FILENAME_OF_CLASS] .
   ```
 
-3. This will spit out a .hx file which will contain the JNI calls you desire.
+3. This will spit out a .hx file, which will contain the JNI calls you desire.
