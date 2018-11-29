@@ -35,21 +35,21 @@ This will fill out the game's screen, but the game's image will be distorted on 
 #### Using Scale to Fit (Fill)
 This will fill the game's screen but crop out the left/right edges (Landscape) or top/right edges (Portrait). The wider the screen is, the more that will be cropped out.
 
-> **Reminder:** You can find the Scale Mode dropdown inside Settings > Mobile > General.<br/><br/>![](http://static.stencyl.com/help/images/iphone5-3.png)
+> **Reminder:** You can find the Scale Mode dropdown inside Settings > Mobile > Display.<br/><br/>![](http://static.stencyl.com/help/images/iphone5-3.png)
 
 
 ## How To: Specifying a Splash Screen
 
 Apple requires separate splash screens for each size of device that they make. Your game will not publish unless all of these splash screens are provided.
 
-You can specify the splash screen right on the same screen as the other splash screens. (under Settings > Mobile > Logos & Splash)
+You can specify the splash screen right on the same screen as the other splash screens (under Settings > Mobile > Splash Screens).
 
 ![](http://static.stencyl.com/help/images/iphone5-4.png)
 
 
 ## How To: Adapting to Different Displays
 
-If you want your app to look great all displays, you’ll need to adapt your game to each screen's format, so that the game's interface elements appear in the same place regardless of what device you’re on.
+If you want your app to look great on all displays, you'll need to adapt your game to each screen's format, so that the game's interface elements appear in the same place regardless of what device you're on.
 
 You can tackle this problem in at least two ways.
 
