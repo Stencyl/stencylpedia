@@ -28,7 +28,7 @@ Sometimes, you'll want to refer to the actor that you just created. Use the "las
 
 ## Destroying Actors
 
-Destroying actors is similar to creating them. Use the kill-actor block (formerly under Scene > Actors, now **Actors > Properties**).
+Destroying actors is similar to creating them. Use the kill-actor block (under **Actors > Properties**).
 
 ![Kill Actor](http://static.stencyl.com/pedia2/ch3/destroying/image05.png)
 
@@ -49,7 +49,7 @@ We provide events that let you control what happens when an actor is created or 
 
 Why not try creating a particle effect using lightweight actors (or images) and along the way, compare its performance to doing this with regular actors?
 
-([View Demo](http://dl.dropbox.com/u/42317429/Demo.swf)) [no longer available]
+([View Demo](http://dl.dropbox.com/u/42317429/Demo.swf))
 
 To create particle effects, just spawn actors rapidly and "emit" them at a random speed and starting position and have them fade out over time. With some experimentation, you can create a fire and smoke effect with ease.
 
@@ -61,6 +61,6 @@ Many games have a mechanism that allows you to fire bullets, but only a certain 
 
 Why not try creating a bullet limiter that allows the player to create no more than 3 bullets at once?
 
-([View Demo](http://dl.dropbox.com/u/42317429/Demo%202.swf)) [no longer available]
+([View Demo](http://dl.dropbox.com/u/42317429/Demo%202.swf))
 
 > **Hint:** Use the 'when an actor of [TYPE] is created/killed' event.
