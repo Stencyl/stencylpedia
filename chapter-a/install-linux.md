@@ -1,4 +1,4 @@
-> **Call for Help:** Want to help us improve this article? [Propose edits](https://www.github.com/Stencyl/stencylpedia/edit/master/chapter-b/ios-debugging.md) to this article.
+> **Call for Help:** Want to help us improve this article? [Propose edits](https://github.com/Stencyl/stencylpedia/edit/master/chapter-a/install-linux.md) to this article.
 <br/><br/>
 > **Note:** This article pertains only to Linux. On Mac and Windows, nothing extra needs to be done on your part to install Stencyl (besides running the Windows installer or dragging the app folder to the Mac's Applications directory).
  
