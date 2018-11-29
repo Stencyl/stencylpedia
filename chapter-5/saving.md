@@ -8,7 +8,7 @@
 
 ## Overview - Saving uses Game Attributes
 
-Saving progress is a fundamental part of most games. Our saving system uses a game’s [Game Attributes](http://www.stencyl.com/help/viewArticle/158/) to save data. All you have to do is structure your game such that **anything you want to save is stored in Game Attributes**.
+Saving progress is a fundamental part of most games. Our saving system uses a game's [Game Attributes](http://www.stencyl.com/help/viewArticle/158/) to save data. All you have to do is structure your game such that **anything you want to save is stored in Game Attributes**.
 
 ![Saving](http://static.stencyl.com/pedia2/ch5/saving/image01.png)
 
@@ -81,4 +81,4 @@ This save data is not deleted until the game itself is deleted (and settings/dat
 
 Many games use a checkpoint system, a system in which reaching a certain part of the level will guarantee that, if a player dies, the player can continue from that checkpoint, rather than starting from the beginning.
 
-Create a simple checkpoint system for your game, such that even if the player exits out of the game, he’ll automatically begin from the last checkpoint he reached.
+Create a simple checkpoint system for your game, such that even if the player exits out of the game, (s)he'll automatically begin from the last checkpoint (s)he reached.
