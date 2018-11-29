@@ -45,7 +45,7 @@ Regions do exactly what we want. Here's how we'd do this (going with our example
 
 4. Finally, we add in the **scene switch block** (under Scene > Game Flow) to change the scene.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/regions/image13.png)
 
-That's it! Here's a [demo of the game in action](http://dl.dropbox.com/u/2769678/region-1.swf) [unavailable]. We've drawn the region for you, so you can see exactly where it is.
+That's it! Here's a [demo of the game in action](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-4/files/region-1.swf). We've drawn the region for you, so you can see exactly where it is.
 
 
 ## Creating Regions
@@ -111,7 +111,7 @@ The difference is that the "follow" block centers the region on the target Actor
 
 Suppose that in an adventure game, one of the hero's special moves is a fiery barrier in which all enemies approaching him within a 100 pixel radius automatically get killed.
 
-([Play the Demo](http://dl.dropbox.com/u/2769678/RegionsDemo.swf)) [ no longer available ]
+([Play the Demo](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-4/files/RegionsDemo.swf))
 
 This could be implemented by creating a box region and having that region continually follow the Hero. When actors from the Enemy group enter this region, they get killed.
 
