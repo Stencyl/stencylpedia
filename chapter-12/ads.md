@@ -22,10 +22,10 @@ Before you can test ads, in your game, you must set up an account with AdMob.
 1. [Sign up](https://www.google.com/admob/) for an account on AdMob's site.
 2. **Provide the details** they ask for (Tax Information, Personal Details, etc.)
 3. **Monetise a new app** for your game. ![admob_Monetise](http://byrobin.nl/stencyl/admob/admob_Monetise.png)
-3. Add your app manually or if its already in the store search for it  and select your platform.
+3. Add your app manually or, if its already in the store, search for it  and select your platform.
 4. **Add App** and take note of the **App ID**. You'll enter this into the Initialize Block in Stencyl.
 5. Select ad format and name ad unit. Stencyl is only supporting Banner and Interstitial ads at the moment.
-6. Save it and take note of th **Ad unit ID** (Also called Publisher Key on Stencyl Monetization page). You'll enter this into the Monetization page in Stencyl.
+6. Save it and take note of the **Ad unit ID** (Also called Publisher Key on Stencyl Monetization page). You'll enter this into the Monetization page in Stencyl.
 7. Skip Firebase Firebase Analytics, this is not support by Stencyl.
 8. And your Finished
 
