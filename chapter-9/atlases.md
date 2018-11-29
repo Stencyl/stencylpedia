@@ -27,72 +27,72 @@ In this Quick Guide, we'll go through the basic steps to convert a simple single
 
 	![Atlases Section](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-0.png)
 
-1. Let's click over to the **Atlases** section via the left sidebar in Game Settings.
+2. Let's click over to the **Atlases** section via the left sidebar in Game Settings.
 
 	![Atlases Section](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-1.png)
 	
-1. We'll double click on Atlas 2 in the right sidebar and rename it to "Pirate Ship"
+3. We'll double click on Atlas 2 in the right sidebar and rename it to "Pirate Ship"
 
-1. We'll do the same for Atlas 3, except we'll change its name to "Island" instead.
+4. We'll do the same for Atlas 3, except we'll change its name to "Island" instead.
 
 	![Main Sidebar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-2.png)
 
-1. Now let's switch over to **Resources** page
+5. Now let's switch over to **Resources** page.
 
 	![Resources Button in Toolbar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-3.png)
 	
-1. The Main Atlas should be open by default. This is where we'll put our most common resources that we'll want available in almost every scene. Whenever you add a new resource to the game, it will be placed in the Main Atlas by default.
+6. The Main Atlas should be open by default. This is where we'll put our most common resources that we'll want available in almost every scene. Whenever you add a new resource to the game, it will be placed in the Main Atlas by default.
 
 	![Resources, Main Atlas](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-4.png)
 	
-1. We can view other atlases from the **Atlas drop-down menu**. Let's switch over to **Pirate Ship**.
+7. We can view other atlases from the **Atlas drop-down menu**. Let's switch over to **Pirate Ship**.
 
 	![Resources, Pirate Ship](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-5.png)
 
-1. On the right, we have every resource not in the currently open atlas, Pirate Ship. We're going to drag over all of the resources we want to have in Pirate Ship.
+8. On the right, we have every resource not in the currently open atlas, Pirate Ship. We're going to drag over all of the resources we want to have in Pirate Ship.
 
 	![Pirate Ship with resources](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-6.png)
 	
 	Keep in mind that these resources will *only* be available in scenes that have Pirate Ship atlas bound to them. Common resources (such as the player, interface elements and pickups) will typically stay in the Main Atlas.
 
-1. Now, we're going to switch over to **Island** (from the Atlas drop-down, just as we did in Step 7) and drag all of the Island-exclusive resources over.
+9. Now, we're going to switch over to **Island** (from the Atlas drop-down, just as we did in Step 7) and drag all of the Island-exclusive resources over.
 
 	![Island with resources](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-7.png)
 
-1. Let's check out our **Main Atlas** now. As you can see, this atlas contains Health Pickup, Player and Sky Background, which are indeed elements we'll want to have available all across our game.
+10. Let's check out our **Main Atlas** now. As you can see, this atlas contains Health Pickup, Player and Sky Background, which are indeed elements we'll want to have available all across our game.
 
 	![Main Atlas with remaining resources](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-8.png)
 
-1. Now we're going to switch over to the **Preferences** page.
+11. Now we're going to switch over to the **Preferences** page.
 
 	![Preferences Button in Toolbar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-9.png)
 	
-1. Scenes have atlas binding disabled by default, which means that every atlas will be loaded when we switch to those scenes. However, we want to be able to specify which atlases we want loaded for each scene. To change this for every currently existing scene, we'll click on **Enable Atlas bindings for all Scenes**.
+12. Scenes have atlas binding disabled by default, which means that every atlas will be loaded when we switch to those scenes. However, we want to be able to specify which atlases we want loaded for each scene. To change this for every currently existing scene, we'll click on **Enable Atlas bindings for all Scenes**.
 
 	![Preferences, Enable Atlas bindings for all Scenes](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-10.png)
 	
-1. Now, let's switch over to the "Scenes" page.
+13. Now, let's switch over to the "Scenes" page.
 	
 	![Scenes Button in Toolbar](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-11.png)
 	![Scenes](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-12.png)
 
-1. We want to switch the **Primary View drop-down** from Scenes over to **Atlases**.
+14. We want to switch the **Primary View drop-down** from Scenes over to **Atlases**.
 
 	![](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-13.png)
 
-1. We're gonna switch over to the Pirate Ship atlas from the list on the left
+15. We're gonna switch over to the Pirate Ship atlas from the list on the left.
 
 	![Pirate Ship item](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-14.png)
 
-1. We only want the resources in this atlas to be available in pirate-ship-themed levels, so we'll *uncheck* **Include in all Scenes** on the right. If we were to leave it checked, the Pirate Ship atlas would load in every scene.
+16. We only want the resources in this atlas to be available in pirate-ship-themed levels, so we'll *uncheck* **Include in all Scenes** on the right. If we were to leave it checked, the Pirate Ship atlas would load in every scene.
 
 	![](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-15.png)
 
-1. Below that, we'll *check* **Ship Interior** and **Ship Deck**. We've now made it so the resources within the Pirate Ship atlas will be available to those two scenes, but no others. This is fine since we're not using our Pirate Ship resources in any other scenes.
+17. Below that, we'll *check* **Ship Interior** and **Ship Deck**. We've now made it so the resources within the Pirate Ship atlas will be available to those two scenes, but no others. This is fine since we're not using our Pirate Ship resources in any other scenes.
 
 	![](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-16.png)
 
-1. From the list on the left, we'll switch the current atlas to **Island** and *uncheck* **Include in all Scenes**, just as you did with the Pirate Ship atlas, except this time we'll check Island Beach and Island Jungle as the scenes to bind this atlas to.
+18. From the list on the left, we'll switch the current atlas to **Island** and *uncheck* **Include in all Scenes**, just as you did with the Pirate Ship atlas, except this time we'll check Island Beach and Island Jungle as the scenes to bind this atlas to.
 
 	![](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-9/images/atlases-17.png)
 	
@@ -127,31 +127,31 @@ Sometimes, you'll find that if you're loading a lot of resources, atlas loading 
 
 ## FAQ
 
-**Is there a limit to how many resources can go into an atlas?**
++ **Is there a limit to how many resources can go into an atlas?**
 
 Nope.
 
-**Is there a performance penalty for having too many atlases?**
++ **Is there a performance penalty for having too many atlases?**
 
 No. The only disadvantage is that it becomes harder for you (the creator) to keep track.
 
-**Is there a way to load/unload an atlas during a scene?**
++ **Is there a way to load/unload an atlas during a scene?**
 
 No.
 
-**Are atlases actually stored in one big, combined image?**
++ **Are atlases actually stored in one big, combined image?**
 
-Not anymore. They were in the past but that is no longer the case.
+Not anymore. They were in the past, but that is no longer the case.
 
-**What platforms do atlases apply to?**
++ **What platforms do atlases apply to?**
 
 iOS, Android, Windows, Mac and Linux.
 
-**Why does Stencyl say my resources are bigger than they are?**
++ **Why does Stencyl say my resources are bigger than they are?**
 
 The images in your resources folder are likely compressed, but images are decompressed before being stored into memory. The numbers you see in the atlases manager represent how much space your resources take up in memory, not the file system. **No amount of image compression will reduce your game's memory usage.**
 
-**I'm not able to unbind my atlases to scenes and they appear grayed out**
++ **I'm not able to unbind my atlases to scenes and they appear grayed out**
 
 You either need to enable atlas binding for the scenes in question (this can be done for *all* scenes at once from the Preferences page in Atlases) or disable "Include in all Scenes" for the atlases in question. Both of these can be accomplished from the Scenes page of Atlases.
 
