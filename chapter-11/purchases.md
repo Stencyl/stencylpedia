@@ -20,7 +20,7 @@ In-App Purchases (IAP) let you sell goods and services from within a game. This 
 
 Most of the work involves setting up the purchases on iTunes Connect. Once you get past that part, it's just a matter of setting up a few blocks inside of Stencyl.
 
-This guide will show you how to set up In-App Purchases in iTunes Connect and get you up to the critical point – getting iOS to display its standard prompt for purchasing an item.
+This guide will show you how to set up In-App Purchases in iTunes Connect and get you up to the critical point - getting iOS to display its standard prompt for purchasing an item.
 
 #### Supported Features
 
@@ -38,7 +38,7 @@ Susbcriptions | No
 * All your certificates and provisioning profiles should be properly set up
 * For the App ID you will use, In-App Purchases must be enabled. Go to the iOS Provisioning Portal to check.
 * An active **iOS Paid Applications Contract** (check the Contracts, Tax & Banking section of iTunes Connect!)
-* A compatible iOS device – **In-App Purchases cannot be tested in the iOS Simulator**
+* A compatible iOS device - **In-App Purchases cannot be tested in the iOS Simulator**
 
 > **Note:** You do not need a Studio license with us to test this feature. You only need it to publish your game.
 
@@ -64,7 +64,7 @@ https://itunesconnect.apple.com
 3. Click **Create New**
   * Pick **Non-Consumable**
   * Fill out the form
-  * **“Cleared for Sale” must be yes**, and you must provide a screenshot. It’s OK for now to provide a blank screenshot.
+  * **"Cleared for Sale" must be yes**, and you must provide a screenshot. It's OK for now to provide a blank screenshot.
 3. Repeat Step 3 for as many items as you need.
 
 > **Note:** What if you want to operate on an existing game? You can, but only under certain conditions that Apple dictates. Consult Apple's documentation for details.
@@ -76,10 +76,10 @@ When you are ready to proceed, mark the game as **Ready to Upload**, but do NOT 
 ## Setting up your iOS Device
 
 #### Step 1: Sign Out
-**Sign out of your “Store” account** on your device (it’s under the Settings App as “Store” towards the bottom). Do NOT sign back in using the test account yet! You will sign in to the test account while you are testing your game.
+**Sign out of your "Store" account** on your device (it's under the Settings App as "Store" towards the bottom). Do NOT sign back in using the test account yet! You will sign in to the test account while you are testing your game.
 
 #### Step 2: Delete the Existing Game
-If you’re testing your game, it helps to **delete the existing copy of the game** from the device that never had IAPs to begin with.
+If you're testing your game, it helps to **delete the existing copy of the game** from the device that never had IAPs to begin with.
 
  
 ## Setting up Purchases in Stencyl
@@ -160,9 +160,9 @@ When this happens, you will receive a bunch of **purchase is restored events** (
 
 So... something didn't quite go right. First, **check your logs**.
 
-If you see something along the lines of "**Cannot connect to the iTunes Store**", then you know for certain that something didn’t quite go right along the way.
+If you see something along the lines of "**Cannot connect to the iTunes Store**", then you know for certain that something didn't quite go right along the way.
 
-Here’s a list of everything we know that could go wrong.
+Here's a list of everything we know that could go wrong.
 
 #### Out of your control
 * Wait up to 24 hours for iTunes Connect to sync its data.
@@ -171,18 +171,18 @@ Here’s a list of everything we know that could go wrong.
 * Is your iOS Paid Applications contract active? (Check Contracts, Tax and Banking in iTunes Connect)
 * Have you enabled In App Purchases for the App ID you are using?
 * Have you marked your app as ready to upload?
-* Did you remember to check “cleared for sale” for each product?
+* Did you remember to check "cleared for sale" for each product?
 * Did you member to submit a screenshot for each product?
 * Did you provide the correct product IDs, exactly as you entered them into iTunes Connect?
 * Did you remember to enter in the product IDs into StencylWorks?
 * Did you sign out of your live/real account?
 * Did you create a test account in iTunes Connect?
 * Did you sign in to the test account, only in the app-itself, NOT under Settings?
-* The “dumb” solutions that sometimes work
+* The "dumb" solutions that sometimes work
   * Are you testing your game on your device, not in the simulator?
   Is your device jailbroken?
   Can the device connect to the internet?
-  Have you tried deleting and than reinstalling the app? (Not just installing it!)
+  Have you tried deleting and then reinstalling the app? (Not just installing it!)
   Have you tried rebooting your device?
 
 #### Ask for help
