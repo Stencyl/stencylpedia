@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 04, 2018
+
+- (b10130) Finished AdMob consent SDK by adding iOS portion (issue #1218).
+
 November 21, 2018
 
 - (b10101) Fixed bug with changing the collision shape groups for actors (issue #1418).
