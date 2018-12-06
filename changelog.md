@@ -1,8 +1,12 @@
 ### Changelog ###
 
+December 06, 2018
+
+- (b10133) Fixed issue with framework file not being included.
+
 December 05, 2018
 
-- (b10133) Added some missing files from the previous update.
+- (b10131) Added some missing files from the previous update.
 
 December 04, 2018
 
