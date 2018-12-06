@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 05, 2018
+
+- (b10131) Added some missing files from the previous update.
+
 December 04, 2018
 
 - (b10130) Finished AdMob consent SDK by adding iOS portion (issue #1218).
