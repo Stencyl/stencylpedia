@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 09, 2018
+
+- (b10134) Fixed a bug with selecting behavior categories (issue #1425).
+
 December 06, 2018
 
 - (b10133) Fixed issue with framework file not being included.
