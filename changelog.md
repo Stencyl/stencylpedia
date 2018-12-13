@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 13, 2018
+
+- (b10143) Fixed a memory leak with simple physics actors and tile collisions.
+
 December 09, 2018
 
 - (b10134) Fixed a bug with selecting behavior categories (issue #1425).
