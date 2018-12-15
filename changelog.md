@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 15, 2018
+
+- (b10145) Fixed collisions between simple actors and tiles when game is set to Box2D mode (issue #99).
+
 December 13, 2018
 
 - (b10143) Fixed a memory leak with simple physics actors and tile collisions.
