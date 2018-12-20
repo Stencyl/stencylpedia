@@ -1,5 +1,9 @@
 ### Changelog ###
 
+December 19, 2018
+
+- (b10173) Added block to set the panning of a sound channel.
+
 December 15, 2018
 
 - (b10145) Fixed collisions between simple actors and tiles when game is set to Box2D mode (issue #99).
