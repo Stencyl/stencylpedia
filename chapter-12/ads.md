@@ -141,6 +141,18 @@ An fullscreen ad is clicked | User clicks on the Interstitial ad
 
 ![ad-events-interstitial-closed](http://byrobin.nl/stencyl/admob/admob_interstitial_event_closed.png)
 
+### GDPR Support
+
+The EU's General Data Protection Regulation (GDPR) requires that you gather consent from players in the EU as well as the EEA before showing personalized ads. To assist in this, you can show a Google rendered consent form that will only appear to players who are in the EEA or their location is unknown. Before showing the form, you need to set the privacy policy URL using this block:
+
+![set-privacy-policy-url](../chapter-11/images/set-privacy-policy-url.png)
+
+This block can be used right after the init block. After setting the privacy policy URL, you can then show the consent form. The consent status as well as the location of the player is detected after using the init block, so you don't need to check for that before showing the form.
+
+![show-consent-form](../chapter-11/images/show-consent-form.png)
+
+This block has a dropdown option that decides whether to check the existing consent status before showing the form. If "Check existing consent" is used, then the form will not show if the player has previously consented to either personalized or non-personalized ads. This option is best used at the start of the game so that players who already chose an option are not bothered by the form again. The second option "Always show" is needed to allow the player to change their consent, which is something that is required by GDPR. After the player selects an option on the form, the ads are updated to either personalized or non-personalized depending on the option chosen.
+
 ## Other Ad Networks
 
 Officially, Stencyl only supports AdMob on Android. Through free, user-created extensions, other ad networks besides AdMob are supported. These include...
