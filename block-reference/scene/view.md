@@ -179,7 +179,7 @@ fadeTileLayerTo(0, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer ID
 fadeTileLayerTo(1, [TEXT], [NUMBER]/100, [NUMBER]); //specify a layer name
 ```
 
-*** 
+***
 
 ### <a name="set-blend-layer2"></a> Set Blend Mode (for layer)
 
@@ -300,4 +300,3 @@ setOffscreenTolerance([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
-

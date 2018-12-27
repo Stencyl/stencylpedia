@@ -4,7 +4,7 @@
 
 ## Arithmetic
 
-### <a name="plus"></a> <a name="minus"></a> <a name="times"></a> <a name="divide"></a>  Add / Subtract / Multiply / Divide
+### <a name="plus"></a> <a name="minus"></a> <a name="times"></a> <a name="div"></a> Add / Subtract / Multiply / Divide
 
 ![arithmetic-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/arithmetic.png)
 
@@ -52,7 +52,7 @@ Returns the integer remainder after dividing the first number by the second.
 Returns a random integer between the first and second numbers, inclusive. Provide integers for both numbers.
 
 ```
-randomInt(Math.floor(Number), Math.floor(Number))
+randomInt(Math.floor([NUMBER]), Math.floor([NUMBER]))
 ```
 
 ***

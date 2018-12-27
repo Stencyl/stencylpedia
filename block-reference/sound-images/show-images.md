@@ -184,7 +184,7 @@ Returns various properties for the image instance.
 
 ## Tweening
 
-### <a name="imaget-tween-slide"></a> Slide an Image Instance
+### <a name="image-tween-slide"></a> Slide an Image Instance
 
 ![slide-image-instance-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/3%20-%20Show%20Images/image-tween-slide.png)
 

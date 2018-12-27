@@ -153,7 +153,7 @@ Makes animated shaders run faster/slower. Useful for porting shaders written for
 Adjusts the screen's hue in degrees.
 
 ```
-new HueShader(0)
+new HueShader([NUMBER])
 ```
 
 ***
@@ -194,7 +194,7 @@ Apply simple filters (grayscale, inverse, sepia) to the screen.
 
 ```
 new GrayscaleShader()
-new InverseShader()
+new InvertShader()
 new SepiaShader()
 ```
 
@@ -257,8 +257,7 @@ new GrainShader()
 Apply TV-like scanlines to the screen.
 
 ```
-new ScanlineShader(0)
+new ScanlineShader([NUMBER])
 ```
 
 ***
-

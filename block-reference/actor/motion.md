@@ -82,9 +82,9 @@ Twists (applies torque) to an actor, given a force.
 
 ***
 
-## <a name="getangvel"></a> Turning Speed
+## Turning Speed
 
-### Get Turning Speed
+### <a name="getangvel"></a> Get Turning Speed
 
 ![get-avelocity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/getangvel.png)
 

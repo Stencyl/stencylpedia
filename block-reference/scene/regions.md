@@ -163,4 +163,3 @@ Gets the [Width/Height] of the region.
 ```
 
 ***
-

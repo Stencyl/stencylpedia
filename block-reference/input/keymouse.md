@@ -92,7 +92,6 @@ is down | Mouse button is currently pressed down.
 was pressed | Mouse button was **just** pressed down. Called once per click-release cycle.
 was released | Mouse button was **just** released. Called once per click-release cycle.
 
-
 ```
 isMouseDown()
 isMousePressed()

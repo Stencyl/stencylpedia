@@ -6,13 +6,13 @@
 
 ***
 
-## <a name="accelerometer"></a> Accelerometer
+## Accelerometer
 
-### Accelerometer Value
+### <a name="accelerometer"></a> Accelerometer Value
 
 ![accel-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Accel.png)
 
-Returns the current values for the [accelerometer](http://www.stencyl.com/help/view/mobile-accelerometer/). 
+Returns the current values for the [accelerometer](http://www.stencyl.com/help/view/mobile-accelerometer/).
 
 **Portrait Orientation**
 

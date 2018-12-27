@@ -56,7 +56,7 @@ StringTools.trim([TEXT])
 
 ## Comparison
 
-### <a name="eq"></a>  Equals (Text)
+### <a name="eq"></a> Equals (Text)
 
 ![equals-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_Equality.png)
 
@@ -122,7 +122,6 @@ Returns the index at which the given phrase (or character) appears in the given 
 ```
 [TEXT].indexOf([TEXT])
 ```
-
 
 ***
 

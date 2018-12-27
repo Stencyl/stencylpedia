@@ -26,7 +26,6 @@ saveGame("mySave", function(success:Bool):Void {
 
 ![example](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-5/images/saving-2.png)
 
-
 ***
 
 ### <a name="load-game"></a> Load Game

@@ -54,8 +54,8 @@ Loops over all actors on the screen. Use the embedded `actor on screen` block to
 ```
 engine.allActors.reuseIterator = false;
 for(actorOnScreen in engine.allActors) {
-if(actorOnScreen != null && !actorOnScreen.dead && !actorOnScreen.recycled && actorOnScreen.isOnScreenCache) {
-    [ACTIONS]		
+  if(actorOnScreen != null && !actorOnScreen.dead && !actorOnScreen.recycled && actorOnScreen.isOnScreenCache) {
+    [ACTIONS]
   }
 }
 engine.allActors.reuseIterator = true;
@@ -88,7 +88,7 @@ Loops over all actors of a given Actor Type (whether on or off screen). Use the 
 ```
 for(actorOfType in getActorsOfType([ACTOR TYPE])) {
   if(actorOfType != null && !actorOfType.dead && !actorOfType.recycled) {
-    [ACTIONS]		
+    [ACTIONS]
   }
 }
 ```
@@ -110,4 +110,3 @@ for(actorInGroup in [ACTOR GROUP].list) {
 ```
 
 ***
-

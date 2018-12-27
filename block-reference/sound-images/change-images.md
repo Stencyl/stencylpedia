@@ -122,7 +122,7 @@ flipImageVertical([IMAGE]);
 
 ***
 
-### <a name="iamge-swap"></a> Swap Colors in Image
+### <a name="image-swap"></a> Swap Colors in Image
 
 ![swap-color-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/2%20-%20Change%20Images/image-swap.png)
 

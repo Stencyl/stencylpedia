@@ -4,7 +4,7 @@
 
 ## Code
 
-### <a name="code-long"></a> Code Block (Single Line, Multi Line)
+### <a name="custom-code"></a> <a name="code-long"></a> Code Block (Single Line, Multi Line)
 
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/custom-code.png)<br/>
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-long.png)
@@ -13,7 +13,7 @@ Lets you embed code into your Behavior. Can be used in many ways. Particularly u
 
 ***
 
-### <a name="custom-code"></a> Code Block (Inline)
+### <a name="code-short"></a> Code Block (Inline)
 
 ![code-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/code-short.png)
 
@@ -83,6 +83,8 @@ Returns `true` if the game is running on the selected platform.
 #if(PLATFORM) true #else false #end
 ```
 
+***
+
 ### <a name="is-device2"></a> Running on Specific iOS Device
 
 ![do-platform-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/4%20-%20Advanced/is-device2.png)
@@ -97,7 +99,7 @@ Returns `true` if the game is running on the selected kind of iOS device. Useful
 * iPad
 
 ```
-#if(mobile && !android) Engine.isStandardiOS #else false #end
+#if(mobile && !android) Engine.isStandardIOS #else false #end
 #if(mobile && !android) Engine.isExtendedIOS #else false #end
 #if(mobile && !android) Engine.isIPhone6 #else false #end
 #if(mobile && !android) Engine.isIPhone6Plus #else false #end

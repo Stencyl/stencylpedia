@@ -17,4 +17,3 @@ Triggers when the specified [sound](http://www.stencyl.com/help/view/playing-sou
 Triggers when any sound that is mapped to the specified [channel](http://www.stencyl.com/help/view/playing-sounds-and-music/) finishes playing.
 
 ***
-

@@ -81,7 +81,7 @@ tileExistsAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
 tileExistsAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
-*** 
+***
 
 ### <a name="tileID-at2"></a> Get ID for Tile at location
 
@@ -94,7 +94,7 @@ getTileIDAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
 getTileIDAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
-*** 
+***
 
 ### <a name="tileCollisionAt2"></a> Does a solid tile exist at location?
 
@@ -107,7 +107,7 @@ tileCollisionAt([NUMBER], [NUMBER], 0, [TEXT]) //specify layer ID
 tileCollisionAt([NUMBER], [NUMBER], 1, [TEXT]) //specify layer name
 ```
 
-*** 
+***
 
 ### <a name="tileColID-at2"></a> Get Collision ID for tile at location
 
@@ -189,4 +189,3 @@ getCurrentSceneName()
 ```
 
 ***
-

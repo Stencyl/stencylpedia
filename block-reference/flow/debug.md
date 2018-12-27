@@ -11,14 +11,14 @@
 Adds the text you specify to your logs, which can be viewed in the **Log Viewer**. Use this block to verify values and debug your game when you encounter bugs. Accepts anything but will convert to text before printing.
 
 ```
-print([ANYTHING]);
+trace([ANYTHING]);
 ```
 
 ***
 
 ## Commenting
 
-### <a name="comment-short"></a><a name="comment-long"></a>  Comment (Single Line, Multiple Lines)
+### <a name="comment-short"></a> <a name="comment-long"></a> Comment (Single Line, Multiple Lines)
 
 ![comment-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/comment-short.png)<br/>
 ![comment-block](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/3%20-%20Debug/comment-long.png)
@@ -28,6 +28,8 @@ Comments let you mark up your behaviors. They are like sticky notes. They have n
 ```
 /* [ANYTHING] */
 ```
+
+***
 
 ### <a name="comment-wrapper"></a> Comment (Wrapper)
 

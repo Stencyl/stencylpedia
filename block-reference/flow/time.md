@@ -50,6 +50,8 @@ runPeriodically(1000 * [NUMBER], function(task:TimedTask):Void {
 Cancels the execution of a periodic (`do every n seconds`) task.
 
 ```
-timeTask.repeats = false; 
+timeTask.repeats = false;
 return;
 ```
+
+***

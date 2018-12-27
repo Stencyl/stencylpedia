@@ -75,7 +75,7 @@ Math.atan([NUMBER])
 Converts from rectangular to polar coordinates. The return value is in radians.
 
 ```
-Math.atan2([NUMBER],[NUMBER])
+Math.atan2([NUMBER], [NUMBER])
 ```
 
 #### Example: Point Actor Towards Mouse
@@ -95,7 +95,7 @@ Using inverse tangent, we can calculate the angle to rotate the actor to based o
 Returns the square root of the given number.
 
 ```
-Math.sqrt[NUMBER]
+Math.sqrt([NUMBER])
 ```
 
 ***
@@ -107,7 +107,7 @@ Math.sqrt[NUMBER]
 Returns the given number to the specified power (e.g., x<sup>y</sup>).
 
 ```
-Math.pow[NUMBER, NUMBER]
+Math.pow([NUMBER, NUMBER])
 ```
 
 ***
@@ -120,8 +120,8 @@ Math.pow[NUMBER, NUMBER]
 **e^** - Returns the number e to the given power.
 
 ```
-Math.log[NUMBER]
-Math.exp[NUMBER]
+Math.log([NUMBER])
+Math.exp([NUMBER])
 ```
 
 ***

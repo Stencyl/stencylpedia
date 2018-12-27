@@ -16,7 +16,7 @@ You can refer to Actor 1 and Actor 2 directly using the blocks embedded in the e
 
 ## Collision Side
 
-### <a name="collision-top"></a> Top / Left / Bottom / Right Side was Hit
+### <a name="collision-top"></a> <a name="collision-left"></a> <a name="collision-bottom"></a> <a name="collision-right"></a> Top / Left / Bottom / Right Side was Hit
 
 ![collision-side-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Side.png)
 
@@ -45,8 +45,8 @@ event.otherFromRight
 Returns the group of the shape for the "other" (or "second") object in the collision. In most cases, the group of the shape is the same as that of the actor, but that [isn't always the case](http://www.stencyl.com/help/view/collisions-and-groups/).
 
 ```
-internalGetGroup(event.thisActor, event.thisShape, event);
-internalGetGroup(event.thisActor, event.otherShape, event);
+internalGetGroup(event.thisActor, event.thisShape, event)
+internalGetGroup(event.otherActor, event.otherShape, event)
 ```
 
 ***

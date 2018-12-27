@@ -55,7 +55,7 @@ for(key in map.keys()) {
 Returns the entry for the given key, or null if it doesn't exist.
 
 ```
-map.get("text")
+map.get([TEXT])
 ```
 
 ***

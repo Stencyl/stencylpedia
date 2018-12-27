@@ -8,7 +8,7 @@
 
 ![kill-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/die.png)
 
-Immediately kills the specified actor. 
+Immediately kills the specified actor.
 
 If killing the current actor from its own actor behavior, the remaining logic will continue to run. We recommending using the stop block to prevent errors from happening in this case.
 
@@ -184,6 +184,8 @@ var vertices:Array<B2Vec2> = new Array<B2Vec2>();
 polygonActor.addPolygonalShape(vertices);
 ```
 
+***
+
 ### <a name="addshape-vertex"></a> Add Point to Polygon Shape
 
 ![point-add-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-vertex.png)
@@ -205,14 +207,16 @@ Lets you perform certain actions on each collision shape for the actor. Use the 
 ```
 var shapeActor:Actor = [ACTOR];
 if (shapeActor.physicsMode == 0) {
-	var body:B2Body = shapeActor.getBody();
-	var fixture:B2Fixture = body.getFixtureList();
-	while (fixture != null){
-		[ACTIONS]
-		fixture = fixture.getNext();
-	}
+  var body:B2Body = shapeActor.getBody();
+  var fixture:B2Fixture = body.getFixtureList();
+  while (fixture != null){
+    [ACTIONS]
+    fixture = fixture.getNext();
+  }
 }
 ```
+
+***
 
 ### <a name="shape-sensorsolid"></a> Make Collision Shape Solid / Sensor
 
@@ -225,6 +229,8 @@ fixture.setSensor(true); //Make it a sensor
 fixture.setSensor(false); //Make it solid
 ```
 
+***
+
 ### <a name="shape-destroy"></a> Remove Collision Shape
 
 ![remove-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-destroy.png)
@@ -234,6 +240,8 @@ Removes the collision shape from the actor. Must be used within the `for each co
 ```
 body.DestroyFixture(fixture);
 ```
+
+***
 
 ### <a name="shape-scale"></a> Resize Collision Shape
 

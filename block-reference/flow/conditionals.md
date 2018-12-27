@@ -88,7 +88,7 @@ Returns `true` if the condition resolves to `false`. Testing `if not [CONDITION]
 
 ***
 
-### <a name="true"></a><a name="false"></a>  True / False
+### <a name="true"></a> <a name="false"></a> True / False
 
 ![true-false-blocks](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/true.png) ![true-false-blocks](http://static.stencyl.com/pedia2/block-images/1%20-%20Flow/0%20-%20Conditions/false.png)
 
@@ -134,9 +134,7 @@ Returns `true` if the values are not equal.
 
 ***
 
-<a name="less"></a> <a name="lesseq"></a> <a name="more"></a> <a name="moreeq"></a> 
-
-### Comparators
+### <a name="less"></a> <a name="lesseq"></a> <a name="more"></a> <a name="moreeq"></a> Comparators
 
 Returns `true` if...
 
@@ -154,3 +152,4 @@ Operator | Description
 ([NUMBER] >= [NUMBER])
 ```
 
+***
