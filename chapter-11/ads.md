@@ -15,7 +15,7 @@
 Although iOS supports many ad networks, we've chosen to support AdMob.
 Through 3rd-party extensions, Stencyl supports a number of other ad networks.
 
-This guide is for Stencyl build 9279 and higher
+This guide is for Stencyl build 10200 and higher
 
 ## Set Up an AdMob Account
 
@@ -25,11 +25,9 @@ Before you can test ads, in your game, you must set up an account with AdMob.
 2. **Provide the details** they ask for (Tax Information, Personal Details, etc.)
 3. **Monetise a new app** for your game. ![admob_Monetise](http://byrobin.nl/stencyl/admob/admob_Monetise.png)
 3. Add your app manually or, if it's already in the store, search for it  and select your platform.
-4. **Add App** and take note of the **App ID**. You'll enter this into the Initialize Block in Stencyl.
+4. **Add App** and take note of the **App ID**. You'll enter this into the Initialize block in Stencyl.
 5. Select ad format and name ad unit. Stencyl is only supporting Banner and Interstitial ads at the moment.
-6. Save it and take note of th **Ad unit ID** (Also called Publisher Key on Stencyl Monetization page). You'll enter this into the Monetization page in Stencyl.
-7. Skip Firebase Firebase Analytics, this is not support by Stencyl.
-8. And your Finished
+6. Save it and take note of the **Ad unit ID** (Also called Publisher Key on Stencyl Monetization page). You'll enter this into the Monetization page in Stencyl.
 
 ## Initialize Admob in Stencyl
 
@@ -48,22 +46,22 @@ Google does not allow you to click on live ads when testing your game so you hav
 1. Open your game in Stencyl. Under **Settings > Mobile > Monetization**.
 2. Enable Test ads
 
-> **Note:** Don't forget to disable Test Ads when your are ready to Publish your game, or else the test ads will show up.
+> **Note:** Don't forget to disable Test Ads when you are ready to Publish your game, or else the test ads will show up.
 
 #### Enter in the AppId.
 
-1. Take note of your Admob **AppId** as mentioned above in step 4.
-2. Open your game in Stencyl. In palette under **Game > Mobile** you can find the Admob blocks.</br>
+1. Take note of your AdMob **AppId** as mentioned above in step 4.
+2. Open your game in Stencyl. In palette under **Game > Mobile** you can find the AdMob blocks.</br>
 ![admob_initialize](http://byrobin.nl/stencyl/admob/admob_initialize.png)</br>
-3. Fill in the **AppId** in the block, if your are using Banner Ads you can set here if you want it show at the top or at the bottom of your game.
+3. Fill in the **AppId** in the block. If you are using Banner Ads you can set here if you want it to show at the top or at the bottom of your game.
 
-> **Note:** Use this block only once a session as early as possible(Like in a loading scene)
+> **Note:** Use this block only once a session as early as possible (such as a loading scene)
 
 ## Displaying Banner Ads
 
 #### Enter in the Ad unit ID
 
-1. Take note of your AdMob Banner **Ad unit ID** as mentioned above in step 6. Als called Publisher key on Stencyl Monetization page
+1. Take note of your AdMob Banner **Ad unit ID** as mentioned above in step 6 (Also called Publisher key on Stencyl Monetization page).
 
 2. Open your game in Stencyl. Under **Settings > Mobile > Monetization**.
 
@@ -71,7 +69,7 @@ Google does not allow you to click on live ads when testing your game so you hav
 
 #### Displaying the Banner Ad
 
-To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [Andoroid Ads](http://www.stencyl.com/help/view/android-ads//) guide, you'll notice that this is the same block.
+To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [Android Ads](http://www.stencyl.com/help/view/android-ads//) guide, you'll notice that this is the same block.
 
 ![ad-show-hide](http://byrobin.nl/stencyl/admob/admob_banner_showhide.png)
 
@@ -80,7 +78,7 @@ To display an ad, you must tell the ad to show. This is done using the **show/hi
 #### Controlling Ad Position
 
 Ad Position is set in **the Initialize block** using the dropdown. You can choose between Top or Bottom positioning.
-If you want to change the position on runtime use the
+If you want to change the position on runtime use this block:
 
 ![ad-position](http://byrobin.nl/stencyl/admob/admob_banner_position.png)
 
@@ -88,7 +86,7 @@ If you want to change the position on runtime use the
 
 #### Enter in the Ad unit ID
 
-1. Take note of your AdMob Interstitial **Ad unit ID** as mentioned above in step 6. Als called Publisher key on Stencyl Monetization page
+1. Take note of your AdMob Interstitial **Ad unit ID** as mentioned above in step 6 (Also called Publisher key on Stencyl Monetization page).
 
 2. Open your game in Stencyl. Under **Settings > Mobile > Monetization**.
 
@@ -104,7 +102,7 @@ For example:
 1. Load the ad when player click the start play button</br>
 ![ad-interstitial-load](http://byrobin.nl/stencyl/admob/admob_interstitial_load.png)
 
-2. Show the ad when player ends his game, like when he is game over.</br>
+2. Show the ad when it is appropriate to do so, such as at the end of a level.</br>
 ![ad-interstitial-show](http://byrobin.nl/stencyl/admob/admob_interstitial_show.png)
 
 ## Ads Events
@@ -117,11 +115,11 @@ These events can be found under the **Mobile > Ads** item under the **Add Event*
 
 Event | Description
 --- | ---
-An banner ad is showing| The banner ad is showing on screen
-An banner ad is closed | User closes the banner ad
+A banner ad is showing| The banner ad is showing on screen
+A banner ad is closed | User closes the banner ad
 The banner ad area loads | Called each time a banner ad loads
 The banner ad area fails to load | Called when no banner ads can be loaded
-An banner ad is clicked | User clicks on the banner ad
+A banner ad is clicked | User clicks on the banner ad
 
 
 > **Tip:** We recommend [pausing](http://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
@@ -131,11 +129,11 @@ An banner ad is clicked | User clicks on the banner ad
 
 Event | Description
 --- | ---
-An fullscreen ad is showing| The Interstitial ad is showing on screen
-An fullscreen ad is closed | User closes the Interstitial ad
+A fullscreen ad is showing| The Interstitial ad is showing on screen
+A fullscreen ad is closed | User closes the Interstitial ad
 The fullscreen ad area loads | Called each time a Interstitial ad loads
 The fullscreen ad area fails to load | Called when no Interstitial ads can be loaded
-An fullscreen ad is clicked | User clicks on the Interstitial ad
+A fullscreen ad is clicked | User clicks on the Interstitial ad
 
 > **Tip:** We recommend [pausing](http://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
 
@@ -174,7 +172,7 @@ As of late 2016, we're using v7.11.0 of GoogleAdmob iOS SDK.
 ## Tips
  
 #### Avoid covering up the screen
-When ads are displayed, they will cover up a small part of the screen. You should avoid displaying crucial game elements under an ad, such as HUD elements. 
+When banner ads are displayed, they will cover up a small part of the screen. You should avoid displaying crucial game elements under a banner ad, such as HUD elements. 
 
 The **height of mobile ad** block (under Game > Mobile) provides the height, so you can lay your game out accordingly.
 
