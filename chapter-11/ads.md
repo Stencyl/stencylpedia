@@ -167,7 +167,7 @@ Check out our [Extensions Market](http://www.stencyl.com/developers/market/) and
 ## FAQ
 
 #### What version of the AdMob SDK is used?
-As of late 2016, we're using v7.11.0 of GoogleAdmob iOS SDK.
+As of December 2018, we're using v7.36.0 of the AdMob iOS SDK.
 
 ## Tips
  
