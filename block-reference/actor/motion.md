@@ -1,4 +1,4 @@
-# Actor > Motion
+# Actors > Motion
 
 ***
 
@@ -6,7 +6,7 @@
 
 ### <a name="get-dxy"></a> Get Speed
 
-![get-speed-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/get-dxy.png)
+![x speed of actor](http://static.stencyl.com/pedia2/block-images/actor/motion/get-dxy.png)
 
 Returns the current [X / Y] speed for the actor.
 
@@ -19,7 +19,7 @@ Returns the current [X / Y] speed for the actor.
 
 ### <a name="set-dxy"></a> Set Speed
 
-![set-speed-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/set-dxy.png)
+![set x speed to number for actor](http://static.stencyl.com/pedia2/block-images/actor/motion/set-dxy.png)
 
 Sets the [X / Y] speed for the actor.
 
@@ -32,7 +32,7 @@ Sets the [X / Y] speed for the actor.
 
 ### <a name="setvel"></a> Set Velocity (given Direction and Speed)
 
-![set-velocity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/setvel.png)
+![set velocity to dir number degrees , speed number for actor](http://static.stencyl.com/pedia2/block-images/actor/motion/setvel.png)
 
 Sets the actor's velocity, given a direction and a magnitude (speed) rather than X/Y components like above.
 
@@ -46,33 +46,33 @@ Sets the actor's velocity, given a direction and a magnitude (speed) rather than
 
 ### <a name="push-shove"></a> Push (given X/Y)
 
-![push-xy-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/push-shove.png)
+![push actor gently towards x dir number y dir number at number force](http://static.stencyl.com/pedia2/block-images/actor/motion/push-shove.png)
 
 Pushes (or shoves) an actor, given an X/Y direction and force. Shoving is more "forceful" than pushing - experiment and see which works better for you.
 
 ```
 [ACTOR].push([NUMBER], [NUMBER], [NUMBER]);
-[ACTOR].shove([NUMBER], [NUMBER], [NUMBER]);
+[ACTOR].applyImpulse([NUMBER], [NUMBER], [NUMBER]);
 ```
 
 ***
 
 ### <a name="push-shove2"></a> Push (given Angle)
 
-![push-angle-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/push-shove2.png)
+![push actor gently towards number degrees at number force](http://static.stencyl.com/pedia2/block-images/actor/motion/push-shove2.png)
 
 Pushes (or shoves) an actor, given an angle and force. Shoving is more "forceful" than pushing - experiment and see which works better for you.
 
 ```
 [ACTOR].pushInDirection([NUMBER], [NUMBER]);
-[ACTOR].shoveInDirection([NUMBER], [NUMBER]);
+[ACTOR].applyImpulseInDirection([NUMBER], [NUMBER]);
 ```
 
 ***
 
 ### <a name="twist"></a> Twist (rotate using force)
 
-![twist-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/twist.png)
+![twist actor with number force](http://static.stencyl.com/pedia2/block-images/actor/motion/twist.png)
 
 Twists (applies torque) to an actor, given a force.
 
@@ -86,7 +86,7 @@ Twists (applies torque) to an actor, given a force.
 
 ### <a name="getangvel"></a> Get Turning Speed
 
-![get-avelocity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/getangvel.png)
+![turning speed of actor](http://static.stencyl.com/pedia2/block-images/actor/motion/getangvel.png)
 
 Returns the turning speed (angular velocity) of the actor (in degrees).
 
@@ -98,7 +98,7 @@ Utils.DEG * ([ACTOR].getAngularVelocity())
 
 ### <a name="setav"></a> Set Turning Speed
 
-![set-avelocity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/setav.png)
+![set turning speed to number for actor](http://static.stencyl.com/pedia2/block-images/actor/motion/setav.png)
 
 Sets the turning speed (angular velocity) of the actor (in degrees). Positive turns clockwise. Negative turns counter-clockwise.
 
@@ -112,7 +112,7 @@ Sets the turning speed (angular velocity) of the actor (in degrees). Positive tu
 
 ### <a name="toggle-grav"></a> Toggle Gravity
 
-![gravity-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/toggle-grav.png)
+![enable gravity for actor](http://static.stencyl.com/pedia2/block-images/actor/motion/toggle-grav.png)
 
 Enables or disables gravity for this actor.
 
@@ -125,7 +125,7 @@ Enables or disables gravity for this actor.
 
 ### <a name="toggle-rot"></a> Toggle Rotation
 
-![toggle-rotation-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/toggle-rot.png)
+![enable rotation for actor](http://static.stencyl.com/pedia2/block-images/actor/motion/toggle-rot.png)
 
 Enables or disableds rotation for this actor. 
 
@@ -138,7 +138,7 @@ Enables or disableds rotation for this actor.
 
 ### <a name="set-fric-bounce"></a> Set Friction / Bounciness
 
-![set-friction-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/set-fric-bounce.png)
+![set friction to number for actor](http://static.stencyl.com/pedia2/block-images/actor/motion/set-fric-bounce.png)
 
 Sets the actor's friction and bounciness settings. Provide a value between [0.0 - 1.0] inclusive.
 
@@ -147,19 +147,27 @@ Read our [Physics guide](http://www.stencyl.com/help/view/working-with-physics/)
 ```
 [ACTOR].setFriction([NUMBER]);
 [ACTOR].setBounciness([NUMBER]);
+[ACTOR].setMass([NUMBER]);
+[ACTOR].setAngularMass([NUMBER]);
+[ACTOR].setLinearDamping([NUMBER]);
+[ACTOR].setAngularDamping([NUMBER]);
 ```
 
 ***
 
 ### <a name="get-fric-bounce"></a> Get Friction / Bounciness
 
-![get-friction-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/1%20-%20Motion/get-fric-bounce.png)
+![friction of actor](http://static.stencyl.com/pedia2/block-images/actor/motion/get-fric-bounce.png)
 
 Gets the actor's friction and bounciness settings. Read our [Physics guide](http://www.stencyl.com/help/view/working-with-physics/) for an explanation of what these fields mean.
 
 ```
 [ACTOR].getFriction()
 [ACTOR].getBounciness()
+[ACTOR].getMass()
+[ACTOR].getAngularMass()
+[ACTOR].getLinearDamping()
+[ACTOR].getAngularDamping()
 ```
 
 ***

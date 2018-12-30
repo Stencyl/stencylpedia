@@ -6,7 +6,7 @@
 
 ### <a name="tostring"></a> Convert to Text
 
-![convert-text-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Conversion.png)
+![object as text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/tostring.png)
 
 Converts the given value to text.
 
@@ -16,11 +16,37 @@ Converts the given value to text.
 
 ***
 
+## Constants
+
+### <a name="str-emptystring"></a> Empty Text
+
+![empty text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-emptystring.png)
+
+Returns an empty text ("").
+
+```
+""
+```
+
+***
+
+### <a name="str-space"></a> Space
+
+![space](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-space.png)
+
+Returns a space (" ").
+
+```
+" "
+```
+
+***
+
 ## Operations
 
 ### <a name="str-length"></a> Text Length
 
-![length-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/TextLength.png)
+![text length](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-length.png)
 
 Returns the number of characters in the given text.
 
@@ -32,7 +58,7 @@ Returns the number of characters in the given text.
 
 ### <a name="str-combine"></a> Combine Text
 
-![combine-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/str-combine.png)
+![text & text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-combine.png)
 
 Combines the two given pieces of text into one and returns that result.
 
@@ -44,7 +70,7 @@ Combines the two given pieces of text into one and returns that result.
 
 ### <a name="str-trim"></a> Trim Text
 
-![trim-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Operations_TrimSpace.png)
+![trim whitespace from text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-trim.png)
 
 Removes spaces from the beginning and the end of the given text and returns that result. (When given an attribute, the value of the attribute remains unchanged.)
 
@@ -58,7 +84,7 @@ StringTools.trim([TEXT])
 
 ### <a name="eq"></a> Equals (Text)
 
-![equals-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_Equality.png)
+![object = object](http://static.stencyl.com/pedia2/block-images/numbers-text/text/eq.png)
 
 Returns `true` if both pieces of text are exactly the same.
 
@@ -70,7 +96,7 @@ Returns `true` if both pieces of text are exactly the same.
 
 ### <a name="str-empty"></a> Is Text Empty?
 
-![empty-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Comparison_Empty.png)
+![text is empty](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-empty.png)
 
 Returns `true` if the length of the given text is 0.
 
@@ -101,19 +127,19 @@ strCompare([TEXT], [TEXT], 1);
 
 ### <a name="str-char-at"></a> Find Character
 
-![char-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Character.png)
+![character at position int in text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-char-at.png)
 
 Returns the character at the given position. Note that the first index in a text is 0, not 1. Throws a runtime error if the given position is out of bounds.
 
 ```
-[TEXT].charAt([NUMBER])
+[TEXT].charAt([INT])
 ```
 
 ***
 
 ### <a name="str-indexof"></a> Get Text Position
 
-![textpos-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Index.png)
+![index of text in text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-indexof.png)
 
 Returns the index at which the given phrase (or character) appears in the given text. Returns -1 if the phrase is not found.
 
@@ -127,28 +153,28 @@ Returns the index at which the given phrase (or character) appears in the given 
 
 ### <a name="str-replace"></a> Replace Text in Text
 
-![replace-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_ReplaceBlock.png)
+![replace text with text in text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-replace.png)
 
 Replaces one phrase with another within the given text.
 
 > **Example:** <br/>![replace-example](http://static.stencyl.com/pedia2/blocks/numbers_text/text/FindExample1.png)<br/>Returns `cheeseburger`
 
 ```
-StringUtil.replace([TEXT], [TEXT], [TEXT])
+StringTools.replace([TEXT], [TEXT], [TEXT])
 ```
 
 ***
 
 ### <a name="str-substring"></a> Substring (Part of Text)
 
-![substring-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Find_Substring.png)
+![part of text start int end int](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-substring.png)
 
-Returns part of the given text, given the starting and ending indices. More specifically, this block returns the characters beginning with the **start index** and ending with **one less than** the **ending index**. 
+Returns part of the given text, given the starting and ending indices. More specifically, this block returns the characters beginning with the **start index** and ending with **one less than** the **ending index**.
 
 > **Example:** The word "cats" corresponds to these indices: c = 0, a = 1, t = 2, s = 3. If you enter "cats" in the field on the left, and 1, 3 as your starting and ending index numbers, the block would return the letters "at", i.e. the letters that correspond to the index numbers 1 and 2 in the word "cats."
 
 ```
-[TEXT].substring([NUMBER], [NUMBER])
+[TEXT].substring([INT], [INT])
 ```
 
 ***
@@ -173,7 +199,7 @@ Returns the given text in all uppercase (or lowercase).
 
 ### <a name="str-split-space"></a> Split into Words
 
-![split-block](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Split.png)
+![split text into words](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-split-space.png)
 
 Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/), using **space** as the separator (delimiter).
 
@@ -185,7 +211,7 @@ Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/),
 
 ### <a name="str-split"></a> Split using Separator
 
-![split-block2](http://static.stencyl.com/pedia2/blocks/numbers_text/text/Split2.png)
+![split text using separator text](http://static.stencyl.com/pedia2/block-images/numbers-text/text/str-split.png)
 
 Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/), using the given separator (delimiter) text.
 
@@ -199,24 +225,24 @@ Splits the given text up into a [list](http://www.stencyl.com/help/view/lists/),
 
 ### <a name="get-font-width2-new"></a> Get Width of Text using Font
 
-![text-width-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/get-font-width2-new.png)
+![get width for text using font](http://static.stencyl.com/pedia2/block-images/numbers-text/text/get-font-width2-new.png)
 
 Returns the width of the given text using the given font. Useful for calculating positions for drawing text.
 
 ```
-[FONT].font.getTextWidth([TEXT])
+[FONT].font.getTextWidth([TEXT], [FONT].letterSpacing)/Engine.SCALE
 ```
 
 ***
 
 ### <a name="get-font-height2-new"></a> Get Height of Font
 
-![text-height-block](http://static.stencyl.com/pedia2/block-images/4%20-%20Numbers%20%20Text/2%20-%20Text/get-font-height2-new.png)
+![get height using font](http://static.stencyl.com/pedia2/block-images/numbers-text/text/get-font-height2-new.png)
 
 Returns the height of the given font. Useful for calculating positions for drawing text.
 
 ```
-[FONT].getHeight()
+[FONT].getHeight()/Engine.SCALE
 ```
 
 ***

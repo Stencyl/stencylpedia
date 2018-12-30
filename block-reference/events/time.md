@@ -6,7 +6,7 @@
 
 ### <a name="event-delay"></a> After N Seconds
 
-![event-delay](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/5%20-%20Time/event-delay.png)
+![do after number seconds](http://static.stencyl.com/pedia2/block-images/events/time/event-delay.png)
 
 Runs the enclosed blocks after the given delay (in seconds).
 
@@ -14,7 +14,7 @@ Runs the enclosed blocks after the given delay (in seconds).
 
 ### <a name="event-periodic"></a> Every N Seconds
 
-![event-periodic](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/5%20-%20Time/event-periodic.png)
+![do every number seconds](http://static.stencyl.com/pedia2/block-images/events/time/event-periodic.png)
 
 Runs the enclosed blocks every N seconds.
 
@@ -24,7 +24,7 @@ Runs the enclosed blocks every N seconds.
 
 ### <a name="event-paused"></a> Game was Paused (or Unpaused)
 
-![event-paused](http://static.stencyl.com/pedia2/block-images/13%20-%20Events/6%20-%20Time/event-paused.png)
+![when game is paused](http://static.stencyl.com/pedia2/block-images/events/time/event-paused.png)
 
 Triggers whenever the game is [paused](http://www.stencyl.com/help/view/pausing/) or unpaused.
 

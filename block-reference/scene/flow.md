@@ -1,4 +1,4 @@
-# Scene > Game Flow
+# Scenes > Game Flow
 
 ***
 
@@ -10,19 +10,27 @@
 
 ### <a name="scene-change-color"></a> Switch Scene (Fade In/Out)
 
-![scene-change-color](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-change-color.png)
+![switch to scene and fade out for number secs using color and fade in for number secs using color](http://static.stencyl.com/pedia2/block-images/scene/flow/scene-change-color.png)
 
 Switches to a different scene using a fade in/out transition.
 
 ```
+//Using fade in and out
 switchScene([SCENE].getID(), createFadeOut([NUMBER], [COLOR]), createFadeIn([NUMBER], [COLOR]));
+
+//Other Transition types
+createBlindsOut([NUMBER], [COLOR]), createBlindsIn([NUMBER], [COLOR]),
+createBubblesOut([NUMBER], [COLOR]), createBubblesIn([NUMBER], [COLOR]),
+createCircleOut([NUMBER], [COLOR]), createCircleIn([NUMBER], [COLOR]),
+createPixelizeOut([NUMBER], [COLOR]), createPixelizeIn([NUMBER], [COLOR]),
+createRectangleOut([NUMBER], [COLOR]), createRectangleIn([NUMBER], [COLOR])
 ```
 
 ***
 
 ### <a name="scene-change-through"></a> Switch Scene (Crossfade / Slide)
 
-![scene-change-through](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-change-through.png)
+![switch to scene and crossfade for number secs](http://static.stencyl.com/pedia2/block-images/scene/flow/scene-change-through.png)
 
 Switches to a different scene using a crossfade or slide transition.
 
@@ -38,19 +46,27 @@ switchScene([SCENE].getID(), null, createSlideRightTransition([NUMBER]));
 
 ### <a name="scene-reload-color"></a> Reload Current Scene (Fade In/Out)
 
-![scene-reload-color](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-reload-color.png)
+![reload and fade out for number secs using color and fade in for number secs using color](http://static.stencyl.com/pedia2/block-images/scene/flow/scene-reload-color.png)
 
 Reloads the current scene using a fade in/out transition.
 
 ```
+//Using fade in and out
 reloadCurrentScene(createFadeOut([NUMBER], [COLOR]), createFadeIn([NUMBER], [COLOR]));
+
+//Other Transition types
+createBlindsOut([NUMBER], [COLOR]), createBlindsIn([NUMBER], [COLOR]),
+createBubblesOut([NUMBER], [COLOR]), createBubblesIn([NUMBER], [COLOR]),
+createCircleOut([NUMBER], [COLOR]), createCircleIn([NUMBER], [COLOR]),
+createPixelizeOut([NUMBER], [COLOR]), createPixelizeIn([NUMBER], [COLOR]),
+createRectangleOut([NUMBER], [COLOR]), createRectangleIn([NUMBER], [COLOR])
 ```
 
 ***
 
 ### <a name="scene-reload-through"></a> Reload Current Scene (Crossfade / Slide)
 
-![scene-reload-through](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scene-reload-through.png)
+![reload and crossfade for number secs](http://static.stencyl.com/pedia2/block-images/scene/flow/scene-reload-through.png)
 
 Reloads the current scene using a crossfade or slide transition.
 
@@ -66,7 +82,7 @@ reloadCurrentScene(null, createSlideRightTransition([NUMBER]));
 
 ### <a name="scenebyname"></a> Get Scene (using name)
 
-![scenebyname](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/scenebyname.png)
+![scene with name text](http://static.stencyl.com/pedia2/block-images/scene/flow/scenebyname.png)
 
 Returns a Scene by its name. Use inside a scene-switching block for an easy way to switch scenes by name.
 
@@ -78,7 +94,7 @@ GameModel.get().scenes.get(getIDForScene([TEXT]))
 
 ### <a name="is-transitioning"></a> Scene is transitioning?
 
-![is-transitioning](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/is-transitioning.png)
+![scene is transitioning](http://static.stencyl.com/pedia2/block-images/scene/flow/is-transitioning.png)
 
 Returns `true` if the game is in the process of transitioning to another scene, transitioning from another scene, or reloading.
 
@@ -92,7 +108,7 @@ isTransitioning()
 
 ### <a name="create-actor3-next"></a> Create Actor in next scene
 
-![create-actor3-next](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/create-actor3-next.png)
+![create actortype at x number y number at front in next scene](http://static.stencyl.com/pedia2/block-images/scene/flow/create-actor3-next.png)
 
 Notifies the game to creates an actor in the next scene (or the reload of the current one). This is useful, for example, for top-down games (like Zelda) where you'll exit the screen on one side and want to seamlessly reappear on the "correct" side.
 
@@ -108,7 +124,7 @@ createActorInNextScene([ACTOR TYPE], [NUMBER], [NUMBER], Script.BACK);
 
 ### <a name="pause-unpause"></a> Pause / Unpause Game
 
-![pause-unpause](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/pause-unpause.png)
+![pause game](http://static.stencyl.com/pedia2/block-images/scene/flow/pause-unpause.png)
 
 [Pauses](http://www.stencyl.com/help/view/pausing/) (or unpauses) the game. You can selectively opt out actors on the Physics > Advanced page of their editor.
 
@@ -121,7 +137,7 @@ engine.unpause();
 
 ### <a name="is-paused"></a> Game is Paused?
 
-![is-paused](http://static.stencyl.com/pedia2/block-images/2%20-%20Scene/5%20-%20Game%20Flow/is-paused.png)
+![game is paused](http://static.stencyl.com/pedia2/block-images/scene/flow/is-paused.png)
 
 Returns `true` if the game is paused.
 

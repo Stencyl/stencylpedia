@@ -1,4 +1,4 @@
-# Actor > Position
+# Actors > Position
 
 ***
 
@@ -6,33 +6,41 @@
 
 ### <a name="get-xy"></a> Get Position
 
-![position-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/get-xy.png)
+![x of actor](http://static.stencyl.com/pedia2/block-images/actor/position/get-xy.png)
 
 Gets the current [X / Y] position of the actor.
 
 ```
 [ACTOR].getX()
 [ACTOR].getY()
+[ACTOR].getXCenter()
+[ACTOR].getYCenter()
+[ACTOR].getScreenX()
+[ACTOR].getScreenY()
 ```
 
 ***
 
 ### <a name="set-xy"></a> Set Position
 
-![set-position-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/set-xy.png)
+![set x to number for actor](http://static.stencyl.com/pedia2/block-images/actor/position/set-xy.png)
 
 Sets the [X, Y] position of the actor.
 
 ```
 [ACTOR].setX([NUMBER]);
 [ACTOR].setY([NUMBER]);
+[ACTOR].setXCenter([NUMBER]);
+[ACTOR].setYCenter([NUMBER]);
+[ACTOR].setScreenX([NUMBER]);
+[ACTOR].setScreenY([NUMBER]);
 ```
 
 ***
 
 ### <a name="isonscreen"></a> Actor is on screen?
 
-![isonscreen-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/isonscreen.png)
+![actor is on screen](http://static.stencyl.com/pedia2/block-images/actor/position/isonscreen.png)
 
 Returns `true` if the specified actor is at least partially on screen.
 
@@ -46,19 +54,19 @@ Returns `true` if the specified actor is at least partially on screen.
 
 ### <a name="getdir"></a> Get Direction (Angle)
 
-![direction-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/getdir.png)
+![direction of actor](http://static.stencyl.com/pedia2/block-images/actor/position/getdir.png)
 
 Returns the actor's direction (angle), in degrees. 0 degrees -> facing right. 90 degrees -> facing down.
 
 ```
-Utils.DEG * ([ACTOR].getAngle())
+(Utils.DEG * [ACTOR].getAngle())
 ```
 
 ***
 
 ### <a name="setangle"></a> Set Direction (Angle)
 
-![set-direction-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/setangle.png)
+![point actor towards number degrees](http://static.stencyl.com/pedia2/block-images/actor/position/setangle.png)
 
 Sets the actor's direction (angle), in degrees. 0 degrees -> facing right. 90 degrees -> facing down.
 
@@ -70,7 +78,7 @@ Sets the actor's direction (angle), in degrees. 0 degrees -> facing right. 90 de
 
 ### <a name="rotate"></a> Turn Clockwise
 
-![turncw-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/rotate.png)
+![turn actor by number degrees](http://static.stencyl.com/pedia2/block-images/actor/position/rotate.png)
 
 Instantly rotates the the actor clockwise by the given number of degrees.
 
@@ -82,7 +90,7 @@ Instantly rotates the the actor clockwise by the given number of degrees.
 
 ### <a name="rotate2"></a> Turn Counter Clockwise
 
-![turnccw-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/0%20-%20Position/rotate2.png)
+![turn actor by number degrees](http://static.stencyl.com/pedia2/block-images/actor/position/rotate2.png)
 
 Instantly rotates the the actor counter-clockwise by the given number of degrees.
 

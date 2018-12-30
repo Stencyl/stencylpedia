@@ -10,7 +10,7 @@
 
 ### <a name="accelerometer"></a> Accelerometer Value
 
-![accel-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Accel.png)
+![x of accelerometer](http://static.stencyl.com/pedia2/block-images/input/mobile/accelerometer.png)
 
 Returns the current values for the [accelerometer](http://www.stencyl.com/help/view/mobile-accelerometer/).
 
@@ -35,6 +35,7 @@ Y (Negative) | Right
 ```
 Input.accelX
 Input.accelY
+Input.accelZ
 ```
 
 ***
@@ -43,7 +44,7 @@ Input.accelY
 
 ### <a name="swipe-detect"></a> Swiped
 
-![swipe-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Swipe.png)
+![swiped up](http://static.stencyl.com/pedia2/block-images/input/mobile/swipe-detect.png)
 
 Returns `true` if the user has swiped [up/down/left/right]. A swipe is defined as touching the screen, sliding the finger and then releasing.
 
@@ -60,29 +61,28 @@ Input.swipedRight
 
 We recommend using a swipe event instead of a swipe block. It's easier to work with.
 
-
 ***
 
 ## Other
 
 ### <a name="show-hide-keyboard"></a> Show / Hide Keyboard
 
-![keyboard-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Keyboard.png)
+![hide keyboard](http://static.stencyl.com/pedia2/block-images/input/mobile/show-hide-keyboard.png)
 
 Immediately shows or hides the [virtual keyboard](http://www.stencyl.com/help/view/mobile-features/). Use mobile keyboard events to track what's been typed.
 
 ![example](http://static.stencyl.com/help/images/mobile-features-3.png)
 
 ```
-showKeyboard();
 hideKeyboard();
+showKeyboard();
 ```
 
 ***
 
 ### <a name="set-keyboard-text"></a> Set Keyboard Text
 
-![text-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/KeyboardText.png)
+![set keyboard text to text](http://static.stencyl.com/pedia2/block-images/input/mobile/set-keyboard-text.png)
 
 Imagine that the keyboard is inputting into an invisible text field. This sets the text that's in that text field.
 
@@ -94,7 +94,7 @@ setKeyboardText([TEXT]);
 
 ### <a name="clear-keyboard-text"></a> Clear Keyboard Text
 
-![clear-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/ClearKeyboard.png)
+![clear keyboard text](http://static.stencyl.com/pedia2/block-images/input/mobile/clear-keyboard-text.png)
 
 Imagine that the keyboard is inputting into an invisible text field. This clears out the text that's in that text field.
 
@@ -106,7 +106,7 @@ setKeyboardText("");
 
 ### <a name="vibrate"></a> Vibrate
 
-![vibrate-block](http://static.stencyl.com/pedia2/blocks/user_input/mobile/Vibrate.png)
+![vibrate for number secs](http://static.stencyl.com/pedia2/block-images/input/mobile/vibrate.png)
 
 [Vibrates](http://www.stencyl.com/help/view/mobile-features/) the device for the given number of seconds. On some devices, vibration duration cannot be controlled.
 

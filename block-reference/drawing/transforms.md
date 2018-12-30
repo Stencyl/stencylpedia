@@ -6,7 +6,7 @@
 
 ### <a name="draw-transtoby"></a> Move Pen (Drawing Origin)
 
-![move-pen-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/2%20-%20Transforms/draw-transtoby.png)
+![move pen by x number y number](http://static.stencyl.com/pedia2/block-images/drawing/transforms/draw-transtoby.png)
 
 Moves the origin point of drawing to or by the specified amount.
 
@@ -24,7 +24,7 @@ g.moveTo([NUMBER], [NUMBER]);
 
 ### <a name="to-screen-space"></a> Switch to Screen Space
 
-![screen-space-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/2%20-%20Transforms/to-screen-space.png)
+![switch to screen space](http://static.stencyl.com/pedia2/block-images/drawing/transforms/to-screen-space.png)
 
 By default, when drawing on actors, the coordinates are relative to the actor. This blocks switches the origin point of drawing to screen coordinates. This allows you to draw HUD's and other graphics that are anchored to the screen (and are unaffected by the camera).
 
@@ -36,12 +36,51 @@ g.translateToScreen();
 
 ### <a name="to-local-space"></a> Switch to Actor Space
 
-![actor-space-block](http://static.stencyl.com/pedia2/block-images/9%20-%20Drawing/2%20-%20Transforms/to-local-space.png)
+![switch to actor space for actor](http://static.stencyl.com/pedia2/block-images/drawing/transforms/to-local-space.png)
 
 Moves the origin point of the drawing to match the position of the specified actor.
 
 ```
 g.translateToActor([ACTOR]);
+```
+
+***
+
+## Drawing Layer
+
+### <a name="set-drawing-layer"></a> Set Drawing Layer
+
+![set drawing to layer id object](http://static.stencyl.com/pedia2/block-images/drawing/transforms/set-drawing-layer.png)
+
+Set the layer for drawing.
+
+```
+Script.setDrawingLayer(engine.getLayerById([INT]));
+Script.setDrawingLayer(engine.getLayerByName([TEXT]));
+```
+
+***
+
+### <a name="set-drawing-layer-scene"></a> Draw on Scene
+
+![set drawing to scene layer](http://static.stencyl.com/pedia2/block-images/drawing/transforms/set-drawing-layer-scene.png)
+
+Set the layer for drawing to the HUD layer, above all other layers.
+
+```
+Script.setDrawingLayerToSceneLayer();
+```
+
+***
+
+### <a name="set-drawing-layer-actor"></a> Draw on Layer with Actor
+
+![set drawing to layer of actor](http://static.stencyl.com/pedia2/block-images/drawing/transforms/set-drawing-layer-actor.png)
+
+Set the layer for drawing to the layer with the specified actor.
+
+```
+Script.setDrawingLayerToActorLayer([ACTOR]);
 ```
 
 ***

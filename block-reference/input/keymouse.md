@@ -10,7 +10,7 @@
 
 ### <a name="keystate"></a> Key Status
 
-![key-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/KeyState.png)
+![control is down](http://static.stencyl.com/pedia2/block-images/input/keymouse/keystate.png)
 
 Returns `true` if the given [control](http://www.stencyl.com/help/view/controls/) [is down, was pressed, was released].
 
@@ -30,7 +30,7 @@ isKeyReleased([CONTROL])
 
 ### <a name="is-special-down"></a> Special Key is Down
 
-![special-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/Special.png)
+![shift key is down](http://static.stencyl.com/pedia2/block-images/input/keymouse/is-special-down.png)
 
 Returns `true` if [shift / ctrl] is currently being held down. On a Mac, ctrl is equivalent to command.
 
@@ -43,7 +43,7 @@ isCtrlDown()
 
 ### <a name="simulate-key"></a> Simulate Keys
 
-![special-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/Simulate.png)
+![simulate key press using control](http://static.stencyl.com/pedia2/block-images/input/keymouse/simulate-key.png)
 
 Simulates a key [press / release] using the given control. Primarily used for implementing virtual controls as on-screen buttons in mobile games. Could also be used to make cutscenes.
 
@@ -56,16 +56,16 @@ simulateKeyRelease([CONTROL]);
 
 ### <a name="keycode"></a> Get Key Code
 
-![special-block](http://static.stencyl.com/pedia2/blocks/user_input/keyboard/Code.png)
+![key code of enter key](http://static.stencyl.com/pedia2/block-images/input/keymouse/keycode.png)
 
 Returns the hardware code for certain keys [enter, backspace, shift, delete, ctrl / command]. Compare this number with the code returned by an **Any Key** event. Could be used to implement a text field.
 
 ```
 Key.ENTER
 Key.BACKSPACE
-Key.SHIFT
 Key.DELETE
-Key.CTRL
+Key.SHIFT
+Key.CONTROL
 ```
 
 #### Example
@@ -82,7 +82,7 @@ Mouse and Single Touch (vs. Multi-Touch) are handled using the same blocks, as d
 
 ### <a name="mousestate"></a> Mouse / Touch Status
 
-![status-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Status.png)
+![mouse is down](http://static.stencyl.com/pedia2/block-images/input/keymouse/mousestate.png)
 
 Returns `true` if the mouse [is down, was pressed, was released].
 
@@ -102,7 +102,7 @@ isMouseReleased()
 
 ### <a name="amousestate"></a> Mouse on Actor / Touched Actor
 
-![actor-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Actor.png)
+![mouse is down on actor](http://static.stencyl.com/pedia2/block-images/input/keymouse/amousestate.png)
 
 Returns `true` if the mouse [is down on, was pressed on, was released on] the given actor.
 
@@ -116,13 +116,14 @@ was released | Mouse button was **just** released. Called once per click-release
 [ACTOR].isMouseDown()
 [ACTOR].isMousePressed()
 [ACTOR].isMouseReleased()
+[ACTOR].isMouseOver()
 ```
 
 ***
 
 ### <a name="mousexy"></a> Mouse / Touch Position
 
-![position-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/Position.png)
+![x of mouse](http://static.stencyl.com/pedia2/block-images/input/keymouse/mousexy.png)
 
 Returns the last known (x, y) position of the [mouse (cursor), mouse press, mouse release]. Before using mouse press/release, first check if the mouse has been pressed or released.
 
@@ -141,7 +142,7 @@ getMouseReleasedY()
 
 ### <a name="mousedisp"></a> Mouse Cursor
 
-![cursor-block](http://static.stencyl.com/pedia2/blocks/user_input/mouse/MouseCursor.png)
+![hide mouse cursor](http://static.stencyl.com/pedia2/block-images/input/keymouse/mousedisp.png)
 
 Shows or hides the mouse cursor. Doesn't apply to mobile games. Useful for implementing custom cursors (using an actor that follows the mouse).
 

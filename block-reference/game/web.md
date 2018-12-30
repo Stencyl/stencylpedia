@@ -10,7 +10,7 @@
 
 ### <a name="show-browser"></a> Open URL in Browser
 
-![open-url-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/0%20-%20Web/show-browser.png)
+![open url text in browser](http://static.stencyl.com/pedia2/block-images/game/web/show-browser.png)
 
 Opens the given URL in the system's default web browser. On mobile devices, this will open up the browser app. To view pages in-game, use the [Web Views](http://community.stencyl.com/index.php/topic,26708.0.html) extension.
 
@@ -26,7 +26,7 @@ openURLInBrowser([TEXT]);
 
 ### <a name="visit-site"></a> GET Request
 
-![get-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/0%20-%20Web/visit-site.png)
+![visit url text and then do...](http://static.stencyl.com/pedia2/block-images/game/web/visit-site.png)
 
 Issues an HTTP GET request at the given URL, then executes the enclosed blocks if the request succeeded. The server's response is enclosed in the `site's response` block.
 
@@ -42,7 +42,7 @@ visitURL([TEXT], function(event:Event):Void {
 
 ### <a name="visit-site-post"></a> POST Request
 
-![post-block](http://static.stencyl.com/pedia2/block-images/8%20-%20Game/0%20-%20Web/visit-site-post.png)
+![post data text to url text and then do...](http://static.stencyl.com/pedia2/block-images/game/web/visit-site-post.png)
 
 Issues an HTTP POST request at the given URL with the given parameters, then executes the enclosed blocks if the request succeeded. The server's response is enclosed in the `site's response` block.
 

@@ -1,4 +1,4 @@
-# Behavior > Attributes
+# Behaviors > Attributes
 
 ***
 
@@ -10,7 +10,7 @@
 
 ### <a name="get-attribute"></a> Get Attribute (for Actor)
 
-![actor-get-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/get-attribute.png)
+![for actor , get text from behavior text](http://static.stencyl.com/pedia2/block-images/behavior/attributes/get-attribute.png)
 
 Gets the value of an attribute (from the specified behavior) from the actor you specify.
 
@@ -26,7 +26,7 @@ We strongly recommend clicking the dropdown arrow for the first blank and select
 
 ### <a name="set-attribute"></a> Set Attribute (for Actor)
 
-![actor-set-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/set-attribute.png)
+![for actor , set text to object for behavior text](http://static.stencyl.com/pedia2/block-images/behavior/attributes/set-attribute.png)
 
 Sets the value of an attribute (from the specified behavior) for the actor you specify.
 
@@ -42,7 +42,7 @@ We strongly recommend clicking the dropdown arrow for the first blank and select
 
 ### <a name="scene-get-attribute"></a> Get Attribute (for Scene)
 
-![scene-get-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/scene-get-attribute.png)
+![for this scene, get text from behavior text](http://static.stencyl.com/pedia2/block-images/behavior/attributes/scene-get-attribute.png)
 
 Gets the value of an attribute (from the specified behavior) from the current scene.
 
@@ -56,7 +56,7 @@ getValueForScene([TEXT], [TEXT])
 
 ### <a name="scene-set-attribute"></a> Set Attribute (for Scene)
 
-![scene-set-att-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/1%20-%20Attributes/scene-set-attribute.png)
+![for this scene, set text to object for behavior text](http://static.stencyl.com/pedia2/block-images/behavior/attributes/scene-set-attribute.png)
 
 Sets the value of an attribute (from the specified behavior) for the current scene.
 

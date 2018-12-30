@@ -6,38 +6,58 @@
 
 ### <a name="tween-number"></a> Tween a Number Attribute
 
-![tween-number-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/tween-number.png)
+![change dropdown to number over number sec using dropdown](http://static.stencyl.com/pedia2/block-images/attributes/functions/tween-number.png)
 
-Applies a [tween](http://www.stencyl.com/help/view/tweening/) to the given number attribute (specified by internal name).
+Applies a [tween](http://www.stencyl.com/help/view/tweening/) to the given number attribute.
 
 ```
-Actuate.tween(this, [NUMBER], {[TEXT]:[NUMBER]}).ease([EASING]);
+var attributeTween = attributeTweens.get("[ATTRIBUTE]");
+if(attributeTween == null) {
+  attributeTween = new TweenFloat();
+  attributeTween.doOnUpdate(function() {[ATTRIBUTE] = attributeTween.value;});
+  attributeTweens.set("[ATTRIBUTE]", attributeTween);
+}
+attributeTween.tween([ATTRIBUTE], [NUMBER], [EASING], Std.int([NUMBER]*1000));
+
+//Or in one line (slower, uses dynamic typing)
+tweenNumber([TEXT], [NUMBER], [NUMBER], [EASING]) //internal name, value, duration (seconds), easing
+```
+
+***
+
+### <a name="cancel-tween-number"></a> Cancel Tween
+
+![stop changing dropdown](http://static.stencyl.com/pedia2/block-images/attributes/functions/cancel-tween-number.png)
+
+Stops an ongoing number tween.
+
+```
+abortTweenNumber("[ATTRIBUTE]");
 ```
 
 ***
 
 ### <a name="value"></a> Has Value?
 
-![value-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/value.png)
+![attribute has value](http://static.stencyl.com/pedia2/block-images/attributes/functions/value.png)
 
 Returns `true` if the given attribute has a value (is not "null").
 
 ```
 (hasValue([ATTRIBUTE]))
+(!hasValue([ATTRIBUTE]))
 ```
 
 ***
 
 ### <a name="clear"></a> Clear Value of Attributes
 
-![clear-block](http://static.stencyl.com/pedia2/block-images/5%20-%20Attributes/5%20-%20Functions/clear.png)
+![clear value of attribute](http://static.stencyl.com/pedia2/block-images/attributes/functions/clear.png)
 
 Disassociates the given attribute from any value. (Sets its value to "null", does not have any effect on primitive types like numbers/booleans)
 
 ```
-if(!isPrimitive([ATTRIBUTE])) {
-  [ATTRIBUTE] = getDefaultValue([ATTRIBUTE]);
-}
+[ATTRIBUTE] = getDefaultValue([ATTRIBUTE]);
 ```
 
 ***

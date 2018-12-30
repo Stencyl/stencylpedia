@@ -1,4 +1,4 @@
-# Behavior > Triggers
+# Behaviors > Triggers
 
 ***
 
@@ -10,7 +10,7 @@
 
 ### <a name="say"></a> Trigger Event in Specific Behavior (for Actor)
 
-![say-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/say.png)
+![trigger event text in behavior text for actor](http://static.stencyl.com/pedia2/block-images/behavior/triggers/say.png)
 
 Triggers the custom event for a specific behavior that is attached to the specified actor.
 
@@ -22,7 +22,7 @@ Triggers the custom event for a specific behavior that is attached to the specif
 
 ### <a name="shout"></a> Trigger Event in All Behaviors (for Actor)
 
-![shout-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/shout.png)
+![trigger event text in all behaviors for actor](http://static.stencyl.com/pedia2/block-images/behavior/triggers/shout.png)
 
 Triggers the custom event for all behaviors that are attached to the specified actor.
 
@@ -36,7 +36,7 @@ Triggers the custom event for all behaviors that are attached to the specified a
 
 ### <a name="scene-say"></a> Trigger Event in Specific Behavior (for Scene)
 
-![say-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/scene-say.png)
+![trigger event text in behavior text for this scene](http://static.stencyl.com/pedia2/block-images/behavior/triggers/scene-say.png)
 
 Triggers the custom event for the specified behavior that is attached to the current scene.
 
@@ -48,7 +48,7 @@ sayToScene([TEXT], "_customEvent_" + [TEXT]);
 
 ### <a name="scene-shout"></a> Trigger Event in All Behaviors (for Scene)
 
-![shout-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/scene-shout.png)
+![trigger event text in all behaviors for this scene](http://static.stencyl.com/pedia2/block-images/behavior/triggers/scene-shout.png)
 
 Triggers the custom event for all behaviors that are attached to the current scene.
 
@@ -58,11 +58,11 @@ shoutToScene("_customEvent_" + [TEXT]);
 
 ***
 
-## In this Behavior
+## In This Behavior
 
 ### <a name="say-this"></a> Trigger Event (this Behavior)
 
-![global-trigger-block](http://static.stencyl.com/pedia2/block-images/7%20-%20Behavior/0%20-%20Triggers/say-this.png)
+![trigger event text in this behavior](http://static.stencyl.com/pedia2/block-images/behavior/triggers/say-this.png)
 
 Triggers a custom event in this behavior. This is a direct function call, so an event with the specified name must exist, otherwise it will cause a compilation error.
 

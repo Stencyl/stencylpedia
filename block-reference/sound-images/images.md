@@ -1,4 +1,4 @@
-# Sound & Images > Images
+# Images > Images
 
 ***
 
@@ -6,23 +6,40 @@
 
 ***
 
+## Image API settings
+
+### <a name="image-autoscale"></a> Toggle Image API Auto-scaling
+
+![enable image api auto scaling](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-autoscale.png)
+
+Set whether Image API output is scaled automatically. This is set to `true` by default. This setting affects how all the blocks below work.
+
+When this is enabled, the coordinates and dimensions passed to all Image API blocks will be scaled by `Engine.SCALE`. By settings this to false, you can use the Image API blocks to manipulate images on a per-pixel basis, no matter how your game is upscaled.
+
+```
+imageApiAutoscale = true;
+imageApiAutoscale = false;
+```
+
+***
+
 ## Create Images
 
 ### <a name="image-create"></a> Create Blank Image
 
-![blank-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-create.png)
+![blank image with w int h int](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-create.png)
 
 Create a blank image of the specified width and height. Usually assigned to an Image attribute right away.
 
 ```
-new BitmapData([NUMBER] * Engine.SCALE, [NUMBER] * Engine.SCALE, true, 0)
+newImage([INT], [INT])
 ```
 
 ***
 
 ### <a name="image-copy"></a> Copy of Image
 
-![copy-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-copy.png)
+![copy of image](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-copy.png)
 
 Returns a copy of the specified image. This is a true copy, so altering the copy will not affect the original.
 
@@ -34,19 +51,19 @@ Returns a copy of the specified image. This is a true copy, so altering the copy
 
 ### <a name="image-subimage"></a> Part of Image
 
-![part-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-subimage.png)
+![part of image x int y int w int h int](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-subimage.png)
 
 Returns the specified part of the image as a new image.
 
 ```
-getSubImage([IMAGE], [NUMBER], [NUMBER], [NUMBER], [NUMBER])
+getSubImage([IMAGE], [INT], [INT], [INT], [INT])
 ```
 
 ***
 
 ### <a name="image-resize"></a> Resized Copy of Image
 
-![resize-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-resize.png)
+![copy of image at w number % h number % using smoothing](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-resize.png)
 
 Returns a larger (or smaller) copy of the image. Width and height are given as percentages - 100% means keep it the same, 200% means double, 50% means half.
 
@@ -64,7 +81,7 @@ resizeImage([IMAGE], ([NUMBER]/100), ([NUMBER]/100), false)
 
 ### <a name="image-screen"></a> Current Screen as Image
 
-![screen-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-screen.png)
+![current screen as image](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-screen.png)
 
 Captures the current screen as an image and returns that. This takes time (it may pause the game for a a tenth of a second), so use it sparingly.
 
@@ -76,7 +93,7 @@ captureScreenshot()
 
 ### <a name="image-actor"></a> Image from Actor
 
-![actor-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-actor.png)
+![image from actor](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-actor.png)
 
 Returns the current image for the specified actor. (In other words, the exact visual state of the actor at the time that you use this.)
 
@@ -90,7 +107,7 @@ getImageForActor([ACTOR])
 
 ### <a name="image-file"></a> Image from File
 
-![file-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-file.png)
+![image from file text](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-file.png)
 
 Returns an image that is loaded from a file. Images must be placed into the **extras** subfolder of your game.
 Some blocks require the images to be saved with transparency enabled to work properly.
@@ -103,7 +120,7 @@ getExternalImage([TEXT])
 
 ### <a name="image-url"></a> Load Image from URL
 
-![url-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-url.png)
+![load image from url text and then do...](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-url.png)
 
 Returns an image that is loaded from a URL. When the image successfully loads, the enclosed blocks will run. Use the embedded `the image` block to refer to the loaded image. If the image does not load, the enclosed blocks will not run.
 
@@ -121,7 +138,7 @@ loadImageFromURL([TEXT], function(img:BitmapData):Void {
 
 ### <a name="image-to-text"></a> Image to Text
 
-![to-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-to-text.png)
+![image as text](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-to-text.png)
 
 Converts an image into text form and returns that. Useful for storing image data on servers (via an HTTP request). This takes time to run (a split second or longer).
 
@@ -133,7 +150,7 @@ imageToText([IMAGE])
 
 ### <a name="image-from-text"></a> Text to Image
 
-![from-text-image-block](http://static.stencyl.com/pedia2/block-images/6%20-%20Sound%20%20Images/1%20-%20Images/image-from-text.png)
+![text as image](http://static.stencyl.com/pedia2/block-images/sound-images/images/image-from-text.png)
 
 Returns an image that was converted to text using the prior block. This takes time to run (a split second or longer).
 

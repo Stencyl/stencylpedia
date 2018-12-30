@@ -1,4 +1,4 @@
-# Collision > Basic
+# Collisions > Basic
 
 ***
 
@@ -18,7 +18,10 @@ You can refer to Actor 1 and Actor 2 directly using the blocks embedded in the e
 
 ### <a name="collision-top"></a> <a name="collision-left"></a> <a name="collision-bottom"></a> <a name="collision-right"></a> Top / Left / Bottom / Right Side was Hit
 
-![collision-side-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Side.png)
+![the top of actor 1 was hit](http://static.stencyl.com/pedia2/block-images/collision/basic/collision-top.png)
+![the left side of actor 1 was hit](http://static.stencyl.com/pedia2/block-images/collision/basic/collision-left.png)<br/>
+![the bottom of actor 1 was hit](http://static.stencyl.com/pedia2/block-images/collision/basic/collision-bottom.png)
+![the right side of actor 1 was hit](http://static.stencyl.com/pedia2/block-images/collision/basic/collision-right.png)
 
 Returns `true` if the actor's [top/left/bottom/right] side was hit. If the collision shape is not a box, we still approximate the shape as a box to calculate this.
 
@@ -40,7 +43,7 @@ event.otherFromRight
 
 ### <a name="collision-shape-group2"></a> Group of Colliding Shape
 
-![group-block](http://static.stencyl.com/pedia2/blocks/collision/basic/Group.png)
+![group for actor 1 colliding shape](http://static.stencyl.com/pedia2/block-images/collision/basic/collision-shape-group2.png)
 
 Returns the group of the shape for the "other" (or "second") object in the collision. In most cases, the group of the shape is the same as that of the actor, but that [isn't always the case](http://www.stencyl.com/help/view/collisions-and-groups/).
 
@@ -53,7 +56,7 @@ internalGetGroup(event.otherActor, event.otherShape, event)
 
 ### <a name="collision-type2"></a> Hit an Actor / Terrain / Tile / Sensor
 
-![hittype-block](http://static.stencyl.com/pedia2/blocks/collision/basic/HitType.png)
+![actor 1 hit an actor](http://static.stencyl.com/pedia2/block-images/collision/basic/collision-type2.png)
 
 Returns `true` if the "other" (or "second") object in the collision was an [actor / terrain region / tile / sensor].
 

@@ -1,4 +1,4 @@
-# Collision > Collision Points
+# Collisions > Collision Points
 
 ***
 
@@ -6,7 +6,7 @@
 
 ### <a name="collision-foreach"></a> For each collision point ...
 
-![foreachpoint-block](http://static.stencyl.com/pedia2/blocks/collision/collisionpoints/ForEachPoint.png)
+![for each collision point...](http://static.stencyl.com/pedia2/block-images/collision/points/collision-foreach.png)
 
 Loops over each collision point in the current collision event.
 
@@ -20,20 +20,22 @@ for(point in event.points) {
 
 ### <a name="collision-xynxy"></a> Collision Point
 
-![point-block](http://static.stencyl.com/pedia2/blocks/collision/collisionpoints/Point.png)
+![x of collision](http://static.stencyl.com/pedia2/block-images/collision/points/collision-xynxy.png)
 
 Returns the (x,y) position of the current collision point. Must be used within the `for each collision point...` wrapper.
 
 ```
-Engine.toPixelUnits(point.x)
-Engine.toPixelUnits(point.y)
+Math.round(Engine.toPixelUnits(point.x))
+Math.round(Engine.toPixelUnits(point.y))
+Math.round(Engine.toPixelUnits(point.normalX))
+Math.round(Engine.toPixelUnits(point.normalY))
 ```
 
 ***
 
 ### <a name="tile-data-for-collision"></a> Get Data for Collided Tile
 
-![data-block](http://static.stencyl.com/pedia2/blocks/collision/collisionpoints/TileData.png)
+![data for collided tile](http://static.stencyl.com/pedia2/block-images/collision/points/tile-data-for-collision.png)
 
 Returns the text associated with the tile you collided with. Must be used within the `for each collision point...` wrapper.
 

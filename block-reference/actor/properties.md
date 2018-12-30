@@ -1,4 +1,4 @@
-# Actor > Properties
+# Actors > Properties
 
 ***
 
@@ -6,7 +6,7 @@
 
 ### <a name="die"></a> Kill Actor
 
-![kill-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/die.png)
+![kill actor](http://static.stencyl.com/pedia2/block-images/actor/properties/die.png)
 
 Immediately kills the specified actor.
 
@@ -20,7 +20,7 @@ recycleActor([ACTOR]);
 
 ### <a name="kill-leave-screen"></a> Kill Actor (after leaving screen)
 
-![kill-actor-later-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/kill-leave-screen.png)
+![kill actor after leaving screen](http://static.stencyl.com/pedia2/block-images/actor/properties/kill-leave-screen.png)
 
 Instructs the game to kill the actor if it exits the screen. This is useful for "bullets" and other temporary actors that aren't of much use to hold around once they're off the screen.
 
@@ -32,7 +32,7 @@ Instructs the game to kill the actor if it exits the screen. This is useful for 
 
 ### <a name="isalive"></a> Is Actor alive?
 
-![exists-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/isalive.png)
+![actor is alive](http://static.stencyl.com/pedia2/block-images/actor/properties/isalive.png)
 
 Returns `true` if the specified actor is alive. Useful for checking prior to performing operations with that actor -- working with a dead actor may cause the game to crash.
 
@@ -46,13 +46,15 @@ Returns `true` if the specified actor is alive. Useful for checking prior to per
 
 ### <a name="get-wh"></a> Get Width / Height
 
-![size-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/get-wh.png)
+![width of actor](http://static.stencyl.com/pedia2/block-images/actor/properties/get-wh.png)
 
 Returns the width or height of the actor.
 
 ```
 ([ACTOR].getWidth())
 ([ACTOR].getHeight())
+([ACTOR].getWidth()/2)
+([ACTOR].getHeight()/2)
 ```
 
 ***
@@ -61,7 +63,7 @@ Returns the width or height of the actor.
 
 ### <a name="getatype"></a> Get Actor Type
 
-![gettype-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/getatype.png)
+![type of actor](http://static.stencyl.com/pedia2/block-images/actor/properties/getatype.png)
 
 Returns the actor's Actor Type.
 
@@ -73,7 +75,7 @@ Returns the actor's Actor Type.
 
 ### <a name="getgroup"></a> Get Group
 
-![group-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/getgroup.png)
+![group of actor](http://static.stencyl.com/pedia2/block-images/actor/properties/getgroup.png)
 
 Returns the actor's (Collision) Group.
 
@@ -85,7 +87,7 @@ Returns the actor's (Collision) Group.
 
 ### <a name="pick-type"></a> Choose Actor Type
 
-![choose-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/pick-type.png)
+![actor type](http://static.stencyl.com/pedia2/block-images/actor/properties/pick-type.png)
 
 Returns the chosen Actor Type.
 
@@ -97,19 +99,19 @@ Returns the chosen Actor Type.
 
 ### <a name="pick-group"></a> Choose Actor Group
 
-![choose-group-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/pick-group.png)
+![actor group](http://static.stencyl.com/pedia2/block-images/actor/properties/pick-group.png)
 
 Returns the chosen Actor Group. Useful for making comparisons in collision events.
 
 ```
-[ACTOR GROUP]
+getActorGroup([INT])
 ```
 
 ***
 
 ### <a name="pick-type-by-name"></a> Get Actor Type (from name)
 
-![pick-type-name-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/pick-type-by-name.png)
+![actor type with name text](http://static.stencyl.com/pedia2/block-images/actor/properties/pick-type-by-name.png)
 
 Retrieves an Actor Type by name and returns it if it exists.
 
@@ -119,28 +121,43 @@ getActorTypeByName([TEXT])
 
 ***
 
-## Misc
+### <a name="group-setresponse"></a> Set Collision Response
 
-### <a name="ignore-screen-tolerance"></a> Make Actor Always Active
+![set collision response of actorgroup and actorgroup to a sensor](http://static.stencyl.com/pedia2/block-images/actor/properties/group-setresponse.png)
 
-![always-simulate-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/ignore-screen-tolerance.png)
-
-Normally, actors stop updating after they're off-screen. This block turns that option off and makes them always active no matter where they are.
+Override the default collision response between two groups.
 
 ```
-[ACTOR].makeAlwaysSimulate();
+Collision.addResponse([ACTORGROUP], [ACTORGROUP], "sensor");
+Collision.addResponse([ACTORGROUP], [ACTORGROUP], "solid");
 ```
 
 ***
 
-### <a name="bullet-mode"></a> Enable Continuous Collision Detection
+## Performance
 
-![ccd-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/bullet-mode.png)
+### <a name="ignore-screen-tolerance2"></a> Make Actor Always / Sometimes Active
 
-Enables continuous collision detection for the specified actor.
+![make actor active always](http://static.stencyl.com/pedia2/block-images/actor/properties/ignore-screen-tolerance2.png)
+
+Normally, actors stop updating after they're off-screen. This block can turn that option off and makes them always active no matter where they are. Choosing "sometimes" sets the actor to the default behavior.
+
+```
+[ACTOR].makeAlwaysSimulate();
+[ACTOR].makeSometimesSimulate();
+```
+
+***
+
+### <a name="bullet-mode2"></a> Toggle Continuous Collision Detection
+
+![enable continuous collision detection for actor](http://static.stencyl.com/pedia2/block-images/actor/properties/bullet-mode2.png)
+
+Toggles whether an actor travels through terrain at high speeds.
 
 ```
 makeActorNotPassThroughTerrain([ACTOR]);
+makeActorPassThroughTerrain([ACTOR]);
 ```
 
 ***
@@ -149,7 +166,7 @@ makeActorNotPassThroughTerrain([ACTOR]);
 
 ### <a name="addshape-rectangle"></a> Add Rectangle Collision Shape
 
-![rect-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-rectangle.png)
+![add rectangular collision shape x number y number w number h number to actor](http://static.stencyl.com/pedia2/block-images/actor/properties/addshape-rectangle.png)
 
 Adds a new box collision shape to the actor's current animation.
 
@@ -161,7 +178,7 @@ Adds a new box collision shape to the actor's current animation.
 
 ### <a name="addshape-circle"></a> Add Circle Collision Shape
 
-![circle-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-circle.png)
+![add circular collision shape x number y number r number to actor](http://static.stencyl.com/pedia2/block-images/actor/properties/addshape-circle.png)
 
 Adds a new circle collision shape to the actor's current animation.
 
@@ -173,7 +190,7 @@ Adds a new circle collision shape to the actor's current animation.
 
 ### <a name="addshape-polygon"></a> Add Polygon Collision Shape
 
-![poly-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-polygon.png)
+![add polygonal collision shape to actor with vertices...](http://static.stencyl.com/pedia2/block-images/actor/properties/addshape-polygon.png)
 
 Adds a new polygon collision shape to the actor's current animation. Specify the points using the next ``vertex`` block right below.
 
@@ -188,7 +205,7 @@ polygonActor.addPolygonalShape(vertices);
 
 ### <a name="addshape-vertex"></a> Add Point to Polygon Shape
 
-![point-add-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/addshape-vertex.png)
+![vertex x number y number](http://static.stencyl.com/pedia2/block-images/actor/properties/addshape-vertex.png)
 
 Adds a point to the newly created polygon collision shape. Must be used in the `add polygonal collision shape` block above.
 
@@ -200,16 +217,15 @@ polygonActor.addVertex(vertices, [NUMBER], [NUMBER]);
 
 ### <a name="foreach-shape"></a> For Each Collision Shape...
 
-![foreach-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/foreach-shape.png)
+![for each of actor](http://static.stencyl.com/pedia2/block-images/actor/properties/foreach-shape.png)
 
 Lets you perform certain actions on each collision shape for the actor. Use the `make the shape solid / a sensor`, `remove the shape` and `scale the shape` blocks below.
 
 ```
 var shapeActor:Actor = [ACTOR];
 if (shapeActor.physicsMode == 0) {
-  var body:B2Body = shapeActor.getBody();
-  var fixture:B2Fixture = body.getFixtureList();
-  while (fixture != null){
+  var fixture:B2Fixture = shapeActor.getBody().getFixtureList();
+  while (fixture != null) {
     [ACTIONS]
     fixture = fixture.getNext();
   }
@@ -218,39 +234,75 @@ if (shapeActor.physicsMode == 0) {
 
 ***
 
-### <a name="shape-sensorsolid"></a> Make Collision Shape Solid / Sensor
+### <a name="shape-sensorsolid2"></a> Make Collision Shape Solid / Sensor
 
-![solid-sensor-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-sensorsolid.png)
+![make collision shape a sensor](http://static.stencyl.com/pedia2/block-images/actor/properties/shape-sensorsolid2.png)
 
-Sets the collision shape to be solid or a sensor (not solid but still can detect collisions). Must be used within the `for each collision shape` block above.
-
-```
-fixture.setSensor(true); //Make it a sensor
-fixture.setSensor(false); //Make it solid
-```
-
-***
-
-### <a name="shape-destroy"></a> Remove Collision Shape
-
-![remove-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-destroy.png)
-
-Removes the collision shape from the actor. Must be used within the `for each collision shape` block above.
+Sets the collision shape to be solid or a sensor (not solid but still can detect collisions).
 
 ```
-body.DestroyFixture(fixture);
+[COLLISION SHAPE].setSensor(true); //Make it a sensor
+[COLLISION SHAPE].setSensor(false); //Make it solid
 ```
 
 ***
 
-### <a name="shape-scale"></a> Resize Collision Shape
+### <a name="shape-destroy2"></a> Remove Collision Shape
 
-![resize-shape-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/shape-scale.png)
+![remove collision shape](http://static.stencyl.com/pedia2/block-images/actor/properties/shape-destroy2.png)
 
-Resizes the collision shape in percentage terms, relative to the original size (100%). Must be used within the `for each collision shape` block above.
+Removes the collision shape from the actor.
 
 ```
-Actor.scaleShape(fixture.getShape(), body.getLocalCenter(), [NUMBER] / 100);
+[COLLISION SHAPE].getBody().DestroyFixture([COLLISION SHAPE]);
+```
+
+***
+
+### <a name="shape-scale2"></a> Resize Collision Shape
+
+![scale collision shape by number %](http://static.stencyl.com/pedia2/block-images/actor/properties/shape-scale2.png)
+
+Resizes the collision shape in percentage terms, relative to the original size (100%).
+
+```
+Actor.scaleShape([COLLISION SHAPE].getShape(), [COLLISION SHAPE].getBody().getLocalCenter(), [NUMBER] / 100);
+```
+
+***
+
+### <a name="shape-group"></a> Get Collision Group for Shape
+
+![collision group of collision shape](http://static.stencyl.com/pedia2/block-images/actor/properties/shape-group.png)
+
+Returns the collision group assigned to a shape. Normally the group of the actor type the shape is attached to.
+
+```
+engine.getGroup([COLLISION SHAPE].groupID, [COLLISION SHAPE].getUserData())
+```
+
+***
+
+### <a name="shape-setgroup"></a> Set Collision Group for Shape
+
+![set collision group to actorgroup for collision shape](http://static.stencyl.com/pedia2/block-images/actor/properties/shape-setgroup.png)
+
+Sets the collision group for this shape.
+
+```
+[COLLISION SHAPE].groupID = [ACTORGROUP].ID;
+```
+
+***
+
+### <a name="shape-last-added"></a> Last Added Shape
+
+![last added shape](http://static.stencyl.com/pedia2/block-images/actor/properties/shape-last-added.png)
+
+Returns the last collision shape added to the actor.
+
+```
+[ACTOR].getLastCreatedFixture()
 ```
 
 ***
@@ -259,7 +311,7 @@ Actor.scaleShape(fixture.getShape(), body.getLocalCenter(), [NUMBER] / 100);
 
 ### <a name="actor-set-prop"></a> Set Actor Value
 
-![set-val-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/actor-set-prop.png)
+![set actor value text for actor to object](http://static.stencyl.com/pedia2/block-images/actor/properties/actor-set-prop.png)
 
 Associates a value with the given text key. Useful for storing (and later retrieving) arbitrary data in an actor without having to do this through other means in the toolset.
 
@@ -271,48 +323,12 @@ Associates a value with the given text key. Useful for storing (and later retrie
 
 ### <a name="actor-get-prop"></a> Get Actor Value
 
-![get-val-actor-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/actor-get-prop.png)
+![get actor value text for actor](http://static.stencyl.com/pedia2/block-images/actor/properties/actor-get-prop.png)
 
 Returns the value that is associated with the given text key, if available. Returns `null` if it doesn't exist.
 
 ```
 [ACTOR].getActorValue([TEXT])
-```
-
-***
-
-### <a name="as-boolean"></a> Convert to Boolean
-
-![cast-bool-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/as-boolean.png)
-
-Converts the value to a Boolean. Meant to be used in conjunction with the `get-actor-value` block.
-
-```
-asBoolean([VALUE])
-```
-
-***
-
-### <a name="as-number"></a> Convert to Number
-
-![cast-number-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/as-number.png)
-
-Converts the value to a Number. Meant to be used in conjunction with the `get-actor-value` block.
-
-```
-asNumber([VALUE])
-```
-
-***
-
-### <a name="as-text"></a> Convert to Text
-
-![cast-text-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/2%20-%20Properties/tostring.png)
-
-Converts the value to a Text value. Meant to be used in conjunction with the `get-actor-value` block.
-
-```
-("" + [VALUE])
 ```
 
 ***

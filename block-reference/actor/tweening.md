@@ -1,4 +1,4 @@
-# Actor > Tweening
+# Actors > Tweening
 
 ***
 
@@ -10,7 +10,7 @@
 
 ### <a name="moveToBy"></a> Slide
 
-![slide-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/moveToBy.png)
+![slide actor by x number y number over number sec using dropdown](http://static.stencyl.com/pedia2/block-images/actor/tweening/moveToBy.png)
 
 Slides (moves) the actor by the given distance (or to the given location) over the specified time.
 
@@ -25,7 +25,7 @@ Slides (moves) the actor by the given distance (or to the given location) over t
 
 ### <a name="spinToBy"></a> Spin
 
-![spin-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/spinToBy.png)
+![spin actor by number degrees over number sec using dropdown](http://static.stencyl.com/pedia2/block-images/actor/tweening/spinToBy.png)
 
 Spins (rotates) the actor [by / to] the given amount in degrees over the specified time. For the "to" case, it will always spin clockwise.
 
@@ -40,7 +40,7 @@ Spins (rotates) the actor [by / to] the given amount in degrees over the specifi
 
 ### <a name="fadeInOut"></a> Fade In / Out
 
-![fade-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeInOut.png)
+![fade in actor over number sec using dropdown](http://static.stencyl.com/pedia2/block-images/actor/tweening/fadeInOut.png)
 
 Fades the actor [in / out] over the specified time. This means that its opacity will either go to 100% (fade in) or 0% (fade out).
 
@@ -53,7 +53,7 @@ Fades the actor [in / out] over the specified time. This means that its opacity 
 
 ### <a name="fadeTo"></a> Fade To
 
-![fadeto-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/fadeTo.png)
+![fade actor to number % over number sec using dropdown](http://static.stencyl.com/pedia2/block-images/actor/tweening/fadeTo.png)
 
 Sets the actor's opacity to the given amount (in percent) over the specified time. Amount must be between [0 - 100] inclusive.
 
@@ -67,7 +67,7 @@ Sets the actor's opacity to the given amount (in percent) over the specified tim
 
 ### <a name="scaleTo"></a> Grow / Shrink
 
-![scale-block](http://static.stencyl.com/pedia2/block-images/0%20-%20Actor/4%20-%20Tweening/scaleTo.png)
+![grow actor to w number % h number % over number sec using dropdown](http://static.stencyl.com/pedia2/block-images/actor/tweening/scaleTo.png)
 
 Resizes the actor's width and height (in percentage terms) over the specified time. Amounts are relative to the actor's original size -- 100% means original size, 200% means twice the size, 50% means half the size.
 
