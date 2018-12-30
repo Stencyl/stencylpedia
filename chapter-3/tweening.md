@@ -63,22 +63,6 @@ Next time you play a game, **observe where tweens are used**. You'll be surprise
 
 ## Gotchas
 
-#### Falling Short
-
-On occasion, you may notice that a tween falls a little short of its "destination."
-
-![Falling Short](http://static.stencyl.com/pedia2/ch3/tweening/image00.png)
-
-This is particularly noticeable when rotating an actor (by a well-defined amount such as 90 degrees) and expecting it to finish up at the target value. Due to timing imprecision, this is not guaranteed.
-
-We encourage you to employ a workaround in which you manually set the value in the future.
-
-![Workaround](http://static.stencyl.com/pedia2/ch3/tweening/image04.png)
-
-#### Avoid 0 second durations.
-
-The other gotcha is trying to tween with a 0 second duration. Avoid doing this if possible and use a small, positive value instead such as 0.01 seconds.
-
 #### Scaling sometimes doesn't scale up the collision bounds.
 
 If you specify an Actor to not auto-scale its collision bounds, you may observe that scaling an Actor up or down will not change its collision bounds accordingly.
@@ -100,6 +84,4 @@ If accurate physics are desired, **avoid using tweens** and **use conventional m
 ## Summary
 
 * Tweens let you apply gradual changes to an Actor's property over time.
-* Tweens are not 100% accurate and do not guarantee arrival at the exact final value.
-* Avoid tweening with a 0 second duration. Use a small value like 0.01 instead.
 * Physics becomes inaccurate (it works, but is like directly setting position) when using tweening to move an Actor. Use forces or velocity setting instead.
