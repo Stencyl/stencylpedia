@@ -13,6 +13,7 @@ Actor Type | [Yes](http://www.stencyl.com/help/view/what-are-actors/)
 Animation | [Yes](http://www.stencyl.com/help/view/animations/)
 Anything | --- 
 Boolean | ---
+Collision Shape | [Yes](http://www.stencyl.com/help/view/collisions-and-groups/)
 Color | ---
 Control | [Yes](http://www.stencyl.com/help/view/controls/)
 Font | [Yes](http://www.stencyl.com/help/view/font-editor/)
