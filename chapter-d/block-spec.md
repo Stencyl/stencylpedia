@@ -88,6 +88,7 @@ Property | Description
 help | Displayed in the bottom bar when the mouse hovers over this block.
 color | Any of these [blue, cyan, green, lime, purple, red, gray, charcoal, yellow]
 hidden | If `true`, the block will not display in the palette. Used in conjunction with **attached-block**
+helpURL | If included, this is the url that will be opened by the **View Help** action on the block.<br/>Otherwise, it'll go to the site in the info.txt file.
 
 **EXAMPLE**
 
@@ -223,6 +224,70 @@ This is a special type of `field` that can only show up inside a wrapper block (
 </block>
 ```
 
+
+## Translation
+
+It's possible to provide the blocks.xml file in multiple languages.
+
+Include a file in your extension folder at `lang/{locale code}/*.lang`. It doesn't matter what the `.lang` file is called. For example, to include English, Spanish, and Russian:
+
+```
+extension/
+- blocks.xml
+- lang/
+  - en/
+    - my-extension.lang
+  - es/
+    - my-extension.lang
+  - ru/
+    - my-extension.lang
+```
+
+The format of the .lang files is the same as Stencyl's .lang files: `key=value` pairs.
+
+For each block, you can translate the `spec` and `help` properties. Additionally, you can specify that dropdown choices are translated by starting them with `@`.
+
+Here's an example block, being taken from the original English-only block, to a new, translatable block.
+
+Original:
+```xml
+<block tag="my-dropdown-example" spec="set my dropdown to %0" code="var myDropdown = ~;" type="action" returns="void" help="A simple example block to show translation.">
+  <fields>
+    <dropdown order="0">
+      <choices>
+        <c text="a number" code="1"/>
+        <c text="a boolean" code="true"/>
+	<c text="a string" code="\"text\""/>
+      </choices>
+    </dropdown>
+  </fields>
+</block>
+```
+
+Translatable:
+```xml
+<block tag="my-dropdown-example" code="var myDropdown = ~;" type="action" returns="void">
+  <fields>
+    <dropdown order="0">
+      <choices>
+        <c text="@number" code="1"/>
+        <c text="@bool" code="true"/>
+	<c text="@string" code="\"text\""/>
+      </choices>
+    </dropdown>
+  </fields>
+</block>
+```
+
+Accompanying `lang/en/blocks.lang`:
+```
+my-dropdown-example=set my dropdown to %0
+my-dropdown-example.help=A simple example block to show translation.
+
+number=a number
+bool=a boolean
+string=a string
+```
 
 ## Additional Reading
 
