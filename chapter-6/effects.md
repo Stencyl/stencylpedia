@@ -31,12 +31,8 @@ Effects in themselves are not performance impacting. It's the application of eff
  
 ## Gotchas
 
-* **Some effects may work only in Flash**. These effects are denoted with a red, Flash icon.
-* On the Desktop and Mobile targets, all effects except tint are simulated using software and consequently can slow down games, especially when you use "remove all effects".
 * Effects persist, even when an Actor's animation changes.
 * Only 1 effect may be applied at a time to a particular actor or image. To apply several, use the apply block multiple times.
-
-> **Tip:** On Desktop and Mobile, if you want to tint an actor and un-tint it, instead of using "remove all effects", apply a white tint to the actor, which has the same net effect, without the performance penalty.
  
 
 ## Summary
