@@ -6,7 +6,7 @@ To find them, just begin attaching a behavior to an Actor or Scene like you'd no
 
 Then, pick something from the **FROM YOUR LIBRARY** section.
 
-![](http://blog.stencyl.com/wp-content/uploads/2012/02/Screen-shot-2012-02-06-at-9.02.23-AM.png)
+![from-your-library](images/from-your-library.png)
 
 
 ## What's currently available?
@@ -15,6 +15,7 @@ Then, pick something from the **FROM YOUR LIBRARY** section.
 
 **Controls**
 * 2/4/8 Way Motion
+* Apply Force
 * Asteroids Motion
 * Follow the Mouse
 * Face the Mouse
@@ -23,7 +24,29 @@ Then, pick something from the **FROM YOUR LIBRARY** section.
 * Shoot Around the Block
 * Drag and Drop
 
+**Eye Candy**
+* Explode on Death
+* Fade After Time
+* Flicker on Collision
+* Intro Title
+
+**Game**
+* Camera Follow
+* Die in Pit and Reload
+* Mute/Pause/Reload Buttons
+* Background Music
+* Pause on Losing Focus
+* Scene Switch Behaviors
+
+**GUI**
+* Anchor to Screen
+* Three State Button
+* Effect on Mouse Over
+* On Screen Button
+* Toggle Button
+
 **Motion**
+* Always Simulate
 * Circular Motion
 * Wave Motion
 * Back and Forth
@@ -32,22 +55,26 @@ Then, pick something from the **FROM YOUR LIBRARY** section.
 * Follow Target
 * Follow Path
 * Face Direction of Motion
-* Don't Exit Screen
+* Don't Exit Screen/Scene
 * Wrap Around Screen
 * Starting / Random Starting Velocity
 
-**GUI**
-* Three State Button
-* Effect on Mouse Over
-* Die on Click
+**Rules**
+* Die After Time/On Click/On Collision/On Leaving Screen
+* Health Manager
+* Items Remaining
+* Score Manager
 
 **Utilities**
+* Endless Animation
+* Label
+* Open URL Button
 * Game Debugger
-* Draw Terrain
+* Draw Regions/Terrain
 * Video Player
 * Social Media Helper
 * Donate
-* Hide Mouse Cursor
+* Custom Mouse Cursor
  
 
 ## Can I suggest some behaviors?
