@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 02, 2019
+
+- (b10215) Changed default minimum Android version to API 14.
+
 December 26, 2018
 
 - (b10200) Fixed Android ads to default to non-personalized and update after checking location and status.
