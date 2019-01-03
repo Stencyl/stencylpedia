@@ -41,7 +41,7 @@ Either way, you'll get an IPA file out of it.
 
 #### Visit iTunes Connect
 
-First, head over to [iTunes Connect](https://itunesconnect.apple.com), the web app that lets you submit your app for review. (You may already have done all of this if your game uses Game Center, iAds and/or purchases.)
+First, head over to [iTunes Connect](https://itunesconnect.apple.com), the web app that lets you submit your app for review. (You may already have done all of this if your game uses Game Center and/or purchases.)
 
 During this process, you'll be asked to enter in all of the relevant details and screenshots for the game.
 
@@ -49,9 +49,9 @@ During this process, you'll be asked to enter in all of the relevant details and
 
 You will be asked the following question on iTunes Connect: **Does this app use the Advertising Identifier (IDFA)?**
 
-* Answer **NO** if your game has no ads, besides iAds.
+* Answer **NO** if your game has no ads.
 
-* Answer **YES** if your game has any ads besides iAds. If your game gets rejected, send a link to a YouTube video demonstrating that the ads work.
+* Answer **YES** if your game has any ads. If your game gets rejected, send a link to a YouTube video demonstrating that the ads work.
 
 #### Launch Application Loader from Xcode
 
