@@ -123,7 +123,7 @@ Enable 3x scale for your game since the flagship Galaxy line requires this scale
 
 #### Can I use an existing / external install of the Android SDK?
 
-Not at this time. We'd like to support this in the future.
+Yes, just go to File > Preferences > Tools and set your custom path there.
 
 #### How do I view the official device logs outside of Stencyl?
 
@@ -131,4 +131,4 @@ Use Device Monitor, which can be launched from Stencyl (under Debug > Android > 
 
 #### What version of the Android SDK does Stencyl use?
 
-As of late 2015, we're up to API Level 22 (Lollipop).
+As of late 2018, we're up to API Level 28 (Pie).
