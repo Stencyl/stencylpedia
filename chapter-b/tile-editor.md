@@ -1,4 +1,6 @@
 > **Note:** If you're coming here from the [Tiles and Tilesets article](http://www.stencyl.com/help/viewArticle/36/), read on. If you found this through a search, we urge you to read the [main Tiles article](http://www.stencyl.com/help/viewArticle/36/) first.
+
+> **Note:** If using simple physics for the global physics setting, this article does not apply and all tiles will have a collision box equal to the tile size.
  
 
 ## Contents
