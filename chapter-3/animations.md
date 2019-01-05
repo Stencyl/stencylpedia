@@ -129,11 +129,9 @@ All of these blocks are found under **Actors > Draw** in the Design Mode Palette
 This block switches the actor's animation to the one you specify.
 
 ![stencyl-design-mode-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image13.png)
-
-> **Note:** Do not type in the animation name directly. Instead, use the "as animation" block and type the name into that.<br/>![stencyl-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
  
 #### What's the current Animation?
-This block returns the animation that is currently playing. Note that this returns the animation, not the textual name of the animation.
+This block returns the animation that is currently playing.
 
 ![stencyl-design-mode-get-current-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image14.png)
 
@@ -225,11 +223,6 @@ Two common scenarios are:
 
 * The actor magically jumps to a slightly off-center location when you switch animations.
 * The actor's collisions mess up because the new animation has the collision bounds located in a different part of the animation.
-
-#### Animations, Blocks & Attributes
-Note that when using the "switch animation" block, you cannot type text directly into the blank. Instead, you have to wrap that text inside an "as animation" block like the following.
-
-![stencyl-design-mode-as-animation-casting-block](http://static.stencyl.com/pedia2/ch3/animation/image11.png)
 
 > **Reminder:** All animation-related blocks are located under Actors > Draw.
  
