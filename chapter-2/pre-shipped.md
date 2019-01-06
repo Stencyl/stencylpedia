@@ -6,7 +6,7 @@ To find them, just begin attaching a behavior to an Actor or Scene like you'd no
 
 Then, pick something from the **FROM YOUR LIBRARY** section.
 
-![from-your-library](images/from-your-library.png)
+![from-your-library](https://github.com/Stencyl/stencylpedia/blob/master/chapter-2/images/from-your-library.png)
 
 
 ## What's currently available?
