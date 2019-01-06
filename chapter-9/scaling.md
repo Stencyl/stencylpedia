@@ -76,9 +76,12 @@ Device | Screen Resolution | Scale
 --- | --- | ---
 iPhone Original/3G/3GS | 480 x 320 | 1x
 iPhone 4/4S | 960 x 640 | 2x
-iPhone 5/5S/5C | 1136 x 640 | 2x
-iPhone 6/6S | 1334 x 750 | 2x
-iPhone 6/6S Plus | 1920 x 1080 | 3x
+iPhone 5/5S/5C/SE | 1136 x 640 | 2x
+iPhone 6/6S/7/8 | 1334 x 750 | 2x
+iPhone 6+/6S+/7+/8+ | 2208 x 1242 | 3x
+iPhone X/Xs | 2436 x 1125 | 3x
+iPhone XR | 1792 x 828 | 2x
+iPhone Xs Max | 2688 x 1242 | 3x
 
 #### iPod 
 Device | Screen Resolution | Scale
@@ -90,11 +93,10 @@ iPod Touch 5/6 | 1136 x 640 | 2x
 #### iPad
 Device | Screen Resolution | Scale
 --- | --- | ---
-iPad 1/2 | 1024 x 768 | 2x
-iPad Mini | 1024 x 768 | 2x
-iPad 3/4<br/>iPad Air 1/2 | 2048 x 1536 | 4x
-iPad Mini 2/3/4 | 2048 x 1536 | 4x
-iPad Pro | 2732 x 2048 | 4x
+iPad 1/2/Mini | 1024 x 768 | 2x
+iPad Pro 10.5" | 2224 x 1668 | 4x
+iPad Pro 12.9" | 2732 x 2048 | 4x
+Other iPads | 2048 x 1536 | 4x
  
 
 ## Scaling on Android
