@@ -47,14 +47,14 @@ Stencyl accepts MP3s and OGGs as follows.
 Platform | Accepted Format
 --- | ---
 Flash | MP3
-HTML5 | OGG
+HTML5 | MP3/OGG
 Windows | OGG
 Mac | OGG
 Linux | OGG
 iOS | OGG
 Android | OGG
 
-In short, we use OGG for every platform except for Flash. If you're publishing your game to Flash and any of the other platforms, you'll need to import the sound in both formats. *(We recommend Audacity for exporting music. It's free.)*
+In short, we use OGG for every platform except for Flash, and HTML5 uses both sound types. If you're publishing your game to Flash and any of the other platforms, you'll need to import the sound in both formats. *(We recommend Audacity for exporting music. It's free.)*
 
 #### MP3 Troubleshooting
 
@@ -94,7 +94,8 @@ All sound-related blocks are conveniently located under the Sound category.
 **Play** = Plays to the end once, then stops<br/>
 **Loop** = Plays to the end and then repeats
 
-Volume ranges between 0% and 100%, inclusive.
+Volume ranges between 0% and 100%, inclusive.<br/>
+Panning ranges between -100% (left) and 100% (right), inclusive.
 
 > **Note:** If you'd like to pause and resume a sound, skip down to the **Channels** section.
 
