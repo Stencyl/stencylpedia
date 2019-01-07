@@ -44,11 +44,11 @@ Located under the Physics > Advanced page for an Actor.
 
 ![stencyl-enable-continuous-collision-detection-button](http://static.stencyl.com/pedia2/ch5/ccd.png)
 
-#### Method 2: Use the Block (only lets you turn it on)
+#### Method 2: Use the Block
 
 The block's located under Actor > Properties > Misc.
 
-![stencyl-design-mode-continous-collision-detection-block](http://static.stencyl.com/help/images/EnableCCD.png)
+![enable-ccd](https://github.com/Stencyl/stencylpedia/blob/master/chapter-5/images/enable-ccd.png)
 
 
  
@@ -64,7 +64,7 @@ You can test whether enabling continuous collision detection is necessary by fir
 
 ## Is there a global flag for turning CCD off?
 
-Add a code block with the code shown below to turn the entire system **OFF**. This can only be used to shut the entire CCD system off.
+Add a code block with the code shown below to turn the entire system **OFF**. This can only be used to shut the entire CCD system off.  Disabling CCD for every actor will also turn the system off.
 
 ```
 box2D.dynamics.B2World.m_continuousPhysics = false;
