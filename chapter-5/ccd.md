@@ -46,7 +46,7 @@ Located under the Physics > Advanced page for an Actor.
 
 #### Method 2: Use the Block
 
-The block's located under Actor > Properties > Misc.
+The block's located under Actor > Properties > Performance.
 
 ![enable-ccd](https://github.com/Stencyl/stencylpedia/blob/master/chapter-5/images/enable-ccd.png)
 
