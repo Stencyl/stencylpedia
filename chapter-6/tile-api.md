@@ -13,7 +13,7 @@ The Tile API is a collection of functions that let you modify a scene's terrain 
 
 ## How do you install the Tile API?
 
-In Stencyl 3.2 and above, the Tile API is part of the regular block set. You can find the blocks under *Scene > World > Tile API*.
+In Stencyl 3.2 and above, the Tile API is part of the regular block set. You can find the blocks under *Scenes > World > Tiles*.
 
  
 ## Additional Notes
@@ -25,8 +25,6 @@ Row and column coordinates start at 0 (zero), at the top-left corner of the scen
 Tileset ID numbers can be found by looking at the bottom bar in the Tileset Editor. If a single tile is selected you will also see the Tile ID of the selected tile.
 
 Layer ID numbers can be found in the Scene Designer's Layer box.
-
-> **Aside:** For performance reasons, layers cannot contain tiles unless they have one already at compile time (from the Scene Designer). Attempting to place a tile with the Tile API into a non-tile layer will fail. To resolve, include at least one tile (it can be invisible and without a collision shape) on the desired layer.
 
 
 ## Individual Block Information
