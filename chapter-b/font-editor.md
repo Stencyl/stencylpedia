@@ -131,16 +131,15 @@ Regular fonts are based on TrueType fonts, the same ones you use when composing 
 3. Set other properties as you see fit.
 4. Save. The system will churn for a bit as it generates the font's image behind the scenes.
 
-![Regular Fonts](http://static.stencyl.com/help/images/fontEditorUI.png)
-
  
 ###Style Properties
 
-![Style Properties](http://static.stencyl.com/help/images/fontStyle.png)
+![Style Properties](https://github.com/Stencyl/stencylpedia/blob/master/chapter-b/images/style-properties.png)
 
 Name | Purpose
 --- | ---
 **Character Set** | Choose what characters to include in this font. Choose the minimum set you need.
+**Characters** | Only used when Charset is Custom and should contain all the custom characters needed.
 **Font** | The kind of font you'd like to use, or import a TTF to use.
 **Size** | The font size
 **Style** | Bold, Italic, Both, or Normal
