@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 09, 2019
+
+- (b10225) Fixed compilation issue with duplicated free form behaviors (issue #1449).
+
 January 02, 2019
 
 - (b10215) Changed default minimum Android version to API 14.
