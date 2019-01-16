@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 15, 2019
+
+- (b10236) Fixed image API screenshots not using the antialiasing setting (issue #1464).
+
 January 09, 2019
 
 - (b10225) Fixed compilation issue with duplicated free form behaviors (issue #1449).
