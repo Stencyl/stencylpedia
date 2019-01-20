@@ -1,5 +1,13 @@
 ### Changelog ###
 
+January 20, 2019
+
+- (b10245) Fixed atlas memory values at higher scales (issue #1112).
+
+January 19, 2019
+
+- (b10244) Fixed two runtime errors for shaders using arrays.
+
 January 15, 2019
 
 - (b10236) Fixed image API screenshots not using the antialiasing setting (issue #1464).
