@@ -2,6 +2,7 @@
 
 January 20, 2019
 
+- (b10246) Fixed crash caused by checking the pressure of unused controls.
 - (b10245) Fixed atlas memory values at higher scales (issue #1112).
 
 January 19, 2019
