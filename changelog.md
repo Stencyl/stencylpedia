@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 21, 2019
+
+- (b10247) Fixed a bug where animation changes were not replacing existing filters (issue #1472).
+
 January 20, 2019
 
 - (b10246) Fixed crash caused by checking the pressure of unused controls.
