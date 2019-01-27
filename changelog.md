@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 27, 2019
+
+- (b10248) Fixed "clear image using image" block for non-Flash platforms (issue #1120).
+
 January 21, 2019
 
 - (b10247) Fixed a bug where animation changes were not replacing existing filters (issue #1472).
