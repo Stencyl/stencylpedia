@@ -2,6 +2,7 @@
 
 January 27, 2019
 
+- (b10249) Scaling fix for "clear image using image" block (issue #1478).
 - (b10248) Fixed "clear image using image" block for non-Flash platforms (issue #1120).
 
 January 21, 2019
