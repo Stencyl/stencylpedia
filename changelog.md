@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 28, 2019
+
+- (b10250) Fixed "clear image using image" block when outside of the image bounds (issue #1479).
+
 January 27, 2019
 
 - (b10249) Scaling fix for "clear image using image" block (issue #1478).
