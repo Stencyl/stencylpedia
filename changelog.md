@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 29, 2019
+
+- (b10251) Fixed error with custom font characters when the displayed text is blank (issue #1480).
+
 January 28, 2019
 
 - (b10250) Fixed "clear image using image" block when outside of the image bounds (issue #1479).
