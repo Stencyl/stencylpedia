@@ -1,5 +1,9 @@
 ### Changelog ###
 
+January 30, 2019
+
+- (b10252) Updated Gradle version to 4.7 (for Java 11 support) and Gradle plugin to 2.3.0.
+
 January 29, 2019
 
 - (b10251) Fixed error with custom font characters when the displayed text is blank (issue #1480).
