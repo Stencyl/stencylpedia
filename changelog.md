@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 04, 2019
+
+- (b10255) Changed default Android minimum version to 18 to avoid signing error for newer keystores.
+
 January 30, 2019
 
 - (b10252) Updated Gradle version to 4.7 (for Java 11 support) and Gradle plugin to 2.3.0.
