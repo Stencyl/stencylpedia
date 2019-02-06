@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 06, 2019
+
+- (b10260) Changed a couple of ad-related error messages so they will show up in debug mode.
+
 February 04, 2019
 
 - (b10255) Changed default Android minimum version to 18 to avoid signing error for newer keystores.
