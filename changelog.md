@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 12, 2019
+
+- (b10270) Fix "clear image using image" block when the mask overlaps the target image (issue #1490).
+
 February 06, 2019
 
 - (b10260) Changed a couple of ad-related error messages so they will show up in debug mode.
