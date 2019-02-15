@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 15, 2019
+
+- (b10285) The "send actor to front/back" block will now move the actor to the top/bottom of the layer if the layer doesn't change (issue #1473).
+
 February 12, 2019
 
 - (b10270) Fix "clear image using image" block when the mask overlaps the target image (issue #1490).
