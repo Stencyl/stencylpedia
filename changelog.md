@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 18, 2019
+
+- (b10294) Fixed bug with "joystick is pressed" block returning true outside the joystick area.
+
 February 15, 2019
 
 - (b10285) The "send actor to front/back" block will now move the actor to the top/bottom of the layer if the layer doesn't change (issue #1473).
