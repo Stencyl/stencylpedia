@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 20, 2019
+
+- (b10299) Added new parameter to setZoom() to keep the screen width/height the same.
+
 February 18, 2019
 
 - (b10294) Fixed bug with "joystick is pressed" block returning true outside the joystick area.
