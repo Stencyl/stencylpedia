@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 23, 2019
+
+- (b10305) Fixed actor mouse detection when x and y scale values are different.
+
 February 20, 2019
 
 - (b10299) Added new parameter to setZoom() to keep the screen width/height the same.
