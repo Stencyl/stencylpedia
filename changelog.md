@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 26, 2019
+
+- (b10306) The "control key is down" block now also works with the command key on Mac (issue #1489).
+
 February 23, 2019
 
 - (b10305) Fixed actor mouse detection when x and y scale values are different.
