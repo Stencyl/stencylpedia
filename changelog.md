@@ -1,5 +1,9 @@
 ### Changelog ###
 
+February 27, 2019
+
+- (b10307) Fixed a bug with tile width and height being swapped on import.
+
 February 26, 2019
 
 - (b10306) The "control key is down" block now also works with the command key on Mac (issue #1489).
