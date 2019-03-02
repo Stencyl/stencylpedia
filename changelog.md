@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 02, 2019
+
+- (b10308) Set atlas ID for imported resources to 0 if atlas does not exist (issue #1504).
+
 February 27, 2019
 
 - (b10307) Fixed a bug with tile width and height being swapped on import.
