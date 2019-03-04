@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 04, 2019
+
+- (b10309) Fixed drawing position for simple physics actors with top left origin points (issue #1506).
+
 March 02, 2019
 
 - (b10308) Set atlas ID for imported resources to 0 if atlas does not exist (issue #1504).
