@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 06, 2019
+
+- (b10310) Fixed bug with sound channel event not working after pausing and resuming a sound.
+
 March 04, 2019
 
 - (b10309) Fixed drawing position for simple physics actors with top left origin points (issue #1506).
