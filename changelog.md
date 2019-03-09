@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 09, 2019
+
+- (b10311) Added new block to get the column/row of the collided tile (issue #749).
+
 March 06, 2019
 
 - (b10310) Fixed bug with sound channel event not working after pausing and resuming a sound.
