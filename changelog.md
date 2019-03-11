@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 11, 2019
+
+- (b10312) Added block to enable/disable saving for game attributes (issue #362).
+
 March 09, 2019
 
 - (b10311) Added new block to get the column/row of the collided tile (issue #749).
