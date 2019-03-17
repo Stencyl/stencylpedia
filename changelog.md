@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 17, 2019
+
+- (b10313) Added log message clarifying that a transitioning scene cannot be paused (issue #1520).
+
 March 11, 2019
 
 - (b10312) Added block to enable/disable saving for game attributes (issue #362).
