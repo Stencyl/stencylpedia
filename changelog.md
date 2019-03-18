@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 18, 2019
+
+- (b10314) Fixed custom Android keystore paths so they would actually be used.
+
 March 17, 2019
 
 - (b10313) Added log message clarifying that a transitioning scene cannot be paused (issue #1520).
