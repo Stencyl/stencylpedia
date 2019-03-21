@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 21, 2019
+
+- (b10315) Made camera movement smoother by not rounding layer positions (issue #1525).
+
 March 18, 2019
 
 - (b10314) Fixed custom Android keystore paths so they would actually be used.
