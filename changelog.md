@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 22, 2019
+
+- (b10316) Fixed a problem with pixel-snapping caused by previous update.
+
 March 21, 2019
 
 - (b10315) Made camera movement smoother by not rounding layer positions (issue #1525).
