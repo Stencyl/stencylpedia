@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 24, 2019
+
+- (b10317) Prevented higher scale images from being created on import if higher scales are disabled.
+
 March 22, 2019
 
 - (b10316) Fixed a problem with pixel-snapping caused by previous update.
