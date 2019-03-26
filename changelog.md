@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 26, 2019
+
+- (b10318) Avoided index out of bounds error causing scenes to not open (issue #1518).
+
 March 24, 2019
 
 - (b10317) Prevented higher scale images from being created on import if higher scales are disabled.
