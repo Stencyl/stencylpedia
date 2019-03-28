@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 28, 2019
+
+- (10319) Added missing dependency needed to unzip 7-zip files, including Pencyl (issue #1531).
+
 March 26, 2019
 
 - (b10318) Avoided index out of bounds error causing scenes to not open (issue #1518).
