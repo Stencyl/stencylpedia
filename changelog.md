@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 29, 2019
+
+- (b10320) Fixed compilation error with certain number formats that are valid in Java but not Haxe (issue #1537).
+
 March 28, 2019
 
 - (b10319) Added missing dependency needed to unzip 7-zip files, including Pencyl (issue #1531).
