@@ -1,5 +1,9 @@
 ### Changelog ###
 
+March 31, 2019
+
+- (b10321) Fixed gradient background center being shifted by text/image drawing blocks in previous scene.
+
 March 29, 2019
 
 - (b10320) Fixed compilation error with certain number formats that are valid in Java but not Haxe (issue #1537).
