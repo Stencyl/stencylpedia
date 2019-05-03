@@ -1,5 +1,10 @@
 ### Changelog ###
 
+April 25, 2019
+
+- (b10331) Make sure tileset image matches expected tile size and rows/columns.
+- (b10331) Fix some android tools logic regarding preview platforms. Avoid them. It would take extra work to allow preview platforms to be used with Stencyl, since they report the same API level as their predecessor.
+
 March 31, 2019
 
 - (b10321) Fixed gradient background center being shifted by text/image drawing blocks in previous scene.
