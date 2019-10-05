@@ -1,9 +1,150 @@
 ### Changelog ###
 
+October 03, 2019
+
+- (b10438) Fix immediate iOS crash caused by OpenFL update.
+
+October 02, 2019
+
+- (b10437) Fix iOS Simulator device type path for Xcode 11.
+
+September 27, 2019
+
+- (b10435) Design Mode: Alternate, more precise workaround overlay impl for mac/linux
+
+September 26, 2019
+
+- (b10431) Fix font rendering on windows
+
+September 25, 2019
+
+- (b10430) Update hxcpp/lime/openfl as needed for latest Haxe version and win64
+- (b10426) Find appropriate haxe-bin folder for 32-bit windows on 64-bit os
+
+September 24, 2019
+
+- (b10425) Fixes for Windows 32/64 bit packages, update haxe to 4.0.0-rc5.
+
+September 23, 2019
+
+- (b10418) 32 and 64 bit versions for windows.
+
+July 16, 2019
+
+- (b10416) Update bundled linux jre to 11.0.3+7, increase mem limit to 4GB
+- (b10415) Bundle jre on Mac, increase default memory limit on mac to 4GB
+
+July 14, 2019
+
+- (b10414) Better typing of event listeners in engine
+
+July 11, 2019
+
+- (b10413) Update SDL
+
+July 10, 2019
+
+- (b10412) Implement block selection for "activate" / "view code" menu items.
+- (b10410) Work on basic dragging and some menu ops for block selections
+
+June 30, 2019
+
+- (b10409) Fixed some issues with cut/delete nested blocks, and copy from group
+- (b10408) Design Mode click-and-drag block selection, basic mechanism.
+
+June 29, 2019
+
+- (b10407) Add copy/paste buttons to animated tile editor
+- (b10406) Don't crash when purchases is disconnected mid-operation.
+- (b10405) Include example java parameter in linux script for hidpi displays
+
+June 28, 2019
+
+- (b10404) play/loop sound blocks always start a sound with normal volume and pan
+- (b10403) Fix size of collision bounds of drag-and-drop imported animations
+- (b10401) Actor's Behaviors Tab cuts off behaviors with a lot of text
+- (b10400) HTML5, Prevent default action of arrows and space bar on web pages.
+- (b10399) Fix: Don't read in invalid shapes when reading actor types
+- (b10398) Fix: Preloader images can't be cleared
+- (b10397) Don't show preloader image in front of preloader bar.
+- (b10396) Don't allow dropdown menus beneath blocks to be opened.
+
+June 27, 2019
+
+- (b10394) Use file name for animation when importing image
+- (b10393) Ensure that we never write out scales that are excluded from project
+- (b10392) Don't read in enabled scales that have been disabled in project scales.
+- (b10391) Enable multitouch on non-mobile platforms
+- (b10390) Always refresh collisions page when animations are added/removed
+- (b10388) Fix font images not being copied when duplicated
+- (b10386) Don't retain Instance Customization of actors when recycled.
+- (b10385) Include block to restore game attributes, print saving errors in debug
+- (b10383) Handle gamepads being added and removed at runtime more gracefully
+- (b10380) Pack assets by default when publishing HTML5 games
+
+June 26, 2019
+
+- (b10379) Limit downloadable android platforms to those that have already been tested.
+- (b10376) Fix for scenes that lost actor order information (opened in old builds)
+- (b10375) Fix iOS compilation with Haxe 4
+- (b10374) Default to 32-bit output for Windows desktop games.
+- (b10373) Fix various errors when min iOS versions other than 10 are selected.
+
+June 24, 2019
+
+- (b10368) Cppia update to try to ensure we don't trigger full host rebuilds
+- (b10367) Run 64-bit Haxe on 64-bit windows.
+- (b10365) Suppress deprecation warnings
+
+June 23, 2019
+
+- (b10364) Hidden boot.txt pref for showing errors dialog even if there's only warnings (prefs.compile.showwarn)
+- (b10363) Update Haxe, HXCPP, OpenFL, Lime, HXP, Polygonal-ds
+
+June 18, 2019
+
+- (b10360) Fix filesize of main js file in index.html
+- (b10359) Fix tilelayers being cut off when zoomed out in Flash
+
+June 11, 2019
+
+- (b10358) HTML5, use custom index file that shows a progress bar until scripts are loaded
+
+June 04, 2019
+
+- (b10356) Fix Xcode warning when using newer deployment targets.
+- (b10355) Fix file permissions in neko installer.
+- (b10354) Accept Android Licenses from within Stencyl, and use the newer repositories to download updates from
+
+May 28, 2019
+
+- (b10346) Detect Neko 2.2.0, not 2.1.0
+
+May 26, 2019
+
+- (b10344) Fix iOS launch storyboard scaling
+
+May 25, 2019
+
+- (b10343) Update neko to 2.2.0
+- (b10340) Fix potential crash when google play games signin fails.
+
+May 21, 2019
+
+- (b10338) Fix: various bugs related to ordering of actors within layers.
+
+May 20, 2019
+
+- (b10335) Fix visual studio detection when vswhere.exe exists but returns bad path
+
+May 18, 2019
+
+- (b10333) Use natural ordering when sorting resource pages
+
 April 25, 2019
 
-- (b10331) Make sure tileset image matches expected tile size and rows/columns.
-- (b10331) Fix some android tools logic regarding preview platforms. Avoid them. It would take extra work to allow preview platforms to be used with Stencyl, since they report the same API level as their predecessor.
+- (b10327) Make sure tileset image matches expected tile size and rows/columns.
+- (b10326) Fix some android tools logic regarding preview platforms. Avoid them. It would take extra work to allow preview platforms to be used with Stencyl, since they report the same API level as their predecessor.
 
 March 31, 2019
 
@@ -73,29 +214,85 @@ February 23, 2019
 
 - (b10305) Fixed actor mouse detection when x and y scale values are different.
 
+February 22, 2019
+
+- (b10304) In language debug mode, added missing strings to right click block menu.
+- (b10302) Fix: Scene listing in atlas scene manager has null filter when opened
+- (b10301) Fix: Atlas button on scene tab wasn't opening atlas page
+
+February 21, 2019
+
+- (b10300) Fix: Don't add hidden actors (camera, terrain) to layers
+
 February 20, 2019
 
 - (b10299) Added new parameter to setZoom() to keep the screen width/height the same.
+- (b10298) Don't load custom cursors on unsupported systems
+- (b10296) Android Featuring Compliance: Use newer theme for notications
+
+February 19, 2019
+
+- (b10295) Fix invalid collision shapes when importing new actor by drag and drop
 
 February 18, 2019
 
 - (b10294) Fixed bug with "joystick is pressed" block returning true outside the joystick area.
+- (b10293) Update tilesets in scene designer palette when modified
+- (b10292) Gracefully handle error when out of bounds order is passed in blocks.xml
+- (b10291) Update version number to 4.0.1
+- (b10290) Catch errors in loading of extension base classes
+- (b10289) Allow setting order of actors within layer, preserve this info in engine
+- (b10288) OGG playback support in Sound Editor
+- (b10287) Run device scanner at non-fixed rate
 
 February 15, 2019
 
 - (b10285) The "send actor to front/back" block will now move the actor to the top/bottom of the layer if the layer doesn't change (issue #1473).
+- (b10284) Don't allow reimport of externally edited image if size doesn't match
+- (b10283) Fix: Duplicating tileset rows/columns leads to tiles with duplicate IDs
+- (b10282) Fix: Index out of bounds when externally editing tileset with multiple scales
+- (b10280) Automatically remove image instances when re-attached to parent
+- (b10275) Disable iOS Simulator logging
+- (b10272) Don't use simctl for discovering simulators
+- (b10270) Don't use ios-sim to launch iOS Simulators.
 
 February 12, 2019
 
 - (b10270) Fix "clear image using image" block when the mask overlaps the target image (issue #1490).
 
+February 11, 2019
+
+- (b10269) Update ios-sim to fix some simulators not launching
+- (b10268) Don't wait for ios game to quit when launched from main thread
+- (b10267) Better native error catching in debug, warn when drawing unloaded tiles
+- (b10266) Require JDK 8 exactly for Android Dev
+- (b10265) Make sdk/ndk field autoset after download work. Don't suggest restart.
+- (b10264) Fix neko being packaged on linux without executable permission
+
+February 10, 2019
+
+- (b10262) Upgrade jarchivelib for permission preservation when unzipping on Java 9
+- (b10261) Allow spaces in sitelock list (the UI even suggests the use of spaces)
+
 February 06, 2019
 
 - (b10260) Changed a couple of ad-related error messages so they will show up in debug mode.
 
+February 05, 2019
+
+- (b10259) Increase gci timeout for flash player.
+- (b10258) Prevent thumbnails folder from being deleted in a clean project.
+- (b10257) Better logging when selected android build folder doesn't work
+- (b10256) Ensure that android tools installation progress appears above other dialogs
+
 February 04, 2019
 
 - (b10255) Changed default Android minimum version to 18 to avoid signing error for newer keystores.
+
+February 01, 2019
+
+- (b10254) Include 64-bit builds for Android, required by Google Play for new apps
+- (b10253) Fix Java version detection for Java with no minor/security number.
 
 January 30, 2019
 
@@ -127,13 +324,50 @@ January 19, 2019
 
 - (b10244) Fixed two runtime errors for shaders using arrays.
 
+January 18, 2019
+
+- (b10243) Fix crash when NPE occurs on Cppia in debug mode
+- (b10242) Fix potential false-positive error when testing HTML5.
+- (b10241) Fix NPE preventing the preferences dialog from opening.
+
+January 17, 2019
+
+- (b10239) Make cppia work with game controller
+
+January 16, 2019
+
+- (b10238) Update config file right away when compile cache settings are changed
+- (b10237) Don't allow telemetry on cppia
+
 January 15, 2019
 
 - (b10236) Fixed image API screenshots not using the antialiasing setting (issue #1464).
+- (b10235) Fixes for mouse on actor events
+- (b10233) Fixes to game controller logging
+- (b10232) Fix: volume isn't preserved when tweened
+- (b10231) Show full performance graph on html5
+
+January 11, 2019
+
+- (b10227) Fix "fade sound" blocks overriding global volume
+
+January 10, 2019
+
+- (b10226) Fix Visual Studio detection when nothing installed
 
 January 09, 2019
 
 - (b10225) Fixed compilation issue with duplicated free form behaviors (issue #1449).
+
+January 04, 2019
+
+- (b10222) Show Stencyl badge on HTML5 preloader if not a subscriber
+- (b10221) Version info on Splash is in wrong place on Mac
+- (b10220) [engine] Update animations immediately when frames are changed
+- (b10219) Don't include sourceMap in published HTML5 games
+- (b10218) Fix errors when right-clicking empty space in Game Controller clients pane
+- (b10217) Don't warn about engine extension blocks missing help string
+- (b10216) Fix up initial conversion of games to 4.0.0 game format
 
 January 02, 2019
 
