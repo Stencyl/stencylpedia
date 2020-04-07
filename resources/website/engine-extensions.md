@@ -84,11 +84,13 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**2D Lists**](http://community.stencyl.com/index.php/topic,28081.0.html) | Photon | 3.0.0+ | All | Active | -
 [**All-In-One Booleans**](http://community.stencyl.com/index.php/topic,29132.0.html) | Photon | 3.0.0+ | All | Active | -
 [**Attribute Saving**](http://community.stencyl.com/index.php/topic,22217.0.html) | GeorgeN | 3.0.0+ | All | Active | -
+[**Better Logic**](http://community.stencyl.com/index.php/topic,60232.0.html) | MrD69 | 3.4+ | All | Active | Switch case blocks. ++ and -- blocks
 [**Bitmap Drawing**](http://community.stencyl.com/index.php/topic,44065.0.html) | yoplalala | 3.0.0+ | All | Active | -
 [**Cast to Integer**](http://community.stencyl.com/index.php/topic,15894.0.html) | Dom818 | 3.0.0+ | All | Active | -
 [**Color Utilities**](http://community.stencyl.com/index.php/topic,34370.0.html) | ETHproductions | 3.0.0+ | All | Active | -
 [**Change Audio Pitch**](http://community.stencyl.com/index.php/topic,49116.0.html) | Max Finch | 3.4+ | All | Active | -
 [**Date and Time**](http://community.stencyl.com/index.php/topic,15063.0.html) | Dom818 | 3.0.0+ | All | Active | -
+[**Debugging Tool**](http://community.stencyl.com/index.php/topic,60220.0.html) | MrD69 | 3.4+ | Desktop and Flash | Active | Adds in game console for testing.
 [**Drawing Utilities**](http://community.stencyl.com/index.php/topic,35352.0.html) | ETHproductions | 3.0.0+ | All | Active | -
 [**Easy Math**](http://community.stencyl.com/index.php/topic,27769.0.html) | Photon | 3.0.0+ | All | Active | -
 [**External Data**](http://community.stencyl.com/index.php/topic,35620.0.html) | ETHproductions | 3.0.0+ | All | Active | -
