@@ -113,6 +113,6 @@ Title | Your Name (on Stencyl.com) | Description | Extra Votes | Notes |
 --- | --- | --- | --- | ---- |
 [**Skeletal Animation**](http://community.stencyl.com/index.php/topic,26183.0.html) | Jon | Support skeletal animations created in Spine and Spriter | --- | ---
 **In app browser for Windows**| Donni11 | In app browser ; users can view webpages in the windows game  |--- | A extension is [available for IOS and Android](http://community.stencyl.com/index.php/topic,38900.0.html)
-**Audio Utilities**| Ozygiygas | Modify game audio at runtime: change pitch, speed, and/or distort sounds and music | --- | ---
+**Audio Utilities**| Ozygiygas | Modify game audio at runtime: change pitch, speed, and/or distort sounds and music | TheUnnamedEngineer | ---
 [**Game Attribute Extension Blocks**](http://community.stencyl.com/index.php/topic,51059.0.html) | Donni11 | Additional blocks adding    more functionality to game attributes| --- | ---
 
