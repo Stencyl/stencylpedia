@@ -47,6 +47,7 @@ These extensions hook Stencyl up with 3rd party services, such as leaderboards a
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
+[**Colyseus**](http://community.stencyl.com/index.php/topic,61150.0.html) | mdotedot | --- | All | Active | -
 [**Ojya Leaderboard Facebook**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs 48 EUR / ~$55 USD.
 [**Firebase**](http://community.stencyl.com/index.php/topic,42986.0.html) | gurigraphics | 3.3.0+ | All | Active | -
 [**Leaderboard in Google Spreadsheet**](http://community.stencyl.com/index.php/topic,51126.0.html) | gurigraphics | 3.3.0+ | HTML5 | Active | Requires Google account
