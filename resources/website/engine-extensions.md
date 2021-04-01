@@ -84,6 +84,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**2D Lists**](http://community.stencyl.com/index.php/topic,28081.0.html) | Photon | 3.0.0+ | All | Active | -
 [**All-In-One Booleans**](http://community.stencyl.com/index.php/topic,29132.0.html) | Photon | 3.0.0+ | All | Active | -
+[**Artificial Intelligence Tools Extension**](http://community.stencyl.com/index.php/topic,45313.0.html) | merrak | --- | All | Active | -
 [**Attribute Saving**](http://community.stencyl.com/index.php/topic,22217.0.html) | GeorgeN | 3.0.0+ | All | Active | -
 [**Better Logic**](http://community.stencyl.com/index.php/topic,60232.0.html) | MrD69 | 3.4+ | All | Active | Switch case blocks. ++ and -- blocks
 [**Bitmap Drawing**](http://community.stencyl.com/index.php/topic,44065.0.html) | yoplalala | 3.0.0+ | All | Active | -
