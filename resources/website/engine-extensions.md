@@ -6,17 +6,17 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**AdMob**](http://community.stencyl.com/index.php/topic,41376.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | Adopted in Stencyl 3.4.0.
 [**Ad Colony**](http://community.stencyl.com/index.php/topic,40370.0.html) | Max Glockling | 3.3.0+ | iOS, Android | Active | -
-[**AppLovin**](http://community.stencyl.com/index.php/topic,47148.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
+[**AppLovin**](http://community.stencyl.com/index.php/topic,47148.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | -
 [**Chartboost**](http://community.stencyl.com/index.php/topic,25006.0.html) | rob1221 | 3.3.0+ | iOS, Android | Active | May have [issues](http://community.stencyl.com/index.php/index.php?topic=25006.msg250824#msg250824).
 [**CPM Star**](http://community.stencyl.com/index.php/topic,26486.0.html) | rob1221 | 3.3.0+ | Flash | Active | Invite-only network
-[**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 10 EUR
+[**Facebook Ads**](http://community.stencyl.com/index.php/topic,41144.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Heyzap**](http://community.stencyl.com/index.php/topic,45095.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
 [**Leadbolt**](http://community.stencyl.com/index.php/topic,45093.0.html) | Robin Schaafsma | 3.3.3+ | iOS, Android | Active | -
 [**RevMob**](http://community.stencyl.com/index.php/topic,24331.0.html) | GeorgeN | 3.3.0+ | iOS, Android | Abandoned | [New version](http://community.stencyl.com/index.php/index.php?topic=24331.msg246523#msg246523) provided by a different author.
-[**StartApp**](http://community.stencyl.com/index.php/topic,47149.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
+[**StartApp**](http://community.stencyl.com/index.php/topic,47149.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | -
 [**Tapdaq**](http://community.stencyl.com/index.php/topic,43128.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
-[**UnityAds**](http://community.stencyl.com/index.php/topic,47146.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
-[**Vungle**](http://community.stencyl.com/index.php/topic,47147.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | Costs 10 EUR
+[**UnityAds**](http://community.stencyl.com/index.php/topic,47146.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | -
+[**Vungle**](http://community.stencyl.com/index.php/topic,47147.0.html) | Robin Schaafsma | 3.4.0+ | iOS, Android | Active | -
 
 ## Mobile Features
 
@@ -32,10 +32,10 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 [**MFi Gamepad**](http://community.stencyl.com/index.php/topic,46999.0.html) | DJEmergency | 3.4+ | iOS | Active | -
 [**Network Checker**](http://community.stencyl.com/index.php/topic,40741.0.html) | aljosa | 3.3+ | iOS | Active | -
 [**Near Field Communication**](http://community.stencyl.com/index.php/topic,48557.0.html) | mdotedot | 3.4.0+ | Android | Active | -
-[**ReplayKit**](http://community.stencyl.com/index.php/topic,47254.0.html) | Robin Schaafsma | 3.4.0+ | iOS 9 ,Android 5| Active | Costs 10 EUR
+[**ReplayKit**](http://community.stencyl.com/index.php/topic,47254.0.html) | Robin Schaafsma | 3.4.0+ | iOS 9 ,Android 5| Active | -
 [**Save to Camera Roll**](http://community.stencyl.com/index.php/topic,44485.0.html) | yoplalala | 3.3.0+ | Android | Active | "Alpha" - may have bugs
 [**Simpl Analytics Extension**](http://community.stencyl.com/index.php/topic,49345.0.html) | Team Simpl | 3.4+ | iOS, Android | Active  | In Beta stage
-[**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | Costs 5 EUR
+[**Simple Share**](http://community.stencyl.com/index.php/topic,38875.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
 [**Text to Speech**](http://community.stencyl.com/index.php/topic,43736.0.html) | yoplalala | 3.3.0+ | Android | Active | -
 [**Video Playback (New Version)**](http://community.stencyl.com/index.php/topic,46822.0.html) | mdotedot | 3.3+  | iOS, Android | Active | [Has some restrictions](http://community.stencyl.com/index.php/topic,46822.0.html) |
 [**Web Views**](http://community.stencyl.com/index.php/topic,38900.0.html) | Robin Schaafsma | 3.3.0+ | iOS, Android | Active | -
@@ -47,6 +47,7 @@ These extensions hook Stencyl up with 3rd party services, such as leaderboards a
 
 Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
+[**Colyseus**](http://community.stencyl.com/index.php/topic,61150.0.html) | mdotedot | --- | All | Active | -
 [**Ojya Leaderboard Facebook**](http://community.stencyl.com/index.php/topic,43592.0.html) | Ojya Games | 3.3.0+ | iOS, Android | Active | Costs 48 EUR / ~$55 USD.
 [**Firebase**](http://community.stencyl.com/index.php/topic,42986.0.html) | gurigraphics | 3.3.0+ | All | Active | -
 [**Leaderboard in Google Spreadsheet**](http://community.stencyl.com/index.php/topic,51126.0.html) | gurigraphics | 3.3.0+ | HTML5 | Active | Requires Google account
@@ -83,6 +84,7 @@ Name | Author | Stencyl Version | Platforms | Status | Notes
 --- | --- | --- | --- | --- | ---
 [**2D Lists**](http://community.stencyl.com/index.php/topic,28081.0.html) | Photon | 3.0.0+ | All | Active | -
 [**All-In-One Booleans**](http://community.stencyl.com/index.php/topic,29132.0.html) | Photon | 3.0.0+ | All | Active | -
+[**Artificial Intelligence Tools Extension**](http://community.stencyl.com/index.php/topic,45313.0.html) | merrak | --- | All | Active | -
 [**Attribute Saving**](http://community.stencyl.com/index.php/topic,22217.0.html) | GeorgeN | 3.0.0+ | All | Active | -
 [**Better Logic**](http://community.stencyl.com/index.php/topic,60232.0.html) | MrD69 | 3.4+ | All | Active | Switch case blocks. ++ and -- blocks
 [**Bitmap Drawing**](http://community.stencyl.com/index.php/topic,44065.0.html) | yoplalala | 3.0.0+ | All | Active | -
