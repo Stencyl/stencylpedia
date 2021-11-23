@@ -2,9 +2,9 @@
 
 
 ## Introduction
-This short, hands-on tutorial will walk you through the steps needed to create a simple platformer using pre-made content, so that you can become familiar with the main parts of Stencyl’s interface.
+This hands-on tutorial has you create a simple game using a template (which we call a **kit**), so that you can become familiar with the main parts of Stencyl’s interface.
 
-> Make sure you [download](http://www.stencyl.com/download/) and install **Stencyl 3.4.0** (or later) before starting the crash course. This new crash course will not work in 3.3.0 or earlier.
+> Make sure you [download](http://www.stencyl.com/download/) and install **Stencyl 4.0** (or later) before starting the crash course. Older versions will not work.
 
 
 ## Download the Crash Course Kit
@@ -14,21 +14,21 @@ This Crash Course requires the **Crash Course Kit**, which can be [downloaded he
 ## How to Install the Crash Course Kit
 
 #### Method 1: Drag and Drop
-To **install the kit**, drag the file into Stencyl, like displayed below.
+Drag the file into Stencyl, like displayed below.
 
-![crash-course-kit](http://static.stencyl.com/pedia2/ch1/cc/DragDropCrashCourse.png)
+![drag-and-drop-crash-course-kit](/crash-course-1/images/1-drag-drop-game.png)
 
 #### Method 2: Use the Menu
 Alternatively, you can import it from the File menu (File > Import Game…).
 
+![import-crash-course-kit](/crash-course-1/images/1-import-game.png)
 
 ## Create a New Game (Part 1 of 5)
 ### Welcome Center
-When you open Stencyl, you’ll see a screen that looks something like this.
+When you launch Stencyl, you’ll be greeted by the **Welcome Center**, a list of all your games. From here, you can create a new game or open an existing game.
 
-![Welcome Center](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-1.png)
+![Welcome Center](/crash-course-1/images/1-welcome-center.png)
 
-This is the **Welcome Center**. From here, you can either create a new game or open an existing game.
 
 ### Creating a New Game
 1. Click the dotted rectangle labeled **"Click here to create a Game"**.
