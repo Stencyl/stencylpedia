@@ -37,8 +37,6 @@ Susbcriptions | No
 
 ## Setting up on Google Play
 
-> **Tip:** Just want to skip to testing? It is possible to test purchases without setting **anything** up using [static product ID's](https://developer.android.com/google/play/billing/billing_testing.html#billing-testing-static). This is good for testing basic connectivity to Google Play.
-
 #### Step 1: Set up your Keystore (if necessary)
 
 Before doing anything, you must **set up your keystore** within Stencyl. Consult our [Publishing to Google Play](https://www.stencyl.com/help/view/google-play/) guide for details on this process.
@@ -135,7 +133,7 @@ The following approach also works.
 
 #### Easy Test Purchases (Static Responses)
 
-If you'd like to [test out purchases without setting up an entry](https://developer.android.com/google/play/billing/billing_testing.html#billing-testing-static) on Google Play, you can use the following product IDs that Google has designated for testing.
+If you'd like to test out purchases without setting up an entry on Google Play, you can use the following product IDs that Google has designated for testing.
 
 ```
 android.test.purchased
