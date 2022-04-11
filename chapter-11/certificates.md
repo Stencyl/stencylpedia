@@ -177,13 +177,13 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
-2) Click on **Provisioning Profiles**.
+2) Click on **Profiles**.
 
-3) Click on the **Distribution** item in the left sidebar. (Do NOT deal with the Development tab. This is a common error.)
+3) Click **New Profile**. (It's the "plus" button at the top-right.)
 
-4) Click **New Profile**. (It's the "plus" button at the top-right.)
+4) Under the **Distribution** header, select **Ad Hoc** and press the "Continue" button at the top-right. (Do NOT deal with the Development tab. This is a common error.)
 
-5) Fill in the details as appropriate and submit. Do this twice, once for the **App Store** and once for **Ad Hoc**. This will result in **TWO** different provisioning proiles.
+5) Fill in the details as appropriate and submit. Repeat steps 2-4, this time selecting **App Store**. This will result in **TWO** different provisioning proiles.
 
 6) After you've created both profiles, download them to your Mac and **double-click them to install them**. They have an extension of **.mobileprovision**.
 
