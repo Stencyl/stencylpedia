@@ -53,18 +53,9 @@ If you don't turn off **USB Mass Storage**, your device will be treated like a U
 One trick that sometimes works is to plug your device in - if you're lucky, your device will ask you whether you want to Turn off USB Mass Storage.
 
 **Do a Google search for `USB Mass Storage [YOUR_DEVICE_HERE]`**
-
-
-## Step 2: Install the Java JDK
-
-Android requires the Java JDK (Java Development Kit), version 1.6 or later, in order to build and sign apps. You must install this on your own, although Stencyl will make a best effort to flag this if you don't have it installed.
-
-* [Mac](http://stackoverflow.com/a/6785545)
-* [Windows](http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html)
-* [Linux](http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html)
  
 
-## Step 3: Install the Rest
+## Step 2: Install the Rest
 
 The rest of the requirements (the Android SDK) are **automatically downloaded by Stencyl**. This is triggered when you attempt to run an Android app for the first time.
 
@@ -75,7 +66,7 @@ The rest of the requirements (the Android SDK) are **automatically downloaded by
 If all goes well, you'll see Stencyl download all of the required packages. This takes a while due to the large file sizes.
 
 
-## Step 4: Test on your Device
+## Step 3: Test on your Device
 
 After the Android packages finish downloading, Stencyl may ask you to reboot. If it requests that, do that, reopen the game and then run the game again.
 
@@ -128,7 +119,3 @@ Yes, just go to File > Preferences > Tools and set your custom path there.
 #### How do I view the official device logs outside of Stencyl?
 
 Use Device Monitor, which can be launched from Stencyl (under Debug > Android > Launch Device Monitor).
-
-#### What version of the Android SDK does Stencyl use?
-
-As of late 2018, we're up to API Level 28 (Pie).
