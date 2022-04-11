@@ -66,9 +66,4 @@ In this example, we're re-positioning this element to be 10 pixels from the scre
 
 Using a special block (under **Flow > Advanced**), you can detect what model your game is running on, so you can do something different on these devices to use that extra space. This isn't as versatile as Method 1 but is useful if you want to tweak things specifically for these iPhone models.
 
-![](http://static.stencyl.com/help/images/iphone5-5.png)
-
-
-## Additional Resources
-
-Prefer a video? This [video series](http://www.youtube.com/watch?v=4I_HqB9-bis&list=PLkcZhcNsGmYq8xa9-4XP-gegXP6Om3Ilp) was done for Stencyl 3.0, but it explains this concept really well.
+![](https://static.stencyl.com/help/images/iphone5-5.png)
