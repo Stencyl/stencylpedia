@@ -76,24 +76,9 @@ https://community.stencyl.com/index.php/topic,15476.15.html
 
 - Add your device to the iOS Member Center. To do this, launch Xcode, open up Window > Organizer. Select your device from the DEVICES section of the left pane. Click Add to Member Center (wording may change between versions). [SOURCE](https://community.stencyl.com/index.php/topic,31888.0.html)
 
-- Delete the game you're trying to play on your device. Then run again. [SOURCE](http://community.stencyl.com/index.php/topic,19606.0.html)
+- Delete the game you're trying to play on your device. Then run again. [SOURCE](https://community.stencyl.com/index.php/topic,19606.0.html)
 
-- View the Device's logs in Xcode's Organizer to figure out an alternate reason. In one case, the user's device had a lower iOS version than what he'd specified in Game Settings > Mobile > Versions. [SOURCE](http://community.stencyl.com/index.php/topic,19606.msg126690.html#new)
- 
-**Q: You see an error about "fruitstrap"**
-<br/>A: There is a mismatch between the certificates installed on your device and your computer. [SOURCE](http://www.nme.io/community/forums/bugs/fruitstrap-randomly-fails/)
-
-**Q: You see "syntax error near unexpected token `('" in the logs.**
-<br/>A: Remove parentheses (and spaces) from your Stencyl install path and your game's name.
-
-
-#### Haxe
-**Q: I get "Please don't add haxe/std to your classpath, instead set HAXE_LIBRARY_PATH env var"**
-<br/>A: Manually delete/remove Haxe from your classpath (usually /usr/lib/haxe)
-
-**Q: Is it OK to have an install of Haxe in addition to Stencyl?**
-<br/>A: If everything is working OK, then it's no harm. But if you are running into massive errors, things that are missing, and you know that you installed Haxe in the past, consider uninstalling Haxe.
-
+- View the Device's logs in Xcode's Organizer to figure out an alternate reason. In one case, the user's device had a lower iOS version than what he'd specified in Game Settings > Mobile > Versions. [SOURCE](https://community.stencyl.com/index.php/topic,19606.msg126690.html#new)
  
 
 ## Tip: Just Google it!
