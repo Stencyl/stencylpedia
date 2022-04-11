@@ -92,18 +92,18 @@ Making purchases in Stencyl requires two steps. One is setup related.
 #### Step 1: Declare All Purchases
 Use the request info for product block to declare a purchase. You can find it under Game > Mobile towards the bottom. The ID you use is the **Product ID** you entered into iTunes Connect.
 
-![request-product-info](http://static.stencyl.com/pedia2/ch11/request-product-info.png)
+![request-product-info](https://static.stencyl.com/pedia2/ch11/request-product-info.png)
 
 Do this for each purchase in your game. You only have to do this ONCE, not every time you wish to make a purchase.
 
 (In order to "know" when your request succeeded, use the **when a product info request succeeds** event under **Add Event > Mobile > Purchases**)
 
-![product-info-event](http://static.stencyl.com/pedia2/ch11/product-event.png)
+![product-info-event](https://static.stencyl.com/pedia2/ch11/product-event.png)
  
 #### Step 2: Make a Purchase
 Now, all you have to do is create a behavior that buys the product. You can find the **buy product block** under **Game > Mobile** towards the bottom. The ID you use is the **Product ID** you entered into iTunes Connect.
 
-![buy-product](http://static.stencyl.com/pedia2/ch11/purchase.png)
+![buy-product](https://static.stencyl.com/pedia2/ch11/purchase.png)
 
 You should always check if a purchase succeeded (or failed) using the purchase events we provide (under Add Event > Mobile > Purchases). Only if a purchase succeeds should you proceed to unlock or provide the promised functionality.
 
@@ -136,7 +136,7 @@ A common example of a consumable purchase is virtual currency. Some games (parti
 #### Usage
 Consumables are "used" using the **use product** block (same block as **buy product**, click the dropdown). Make sure to check that the user has at least 1 of that product before using, as shown below.
 
-![consume-product](http://static.stencyl.com/pedia2/ch12/use.png)
+![consume-product](https://static.stencyl.com/pedia2/ch12/use.png)
 
 If consumption was successful, you will receive a purchase-succeeded event. If it failed, you will receive a purchased-failed event. **Be sure to handle these events** - do not let the user consume the products immediately.
  
@@ -149,11 +149,11 @@ If a user installs your app in a different device, or if the user has wiped thei
 
 Use the **restore purchases block** under **Game > Mobile** to initiate this process (connect it to a button press, for example).
 
-![restore-purchases](http://static.stencyl.com/pedia2/ch12/restore-block.png)
+![restore-purchases](https://static.stencyl.com/pedia2/ch12/restore-block.png)
 
 When this happens, you will receive a bunch of **purchase is restored events** (which you can receive via Add Event > Mobile > Purchases), each corresponding to a purchase. It's your task to react to these events in an appropriate manner.
 
-![restore-event](http://static.stencyl.com/pedia2/ch12/restore.png)
+![restore-event](https://static.stencyl.com/pedia2/ch12/restore.png)
 
 
 ## Troubleshooting
@@ -187,6 +187,6 @@ Here's a list of everything we know that could go wrong.
 
 #### Ask for help
 
-If none of these solutions work, [ask for help](http://community.stencyl.com/index.php/board,3.0.html) on the forums. 
+If none of these solutions work, [ask for help](https://community.stencyl.com/index.php/board,3.0.html) on the forums. 
 
 In-App Purchases are **challenging** to add because of the obtuse system of setting them up on iTunes Connect. Unfortunately, there's little we can do to make this process easier besides providing help and documenting solutions to common problems as they come along.

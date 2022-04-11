@@ -20,5 +20,5 @@ Go to this menu item. Once you run it, it'll save a file on your computer that y
 If you see someone ask for help, but they haven't attached their logs, use this code in your forum post to tell them to attach their logs.
 
 ```
-[url=http://community.stencyl.com/index.php/topic,1190.0.html][img]http://community.stencyl.com/index.php?action=dlattach;topic=1190.0;attach=1164;image[/img][/url]
+[url=https://community.stencyl.com/index.php/topic,1190.0.html][img]https://community.stencyl.com/index.php?action=dlattach;topic=1190.0;attach=1164;image[/img][/url]
 ```

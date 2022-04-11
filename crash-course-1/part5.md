@@ -1,4 +1,4 @@
-> [Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
+> [Part 1 (Intro)](https://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](https://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](https://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](https://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](https://www.stencyl.com/help/viewArticle/147/)
 
 ## Test Your Game! (Part 5 of 5)
 Click the **Test Game** button in the top toolbar to give your game a try.
@@ -21,16 +21,16 @@ There's a whole lot more to Stencyl, and we encourage you to experiment on your 
 
 If you'd like a more in-depth guided tour, we recommend jumping straight into Crash Course 2, where you can create your own Space Invaders-like game.
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/view/crash-course-invaders-1/">Continue to Crash Course 2 &rarr;</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/view/crash-course-invaders-1/">Continue to Crash Course 2 &rarr;</a>
 
 
 ## Troubleshooting
 
 #### When I fall into the pit, the scene doesn't reload.
-As directed in [Part 3 at the end of the Customizing Noni section](http://www.stencyl.com/help/viewArticle/145#part5reference), attach the **Die in Pit and Reload** Behavior to Noni.
+As directed in [Part 3 at the end of the Customizing Noni section](https://www.stencyl.com/help/viewArticle/145#part5reference), attach the **Die in Pit and Reload** Behavior to Noni.
 
 #### Noni goes through the Clowns
 Don't forget to set Clown's Group to **Enemies**.
  
 #### I receive a Flash error when running the game. The screen is just white.
-[Please post a topic on the forums](http://community.stencyl.com/index.php/board,3.0.html) and attach the game to your post. (Use File > Export Game... to do this)
+[Please post a topic on the forums](https://community.stencyl.com/index.php/board,3.0.html) and attach the game to your post. (Use File > Export Game... to do this)

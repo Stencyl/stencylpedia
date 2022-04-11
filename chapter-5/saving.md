@@ -8,9 +8,9 @@
 
 ## Overview - Saving uses Game Attributes
 
-Saving progress is a fundamental part of most games. Our saving system uses a game's [Game Attributes](http://www.stencyl.com/help/viewArticle/158/) to save data. All you have to do is structure your game such that **anything you want to save is stored in Game Attributes**.
+Saving progress is a fundamental part of most games. Our saving system uses a game's [Game Attributes](https://www.stencyl.com/help/viewArticle/158/) to save data. All you have to do is structure your game such that **anything you want to save is stored in Game Attributes**.
 
-![Saving](http://static.stencyl.com/pedia2/ch5/saving/image01.png)
+![Saving](https://static.stencyl.com/pedia2/ch5/saving/image01.png)
 
 Similarly, **loading** a save file will **overwrite the running game's Game Attributes** and replace them with the values of those in the save file. For this reason, it's best to load a save file as early as possible.
 
@@ -34,7 +34,7 @@ We talk more about how to handle failure next.
 
 #### Handling Failures
 
-Sometimes, a player will be unable to save due to [restrictive security settings](http://www.stencyl.com/help/viewArticle/48/) or other reasons.
+Sometimes, a player will be unable to save due to [restrictive security settings](https://www.stencyl.com/help/viewArticle/48/) or other reasons.
 
 If saving/loading fails, you can detect this and use the **save succeeded** and **load succeeded** blocks to react appropriately, such as showing an error message.
 
@@ -59,7 +59,7 @@ It depends on the platform.
 
 #### Flash
 
-Flash games use [Local Shared Objects](http://en.wikipedia.org/wiki/Local_shared_object). That is to say, it's stored by the browser indefinitely until cleared out.
+Flash games use [Local Shared Objects](https://en.wikipedia.org/wiki/Local_shared_object). That is to say, it's stored by the browser indefinitely until cleared out.
 
 #### iOS / Android / Desktop
 

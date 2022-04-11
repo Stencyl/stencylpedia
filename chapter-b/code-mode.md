@@ -61,7 +61,7 @@ Stencyl plays nicely with external editors such as Notepad and FlashDevelop.
 
 **Configure this setting inside (File > ) Preferences > Workspace**. It will open up the editor on demand and auto-sync the changes when you save in that external editor.
 
-![stencyl-code-mode-using-an-external-ide](http://static.stencyl.com/help/images/PencylPreferencesPic.png)
+![stencyl-code-mode-using-an-external-ide](https://static.stencyl.com/help/images/PencylPreferencesPic.png)
  
 
 ## Switching Between Design and Code Mode
@@ -73,7 +73,7 @@ If you want to mix the two, you need to make a design mode behavior and stick in
  
 ## How to Define Attributes
 
-In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. This is using the [Metadata](http://haxe.org/manual/lf-metadata.html) feature of the Haxe language. The easiest way to learn the syntax is by example.
+In order to expose a class member for a Code Mode Behavior as a configurable attribute, you need to annotate it. This is using the [Metadata](https://haxe.org/manual/lf-metadata.html) feature of the Haxe language. The easiest way to learn the syntax is by example.
 
 ```haxe
 //Expose your attributes like this:

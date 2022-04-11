@@ -1,4 +1,4 @@
-> Looking for our article on [Gamepads (External Controllers)](http://www.stencyl.com/help/view/gamepads)?
+> Looking for our article on [Gamepads (External Controllers)](https://www.stencyl.com/help/view/gamepads)?
 
 ## Contents
 
@@ -18,7 +18,7 @@ Detecting keyboard input works differently in Stencyl than it does in other syst
 
 A Control is a name that you assign to an action in a game. For example, if we were designing a control scheme for a Mario game, it would look like this.
 
-<img alt="NES-controller" src="http://static.stencyl.com/pedia2/ch3/controls/image05.png" style="height: 300px; width: 300px;">
+<img alt="NES-controller" src="https://static.stencyl.com/pedia2/ch3/controls/image05.png" style="height: 300px; width: 300px;">
 
 Actions | Actual Buttons
 --- | ---
@@ -33,15 +33,15 @@ Pause | Start
 
 The same idea applies to Stencyl, through a game's Controls Page. To set Controls, click the Settings button, shown below, to open that dialog.
 
-![Settings](http://static.stencyl.com/help/images/Settings-Button-New.png)
+![Settings](https://static.stencyl.com/help/images/Settings-Button-New.png)
 
 Next, click the Controls button to view the Controls pane. From there, you tell us the name of the Control and the button it maps to.
 
-![Controls Page](http://static.stencyl.com/help/images/Settings-Controls.png)
+![Controls Page](https://static.stencyl.com/help/images/Settings-Controls.png)
 
 Now, when you check whether a key is pressed, released or down, instead of checking directly on a certain key (such as spacebar), you check the state of the Control.
 
-![stencyl-design-mode-check-keyboard-input](http://static.stencyl.com/pedia2/ch3/controls/image00.png)
+![stencyl-design-mode-check-keyboard-input](https://static.stencyl.com/pedia2/ch3/controls/image00.png)
 
 
 #### Why can't we just check the key directly?
@@ -61,7 +61,7 @@ Now, when you check whether a key is pressed, released or down, instead of check
 * Released
 * Down
 
-![stencyl-design-mode-get-mouse-state](http://static.stencyl.com/pedia2/ch3/controls/mouse-basic.png)
+![stencyl-design-mode-get-mouse-state](https://static.stencyl.com/pedia2/ch3/controls/mouse-basic.png)
 
 **Pressed** and **Released** are one-off "events" - they **fire once per that action**, whereas "down" is a constant state that can be checked.
 
@@ -72,7 +72,7 @@ Now, when you check whether a key is pressed, released or down, instead of check
 
 You can also grab the (x,y) location of the mouse on screen or any recent presses/releases.
 
-![stencyl-design-mode-get-mouse-location](http://static.stencyl.com/pedia2/ch3/controls/mouse-position.png)
+![stencyl-design-mode-get-mouse-location](https://static.stencyl.com/pedia2/ch3/controls/mouse-position.png)
 
  
 ## Mouse over Actor
@@ -86,7 +86,7 @@ Similarly, mouse input over an actor involves 4 different states.
 
 Over Actor is our term for **hovering** the mouse over the actor.
 
-![stencyl-design-mode-get-mouse-location](http://static.stencyl.com/pedia2/ch3/controls/mouse-actor.png)
+![stencyl-design-mode-get-mouse-location](https://static.stencyl.com/pedia2/ch3/controls/mouse-actor.png)
 
 > Mouse presses and releases involving an actor can also be detected using the **On Actor** event (under Add Event > Input)
 
@@ -97,28 +97,28 @@ Sometimes, you want to hide the cursor or display a custom cursor. How do you do
 
 To show or hide the cursor, use this block.
 
-![stencyl-design-mode-hide-mouse-cursor](http://static.stencyl.com/pedia2/ch3/controls/hide-cursor.png)
+![stencyl-design-mode-hide-mouse-cursor](https://static.stencyl.com/pedia2/ch3/controls/hide-cursor.png)
 
 > **Exercise:** How would you create a custom cursor? One method is to hide the cursor and create a dummy actor that continually follows the mouse but does not collide with anything.
  
 
 ## Mobile Controls
 
-To keep things simple for you, mouse input is equivalent to single-touch input. Read our [Touch article](http://www.stencyl.com/help/view/mobile-input/) for further details and examples on both single touch, multi touch and gestures.
+To keep things simple for you, mouse input is equivalent to single-touch input. Read our [Touch article](https://www.stencyl.com/help/view/mobile-input/) for further details and examples on both single touch, multi touch and gestures.
 
 Other mobile input topics are covered separately.
 
-* [Accelerometer](http://www.stencyl.com/help/view/mobile-accelerometer/)
-* [Virtual Joystick](http://www.stencyl.com/help/view/mobile-joystick/)
+* [Accelerometer](https://www.stencyl.com/help/view/mobile-accelerometer/)
+* [Virtual Joystick](https://www.stencyl.com/help/view/mobile-joystick/)
  
 
 ## Example: 4 Way Motion
 
 This example shows how to use the keyboard to implement a 4-way motion behavior. Up/Down/Left/Right are pre-defined controls that come with each game - they are not to be mixed up with the arrow keys with the same name.
 
-![stencyl-design-mode-four-way-motion-example](http://static.stencyl.com/pedia2/ch3/controls/image06.png)
+![stencyl-design-mode-four-way-motion-example](https://static.stencyl.com/pedia2/ch3/controls/image06.png)
 
-> **Note:** This is just an exercise to get you familiar with the blocks. We already [include](http://www.stencyl.com/help/view/pre-shipped-behaviors/) a 4-way motion behavior with Stencyl if you need one.
+> **Note:** This is just an exercise to get you familiar with the blocks. We already [include](https://www.stencyl.com/help/view/pre-shipped-behaviors/) a 4-way motion behavior with Stencyl if you need one.
 
 #### Exercises
 
@@ -135,7 +135,7 @@ Sometimes the player input is not limited to a specific set of keys. Instead, th
 
 To make this, you can use the **when any key is pressed/released** event for this kind of user input. Here is a brief example of a behavior that accepts user input and puts that into a text attribute.
 
-![Example](http://static.stencyl.com/pedia2/ch3/controls/key-input-example.png)
+![Example](https://static.stencyl.com/pedia2/ch3/controls/key-input-example.png)
 
 #### Explanation
 
@@ -151,7 +151,7 @@ Special keys such as ENTER and BACKSPACE do not map to characters. To check if t
 
 It is best practice to compare the "key code" of the event with the "key code of [___]" block, rather than hardcoding the number directly. Like this.
 
-![Keycode Example](http://static.stencyl.com/pedia2/ch3/controls/keycode-example.png)
+![Keycode Example](https://static.stencyl.com/pedia2/ch3/controls/keycode-example.png)
 
 For reference, the full list of key codes can be looked up [here](https://raw.githubusercontent.com/Stencyl/stencyl-engine/master/com/stencyl/Key.hx).
 
@@ -189,6 +189,6 @@ The button should work just like a regular button. Specifically, don't register 
 
 We include a block for simulating key presses and releases. It's useful for creating on-screen buttons in mobile games that can act as if they were physical keyboard buttons.
 
-![stencyl-design-mode-simulate-key-press-block](http://static.stencyl.com/pedia2/ch3/controls/image03.png)
+![stencyl-design-mode-simulate-key-press-block](https://static.stencyl.com/pedia2/ch3/controls/image03.png)
 
 It's also useful for creating cutscenes - in-game sequences that the player does not control but watches, like a movie. **Make a cutscene using this block**.

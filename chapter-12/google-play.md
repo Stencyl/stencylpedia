@@ -33,9 +33,9 @@ Multiplayer | No
 
 #### Step 1: Set up your Keystore (if necessary)
 
-Before doing anything, you must **set up your keystore** within Stencyl. Consult our [Publishing to Google Play](http://www.stencyl.com/help/view/google-play/) guide for details on this process.
+Before doing anything, you must **set up your keystore** within Stencyl. Consult our [Publishing to Google Play](https://www.stencyl.com/help/view/google-play/) guide for details on this process.
 
-> **Note:** If you already have a Keystore (made outside of Stencyl), you must still tell Stencyl about it. Read the [guide](http://www.stencyl.com/help/view/google-play/) for details.
+> **Note:** If you already have a Keystore (made outside of Stencyl), you must still tell Stencyl about it. Read the [guide](https://www.stencyl.com/help/view/google-play/) for details.
 
 #### Step 2: Set the game up on Google Play
 
@@ -55,23 +55,23 @@ Once you've set up your game on the Google Play Developer Console, you're ready 
 * Click on the **Enable Google Play Games** checkbox.
 * Enter in your **Google Play Application ID**.
 
-![stencyl-google-play-games-id](http://static.stencyl.com/pedia2/ch12/google-play-id.png)
+![stencyl-google-play-games-id](https://static.stencyl.com/pedia2/ch12/google-play-id.png)
 
-> **Note:** The **Application ID is a 12-or-13-digit number** ([View Example](http://static.stencyl.com/pedia2/ch12/app-id.png)). It is NOT the Client ID.
+> **Note:** The **Application ID is a 12-or-13-digit number** ([View Example](https://static.stencyl.com/pedia2/ch12/app-id.png)). It is NOT the Client ID.
 
 #### Step 4: Initialize Google Play with blocks
 
 Once you've entered in your Google Play App ID into Stencyl, you must initialize the service using the following block (under Game > Mobile). Use this block as early as possible - preferably in your game's first scene or loading sequence.
 
-![stencyl-google-play-init](http://static.stencyl.com/pedia2/ch12/init-google-play.png)
+![stencyl-google-play-init](https://static.stencyl.com/pedia2/ch12/init-google-play.png)
 
 After using this block, you'll want to know when the Google Play service has succeeded in connecting with your game or whether it has failed. The following block (under Game > Mobile) lets you check on this status.
 
-![stencyl-google-play-events](http://static.stencyl.com/pedia2/ch12/google-play-events.png)
+![stencyl-google-play-events](https://static.stencyl.com/pedia2/ch12/google-play-events.png)
 
 Unfortunately, no events exist at this time, so you must manually check for success/failure using this block. What we recommend doing is checking for success or failure every few seconds, as shown in the following example.
 
-![stencyl-google-play-example](http://static.stencyl.com/pedia2/ch12/google-play-example.png)
+![stencyl-google-play-example](https://static.stencyl.com/pedia2/ch12/google-play-example.png)
 
 
 ## Leaderboards and Achievements
@@ -89,7 +89,7 @@ Both Leaderboards and Achievements must be set up on the [Google Play Developer 
 
 Block | Description | Where to Find
 --- | --- | ---
-![stencyl-report-score](http://static.stencyl.com/pedia2/ch12/submit-score.png) | ID = Leaderboard ID<br/>Score must be a number | Game > Mobile
+![stencyl-report-score](https://static.stencyl.com/pedia2/ch12/submit-score.png) | ID = Leaderboard ID<br/>Score must be a number | Game > Mobile
 
 #### Reporting Achievements
 
@@ -97,15 +97,15 @@ Achievements can be designated as standard or incremental. An **incremental achi
 
 Block | Description | Where to Find
 --- | --- | ---
-![stencyl-unlock-achievement](http://static.stencyl.com/pedia2/ch12/unlock-achievement.png)  | ID = Achievement ID | Game > Mobile
-![stencyl-increase-achievement](http://static.stencyl.com/pedia2/ch12/increase-achievement.png)  | ID = Achievement ID<br/>Number must be less than the remaining number of steps required | Game > Mobile
+![stencyl-unlock-achievement](https://static.stencyl.com/pedia2/ch12/unlock-achievement.png)  | ID = Achievement ID | Game > Mobile
+![stencyl-increase-achievement](https://static.stencyl.com/pedia2/ch12/increase-achievement.png)  | ID = Achievement ID<br/>Number must be less than the remaining number of steps required | Game > Mobile
 
 #### Showing Leaderboards / Achievements
 
 Block | Description | Where to Find
 --- | --- | ---
-![stencyl-show-leaderboard](http://static.stencyl.com/pedia2/ch12/show-leaderboard.png) | ID = Leaderboard ID | Game > Mobile
-![stencyl-show-all](http://static.stencyl.com/pedia2/ch12/show-all.png) | Shows all achievements or leaderboards or quests | Game > Mobile
+![stencyl-show-leaderboard](https://static.stencyl.com/pedia2/ch12/show-leaderboard.png) | ID = Leaderboard ID | Game > Mobile
+![stencyl-show-all](https://static.stencyl.com/pedia2/ch12/show-all.png) | Shows all achievements or leaderboards or quests | Game > Mobile
 
 
 ## Events, Quests and Rewards
@@ -124,7 +124,7 @@ Once you have defined Events on the Google Play Developer Console, you can begin
 
 Block | Description | Where to Find
 --- | --- | ---
-![stencyl-report-event](http://static.stencyl.com/pedia2/ch12/update-event.png)  | ID = Event ID | Game > Mobile
+![stencyl-report-event](https://static.stencyl.com/pedia2/ch12/update-event.png)  | ID = Event ID | Game > Mobile
 
 #### Quests
 
@@ -132,8 +132,8 @@ Quests let you create in-game challenges for players to attempt to complete with
 
 Block | Description | Where to Find
 --- | --- | ---
-![stencyl-quest-completed](http://static.stencyl.com/pedia2/ch12/quest-completed.png)  | Checks if a new quest has been completed. | Game > Mobile
-![stencyl-quest-list](http://static.stencyl.com/pedia2/ch12/quest-list.png)  | Reports back a **list** of completed quests. | Game > Mobile
+![stencyl-quest-completed](https://static.stencyl.com/pedia2/ch12/quest-completed.png)  | Checks if a new quest has been completed. | Game > Mobile
+![stencyl-quest-list](https://static.stencyl.com/pedia2/ch12/quest-list.png)  | Reports back a **list** of completed quests. | Game > Mobile
 
 #### Rewards
 
@@ -141,7 +141,7 @@ Each quest that you define contains a reward value that you can use to offer ite
 
 Block | Description | Where to Find
 --- | --- | ---
-![stencyl-get-reward](http://static.stencyl.com/pedia2/ch12/get-reward.png)  | ID = Quest ID<br/>Reports back the reward amount. | Game > Mobile
+![stencyl-get-reward](https://static.stencyl.com/pedia2/ch12/get-reward.png)  | ID = Quest ID<br/>Reports back the reward amount. | Game > Mobile
 
 
 ## Troubleshooting
@@ -153,4 +153,4 @@ Specifically, skip down to **Avoiding common setup problems**, which lists out t
 Not at this time. We'd like to in the future.
 
 #### Hitting other issues? Ask for help.
-If you continue to experience issues after consulting the resources above, please ask for help on the forums ([customer area](http://community.stencyl.com/index.php/board,46.0.html) - [public area](http://community.stencyl.com/index.php/board,3.0.html)). This feature is still on the new side, so we haven't gotten enough feedback yet to build out our troubleshooting section.
+If you continue to experience issues after consulting the resources above, please ask for help on the forums ([customer area](https://community.stencyl.com/index.php/board,46.0.html) - [public area](https://community.stencyl.com/index.php/board,3.0.html)). This feature is still on the new side, so we haven't gotten enough feedback yet to build out our troubleshooting section.

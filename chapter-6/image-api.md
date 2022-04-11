@@ -19,9 +19,9 @@ The Image API lets you do this, by **letting you create, modify and manipulate p
 
 #### Demos
 
-* [Tanks](http://static.stencyl.com/pedia2/ch6/image/tank.gif)
-* [Swirl](http://static.stencyl.com/pedia2/ch6/image/swirl.gif)
-* [Full Screen Effects](http://static.stencyl.com/pedia2/ch6/image/fs.gif)
+* [Tanks](https://static.stencyl.com/pedia2/ch6/image/tank.gif)
+* [Swirl](https://static.stencyl.com/pedia2/ch6/image/swirl.gif)
+* [Full Screen Effects](https://static.stencyl.com/pedia2/ch6/image/fs.gif)
 
  
 
@@ -88,18 +88,18 @@ The **clear/retain image using image** block is a powerful way to apply masks to
 
 When using **clear**, anything black in an image will be cleared out, while anything transparent will be retained. Values in between the two extremes are fine and will be treated as expected.
 
-<img alt="Source" src="http://static.stencyl.com/pedia2/ch6/image/mask2.png" />&nbsp;+&nbsp;<img alt="Mask" src="http://static.stencyl.com/pedia2/ch6/image/mask1.png" />&nbsp;=&nbsp;<img alt="Result" src="http://static.stencyl.com/pedia2/ch6/image/mask3.png" />
+<img alt="Source" src="https://static.stencyl.com/pedia2/ch6/image/mask2.png" />&nbsp;+&nbsp;<img alt="Mask" src="https://static.stencyl.com/pedia2/ch6/image/mask1.png" />&nbsp;=&nbsp;<img alt="Result" src="https://static.stencyl.com/pedia2/ch6/image/mask3.png" />
 
 Conversely, when using **retain**, anything black in an image will be kept, while anything transparent will be cleared out.
 
-![Retain](http://static.stencyl.com/pedia2/ch6/image/mask4.png)
+![Retain](https://static.stencyl.com/pedia2/ch6/image/mask4.png)
 
 > **Note:** When using files from the **extras** folder, make sure the images were saved with transparency enabled.
 
 #### Setting Pixels
 When setting many pixels at a time, use the batch draw block (placed right above the set pixel block). This informs the system not to push an image's updates to all its instances until you've finished your work.
 
-![Setting Pixels](http://static.stencyl.com/pedia2/ch6/image/batch.png)
+![Setting Pixels](https://static.stencyl.com/pedia2/ch6/image/batch.png)
 
 #### Gotchas
 Many of these operations, particularly pixel swap, effects and masks perform these operations in software, so they are not meant to be used in real-time but rather, applied sparingly.
@@ -119,11 +119,11 @@ You can attach in one of three ways.
 #### A Common Mistake
 New users often make a common mistake when creating instances. They find themselves doing the following and wondering why their image instance is doing nothing. Can you spot what's wrong?
 
-![common-mistake-1](http://static.stencyl.com/pedia2/ch6/image/mistake.png)
+![common-mistake-1](https://static.stencyl.com/pedia2/ch6/image/mistake.png)
 
 The problem is that they are **creating a brand new instance for each subsequent operation**. What they really meant to do was save that instance to an attribute for future reference.
 
-![common-mistake-2](http://static.stencyl.com/pedia2/ch6/image/mistake-fixed.png)
+![common-mistake-2](https://static.stencyl.com/pedia2/ch6/image/mistake-fixed.png)
 
  
 ## Tweening, Effects and More
@@ -152,7 +152,7 @@ Setting the width/height of an image instance is done in relative (percentage) f
 #### Setting the Origin Point
 By default, scaling and rotations on an image instance are relative to the top left point. To change this, set the origin point.
 
-![setting-origin-point](http://static.stencyl.com/pedia2/ch6/image/origin.png)
+![setting-origin-point](https://static.stencyl.com/pedia2/ch6/image/origin.png)
  
 
 ## Challenges
@@ -162,7 +162,7 @@ The Image API is undoubtedly a powerful tool that opens up new possibilities for
 #### Challenge 1 - Destructible Terrain
 Create a Tank Wars kind of game where shooting the terrain will destroy it by exploding holes into it. Want a hint? You'll need to implement some form of collision detection using the **get pixel** block.
 
-![Tanks](http://static.stencyl.com/pedia2/ch6/image/tank.gif)
+![Tanks](https://static.stencyl.com/pedia2/ch6/image/tank.gif)
 
 #### Challenge 2 - Lighting Effects
 Using the mask feature, create a game in which both the hero and enemies hold lanterns that project light in front of them.

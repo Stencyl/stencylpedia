@@ -10,7 +10,7 @@
 
 Use the create-actor-of-type block (under Scene > Actors).
 
-![Create Actor](http://static.stencyl.com/pedia2/ch3/destroying/image00.png)
+![Create Actor](https://static.stencyl.com/pedia2/ch3/destroying/image00.png)
 
 * You can drag an actor-type block into the Choose Actor Type field. This is useful when you want to make this field configurable.
 
@@ -23,14 +23,14 @@ Use the create-actor-of-type block (under Scene > Actors).
 
 Sometimes, you'll want to refer to the actor that you just created. Use the "last created actor" option under any Actor dropdown to do this.
 
-![Last Created Actor](http://static.stencyl.com/pedia2/ch3/destroying/image06.png)
+![Last Created Actor](https://static.stencyl.com/pedia2/ch3/destroying/image06.png)
 
 
 ## Destroying Actors
 
 Destroying actors is similar to creating them. Use the kill-actor block (under **Actors > Properties**).
 
-![Kill Actor](http://static.stencyl.com/pedia2/ch3/destroying/image05.png)
+![Kill Actor](https://static.stencyl.com/pedia2/ch3/destroying/image05.png)
 
 Killing an actor is immediate. Don't attempt to refer to an actor at any point after you've killed it. Especially during timed tasks (do-after, do-every), where it's easy for this to happen by accident.
  
@@ -39,7 +39,7 @@ Killing an actor is immediate. Don't attempt to refer to an actor at any point a
 
 We provide events that let you control what happens when an actor is created or destroyed. Select one of these events via the "Add Event" button.
 
-![Events](http://static.stencyl.com/pedia2/ch3/destroying/image04.png)
+![Events](https://static.stencyl.com/pedia2/ch3/destroying/image04.png)
 
 * When an actor dies, the die event happens **before** the actor actually dies, so you can still refer to it during the event. 
 * When an actor is created, the actor's "when created" event always runs first. Then, the other created events pertaining to the actor are run. 

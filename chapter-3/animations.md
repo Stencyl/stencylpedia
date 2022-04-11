@@ -18,7 +18,7 @@ Animations bring actors to life. They represent the visuals of an actor, its col
 
 * A platformer hero's states (Stand, Walk, Run, Jump)
 * Destructible Objects that "break" when hit by something else (Broken, Not Broken)
-* Treaure Chest (Opened, Not Opened)<br/><br/>![](http://static.stencyl.com/pedia2/ch3/animation/image18.png)
+* Treaure Chest (Opened, Not Opened)<br/><br/>![](https://static.stencyl.com/pedia2/ch3/animation/image18.png)
 
 #### What does an Animation Consist of?
 
@@ -29,11 +29,11 @@ Each Animation state consists of 2 separate parts:
 
 **Frames** are like pages in a flipbook. Each frame represents a different image or "page" in the book. When these images change quickly over a period of time, the result is an animation.
 
-![stencyl-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/image21.png)
+![stencyl-animation-frames](https://static.stencyl.com/pedia2/ch3/animation/image21.png)
 
 **Collision Bounds** determine the physical shape(s) that an actor assumes in a particular Animation state.
 
-![](http://static.stencyl.com/pedia2/ch3/animation/image06.png)
+![](https://static.stencyl.com/pedia2/ch3/animation/image06.png)
  
 
 ## How To: Importing Animations
@@ -48,11 +48,11 @@ Now that you understand what animations are, let's go over the import process. Y
 
 > *In this instance, we're assuming you've already got an Actor open in the Actor Editor.*
 
-1. Click on **Click here to add frame** under the Frames pane. <br/><br/>![stencyl-choose-image](http://static.stencyl.com/pedia2/ch3/animation/image08.png)<br/>
+1. Click on **Click here to add frame** under the Frames pane. <br/><br/>![stencyl-choose-image](https://static.stencyl.com/pedia2/ch3/animation/image08.png)<br/>
 
-2. You'll now see this dialog. Click the **Choose an Image...** button and pick out the desired image. Want to follow this exact example? Use this [image](http://static.stencyl.com/pedia2/ch3/animation/sample.png).<br/><br/>![stencyl-import-images](http://static.stencyl.com/pedia2/ch3/animation/image09.png)<br/>
+2. You'll now see this dialog. Click the **Choose an Image...** button and pick out the desired image. Want to follow this exact example? Use this [image](https://static.stencyl.com/pedia2/ch3/animation/sample.png).<br/><br/>![stencyl-import-images](https://static.stencyl.com/pedia2/ch3/animation/image09.png)<br/>
 
-3. Now, configure **columns and rows** to break up the image, as appropriate depending on how many cells it has in those directions.<br/><br/>![stencyl-import-frames](http://static.stencyl.com/pedia2/ch3/animation/image10.png)<br/>
+3. Now, configure **columns and rows** to break up the image, as appropriate depending on how many cells it has in those directions.<br/><br/>![stencyl-import-frames](https://static.stencyl.com/pedia2/ch3/animation/image10.png)<br/>
 
 4. If applicable, enter in values for the border and spacing fields. The majority of images do not need to worry about these fields.
 
@@ -60,7 +60,7 @@ Now that you understand what animations are, let's go over the import process. Y
 
 After importing frames, you can give the Animation a name, alter frame durations and other properties we described above.
 
-> Note: Mobile games have to import images at quadruple their size in order to accomodate larger resolution displays. Read our [Scaling](http://www.stencyl.com/help/view/mobile-app-scaling/) article for details.
+> Note: Mobile games have to import images at quadruple their size in order to accomodate larger resolution displays. Read our [Scaling](https://www.stencyl.com/help/view/mobile-app-scaling/) article for details.
  
 
 #### Method 2: Drag and Drop
@@ -76,7 +76,7 @@ You can drag and drop an image into Stencyl while the Actor Editor is open. Doin
 
 Now that you've imported an image, you'll see its details, We'll step through what each part means.
 
-![stencyl-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/anim-page.png)
+![stencyl-animation-frames](https://static.stencyl.com/pedia2/ch3/animation/anim-page.png)
 
 #### Name
 Each animation state is given a name, which you use when you want to switch animations.
@@ -90,12 +90,12 @@ Synchronized animations will animate in at the same time as each other. To put t
 #### Origin Point
 An Animation can also have a designated origin point. The origin point is used to determine the point by which an actor **rotates or scales**. **By default, this is set to the center point**.
 
-![image-origin-point](http://static.stencyl.com/pedia2/ch3/animation/image07.png)
+![image-origin-point](https://static.stencyl.com/pedia2/ch3/animation/image07.png)
 
 #### Frame Duration
 Every frame can be given a different duration (in milliseconds). Double-click each frame's box to edit the duration.
 
-![stencyl-frame-duration](http://static.stencyl.com/pedia2/ch3/animation/anim-duration.png)
+![stencyl-frame-duration](https://static.stencyl.com/pedia2/ch3/animation/anim-duration.png)
 
 > **Notes:** The minimum duration is 10ms. To edit multiple frame durations at a time, select multiple frames (using SHIFT or CTRL/Command) and click Edit Frame in the bar below.
 
@@ -105,9 +105,9 @@ Individual animation frames can be edited in an external editor. This is useful 
 
 Double-click a frame's box to bring up its edit dialog. Then, click the **Edit Image** button to open it up in an external editor.
 
-![](http://static.stencyl.com/pedia2/ch3/animation/edit-frame.png)
+![](https://static.stencyl.com/pedia2/ch3/animation/edit-frame.png)
 
-> **Note:** You set the External Editor from Stencyl's Preferences dialog. By default, we use an image editor that we [bundle](http://www.stencyl.com/help/view/pencyl-image-editor/) in, but you can set it to any app you like, such as Photoshop, GIMP or Paint.NET.
+> **Note:** You set the External Editor from Stencyl's Preferences dialog. By default, we use an image editor that we [bundle](https://www.stencyl.com/help/view/pencyl-image-editor/) in, but you can set it to any app you like, such as Photoshop, GIMP or Paint.NET.
 
 
 ## Collision Bounds
@@ -116,9 +116,9 @@ Collision Bounds determine the physical shape(s) that an actor assumes in a part
 
 To define Collision Bounds, flip to the "Collisions" page of the Actor Editor. There, you will be able to edit your Animation's Collision Bounds on a per-animation basis.
 
-![collision-bounds](http://static.stencyl.com/pedia2/ch3/animation/image06.png)
+![collision-bounds](https://static.stencyl.com/pedia2/ch3/animation/image06.png)
 
-We cover how to define Collision Bounds in our [Collisions](http://www.stencyl.com/help/view/collisions-and-groups/) article.
+We cover how to define Collision Bounds in our [Collisions](https://www.stencyl.com/help/view/collisions-and-groups/) article.
  
 
 ## Switching Animations
@@ -128,17 +128,17 @@ All of these blocks are found under **Actors > Draw** in the Design Mode Palette
 #### Switch Animation
 This block switches the actor's animation to the one you specify.
 
-![stencyl-design-mode-switch-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image13.png)
+![stencyl-design-mode-switch-animation-block](https://static.stencyl.com/pedia2/ch3/animation/image13.png)
  
 #### What's the current Animation?
 This block returns the animation that is currently playing.
 
-![stencyl-design-mode-get-current-animation-block](http://static.stencyl.com/pedia2/ch3/animation/image14.png)
+![stencyl-design-mode-get-current-animation-block](https://static.stencyl.com/pedia2/ch3/animation/image14.png)
 
 #### Is the current Animation still playing?
 Returns ```true``` if the current animation is still playing, otherwise it returns ```false```. This is only useful for animations that aren't set to loop.
 
-![stencyl-design-mode-animation-playing-block](http://static.stencyl.com/pedia2/ch3/animation/image12.png)
+![stencyl-design-mode-animation-playing-block](https://static.stencyl.com/pedia2/ch3/animation/image12.png)
 
 
 ## Controlling Playback
@@ -146,21 +146,21 @@ Returns ```true``` if the current animation is still playing, otherwise it retur
 #### Switch to Frame
 This block lets you skip around an animation or reset an animation to its starting frame. Specify the frame index you wish to jump to.
 
-![stencyl-design-mode-switch-frame-block](http://static.stencyl.com/pedia2/ch3/animation/image15.png)
+![stencyl-design-mode-switch-frame-block](https://static.stencyl.com/pedia2/ch3/animation/image15.png)
 
 > **Note:** Frame indices are displayed in the gray boxes and start from 0. Switching to an invalid frame leads to nothing happening.
  
 #### Current Frame Index
 This block reports the index that the animation is currently playing. 
 
-![stencyl-design-mode-get-current-frame-block](http://static.stencyl.com/pedia2/ch3/animation/image16.png)
+![stencyl-design-mode-get-current-frame-block](https://static.stencyl.com/pedia2/ch3/animation/image16.png)
 
 > **Tip:** This is useful when you want to tie some logic that's triggered when a certain index is reached. In animation terms, this is called a keyframe.
 
 #### Total Frame Count
 This block reports the total number of frames in the current animation.
 
-![stencyl-design-mode-get-frame-count-block](http://static.stencyl.com/pedia2/ch3/animation/image17.png)
+![stencyl-design-mode-get-frame-count-block](https://static.stencyl.com/pedia2/ch3/animation/image17.png)
  
 
 ## Design Problem: More Animations or More Actors?
@@ -199,14 +199,14 @@ Not too bad so far. But Link holds a sword! So we have to add 2 more sets of ani
 
 But wait, there's more! Link changes swords throughought the game. He can hold the plain sword, the Master Sword and the Golden Sword, and they all look different! That would triple the animation count.
 
-![zelda-link-animation](http://static.stencyl.com/pedia2/ch3/animation/image00.png)
+![zelda-link-animation](https://static.stencyl.com/pedia2/ch3/animation/image00.png)
 
 And what about the Bow and Arrow, holding a shield and... you get the picture.
 
 #### The Bottom Line
 In cases like these, **it's better to create a new actor rather than add more animations**. This is particularly applicable when an actor equips items that don't alter his animation and could be convincingly drawn separately.
 
-![zelda-link-sword-animation](http://static.stencyl.com/pedia2/ch3/animation/image01.png)
+![zelda-link-sword-animation](https://static.stencyl.com/pedia2/ch3/animation/image01.png)
 
 There are other benefits to having "attachments" as different actors.
 
@@ -246,4 +246,4 @@ We talked about the "Zelda Dilemma" above. Now's your chance to see this for you
 
 Create a simple walkaround demo in which the character can equip different items that show up in that character. Do this the right way, by making those items each its own actor.
 
-![zelda-link-animation-frames](http://static.stencyl.com/pedia2/ch3/animation/image00.png)
+![zelda-link-animation-frames](https://static.stencyl.com/pedia2/ch3/animation/image00.png)

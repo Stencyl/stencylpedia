@@ -16,15 +16,15 @@ In this article, we introduce the concept of the camera and describe how you can
 
 Although some games exist entirely on a single screen, many extend beyond that. For example, think about a game similar to Super Mario Bros. Levels **extend beyond a single screen**.
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image07.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image07.png)
 
 In games like these, when the player walks to the right, the game "scrolls" to the right.
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image00.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image00.png)
 
 How does this "scrolling" work? In simple terms, scrolling is the act of **changing** what part of the scene is **visible**.
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image04.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image04.png)
 
 One can draw a connection to something we're familiar with - peering through the viewfinder (or screen) of a camera to compose a photograph.
 
@@ -41,14 +41,14 @@ In many games, the camera follows the player, so that the player is always on sc
 
 This turns out to be trivial to accomplish since we have a "camera follow player" block as well as a pre-defined Behavior that you can attach to any scene that does the same thing.
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image05.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image05.png)
 
 
 ## Moving the Camera
 
 The camera can be moved in 2 different ways, both of which involve these blocks (under Scene > View > Camera).
 
-![Camera Blocks](http://static.stencyl.com/pedia2/ch4/camera/image02.png)
+![Camera Blocks](https://static.stencyl.com/pedia2/ch4/camera/image02.png)
 
 #### Method 1: Set the Position
 
@@ -70,7 +70,7 @@ Nevertheless, there are cases where you want an actor to be active regardless of
 
 To make an actor always active, use the following block: Actors > Properties > Performance > make [ Actor ] always active.
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image01.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image01.png)
 
 
 ## Summary
@@ -90,11 +90,11 @@ How do we accomplish this effect given that you only have control over setting t
 
 One approach is to make a **dummy actor** that controls the camera (by having the camera continually follow this actor).
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image03.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image03.png)
 
 By controlling this dummy actor, you gain complete control over the camera and can do more with it, such as **panning** it towards a destination over a time period.
 
-![](http://static.stencyl.com/pedia2/ch4/camera/image06.png)
+![](https://static.stencyl.com/pedia2/ch4/camera/image06.png)
 
 Your challenge is this: **Create a game that implements auto-scrolling**.
 

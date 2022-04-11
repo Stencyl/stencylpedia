@@ -6,7 +6,7 @@
 
 ### <a name="if"></a> If
 
-![if boolean](http://static.stencyl.com/pedia2/block-images/flow/conditionals/if.png)
+![if boolean](https://static.stencyl.com/pedia2/block-images/flow/conditionals/if.png)
 
 Checks whether the condition is `true` or `false`. If the condition is `true`, the blocks wrapped inside will execute.
 
@@ -20,7 +20,7 @@ if([BOOLEAN]) {
 
 ### <a name="else"></a> Otherwise
 
-![otherwise](http://static.stencyl.com/pedia2/block-images/flow/conditionals/else.png)
+![otherwise](https://static.stencyl.com/pedia2/block-images/flow/conditionals/else.png)
 
 Use directly below an "If" block. If the condition in the preceding "If" block is `false`, the blocks wrapped inside the "Otherwise" block will execute.
 
@@ -34,11 +34,11 @@ else {
 
 ### <a name="else-if"></a> Otherwise If
 
-![otherwise if boolean](http://static.stencyl.com/pedia2/block-images/flow/conditionals/else-if.png)
+![otherwise if boolean](https://static.stencyl.com/pedia2/block-images/flow/conditionals/else-if.png)
 
 Use directly below an "If" block. If the condition in the preceding "If" block is `false`, and the condition of this wrapper is `true`, the blocks wrapped inside the "Otherwise If" block will execute. Equivalent to doing the following:
 
-![equivalent-to-otherwise-if-block](http://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/OtherwiseIf2.png)
+![equivalent-to-otherwise-if-block](https://static.stencyl.com/pedia2/blocks/flow/flow_conditionals/OtherwiseIf2.png)
 
 ```
 else if([BOOLEAN]) {
@@ -54,7 +54,7 @@ Booleans (denoted by a hexagon shape) are conditions that resolve to `true` or `
 
 ### <a name="and"></a> And
 
-![boolean and boolean](http://static.stencyl.com/pedia2/block-images/flow/conditionals/and.png)
+![boolean and boolean](https://static.stencyl.com/pedia2/block-images/flow/conditionals/and.png)
 
 Returns `true` if both of the provided conditions are `true`. If the first condition is `false`, the second condition will not be evaluated.
 
@@ -66,7 +66,7 @@ Returns `true` if both of the provided conditions are `true`. If the first condi
 
 ### <a name="or"></a> Or
 
-![boolean or boolean](http://static.stencyl.com/pedia2/block-images/flow/conditionals/or.png)
+![boolean or boolean](https://static.stencyl.com/pedia2/block-images/flow/conditionals/or.png)
 
 Returns `true` if at least one of the provided conditions is `true`. If the first condition is `true`, the second condition will not be evaluated.
 
@@ -78,7 +78,7 @@ Returns `true` if at least one of the provided conditions is `true`. If the firs
 
 ### <a name="not"></a> Not
 
-![not boolean](http://static.stencyl.com/pedia2/block-images/flow/conditionals/not.png)
+![not boolean](https://static.stencyl.com/pedia2/block-images/flow/conditionals/not.png)
 
 Returns `true` if the condition resolves to `false`. Testing `if not [CONDITION]` is equivalent to `if [CONDITION] = false`.
 
@@ -90,8 +90,8 @@ Returns `true` if the condition resolves to `false`. Testing `if not [CONDITION]
 
 ### <a name="true"></a> <a name="false"></a> True / False
 
-![true](http://static.stencyl.com/pedia2/block-images/flow/conditionals/true.png)
-![false](http://static.stencyl.com/pedia2/block-images/flow/conditionals/false.png)
+![true](https://static.stencyl.com/pedia2/block-images/flow/conditionals/true.png)
+![false](https://static.stencyl.com/pedia2/block-images/flow/conditionals/false.png)
 
 Literal values of `true` and `false`.
 
@@ -106,7 +106,7 @@ false
 
 ### <a name="eq"></a> Equals
 
-![object = object](http://static.stencyl.com/pedia2/block-images/flow/conditionals/eq.png)
+![object = object](https://static.stencyl.com/pedia2/block-images/flow/conditionals/eq.png)
 
 Returns `true` if both values are equal.
 
@@ -118,7 +118,7 @@ Returns `true` if both values are equal.
 
 ### <a name="noteq"></a> Not Equal
 
-![object not = object](http://static.stencyl.com/pedia2/block-images/flow/conditionals/noteq.png)
+![object not = object](https://static.stencyl.com/pedia2/block-images/flow/conditionals/noteq.png)
 
 Returns `true` if the values are not equal.
 
@@ -134,10 +134,10 @@ Returns `true` if...
 
 Operator | Description
 --- | ---
-![number < number](http://static.stencyl.com/pedia2/block-images/flow/conditionals/less.png)|First number is smaller than second number.
-![number <= number](http://static.stencyl.com/pedia2/block-images/flow/conditionals/lesseq.png)|First number is smaller than or equal to than second number.
-![number > number](http://static.stencyl.com/pedia2/block-images/flow/conditionals/more.png)|First number is larger than second number.
-![number >= number](http://static.stencyl.com/pedia2/block-images/flow/conditionals/moreeq.png)|First number is larger than or equal to second number.
+![number < number](https://static.stencyl.com/pedia2/block-images/flow/conditionals/less.png)|First number is smaller than second number.
+![number <= number](https://static.stencyl.com/pedia2/block-images/flow/conditionals/lesseq.png)|First number is smaller than or equal to than second number.
+![number > number](https://static.stencyl.com/pedia2/block-images/flow/conditionals/more.png)|First number is larger than second number.
+![number >= number](https://static.stencyl.com/pedia2/block-images/flow/conditionals/moreeq.png)|First number is larger than or equal to second number.
 
 ```
 [NUMBER] < [NUMBER]
@@ -152,7 +152,7 @@ Operator | Description
 
 ### <a name="as-boolean"></a> Boolean Conversion
 
-![object as boolean](http://static.stencyl.com/pedia2/block-images/flow/conditionals/as-boolean.png)
+![object as boolean](https://static.stencyl.com/pedia2/block-images/flow/conditionals/as-boolean.png)
 
 Converts the given value (typically text) into a Boolean. May throw a compile-time or runtime error if conversion is not possible.
 
@@ -166,7 +166,7 @@ asBoolean([VALUE])
 
 ### <a name="stop"></a> Stop
 
-![stop](http://static.stencyl.com/pedia2/block-images/flow/conditionals/stop.png)
+![stop](https://static.stencyl.com/pedia2/block-images/flow/conditionals/stop.png)
 
 Skips the rest of the code in this event for the current step/frame.
 

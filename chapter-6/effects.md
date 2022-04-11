@@ -8,7 +8,7 @@
 
 ## What are Effects?
 
-Effects let you add visual flair to actors (and [images](http://www.stencyl.com/help/view/image-api)), without having to add new animations or additional code to the game. All effect-related blocks are located under **Actor > Effects**.
+Effects let you add visual flair to actors (and [images](https://www.stencyl.com/help/view/image-api)), without having to add new animations or additional code to the game. All effect-related blocks are located under **Actor > Effects**.
 
 ![Effect Blocks in Palette](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-6/images/effects-1.png)
 
@@ -17,7 +17,7 @@ Effects let you add visual flair to actors (and [images](http://www.stencyl.com/
 
 The following demo demonstrates all of the available effects in Stencyl.
 
-<embed allowscriptaccess="never" height="640" quality="high" src="http://static.stencyl.com/pedia2/ch6/effects/EffectsSandbox.swf" type="application/x-shockwave-flash" width="640"></embed>
+<embed allowscriptaccess="never" height="640" quality="high" src="https://static.stencyl.com/pedia2/ch6/effects/EffectsSandbox.swf" type="application/x-shockwave-flash" width="640"></embed>
 
 
 ## Effects and Performance

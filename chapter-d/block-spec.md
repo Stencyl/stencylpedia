@@ -3,25 +3,25 @@
 <td width="180" valign="top" style="border:0px;">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
-<li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
-<li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
+<li><a href="https://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Advanced Topics</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
-<li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
-<li><a href="http://static.stencyl.com/api/33/">API</a></li>
+<li><a href="https://www.stencyl.com/help/view/native-events/">Native Events</a></li>
+<li><a href="https://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
+<li><a href="https://static.stencyl.com/api/33/">API</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Toolset Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
+<li><a href="https://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
 <li><a href="http://api.stencyl.com/extensions/">API</a></li>
 </ul>
 </td>
@@ -35,14 +35,14 @@ This is the spec for blocks.xml, the file used to add custom blocks to an extens
 
 > **Note:** Making changes to **blocks.xml** requires you to close and reopen the game for your changes to be reflected in the block palette.
 
-> **Credit:** Thanks to ETHproductions for documenting this feature. We've based portions of this guide on his [forum guide](http://community.stencyl.com/index.php/topic,39934.0.html).
+> **Credit:** Thanks to ETHproductions for documenting this feature. We've based portions of this guide on his [forum guide](https://community.stencyl.com/index.php/topic,39934.0.html).
 
 
 ## Example (for reference)
 
 Suppose that we wanted to remake the `print` block. This is what the definition would look like.
 
-![](http://static.stencyl.com/pedia2/blocks/flow/flow_debug/Print.png)
+![](https://static.stencyl.com/pedia2/blocks/flow/flow_debug/Print.png)
 
 Don't worry about the details for now. This will be useful to refer back to as you read through this article.
 
@@ -127,7 +127,7 @@ These are the available types you can use for the **returns** property of `<bloc
 * code-block (only applies to `fields` - see explanation under **Code Blocks**)
 * attached-block (only applies to `fields` - see explanation under **Attached Blocks**)
 
-![](http://static.stencyl.com/pedia2/chapter-d/all-types.png)
+![](https://static.stencyl.com/pedia2/chapter-d/all-types.png)
 
 
 ## Input Fields
@@ -183,7 +183,7 @@ The `code` attribute specifies the literal value that will be output into code.
 
 Attached Blocks are the embedded blocks in wrapper blocks that are meant to be used only within the context of the wrapper block.
 
-![](http://static.stencyl.com/pedia2/chapter-d/save-example.png)
+![](https://static.stencyl.com/pedia2/chapter-d/save-example.png)
 
 Here's how you define one.
 
@@ -291,4 +291,4 @@ string=a string
 
 ## Additional Reading
 
-A more thorough reference is available [here](http://community.stencyl.com/index.php/topic,39934.0.html).
+A more thorough reference is available [here](https://community.stencyl.com/index.php/topic,39934.0.html).

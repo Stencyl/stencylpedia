@@ -15,7 +15,7 @@
 
 ## Introduction
 
-[In-App Purchases](https://developer.android.com/google/play/billing/billing_overview.html) (IAP) let you sell goods and services from within a game. This gives developers more opportunities to monetize the free app by providing downloadable, supplementary content (new levels or game modes), an unlock for the full game and much more.
+[In-App Purchases](https://developer.android.com/google/play/billing) (IAP) let you sell goods and services from within a game. This gives developers more opportunities to monetize the free app by providing downloadable, supplementary content (new levels or game modes), an unlock for the full game and much more.
 
 #### Supported Features
 
@@ -41,19 +41,19 @@ Susbcriptions | No
 
 #### Step 1: Set up your Keystore (if necessary)
 
-Before doing anything, you must **set up your keystore** within Stencyl. Consult our [Publishing to Google Play](http://www.stencyl.com/help/view/google-play/) guide for details on this process.
+Before doing anything, you must **set up your keystore** within Stencyl. Consult our [Publishing to Google Play](https://www.stencyl.com/help/view/google-play/) guide for details on this process.
 
-> **Note:** If you already have a Keystore (made outside of Stencyl), you must still tell Stencyl about it. Read the [guide](http://www.stencyl.com/help/view/google-play/) for details.
+> **Note:** If you already have a Keystore (made outside of Stencyl), you must still tell Stencyl about it. Read the [guide](https://www.stencyl.com/help/view/google-play/) for details.
 
 #### Step 2: Set the game up on Google Play
 
-First, you must set up your game on the [Google Play Developer Console](https://play.google.com/apps/publish/), the Google equivalent to iTunes Connect. If you haven't registered for the Google Play Developer Console before, you will be prompted to do so.
+First, you must set up your game on the [Google Play Developer Console](https://play.google.com/console/about/), the Google equivalent to iTunes Connect. If you haven't registered for the Google Play Developer Console before, you will be prompted to do so.
 
 #### Step 3: Set up Products on Google Play
 
 Now that you've created an entry for your game, you can begin adding products (purchases) to your game.
 
-Consult Google's guide on [Administering In-App Billing](https://developer.android.com/google/play/billing/billing_admin.html) for a walkthrough of this process.
+Consult Google's guide on [Administering In-App Billing](https://support.google.com/googleplay/android-developer/answer/1153481) for a walkthrough of this process.
  
 #### Step 4: Create and Assign Test Accounts
 
@@ -61,11 +61,11 @@ Test accounts let real testers with real accounts make test purchases of your ap
 
 In summary, the process goes as follows:
 
-* Add and publish the [products](https://developer.android.com/google/play/billing/billing_admin.html#billing-list-setup) you wish to test to the developer console.
-* Create [test accounts](https://developer.android.com/google/play/billing/billing_admin.html#billing-testing-setup) by adding Gmail accounts to Settings > Account details in the developer console.
+* Add and publish the [products](https://support.google.com/googleplay/android-developer/answer/1153481) you wish to test to the developer console.
+* Create [test accounts](https://support.google.com/googleplay/android-developer/answer/6062777) by adding Gmail accounts to Settings > Account details in the developer console.
 * Within 15 minutes, those users can begin making test purchases in your app.
 
-Consult Google's guide on [Testing In-App Purchases](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases) for a complete walkthrough.
+Consult Google's guide on [Testing In-App Purchases](https://developer.android.com/google/play/billing/test) for a complete walkthrough.
 
 #### Step 5: Publish the Game to Alpha/Beta Testing Channels
 
@@ -83,7 +83,7 @@ In order to test out purchases, you'll need to get your app's public key (now re
 
 * Scroll down to Your **License Key for this Application**. Make note of this for the next section.
 
-![billing-app-key](http://static.stencyl.com/pedia2/ch12/billing_app_key.png)
+![billing-app-key](https://static.stencyl.com/pedia2/ch12/billing_app_key.png)
 
 
 ## Setting up within Stencyl
@@ -94,7 +94,7 @@ Now that you've set everything up on Google Play, you'll need to do a few more t
 
 * Enter in your Android Public Key on that same page (Settings > Mobile > Monetization). This is the "**License Key for this Application**" that you obtained in the previous section.
 
-![billing-app-key](http://static.stencyl.com/pedia2/ch12/enable-purchases.png)
+![billing-app-key](https://static.stencyl.com/pedia2/ch12/enable-purchases.png)
 
 
 
@@ -106,9 +106,9 @@ Finally, we're ready to start testing purchases.
 
 Before doing anything with in-app billing, we need to check if the service has started. Use the following Purchase event (under Add Event > Mobile > Purchases) to accomplish this. Store the value inside a boolean Game Attribute, so you can refer to it in the future.
 
-![](http://static.stencyl.com/pedia2/ch12/can-make-purchases.png)
+![](https://static.stencyl.com/pedia2/ch12/can-make-purchases.png)
 
-> **Warning:** You can't do the following on Android at this time due to a bug. This was fixed on Oct 25, 2015, but we're keeping this up for now.<br/><br/>![](http://static.stencyl.com/pedia2/ch12/can-make-purchases-wrong.png)
+> **Warning:** You can't do the following on Android at this time due to a bug. This was fixed on Oct 25, 2015, but we're keeping this up for now.<br/><br/>![](https://static.stencyl.com/pedia2/ch12/can-make-purchases-wrong.png)
 
 
 #### Make a Purchase
@@ -117,7 +117,7 @@ With the switch over to Billing v3, it's no longer necessary to request purchase
 
 The ID you use is the Product ID you entered into the Google Play dashboard.
 
-![buy-product](http://static.stencyl.com/pedia2/ch12/buy.png)
+![buy-product](https://static.stencyl.com/pedia2/ch12/buy.png)
 
 > Recall from above that we want to check if in-app billing has started, so we used an event and stored that in a game attribute. That's where **canMakePurchases** comes from.
 
@@ -126,11 +126,11 @@ The ID you use is the Product ID you entered into the Google Play dashboard.
 
 Purchases are asynchronous (non-blocking), so you'll need to use an event to get notified of the purchase's success or failure.
 
-![bought-product](http://static.stencyl.com/pedia2/ch12/buy2.png)
+![bought-product](https://static.stencyl.com/pedia2/ch12/buy2.png)
 
 The following approach also works.
 
-![bought-product-alt](http://static.stencyl.com/pedia2/ch12/buy2-alt.png)
+![bought-product-alt](https://static.stencyl.com/pedia2/ch12/buy2-alt.png)
 
 
 #### Easy Test Purchases (Static Responses)
@@ -162,7 +162,7 @@ A common example of a consumable purchase is virtual currency. Some games (parti
 
 Consumables get "used" with the **use product** block (same block as **buy product**, click the dropdown). Make sure to check that the user has at least 1 of that product before using, as shown below.
 
-![consume-product](http://static.stencyl.com/pedia2/ch12/use.png)
+![consume-product](https://static.stencyl.com/pedia2/ch12/use.png)
 
 If consumption was successful, you will receive a purchase-succeeded event. If it failed, you will receive a purchased-failed event. **Be sure to handle these events** - do not let the user consume the products immediately.
 
@@ -170,7 +170,7 @@ If consumption was successful, you will receive a purchase-succeeded event. If i
 
 In Billing v3, unmanged products are treated as managed products. You don't have to create a new entry for them, but you do have to take one extra step to let a user "repurchase" them.
 
-![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
+![unmanaged-purchase](https://static.stencyl.com/pedia2/ch12/unmanaged.png)
 
 To replicate unmanaged products in Billing v3 for new products, create a managed, consumable product instead.
  
@@ -183,11 +183,11 @@ If a user installs your app in a different device, or if the user has wiped thei
 
 Use the restore purchases block under Game > Mobile to forcefully initiate this process.
 
-![restore-example](http://static.stencyl.com/pedia2/ch12/restore-block.png)
+![restore-example](https://static.stencyl.com/pedia2/ch12/restore-block.png)
 
 When this happens, you will receive a series of purchase-restored events, each corresponding to a product). It's your task to react to these events in an appropriate manner.
 
-![restore-purchase-event](http://static.stencyl.com/pedia2/ch12/restore.png)
+![restore-purchase-event](https://static.stencyl.com/pedia2/ch12/restore.png)
 
 
 ## FAQ / Troubleshooting
@@ -196,24 +196,24 @@ When this happens, you will receive a series of purchase-restored events, each c
 
 Before you export and upload your game, ensure that the **Enable Purchases** checkbox is checked for your game, otherwise the Google developer console will not let you add IAPs. Enable Purchases is located inside **Settings > Mobile > Monetization**.
 
-![billing-app-key](http://static.stencyl.com/pedia2/ch12/enable-purchases.png)
+![billing-app-key](https://static.stencyl.com/pedia2/ch12/enable-purchases.png)
 
 #### What happened to unmanaged purchases?
 
 Google has made everything a managed purchase. The closest thing to an unmanaged purchase is a consumable, managed purchase. To gracefully handle existing "unmanaged" purchases, do the following to let a user "repurchase" them.
 
-![unmanaged-purchase](http://static.stencyl.com/pedia2/ch12/unmanaged.png)
+![unmanaged-purchase](https://static.stencyl.com/pedia2/ch12/unmanaged.png)
 
 #### I can't test my IAPs in-game.
 
-* Did you remember to set up [test accounts](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases)?
+* Did you remember to set up [test accounts](https://support.google.com/googleplay/android-developer/answer/6062777)?
 * Did you remember to publish your game to [alpha or beta channels](https://support.google.com/googleplay/android-developer/answer/3131213) in Google Play?
 
-Consult Google's [testing in-app billing](https://developer.android.com/google/play/billing/billing_testing.html#testing-purchases) guide for further details.
+Consult Google's [testing in-app billing](https://developer.android.com/google/play/billing/test) guide for further details.
 
 
 ## Further Reading
 
-* [Uploading an APK to Google Play](https://support.google.com/googleplay/android-developer/answer/113469?hl=en)
-* [Testing In-App Billing](https://developer.android.com/google/play/billing/billing_testing.html)
-* [Setting up Test Accounts](http://developer.android.com/google/play/billing/billing_admin.html#billing-testing-setup)
+* [Uploading an APK to Google Play](https://support.google.com/googleplay/android-developer/answer/113469)
+* [Testing In-App Billing](https://developer.android.com/google/play/billing/test)
+* [Setting up Test Accounts](https://support.google.com/googleplay/android-developer/answer/6062777)

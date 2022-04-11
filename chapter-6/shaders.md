@@ -13,7 +13,7 @@
 
 Shaders are filters that apply visual effects to the entire screen. They aren't all that different from the filters you apply to a photo in Instagram or Photoshop.
 
-![Shader Demo](http://static.stencyl.com/v3/images/announcement/shader2.gif)
+![Shader Demo](https://static.stencyl.com/v3/images/announcement/shader2.gif)
 
 
 #### What can you do with shaders? 
@@ -35,21 +35,21 @@ Shaders are written in GLSL, a programming language that your graphics card unde
 #### Creating a Shader
 Shaders work much like effects. To apply a shader, use the following block and insert any shader into the lone field, like this:
 
-![](http://static.stencyl.com/pedia2/ch6/shader/shader-basic-1.png)
+![](https://static.stencyl.com/pedia2/ch6/shader/shader-basic-1.png)
 
 All shader blocks can be found under **Scene > Shaders**.
 
-> **Aside:** What does the toggle shaders for HUD layer block do? <br/><br/>![](http://static.stencyl.com/pedia2/ch6/shader/shader-hud.png)<br/><br/>Since shaders apply to the entire screen, this can sometimes be undesirable if those effects are also applied to a game's HUD (such as the health/score display). This block lets you opt the HUD layer out of shaders.
+> **Aside:** What does the toggle shaders for HUD layer block do? <br/><br/>![](https://static.stencyl.com/pedia2/ch6/shader/shader-hud.png)<br/><br/>Since shaders apply to the entire screen, this can sometimes be undesirable if those effects are also applied to a game's HUD (such as the health/score display). This block lets you opt the HUD layer out of shaders.
  
 #### Multiple Shaders
 By combining multiple shaders into a single, composite shader, you can apply all of these shaders at once. Use the **shader + shader** block to accomplish this.
 
-![](http://static.stencyl.com/pedia2/ch6/shader/shader-basic-3.png)
+![](https://static.stencyl.com/pedia2/ch6/shader/shader-basic-3.png)
  
 #### Clearing Shaders
 To turn off shaders, use the **clear shaders from game** block.
 
-![](http://static.stencyl.com/pedia2/ch6/shader/shader-basic-2.png)
+![](https://static.stencyl.com/pedia2/ch6/shader/shader-basic-2.png)
 
 #### Shader Properties
 Sometimes, you want to modify a shader's properties in real-time (or before application). For example, if you're using a Contrast shader, you'll want to change the contrast amount. Using our built-in blocks, you can instantly set properties and tween them (change them over time).
@@ -57,10 +57,10 @@ Sometimes, you want to modify a shader's properties in real-time (or before appl
 **How do you figure out the property names?** Refer to the **Property Reference** section later in this article.
 
 #### Set Property
-![](http://static.stencyl.com/pedia2/ch6/shader/shader-set.png)
+![](https://static.stencyl.com/pedia2/ch6/shader/shader-set.png)
 
 #### Tween Property
-![](http://static.stencyl.com/pedia2/ch6/shader/shader-tween.png)
+![](https://static.stencyl.com/pedia2/ch6/shader/shader-tween.png)
 
 > **Note:** All property names are case sensitive.
  
@@ -74,12 +74,12 @@ Stencyl comes with a sizable variety of shaders, but for the adventurous, we all
 
 2. Stick the shaders (file extension doesn't matter - we use .glsl in this example) under that extras folder.
 
-3. Refer to your shaders using the **shader from file** block. For example, if your shader is called bloom.glsl, then you type bloom.glsl into the block. The engine automatically assumes that the shaders are under the extras folder, so you do not need to mention that.<br/>![](http://static.stencyl.com/pedia2/ch6/shader/shader-file.png)
+3. Refer to your shaders using the **shader from file** block. For example, if your shader is called bloom.glsl, then you type bloom.glsl into the block. The engine automatically assumes that the shaders are under the extras folder, so you do not need to mention that.<br/>![](https://static.stencyl.com/pedia2/ch6/shader/shader-file.png)
 
 #### Specifying a Shader Inline (inside a Design Mode block)
 Alternatively, for convenience, you can specify a shader's source directly within Design Mode using the shader from text block.
 
-![](http://static.stencyl.com/pedia2/ch6/shader/shader-inline.png)
+![](https://static.stencyl.com/pedia2/ch6/shader/shader-inline.png)
 
 
 ## Property Reference
@@ -173,7 +173,7 @@ Treat these as working samples to base your own custom shaders off of. These are
 
 #### Ripple
 
-![](http://static.stencyl.com/v3/images/announcement/ripples.gif)
+![](https://static.stencyl.com/v3/images/announcement/ripples.gif)
 
 ```
 varying vec2 vTexCoord;
@@ -196,7 +196,7 @@ void main()
  
 #### Wave
 
-![](http://static.stencyl.com/v3/images/announcement/waves.gif)
+![](https://static.stencyl.com/v3/images/announcement/waves.gif)
 
 ```
 varying vec2 vTexCoord;

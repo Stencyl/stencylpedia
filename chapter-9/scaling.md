@@ -28,7 +28,7 @@ To make a game fit each device's screen, we need to do two things:
 #### Design the game at 1x (Standard) resolution.
 Regardless of what the game is targeted towards, you'll be designing your game at a standard (1x) resolution. **This means that, if your game was designed to be a 480 x 320 game (to fit the original iPhone), the game size is 480 x 320.** The scaling happens automatically at runtime depending on the device used to play the game, so for example, it would run at 1x scale on the original iPhone, at 2x scale on an iPhone 4 and at 4x scale on an iPad Air.
 
-![](http://static.stencyl.com/help/images/app-scaling-2.png)
+![](https://static.stencyl.com/help/images/app-scaling-2.png)
 
 #### Draw and import your graphics at 4x resolution.
 In contrast, you'll want to draw your graphics as large as you can. If your base resolution is 480 x 320, then quadruple that is 1920 x 1280, which will accomodate recent iPads and Android flagships.
@@ -44,7 +44,7 @@ In a perfect world, every device would be an exact multiple of the base resoluti
 Under Settings > Mobile > Display is a **Scale Mode dropdown** for both iOS and Android. This dropdown controls how the extra space is handled.
 
 #### Demo
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data="http://static.stencyl.com/pedia2/ch9/scaling-modes.swf" height="320" width="640"><param name="quality" value="high"><param name="movie" value="http://static.stencyl.com/pedia2/ch9/scaling-modes.swf"><embed height="320" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://static.stencyl.com/pedia2/ch9/scaling-modes.swf" type="application/x-shockwave-flash" width="640"></object>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data="https://static.stencyl.com/pedia2/ch9/scaling-modes.swf" height="320" width="640"><param name="quality" value="high"><param name="movie" value="https://static.stencyl.com/pedia2/ch9/scaling-modes.swf"><embed height="320" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="https://static.stencyl.com/pedia2/ch9/scaling-modes.swf" type="application/x-shockwave-flash" width="640"></object>
 
 #### No Scaling (Letterboxing)
 After selecting the multiple to draw at, this mode will not perform any resizing. The unused space is left blank.
@@ -64,7 +64,7 @@ Stretches the game until the smaller game dimension fits the screen, while prese
 #### Scale to Fit (Full Screen) <-- RECOMMENDED FOR MOST GAMES
 Acts just like Letterbox, except that the extra portions of the screen are displayed. This will cause more of the game to be shown on certain device and less on others. **(Added in Stencyl 3.1. Isn't part of the demo above.)**
 
-![](http://static.stencyl.com/v3/images/announcement/stf1.jpg) ![](http://static.stencyl.com/v3/images/announcement/stf2.jpg)
+![](https://static.stencyl.com/v3/images/announcement/stf1.jpg) ![](https://static.stencyl.com/v3/images/announcement/stf2.jpg)
 
  
 ## Scaling on iOS

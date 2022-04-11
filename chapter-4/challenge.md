@@ -21,7 +21,7 @@ With all that under your belt, it's time to take on the Challenge for Chapter 4.
 Dungeons are the heart of an adventure game such as Zelda.
 They blend both action and puzzle solving.
 
-![Dungeon](http://static.stencyl.com/pedia2/ch4/challenge/image04.png)
+![Dungeon](https://static.stencyl.com/pedia2/ch4/challenge/image04.png)
 
 
 #### Your Task
@@ -43,10 +43,10 @@ To make this easy on you, we're providing a scaffold game to work from. That way
 
 Feature | Screenshot
 --- | ---
-A hero who can walk around and shoot energy blasts (use the Z key) | ![stencyl-hero-actor](http://static.stencyl.com/pedia2/ch4/challenge/image01.png)
-Sounds, including sound effects and background music | ![stencyl-sound-icon](http://static.stencyl.com/pedia2/ch4/challenge/image18.png)
-A basic enemy Actor who can walk around randomly | ![stencyl-slime-actor](http://static.stencyl.com/pedia2/ch4/challenge/image09.png)
-A dungeon tileset | ![stencyl-dungeon-tile](http://static.stencyl.com/pedia2/ch4/challenge/image16.png)
+A hero who can walk around and shoot energy blasts (use the Z key) | ![stencyl-hero-actor](https://static.stencyl.com/pedia2/ch4/challenge/image01.png)
+Sounds, including sound effects and background music | ![stencyl-sound-icon](https://static.stencyl.com/pedia2/ch4/challenge/image18.png)
+A basic enemy Actor who can walk around randomly | ![stencyl-slime-actor](https://static.stencyl.com/pedia2/ch4/challenge/image09.png)
+A dungeon tileset | ![stencyl-dungeon-tile](https://static.stencyl.com/pedia2/ch4/challenge/image16.png)
 
 Have fun with this challenge and make it your own. Good luck!
 
@@ -55,7 +55,7 @@ Have fun with this challenge and make it your own. Good luck!
 
 To help you get started, we've created a scaffold project, so you don't have to worry about importing any resources at the outset.
 
-[Download the Project](http://static.stencyl.com/pedia2/ch4/Chapter4.stencyl)
+[Download the Project](https://static.stencyl.com/pedia2/ch4/Chapter4.stencyl)
 
 > **Instructions:** Import this using File > Import. Requires Stencyl 3.4.0 or later.
 
@@ -69,4 +69,4 @@ To help you get started, we've created a scaffold project, so you don't have to 
 
 ## The Solution
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/166/">View the Solution + Explanation</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/viewArticle/166/">View the Solution + Explanation</a>

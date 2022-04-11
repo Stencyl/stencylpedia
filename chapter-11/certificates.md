@@ -1,7 +1,7 @@
 > This is Part 3 in a three-part series.<br/><br/>
-Part 1 - [Getting Started](http://www.stencyl.com/help/view/ios-getting-started)<br/>
-Part 2 - [Understanding Certificates](http://www.stencyl.com/help/view/ios-certificates-guide)<br/>
-Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certificates-guide-2)
+Part 1 - [Getting Started](https://www.stencyl.com/help/view/ios-getting-started)<br/>
+Part 2 - [Understanding Certificates](https://www.stencyl.com/help/view/ios-certificates-guide)<br/>
+Part 3 - [Setting up Certificates](https://www.stencyl.com/help/view/ios-certificates-guide-2)
 
 
 ## Contents
@@ -28,12 +28,12 @@ Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certific
 
 In order to publish a game to the App Store, you first need to sign it with a P12 and embed the appropriate provisioning profile (.mobileprovision). 
 
-Before doing this, please read our [Getting Started](http://www.stencyl.com/help/view/ios-getting-started) article and [primer on certificates](http://www.stencyl.com/help/view/ios-certificates-guide).
+Before doing this, please read our [Getting Started](https://www.stencyl.com/help/view/ios-getting-started) article and [primer on certificates](https://www.stencyl.com/help/view/ios-certificates-guide).
 
 
 ## Requirements
 
-You must meet the minimum requirements outlined in our [Getting Started](http://www.stencyl.com/help/view/ios-getting-started) article. 
+You must meet the minimum requirements outlined in our [Getting Started](https://www.stencyl.com/help/view/ios-getting-started) article. 
 
 
 ## How to Launch Keychain Access
@@ -42,7 +42,7 @@ Keychain Access is the Mac app that manages all of your certificates and keys. Y
 
 To launch it, **click the magnifying glass at the top-right of the screen** (it's called Spotlight) and type in **Keychain Access** - you'll see the app appear in the menu below. Click it to launch it. You'll want to keep it open throughought this process.
 
-![keychain-access](http://static.stencyl.com/help/images/ios-primer2-7.png)
+![keychain-access](https://static.stencyl.com/help/images/ios-primer2-7.png)
 
 
 ## Step 1 (of 8): Install Apple's WWDR Intermediate Certificate
@@ -55,28 +55,28 @@ To launch it, **click the magnifying glass at the top-right of the screen** (it'
 
 4) Verify that it's installed inside of **Keychain Access**. It should appear as "Apple Worldwide Developer Relations Certification Authority" under the "login" keychain.
 
-![](http://static.stencyl.com/help/images/ios-primer2-1.png)
+![](https://static.stencyl.com/help/images/ios-primer2-1.png)
 
 
 ## Step 2 (of 8): Create a Certificate Signing Request (CSR)
 
-> Recall from the [primer](http://www.stencyl.com/help/view/ios-certificates-guide) that the CSR is a file that contains your public key and is signed using your private key. Apple uses the public key to verify that you generated this request and then issues your certificate.
+> Recall from the [primer](https://www.stencyl.com/help/view/ios-certificates-guide) that the CSR is a file that contains your public key and is signed using your private key. Apple uses the public key to verify that you generated this request and then issues your certificate.
 
 1) Launch **Keychain Access**.
 
 2) From the main menu, select **Certificate Assistant > Request a Certificate From a Certificate Authority...**
 
-![](http://static.stencyl.com/help/images/ioscerts/image00.png)
+![](https://static.stencyl.com/help/images/ioscerts/image00.png)
 
 3) Enter in just your e-mail and name. Leave the CA Email Address field blank. Select "Saved to Disk" and "Let me specify key pair information".
 
-![](http://static.stencyl.com/help/images/ioscerts/image01.png)
+![](https://static.stencyl.com/help/images/ioscerts/image01.png)
 
 4) **Save it** to a location you'll remember, such as the Desktop.
 
 5) On the Key Pair Information screen, it should be **Key Size: 2048 bits and Algorithm: RSA**.
 
-![](http://static.stencyl.com/help/images/ios-primer2-2.png)
+![](https://static.stencyl.com/help/images/ios-primer2-2.png)
 
 6) Click **Done** on the Conclusion screen.
 
@@ -104,33 +104,33 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 > **Note:** Make absolutely sure it is the **distribution** certificate. If you are working with a team/company account, then the correct certificate may bear the company's name rather than your own.
 
-![](http://static.stencyl.com/help/images/ios-primer-2-3.png)
+![](https://static.stencyl.com/help/images/ios-primer-2-3.png)
 
 
 ## Step 4 (of 8): Create a P12 file
 
-> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), a P12 file combines your certificate and your private key togther into a single file. The private key is used to sign the app, while the certificate is embedded inside of that, so that an end user's device can use it to verify that the app has not been tampered.
+> As mentioned in the [primer](https://www.stencyl.com/help/view/ios-certificates-guide), a P12 file combines your certificate and your private key togther into a single file. The private key is used to sign the app, while the certificate is embedded inside of that, so that an end user's device can use it to verify that the app has not been tampered.
 
 1) Launch **Keychain Access**.
 
 2) Locate your **DISTRIBUTION** certificate. (Click "Certificates" in the Category pane to locate it)
 
-![](http://static.stencyl.com/help/images/ioscerts/image02.png)
+![](https://static.stencyl.com/help/images/ioscerts/image02.png)
 
 3) Right-click on that certificate. Select **Export**.
 
 > **Note:** Again, make absolutely sure it is the distribution certificate. If you are working with a team/company account, then the correct certificate may bear the company's name rather than your own.
 
-![](http://static.stencyl.com/help/images/ioscerts/image03.png)
+![](https://static.stencyl.com/help/images/ioscerts/image03.png)
 
 4) Pick a location you'll remember. **Provide a password (do not leave blank)**. The password itself isn't that important (you can use "aaa" for example), but you will need to provide it when configuring your game to publish.
 
-![](http://static.stencyl.com/help/images/ios-primer2-4.png)
+![](https://static.stencyl.com/help/images/ios-primer2-4.png)
 
 
 ## Step 5 (of 8): Add Devices (Optional)
 
-> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), when distributing a game to beta testers, or when testing for your own purpose, you need to add devices to the iOS Provisioning Portal to allow these devices to run your games. If you don't need to do this, skip this section.
+> As mentioned in the [primer](https://www.stencyl.com/help/view/ios-certificates-guide), when distributing a game to beta testers, or when testing for your own purpose, you need to add devices to the iOS Provisioning Portal to allow these devices to run your games. If you don't need to do this, skip this section.
 
 1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
@@ -142,14 +142,14 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 5) Enter in the **Device ID (UDID)**. You can find this ID by connecting your iOS device to your Mac, opening iTunes, selecting the device under DEVICES, and then clicking the Serial Number field which will then switch to Identifier (UDID).
 
-![](http://static.stencyl.com/help/images/ioscerts/image04.png)
+![](https://static.stencyl.com/help/images/ioscerts/image04.png)
 
 6) Submit. Repeat for other devices you want to add.
 
 
 ## Step 6 (of 8): Create an App ID
 
-> As mentioned in the [primer](http://www.stencyl.com/help/view/ios-certificates-guide), an App ID is a unique identifier that's used to allow your game to communicate with Apple's services or to share data between your games. A provisioning profile uses the App ID alongside the list of authorized Device IDs to verify that your device is able to play the game.
+> As mentioned in the [primer](https://www.stencyl.com/help/view/ios-certificates-guide), an App ID is a unique identifier that's used to allow your game to communicate with Apple's services or to share data between your games. A provisioning profile uses the App ID alongside the list of authorized Device IDs to verify that your device is able to play the game.
 
 > You must create an App ID for **EACH** app you make.
 
@@ -171,7 +171,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 ## Step 7 (of 8): Install Provisioning Profiles
 
-> Recall from the [primer](http://www.stencyl.com/help/view/ios-certificates-guide) that a provisioning profile is a document that combines an App ID and a list of Devices together to form a permission policy that tells a device whether a given application will run on a given device, and for what method of distribution it will be targeted at (App Store or Ad Hoc).
+> Recall from the [primer](https://www.stencyl.com/help/view/ios-certificates-guide) that a provisioning profile is a document that combines an App ID and a list of Devices together to form a permission policy that tells a device whether a given application will run on a given device, and for what method of distribution it will be targeted at (App Store or Ad Hoc).
 
 > You must create a Provisioning Profile for **EACH** app you make.
 
@@ -189,7 +189,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 
 7) You can verify that the provisioning profiles have been installed by checking the **Accounts** area of Xcode (Xcode > Preferences > Accounts) and clicking on View Details at the bottom (you need to sign in with your Apple ID to enable this).
 
-![](http://static.stencyl.com/pedia2/ch11/xcode-accounts2.png)
+![](https://static.stencyl.com/pedia2/ch11/xcode-accounts2.png)
 
  
 
@@ -212,7 +212,7 @@ Now that you have your certificates, it's a good idea to test them out.
 
 If no errors happen along the way, you're (probably) good to go and are ready to publish to the App Store.
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/view/ios-app-store/">Publishing to the App Store</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/view/ios-app-store/">Publishing to the App Store</a>
  
 
 ## Troubleshooting
@@ -231,4 +231,4 @@ Inevitably, things will go wrong in this process, usually because a step wasn't 
 
 We've written up a comprehensive troubleshooting guide that catches most of the common scenarios.
 
-Read our [iOS Troubleshooting Guide](http://www.stencyl.com/help/view/xcode-ios-troubleshoot/).
+Read our [iOS Troubleshooting Guide](https://www.stencyl.com/help/view/xcode-ios-troubleshoot/).

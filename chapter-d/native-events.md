@@ -3,25 +3,25 @@
 <td width="180" valign="top" style="border:0px;">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
-<li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
-<li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
+<li><a href="https://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Advanced Topics</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
-<li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
-<li><a href="http://static.stencyl.com/api/33/">API</a></li>
+<li><a href="https://www.stencyl.com/help/view/native-events/">Native Events</a></li>
+<li><a href="https://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
+<li><a href="https://static.stencyl.com/api/33/">API</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Toolset Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
+<li><a href="https://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
 <li><a href="http://api.stencyl.com/extensions/">API</a></li>
 </ul>
 </td>
@@ -110,7 +110,7 @@ Finally, a simplified example of Objective-C code from Purchases.mm that demonst
 
 Everything we've talked about is summarized in the following diagram.
 
-![ios-callbacks](http://static.stencyl.com/pedia2/chapter-d/IOSCallback.png)
+![ios-callbacks](https://static.stencyl.com/pedia2/chapter-d/IOSCallback.png)
 
 To reiterate, this is an advanced use case where it's best to view existing examples to understand what's going on. It sounds a lot more confusing than it really is, and there's no better explanation than viewing the source for yourself.
 
@@ -125,7 +125,7 @@ Calling back Haxe from Java code follows a similar line of thinking, except that
 
 This is summarized in the following diagram.
 
-![android-callbacks](http://static.stencyl.com/pedia2/chapter-d/AndroidCallback.png)
+![android-callbacks](https://static.stencyl.com/pedia2/chapter-d/AndroidCallback.png)
 
 Let's walk through what's going on. First, let's peek at Purchases.hx once more.
 

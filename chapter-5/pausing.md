@@ -21,7 +21,7 @@ This approach gives you full control, and at the same time, it minimizes the amo
 
 To pause and unpause the game, use these blocks under **Scene > Game Flow**.
 
-![Pause Blocks](http://static.stencyl.com/pedia2/ch5/pausing/image00.png)
+![Pause Blocks](https://static.stencyl.com/pedia2/ch5/pausing/image00.png)
 
 #### Details
 
@@ -42,7 +42,7 @@ When pausing using a pause button actor, do not forget to opt the pause button o
 
 Actors that opt out of pausing will remain active while the game is paused. To opt an Actor out, flip to its Physics > Advanced page. Select "No" for the **Can be Paused?** option.
 
-![Physics Page](http://static.stencyl.com/pedia2/ch5/pausing/image01.png)
+![Physics Page](https://static.stencyl.com/pedia2/ch5/pausing/image01.png)
 
 
 ## Example: Simple Pause/Unpause
@@ -50,7 +50,7 @@ Actors that opt out of pausing will remain active while the game is paused. To o
 #### Event 1: Toggling the Pause State
 This part toggles between paused and unpaused when you press the spacebar.
 
-![Event 1](http://static.stencyl.com/pedia2/ch5/pausing/image02.png)
+![Event 1](https://static.stencyl.com/pedia2/ch5/pausing/image02.png)
 
 > Put this inside a scene behavior, or else it will stop working once the game is paused, leaving you stuck in the paused state.
 
@@ -58,7 +58,7 @@ This part toggles between paused and unpaused when you press the spacebar.
 #### Event 2: Tinting the Screen when Paused
 This part darkens the screen a little while the game's paused by drawing a semi-transparent black rectangle on top of everything.
 
-![Event 2](http://static.stencyl.com/pedia2/ch5/pausing/image03.png)
+![Event 2](https://static.stencyl.com/pedia2/ch5/pausing/image03.png)
 
 > As mentioned above, drawing events happen regardless of paused state.
 

@@ -12,7 +12,7 @@ Tweens. We're not talking about pre-teens.
 
 Instead, we're talking about a powerful ability to bring **numerical properties** of actors to a **destination value** over time.
 
-![Tween Example](http://static.stencyl.com/pedia2/ch3/tweening/image02.png)
+![Tween Example](https://static.stencyl.com/pedia2/ch3/tweening/image02.png)
 
 Tweens apply to the following properties.
 
@@ -27,7 +27,7 @@ Tweens apply to the following properties.
 
 All Tweens are initiated using blocks under the **Actors > Tweening** category.
 
-![](http://static.stencyl.com/pedia2/ch3/tweening/image05.png)
+![](https://static.stencyl.com/pedia2/ch3/tweening/image05.png)
 
 The parameters for each block differ a little, but each tween block requires these 3 bits of info:
 
@@ -40,7 +40,7 @@ The parameters for each block differ a little, but each tween block requires the
 
 You may wonder what the final dropdown in each tweening block is all about. We call this the Easing Function, or Easing for short.
 
-![Easing](http://static.stencyl.com/pedia2/ch3/tweening/image03.png)
+![Easing](https://static.stencyl.com/pedia2/ch3/tweening/image03.png)
 
 Suppose that we want to slide an actor from point A to point B. Without easing, the actor would move directly from A to B at a constant speed. In many cases, this would look flat and boring.
 
@@ -67,7 +67,7 @@ Next time you play a game, **observe where tweens are used**. You'll be surprise
 
 If you specify an Actor to not auto-scale its collision bounds, you may observe that scaling an Actor up or down will not change its collision bounds accordingly.
 
-![Auto Scale](http://static.stencyl.com/pedia2/ch3/tweening/image01.png)
+![Auto Scale](https://static.stencyl.com/pedia2/ch3/tweening/image01.png)
 
 #### Tweening and Physics
 

@@ -12,7 +12,7 @@ Stencyl supports publishing of its Flash games to the [Chrome Web Store](http://
 
 The Chrome Web Store is an app store that allows web apps and games to be installed to the user's home screen in the Google Chrome web browser. The most successful apps have garnered millions of installs.
 
-<img alt="Chrome Web Store" src="http://static.stencyl.com/pedia2/ch7/chrome/image00.png" style="width: 400px; padding-top:20px;">
+<img alt="Chrome Web Store" src="https://static.stencyl.com/pedia2/ch7/chrome/image00.png" style="width: 400px; padding-top:20px;">
 
  
 ## Instructions
@@ -23,7 +23,7 @@ The Chrome Web Store is an app store that allows web apps and games to be instal
 
 2. **Fill in the details**. You need to provide a name, description, version and both a 16x16 and a 128x128 PNG icon. These details will be saved, so you only have to enter them in once.
 
-![Publish to Chrome](http://static.stencyl.com/pedia2/ch7/chrome/image01.png)
+![Publish to Chrome](https://static.stencyl.com/pedia2/ch7/chrome/image01.png)
 
 > **Note:** Provide icons in **PNG** format. No other format will be accepted, even if they comply with the size.
  

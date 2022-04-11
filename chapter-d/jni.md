@@ -3,25 +3,25 @@
 <td width="180" valign="top" style="border:0px;">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
-<li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
-<li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
+<li><a href="https://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Advanced Topics</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
-<li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
-<li><a href="http://static.stencyl.com/api/33/">API</a></li>
+<li><a href="https://www.stencyl.com/help/view/native-events/">Native Events</a></li>
+<li><a href="https://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
+<li><a href="https://static.stencyl.com/api/33/">API</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Toolset Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
+<li><a href="https://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
 <li><a href="http://api.stencyl.com/extensions/">API</a></li>
 </ul>
 </td>
@@ -42,7 +42,7 @@
 
 JNI bindings let Haxe code call Java code. The JNI syntax can be confusing to understand. This document explains the syntax and offers an alternative to writing it out by hand.
 
-> **Note:** This is a supplement to our [Native Extensions](http://www.stencyl.com/help/view/how-to-create-native-engine-extension/) guide. It's rough and intended for advanced users.
+> **Note:** This is a supplement to our [Native Extensions](https://www.stencyl.com/help/view/how-to-create-native-engine-extension/) guide. It's rough and intended for advanced users.
 
 
 ## Walkthrough

@@ -18,7 +18,7 @@ Text is an essential element of most games. Text conveys information to the play
 
 Fonts are a term used to describe the styling of text. Stencyl uses bitmap fonts to display text. Bitmap fonts are a special kind of font in which the font is pre-rendered to pixels.
 
-![](http://static.stencyl.com/pedia2/ch4/text/image03.jpg)
+![](https://static.stencyl.com/pedia2/ch4/text/image03.jpg)
 
 **Pros**
 * They look **consistent** regardless of device or hardware.
@@ -32,11 +32,11 @@ Fonts are a term used to describe the styling of text. Stencyl uses bitmap fonts
 
 ## Creating Fonts
 
-To create a font, use our [Font Editor](http://www.stencyl.com/help/view/font-editor/). You can create a new font by heading to **File > Create New > Font**.
+To create a font, use our [Font Editor](https://www.stencyl.com/help/view/font-editor/). You can create a new font by heading to **File > Create New > Font**.
 
 This will bring up the Font Editor. Our Font Editor lets you style fonts based on both TrueType (TTF) font faces as well as images / sprite sheets.
 
-If you'd like to learn more about creating fonts, read our [Font Editor](http://www.stencyl.com/help/view/font-editor/) article.
+If you'd like to learn more about creating fonts, read our [Font Editor](https://www.stencyl.com/help/view/font-editor/) article.
 
 
 ## Drawing Text
@@ -51,24 +51,24 @@ Never attempt to draw text without first telling the engine what font to use. If
 
 Now, draw the text. Pass in the text and the (x,y) coordinates where you want it to draw. 
 
-![](http://static.stencyl.com/pedia2/ch4/text/image10.png)
+![](https://static.stencyl.com/pedia2/ch4/text/image10.png)
 
 #### Extra Blocks
 
 If you need to position the text more precisely or make calculations based on the text's size, we provide a few blocks to help you out under Drawing > Styles.
 
-![](http://static.stencyl.com/pedia2/ch4/text/text-size.png)
+![](https://static.stencyl.com/pedia2/ch4/text/text-size.png)
 
  
 ##HUDs (Heads Up Displays)
 
 A HUD (heads up display) is a transparent, graphical dashboard that displays on top of everything else.
 
-![](http://static.stencyl.com/pedia2/ch4/text/hud-example.png)
+![](https://static.stencyl.com/pedia2/ch4/text/hud-example.png)
 
 **HUDs usually display statistics**. Think of the dashboard on your car, the one that displays how fast your car is going, how much gas you have left, your engine's temperature, etc.
 
-![](http://static.stencyl.com/pedia2/ch4/text/image09.png)
+![](https://static.stencyl.com/pedia2/ch4/text/image09.png)
 
 #### HUDs do not follow the camera
 
@@ -78,7 +78,7 @@ One aspect of HUDs that's unique is that they **don't follow the camera**. They 
 
 Have you seen this block? (under Actor > Drawing)
 
-![](http://static.stencyl.com/pedia2/ch4/text/image07.png)
+![](https://static.stencyl.com/pedia2/ch4/text/image07.png)
 
 The ability to anchor an actor to the screen was made specifically for creating HUDs. As the name suggests, anchoring an actor makes the actor ignore the camera, so it is **always drawn at the same place on screen**.
 
@@ -89,7 +89,7 @@ The ability to anchor an actor to the screen was made specifically for creating 
 
 In this example, we'll talk about how to do something common: drawing a timer.
 
-<a href="http://static.stencyl.com/pedia2/ch4/text/Demo.swf">![](http://static.stencyl.com/pedia2/ch4/text/image11.png)</a>
+<a href="https://static.stencyl.com/pedia2/ch4/text/Demo.swf">![](https://static.stencyl.com/pedia2/ch4/text/image11.png)</a>
 
 > **Controls:** Left/Right to move, Up to jump
 
@@ -102,7 +102,7 @@ We want to draw the Timer shown in the demo.
 
 #### Walkthrough (Part 1) - Adding a Timer
  
-1. Download [this project](http://static.stencyl.com/pedia2/ch4/text/Text%20Demo.stencyl). (Use File > Import... to import it)
+1. Download [this project](https://static.stencyl.com/pedia2/ch4/text/Text%20Demo.stencyl). (Use File > Import... to import it)
  
 2. Open the demo project. This project is mostly built up (run it!). All you need to do is create the Timer feature.
 
@@ -110,9 +110,9 @@ We want to draw the Timer shown in the demo.
 
 4. Add a Number attribute called **Time** - and make it hidden.
 
-5. Add an **Every N Seconds** event. Make it increment the Time attribute by 1.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/text/image08.png)<br/>
+5. Add an **Every N Seconds** event. Make it increment the Time attribute by 1.<br/><br/>![](https://static.stencyl.com/pedia2/ch4/text/image08.png)<br/>
 
-6. Add a **When Drawing** event. Make it draw the time, like this.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/text/image02.png)<br/>
+6. Add a **When Drawing** event. Make it draw the time, like this.<br/><br/>![](https://static.stencyl.com/pedia2/ch4/text/image02.png)<br/>
 
 7. That's it (or is it?). Run the game, and you should now notice it drawing the timer, just like in the demo above.
 
@@ -122,7 +122,7 @@ Wait, something's wrong. If you walk to the right, as the screen scrolls, the ti
  
 **Fix up the actor's behavior**, so it "sticks" to the screen. 
 
-Stuck? Here's a [hint](http://static.stencyl.com/pedia2/ch4/text/image07.png).
+Stuck? Here's a [hint](https://static.stencyl.com/pedia2/ch4/text/image07.png).
 
 
 #### Additional Exercises
@@ -136,9 +136,9 @@ Stuck? Here's a [hint](http://static.stencyl.com/pedia2/ch4/text/image07.png).
 
 One of Stencyl's developers has independently created a fully-fledged dialog system. While it's technically a separate effort, it's officially endorsed by us.
 
-[Visit their site](http://dialogextension.com/) to learn more.
+[Visit their site](https://dialogextension.com/) to learn more.
 
-![](http://static.stencyl.com/pedia2/ch4/text/dialog.png)
+![](https://static.stencyl.com/pedia2/ch4/text/dialog.png)
 
 
 ## Summary
@@ -149,9 +149,9 @@ One of Stencyl's developers has independently created a fully-fledged dialog sys
 
 ## Challenge: Dialog Box
 
-While Stencyl is home to a [powerful dialog system](http://dialogextension.com/), for learning purposes, you may want to implement simple dialog system on your own to check your mastery of text drawing.
+While Stencyl is home to a [powerful dialog system](https://dialogextension.com/), for learning purposes, you may want to implement simple dialog system on your own to check your mastery of text drawing.
 
-Create a simple system for displaying dialog, in which you pass in a [list](http://www.stencyl.com/help/view/lists/) of text (1 sentence per entry) to display.
+Create a simple system for displaying dialog, in which you pass in a [list](https://www.stencyl.com/help/view/lists/) of text (1 sentence per entry) to display.
 
 The dialog system should display 1 sentence at a time. The player has to hit a key to proceed.
 

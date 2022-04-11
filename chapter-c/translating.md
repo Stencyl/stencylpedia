@@ -4,7 +4,7 @@
 
 Stencyl has been partially or fully translated to quite a few languages already. Check our web-based translation tool out to check on the status of each translation and begin participating in the translation process.
 
-[Open the Tool](http://www.stencyl.com/translate/)
+[Open the Tool](https://www.stencyl.com/translate/)
 
 ## Instructions
 

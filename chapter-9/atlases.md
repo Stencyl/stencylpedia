@@ -119,7 +119,7 @@ Take note of how much memory rises by using the FPS Monitor or telemetry.
 
 ### Be Organized
 
-Although most games probably won't require too many atlases, [large, intensive games](http://community.stencyl.com/index.php/topic,30809.0.html) could possibly require hundreds. Keep your atlases and resources named and organized in a logical fashion to make things easier on yourself.
+Although most games probably won't require too many atlases, [large, intensive games](https://community.stencyl.com/index.php/topic,30809.0.html) could possibly require hundreds. Keep your atlases and resources named and organized in a logical fashion to make things easier on yourself.
 
 ### Add a Loading Scene
 Sometimes, you'll find that if you're loading a lot of resources, atlas loading can take some time. In order to prevent an awkward pause with a black screen, consider switching to an intermediate scene with a "loading" graphic and then switching to the desired scene after that.

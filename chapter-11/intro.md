@@ -1,7 +1,7 @@
 > This is Part 1 in a three-part series.<br/><br/>
-Part 1 - [Getting Started](http://www.stencyl.com/help/view/ios-getting-started)<br/>
-Part 2 - [Understanding Certificates](http://www.stencyl.com/help/view/ios-certificates-guide)<br/>
-Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certificates-guide-2)
+Part 1 - [Getting Started](https://www.stencyl.com/help/view/ios-getting-started)<br/>
+Part 2 - [Understanding Certificates](https://www.stencyl.com/help/view/ios-certificates-guide)<br/>
+Part 3 - [Setting up Certificates](https://www.stencyl.com/help/view/ios-certificates-guide-2)
  
 
 ## Contents
@@ -24,7 +24,7 @@ Part 3 - [Setting up Certificates](http://www.stencyl.com/help/view/ios-certific
 * Xcode 7 or later
 * An iOS device with iOS 9 or later
 
-> **Tip:** You can push your app to older devices by exporting an IPA and [installing the app through iTunes](http://stackoverflow.com/questions/14127576/install-ipa-with-itunes-11) on those other devices. Some have succeeded in testing on iOS devices with older versions directly from their computer.
+> **Tip:** You can push your app to older devices by exporting an IPA and [installing the app through iTunes](https://stackoverflow.com/questions/14127576/install-ipa-with-itunes-11) on those other devices. Some have succeeded in testing on iOS devices with older versions directly from their computer.
  
 
 ## Step 1: Install Xcode
@@ -44,7 +44,7 @@ After installing Xcode, launch it. Then, do the following.
 2. Flip to the **Downloads** page.
 3. Under Components, install **Command Line Tools** and any **iOS Simulators** that show up.
 
-![xcode-additions](http://static.stencyl.com/pedia2/ch11/xcode-downloads.png)
+![xcode-additions](https://static.stencyl.com/pedia2/ch11/xcode-downloads.png)
 
 After they finish downloading, close Xcode.
 
@@ -58,7 +58,7 @@ If this is your very first time developing games on iOS (or if you updated Xcode
 3. On the left should be your development account (if it isn't there, sign in and it will appear).
 4. Click the refresh button at the bottom - this will register you with Apple's systems.
 
-![](http://static.stencyl.com/pedia2/ch11/xcode-accounts.png)
+![](https://static.stencyl.com/pedia2/ch11/xcode-accounts.png)
 
 *If you forgot to do this, or this has to be redone, you will find that you are unable to test on your device and get an error message along the lines of "no matching profile" (which makes no sense because you are just testing locally on your device).*
 
@@ -83,7 +83,7 @@ Now, the app **will build for a while**, depending on how fast your computer is.
 
 At the end of the process, the iOS simulator will automatically launch the game.
 
-![ios-simulator](http://static.stencyl.com/pedia2/ch11/ios-simulator.png)
+![ios-simulator](https://static.stencyl.com/pedia2/ch11/ios-simulator.png)
 
 
 ## Step 5: Test on an iOS Device
@@ -113,7 +113,7 @@ Generally speaking, the "major" versions of iOS have to match between your Mac a
 
 ## Next: Set up Certificates
 
-Read our comprehensive guide on [how to set up certificates](http://www.stencyl.com/help/view/ios-certificates-guide), so that you can publish your game to your friend's devices and the App Store.
+Read our comprehensive guide on [how to set up certificates](https://www.stencyl.com/help/view/ios-certificates-guide), so that you can publish your game to your friend's devices and the App Store.
 
  
 ## Aside: Why does it take so long to build the app the first time? 
@@ -125,4 +125,4 @@ Mercifully, this is only the case the first time you run a game on a given platf
  
 ## Troubleshooting
 
-We've devoted an entire article to [troubleshooting common issues](http://www.stencyl.com/help/view/xcode-ios-troubleshoot/) with iOS, Xcode and Certificates.
+We've devoted an entire article to [troubleshooting common issues](https://www.stencyl.com/help/view/xcode-ios-troubleshoot/) with iOS, Xcode and Certificates.

@@ -79,4 +79,4 @@ Then, pick something from the **FROM YOUR LIBRARY** section.
 
 ## Can I suggest some behaviors?
 
-Sure! Create a topic in the [issue tracker](http://community.stencyl.com/index.php?project=1;area=issues;tracker=feature) (as a suggestion) stating the behaviors you want Stencyl to have pre-installed.
+Sure! Create a topic in the [issue tracker](https://community.stencyl.com/index.php?project=1;area=issues;tracker=feature) (as a suggestion) stating the behaviors you want Stencyl to have pre-installed.

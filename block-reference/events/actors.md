@@ -6,7 +6,7 @@
 
 ### <a name="event-actor-create-kill"></a> Specific Actor (is created or dies)
 
-![when actor is created](http://static.stencyl.com/pedia2/block-images/events/actors/event-actor-create-kill.png)
+![when actor is created](https://static.stencyl.com/pedia2/block-images/events/actors/event-actor-create-kill.png)
 
 Triggers when the specified actor is created or killed.
 
@@ -14,7 +14,7 @@ Triggers when the specified actor is created or killed.
 
 ### <a name="event-type-create-kill"></a> Actor of Type (is created or dies)
 
-![when a actortype is created](http://static.stencyl.com/pedia2/block-images/events/actors/event-type-create-kill.png)
+![when a actortype is created](https://static.stencyl.com/pedia2/block-images/events/actors/event-type-create-kill.png)
 
 Triggers when any actor of the specified Actor Type is created or killed.
 
@@ -22,7 +22,7 @@ Triggers when any actor of the specified Actor Type is created or killed.
 
 ### <a name="event-group-create-kill"></a> Member of Group (is created or dies)
 
-![when an actor of actorgroup is created](http://static.stencyl.com/pedia2/block-images/events/actors/event-group-create-kill.png)
+![when an actor of actorgroup is created](https://static.stencyl.com/pedia2/block-images/events/actors/event-group-create-kill.png)
 
 Triggers when any actor that is a member of the specified Actor Group is created or killed.
 
@@ -32,7 +32,7 @@ Triggers when any actor that is a member of the specified Actor Group is created
 
 ### <a name="event-actor-screen"></a> Specific Actor (enters or leaves the scene or screen)
 
-![when actor enters the scene](http://static.stencyl.com/pedia2/block-images/events/actors/event-actor-screen.png)
+![when actor enters the scene](https://static.stencyl.com/pedia2/block-images/events/actors/event-actor-screen.png)
 
 Triggers when the specified actor enters/leaves the Screen/Scene.
 
@@ -40,7 +40,7 @@ Triggers when the specified actor enters/leaves the Screen/Scene.
 
 ### <a name="event-type-screen"></a> Actor of Type (enters or leaves the scene or screen)
 
-![when a actortype enters the scene](http://static.stencyl.com/pedia2/block-images/events/actors/event-type-screen.png)
+![when a actortype enters the scene](https://static.stencyl.com/pedia2/block-images/events/actors/event-type-screen.png)
 
 Triggers when any actor of the specified Actor Type enters/leaves the screen/scene.
 
@@ -48,7 +48,7 @@ Triggers when any actor of the specified Actor Type enters/leaves the screen/sce
 
 ### <a name="event-group-screen"></a> Member of Group (enters or leaves the scene or screen)
 
-![when an actor of actorgroup enters the scene](http://static.stencyl.com/pedia2/block-images/events/actors/event-group-screen.png)
+![when an actor of actorgroup enters the scene](https://static.stencyl.com/pedia2/block-images/events/actors/event-group-screen.png)
 
 Triggers when any actor that is a member of the specified Actor Group enters/leaves the screen/scene.
 
@@ -58,7 +58,7 @@ Triggers when any actor that is a member of the specified Actor Group enters/lea
 
 ### <a name="event-actor-region"></a> Specific Actor (enters or leaves a region)
 
-![when actor enters region](http://static.stencyl.com/pedia2/block-images/events/actors/event-actor-region.png)
+![when actor enters region](https://static.stencyl.com/pedia2/block-images/events/actors/event-actor-region.png)
 
 Triggers when the specified actor enters/leaves the specified region.
 
@@ -66,7 +66,7 @@ Triggers when the specified actor enters/leaves the specified region.
 
 ### <a name="event-type-region"></a> Actor of Type (enters or leaves a region)
 
-![when a actortype enters region](http://static.stencyl.com/pedia2/block-images/events/actors/event-type-region.png)
+![when a actortype enters region](https://static.stencyl.com/pedia2/block-images/events/actors/event-type-region.png)
 
 Triggers when any actor of the specified Actor Type enters or leaves the specified region.
 
@@ -74,7 +74,7 @@ Triggers when any actor of the specified Actor Type enters or leaves the specifi
 
 ### <a name="event-group-region"></a> Member of Group (enters or leaves a region)
 
-![when an actor of actorgroup enters region](http://static.stencyl.com/pedia2/block-images/events/actors/event-group-region.png)
+![when an actor of actorgroup enters region](https://static.stencyl.com/pedia2/block-images/events/actors/event-group-region.png)
 
 Triggers when any actor that is a member of the specified Actor Group enters or leaves the specified region.
 

@@ -2,7 +2,7 @@
 
 ***
 
-> View our article on [Saving Games](http://www.stencyl.com/help/view/saving-and-loading-games/) for an explanation of these blocks.
+> View our article on [Saving Games](https://www.stencyl.com/help/view/saving-and-loading-games/) for an explanation of these blocks.
 
 ***
 
@@ -10,7 +10,7 @@
 
 ### <a name="save-game"></a> Save Game
 
-![save game and then...](http://static.stencyl.com/pedia2/block-images/game/saving/save-game.png)
+![save game and then...](https://static.stencyl.com/pedia2/block-images/game/saving/save-game.png)
 
 Tells the game to save. Saving will store the state of all game attributes into a file.
 
@@ -30,7 +30,7 @@ saveGame("mySave", function(success:Bool):Void {
 
 ### <a name="load-game"></a> Load Game
 
-![load save file and then...](http://static.stencyl.com/pedia2/block-images/game/saving/load-game.png)
+![load save file and then...](https://static.stencyl.com/pedia2/block-images/game/saving/load-game.png)
 
 Tells the game to load. Loading will overwrite the values of all game attributes with those in the save file (if it exists).
 

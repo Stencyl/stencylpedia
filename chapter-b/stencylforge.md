@@ -7,7 +7,7 @@ StencylForge is our marketplace for user-created (and team-created) resources. W
 
 To access StencylForge, click on the StencylForge icon in the toolbar. It'll pop up in a new tab. You must be logged in to access everything that StencylForge has to offer.
 
-![Launching StencylForge](http://static.stencyl.com/help/images/HowToDownloadResources1.png)
+![Launching StencylForge](https://static.stencyl.com/help/images/HowToDownloadResources1.png)
 
 
 ## Downloading Resources

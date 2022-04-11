@@ -1,6 +1,6 @@
 As we described in the Scene Basics section, scenes control a game's flow and can be thought of as various **states** in a **game** that you transition between, like a story.
 
-![stencyl-scene-flow-diagram](http://static.stencyl.com/pedia2/ch4/changing/image06.png)
+![stencyl-scene-flow-diagram](https://static.stencyl.com/pedia2/ch4/changing/image06.png)
 
 
 ## Contents
@@ -22,7 +22,7 @@ Changing a scene involves 3 parts.
 
 Use the following blocks (under Scene > Game Flow) to perform a scene change.
 
-![stencyl-design-mode-switch-scene-blocks](http://static.stencyl.com/pedia2/ch4/changing/image01.png)
+![stencyl-design-mode-switch-scene-blocks](https://static.stencyl.com/pedia2/ch4/changing/image01.png)
 
 > If it isn't apparent, a reload will "switch" to the current scene.
 
@@ -51,36 +51,36 @@ Stencyl supports these transition types.
 
 ## Example: Enter Door, Switch Scene
 
-In this simple example, we'll make the hero enter the cave once he steps into the cave's door, represented by a [Region](http://www.stencyl.com/help/view/regions/).
+In this simple example, we'll make the hero enter the cave once he steps into the cave's door, represented by a [Region](https://www.stencyl.com/help/view/regions/).
 
 I opted to use a "Actor Type Enters Region" event and placed a Region over the door to detect entry.
 
-![stencyl-design-mode-switch-scene-using-door](http://static.stencyl.com/pedia2/ch4/changing/image05.png)
+![stencyl-design-mode-switch-scene-using-door](https://static.stencyl.com/pedia2/ch4/changing/image05.png)
 
 
 ## Example: Level Selector
 
 Building a Level Select screen is common to many games. Here's a simple and elegant way to make one.
 
-<a href="http://static.stencyl.com/pedia2/ch4/changing/LevelSelect.swf">![stencyl-design-mode-level-selector-example](http://static.stencyl.com/pedia2/ch4/changing/image12.png)</a>
+<a href="https://static.stencyl.com/pedia2/ch4/changing/LevelSelect.swf">![stencyl-design-mode-level-selector-example](https://static.stencyl.com/pedia2/ch4/changing/image12.png)</a>
  
 
 ## The Concepts
 To pull this off, I'll use the "get scene with name" block (Scene > World). This block returns a scene, given a name.
 
-![stencyl-design-mode-get-scene-name-block](http://static.stencyl.com/pedia2/ch4/changing/image00.png)
+![stencyl-design-mode-get-scene-name-block](https://static.stencyl.com/pedia2/ch4/changing/image00.png)
 
 Now, I can drag this block into our regular scene switch block. *(If you didn't know you could do that, now you know.)*
 
-![stencyl-design-mode-switch-scene-drag-block](http://static.stencyl.com/pedia2/ch4/changing/image02.png)
+![stencyl-design-mode-switch-scene-drag-block](https://static.stencyl.com/pedia2/ch4/changing/image02.png)
 
 Our goal is to make a simple behavior that we can reuse. To pull off a clean Level Select, our scenes have to have a predictable naming scheme. **How about we just give each level a number as a name, starting from 1**?
 
-![stencyl-assigning-level-names](http://static.stencyl.com/pedia2/ch4/changing/image09.png)
+![stencyl-assigning-level-names](https://static.stencyl.com/pedia2/ch4/changing/image09.png)
 
 If we do that, we can then pass a Number Attribute into the "get scene with name" block, and it will magically switch to the scene with that "name".
 
-![stencyl-design-mode-switch-scene-get-scene-names](http://static.stencyl.com/pedia2/ch4/changing/image04.png)
+![stencyl-design-mode-switch-scene-get-scene-names](https://static.stencyl.com/pedia2/ch4/changing/image04.png)
 
  
 
@@ -89,9 +89,9 @@ Putting this all together, here's a behavior that creates 5 Level Select buttons
 
 > **Exercise:** You should extend this, so that it wraps over and starts a new line upon hitting the 6th button)
 
-![stencyl-design-mode-create-scene-switching-buttons](http://static.stencyl.com/pedia2/ch7/getset/image06.png)
+![stencyl-design-mode-create-scene-switching-buttons](https://static.stencyl.com/pedia2/ch7/getset/image06.png)
 
-> **Note:** The "for Last Created Actor, set ..." block is a [special block](http://www.stencyl.com/help/viewArticle/149/) that sets the value of a different Behavior's attribute. In this case, we're telling the block what Scene it's associated with, otherwise it wouldn't know which Scene to switch to and what to draw. We cover the concept of [setting attribute values of other behaviors](http://www.stencyl.com/help/viewArticle/149/) in Chapter 5.
+> **Note:** The "for Last Created Actor, set ..." block is a [special block](https://www.stencyl.com/help/viewArticle/149/) that sets the value of a different Behavior's attribute. In this case, we're telling the block what Scene it's associated with, otherwise it wouldn't know which Scene to switch to and what to draw. We cover the concept of [setting attribute values of other behaviors](https://www.stencyl.com/help/viewArticle/149/) in Chapter 5.
  
 
 #### The Implementation: The Buttons' Logic
@@ -100,11 +100,11 @@ Each Level Select button contains 2 Events and a single Number Attribute (called
 
 1) One event that draws the button.
 
-![stencyl-design-mode-draw-button](http://static.stencyl.com/pedia2/ch4/changing/image03.png)
+![stencyl-design-mode-draw-button](https://static.stencyl.com/pedia2/ch4/changing/image03.png)
 
 2) One event that switches the scene when the button is pressed.
 
-![stencyl-design-mode-switch-scene-on-mouse-click](http://static.stencyl.com/pedia2/ch4/changing/image07.png)
+![stencyl-design-mode-switch-scene-on-mouse-click](https://static.stencyl.com/pedia2/ch4/changing/image07.png)
 
 That's it!
 
@@ -128,6 +128,6 @@ For example, if he steps off the right side of a room, he will usually appear at
 This turns out to be a challenge because you need to reposition your hero, based on where he came from before.
 Fortunately, there's a block that can help you out (Scene > Game Flow).
 
-![stencyl-design-mode-get-scene-name-block](http://static.stencyl.com/pedia2/ch4/changing/image00.png)
+![stencyl-design-mode-get-scene-name-block](https://static.stencyl.com/pedia2/ch4/changing/image00.png)
 
 Use this block to implement a generic, reliable system for placing an actor at the "right" spot, much like the Zelda game does.

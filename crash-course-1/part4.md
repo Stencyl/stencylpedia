@@ -1,4 +1,4 @@
-> [Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
+> [Part 1 (Intro)](https://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](https://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](https://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](https://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](https://www.stencyl.com/help/viewArticle/147/)
 
 ## Creating a Scene (Part 4 of 5)
 Now that we have our resources in place and our Actor Types configured, we're going to create a Scene.
@@ -95,6 +95,6 @@ As you'd expect, higher values will result in stronger gravity, and lower values
 
 ***
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/147/">Continue to Part 5 &rarr;</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/viewArticle/147/">Continue to Part 5 &rarr;</a>
 
 ***

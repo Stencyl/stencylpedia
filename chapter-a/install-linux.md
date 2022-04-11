@@ -5,7 +5,7 @@
 
 ## Installation instructions for Ubuntu and Debian
 
-> *Note:* Installation on other Linux distributions will be similar, but the package names may be different. If you have trouble installing Stencyl on another Linux distribution, [ask on the forums](http://community.stencyl.com/index.php/topic,30927.0.html).
+> *Note:* Installation on other Linux distributions will be similar, but the package names may be different. If you have trouble installing Stencyl on another Linux distribution, [ask on the forums](https://community.stencyl.com/index.php/topic,30927.0.html).
 
 #### Minimum Requirements
 * Ubuntu 12.04 LTS or later OR Debian Jessie or later.
@@ -63,4 +63,4 @@ When asked by Stencyl for the location of Java, navigate and select
 
 ## Installation Instructions for Arch Linux
 
-[View this page](http://community.stencyl.com/index.php/topic,32022.0.html)
+[View this page](https://community.stencyl.com/index.php/topic,32022.0.html)

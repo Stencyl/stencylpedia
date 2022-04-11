@@ -12,7 +12,7 @@ Sometimes, a game will appear to take a long time to compile. To take the guessw
 
 2) Run the game again.
 
-3) Watch the Log Viewer as the game builds. As long as new lines continue showing up, you're fine. If errors show up, something went wrong, and you should [ask for help](http://community.stencyl.com/index.php/board,3.0.html) on the forums.
+3) Watch the Log Viewer as the game builds. As long as new lines continue showing up, you're fine. If errors show up, something went wrong, and you should [ask for help](https://community.stencyl.com/index.php/board,3.0.html) on the forums.
 
 
 ## FAQ: Why do desktop and mobile games take a long time to run?

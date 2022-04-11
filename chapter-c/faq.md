@@ -5,7 +5,7 @@ This is a general FAQ for those who have general questions about Stencyl. For th
 
 #### Where can I get more help?
 
-If Stencylpedia and Stencyl TV aren't meeting your needs, your best bet would be to ask your question on our [forums](http://community.stencyl.com/).
+If Stencylpedia and Stencyl TV aren't meeting your needs, your best bet would be to ask your question on our [forums](https://community.stencyl.com/).
 
 #### I can't launch Stencyl.
 
@@ -30,7 +30,7 @@ Yes, we support exporting of iOS and Android games.
 
 #### Is Stencyl free or does it cost money?
 
-Creating Flash games is free. If you want to create mobile games or standalone games, or if you want to remove the splash screen, [those will cost money](http://www.stencyl.com/pricing/).
+Creating Flash games is free. If you want to create mobile games or standalone games, or if you want to remove the splash screen, [those will cost money](https://www.stencyl.com/pricing/).
 
 #### Are there different versions of Stencyl? (Flash, iOS, etc.)?
 
@@ -38,7 +38,7 @@ There's just one version of Stencyl. When you purchase a license, the toolset au
 
 #### How do I publish games?
 
-[Stencylpedia](http://www.stencyl.com/help/toc/) covers all aspects of game publication in the Publishing chapter. 
+[Stencylpedia](https://www.stencyl.com/help/toc/) covers all aspects of game publication in the Publishing chapter. 
 
 #### Are there any rules about where I can publish my game?
 
@@ -74,11 +74,11 @@ MP3s for Flash and OGGs for everything else. It's best if these are at a 44.1kHz
 
 #### Is there multiplayer support?
 
-Not built in. Some clever users have [figured this out](http://community.stencyl.com/index.php/topic,27491.0.html) on a limited basis, though.
+Not built in. Some clever users have [figured this out](https://community.stencyl.com/index.php/topic,27491.0.html) on a limited basis, though.
 
 #### Can I make a 3D game?
 
-Stencyl does not officially support 3D games, although pseudo-3D and isometric games [have been built](http://community.stencyl.com/index.php/topic,41034.0.html).
+Stencyl does not officially support 3D games, although pseudo-3D and isometric games [have been built](https://community.stencyl.com/index.php/topic,41034.0.html).
 
 #### Can I make isometric games?
 

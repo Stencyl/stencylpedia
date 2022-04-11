@@ -2,7 +2,7 @@
 
 ***
 
-> Read our guide on [Regions](http://www.stencyl.com/help/view/regions/) for an explanation of these blocks.
+> Read our guide on [Regions](https://www.stencyl.com/help/view/regions/) for an explanation of these blocks.
 
 ***
 
@@ -10,7 +10,7 @@
 
 ### <a name="region"></a> Choose Region
 
-![region](http://static.stencyl.com/pedia2/block-images/scene/regions/region.png)
+![region](https://static.stencyl.com/pedia2/block-images/scene/regions/region.png)
 
 Returns a Region of choice (whether an instance of one, an attribute or other form).
 
@@ -22,7 +22,7 @@ Returns a Region of choice (whether an instance of one, an attribute or other fo
 
 ### <a name="is-in-region"></a> Actor is Inside Region?
 
-![actor is inside region](http://static.stencyl.com/pedia2/block-images/scene/regions/is-in-region.png)
+![actor is inside region](https://static.stencyl.com/pedia2/block-images/scene/regions/is-in-region.png)
 
 Returns `true` if the actor is inside the specified region.
 
@@ -36,7 +36,7 @@ isInRegion([ACTOR], [REGION])
 
 ### <a name="create-region"></a> Create Box Region
 
-![create region at x number y number with w number h number](http://static.stencyl.com/pedia2/block-images/scene/regions/create-region.png)
+![create region at x number y number with w number h number](https://static.stencyl.com/pedia2/block-images/scene/regions/create-region.png)
 
 Creates a rectangular region with the given location and size. Assign to a Region attribute (using the "Last Created Region" selection) to refer to it in the future.
 
@@ -48,7 +48,7 @@ createBoxRegion([NUMBER], [NUMBER], [NUMBER], [NUMBER]);
 
 ### <a name="create-circular-region"></a> Create Circle Region
 
-![create circular region at x number y number with radius number](http://static.stencyl.com/pedia2/block-images/scene/regions/create-circular-region.png)
+![create circular region at x number y number with radius number](https://static.stencyl.com/pedia2/block-images/scene/regions/create-circular-region.png)
 
 Creates a circular region with the given location and size. Assign to a Region attribute (using the "Last Created Region" selection) to refer to it in the future.
 
@@ -62,7 +62,7 @@ createCircularRegion([NUMBER], [NUMBER], [NUMBER]);
 
 ### <a name="delete-region"></a> Delete Region
 
-![delete region](http://static.stencyl.com/pedia2/block-images/scene/regions/delete-region.png)
+![delete region](https://static.stencyl.com/pedia2/block-images/scene/regions/delete-region.png)
 
 Deletes a region from the current scene. (It will return if you leave the scene and come back.)
 
@@ -76,7 +76,7 @@ removeRegion([REGION].getID());
 
 ### <a name="move-region"></a> Move Region
 
-![move region to x number y number](http://static.stencyl.com/pedia2/block-images/scene/regions/move-region.png)
+![move region to x number y number](https://static.stencyl.com/pedia2/block-images/scene/regions/move-region.png)
 
 Moves the region to the given point.
 
@@ -88,7 +88,7 @@ Moves the region to the given point.
 
 ### <a name="follow-region"></a> Move Region to Actor
 
-![make region follow actor](http://static.stencyl.com/pedia2/block-images/scene/regions/follow-region.png)
+![make region follow actor](https://static.stencyl.com/pedia2/block-images/scene/regions/follow-region.png)
 
 Moves the region to the given actor's location using its origin point.
 
@@ -102,7 +102,7 @@ Moves the region to the given actor's location using its origin point.
 
 ### <a name="reset-region"></a> Reset Region Size
 
-![reset size of region](http://static.stencyl.com/pedia2/block-images/scene/regions/reset-region.png)
+![reset size of region](https://static.stencyl.com/pedia2/block-images/scene/regions/reset-region.png)
 
 Resets the region to its original size.
 
@@ -114,7 +114,7 @@ Resets the region to its original size.
 
 ### <a name="resize-region1"></a> Resize Circle Region
 
-![set diameter of region to number px](http://static.stencyl.com/pedia2/block-images/scene/regions/resize-region1.png)
+![set diameter of region to number px](https://static.stencyl.com/pedia2/block-images/scene/regions/resize-region1.png)
 
 Sets the size of a circular region to the given diameter.
 
@@ -126,7 +126,7 @@ Sets the size of a circular region to the given diameter.
 
 ### <a name="resize-region2"></a> Resize Box Region
 
-![set size of region to w number h number](http://static.stencyl.com/pedia2/block-images/scene/regions/resize-region2.png)
+![set size of region to w number h number](https://static.stencyl.com/pedia2/block-images/scene/regions/resize-region2.png)
 
 Sets the size of a box region to the given width and height.
 
@@ -140,7 +140,7 @@ Sets the size of a box region to the given width and height.
 
 ### <a name="get-region-pos"></a> Position of Region
 
-![x of region](http://static.stencyl.com/pedia2/block-images/scene/regions/get-region-pos.png)
+![x of region](https://static.stencyl.com/pedia2/block-images/scene/regions/get-region-pos.png)
 
 Gets the [X/Y] location of the region.
 
@@ -155,7 +155,7 @@ Gets the [X/Y] location of the region.
 
 ### <a name="get-region-size"></a> Width / Height of Region
 
-![width of region](http://static.stencyl.com/pedia2/block-images/scene/regions/get-region-size.png)
+![width of region](https://static.stencyl.com/pedia2/block-images/scene/regions/get-region-size.png)
 
 Gets the [Width/Height] of the region.
 

@@ -1,4 +1,4 @@
-> **Note:** If you're coming here from the [Tiles and Tilesets article](http://www.stencyl.com/help/viewArticle/36/), read on. If you found this through a search, we urge you to read the [main Tiles article](http://www.stencyl.com/help/viewArticle/36/) first.
+> **Note:** If you're coming here from the [Tiles and Tilesets article](https://www.stencyl.com/help/viewArticle/36/), read on. If you found this through a search, we urge you to read the [main Tiles article](https://www.stencyl.com/help/viewArticle/36/) first.
 
 > **Note:** If using simple physics for the global physics setting, this article does not apply and all tiles will have a collision box equal to the tile size.
  
@@ -21,11 +21,11 @@ Tiles can take on more than just square shapes or blank areas. You can define th
 
 Suppose that we want to set the collision shape for the tile selected below. It's a sloped tile at about a 60 degree grade.
 
-![60-degree-tile-selected](http://static.stencyl.com/help/images/TileSelection.png)
+![60-degree-tile-selected](https://static.stencyl.com/help/images/TileSelection.png)
 
 1. To set the collision shape, go over to the **Collision Bounds** window, scroll using the scroll bars to find the shape you need, and click on it.
 
-  ![Set collision shape to a 60 degree triangle](http://static.stencyl.com/help/images/SetTriangleCollision.png)
+  ![Set collision shape to a 60 degree triangle](https://static.stencyl.com/help/images/SetTriangleCollision.png)
 
   > **Tip:** You can edit the collision shapes for multiple tiles at a time if you select multiple tiles in the left (tiles) pane. You can do this by clicking and dragging to expand your selection rectangle.
 
@@ -47,7 +47,7 @@ X and Y dictate the relative position of the box, in case you want it to be shif
 
 All values are in percentages (0 - 100 inclusive). We do this so that you don't have to worry about how big the tiles are.
 
-![Creating a collision box](http://static.stencyl.com/help/images/BoxCollision.png)
+![Creating a collision box](https://static.stencyl.com/help/images/BoxCollision.png)
 
  
 ## Polygon Shapes
@@ -56,6 +56,6 @@ Create a Polygon by defining points and setting their x,y values, either through
 
 > **Note:** Define points in counter-clockwise order. If you don't, the engine may crash and warn you about a polygon having negative area.
 
-![Creating a polygonal collision shape](http://static.stencyl.com/help/images/PolygonCollision.png)
+![Creating a polygonal collision shape](https://static.stencyl.com/help/images/PolygonCollision.png)
 
 > **Gotcha:** Only convex polygons are supported. Do not enter in a concave polygon, such as an "L" shape. Instead, use an actor or split the tile into two or more separate tiles that you place on top of each other.

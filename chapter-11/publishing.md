@@ -12,8 +12,8 @@
 
 ## Requirements
 
-* [Set up your certificates](http://www.stencyl.com/help/view/ios-certificates-guide)
-* [Being able to test your game on your device](http://www.stencyl.com/help/view/ios-getting-started)
+* [Set up your certificates](https://www.stencyl.com/help/view/ios-certificates-guide)
+* [Being able to test your game on your device](https://www.stencyl.com/help/view/ios-getting-started)
  
 
 ## Step 1: Enter in Certificate Details
@@ -22,7 +22,7 @@ Before you can export your app, you'll need to tell Stencyl where your P12 and p
 
 Specify these two things under Game Settings > Mobile > Certificates (iOS).
 
-![](http://static.stencyl.com/help/images/ios-primer2-6.png)
+![](https://static.stencyl.com/help/images/ios-primer2-6.png)
 
 
 ## Step 2: Export an IPA
@@ -61,7 +61,7 @@ At some point, iTunes Connect will ask you to upload your game through the Appli
 
 2) From the main menu, it's found at: **Xcode > Open Developer Tool > Application Loader**
 
-![](http://static.stencyl.com/pedia2/ch11/app-loader2.png)
+![](https://static.stencyl.com/pedia2/ch11/app-loader2.png)
 
 #### Using Application Loader
 
@@ -89,4 +89,4 @@ After the Ad Hoc IPA is created, upload it to a service such as TestFlight or [p
 
 If you haven't set up your certificates properly, you'll run into problems during the IPA export process.
 
-We've devoted an entire article to [troubleshooting common issues](http://www.stencyl.com/help/view/ios-certificates-guide) with iOS, Xcode and Certificates.
+We've devoted an entire article to [troubleshooting common issues](https://www.stencyl.com/help/view/ios-certificates-guide) with iOS, Xcode and Certificates.

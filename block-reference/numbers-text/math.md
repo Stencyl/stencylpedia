@@ -6,7 +6,7 @@
 
 ### <a name="plus"></a> <a name="minus"></a> <a name="times"></a> <a name="div"></a> Add / Subtract / Multiply / Divide
 
-![arithmetic-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/arithmetic.png)
+![arithmetic-block](https://static.stencyl.com/pedia2/blocks/numbers_text/math/arithmetic.png)
 
 Adds/Subtracts/Multiplies/Divides the two provided numbers. Note that only Chuck Norris can divide by 0.
 
@@ -21,7 +21,7 @@ Adds/Subtracts/Multiplies/Divides the two provided numbers. Note that only Chuck
 
 ### <a name="neg"></a> Negate
 
-![negate number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/neg.png)
+![negate number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/neg.png)
 
 Flips the sign of the given number.
 
@@ -33,7 +33,7 @@ Flips the sign of the given number.
 
 ### <a name="mod"></a> Remainder (Modulo)
 
-![remainder of number / number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/mod.png)
+![remainder of number / number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/mod.png)
 
 Returns the integer remainder after dividing the first number by the second.
 
@@ -47,7 +47,7 @@ Returns the integer remainder after dividing the first number by the second.
 
 ### <a name="randint"></a> Random Integer
 
-![random integer between int and int](http://static.stencyl.com/pedia2/block-images/numbers-text/math/randint.png)
+![random integer between int and int](https://static.stencyl.com/pedia2/block-images/numbers-text/math/randint.png)
 
 Returns a random integer between the first and second numbers, inclusive. Provide integers for both numbers.
 
@@ -59,7 +59,7 @@ randomInt([INT], [INT])
 
 ### <a name="randomfloat"></a> Random Float Between Numbers
 
-![random float between number and number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/randomfloat.png)
+![random float between number and number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/randomfloat.png)
 
 Returns random floating point number between the first number (inclusive) and the second number (exclusive).
 
@@ -71,7 +71,7 @@ randomFloatBetween([NUMBER], [NUMBER])
 
 ### <a name="random"></a> Random Float Between Zero and One
 
-![random float between 0.0 and 1.0](http://static.stencyl.com/pedia2/block-images/numbers-text/math/random.png)
+![random float between 0.0 and 1.0](https://static.stencyl.com/pedia2/block-images/numbers-text/math/random.png)
 
 Returns a random floating point number between 0 and 1, inclusive.
 
@@ -85,7 +85,7 @@ randomFloat()
 
 ### <a name="incdec"></a> Increment / Decrement Number
 
-![increment dropdown by number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/incdec.png)
+![increment dropdown by number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/incdec.png)
 
 Adds (or subtracts) the given number to/from a **number attribute**.
 
@@ -100,7 +100,7 @@ Adds (or subtracts) the given number to/from a **number attribute**.
 
 ### <a name="abs"></a> Absolute Value
 
-![absolute value of number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/abs.png)
+![absolute value of number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/abs.png)
 
 Returns the absolute value of the given number. (If it is negative, makes it positive.)
 
@@ -112,8 +112,8 @@ Math.abs([NUMBER])
 
 ### <a name="minmax"></a> Smaller / Larger of Two Numbers
 
-![smaller-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Smaller.png)
-![larger-block](http://static.stencyl.com/pedia2/blocks/numbers_text/math/Larger.png)
+![smaller-block](https://static.stencyl.com/pedia2/blocks/numbers_text/math/Smaller.png)
+![larger-block](https://static.stencyl.com/pedia2/blocks/numbers_text/math/Larger.png)
 
 Returns the smaller (or larger) of the two numbers.
 
@@ -126,7 +126,7 @@ Math.max([NUMBER], [NUMBER])
 
 ### <a name="roundnew"></a> Round / Floor / Ceiling
 
-![round number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/roundnew.png)
+![round number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/roundnew.png)
 
 Returns the nunber as an integer, with rounding applied as follows:
 
@@ -148,7 +148,7 @@ Math.ceil([NUMBER])
 
 ### <a name="as-number"></a> Number Conversion
 
-![object as number](http://static.stencyl.com/pedia2/block-images/numbers-text/math/as-number.png)
+![object as number](https://static.stencyl.com/pedia2/block-images/numbers-text/math/as-number.png)
 
 Converts the given value (can be any type) to a number. In practice, this is mainly useful for text and booleans (where true = 1, false = 0).
 

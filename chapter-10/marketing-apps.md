@@ -1,4 +1,4 @@
-> **Note:** Looking for how to **publish** your game? Check [this article](http://www.stencyl.com/help/view/ios-app-store/) out instead.
+> **Note:** Looking for how to **publish** your game? Check [this article](https://www.stencyl.com/help/view/ios-app-store/) out instead.
 
 
 ## Contents

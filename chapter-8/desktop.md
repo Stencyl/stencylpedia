@@ -11,7 +11,7 @@
 
 Stencyl supports the creation of native, standalone apps for Windows, Mac and Linux. These apps feature hardware accelerated graphics and consequently, better performance than their web or mobile counterparts.
 
-> **Note:** Publishing desktop games is a paid feature. [Purchase a license](http://www.stencyl.com/pricing/) to access this functionality.
+> **Note:** Publishing desktop games is a paid feature. [Purchase a license](https://www.stencyl.com/pricing/) to access this functionality.
 
 
 ## Windows
@@ -53,9 +53,9 @@ To publish your game, select **Publish > Desktop > Windows** from the main menu.
 
 2. Launch Xcode, go to its Preferences, flip to the Downloads Tab and **install Command Line Tools**.
 
-  ![xcode-command-line-tools](http://static.stencyl.com/pedia2/ch11/xcode-downloads.png)
+  ![xcode-command-line-tools](https://static.stencyl.com/pedia2/ch11/xcode-downloads.png)
 
-3. If you are publishing to the Mac App Store, you must [set up your App](http://www.stencyl.com/help/view/mac-app-store/) on iTunes Connect.
+3. If you are publishing to the Mac App Store, you must [set up your App](https://www.stencyl.com/help/view/mac-app-store/) on iTunes Connect.
 
 #### Testing
 To test your game, select **Run > Mac** from the main menu.
@@ -65,13 +65,13 @@ To test your game, select **Run > Mac** from the main menu.
 #### Publishing
 When publishing for Mac, you have two options. You can publish for the **Mac App Store (.PKG)** or export the game as an **App Bundle (.APP)** for providing on a personal website.
 
-* If you are publishing to the Mac App Store, [view our dedicated article](http://www.stencyl.com/help/view/mac-app-store/) on that process.
+* If you are publishing to the Mac App Store, [view our dedicated article](https://www.stencyl.com/help/view/mac-app-store/) on that process.
 * If you are publishing an App Bundle (.APP), you can do so by selecting **Publish > Desktop > Mac** from the main menu.
 
  
 ## Linux
 
-> **Note:** We're not Linux experts, so if you run into issues or have edits to propose, please submit a pull request on Github. For additional tips, visit our [Installing on Linux](http://www.stencyl.com/help/view/install-stencyl-linux/) article.
+> **Note:** We're not Linux experts, so if you run into issues or have edits to propose, please submit a pull request on Github. For additional tips, visit our [Installing on Linux](https://www.stencyl.com/help/view/install-stencyl-linux/) article.
  
 #### Requirements and Setup
 * Ubuntu 11.04 or better
@@ -96,7 +96,7 @@ To publish your game, select **Publish > Desktop > Linux** from the main menu.
 No. You'll need to use a friend's Mac or figure out other ways to do this. The same goes for any "cross" platform combination. You can only publish to the platform of your host computer.
 
 #### Can I publish to the Mac App Store?
-Yes. We have an [article](http://www.stencyl.com/help/view/mac-app-store/) on that. 
+Yes. We have an [article](https://www.stencyl.com/help/view/mac-app-store/) on that. 
 
 #### How about the Windows Store?
 You can, but we don't directly export to a Windows Store ready format. You'll need to wrap the app up on your own.

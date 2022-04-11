@@ -12,15 +12,15 @@ Maps (also known as dictionaries) let you store and access data using names as k
 
 For example, if you wanted to make a Map that associated Stencyl members with post counts, it'd look like this.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-1.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-basics-1.png)
 
 Maps can also mix and match different types as values.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-3.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-basics-3.png)
 
 Or, you could get fancier and use Maps as the data itself.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-basics-2.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-basics-2.png)
 
 ## Maps vs. Lists
 
@@ -48,12 +48,12 @@ How do you create a Map in the first place? Maps can be attributes, so like any 
 #### Method 1: Configuring a Map attribute
 After attaching a behavior with a Map attribute to either an Actor or a Scene, you'll see this interface for adding initial data to the Map.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-setup.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-setup.png)
 
 #### Method 2: Creating a Map using blocks
 Alternatively, you can create a new Map using blocks and begin filling it up.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-setup2.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-setup2.png)
 
 
 ## Operations
@@ -89,14 +89,14 @@ Maps can be used as Game Attributes. This can be useful for defining tables and 
 #### Creating a Map as a Game Attribute
 Maps can be created as Game Attributes and pre-populated the same way as other Maps, namely only with Numbers and Text.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-gameatt.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-gameatt.png)
 
 > **Note:** You may also dump Lists & Maps into Maps at runtime as well as any other kind of data. If you plan to save your Maps out (via Game Attributes), there are restrictions. Skip down to "Saving & Maps" under Caveats.
  
 #### Setting the Value of a Game Attribute to a Map
 As you may expect, you can set the value of a Game Attribute to a Map.
 
-![](http://static.stencyl.com/pedia2/ch6/maps/maps-gameatt2.png)
+![](https://static.stencyl.com/pedia2/ch6/maps/maps-gameatt2.png)
 
 > **Note:** Assigning values simply gets the Game Attribute to "point" to your Map. No copying is done, so modifying it modifies the one and only "copy" of that Map.
  

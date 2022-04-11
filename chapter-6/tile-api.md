@@ -1,4 +1,4 @@
-> **Note:** This guide is adapted from this [ongoing forum topic](http://community.stencyl.com/index.php/topic,28260.0.html). Please [ask all of your questions](http://community.stencyl.com/index.php/topic,28260.0.html) about the Tile API in that forum discussion.
+> **Note:** This guide is adapted from this [ongoing forum topic](https://community.stencyl.com/index.php/topic,28260.0.html). Please [ask all of your questions](https://community.stencyl.com/index.php/topic,28260.0.html) about the Tile API in that forum discussion.
  
 
 ## What is the Tile API?
@@ -32,7 +32,7 @@ Layer ID numbers can be found in the Scene Designer's Layer box.
 #### Get (Column/Row) Coordinate Of (number) In Scene
 Type: Number
 
-![](http://i.imgur.com/PxUu5aE.png)
+![](https://i.imgur.com/PxUu5aE.png)
 
 This blocks produces the tilemap coordinate of a position in the scene. To get the coordinate in Rows, use a positive Y value. To get the coordinate in Columns, use a positive X value. Negative values are accepted, however they represent tile coordinates that are out-of-bounds of the scene (to the left of or above the top left corner of the scene).
 
@@ -41,7 +41,7 @@ This blocks produces the tilemap coordinate of a position in the scene. To get t
 #### Set Tile At Row: (number) Col: (number) LayerID: (number) Using TileID: (number) From TilesetID: (number)
 Type: Action
 
-![](http://i.imgur.com/W68ENgo.png)
+![](https://i.imgur.com/W68ENgo.png)
 
 This block creates a new tile in the scene at the designated coordinate and layer. The tile to be used is determined by the other two ID's given; the Tileset ID and Tile ID of the desired tile from that tileset. Note that placing a tile into the scene in this manner will create a new collision shape each time if the tile placed has a collision shape assigned to it. Significant numbers of these tiles can incur a performance penalty due to the many collision shapes
 
@@ -50,7 +50,7 @@ This block creates a new tile in the scene at the designated coordinate and laye
 #### Tile Exists At Row: (number) Col: (number) LayerID: (number)
 Type: Boolean (True/False)
 
-![](http://i.imgur.com/vRqXOyI.png)
+![](https://i.imgur.com/vRqXOyI.png)
 
 This block indicates if there is a tile of any kind at the given coordinate and layer.
 
@@ -58,7 +58,7 @@ This block indicates if there is a tile of any kind at the given coordinate and 
 #### ID For Tile At Row: (number) Col: (number) LayerID: (number)
 Type: Number
 
-![](http://i.imgur.com/AvkCA8p.png)
+![](https://i.imgur.com/AvkCA8p.png)
 
 This block produces the Tile ID for a tile at the given coordinate and layer. If there is no tile at the position, this block returns the value -1 instead.
 
@@ -67,7 +67,7 @@ This block produces the Tile ID for a tile at the given coordinate and layer. If
 #### Tile Collision Shape Found At Row: (number) Col: (number) LayerID: (number)
 Type: Boolean (True/False)
 
-![](http://i.imgur.com/XelTRZh.png)
+![](https://i.imgur.com/XelTRZh.png)
 
 This block indicates if the tile at the given coordinate and layer has a collision shape or not. If a negative value (e.g. -1) is used for the Layer ID, it will check all tile layers automatically. Note that to do so, the block must loop through all tile layers in a scene to check; doing so could incur a performance penalty.
 
@@ -76,7 +76,7 @@ This block indicates if the tile at the given coordinate and layer has a collisi
 #### Collision ID For Tile At Row: (number) Col: (number) LayerID: (number)
 Type: Number
 
-![](http://i.imgur.com/vg2cNQo.png)
+![](https://i.imgur.com/vg2cNQo.png)
 
 This block provides the numeric value of the collision ID for a tile at the given coordinate and layer. If there is no collision shape found, it will return a value of -1 instead. This includes if there is no tile, or if a tile exists but lacks a collision shape.
 
@@ -85,7 +85,7 @@ This block provides the numeric value of the collision ID for a tile at the give
 #### ID For Tile's Tileset At Row: (number) Col: (number) LayerID: (number)
 Type: Number
 
-![](http://i.imgur.com/4RgsY5D.png)
+![](https://i.imgur.com/4RgsY5D.png)
 
 This block provides the numeric value of the Tileset ID of the tile at the given coordinate and layer. If there is no tile found, it will return a value of -1 instead.
 
@@ -94,7 +94,7 @@ This block provides the numeric value of the Tileset ID of the tile at the given
 #### Remove Tile At Row: (number) Col: (number) LayerID: (number)
 Type: Action
 
-![](http://i.imgur.com/Nxind46.png)
+![](https://i.imgur.com/Nxind46.png)
 
 This block will delete the tile at the given coordinate and layer. Note that deleting a tile will only remove it's collision shape from the scene if it was added through the Tile API. If the tile was placed in Scene Designer, the tile's visual image will be removed but the collision shape will remain behind (invisible unless Debug Drawing is enabled).
 
@@ -103,4 +103,4 @@ This block will delete the tile at the given coordinate and layer. Note that del
 
 The following image demonstrates how these blocks might be combined to produce a behavior that places, or removes, a tile in the scene when the player clicks the mouse
 
-<a href="http://i.imgur.com/0U9dQ1Y.png"><img alt="Example" src="http://i.imgur.com/0U9dQ1Y.png" style="width: 800px; height: 262px;"></a>
+<a href="https://i.imgur.com/0U9dQ1Y.png"><img alt="Example" src="https://i.imgur.com/0U9dQ1Y.png" style="width: 800px; height: 262px;"></a>

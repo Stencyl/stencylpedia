@@ -38,7 +38,7 @@ If you haven't tested apps on your device before, you'll need to do a few things
 
 For some devices, especially those made by Samsung, a USB driver (called an OEM USB Driver) has to be installed for your PC/Mac to recognize your device. 
 
-Google maintains a [page](http://developer.android.com/tools/extras/oem-usb.html) that lists all of these devices out.
+Google maintains a [page](https://developer.android.com/studio/run/oem-usb) that lists all of these devices out.
 
 #### Turn on USB Debugging
 
@@ -100,10 +100,10 @@ The good news is that if you get this far, it's out of Stencyl's hands - the And
 * Make sure the device is turned on (not asleep).
 * Enable USB Debugging on the device.
 * Turn off USB Mass Storage.
-* Install the driver for your device. See: http://developer.android.com/tools/extras/oem-usb.html
+* Install the driver for your device. See: https://developer.android.com/studio/run/oem-usb
 * Unplug and replug the USB cable, particularly if your computer or the device went to sleep.
 
-If you continue to have issues, view our [forum discussion](http://community.stencyl.com/index.php/topic,20337.0.html) for additional ideas.
+If you continue to have issues, view our [forum discussion](https://community.stencyl.com/index.php/topic,20337.0.html) for additional ideas.
 
 #### My game crashes immediately on the device.
 

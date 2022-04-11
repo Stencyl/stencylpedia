@@ -14,17 +14,17 @@ In some cases, however, **fast-moving actors, such as bullets or falling objects
 
 In the physics engine, collisions are detected every step at the point where the object moves to. If the object moves into another object or a tile (as illustrated by the purple area in the image), then the physics engine pushes it back to where the collision happened initially.
 
-![Successful-collision-detection](http://static.stencyl.com/help/images/ContCollisionDetect1.png)
+![Successful-collision-detection](https://static.stencyl.com/help/images/ContCollisionDetect1.png)
 
 You never actually see what happens in the middle image, but that is what is happening behind the scenes. On the other hand, if you have a ball that is moving really quickly towards a platform, then it's possible that the two objects never actually intersect and the engine doesn't detect the collision. When this happens, the ball will pass right through. This is called **tunnelling**.
 
-![collision-detection-tunnelling-example](http://static.stencyl.com/help/images/ContCollisionDetect2.png)
+![collision-detection-tunnelling-example](https://static.stencyl.com/help/images/ContCollisionDetect2.png)
 
 The way physics engines generally solve this problem is to allow for what is called **Continuous Collision Detection (CCD)**.
 
 What this means is that when an object moves during a step, it actually checks all the positions between where it started and where it ended up. If the engine detects any objects in this path, then the engine detects a collision. This is shown in the next image, where the purple area is the object's path.
 
-![Continuous-collision-detection](http://static.stencyl.com/help/images/ContCollisionDetect3.png)
+![Continuous-collision-detection](https://static.stencyl.com/help/images/ContCollisionDetect3.png)
 
 As you can imagine, checking that entire area is significantly more **processor intensive** than checking a single spot every step. Leaving it on if you really don't need it, especially with large numbers of objects, will slow your game down.
 
@@ -42,7 +42,7 @@ Two methods let you turn CCD on/off.
 
 Located under the Physics > Advanced page for an Actor.
 
-![stencyl-enable-continuous-collision-detection-button](http://static.stencyl.com/pedia2/ch5/ccd.png)
+![stencyl-enable-continuous-collision-detection-button](https://static.stencyl.com/pedia2/ch5/ccd.png)
 
 #### Method 2: Use the Block
 

@@ -15,7 +15,7 @@ Part of game development is creating logic that not only works, but is also opti
 
 Stencyl uses Box2D for its physics engine, and the more Stencyl makes use of Box2D, the more calculations it's performing in a given step. Since collisions means the physics engine is working, more collisions means potential slowdown.
 
-![](http://static.stencyl.com/help/images/CollidingActorsPic.png)
+![](https://static.stencyl.com/help/images/CollidingActorsPic.png)
 
 To avoid this, make sure the actors that are capable of colliding have something to do with the gameplay you're going for.
 
@@ -23,7 +23,7 @@ For example, unless you want bullets in your game to act like actual bullets, yo
 
 You can change the physics settings on the **Physics > General** page for an Actor.
 
-![](http://static.stencyl.com/help/images/PhysicsSettings.png)
+![](https://static.stencyl.com/help/images/PhysicsSettings.png)
 
  
 ## Limit the number of Actors that use Always Active / Simulate
@@ -33,9 +33,9 @@ Although it's often helpful for actors to function while off screen (which is wh
  
 ## Limit the Number of Actors on Screen
 
-This can be tough when you want a game with a lot going on, but if you do need a lot of actors on screen, consider using [Images](http://www.stencyl.com/help/view/image-api) instead for actors that are decorative or "effects-like" in nature. 
+This can be tough when you want a game with a lot going on, but if you do need a lot of actors on screen, consider using [Images](https://www.stencyl.com/help/view/image-api) instead for actors that are decorative or "effects-like" in nature. 
 
-> [Images](http://www.stencyl.com/help/view/image-api) are a limited form of Actor that do not take part in the physics engine, so many more of them can exist on-screen.
+> [Images](https://www.stencyl.com/help/view/image-api) are a limited form of Actor that do not take part in the physics engine, so many more of them can exist on-screen.
  
 
 ## Avoid Expensive Calculations Every Step
@@ -56,7 +56,7 @@ Using them takes up a lot of processing power, though, so take into consideratio
 
 When you draw anything on screen, avoid drawing things on top of one another. Doing this wastes processing power since you're drawing over the same spot multiple times.
 
-![](http://static.stencyl.com/help/images/CustomDrawing.png)
+![](https://static.stencyl.com/help/images/CustomDrawing.png)
  
 
 ## Now it's your turn. Share your tips.

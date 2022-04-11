@@ -1,4 +1,4 @@
-> [Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
+> [Part 1 (Intro)](https://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](https://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](https://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](https://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](https://www.stencyl.com/help/viewArticle/147/)
 
 ## Customizing Actors (Part 3 of 5)
 We’ve already got some Actor Types in our game, but they aren’t very interesting yet, as without Behaviors, Actor Types can’t do very much.
@@ -6,7 +6,7 @@ We’ve already got some Actor Types in our game, but they aren’t very interes
 ### Creating an “Enemies” Group
 Before we jump into customizing our actors, let’s quickly create a **Group** to categorize our enemies into.
 
-> **Definition:** **Groups** are used to determine what kinds of Actor Types collide with each other. Groups can also allow you to treat different classes of Actor Types differently. We've got an [entire article](http://www.stencyl.com/help/view/collisions-and-groups/) devoted to Groups and how they affect collisions.
+> **Definition:** **Groups** are used to determine what kinds of Actor Types collide with each other. Groups can also allow you to treat different classes of Actor Types differently. We've got an [entire article](https://www.stencyl.com/help/view/collisions-and-groups/) devoted to Groups and how they affect collisions.
 
 1) Click on the **Settings** button in the toolbar. The **Game Settings** window should appear. This is where practically all of your game-wide settings are configured.
 
@@ -68,7 +68,7 @@ If you haven’t closed the **Noni** Actor Type yet, click its tab to select it.
 
 7) We’re taken back to the Behaviors page of Noni. Notice the addition of the Walking Behavior in the list on the left, as well as all of its configurable **Attributes** in the main pane.
 
-> **Definition:** **Attributes** are customizable values that make Behaviors reusable and easy to modify. For more about Attributes, see our [introductory article](http://www.stencyl.com/help/view/attributes/) about them.
+> **Definition:** **Attributes** are customizable values that make Behaviors reusable and easy to modify. For more about Attributes, see our [introductory article](https://www.stencyl.com/help/view/attributes/) about them.
 
 ![Walking](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-23.png)
 
@@ -128,6 +128,6 @@ Here are all the Behaviors you should have added to Noni:
 
 ***
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/146/">Continue to Part 4 &rarr;</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/viewArticle/146/">Continue to Part 4 &rarr;</a>
 
 ***

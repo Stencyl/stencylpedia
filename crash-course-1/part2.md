@@ -1,4 +1,4 @@
-> [Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
+> [Part 1 (Intro)](https://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](https://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](https://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](https://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](https://www.stencyl.com/help/viewArticle/147/)
 
 ## Game Resources (Part 2 of 5)
 
@@ -75,7 +75,7 @@ Let’s just take a quick peek inside one of these Behaviors. Double-click on **
 
 ![Design Mode](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/crash-course-1/images/crash-course-15.png)
 
-There’s a lot going on here, and we’ll talk about it further later on. **Design Mode** is a powerful tool that makes designing complex logic quite straightforward. We have a [whole tutorial](http://www.stencyl.com/help/view/working-with-behaviors/) dedicated to helping you learn the workings of this editor. For now though, just know that it exists.
+There’s a lot going on here, and we’ll talk about it further later on. **Design Mode** is a powerful tool that makes designing complex logic quite straightforward. We have a [whole tutorial](https://www.stencyl.com/help/view/working-with-behaviors/) dedicated to helping you learn the workings of this editor. For now though, just know that it exists.
 
 > **Note:** Prefer typing code instead? We offer two ways to add code to your games: a dedicated Code Editor (or hooks to use your favorite text editor) and special Code Blocks that let you insert code into Design Mode.
 
@@ -86,6 +86,6 @@ When you’re working on your game, it’s a very good idea to **save frequently
 
 ***
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/145/">Continue to Part 3 &rarr;</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/viewArticle/145/">Continue to Part 3 &rarr;</a>
 
 ***

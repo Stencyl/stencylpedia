@@ -67,7 +67,7 @@ Google does not allow you to click on live ads when testing your game so you hav
 
 #### Displaying the Banner Ad
 
-To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [iOS Ads](http://www.stencyl.com/help/view/iads/) guide, you'll notice that this is the same block.
+To display an ad, you must tell the ad to show. This is done using the **show/hide ad block** (under Game > Mobile). If you've read our [iOS Ads](https://www.stencyl.com/help/view/iads/) guide, you'll notice that this is the same block.
 
 ![ad-show-hide](http://byrobin.nl/stencyl/admob/admob_banner_showhide.png)
 
@@ -120,7 +120,7 @@ The banner ad area fails to load | Called when no banner ads can be loaded
 A banner ad is clicked | User clicks on the banner ad
 
 
-> **Tip:** We recommend [pausing](http://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
+> **Tip:** We recommend [pausing](https://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
 ![ad-events](http://byrobin.nl/stencyl/admob/admob_banner_event.png)
 
 ### Interstitial Ads Events
@@ -133,7 +133,7 @@ The fullscreen ad area loads | Called each time an Interstitial ad loads
 The fullscreen ad area fails to load | Called when no Interstitial ads can be loaded
 A fullscreen ad is clicked | User clicks on the Interstitial ad
 
-> **Tip:** We recommend [pausing](http://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
+> **Tip:** We recommend [pausing](https://www.stencyl.com/help/view/pausing/) the game when an ad is clicked on and resuming it when the ad is dismissed. If you don't do this, the game will continue to run while the ad is overlayed over everything else.
 
 ![ad-events-interstitial-clicked](http://byrobin.nl/stencyl/admob/admob_interstitial_event_clicked.png)
 
@@ -155,12 +155,12 @@ This block has a dropdown option that decides whether to check the existing cons
 
 Officially, Stencyl only supports AdMob on Android. Through free, user-created extensions, other ad networks besides AdMob are supported. These include...
 
-* [Facebook Ads](http://community.stencyl.com/index.php/topic,41144.0.html)
-* [Ad Colony](http://community.stencyl.com/index.php/topic,40370.0.html)
-* [RevMob](http://community.stencyl.com/index.php/topic,24331.0.html)
-* [Chartboost](http://community.stencyl.com/index.php/topic,25006.0.html)
+* [Facebook Ads](https://community.stencyl.com/index.php/topic,41144.0.html)
+* [Ad Colony](https://community.stencyl.com/index.php/topic,40370.0.html)
+* [RevMob](https://community.stencyl.com/index.php/topic,24331.0.html)
+* [Chartboost](https://community.stencyl.com/index.php/topic,25006.0.html)
 
-Check out our [Extensions Market](http://www.stencyl.com/developers/market/) and [Extensions Forum](http://community.stencyl.com/index.php/board,70.0.html) for more details.
+Check out our [Extensions Market](https://www.stencyl.com/developers/market/) and [Extensions Forum](https://community.stencyl.com/index.php/board,70.0.html) for more details.
 
 ## FAQ
 

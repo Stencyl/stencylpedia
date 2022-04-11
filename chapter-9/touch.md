@@ -19,7 +19,7 @@ Mobile apps are driven by touching, tapping and other gestures. Stencyl exposes 
 
 Single-touch is handled **using the mouse blocks**. In other words, treat touch just like using the mouse.
 
-![mouse-blocks](http://static.stencyl.com/help/images/mobile-input-1.png)
+![mouse-blocks](https://static.stencyl.com/help/images/mobile-input-1.png)
 
 Mouse Action | Touch Action
 --- | ---
@@ -32,7 +32,7 @@ Y of Mouse | Y of Touch
 
 If you prefer to use Events, the analogous Mouse Events do the same thing.
 
-![mouse-events](http://static.stencyl.com/help/images/mobile-input-2.png)
+![mouse-events](https://static.stencyl.com/help/images/mobile-input-2.png)
 
 
 ## Multi-Touch
@@ -41,7 +41,7 @@ For many games, single-touch is sufficient, but for some games, it's necessary t
 
 Stencyl supports multi-touch exclusively through an event.
 
-![multitouch-event](http://static.stencyl.com/help/images/mobile-input-3.png)
+![multitouch-event](https://static.stencyl.com/help/images/mobile-input-3.png)
 
 This event is triggered **any time a touch begins, is dragged around or ends**. Using the **ID of touch block**, which maintains the same value throughout the lifecycle of a touch, you can refer to that touch and act accordingly. 
 
@@ -60,8 +60,8 @@ In other words, when multi-touch is enabled, count on using multi-touch blocks a
 
 In this example, the player can move some objects independently of each other using multi-touch.
 
-* [Download the Demo](http://community.stencyl.com/index.php?action=dlattach;topic=16105.0;attach=14613) 
-* [Discuss the Demo](http://community.stencyl.com/index.php/topic,16105.0.html)
+* [Download the Demo](https://community.stencyl.com/index.php?action=dlattach;topic=16105.0;attach=14613) 
+* [Discuss the Demo](https://community.stencyl.com/index.php/topic,16105.0.html)
 
 > **Tip:** Are you just looking to implement virtual, on-screen buttons? Grab the On Screen Button behavior from StencylForge, which uses multi-touch in its implementation.
 
@@ -70,16 +70,16 @@ In this example, the player can move some objects independently of each other us
 
 Swiping is a gesture in which the player presses a finger on screen and drags it in one direction. It is commonly used to scroll through menus or trigger certain actions.
 
-![swipe](http://static.stencyl.com/help/images/mobile-input-4.png)
+![swipe](https://static.stencyl.com/help/images/mobile-input-4.png)
 
 #### Swipe Event
 In Stencyl, the preferred way to detect a swipe is through a Swipe event, accessed via **Add Event > Input > Swipe**.
 
-![swipe-event](http://static.stencyl.com/help/images/mobile-input-5.png)
-![swipe-event](http://static.stencyl.com/help/images/mobile-input-6.png)
+![swipe-event](https://static.stencyl.com/help/images/mobile-input-5.png)
+![swipe-event](https://static.stencyl.com/help/images/mobile-input-6.png)
 
 #### Swipe Block
 If you prefer to use a block to check for this instead, you can find one under User Input > Mobile-Only.
 
-![swipe-block](http://static.stencyl.com/help/images/mobile-input-7.png)
+![swipe-block](https://static.stencyl.com/help/images/mobile-input-7.png)
 

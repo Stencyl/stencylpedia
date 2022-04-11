@@ -45,4 +45,4 @@ If something goes wrong, frequently, the app will appear to download when then e
 * You used the App Store profile rather than the Ad Hoc one.
 * The profile has expired.
 
-More potential causes exist - check our [Troubleshooting guide](http://www.stencyl.com/help/view/xcode-ios-troubleshoot/) for more ideas.
+More potential causes exist - check our [Troubleshooting guide](https://www.stencyl.com/help/view/xcode-ios-troubleshoot/) for more ideas.

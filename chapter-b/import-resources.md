@@ -28,28 +28,28 @@ The remainder of this article links to articles that talk specifically about how
 
 Animations are visual states for Actors.
 
-Read our [article on Animations](http://www.stencyl.com/help/view/animations/) to learn how to import them.
+Read our [article on Animations](https://www.stencyl.com/help/view/animations/) to learn how to import them.
 
  
 ## Importing Tilesets
 
 Tilesets are collections of Tiles, the **building blocks** for scenes/levels.
 
-Read our [article on Tilesets & Tiles](http://www.stencyl.com/help/view/tiles/) to learn how to import them.
+Read our [article on Tilesets & Tiles](https://www.stencyl.com/help/view/tiles/) to learn how to import them.
 
 
 ## Importing Backgrounds
 
 Backgrounds are **large images** that usually scroll alongside a scene, either entirely behind or in front of a scene.
 
-Read our [article on Backgrounds](http://www.stencyl.com/help/view/backgrounds-and-foregrounds/) to learn how to import them.
+Read our [article on Backgrounds](https://www.stencyl.com/help/view/backgrounds-and-foregrounds/) to learn how to import them.
 
 
 ## Importing Sounds
 
 Sounds represent clips of sound effects or entire music tracks.
 
-Read our [article on Sounds](http://www.stencyl.com/help/view/playing-sounds-and-music/) to learn how to import them.
+Read our [article on Sounds](https://www.stencyl.com/help/view/playing-sounds-and-music/) to learn how to import them.
 
  
 ## Importing Behaviors
@@ -61,4 +61,4 @@ Besides creating new behaviors on your own, Behaviors can come in from two sourc
 
 To **import Behaviors from your computer**, click **Import...** in the top toolbar and pick out the Behavior. Behaviors are PNG files embedded with metadata.
 
-To import a **pre-shipped behavior**, [read this article](http://www.stencyl.com/help/view/pre-shipped-behaviors/).
+To import a **pre-shipped behavior**, [read this article](https://www.stencyl.com/help/view/pre-shipped-behaviors/).

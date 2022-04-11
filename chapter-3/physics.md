@@ -17,7 +17,7 @@ Stencyl uses an industry-standard physics engine (**Box2D**) in all its games. W
 
 How realistic? Try out the following demo.
 
-<a href="http://www.stencyl.com/game/play/10715">![Ragdoll Demo](http://static.stencyl.com/pedia2/ch3/ragdoll.png)</a>
+<a href="https://www.stencyl.com/game/play/10715">![Ragdoll Demo](https://static.stencyl.com/pedia2/ch3/ragdoll.png)</a>
 
  
 > **Note:** The rest of this article is a reference guide for an actor's Physics page. If you're skimming or are a first timer, read through these sections and skip the others for now. They are the most important! 
@@ -83,14 +83,14 @@ Friction determines the "roughness" of the Actor's surface. A high friction will
 
 In real-life high friction surfaces would include dirt and sandpaper. Low-friction surfaces could include ice and glass.
 
-<a href="http://static.stencyl.com/pedia2/ch3/physics/Friction.swf">![Friction Demo](http://static.stencyl.com/pedia2/ch3/physics/demo3.png)</a>
+<a href="https://static.stencyl.com/pedia2/ch3/physics/Friction.swf">![Friction Demo](https://static.stencyl.com/pedia2/ch3/physics/demo3.png)</a>
 
 > **Demo Note:** In this demo, press left/right and lift your key off. Observe that one actor stops moving quickly (high friction) and the other keeps moving, as if he were on ice.
  
 #### Bounciness
 Setting bounciness to a value of 1.0 means an actor will bounce back to the same height it fell from, whereas a value of 0.0 means it won't bounce at all.
 
-<a href="http://static.stencyl.com/pedia2/ch3/physics/Bounciness.swf">![Bounce Demo](http://static.stencyl.com/pedia2/ch3/physics/demo2.png)</a>
+<a href="https://static.stencyl.com/pedia2/ch3/physics/Bounciness.swf">![Bounce Demo](https://static.stencyl.com/pedia2/ch3/physics/demo2.png)</a>
 
 > **Demo Note:** Demo Note: In this demo, the balls bounce differently depending on their bounciness. The one with bounciness = 1 bounces back to the same height.
  
@@ -109,7 +109,7 @@ Damping is a difficult topic to visualize. It's a form of resistance against mot
 #### Linear Damping
 Linear Damping is like wind or **air resistance**. It grows stronger as your Actor moves more quickly to the point where the Damping is so strong that the Actor is unable to move any faster. This is known as Terminal Velocity.
 
-<a href="http://static.stencyl.com/pedia2/ch3/physics/Damping.swf">![Damping Demo](http://static.stencyl.com/pedia2/ch3/physics/demo4.png)</a>
+<a href="https://static.stencyl.com/pedia2/ch3/physics/Damping.swf">![Damping Demo](https://static.stencyl.com/pedia2/ch3/physics/demo4.png)</a>
 
 #### Angular Damping
 **Angular Damping is the same idea, except applied to rotation**. It puts an effective cap on how fast an Actor can rotate and smooths out things if you find your Actor to rotate too quickly when subjected to twisting (angular forces).
@@ -118,29 +118,29 @@ Linear Damping is like wind or **air resistance**. It grows stronger as your Act
 ## Advanced Tab
 
 #### Disable Physics
-Let you opt this Actor out of physics. We talk about this further in the [next section](http://www.stencyl.com/help/view/working-with-physics/#lightweight).
+Let you opt this Actor out of physics. We talk about this further in the [next section](https://www.stencyl.com/help/view/working-with-physics/#lightweight).
 
 > **Note:** Collisions for this Actor will also cease to function when you do this.
  
 #### Auto-Scale Collision Bounds
 Choosing "Yes" for this option will automatically re-size your Actor's collision bounds when you resize the Actor using the "scale to" Tweening block. Choosing "No" means the collision bounds will stay the same regardless of what happens to the Actor.
 
-![](http://static.stencyl.com/pedia2/ch3/physics/image00.png)
+![](https://static.stencyl.com/pedia2/ch3/physics/image00.png)
 
-<a href="http://static.stencyl.com/pedia2/ch3/physics/Auto-Scale%20Collision%20Bounds.swf">![Scale Bounds Demo](http://static.stencyl.com/pedia2/ch3/physics/demo1.png)</a>
+<a href="https://static.stencyl.com/pedia2/ch3/physics/Auto-Scale%20Collision%20Bounds.swf">![Scale Bounds Demo](https://static.stencyl.com/pedia2/ch3/physics/demo1.png)</a>
 
 > **Demo Note:** Notice that the actor on the right remains at the same collision size.
  
 #### Enable Continuous Collisions
 Enable this setting to prevent this Actor, if it moves quickly enough, from penetrating through thin surfaces, like shown below. This setting is useful for small and quick actors, such as bullets, arrows and other weapons. 
 
-![CCD](http://static.stencyl.com/help/images/ContCollisionDetect3.png)
+![CCD](https://static.stencyl.com/help/images/ContCollisionDetect3.png)
 
-[Learn more](http://www.stencyl.com/help/view/continuous-collision-detection/) about Continuous Collisions.
+[Learn more](https://www.stencyl.com/help/view/continuous-collision-detection/) about Continuous Collisions.
 
 
 #### Can be paused?
-Opts an Actor in/out of the [Pausing](http://www.stencyl.com/help/view/pausing/) system.
+Opts an Actor in/out of the [Pausing](https://www.stencyl.com/help/view/pausing/) system.
 
  
 ## Lightweight Actors
@@ -164,7 +164,7 @@ Bear in mind that when you turn off physics, the actor **no longer collides with
 
 Going with lightweight actors can be a game-saving choice if done right, but you need to understand its limitations.
 
-> **Note:** [Images](http://www.stencyl.com/help/view/image-api) are arguably a more powerful form of lightweight actor. They are more difficult to setup and have a different set of limitations, but they work particularly well for creating special effects and eye-candy.
+> **Note:** [Images](https://www.stencyl.com/help/view/image-api) are arguably a more powerful form of lightweight actor. They are more difficult to setup and have a different set of limitations, but they work particularly well for creating special effects and eye-candy.
 
  
 ## Gotchas
@@ -172,21 +172,21 @@ Going with lightweight actors can be a game-saving choice if done right, but you
 #### Snagging
 Sometimes, an actor will get caught in the corner of a box and be unable to move further. In a similar scenario, a jumping actor who jumps right next to a wall versus a little bit off the wall will find his jump to be shorter.
 
-![Snagging](http://static.stencyl.com/pedia2/ch3/physics/image02.png)
+![Snagging](https://static.stencyl.com/pedia2/ch3/physics/image02.png)
 
 The reasons behind this are quite technical, but the workarounds are less so. The easiest workaround is to redo the actor's collision shape as...
 
 * A circle.
-* A box with its corners chopped off slightly or some other means to avoid the sharp 90 degree corners. We did this for a Mario-like platformer and made an **octagon**.<br/><br/>![](http://static.stencyl.com/pedia2/ch3/physics/image01.png)
+* A box with its corners chopped off slightly or some other means to avoid the sharp 90 degree corners. We did this for a Mario-like platformer and made an **octagon**.<br/><br/>![](https://static.stencyl.com/pedia2/ch3/physics/image01.png)
 
 #### My actors don't collide!
 Several legitimate reasons for this.
 
 * The two actors are set to "Cannot Move", "Cannot Be Pushed" or a combination of the two. This is just the way Box2D works and can catch you off guard.
  
-* Did you make sure the actors aren't set as [Sensors](http://www.stencyl.com/help/view/collisions-and-groups/#sensors)?<br/><br/>![Sensors](http://static.stencyl.com/pedia2/ch3/collisions/image13.png)<br/>
+* Did you make sure the actors aren't set as [Sensors](https://www.stencyl.com/help/view/collisions-and-groups/#sensors)?<br/><br/>![Sensors](https://static.stencyl.com/pedia2/ch3/collisions/image13.png)<br/>
 
-* Did you make sure that the actors are from a pair of [Groups](http://www.stencyl.com/help/view/collisions-and-groups/#groups) that are to collide with each other?<br/><br/>![Groups](http://static.stencyl.com/pedia2/ch3/collisions/image14.png)
+* Did you make sure that the actors are from a pair of [Groups](https://www.stencyl.com/help/view/collisions-and-groups/#groups) that are to collide with each other?<br/><br/>![Groups](https://static.stencyl.com/pedia2/ch3/collisions/image14.png)
 
 
 ## Summary

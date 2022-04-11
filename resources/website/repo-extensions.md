@@ -7,7 +7,7 @@ Repositories are collections of related extensions (both toolset and engine) tha
 
 Name | Repository URL | Author | Description
 --- | --- | --- | ---
-[Polydes](http://community.stencyl.com/index.php/board,144.0.html) | http://www.polydes.com/repo | Justin | A collection of open-source extensions including dialog, data structures and more.
+[Polydes](https://community.stencyl.com/index.php/board,144.0.html) | http://www.polydes.com/repo | Justin | A collection of open-source extensions including dialog, data structures and more.
 [Mazeland](http://www.mazeland.net/repo/) | http://www.mazeland.net/repo | mdotedot | Extensions for creating multiplayer games.
 
 

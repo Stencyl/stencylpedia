@@ -22,7 +22,7 @@ After a brief wait, your SWF will export. That's it!
 
 ## Publish to the Stencyl Arcade
 
-In addition to publishing a SWF, you can publish your game directly to our [Arcade](http://www.stencyl.com/game/) to share it with the community and receive useful feedback.
+In addition to publishing a SWF, you can publish your game directly to our [Arcade](https://www.stencyl.com/game/) to share it with the community and receive useful feedback.
 
 To publish to our Arcade, go to **Publish > Stencyl > Arcade** in the main menu.
 
@@ -35,7 +35,7 @@ This will generate the SWF and automatically upload it to our site. If you've al
 
 Every Flash game published with Stencyl displays a small badge in the loading screen.
 
-If you'd like to remove this branding (because a sponsor requires it, for example), [purchase a license](http://www.stencyl.com/pricing/), which includes many other benefits besides splash screen removal.
+If you'd like to remove this branding (because a sponsor requires it, for example), [purchase a license](https://www.stencyl.com/pricing/), which includes many other benefits besides splash screen removal.
 
  
 ## Site Locking
@@ -46,7 +46,7 @@ This can be deterred through **site locking**, a feature that prevents the game 
 
 1. In the Settings dialog with your game open, click on **Loader** button on the left sidebar.
 
-  ![Settings Loader Button](http://static.stencyl.com/help/images/Settings-PreloaderPic-SiteLock.png)
+  ![Settings Loader Button](https://static.stencyl.com/help/images/Settings-PreloaderPic-SiteLock.png)
 
 2. Fill in the sites **that you want the game to work on**. If you have multiple, put a comma between them. Do not insert any white space.
 
@@ -54,7 +54,7 @@ This can be deterred through **site locking**, a feature that prevents the game 
 kongregate.com,newgrounds.com
 ```
 
-  ![site lock](http://static.stencyl.com/pedia2/ch7/flash/image0.png)
+  ![site lock](https://static.stencyl.com/pedia2/ch7/flash/image0.png)
 
  
 ## Reducing File Size
@@ -74,7 +74,7 @@ On occasion, your game will fail to export with no obvious error.
 The first rule when encountering this is to **enable the Log Viewer (View > Log Viewer)**. Retry the export, and you can see if any errors pop up towards the bottom.
 
 #### In many cases, it's due to an incompatible sound.
-If you remove sounds from your game until it successfully exports, you can identify which sound is at fault. Once you do, a safe solution is simply to re-export it from a program such as Audacity while taking heed of the [basic requirements](http://www.stencyl.com/help/viewArticle/115/) of sounds that we talked about in the Sounds article.
+If you remove sounds from your game until it successfully exports, you can identify which sound is at fault. Once you do, a safe solution is simply to re-export it from a program such as Audacity while taking heed of the [basic requirements](https://www.stencyl.com/help/viewArticle/115/) of sounds that we talked about in the Sounds article.
 
 * 44.1 KHz
 * 16-bit
@@ -85,4 +85,4 @@ If you remove sounds from your game until it successfully exports, you can ident
 A second, less common cause is that the game is able to export to a SWF (you get a file chooser dialog) but fails to write the SWF out to the location you picked. This can be caused by insufficient file permissions. Choose a directory to which you can save files out to.
 
 #### Still stuck? Ask for help on the forums.
-Describe the problem and attach your logs on the [forums](http://community.stencyl.com/index.php/board,3.0.html).
+Describe the problem and attach your logs on the [forums](https://community.stencyl.com/index.php/board,3.0.html).

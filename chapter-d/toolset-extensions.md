@@ -3,25 +3,25 @@
 <td width="180" valign="top" style="border:0px;">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
-<li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
-<li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
+<li><a href="https://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Advanced Topics</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
-<li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
-<li><a href="http://static.stencyl.com/api/33/">API</a></li>
+<li><a href="https://www.stencyl.com/help/view/native-events/">Native Events</a></li>
+<li><a href="https://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
+<li><a href="https://static.stencyl.com/api/33/">API</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Toolset Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
+<li><a href="https://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
 <li><a href="http://api.stencyl.com/extensions/">API</a></li>
 </ul>
 </td>
@@ -48,9 +48,9 @@ Extensions are small applications or controls that add new functionality to Sten
 
 #### Our Best Extension - Dialog System
 
-The most notable extension created with Stencyl at the moment is the [Dialog Extension](http://dialogextension.com/), a powerful, easy to use dialog system that supports pretty much every feature you'd need.
+The most notable extension created with Stencyl at the moment is the [Dialog Extension](https://dialogextension.com/), a powerful, easy to use dialog system that supports pretty much every feature you'd need.
 
-![dialog-extension](http://static.stencyl.com/pedia2/ch4/text/dialog.png)
+![dialog-extension](https://static.stencyl.com/pedia2/ch4/text/dialog.png)
  
 #### What do you need to know?
 
@@ -61,11 +61,11 @@ Although we provide an API that makes it simple to build a GUI with no Swing kno
 
 #### Can ___ be an extension?
 
-As long as the extension has something to do with Stencyl, it's generally doable. If you're looking to extend the engine, [look here](http://www.stencyl.com/help/view/how-to-create-engine-extension) instead.
+As long as the extension has something to do with Stencyl, it's generally doable. If you're looking to extend the engine, [look here](https://www.stencyl.com/help/view/how-to-create-engine-extension) instead.
 
 For source code examples of existing extensions, you can see the [polydes](https://github.com/justin-espedal/polydes) collection of extensions.
 
-If you have an idea for an extension but you need some new hooks, callbacks, or capabilities on Stencyl's side, [let us know](http://community.stencyl.com/index.php/topic,3491.0.html) and we'd be happy to work together to bring your extension to life!
+If you have an idea for an extension but you need some new hooks, callbacks, or capabilities on Stencyl's side, [let us know](https://community.stencyl.com/index.php/topic,3491.0.html) and we'd be happy to work together to bring your extension to life!
 
 ## Concepts - Hooks and Callbacks
 
@@ -153,10 +153,10 @@ Extension-Internal-Version | 1 (increasing this causes `updateFromVersion` to be
 
 ## Publishing an Extension
 
-Extensions are distributed through our [Developer Center](http://www.stencyl.com/developers/market/). Extensions must be manually approved to show up on that site. To do this, you must do two things.
+Extensions are distributed through our [Developer Center](https://www.stencyl.com/developers/market/). Extensions must be manually approved to show up on that site. To do this, you must do two things.
 
-1. Post your extension on the [Forums](http://community.stencyl.com/index.php/board,11.0.html) for a community review.
-2. If the community response is positive, we may post up your extension without any action on your part. If not, [contact us](http://www.stencyl.com/about/contact/) and point out your forum topic.
+1. Post your extension on the [Forums](https://community.stencyl.com/index.php/board,11.0.html) for a community review.
+2. If the community response is positive, we may post up your extension without any action on your part. If not, [contact us](https://www.stencyl.com/about/contact/) and point out your forum topic.
 
 Include the following details in the forum topic.
 

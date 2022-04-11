@@ -23,19 +23,19 @@ This article will cover the basics of importing and working with tiles.
 
 Go to this menu item: **File > Create New > Tileset**
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/image01.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/image01.png)
 
  
 #### Step 2 - Name It
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-import-1.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tileset-import-1.png)
 
  
 #### Step 3 - Import the Tile Sheet
 
 You'll now see this window.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-import-2.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tileset-import-2.png)
 
 1. Click **Choose Image** to pick out the tile sheet you want to import. *(You can also copy it to the clipboard and paste it in.)*
 
@@ -56,7 +56,7 @@ The Tileset Editor is split into two parts.
 
 * Clicking on a tile will display information about the tile on the right. You can choose the tile's collision shape and animate it, if you wish.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-overview.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tileset-overview.png)
 
  
 
@@ -69,13 +69,13 @@ Now that you've uploaded your tileset, you will want to set the collision shapes
 
 Picking a shape is simple - **just click on any entry within the Collision Bounds pane**. This even works when multiple tiles are selected (click and drag to select multiple tiles in the left pane).
 
-![](http://static.stencyl.com/help/images/SetTriangleCollision.png)
+![](https://static.stencyl.com/help/images/SetTriangleCollision.png)
 
 If you prefer to make a custom shape, click the + button. You'll get a choice between creating a box (rectangle) or a convex polygon.
 
-![](http://static.stencyl.com/help/images/BoxCollision.png) ![](http://static.stencyl.com/help/images/PolygonCollision.png)
+![](https://static.stencyl.com/help/images/BoxCollision.png) ![](https://static.stencyl.com/help/images/PolygonCollision.png)
 
-To learn more about tile collision shapes and how to define custom shapes, view our [Setting Tile Collision Shapes](http://www.stencyl.com/help/viewArticle/37/) article.
+To learn more about tile collision shapes and how to define custom shapes, view our [Setting Tile Collision Shapes](https://www.stencyl.com/help/viewArticle/37/) article.
  
 
 ## Animated Tiles
@@ -84,13 +84,13 @@ Some games use Animated Tiles to bring a scene to life. Here's how you convert a
 
 1. Open up a Tileset.
 
-2. Click on the Tile you'd like to animate in the left pane.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/tiles/animated-tile-2.png)<br/>
+2. Click on the Tile you'd like to animate in the left pane.<br/><br/>![](https://static.stencyl.com/pedia2/ch4/tiles/animated-tile-2.png)<br/>
 
 3. You'll now see information in the right-hand pane. The bottom part of this pane should look familiar. **It's the same as the one you use for managing an Actor's animations.**
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/animated-tile.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/animated-tile.png)
 
-From this point, it's the same process and user interface as working with [Actor Animations](http://www.stencyl.com/help/view/animations/). As a refresher, you...
+From this point, it's the same process and user interface as working with [Actor Animations](https://www.stencyl.com/help/view/animations/). As a refresher, you...
 
 1. Import frames from an image strip/sheet.
 2. Edit the frame durations, if necessary.
@@ -101,11 +101,11 @@ From this point, it's the same process and user interface as working with [Actor
 #### Adding/Removing Rows & Columns
 You can alter a tileset's row and column count by clicking directly on the row and column headers.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/image00.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/image00.png)
 
 #### Adding and Replacing Tiles
 
-![](http://static.stencyl.com/help/images/add-replace-tiles.png)
+![](https://static.stencyl.com/help/images/add-replace-tiles.png)
 
 The following operations are available for editing the tileset image:
 
@@ -126,17 +126,17 @@ You can drag and drop tiles to rearrange them. Here's how.
 
 1) With the **Select Tiles mode** active, select the tile(s) you wish to move. In this example, we've selected some tiles in row 1.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd1.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd1.png)
 
 2) Now, switch to the Move Tiles mode.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd2.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd2.png)
 
 > You can use the "s" and "m" keys as hotkeys for the "select" and "move" operations.
 
 3) **Drag and drop** your selection to the desired location. This will **perform a swap** between the tiles you have selected and the tiles in the desired location.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd3.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tileset-dnd3.png)
 
 > In this example, we've moved the tiles 3 positions over from their original position.
 
@@ -145,23 +145,23 @@ You can select multiple tiles at a time by clicking and dragging a box over thos
 
 You can edit multiple collision bounds at the same time, a major time saver. As described above, you can also move/rearrange multiple tiles at a time.
 
-![](http://static.stencyl.com/features/tileset-3.2.png)
+![](https://static.stencyl.com/features/tileset-3.2.png)
 
 #### Tile Metadata
 You can tag tiles with textual data that can be accessed during game. For example, a lava tile could convey that it's deadly to the touch, or a healing tile in an RPG could heal the character passing over it.
 
-![](http://static.stencyl.com/pedia2/ch4/tiles/tile-metadata.png)
+![](https://static.stencyl.com/pedia2/ch4/tiles/tile-metadata.png)
 
 To access this data from a behavior, you can use one of two methods.
 
-1. Use the **data for tile** block under **Scene > World > Tile API**.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/tiles/tile-metadata-2.png)<br/>
+1. Use the **data for tile** block under **Scene > World > Tile API**.<br/><br/>![](https://static.stencyl.com/pedia2/ch4/tiles/tile-metadata-2.png)<br/>
 
-2. Use the **data for collided tile** block under **Collision > Collision Points**.<br/><br/>![](http://static.stencyl.com/pedia2/ch4/tiles/tile-metadata-3.png)<br/>
+2. Use the **data for collided tile** block under **Collision > Collision Points**.<br/><br/>![](https://static.stencyl.com/pedia2/ch4/tiles/tile-metadata-3.png)<br/>
 
 
 ## Mobile Games & Tilesets
 
-If you've worked with mobile games, you'll know by now that all graphics should be [imported at quadruple the standard resolution](http://www.stencyl.com/help/view/mobile-app-scaling/), in order to support larger resolution displays and tablets.
+If you've worked with mobile games, you'll know by now that all graphics should be [imported at quadruple the standard resolution](https://www.stencyl.com/help/view/mobile-app-scaling/), in order to support larger resolution displays and tablets.
 
 Tilesets follow this same rule.
 
@@ -183,7 +183,7 @@ Tilesets follow this same rule.
 
 ## The Tile API
 
-What if you want to change a scene's terrain at runtime? For example, you're making a game with automatically-generated dungeons. Use the [Tile API](http://www.stencyl.com/help/view/tile-api), a special set of blocks, to accomplish this.
+What if you want to change a scene's terrain at runtime? For example, you're making a game with automatically-generated dungeons. Use the [Tile API](https://www.stencyl.com/help/view/tile-api), a special set of blocks, to accomplish this.
  
 
 ## Summary

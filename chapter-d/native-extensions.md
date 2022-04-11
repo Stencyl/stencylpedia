@@ -3,25 +3,25 @@
 <td width="180" valign="top" style="border:0px;">
 <h5>Engine Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
-<li><a href="http://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
-<li><a href="http://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-engine-extension/">The Basics</a></li>
+<li><a href="https://www.stencyl.com/help/view/how-to-create-native-engine-extension/">iOS / Android</a></li>
+<li><a href="https://www.stencyl.com/help/view/flash-extensions/">Flash</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Advanced Topics</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/native-events/">Native Events</a></li>
-<li><a href="http://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
-<li><a href="http://static.stencyl.com/api/33/">API</a></li>
+<li><a href="https://www.stencyl.com/help/view/native-events/">Native Events</a></li>
+<li><a href="https://www.stencyl.com/help/view/adding-blocks/">Custom Blocks</a></li>
+<li><a href="https://static.stencyl.com/api/33/">API</a></li>
 </ul>
 </td>
 <td width="30" style="border:0px;"></td>
 <td width="180" valign="top" style="border:0px;">
 <h5>Toolset Extensions</h5>
 <ul class="pedia-links">
-<li><a href="http://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
+<li><a href="https://www.stencyl.com/help/view/creating-extensions/">Main Guide</a></li>
 <li><a href="http://api.stencyl.com/extensions/">API</a></li>
 </ul>
 </td>
@@ -54,7 +54,7 @@ These extensions accomplish this by getting **pointers** to those native functio
 
 #### Before You Begin
 
-* Read our [article](http://www.stencyl.com/help/view/how-to-create-engine-extension/) on Engine Extensions.
+* Read our [article](https://www.stencyl.com/help/view/how-to-create-engine-extension/) on Engine Extensions.
 
 * Check out the **test-native** extension (under [WORKSPACE]/engine-extensions) to familiarize yourself with the parts. **test-native** shows how to create an Alerts extension that works both on iOS and Android. We reference this example throughought this article.
 
@@ -189,7 +189,7 @@ To recap, an iOS extension effectively consists of 3 parts.
 
 This is summarized in the following diagram.
 
-![stencyl-levels-of-abstraction](http://static.stencyl.com/pedia2/chapter-d/LevelsOfAbstraction.png)
+![stencyl-levels-of-abstraction](https://static.stencyl.com/pedia2/chapter-d/LevelsOfAbstraction.png)
 
 Now, we'll look at Android. Thankfully, the story is quite similar.
 
@@ -219,7 +219,7 @@ Open up **NativeTest.hx** and find this line (~line 30).
 androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lang/String;Ljava/lang/String;)V", true);
 ```
 
-Here, we're getting a "function pointer" to **showAlert()**, a Java function on the native side of things. The syntax is more complicated due to the use of [JNI](http://www.stencyl.com/help/view/jni-guide), the standard way of exposing native code to Java. Think of JNI as the rough equivalent to what ExternalInterface.cpp was doing for iOS, just in a more compact form.
+Here, we're getting a "function pointer" to **showAlert()**, a Java function on the native side of things. The syntax is more complicated due to the use of [JNI](https://www.stencyl.com/help/view/jni-guide), the standard way of exposing native code to Java. Think of JNI as the rough equivalent to what ExternalInterface.cpp was doing for iOS, just in a more compact form.
 
 Now, let's look right below (~line 33)
 
@@ -261,7 +261,7 @@ androidAlert = nme.JNI.createStaticMethod("NativeTest", "showAlert", "(Ljava/lan
 
 It turns out that **JNI is serving the same purpose that ExternalInterface.cpp did for iOS**. It's the glue that connects native code to Haxe. It just happens at the Haxe level, rather than being in a separate file.
 
-Getting the JNI syntax correct is a [topic in itself](http://www.stencyl.com/help/view/jni-guide/).
+Getting the JNI syntax correct is a [topic in itself](https://www.stencyl.com/help/view/jni-guide/).
 
  
 #### Recap
@@ -272,7 +272,7 @@ To recap, an Android extension consists of 2 parts.
 
 This is summarized in the following graphic.
 
-![stencyl-levels-of-abstraction](http://static.stencyl.com/pedia2/chapter-d/AbstractionAndroid.png)
+![stencyl-levels-of-abstraction](https://static.stencyl.com/pedia2/chapter-d/AbstractionAndroid.png)
 
 Now, we'll look at a few more topics.
 
@@ -342,7 +342,7 @@ Within that folder are two subfolders and a few extra files. One subfolder is a 
 
 #### OpenFL Reference
 
-This [page](http://www.openfl.org/documentation/projects/project-files/xml-format/) covers the purpose of each `<dependency>`, `<ios>`, and `<android>` in more detail.  
+This [page](https://lime.software/docs/project-files/xml-format/) covers the purpose of each `<dependency>`, `<ios>`, and `<android>` in more detail.  
 
 Documentation is pretty thin for this, so our recommendation is to check out [existing extensions](https://github.com/byrobingames) for examples of how to lay the files in your extension. 
 
@@ -353,7 +353,7 @@ If you make a change to an iOS extension, you must **compile** the extension, wh
 
 To compile the extension, **run the `build` script** (located under the **project/** subdirectory of an extension). This compiles the iOS source and generates the .a libraries.
 
-![build-script](http://static.stencyl.com/pedia2/chapter-d/build-script.png)
+![build-script](https://static.stencyl.com/pedia2/chapter-d/build-script.png)
 
 For example, if you wanted to build the test-native extension, you would **cd** to **[WORKSPACE]/engine-extensions/test-native/project** and then run **./build**.
 
@@ -389,11 +389,11 @@ Then, you'd do two things:
 
 ## Sending Data back from Native Code to Haxe
 
-A big part of Stencyl's ease of use comes in the form of [Events](http://www.stencyl.com/help/view/native-events/). As a developer, it's more convenient to be **automatically notified** that something has happened, versus having to constantly check if that something has happened.
+A big part of Stencyl's ease of use comes in the form of [Events](https://www.stencyl.com/help/view/native-events/). As a developer, it's more convenient to be **automatically notified** that something has happened, versus having to constantly check if that something has happened.
 
 To implement Events for your extensions, you would need to know how to get the Objective-C (or Java) code to send notifications back to Haxe. For example, if the player completed an in-app purchase, you'd want to inform the player if the purchase succeeded and do something in-game in response to that.
 
-[Learn how to implement Events for iOS / Android](http://www.stencyl.com/help/view/native-events/).
+[Learn how to implement Events for iOS / Android](https://www.stencyl.com/help/view/native-events/).
  
 
 ## Tips

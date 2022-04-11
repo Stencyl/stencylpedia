@@ -1,6 +1,6 @@
 ## How do I report a bug?
 
-All bugs should be reported on the [Issue Tracker](http://community.stencyl.com/index.php?project=1).
+All bugs should be reported on the [Issue Tracker](https://community.stencyl.com/index.php?project=1).
 
 
 > Please do not send us bug reports via e-mail or via other sources. 
@@ -12,7 +12,7 @@ Include the following to maximize the chance of the bug being resolved in a time
 
 1. A concise but precise description of the bug. At a minimum, tell us what you expected to happen, what actually happened and how you got it to happen.
 
-2. [Logs](http://www.stencyl.com/help/viewArticle/135/)
+2. [Logs](https://www.stencyl.com/help/viewArticle/135/)
 
 3. Screenshots (if applicable)
 

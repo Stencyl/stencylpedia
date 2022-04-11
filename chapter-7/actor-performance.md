@@ -7,7 +7,7 @@ One of the most important ways to ensure fast, smooth game performance is by mak
 
 Stencyl is based on Box2D, an industry standard physics engine that provides convincing collision detection out of the box. The numerous calculations required to run it can be taxing, so it's best to use fewer actors rather than more. There's no hard number which is "bad" since this can vary widely depending on the device and the game.
 
-If you must have many objects on-screen, consider using [Images](http://www.stencyl.com/help/view/image-api) in place of full actors. 
+If you must have many objects on-screen, consider using [Images](https://www.stencyl.com/help/view/image-api) in place of full actors. 
 
 Images are quasi-actors that do not make use of the physics engine - this improves performance if you don't need them to register collisions. Examples of such actors include decorations and special effects.
 
@@ -25,7 +25,7 @@ The following examples demonstrate a few common scenarios and pitfalls to watch 
 
 <br/>
 
-![Remove an actor](http://static.stencyl.com/help/images/KillOnCollision.png)
+![Remove an actor](https://static.stencyl.com/help/images/KillOnCollision.png)
 
 > **Warning:** If actor A collides with actor B, there are no guarantees about which collision event runs first (since two will be dispatched - one for actor A and one for actor B). Do not make assumptions about which one will run first.
 
@@ -34,7 +34,7 @@ The following examples demonstrate a few common scenarios and pitfalls to watch 
 
 <br/>
 
-![Leaving Screen](http://static.stencyl.com/help/images/RemoveAfterLeavingScreen.png)
+![Leaving Screen](https://static.stencyl.com/help/images/RemoveAfterLeavingScreen.png)
 
 > **Explanation:** In this case, the boolean attribute called **Actor On Screen?** ensures that the actor isn't removed before it has a chance to appear on screen. You'd set **Actor On Screen?** to true once that actor appears on screen. Then, when the actor leaves the screen again, it will be killed.
  

@@ -23,11 +23,11 @@ Custom Events are events that happen only when you tell them to happen. Why woul
 
 1. Inside the Behavior Designer, go to **Add Event > Advanced > Custom Event**.
 
-  ![](http://static.stencyl.com/pedia2/ch6/customevent/image00.png)
+  ![](https://static.stencyl.com/pedia2/ch6/customevent/image00.png)
 
 2. Type something into the blank. This is the text that will cause this Custom Event to **trigger**.
 
-  ![](http://static.stencyl.com/pedia2/ch6/customevent/image01.png)
+  ![](https://static.stencyl.com/pedia2/ch6/customevent/image01.png)
 
 That's it! Now fill out what you want to happen inside the event.
 
@@ -38,7 +38,7 @@ Custom Events are triggered by any one of the blocks under **Behavior > Triggers
 
 **To trigger an event, put in the text you stuck into the blank when defining the event.**
 
-![](http://static.stencyl.com/pedia2/ch6/customevent/image02.png)
+![](https://static.stencyl.com/pedia2/ch6/customevent/image02.png)
 
 
  
@@ -47,10 +47,10 @@ Custom Events are triggered by any one of the blocks under **Behavior > Triggers
 As you have may noticed, triggering Custom Events can be done **directly** (one behavior) or **indirectly** (all behaviors). That is to say:
 
 * You can specify exactly which behavior you're targeting.<br/>
-  ![](http://static.stencyl.com/pedia2/ch6/customevent/image03.png)
+  ![](https://static.stencyl.com/pedia2/ch6/customevent/image03.png)
 
 * You specify no target, so it **attempts to trigger the event** for all behaviors for a particular Actor or Scene.<br/>
-  ![](http://static.stencyl.com/pedia2/ch6/customevent/image04.png)
+  ![](https://static.stencyl.com/pedia2/ch6/customevent/image04.png)
 
 > **Note:** If a behavior doesn't have a Custom Event and you try to trigger it, nothing happens. It's ignored.
 
@@ -65,7 +65,7 @@ As you have may noticed, triggering Custom Events can be done **directly** (one 
 
 Sometimes, you may want to make a Custom Event configurable. Which is to say that you would want to stick a **Text Attribute** into the blank.
 
-![](http://static.stencyl.com/pedia2/ch6/customevent/image05.png)
+![](https://static.stencyl.com/pedia2/ch6/customevent/image05.png)
 
 You can do this and, as you'd expect, the text for the Custom Event becomes configurable.
 
@@ -74,7 +74,7 @@ You can do this and, as you'd expect, the text for the Custom Event becomes conf
 
 ## Custom Events vs. Custom Blocks
 
-Custom Events and [Custom Blocks](http://www.stencyl.com/help/viewArticle/106/) overlap somewhat in use case. However, they differ in several respects, as summarized below.
+Custom Events and [Custom Blocks](https://www.stencyl.com/help/viewArticle/106/) overlap somewhat in use case. However, they differ in several respects, as summarized below.
 
 #### Custom Events:
 * Can't accept parameters.

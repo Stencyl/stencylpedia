@@ -1,15 +1,15 @@
 This is the solution to the Chapter 3 Challenge. We'll walk you through each step.
 
-[Return to the Chapter 3 Challenge](http://www.stencyl.com/help/view/chapter-3-challenge/)
+[Return to the Chapter 3 Challenge](https://www.stencyl.com/help/view/chapter-3-challenge/)
  
 
 ## Download the Solution
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://static.stencyl.com/pedia2/ch3/Chapter3Solution.stencyl">Download</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://static.stencyl.com/pedia2/ch3/Chapter3Solution.stencyl">Download</a>
 
 To install the project, either drag the file into the Stencyl window from the Welcome Center or import it from the File menu (File > Import Game...). Requires Stencyl 3.4.0 or later.
 
-![breakout-screenshot](http://static.stencyl.com/pedia2/ch3/challenge/image02.png)
+![breakout-screenshot](https://static.stencyl.com/pedia2/ch3/challenge/image02.png)
 
 
 ## Contents
@@ -27,7 +27,7 @@ To install the project, either drag the file into the Stencyl window from the We
 
 1) To start, we need one new Collision Group, one for the Ball.
 
-![](http://static.stencyl.com/pedia2/ch3/challenge/image08.png)
+![](https://static.stencyl.com/pedia2/ch3/challenge/image08.png)
 
 2) Next, we need to set our paddle Actor to the correct group. Which do you think it should belong to?
 
@@ -44,13 +44,13 @@ Let's start with the Behavior used to control the paddle.
 
 Here's a snapshot of the solution.
 
-![stencyl-design-mode-two-way-movement-behavior-example](http://static.stencyl.com/pedia2/ch3/challenge/image06.png)
+![stencyl-design-mode-two-way-movement-behavior-example](https://static.stencyl.com/pedia2/ch3/challenge/image06.png)
 
 > **Note:** We use **otherwise if** instead of a series of **if** blocks because doing so improves performance. When the game sees **otherwise if**, it only evaluates the boolean (the true/false condition) rather than the complete chunk of code, thereby reducing how much it has to process.
 
 2) One thing to remember is that when the player is pressing the key to move the paddle left, its x-speed is set to the negative of the **Top Speed** value.
 
-![2d-game-coordinates](http://static.stencyl.com/pedia2/ch3/challenge/image01.png)
+![2d-game-coordinates](https://static.stencyl.com/pedia2/ch3/challenge/image01.png)
 
 Remember, as you move down the screen, the Y value gets larger, and as you move up, it gets smaller. As you move to the right, the X value gets larger, and as you move left, it gets smaller.
 
@@ -65,23 +65,23 @@ Normally, when two Actors collide, they push each other in opposite directions. 
 
 1) Open up the paddle Actor, click the Physics tab, then under the **General** tab, set the **What kind of Actor Type?** option to **Cannot be pushed**. Now the Actor won't move when the ball hits it.
 
-![stencyl-actor-physics-cannot-be-pushed](http://static.stencyl.com/pedia2/ch3/challenge/image05.png)
+![stencyl-actor-physics-cannot-be-pushed](https://static.stencyl.com/pedia2/ch3/challenge/image05.png)
 
 2) Although this setting keeps the ball from knocking the paddle off screen, our paddle Actor will now go right through tiles. We need a Behavior to fix this. The Behavior should check the position of the paddle Actor, and if it moves beyond certain boundaries, move it back into the correct bounds.
 
 Here's a screenshot of one that will do just that.
 
-![stencyl-design-mode-restrict-movement-example](http://static.stencyl.com/pedia2/ch3/challenge/image03.png)
+![stencyl-design-mode-restrict-movement-example](https://static.stencyl.com/pedia2/ch3/challenge/image03.png)
 
 > **Note:** This Behavior "always" checks the position of the paddle relative to the walls of the Scene (the screen size is the same as the Scene size in our game). If we try to move the paddle Actor past those bounds, the Behavior adjusts the Actor's position.
 
 The screenshots below show how we figured out the boundary coordinates.
 
-![restrict-movement-behavior-tile-coordinates-explanation](http://static.stencyl.com/pedia2/ch3/challenge/image10.png)
+![restrict-movement-behavior-tile-coordinates-explanation](https://static.stencyl.com/pedia2/ch3/challenge/image10.png)
 
 The coordinate above is as far left as we want our paddle Actor to move.
 
-![stencyl-restrict-movement-tile-coordinates-example-right](http://static.stencyl.com/pedia2/ch3/challenge/image09.png)
+![stencyl-restrict-movement-tile-coordinates-example-right](https://static.stencyl.com/pedia2/ch3/challenge/image09.png)
 
 The coordinate above is as far right as we want the paddle to move.
 
@@ -96,7 +96,7 @@ Now that we've got the Paddle's movement under control, we need to tell our game
 
 Here's the Behavior that makes this happen.
 
-![stencyl-design-mode-destroy-block-example](http://static.stencyl.com/pedia2/ch3/challenge/image00.png)
+![stencyl-design-mode-destroy-block-example](https://static.stencyl.com/pedia2/ch3/challenge/image00.png)
 
 > **Note:** The only thing you might not expect is the do after block that delays the sound effect and the block's destruction. We need that delay so the player can see the color change effect in action.
 
@@ -109,7 +109,7 @@ We have a paddle the player can move and blocks that break, but we need a Behavi
 
 Here's a screenshot of the Behavior that does this.
 
-![stencyl-design-mode-launch-ball-behavior-example](http://static.stencyl.com/pedia2/ch3/challenge/image04.png)
+![stencyl-design-mode-launch-ball-behavior-example](https://static.stencyl.com/pedia2/ch3/challenge/image04.png)
 
 > **Note:** To be clear, although the **when created** block is shown in the image above, it's actually in a separate Event in the Behavior.
 
@@ -126,7 +126,7 @@ Because we're creating Recycled Actors, we need to use another Behavior called R
 
 Here is a screenshot of the solution.
 
-![stencyl-design-mode-recycle-actor-example](http://static.stencyl.com/pedia2/ch3/challenge/image07.png)
+![stencyl-design-mode-recycle-actor-example](https://static.stencyl.com/pedia2/ch3/challenge/image07.png)
 
 > **Note:** We want to recycle the ball when it's off-screen, so we use an Actors Event that checks when our Ball Actor leaves the screen.
 
@@ -141,7 +141,7 @@ Now we've got all the game assets we need, let's put everything together.
 
 3) Test our game!
 
-![stencyl-breakout-screenshot-final](http://static.stencyl.com/pedia2/ch3/challenge/image11.png)
+![stencyl-breakout-screenshot-final](https://static.stencyl.com/pedia2/ch3/challenge/image11.png)
 
 > **Note:** If something doesn't work right, start with the Collision Groups. Make sure each Actor Type belong to the correct Group. From there, look over the Behaviors and compare the ones you made to those in the screenshots. Lastly, make sure each Actor Type has the correct Behavior(s).
  
@@ -150,4 +150,4 @@ Now we've got all the game assets we need, let's put everything together.
 
 Now that you've learned more about Actors and how they can use Behaviors, let's move on to Chapter 4 and talk about Scenes.
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/view/scene-basics/">Continue to Chapter 4</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/view/scene-basics/">Continue to Chapter 4</a>

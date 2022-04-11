@@ -1,6 +1,6 @@
 # Stencylpedia
 
-Stencylpedia is the official manual for [Stencyl](http://www.stencyl.com). We have migrated nearly all of the raw content for Stencylpedia to Github in order to open it up for user edits and translations. We think this approach is safer and more effective than hosting a Wiki.
+Stencylpedia is the official manual for [Stencyl](https://www.stencyl.com). We have migrated nearly all of the raw content for Stencylpedia to Github in order to open it up for user edits and translations. We think this approach is safer and more effective than hosting a Wiki.
 
 Articles are composed using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), the same markup language that Github and many other sites use for creating documents.
 

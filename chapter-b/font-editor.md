@@ -1,4 +1,4 @@
-> **Note:** This article does not talk about how to draw text. [We've got an article for that](http://www.stencyl.com/help/viewArticle/119/).
+> **Note:** This article does not talk about how to draw text. [We've got an article for that](https://www.stencyl.com/help/viewArticle/119/).
 
 ## Contents
 
@@ -19,11 +19,11 @@ There are two kinds of Fonts you can create and use in Stencyl: Regular Fonts an
 
 **Regular Fonts** work like the ones you use when word processing. They are based on TrueType (TTF) fonts. They're easy to set up, but they aren't very customizable, and they can take up a lot of space. We offer Regular Fonts for convenience.
 
-![Regular Font](http://static.stencyl.com/v3/images/announcement/regular-font.png)
+![Regular Font](https://static.stencyl.com/v3/images/announcement/regular-font.png)
 
 **Bitmap Fonts** on the other hand are based off images that you import. They take more effort to set up, but they  look better and take up less space.
 
-![Bitmap Font](http://i.imgur.com/jLhLFQY.png)
+![Bitmap Font](https://i.imgur.com/jLhLFQY.png)
 
 > **Tip:** Stencyl doesn't provide tools to build the images behind bitmap fonts. We recommend using [AngelCode](http://www.angelcode.com/products/bmfont/) or [Hiero](https://code.google.com/p/libgdx/wiki/Hiero) to assist you in creating Bitmap Fonts.
 
@@ -35,11 +35,11 @@ There are two kinds of Fonts you can create and use in Stencyl: Regular Fonts an
 
 Often, game developers would like to import a font as an image they created themselves or in another program such as AngelCode. This enables fonts with visual effects and character sets that TrueType fonts don't support.
 
-![Bitmap Font](http://static.stencyl.com/v3/images/announcement/bmfont1.png)
+![Bitmap Font](https://static.stencyl.com/v3/images/announcement/bmfont1.png)
 
 While Stencyl doesn't provide tools for creating bitmap fonts, it does provide extensive ways for importing the image and defining the individual character data.
 
-![Bitmap Font Editor](http://static.stencyl.com/v3/images/announcement/bmfont2.png)
+![Bitmap Font Editor](https://static.stencyl.com/v3/images/announcement/bmfont2.png)
 
 
 ### How to Create a Bitmap Font
@@ -50,11 +50,11 @@ While Stencyl doesn't provide tools for creating bitmap fonts, it does provide e
 
 3. **Click** the **Import Font from Image button** at the top-right to switch to the Bitmap Font Editor.
 
-  ![Import Font](http://static.stencyl.com/v3/images/announcement/bmfont3.png)
+  ![Import Font](https://static.stencyl.com/v3/images/announcement/bmfont3.png)
 
 4. Import an image for your font.
 
-  ![Import Image for Font](http://static.stencyl.com/pedia2/misc/font/import-image.png)
+  ![Import Image for Font](https://static.stencyl.com/pedia2/misc/font/import-image.png)
 
 5. Define characters for your font as described in the next section.
 
@@ -94,14 +94,14 @@ Together with the ability to nudge a character up/down/left/right with the arrow
 ### Other Properties
 The Edit Properties button will bring up a few additional options.
 
-![Letter Spacing](http://static.stencyl.com/pedia2/misc/font/props.png)
+![Letter Spacing](https://static.stencyl.com/pedia2/misc/font/props.png)
 
 Name | Purpose
 --- | ---
 **Space (Width)** | Since you can't define space as a character, this lets you define how wide a "space" character should be.
 **Line Height** | Specifies how many pixels to jump to the next line when wrapping text inside a label.
 **Letter Spacing** | It can be tedious to specify padding for each character if it's going to be the same. This lets you set a global value for padding that is added to each character's right-padding value.
-**Background (Color)** | lets you set the background color in the editor for easier editing. It has no effect in-game.<br/><br/>![Background Color](http://static.stencyl.com/pedia2/misc/font/bg.png)
+**Background (Color)** | lets you set the background color in the editor for easier editing. It has no effect in-game.<br/><br/>![Background Color](https://static.stencyl.com/pedia2/misc/font/bg.png)
 
 ### External Tools
 
@@ -148,7 +148,7 @@ Name | Purpose
 
 ###Color Properties
 
-![Font Color Properties](http://static.stencyl.com/help/images/fontColor.png)
+![Font Color Properties](https://static.stencyl.com/help/images/fontColor.png)
 
 Name | Purpose
 --- | ---
@@ -159,11 +159,11 @@ Name | Purpose
 ###Stroke
 The stroke option allows you to highlight your font with a specific color and at a specific magnitude.
 
-![Stroke](http://static.stencyl.com/help/images/fontPreviewStroke.png)
+![Stroke](https://static.stencyl.com/help/images/fontPreviewStroke.png)
 
 ###Shadows
 Adding a shadow effect creates a copy of the drawn text with that font, offset x and y pixels away, and blurred at a specific magnitude. This is used to make the characters appear three-dimensional due to the depth between the text and the shadow. Below is an example of basic settings for a shadow effect.
 
-![Shadows](http://static.stencyl.com/help/images/fontPreviewShadow.png)
+![Shadows](https://static.stencyl.com/help/images/fontPreviewShadow.png)
 
 > **Limitation:** You cannot set both a shadow and a stroke at the same time. If you need this, consider generating a Bitmap Font using an external tool and importing that in instead. See the "External Tools" section of this article for recommendations.

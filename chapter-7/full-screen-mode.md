@@ -12,14 +12,14 @@ As the name implies, Full Screen Mode fills the entire screen (or most of it) wi
 
 Stencyl supports full screen mode for Flash and Desktop (Windows, Mac, Linux) games. 
 
-> **Note**: For mobile games, the Full Screen scaling mode is discussed in our [App Scaling article](http://www.stencyl.com/help/view/mobile-app-scaling/).
+> **Note**: For mobile games, the Full Screen scaling mode is discussed in our [App Scaling article](https://www.stencyl.com/help/view/mobile-app-scaling/).
 
  
 ## How To: Switch to Full Screen Mode
 
 Use the block under **Scene > View** to switch between windowed and full screen mode.
 
-![Toggle full screen mode block](http://static.stencyl.com/help/images/full-screen-mode-1.png)
+![Toggle full screen mode block](https://static.stencyl.com/help/images/full-screen-mode-1.png)
 
 > **Note**: Alternatively, you can instruct a game to begin in full screen mode through **Settings > Web > Start in Full Screen?** and **Settings > Desktop > Start in Full Screen?** respectively.
 
@@ -28,9 +28,9 @@ Use the block under **Scene > View** to switch between windowed and full screen 
 
 By default, full screen mode will use the game's hi-res graphics to draw to the screen, up to a maximum of 4x. It will pick the closest match (rounded down) and letterbox the result, identical to the **No Scaling (Letterboxing)** mode for mobile apps.
 
-**These are the same graphics used for the mobile variants of the game**, as described in our [App Scaling](http://www.stencyl.com/help/view/mobile-app-scaling/) article.
+**These are the same graphics used for the mobile variants of the game**, as described in our [App Scaling](https://www.stencyl.com/help/view/mobile-app-scaling/) article.
 
-![high-res graphics](http://static.stencyl.com/help/images/full-screen-mode-2.png)
+![high-res graphics](https://static.stencyl.com/help/images/full-screen-mode-2.png)
 
 For example, if your game's base resolution is 480 x 320, and your screen's resolution is 1024 x 768, the game will scale to 2x (960 x 640).
 

@@ -22,7 +22,7 @@ Sound is a fundamental aspect of almost any game. This section covers the basics
 
 3. Click the following box to pick and import.
 
-![Import Sound](http://static.stencyl.com/pedia2/ch4/sounds/image03.png)
+![Import Sound](https://static.stencyl.com/pedia2/ch4/sounds/image03.png)
 
 > **Tip:** Alternatively, you can just drag and drop the sound in.
 
@@ -33,7 +33,7 @@ Looping "background" music takes just 1 block to do.
 
 Make a Scene Behavior out of this, or stick this directly into the "Events" for a scene.
 
-![Loop Music](http://static.stencyl.com/help/images/loopsound.png)
+![Loop Music](https://static.stencyl.com/help/images/loopsound.png)
 
 > **Exercise:** There's a flaw in this approach. Think about what happens when you re-enter this scene... That isn't desirable, is it?
 
@@ -65,7 +65,7 @@ If your game unexpectedly does not export your game to Flash, it's likely that s
 * Constant bitrate (versus VBR)
 * No metadata
 
-If you continue to experience issues with MP3s, post your issue to the [forums](http://community.stencyl.com/index.php/board,3.0.html) and generate [logs](http://www.stencyl.com/help/view/generating-logs/).
+If you continue to experience issues with MP3s, post your issue to the [forums](https://community.stencyl.com/index.php/board,3.0.html) and generate [logs](https://www.stencyl.com/help/view/generating-logs/).
 
 #### MP3s and Licensing
 
@@ -76,7 +76,7 @@ For desktop and mobile games, we only work with OGG sounds, so the use of MP3s i
 
 ## Music vs. Sound Effects
 
-![](http://static.stencyl.com/pedia2/ch4/sounds/image01.png)
+![](https://static.stencyl.com/pedia2/ch4/sounds/image01.png)
 
 Stencyl supports two kinds of sounds: **music** and **sound effects**.
 
@@ -89,7 +89,7 @@ Stencyl supports two kinds of sounds: **music** and **sound effects**.
 
 All sound-related blocks are conveniently located under the Sound category.
 
-![](http://static.stencyl.com/pedia2/ch4/sounds/image00.png)
+![](https://static.stencyl.com/pedia2/ch4/sounds/image00.png)
 
 **Play** = Plays to the end once, then stops<br/>
 **Loop** = Plays to the end and then repeats
@@ -112,7 +112,7 @@ Suppose that you're playing Zelda. The regular tune plays, but then you approach
 
 **Channels** are a simple way to **refer back to a playback instance of sounds**, so that you can **control their volume and pause/resume them in the future**.
 
-![Channels](http://static.stencyl.com/pedia2/ch4/sounds/image02.png)
+![Channels](https://static.stencyl.com/pedia2/ch4/sounds/image02.png)
 
 Channels are **referred to by number**, starting at index 0, ending at index 31.
 

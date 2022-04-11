@@ -1,10 +1,10 @@
-> [Part 1 (Intro)](http://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](http://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](http://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](http://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](http://www.stencyl.com/help/viewArticle/147/)
+> [Part 1 (Intro)](https://www.stencyl.com/help/viewArticle/143/) - [Part 2  (Resources)](https://www.stencyl.com/help/viewArticle/144/) - [Part 3  (Actors)](https://www.stencyl.com/help/viewArticle/145/) - [Part 4 (Create a Scene)](https://www.stencyl.com/help/viewArticle/146/) - [Part 5 (Test your Game)](https://www.stencyl.com/help/viewArticle/147/)
 
 
 ## Introduction
 This hands-on tutorial has you create a simple game using a template (which we call a **kit**), so that you can become familiar with the main parts of Stencyl’s interface.
 
-> Make sure you [download](http://www.stencyl.com/download/) and install **Stencyl 4.0** (or later) before starting the crash course. Older versions will not work.
+> Make sure you [download](https://www.stencyl.com/download/) and install **Stencyl 4.0** (or later) before starting the crash course. Older versions will not work.
 
 
 ## Download the Crash Course Kit
@@ -57,6 +57,6 @@ When you launch Stencyl, you’ll be greeted by the **Welcome Center**, a list o
 
 ***
 
-<a role="button" class="btn btn-primary btn-lg action-button2" href="http://www.stencyl.com/help/viewArticle/144/">Continue to Part 2 &rarr;</a>
+<a role="button" class="btn btn-primary btn-lg action-button2" href="https://www.stencyl.com/help/viewArticle/144/">Continue to Part 2 &rarr;</a>
 
 ***

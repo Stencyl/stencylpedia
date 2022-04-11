@@ -12,9 +12,9 @@
 
 Using the open URL block (under Game > Web), you can visit any URL from within a game. The link will open up inside a new tab, using the user's default browser. *On Flash/Desktop, a pop-up blocker can prevent this from happening.*
 
-![Open URL block](http://static.stencyl.com/pedia2/ch5/web/image01.png)
+![Open URL block](https://static.stencyl.com/pedia2/ch5/web/image01.png)
 
-> **Tip:** If you want an in-app browser, check out the [Web Views extension](http://community.stencyl.com/index.php/topic,38900.0.html).
+> **Tip:** If you want an in-app browser, check out the [Web Views extension](https://community.stencyl.com/index.php/topic,38900.0.html).
 
 #### What could you use this for?
 
@@ -22,7 +22,7 @@ Using the open URL block (under Game > Web), you can visit any URL from within a
 * Asking for a Paypal donation
 * Linking to your mobile game's entry
 
-> Note: We have [pre-built behaviors](http://www.stencyl.com/help/view/pre-shipped-behaviors) for the first 2 scenarios. Check them out under the "Utilities" category the next time you import a behavior for a scene.
+> Note: We have [pre-built behaviors](https://www.stencyl.com/help/view/pre-shipped-behaviors) for the first 2 scenarios. Check them out under the "Utilities" category the next time you import a behavior for a scene.
  
 
 ## HTTP Requests (GET / POST)
@@ -33,7 +33,7 @@ What if you want your game to communicate with a web-based API? Stencyl also sup
 
 Make an HTTP request using either the visit URL block or POST data block (both under Game > Web). The first block corresponds to a GET request, while the second corresponds to a POST request.
 
-![HTTP request blocks](http://static.stencyl.com/help/images/web-request-blocks.png)
+![HTTP request blocks](https://static.stencyl.com/help/images/web-request-blocks.png)
 
 Either way, calls are **asynchronous** (non-blocking). We callback by executing the body of the blocks when you receive a response, which can be fetched using the red **site's response** block.
 
@@ -68,7 +68,7 @@ hero,256,256
 
 Here's how we could parse this. We tokenize ech line one by one, knowing that each entry is separated by commas.
 
-![Example](http://static.stencyl.com/pedia2/ch5/web/image00.png)
+![Example](https://static.stencyl.com/pedia2/ch5/web/image00.png)
 
 If you're building your own web services to communicate with Stencyl, keep your data formats simple, and you can achieve pretty cool things with web requests.
 
@@ -91,7 +91,7 @@ Opens Twitter app to the page you define. For example, you could open it up to t
 twitter://user?id=YOUR_ID
 ```
 
-> See this [forum topic](http://community.stencyl.com/index.php/topic,30964.0.html) for more examples.
+> See this [forum topic](https://community.stencyl.com/index.php/topic,30964.0.html) for more examples.
 
 
 ## Frequently Asked Questions
@@ -106,7 +106,7 @@ No. For security reasons, it is not best practice to allow a game to directly qu
 
 #### If I'm making a mobile game, can I show the page inside the app, instead of launching Safari / Chrome?
 
-If you want an in-app browser, check out the [Web Views extension](http://community.stencyl.com/index.php/topic,26708.0.html).
+If you want an in-app browser, check out the [Web Views extension](https://community.stencyl.com/index.php/topic,26708.0.html).
  
 
 ## Summary

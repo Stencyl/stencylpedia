@@ -10,9 +10,9 @@
 
 ### <a name="accelerometer"></a> Accelerometer Value
 
-![x of accelerometer](http://static.stencyl.com/pedia2/block-images/input/mobile/accelerometer.png)
+![x of accelerometer](https://static.stencyl.com/pedia2/block-images/input/mobile/accelerometer.png)
 
-Returns the current values for the [accelerometer](http://www.stencyl.com/help/view/mobile-accelerometer/).
+Returns the current values for the [accelerometer](https://www.stencyl.com/help/view/mobile-accelerometer/).
 
 **Portrait Orientation**
 
@@ -44,7 +44,7 @@ Input.accelZ
 
 ### <a name="swipe-detect"></a> Swiped
 
-![swiped up](http://static.stencyl.com/pedia2/block-images/input/mobile/swipe-detect.png)
+![swiped up](https://static.stencyl.com/pedia2/block-images/input/mobile/swipe-detect.png)
 
 Returns `true` if the user has swiped [up/down/left/right]. A swipe is defined as touching the screen, sliding the finger and then releasing.
 
@@ -57,7 +57,7 @@ Input.swipedRight
 
 #### Alernate Approach: Events
 
-![swipe-event](http://static.stencyl.com/help/images/mobile-input-5.png)
+![swipe-event](https://static.stencyl.com/help/images/mobile-input-5.png)
 
 We recommend using a swipe event instead of a swipe block. It's easier to work with.
 
@@ -67,11 +67,11 @@ We recommend using a swipe event instead of a swipe block. It's easier to work w
 
 ### <a name="show-hide-keyboard"></a> Show / Hide Keyboard
 
-![hide keyboard](http://static.stencyl.com/pedia2/block-images/input/mobile/show-hide-keyboard.png)
+![hide keyboard](https://static.stencyl.com/pedia2/block-images/input/mobile/show-hide-keyboard.png)
 
-Immediately shows or hides the [virtual keyboard](http://www.stencyl.com/help/view/mobile-features/). Use mobile keyboard events to track what's been typed.
+Immediately shows or hides the [virtual keyboard](https://www.stencyl.com/help/view/mobile-features/). Use mobile keyboard events to track what's been typed.
 
-![example](http://static.stencyl.com/help/images/mobile-features-3.png)
+![example](https://static.stencyl.com/help/images/mobile-features-3.png)
 
 ```
 hideKeyboard();
@@ -82,7 +82,7 @@ showKeyboard();
 
 ### <a name="set-keyboard-text"></a> Set Keyboard Text
 
-![set keyboard text to text](http://static.stencyl.com/pedia2/block-images/input/mobile/set-keyboard-text.png)
+![set keyboard text to text](https://static.stencyl.com/pedia2/block-images/input/mobile/set-keyboard-text.png)
 
 Imagine that the keyboard is inputting into an invisible text field. This sets the text that's in that text field.
 
@@ -94,7 +94,7 @@ setKeyboardText([TEXT]);
 
 ### <a name="clear-keyboard-text"></a> Clear Keyboard Text
 
-![clear keyboard text](http://static.stencyl.com/pedia2/block-images/input/mobile/clear-keyboard-text.png)
+![clear keyboard text](https://static.stencyl.com/pedia2/block-images/input/mobile/clear-keyboard-text.png)
 
 Imagine that the keyboard is inputting into an invisible text field. This clears out the text that's in that text field.
 
@@ -106,9 +106,9 @@ setKeyboardText("");
 
 ### <a name="vibrate"></a> Vibrate
 
-![vibrate for number secs](http://static.stencyl.com/pedia2/block-images/input/mobile/vibrate.png)
+![vibrate for number secs](https://static.stencyl.com/pedia2/block-images/input/mobile/vibrate.png)
 
-[Vibrates](http://www.stencyl.com/help/view/mobile-features/) the device for the given number of seconds. On some devices, vibration duration cannot be controlled.
+[Vibrates](https://www.stencyl.com/help/view/mobile-features/) the device for the given number of seconds. On some devices, vibration duration cannot be controlled.
 
 ```
 vibrate([NUMBER]);

@@ -1,4 +1,4 @@
-> **Note:** This is a reference manual for those already familiar with Stencyl. If you are a newcomer, we recommend [running through Chapter 4](http://www.stencyl.com/help/viewArticle/120/) in full instead. Chapter 4 covers the fundamental concepts behind scenes.
+> **Note:** This is a reference manual for those already familiar with Stencyl. If you are a newcomer, we recommend [running through Chapter 4](https://www.stencyl.com/help/viewArticle/120/) in full instead. Chapter 4 covers the fundamental concepts behind scenes.
  
 
 ## Contents
@@ -13,7 +13,7 @@
 
 The **Scene Designer** helps you build **levels** for your game. We call these levels, **scenes**.
 
-![Scene Designer](http://static.stencyl.com/pedia2/misc/scene-intro/index.1.jpg)
+![Scene Designer](https://static.stencyl.com/pedia2/misc/scene-intro/index.1.jpg)
 
 
 ## How to Use the Scene Designer
@@ -23,7 +23,7 @@ The **Scene Designer** helps you build **levels** for your game. We call these l
 ### Selecting & Moving Objects
 To select a **single** object, click on it while the Select tool is active.
 
-![Selection Tool](http://static.stencyl.com/pedia2/misc/scene-intro/1.htm12.jpg)
+![Selection Tool](https://static.stencyl.com/pedia2/misc/scene-intro/1.htm12.jpg)
 
 To select **multiple objects**, create a box around the objects you want to select by clicking the background and dragging, or CTRL + Click every object you want to select.
 
@@ -63,7 +63,7 @@ Layers determine whether an object is drawn in front of, or behind, other object
 1. Right-click the desired object, or select multiple objects and right-click one of the objects in the selection.
 2. You'll see this menu. Pick the desired option.
 
-![Layer Change Menu](http://static.stencyl.com/pedia2/misc/scene-intro/3.htm44.gif)
+![Layer Change Menu](https://static.stencyl.com/pedia2/misc/scene-intro/3.htm44.gif)
 
  
 ## Reference
@@ -72,7 +72,7 @@ Layers determine whether an object is drawn in front of, or behind, other object
 
 Located at the top, the Task Bar lets you switch between different areas of the Scene Designer.
 
-![Task Bar](http://static.stencyl.com/pedia2/ch4/basics/sd-taskbar.png)
+![Task Bar](https://static.stencyl.com/pedia2/ch4/basics/sd-taskbar.png)
 
 * **Scene** is the actual scene editing area.
 * **Behaviors** lets you manage the Scene Behaviors you have attached to this scene.
@@ -86,7 +86,7 @@ Located at the top, the Task Bar lets you switch between different areas of the 
 
 The toolbar gives you control over what you can interact with in your scene. It also lets you change the current scene's display options.
 
-![Toolbar](http://static.stencyl.com/pedia2/ch4/basics/sd-toolbar.png)
+![Toolbar](https://static.stencyl.com/pedia2/ch4/basics/sd-toolbar.png)
  
 #### Layer Mode
 The Layer Mode determines whether your selections only grab from the **current layer** or from **all layers** (default).
@@ -103,7 +103,7 @@ The Working Modes let you work with specific kinds of objects within a scene.
  
 
 #### The Rest
-![Other toolbar items](http://static.stencyl.com/pedia2/ch4/basics/sd-toolbar2.png)
+![Other toolbar items](https://static.stencyl.com/pedia2/ch4/basics/sd-toolbar2.png)
 
 * Take a Snapshot
 * Show Scene Boundaries
@@ -135,14 +135,14 @@ The toolbox controls which tools are currently active.
   * Add Custom Terrain
 * Zoom In/Out
 
-![Toolbox](http://static.stencyl.com/help/images/SceneToolsPic.png)
+![Toolbox](https://static.stencyl.com/help/images/SceneToolsPic.png)
  
 
 ### Palette (Part 4 of 6)
 
 The Palette lets you select Tiles and Actors from your game. You can then, using the Pencil Tool, place them onto the scene.
 
-![Tile Palette](http://static.stencyl.com/pedia2/misc/scene-intro/3.htm35.jpg) ![Actor Palette](http://static.stencyl.com/pedia2/misc/scene-intro/3.htm36.jpg)
+![Tile Palette](https://static.stencyl.com/pedia2/misc/scene-intro/3.htm35.jpg) ![Actor Palette](https://static.stencyl.com/pedia2/misc/scene-intro/3.htm36.jpg)
 
 > **Tip:** You can select multiple tiles at once in the Palette by clicking and dragging the selection box.
  
@@ -151,7 +151,7 @@ The Palette lets you select Tiles and Actors from your game. You can then, using
 
 The Layers Pane controls everything related to a Scene's layers (and backgrounds). You can reorder layers, rename them and change their properties (blend mode, opacity, scroll speed) among other things. 
 
-![Layers Pane](http://static.stencyl.com/pedia2/ch4/basics/image15.png)
+![Layers Pane](https://static.stencyl.com/pedia2/ch4/basics/image15.png)
 
 The **colored box** corresponds to the color used to draw the selection box (when the Select Tool is active). This lets you tell different layers apart when selecting multiple objects at a time.
 
@@ -166,7 +166,7 @@ The **cog**, when clicked, brings up a popup with properties to edit, including 
 
 ### Status Bar (Part 6 of 6)
 
-![Status Bar](http://static.stencyl.com/help/images/SceneDesignerInfoBar1.png)
+![Status Bar](https://static.stencyl.com/help/images/SceneDesignerInfoBar1.png)
 
 The bottom part of the Scene Designer will show you the x and y coordinates of the mouse as well as the zoom factor.
 

@@ -10,14 +10,14 @@
 
 Some developers use a device's accelerometer to create games a user can control by **tilting the device**. One famous example is a "labyrinth" game.
 
-![Maze Game](http://static.stencyl.com/help/images/accel/image03.gif)
+![Maze Game](https://static.stencyl.com/help/images/accel/image03.gif)
 
 
 ## Accelerometer Values
 
 You can access accelerometer data through a trio of blocks under the **User Input > Mobile** category in the Design Mode Palette.
 
-![Accel Blocks](http://static.stencyl.com/help/images/accel/image04.png)
+![Accel Blocks](https://static.stencyl.com/help/images/accel/image04.png)
 
 > **Aside:** The "z" value is largely useless for 2D games. It would be triggered by laying the device flat and spinning it around.
 
@@ -28,7 +28,7 @@ The values of each of these range **between -1.0 and 1.0 inclusive**. Those valu
 * An **x value of 1** would mean it's tilted **all the way to the right**. 
 * An **x value of -1** would mean it's tilted **all the way to the left**.
 
-![Directions](http://static.stencyl.com/help/images/accel-1.png)
+![Directions](https://static.stencyl.com/help/images/accel-1.png)
 
 The values are **flipped for a landscape oriented game**. In other words, the values are always relative to portrait orientation and won't automatically adapt for a landscape game. See the example below for details.
 
@@ -61,7 +61,7 @@ Y (Negative) | Right
 
 To replicate a basic tilting motion for a landscape-oriented game, create a simple behavior as shown in the image below. You can adjust the value **-70** to another that suits your needs.
 
-![example](http://static.stencyl.com/help/images/accel/image02.png)
+![example](https://static.stencyl.com/help/images/accel/image02.png)
 
 #### Why are x and y flipped? Shouldn't it be the other way around?
 As stated in the previous section, the x and y values are flipped for landscape-oriented games.

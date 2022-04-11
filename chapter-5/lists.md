@@ -89,7 +89,7 @@ All blocks related to lists are located under **Attributes > Lists**.
 * Create new list
 * Create (shallow) copy of [LIST]
  
-> **The Future:** We don't yet support reversing, combining or sorting lists, though these are all supported in a [3rd party extension](http://community.stencyl.com/index.php/topic,23821.0.html). We do, however, support [Maps/Dictionaries](http://www.stencyl.com/help/view/maps/).
+> **The Future:** We don't yet support reversing, combining or sorting lists, though these are all supported in a [3rd party extension](https://community.stencyl.com/index.php/topic,23821.0.html). We do, however, support [Maps/Dictionaries](https://www.stencyl.com/help/view/maps/).
  
 
 ## How to Create Lists
@@ -99,19 +99,19 @@ How do you create a List in the first place? Lists can be Attributes, so like an
 1. **Configuring** the attribute with initial data.
 2. **Creating it** at runtime inside a behavior and setting the attribute's value to that new list.
 
-> Assume that for both cases, we have created a List Attribute called "myList".<br/>![](http://static.stencyl.com/pedia2/ch5/lists/image01.png)
+> Assume that for both cases, we have created a List Attribute called "myList".<br/>![](https://static.stencyl.com/pedia2/ch5/lists/image01.png)
 
 #### Method 1: Configuring a List Attribute
 After attaching a behavior with a List attribute to either an Actor or a Scene, you'll see this neat interface for adding initial data to the list.
 
-![](http://static.stencyl.com/pedia2/ch5/lists/image02.png)
+![](https://static.stencyl.com/pedia2/ch5/lists/image02.png)
 
 > **Note:** The second icon (the one under the +) lets you import a List from a text file. One line per entry. All entries will be treated as text.
  
 #### Method 2: Creating it on the Fly
 Alternatively, you can create a new list on the fly and begin filling it up.
 
-![](http://static.stencyl.com/pedia2/ch5/lists/image03.png)
+![](https://static.stencyl.com/pedia2/ch5/lists/image03.png)
 
  
 ## Lists as Game Attributes
@@ -121,14 +121,14 @@ Lists can be used as Game Attributes. This can be pretty useful for defining sta
 #### Creating a List as a Game Attribute
 Lists can be created as Game Attributes and pre-populated the same way as other lists, namely only with Numbers and Text.
 
-![](http://static.stencyl.com/pedia2/ch5/lists/image04.png)
+![](https://static.stencyl.com/pedia2/ch5/lists/image04.png)
 
 > **Note:** You are also allowed to dump in Lists into Lists at runtime as well as any other kind of data. If you plan to save your lists out (via Game Attributes), there are restrictions. Skip down to "Saving & Lists"
 
 #### Setting the Value of a Game Attribute to a List
 It should come as no surprise that you're able to set the value of a Game Attribute to a List.
 
-![](http://static.stencyl.com/pedia2/ch5/lists/image05.png)
+![](https://static.stencyl.com/pedia2/ch5/lists/image05.png)
 
 > **Note:** Assigning values simply gets the Game Attribute to "point" to your List. No copying is done, so modifying it modifies the one and only "copy" of that list.
 
@@ -148,7 +148,7 @@ As stated earlier, be careful when saving out lists as Game Attributes. They can
 
 Lists are great for storing sequential information, but what if you need to store a "grid" of data? It turns out that lists are powerful enough that you can store a **List within a List**, thereby bringing it up to 2 dimensions.
 
-![](http://static.stencyl.com/pedia2/ch5/lists/image06.png)
+![](https://static.stencyl.com/pedia2/ch5/lists/image06.png)
 
 Come up with a scenario in which you need a 2D list and implement it.
 
@@ -157,4 +157,4 @@ Come up with a scenario in which you need a 2D list and implement it.
 
 ## Looking for a 2D list extension?
 
-A veteran Stencyler has created a [handy extension](http://community.stencyl.com/index.php/topic,28081.0.html) for 2D lists.
+A veteran Stencyler has created a [handy extension](https://community.stencyl.com/index.php/topic,28081.0.html) for 2D lists.

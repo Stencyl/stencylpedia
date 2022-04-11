@@ -17,9 +17,9 @@ Stencyl provides a simple but effective way of performing logic when an app ente
 
 The **Focus event** (under **Add Event > Input**) not only works on web/desktop games, but it also works the same way on mobile games. 
 
-![Focus Event](http://static.stencyl.com/help/images/multitasking-2.png)
+![Focus Event](https://static.stencyl.com/help/images/multitasking-2.png)
 
-![Focus Event Block](http://static.stencyl.com/help/images/multitasking-3.png)
+![Focus Event Block](https://static.stencyl.com/help/images/multitasking-3.png)
 
 The Focus event will happen in two cases.
 
@@ -36,9 +36,9 @@ When would you use the Focus event in a mobile game?
 
 It's a good idea to **pause** a game when it enters the background. When that happens, it's also a good idea to display some appropriate graphics to indicate the game's paused status.
 
-![Losing Focus](http://static.stencyl.com/help/images/multitasking-4.png)
+![Losing Focus](https://static.stencyl.com/help/images/multitasking-4.png)
 
-![Paused](http://static.stencyl.com/help/images/multitasking-5.png)
+![Paused](https://static.stencyl.com/help/images/multitasking-5.png)
 
 Why is this a good idea? Imagine that a player switched away from the app but was left in a situation where he'd get hit within seconds. If the app weren't paused, the player would likely be too slow to react and would get frustrated.
 

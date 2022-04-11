@@ -6,7 +6,7 @@
 
 ### <a name="to-degreesradians"></a> Degrees <--> Radians
 
-![number as degrees](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/to-degreesradians.png)
+![number as degrees](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/to-degreesradians.png)
 
 Converts the given number to degrees or radians.
 
@@ -21,7 +21,7 @@ Utils.RAD * [NUMBER]
 
 ### <a name="pi"></a> Pi
 
-![pi](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/pi.png)
+![pi](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/pi.png)
 
 Returns the value of Pi (3.14159...).
 
@@ -33,7 +33,7 @@ Math.PI
 
 ### <a name="e"></a> e
 
-![e](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/e.png)
+![e](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/e.png)
 
 Returns e, the base of natural logarithms. (2.718...)
 
@@ -47,7 +47,7 @@ Returns e, the base of natural logarithms. (2.718...)
 
 ### <a name="trig-master"></a> Sin / Cos / Tan
 
-![sin number degrees](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/trig-master.png)
+![sin number degrees](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/trig-master.png)
 
 Returns the result of applying a trigonometric function to the given number. Dropdown for degrees/radians specifies what format the **incoming** number is in. Supports sin/cos/tan/asin/acos/atan.
 
@@ -70,7 +70,7 @@ Math.atan([NUMBER])
 
 ### <a name="atan2"></a> Inverse Tangent
 
-![atan2 y number x number](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/atan2.png)
+![atan2 y number x number](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/atan2.png)
 
 Converts from rectangular to polar coordinates. The return value is in radians.
 
@@ -80,7 +80,7 @@ Math.atan2([NUMBER], [NUMBER])
 
 #### Example: Point Actor Towards Mouse
 
-![atan-example](http://static.stencyl.com/pedia2/blocks/numbers_text/trig/TrigExample1Thumb.png)
+![atan-example](https://static.stencyl.com/pedia2/blocks/numbers_text/trig/TrigExample1Thumb.png)
 
 Using inverse tangent, we can calculate the angle to rotate the actor to based on the mouse's position.
 
@@ -90,7 +90,7 @@ Using inverse tangent, we can calculate the angle to rotate the actor to based o
 
 ### <a name="sqrt"></a> Square Root
 
-![sqrt number](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/sqrt.png)
+![sqrt number](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/sqrt.png)
 
 Returns the square root of the given number.
 
@@ -102,7 +102,7 @@ Math.sqrt([NUMBER])
 
 ### <a name="pow"></a> Power
 
-![number ^ number](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/pow.png)
+![number ^ number](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/pow.png)
 
 Returns the given number to the specified power (e.g., x<sup>y</sup>).
 
@@ -114,7 +114,7 @@ Math.pow([NUMBER], [NUMBER])
 
 ### <a name="lnexp"></a> Natural Logarithm / e Raised to a Power
 
-![ln number](http://static.stencyl.com/pedia2/block-images/numbers-text/trig/lnexp.png)
+![ln number](https://static.stencyl.com/pedia2/block-images/numbers-text/trig/lnexp.png)
 
 **ln** - Returns the natural logarithm of the given number.<br/>
 **e^** - Returns the number e to the given power.
