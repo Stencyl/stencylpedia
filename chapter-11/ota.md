@@ -21,7 +21,7 @@ If you're hosting the server locally, you'll need to determine your computer's n
 2) Create a **game.plist** file under the folder. This tells the iOS device what the game is about.
 
 > **Instructions**
-
+> 
 > 1) Download this [template](https://raw.githubusercontent.com/Stencyl/stencylpedia/master/chapter-11/files/game.plist).<br/>
 > 2) Replace **YOUR-BUNDLE-ID** and **GAME-NAME** with the appropriate values. (3 spots total)<br/>
 > 3) Replace **localhost** with the appropriate value.

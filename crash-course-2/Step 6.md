@@ -9,7 +9,7 @@
 Finishing Touches ] ---- [ Step 13 (Creating a Font)](https://www.stencyl.com/help/viewArticle/183) - [Step 14 (Winning the Game)]
 (https://www.stencyl.com/help/viewArticle/184) - [Step 15( Final touches)](https://www.stencyl.com/help/viewArticle/185) -----
 
-##Part 6: Creating a Scene
+## Part 6: Creating a Scene
 
 Step 32: Click Scenes in the Dashboard, then we need to click the dotted line box to create a new Scene.
 

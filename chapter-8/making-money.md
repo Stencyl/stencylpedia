@@ -104,9 +104,9 @@ Damijin's primary sponsor was Kongregate, and they paid him for his game, so why
  
 
 > The reason is that some portals (like AddictingGames in particular) will NEVER under any circumstances show your game on their site UNLESS it is branded with their logos. That means AddictingGames will either have your game wearing their logos, or they will just not show it at all. 
-
+> 
 > Kongregate knows this, and they know that they will not benefit from AddictingGames in any way because of that policy. But they also know I'm a starving developer, so they allow me to do a deal with AddictingGames where I got paid $750 to basically just change my logos and add a little site-lock code.
-
+> 
 > Non-exclusive licenses have been my second largest form on income behind sponsorships. Most tend to be around the $500 range for me, but I've done them for as low as $150, and as high as $1100. They tend to make up around 25% of the revenue for most of my games."
  
  

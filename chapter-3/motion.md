@@ -10,7 +10,7 @@
 * Twisting
  
 
-##How Actors Move and Rotate
+## How Actors Move and Rotate
 
 What good is a physics game if you can't make things move?
 

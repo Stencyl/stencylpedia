@@ -9,13 +9,13 @@
 Finishing Touches ] ---- [ Step 13 (Creating a Font)](https://www.stencyl.com/help/viewArticle/183) - [Step 14 (Winning the Game)]
 (https://www.stencyl.com/help/viewArticle/184) - [Step 15( Final touches)](https://www.stencyl.com/help/viewArticle/185) -----
 
-##Part 7 : Adding Background Music to A Scene
+## Part 7 : Adding Background Music to A Scene
 
 Step 42: Now we need to add background music. Click the **Events** tab from within the Level One scene, which will bring up *Stencyl Design*
 mode. We can use this to create game logic. In this case, we’re creating an Event directly rather than creating a fully modular Behavior.
 
 > [Read more on Events](https://www.stencyl.com/help/view/events-reference/), Not part of Crash Course
-
+> 
 > [Read more on Behaviors](https://www.stencyl.com/help/view/working-with-behaviors/), Not part of Crash Course
 
 **Important Note**: Generally, you want to create Behaviors because you can add them to any Actor Type or Scene that you want. Behaviors are made up of Events, so think of a Behavior as a portable Event container. We’re attaching Events directly here because we won’t be re-using anything we’re making here - the movement Event for our Ship won’t apply to the Enemy Ship Actors, for example.

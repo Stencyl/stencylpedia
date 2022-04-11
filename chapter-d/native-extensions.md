@@ -230,14 +230,14 @@ androidAlert([title, message]);
 Here, we're calling the function, but the syntax is a little different. Instead of padding in the parameters directly, we're wrapping them inside an array.
 
 > **Aside:** In some extensions, you may encounter an alternate approach where the array is pre-defined and passed in. For example, our Ads extension does this.
-
+> 
 > ```
-var args = new Array();
-args.push(adwhirlCode);
-args.push(position);
-_init_func(args);
-```
- 
+> var args = new Array();
+> args.push(adwhirlCode);
+> args.push(position);
+> _init_func(args);
+> ```
+
 
 #### Part 2 - The Java Code
 

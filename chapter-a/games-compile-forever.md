@@ -1,6 +1,6 @@
 
 > **Note:** As of Stencyl 3.2, the app catches all compile errors, so you will be informed if something went wrong. [Ask for help] on the forums.
-
+> 
 > We're leaving this article up for those using older versions of Stencyl
 
 

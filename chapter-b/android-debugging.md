@@ -91,13 +91,13 @@ Android logs can appear complex and overwhelming at first. Here are a couple thi
 
 Putting the elements discussed previously together, here's what you can do to debug your game when it crashes.
 
-####Step 1: Make the crash happen again ("repro," short for "reproduce," the problem)
+#### Step 1: Make the crash happen again ("repro," short for "reproduce," the problem)
 This will cue you in on what actually caused the problem.
 
-####Step 2: Examine the game logs and Android Monitor logs for cues.
+#### Step 2: Examine the game logs and Android Monitor logs for cues.
 See if you can recognize your behavior names, which can sometimes be printed out in a stack trace (a "blame" list that traces all the steps leading to an error. Is it something you can trace back to your game and fix?
 
-####Step 3: Tinker with your game to isolate the issue
+#### Step 3: Tinker with your game to isolate the issue
 If you can't recognize the faulty behavior, disable suspicious behaviors, based on what you know causes the crash, until the game no longer crashes.
 
 Once you've discovered the offending behavior(s), try to narrow it down to particular blocks, if possible. If you are unable to fix the issue, or if you think it's a problem on our end, report it on the forums and include the following info:

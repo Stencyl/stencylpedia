@@ -86,7 +86,7 @@ To launch it, **click the magnifying glass at the top-right of the screen** (it'
 
 Now, you'll submit the CSR you just made to Apple and receive your certificate in return.
 
-> **Note:**If you are using Google Chrome and find the iOS Provisioning Portal not to work, use Safari or Firefox instead.
+> **Note:** If you are using Google Chrome and find the iOS Provisioning Portal not to work, use Safari or Firefox instead.
 
 1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
 
@@ -150,7 +150,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 ## Step 6 (of 8): Create an App ID
 
 > As mentioned in the [primer](https://www.stencyl.com/help/view/ios-certificates-guide), an App ID is a unique identifier that's used to allow your game to communicate with Apple's services or to share data between your games. A provisioning profile uses the App ID alongside the list of authorized Device IDs to verify that your device is able to play the game.
-
+> 
 > You must create an App ID for **EACH** app you make.
 
 1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action
@@ -172,7 +172,7 @@ Now, you'll submit the CSR you just made to Apple and receive your certificate i
 ## Step 7 (of 8): Install Provisioning Profiles
 
 > Recall from the [primer](https://www.stencyl.com/help/view/ios-certificates-guide) that a provisioning profile is a document that combines an App ID and a list of Devices together to form a permission policy that tells a device whether a given application will run on a given device, and for what method of distribution it will be targeted at (App Store or Ad Hoc).
-
+> 
 > You must create a Provisioning Profile for **EACH** app you make.
 
 1) Visit the **Certificates, Identifiers & Profiles** part of the Developer Center https://developer.apple.com/account/overview.action

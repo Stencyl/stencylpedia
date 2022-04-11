@@ -21,9 +21,9 @@ How realistic? Try out the following demo.
 
  
 > **Note:** The rest of this article is a reference guide for an actor's Physics page. If you're skimming or are a first timer, read through these sections and skip the others for now. They are the most important! 
-* General Tab
-* Lightweight Actors
-* Gotchas
+> * General Tab
+> * Lightweight Actors
+> * Gotchas
  
 
 ## General Tab

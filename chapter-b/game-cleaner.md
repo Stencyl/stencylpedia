@@ -10,5 +10,5 @@ The Game Cleaner is located in the app's main menu via **Debug > Game > Cleanup 
 ## Notes
 
 > This feature **DOES NOT REDUCE THE FINAL SIZE OF YOUR EXPORTED GAMES**. 
-
+> 
 > This feature only affects the on-disk size of the game.

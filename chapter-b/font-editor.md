@@ -132,7 +132,7 @@ Regular fonts are based on TrueType fonts, the same ones you use when composing 
 4. Save. The system will churn for a bit as it generates the font's image behind the scenes.
 
  
-###Style Properties
+### Style Properties
 
 ![Style Properties](https://github.com/Stencyl/stencylpedia/blob/master/chapter-b/images/style-properties.png)
 
@@ -146,7 +146,7 @@ Name | Purpose
 **Smoothing** | Choosing no will make the font appear aliased, which is useful for pixely looking fonts. (however, if you are making pixely looking fonts, we strongly recommend using a Bitmap Font instead!)
  
 
-###Color Properties
+### Color Properties
 
 ![Font Color Properties](https://static.stencyl.com/help/images/fontColor.png)
 
@@ -156,12 +156,12 @@ Name | Purpose
 **Gradient Color** | Lets you blend the first and second colors together vertically in your font.
 **Gradient Offset** | Lets you decide how low or how high the gradient color should be, affecting the intensity of the blend.
  
-###Stroke
+### Stroke
 The stroke option allows you to highlight your font with a specific color and at a specific magnitude.
 
 ![Stroke](https://static.stencyl.com/help/images/fontPreviewStroke.png)
 
-###Shadows
+### Shadows
 Adding a shadow effect creates a copy of the drawn text with that font, offset x and y pixels away, and blurred at a specific magnitude. This is used to make the characters appear three-dimensional due to the depth between the text and the shadow. Below is an example of basic settings for a shadow effect.
 
 ![Shadows](https://static.stencyl.com/help/images/fontPreviewShadow.png)

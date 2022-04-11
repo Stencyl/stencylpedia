@@ -68,8 +68,8 @@ After importing frames, you can give the Animation a name, alter frame durations
 You can drag and drop an image into Stencyl while the Actor Editor is open. Doing this will bring up the dialog you see in Step (2) of the standard method.
 
 > **Notes**
-* Dragging in an animated GIF will bypass the dialog and immediately import the frames.
-* Dragging in an image to the Dashboard or an editor that is not the Actor Editor will have varying effects, none of which will import a new animation for the current Actor.
+> * Dragging in an animated GIF will bypass the dialog and immediately import the frames.
+> * Dragging in an image to the Dashboard or an editor that is not the Actor Editor will have varying effects, none of which will import a new animation for the current Actor.
 
 
 ## Working with Animations

@@ -66,7 +66,7 @@ To replicate a basic tilting motion for a landscape-oriented game, create a simp
 #### Why are x and y flipped? Shouldn't it be the other way around?
 As stated in the previous section, the x and y values are flipped for landscape-oriented games.
 
-####Why is it -70 rather than 70?
+#### Why is it -70 rather than 70?
 If you input 70, the game will act the opposite of what you'd expect. 
 
 > **Full Explanation:** As mentioned above, a positive y-accelerometer value indicates a left tilt. However, since this is opposite of how Stencyl works (right is positive, left is negative), that's why the negative sign has to be there.

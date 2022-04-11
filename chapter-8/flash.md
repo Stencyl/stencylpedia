@@ -46,15 +46,15 @@ This can be deterred through **site locking**, a feature that prevents the game 
 
 1. In the Settings dialog with your game open, click on **Loader** button on the left sidebar.
 
-  ![Settings Loader Button](https://static.stencyl.com/help/images/Settings-PreloaderPic-SiteLock.png)
+   ![Settings Loader Button](https://static.stencyl.com/help/images/Settings-PreloaderPic-SiteLock.png)
 
 2. Fill in the sites **that you want the game to work on**. If you have multiple, put a comma between them. Do not insert any white space.
 
    ```
-kongregate.com,newgrounds.com
-```
+   kongregate.com,newgrounds.com
+   ```
 
-  ![site lock](https://static.stencyl.com/pedia2/ch7/flash/image0.png)
+   ![site lock](https://static.stencyl.com/pedia2/ch7/flash/image0.png)
 
  
 ## Reducing File Size

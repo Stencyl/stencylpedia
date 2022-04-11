@@ -34,7 +34,7 @@
 This is the spec for blocks.xml, the file used to add custom blocks to an extension. 
 
 > **Note:** Making changes to **blocks.xml** requires you to close and reopen the game for your changes to be reflected in the block palette.
-
+> 
 > **Credit:** Thanks to ETHproductions for documenting this feature. We've based portions of this guide on his [forum guide](https://community.stencyl.com/index.php/topic,39934.0.html).
 
 

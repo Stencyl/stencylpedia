@@ -26,13 +26,13 @@ Unless you maintain multiple copies of Stencyl for testing purposes, you will ha
 
 The location of your SWF differs on each computer depending on the OS and where your workspace is installed. Below are some example locations that the directory could be installed in:
 
-####Windows
+#### Windows
 [WORKSPACE]\games-generated\YOURGAME\Export\flash\bin\SOMETHING.swf
 
-####Mac
+#### Mac
 [WORKSPACE]/games-generated/YOURGAME/Export/flash/bin/SOMETHING.swf
 
-####Linux
+#### Linux
 [WORKSPACE]/games-generated/YOURGAME/Export/flash/bin/SOMETHING.swf
 
 > **Tip:** Your WORKSPACE directory can be discovered by going to **Debug > View > View Workspace** from the top menu.

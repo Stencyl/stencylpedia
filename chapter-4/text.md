@@ -60,7 +60,7 @@ If you need to position the text more precisely or make calculations based on th
 ![](https://static.stencyl.com/pedia2/ch4/text/text-size.png)
 
  
-##HUDs (Heads Up Displays)
+## HUDs (Heads Up Displays)
 
 A HUD (heads up display) is a transparent, graphical dashboard that displays on top of everything else.
 

@@ -69,6 +69,7 @@ To build a mapping, use the **map button** block to establish that. (All Gamepad
 
 #### Frequently Asked Questions
 <br/>
+
 **What if a player wants to custom configure their controller?**<br/>
 See the next section.
 

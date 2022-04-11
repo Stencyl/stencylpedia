@@ -44,7 +44,7 @@ First, you must set up your game on the [Google Play Developer Console](https://
 Once you're in, we strongly recommend following the [official documentation](https://developers.google.com/games/services/console/enabling) to learn how to set up your game. You must complete all steps mentioned in Google's guide before continuing.
 
 > **Note 1:** When Google requests **SHA1 fingerprints** for your game (during the Client ID creation process), go to **Settings > Mobile > Certificates (Android)** and click View Fingerprints. Use the Release fingerprint for the Release Client ID and the Debug fingerprint for the Debug Client ID.
-
+> 
 > **Note 2:** Don't forget to [add test accounts](https://developers.google.com/games/services/console/testpub) to the Testing section of the Google Play Developer Console, otherwise you will not be able to sign in to your game.
 
 

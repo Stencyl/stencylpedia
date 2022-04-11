@@ -282,7 +282,7 @@ These 3 lines go at the top of every shader. Adjust the names you find according
 varying vec2 vTexCoord;
 uniform sampler2D uImage0;
 uniform float uTime;
- ```
+```
 
 
 ## Experimental: Shaders on iOS/Android
