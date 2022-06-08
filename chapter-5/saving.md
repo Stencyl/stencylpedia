@@ -73,7 +73,7 @@ This save data is not deleted until the game itself is deleted (and settings/dat
 ## Summary
 
 * Saving is based on Game Attributes.
-* Loading will overwrite all Game Attribtues.
+* Loading will overwrite all Game Attributes.
 * Saving/Loading is an instant operation.
 
 
