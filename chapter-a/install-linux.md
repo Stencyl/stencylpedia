@@ -1,9 +1,22 @@
 > **Call for Help:** Want to help us improve this article? [Propose edits](https://github.com/Stencyl/stencylpedia/edit/master/chapter-a/install-linux.md) to this article.
 <br/><br/>
 > **Note:** This article pertains only to Linux. On Mac and Windows, nothing extra needs to be done on your part to install Stencyl (besides running the Windows installer or dragging the app folder to the Mac's Applications directory).
- 
+## Installation instructions for Ubuntu 20.04 and Mint 20
 
-## Installation instructions for Ubuntu and Debian
+Download and extract Jar file. 
+Insure system is updated.
+Run the Stencyl file which can be found 
+"Download Location"/Stencyl-4.0.4-linux$ ls
+behaviors  data  ext-tools  lang  plaf  prefs  runtimes  Stencyl  sw.jar
+
+To make a launcher in Ubuntu follow the instructions shown here. 
+https://askubuntu.com/questions/1184733/gnome-desktop-item-edit-command-not-found-on-ubuntu-19-10-and-later-even-with-t
+
+With the application path as given above. 
+And icon path here
+"Download Location"Stencyl-4.0.4-linux/data/other/icon-30x30.png
+
+## Installation instructions for Ubuntu and Debian -- Older Verisons 
 
 > *Note:* Installation on other Linux distributions will be similar, but the package names may be different. If you have trouble installing Stencyl on another Linux distribution, [ask on the forums](https://community.stencyl.com/index.php/topic,30927.0.html).
 
